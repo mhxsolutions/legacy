@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "..\Source\Accounting Web\Web\", "{54D1E258-ACEA-4BEE-98F2-823A1C7A317E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Web"
+		Debug.AspNetCompiler.PhysicalPath = "..\Source\Accounting Web\Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Web"
+		Release.AspNetCompiler.PhysicalPath = "..\Source\Accounting Web\Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1825"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2CFEAB61-6A3B-4EB8-B523-560B4BEEF521}") = "Web Deployment", "..\Source\Accounting Web\Web Deployment\Web Deployment.wdproj", "{CE8D3E4B-2695-4B98-A51D-1FA7E8A96F47}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Web Setup", "..\Source\Accounting Web\Web Setup\Web Setup.vdproj", "{C4E725E5-D4A9-48B6-AE74-83F8D7F38F1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54D1E258-ACEA-4BEE-98F2-823A1C7A317E}.Debug|.NET.ActiveCfg = Debug|.NET
+		{54D1E258-ACEA-4BEE-98F2-823A1C7A317E}.Debug|.NET.Build.0 = Debug|.NET
+		{54D1E258-ACEA-4BEE-98F2-823A1C7A317E}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{54D1E258-ACEA-4BEE-98F2-823A1C7A317E}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{54D1E258-ACEA-4BEE-98F2-823A1C7A317E}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{54D1E258-ACEA-4BEE-98F2-823A1C7A317E}.Release|.NET.ActiveCfg = Debug|.NET
+		{54D1E258-ACEA-4BEE-98F2-823A1C7A317E}.Release|.NET.Build.0 = Debug|.NET
+		{54D1E258-ACEA-4BEE-98F2-823A1C7A317E}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{54D1E258-ACEA-4BEE-98F2-823A1C7A317E}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{54D1E258-ACEA-4BEE-98F2-823A1C7A317E}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{CE8D3E4B-2695-4B98-A51D-1FA7E8A96F47}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{CE8D3E4B-2695-4B98-A51D-1FA7E8A96F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8D3E4B-2695-4B98-A51D-1FA7E8A96F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8D3E4B-2695-4B98-A51D-1FA7E8A96F47}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CE8D3E4B-2695-4B98-A51D-1FA7E8A96F47}.Release|.NET.ActiveCfg = Release|Any CPU
+		{CE8D3E4B-2695-4B98-A51D-1FA7E8A96F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8D3E4B-2695-4B98-A51D-1FA7E8A96F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8D3E4B-2695-4B98-A51D-1FA7E8A96F47}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CE8D3E4B-2695-4B98-A51D-1FA7E8A96F47}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C4E725E5-D4A9-48B6-AE74-83F8D7F38F1B}.Debug|.NET.ActiveCfg = Debug
+		{C4E725E5-D4A9-48B6-AE74-83F8D7F38F1B}.Debug|Any CPU.ActiveCfg = Debug
+		{C4E725E5-D4A9-48B6-AE74-83F8D7F38F1B}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{C4E725E5-D4A9-48B6-AE74-83F8D7F38F1B}.Release|.NET.ActiveCfg = Release
+		{C4E725E5-D4A9-48B6-AE74-83F8D7F38F1B}.Release|Any CPU.ActiveCfg = Release
+		{C4E725E5-D4A9-48B6-AE74-83F8D7F38F1B}.Release|Mixed Platforms.ActiveCfg = Release
+		{C4E725E5-D4A9-48B6-AE74-83F8D7F38F1B}.Release|Mixed Platforms.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "..\Source\Aoti Web\Web\", "{F333F2D8-2EB6-4368-9DC2-99AF96121E90}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Web"
+		Debug.AspNetCompiler.PhysicalPath = "..\Source\Aoti Web\Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Web"
+		Release.AspNetCompiler.PhysicalPath = "..\Source\Aoti Web\Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4215"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2CFEAB61-6A3B-4EB8-B523-560B4BEEF521}") = "Web Deployment", "..\Source\Aoti Web\Web Deployment\Web Deployment\Web Deployment.wdproj", "{9CDED6D1-DCC9-4509-ABA4-3EE72D34714F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F333F2D8-2EB6-4368-9DC2-99AF96121E90}.Debug|.NET.ActiveCfg = Debug|.NET
+		{F333F2D8-2EB6-4368-9DC2-99AF96121E90}.Debug|.NET.Build.0 = Debug|.NET
+		{F333F2D8-2EB6-4368-9DC2-99AF96121E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F333F2D8-2EB6-4368-9DC2-99AF96121E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F333F2D8-2EB6-4368-9DC2-99AF96121E90}.Release|.NET.ActiveCfg = Debug|.NET
+		{F333F2D8-2EB6-4368-9DC2-99AF96121E90}.Release|.NET.Build.0 = Debug|.NET
+		{F333F2D8-2EB6-4368-9DC2-99AF96121E90}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{9CDED6D1-DCC9-4509-ABA4-3EE72D34714F}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{9CDED6D1-DCC9-4509-ABA4-3EE72D34714F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDED6D1-DCC9-4509-ABA4-3EE72D34714F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CDED6D1-DCC9-4509-ABA4-3EE72D34714F}.Release|.NET.ActiveCfg = Release|Any CPU
+		{9CDED6D1-DCC9-4509-ABA4-3EE72D34714F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CDED6D1-DCC9-4509-ABA4-3EE72D34714F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

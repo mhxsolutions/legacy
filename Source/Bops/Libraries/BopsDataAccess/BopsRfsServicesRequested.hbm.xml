@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsServicesRequested, BopsDataAccess" table="[RFS Services Requested]" lazy="false">
+    <id name="ServiceRequestedId" column="[Service Requested Id]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="RfsRef" column="[RFS Ref]"/>
+    <property name="ServiceOfferedRef" column="[Service Offered Ref]"/>
+    <property name="OriginRef" column="[Origin Ref]"/>
+    <property name="DestinationRef" column="[Destination Ref]"/>
+    <property name="CommodityRef" column="[Commodity Ref]"/>
+    <property name="ShipperRef" column="[Shipper Ref]"/>
+    <property name="ReceiverRef" column="[Receiver Ref]"/>
+    <property name="BillToRef" column="[Bill To Ref]"/>
+    <property name="SpecialNeeds" column="[Special Needs]"/>
+    <property name="TransloadType" column="[Transload Type]"/>
+    <property name="IndeterminateDestination" column="[Indeterminate Destination]"/>
+    <property name="ServiceGroup" column="[Service Group]"/>
+    <component name="PrivateRate">
+      <property name="CostMethodRef" column="[Cost Method Ref]"/>
+      <property name="Cost" column="[Cost]"/>
+      <property name="UnitRef" column="[Unit Ref]"/>
+      <property name="CostMatrixRef" column="[Cost Matrix Ref]"/>
+      <property name="FscFixedRate" column="[FSC Fixed Rate]"/>
+      <property name="FscMatrixRef" column="[FSC Ref]"/>
+      <property name="EstimatedThroughput" column="[Estimated Throughput]"/>
+      <property name="EstimatedRevenue" column="[Estimated Revenue]"/>
+      <property name="EstimatedMinutes" column="[Estimated Minutes]"/>
+      <property name="Mileage" column="[Mileage]"/>
+      <property name="MinimumChargedWeight" column="[Minimum Charged Weight]"/>
+      <property name="SpecialUnitText" column="[Special Unit Text]"/>
+    </component>
+    <component name="PublicRate">
+      <property name="CostMethodRef" column="[Public Cost Method Ref]"/>
+      <property name="Cost" column="[Public Cost]"/>
+      <property name="UnitRef" column="[Public Unit Ref]"/>
+      <property name="CostMatrixRef" column="[Public Cost Matrix Ref]"/>
+      <property name="FscFixedRate" column="[Public FSC Fixed Rate]"/>
+      <property name="FscMatrixRef" column="[Public FSC Ref]"/>
+      <property name="EstimatedThroughput" column="[Public Estimated Throughput]"/>
+      <property name="EstimatedRevenue" column="[Public Estimated Revenue]"/>
+      <property name="EstimatedMinutes" column="[Public Estimated Minutes]"/>
+      <property name="Mileage" column="[Public Mileage]"/>
+      <property name="MinimumChargedWeight" column="[Public Minimum Charged Weight]"/>
+      <property name="SpecialUnitText" column="[Public Special Unit Text]"/>
+    </component>
+    <property name="CalculationScope" column="[Calculation Scope]"/>
+    <property name="PrivateRateIsUnlinked" column="[Unlink Private Rate]"/>
+    <property name="PrivateBillingEventType" column="[Private Billing Event Type Ref]"/>
+    <property name="PublicBillingEventType" column="[Public Billing Event Type Ref]"/>
+  </class>
+</hibernate-mapping>

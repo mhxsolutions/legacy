@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="~/default.aspx" title="Home">
+    <siteMapNode url="~/Administration/Default.aspx" title="Administration">
+      <siteMapNode url="~/Administration/AdministerUsers.aspx" title="Administer Users" roles="Administrators" />
+    </siteMapNode>
+    <siteMapNode url="~/Power Users/Default.aspx?" title="Power Users">
+      <siteMapNode url="~/Power Users/ImpersonateClient.aspx" title="Impersonate Client" roles="Administrators,Power Users" />
+    </siteMapNode>
+    <siteMapNode url="Clients/all/ProfileList.aspx" title="Consignment Profiles" />
+    <siteMapNode url="Clients/all/BOLs.aspx?1" title="Delivery History" />
+    <siteMapNode url="Clients/all/consigned_loads.aspx" title="Delivery History - Consigned" />
+    <siteMapNode url="~/default.aspx?3" title="Inventory Reports">
+      <siteMapNode url="Clients/all/InventoryOnConsignmentOCTG.aspx" title="Consigned" />
+      <siteMapNode url="Clients/all/Inventory_Quick.aspx" title="Detail" />
+      <siteMapNode url="~/Clients/All/Inventory_On_Select_Date.aspx" title="Detail on Select Date" description="Report Stock On Hand as of selected date" />
+      <siteMapNode url="Clients/all/InventoryOCTG2.aspx" title="Summary" />
+      <siteMapNode url="Clients/all/Inventory_OCTG_Snapshot.aspx" title="Summary (delayed)" description="Summary report as delayed by 15 minutes" />
+      <siteMapNode url="Clients/all/TransitInv.aspx?1" title="On Rail" />
+      <siteMapNode url="Clients/all/TransitConsigned.aspx?1" title="On Rail Consigned" />
+    </siteMapNode>
+    <siteMapNode url="Clients/all/Rail.aspx?2" title="Rail Cars" />
+    <siteMapNode url="Clients/all/receivingOCTG.aspx" title="Receiving History" />
+    <siteMapNode url="Clients/all/product_transactions_runningtotals.aspx" title="Transaction History" />
+    <siteMapNode url="~/default.aspx?4" title="_________________________" />
+    <siteMapNode url="Clients/Customers/_Assigned/Default.aspx" title="My Custom Reports" />
+    <siteMapNode url="~/authentication/logout.aspx" title="Logout" />
+  </siteMapNode>
+</siteMap>

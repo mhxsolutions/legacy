@@ -1,0 +1,58 @@
+﻿<!-- 
+  Microsoft Visual Studio 2005 Web Deployment Project 
+  http://go.microsoft.com/fwlink/?LinkId=55111
+-->
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.60403</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CC09B0FC-A2E8-489D-890F-27E3B8661FCE}</ProjectGuid>
+    <SourceWebPhysicalPath>..\Web</SourceWebPhysicalPath>
+    <SourceWebProject>{0CA15EA9-4A42-4E88-9DE1-28F2DA507620}|D:\Budway\Source\Harbor Support\Trunk\Web</SourceWebProject>
+    <SourceWebVirtualPath>/Web</SourceWebVirtualPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\Debug</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>HarborWeb</SingleAssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\Release</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>HarborWeb</SingleAssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Bops\Trunk\Libraries\BopsDataAccess\BopsDataAccess.csproj">
+      <Project>{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}</Project>
+      <Name>BopsDataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Bops\Trunk\Libraries\NHibernateUtilities\NHibernateUtilities.csproj">
+      <Project>{BBABCE36-C99A-4F65-8263-1038D792BB01}</Project>
+      <Name>NHibernateUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\DrServices\DrServices.csproj">
+      <Project>{7BA64E8C-8FB1-4CEB-AA48-5955C9D56576}</Project>
+      <Name>DrServices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WebDeployment\v8.0\Microsoft.WebDeployment.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.WebDeployment.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="BeforeMerge">
+  </Target>
+  <Target Name="AfterMerge">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

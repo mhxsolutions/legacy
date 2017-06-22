@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Target Name="CopyBinDeployableAssemblies" AfterTargets="CopyFilesToOutputDirectory" Condition="Exists('$(MSBuildProjectDirectory)\_bin_deployableAssemblies')">
+        <ItemGroup>
+            <_binFiles Include="$(MSBuildProjectDirectory)\_bin_deployableAssemblies\**\*.*" />
+            <FilesForPackagingFromProject Include="%(_binFiles.Identity)">
+                <DestinationRelativePath>bin\%(RecursiveDir)%(Filename)%(Extension)</DestinationRelativePath>
+            </FilesForPackagingFromProject>
+        </ItemGroup>
+        <Message Text="CopyBinDeployableAssemblies Starting" />
+        <Message Text="%(_binFiles.Identity)" />
+        <Copy SourceFiles="@(_binFiles)" DestinationFolder="$(OutDir)%(RecursiveDir)" SkipUnchangedFiles="true" />
+        <Copy Condition="'$(WebProjectOutputDir)' != ''" SourceFiles="@(_binFiles)" DestinationFolder="$(WebProjectOutputDir)\bin\%(RecursiveDir)" SkipUnchangedFiles="true"/>
+    </Target>
+</Project>

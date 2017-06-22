@@ -1,0 +1,589 @@
+.dxWeb_rpHeaderTopLeftCorner_Office2010Black,
+.dxWeb_rpHeaderTopRightCorner_Office2010Black,
+.dxWeb_rpBottomLeftCorner_Office2010Black,
+.dxWeb_rpBottomRightCorner_Office2010Black,
+.dxWeb_rpTopLeftCorner_Office2010Black,
+.dxWeb_rpTopRightCorner_Office2010Black,
+.dxWeb_rpGroupBoxBottomLeftCorner_Office2010Black,
+.dxWeb_rpGroupBoxBottomRightCorner_Office2010Black,
+.dxWeb_rpGroupBoxTopLeftCorner_Office2010Black,
+.dxWeb_rpGroupBoxTopRightCorner_Office2010Black,
+.dxWeb_mHorizontalPopOut_Office2010Black,
+.dxWeb_mVerticalPopOut_Office2010Black,
+.dxWeb_mVerticalPopOutRtl_Office2010Black,
+.dxWeb_mSubMenuItem_Office2010Black,
+.dxWeb_mSubMenuItemChecked_Office2010Black,
+.dxWeb_mScrollUp_Office2010Black,
+.dxWeb_mScrollDown_Office2010Black,
+.dxWeb_tcScrollLeft_Office2010Black,
+.dxWeb_tcScrollRight_Office2010Black,
+.dxWeb_tcScrollLeftHover_Office2010Black,
+.dxWeb_tcScrollRightHover_Office2010Black,
+.dxWeb_tcScrollLeftPressed_Office2010Black,
+.dxWeb_tcScrollRightPressed_Office2010Black,
+.dxWeb_tcScrollLeftDisabled_Office2010Black,
+.dxWeb_tcScrollRightDisabled_Office2010Black,
+.dxWeb_nbCollapse_Office2010Black,
+.dxWeb_nbExpand_Office2010Black,
+.dxWeb_splVSeparator_Office2010Black,
+.dxWeb_splVSeparatorHover_Office2010Black,
+.dxWeb_splHSeparator_Office2010Black,
+.dxWeb_splHSeparatorHover_Office2010Black,
+.dxWeb_splVCollapseBackwardButton_Office2010Black,
+.dxWeb_splVCollapseBackwardButtonHover_Office2010Black,
+.dxWeb_splHCollapseBackwardButton_Office2010Black,
+.dxWeb_splHCollapseBackwardButtonHover_Office2010Black,
+.dxWeb_splVCollapseForwardButton_Office2010Black,
+.dxWeb_splVCollapseForwardButtonHover_Office2010Black,
+.dxWeb_splHCollapseForwardButton_Office2010Black,
+.dxWeb_splHCollapseForwardButtonHover_Office2010Black,
+.dxWeb_pcCloseButton_Office2010Black,
+.dxWeb_pcSizeGrip_Office2010Black,
+.dxWeb_pcSizeGripRtl_Office2010Black,
+.dxWeb_pPopOut_Office2010Black,
+.dxWeb_pPopOutDisabled_Office2010Black,
+.dxWeb_pAll_Office2010Black,
+.dxWeb_pAllDisabled_Office2010Black,
+.dxWeb_pPrev_Office2010Black,
+.dxWeb_pPrevDisabled_Office2010Black,
+.dxWeb_pNext_Office2010Black,
+.dxWeb_pNextDisabled_Office2010Black,
+.dxWeb_pLast_Office2010Black,
+.dxWeb_pLastDisabled_Office2010Black,
+.dxWeb_pFirst_Office2010Black,
+.dxWeb_pFirstDisabled_Office2010Black,
+.dxWeb_tvColBtn_Office2010Black,
+.dxWeb_tvColBtnRtl_Office2010Black,
+.dxWeb_tvExpBtn_Office2010Black,
+.dxWeb_tvExpBtnRtl_Office2010Black,
+.dxWeb_ncBackToTop_Office2010Black,
+.dxWeb_smBullet_Office2010Black,
+.dxWeb_tiBackToTop_Office2010Black,
+.dxWeb_fmFolder_Office2010Black,
+.dxWeb_fmFolderLocked_Office2010Black,
+.dxWeb_fmCreateButton_Office2010Black,
+.dxWeb_fmMoveButton_Office2010Black,
+.dxWeb_fmRenameButton_Office2010Black,
+.dxWeb_fmDeleteButton_Office2010Black,
+.dxWeb_fmRefreshButton_Office2010Black,
+.dxWeb_fmDwnlButton_Office2010Black,
+.dxWeb_fmCreateButtonDisabled_Office2010Black,
+.dxWeb_fmMoveButtonDisabled_Office2010Black,
+.dxWeb_fmRenameButtonDisabled_Office2010Black,
+.dxWeb_fmDeleteButtonDisabled_Office2010Black,
+.dxWeb_fmRefreshButtonDisabled_Office2010Black,
+.dxWeb_fmDwnlButtonDisabled_Office2010Black,
+.dxWeb_ucClearButton_Office2010Black,
+.dxWeb_ucClearButtonDisabled_Office2010Black { 
+    background-image: url('sprite.png');
+    -background-image: url('sprite.gif'); /* for IE6 */
+    background-repeat: no-repeat;
+    background-color: transparent;
+    display:block;
+}
+.dxWeb_mScrollUp_Office2010Black, .dxWeb_mScrollDown_Office2010Black
+{
+	margin: auto;
+}
+.dxWeb_ncBackToTop_Office2010Black,
+.dxWeb_pPopOut_Office2010Black,
+.dxWeb_pPopOutDisabled_Office2010Black,
+.dxWeb_pAll_Office2010Black,
+.dxWeb_pAllDisabled_Office2010Black,
+.dxWeb_pPrev_Office2010Black,
+.dxWeb_pPrevDisabled_Office2010Black,
+.dxWeb_pNext_Office2010Black,
+.dxWeb_pNextDisabled_Office2010Black,
+.dxWeb_pLast_Office2010Black,
+.dxWeb_pLastDisabled_Office2010Black,
+.dxWeb_pFirst_Office2010Black,
+.dxWeb_pFirstDisabled_Office2010Black,
+.dxWeb_smBullet_Office2010Black,
+.dxWeb_tiBackToTop_Office2010Black
+{
+	display:inline;
+}
+
+.dxWeb_edtCheckBoxChecked_Office2010Black,
+.dxWeb_edtCheckBoxUnchecked_Office2010Black,
+.dxWeb_edtCheckBoxGrayed_Office2010Black,
+.dxWeb_edtCheckBoxCheckedDisabled_Office2010Black,
+.dxWeb_edtCheckBoxUncheckedDisabled_Office2010Black,
+.dxWeb_edtCheckBoxGrayedDisabled_Office2010Black {
+	background-image: url('sprite.png');
+    -background-image: url('sprite.gif'); /* for IE6 */
+    background-repeat: no-repeat;
+    background-color: transparent;
+	width: 15px;
+    height: 15px;
+}
+
+.dxWeb_edtCheckBoxUnchecked_Office2010Black {
+	background-position: -142px -101px;
+}
+.dxWeb_edtCheckBoxChecked_Office2010Black {
+	background-position: -142px -116px; 
+}
+.dxWeb_edtCheckBoxGrayed_Office2010Black {
+	background-position: -142px -131px;
+}
+.dxWeb_edtCheckBoxUncheckedDisabled_Office2010Black {
+	background-position: -158px -101px;
+}
+.dxWeb_edtCheckBoxCheckedDisabled_Office2010Black {
+	background-position: -158px -116px;
+}
+.dxWeb_edtCheckBoxGrayedDisabled_Office2010Black {
+	background-position: -158px -131px;
+}
+
+.dxWeb_rpHeaderTopLeftCorner_Office2010Black {
+    background-position: -76px -88px;
+    width: 3px;
+    height: 3px;
+}
+
+.dxWeb_rpHeaderTopRightCorner_Office2010Black {
+    background-position: -84px -88px;
+    width: 3px;
+    height: 3px;
+}
+
+.dxWeb_rpBottomLeftCorner_Office2010Black {
+    background-position: -57px -88px;
+    width: 3px;
+    height: 3px;
+}
+
+.dxWeb_rpBottomRightCorner_Office2010Black {
+    background-position: -65px -88px;
+    width: 3px;
+    height: 3px;
+}
+
+.dxWeb_rpTopLeftCorner_Office2010Black {
+    background-position: -38px -88px;
+    width: 3px;
+    height: 3px;
+}
+
+.dxWeb_rpTopRightCorner_Office2010Black {
+    background-position: -46px -88px;
+    width: 3px;
+    height: 3px;
+}
+
+.dxWeb_rpGroupBoxBottomLeftCorner_Office2010Black {
+    background-position: -19px -88px;
+    width: 3px;
+    height: 3px;
+}
+
+.dxWeb_rpGroupBoxBottomRightCorner_Office2010Black {
+    background-position: -27px -88px;
+    width: 3px;
+    height: 3px;
+}
+
+.dxWeb_rpGroupBoxTopLeftCorner_Office2010Black {
+    background-position: 0px -88px;
+    width: 3px;
+    height: 3px;
+}
+
+.dxWeb_rpGroupBoxTopRightCorner_Office2010Black {
+    background-position: -8px -88px;
+    width: 3px;
+    height: 3px;
+}
+
+.dxWeb_mHorizontalPopOut_Office2010Black {
+    background-position: -98px -51px;
+    width: 7px;
+    height: 4px;
+}
+
+.dxWeb_mVerticalPopOut_Office2010Black {
+    background-position: -107px -51px;
+    width: 4px;
+    height: 7px;
+}
+
+.dxWeb_mVerticalPopOutRtl_Office2010Black {
+    background-position: -112px -51px;
+    width: 4px;
+    height: 7px;
+}
+
+.dxWeb_mSubMenuItem_Office2010Black {
+    background-position: -42px -51px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxWeb_mSubMenuItemChecked_Office2010Black {
+    background-position: -56px -51px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxWeb_mScrollUp_Office2010Black {
+    background-position: -118px -51px;
+    width: 7px;
+    height: 4px;
+}
+
+.dxWeb_mScrollDown_Office2010Black {
+    background-position: -118px -56px;
+    width: 7px;
+    height: 4px;
+}
+
+.dxWeb_tcScrollLeft_Office2010Black {
+	background-position: -143px 0px;
+    width: 21px;
+    height: 21px;
+}
+
+.dxWeb_tcScrollRight_Office2010Black {
+	background-position: -166px 0px;
+    width: 21px;
+    height: 21px;
+}
+
+.dxWeb_tcScrollLeftHover_Office2010Black {
+	background-position: -143px -23px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollRightHover_Office2010Black {
+	background-position: -166px -23px;
+    width: 21px;
+    height: 21px;
+}
+
+.dxWeb_tcScrollLeftPressed_Office2010Black {
+	background-position: -143px -46px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollRightPressed_Office2010Black {
+	background-position: -166px -46px;
+    width: 21px;
+    height: 21px;
+}
+
+.dxWeb_tcScrollLeftDisabled_Office2010Black {
+	background-position: -143px -69px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollRightDisabled_Office2010Black  {
+	background-position: -166px -69px;
+    width: 21px;
+    height: 21px;
+}
+
+.dxWeb_nbCollapse_Office2010Black {
+    background-position: -127px -50px;
+    width: 13px;
+    height: 15px;
+}
+
+.dxWeb_nbExpand_Office2010Black {
+    background-position: -127px -66px;
+    width: 13px;
+    height: 15px;
+}
+
+.dxWeb_splVSeparator_Office2010Black {
+    background-position: -83px -64px;
+    width: 6px;
+    height: 22px;
+}
+
+.dxWeb_splVSeparatorHover_Office2010Black {
+    background-position: -90px -64px;
+    width: 6px;
+    height: 22px;
+}
+
+.dxWeb_splHSeparator_Office2010Black {
+    background-position: -51px -73px;
+    width: 23px;
+    height: 6px;
+}
+
+.dxWeb_splHSeparatorHover_Office2010Black {
+    background-position: -51px -80px;
+    width: 23px;
+    height: 6px;
+}
+
+.dxWeb_splVCollapseBackwardButton_Office2010Black {
+    background-position: -21px -73px;
+    width: 6px;
+    height: 7px;
+}
+
+.dxWeb_splVCollapseBackwardButtonHover_Office2010Black {
+    background-position: -28px -73px;
+    width: 6px;
+    height: 7px;
+}
+
+.dxWeb_splHCollapseBackwardButton_Office2010Black {
+    background-position: 0px -73px;
+    width: 7px;
+    height: 6px;
+}
+
+.dxWeb_splHCollapseBackwardButtonHover_Office2010Black {
+    background-position: 0px -80px;
+    width: 7px;
+    height: 6px;
+}
+
+.dxWeb_splVCollapseForwardButton_Office2010Black {
+    background-position: -36px -73px;
+    width: 6px;
+    height: 7px;
+}
+
+.dxWeb_splVCollapseForwardButtonHover_Office2010Black {
+    background-position: -43px -73px;
+    width: 6px;
+    height: 7px;
+}
+
+.dxWeb_splHCollapseForwardButton_Office2010Black {
+    background-position: -9px -73px;
+    width: 7px;
+    height: 6px;
+}
+
+.dxWeb_splHCollapseForwardButtonHover_Office2010Black {
+    background-position: -9px -80px;
+    width: 7px;
+    height: 6px;
+}
+
+.dxWeb_pcCloseButton_Office2010Black {
+    background-position: -84px -93px;
+    width: 15px;
+    height: 15px;
+}
+
+.dxWeb_pcSizeGrip_Office2010Black {
+    background-position: -13px -51px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxWeb_pcSizeGripRtl_Office2010Black {
+    background-position: -27px -51px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxWeb_pPopOut_Office2010Black {
+    background-position: -74px -51px;
+    width: 10px;
+    height: 12px;
+}
+
+.dxWeb_pPopOutDisabled_Office2010Black {
+    background-position: -86px -51px;
+    width: 10px;
+    height: 12px;
+}
+
+.dxWeb_pAll_Office2010Black {
+    background-position: 0px 0px;
+    width: 40px;
+    height: 23px;
+}
+
+.dxWeb_pAllDisabled_Office2010Black {
+    background-position: 0px -25px;
+    width: 40px;
+    height: 23px;
+}
+
+.dxWeb_pPrev_Office2010Black {
+    background-position: -92px 0px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxWeb_pPrevDisabled_Office2010Black {
+    background-position: -92px -25px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxWeb_pNext_Office2010Black {
+    background-position: -117px 0px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxWeb_pNextDisabled_Office2010Black {
+    background-position: -117px -25px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxWeb_pLast_Office2010Black {
+    background-position: -67px 0px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxWeb_pLastDisabled_Office2010Black {
+    background-position: -67px -25px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxWeb_pFirst_Office2010Black {
+    background-position: -42px 0px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxWeb_pFirstDisabled_Office2010Black {
+    background-position: -42px -25px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxWeb_tvColBtn_Office2010Black {
+	background-position: -19px -93px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvColBtnRtl_Office2010Black {
+	background-position: -57px -93px;
+    width: 17px;
+    height: 17px;
+}
+
+.dxWeb_tvExpBtn_Office2010Black {
+    background-position: 0px -93px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvExpBtnRtl_Office2010Black {
+	background-position: -38px -93px;
+    width: 17px;
+    height: 17px;
+}
+
+.dxWeb_ncBackToTop_Office2010Black {
+    background-position: -99px -64px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_smBullet_Office2010Black {
+    background-position: -125px -85px;
+    width: 6px;
+    height: 6px;
+}
+.dxWeb_tiBackToTop_Office2010Black {
+    background-position: -99px -64px;
+    width: 15px;
+    height: 15px;
+}
+
+.dxWeb_fmFolder_Office2010Black {
+	background-position: 0px -111px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxWeb_fmFolderLocked_Office2010Black {
+	background-position: -20px -111px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxWeb_fmCreateButton_Office2010Black {
+	background-position: -40px -111px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxWeb_fmRenameButton_Office2010Black {
+	background-position: -60px -111px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxWeb_fmMoveButton_Office2010Black {
+	background-position: -80px -111px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxWeb_fmDeleteButton_Office2010Black {
+	background-position: -100px -111px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxWeb_fmRefreshButton_Office2010Black {
+	background-position: -120px -111px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButton_Office2010Black {
+	background-position: 0px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButtonDisabled_Office2010Black {
+	background-position: -20px -135px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButtonDisabled_Office2010Black {
+	background-position: -40px -135px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxWeb_fmRenameButtonDisabled_Office2010Black {
+	background-position: -60px -135px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxWeb_fmMoveButtonDisabled_Office2010Black {
+	background-position: -80px -135px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxWeb_fmDeleteButtonDisabled_Office2010Black {
+	background-position: -100px -135px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxWeb_fmRefreshButtonDisabled_Office2010Black {
+	background-position: -120px -135px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxWeb_ucClearButton_Office2010Black {
+    background-position: -100px -111px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_ucClearButtonDisabled_Office2010Black {
+    background-position: -100px -135px;
+    width: 16px;
+    height: 16px;
+}

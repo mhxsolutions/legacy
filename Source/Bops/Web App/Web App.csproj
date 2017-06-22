@@ -1,0 +1,1515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A3B50FB9-79BF-476C-AE2D-2FA97D09A8AE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web_App</RootNamespace>
+    <AssemblyName>BopsWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\Solutions\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.725, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_bin_deployableAssemblies\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.SpellChecker.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.ASPxGauges.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.ASPxScheduler.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.ASPxTreeList.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v14.2.Web, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v14.2.Presets, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v14.2.Web, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DundasWebChart">
+      <HintPath>_bin_deployableAssemblies\DundasWebChart.dll</HintPath>
+    </Reference>
+    <Reference Include="DundasWebGauge">
+      <HintPath>_bin_deployableAssemblies\DundasWebGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.CalcEngine, Version=5.0.3522.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_bin_deployableAssemblies\FarPoint.CalcEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.Excel, Version=5.0.3522.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_bin_deployableAssemblies\FarPoint.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.Localization, Version=8.20.20143.0, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FarPoint.PDF, Version=5.0.3522.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_bin_deployableAssemblies\FarPoint.PDF.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.Web.Chart, Version=5.0.3524.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_bin_deployableAssemblies\FarPoint.Web.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.Web.Spread, Version=5.0.3524.2008, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_bin_deployableAssemblies\FarPoint.Web.Spread.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControl">
+      <HintPath>_bin_deployableAssemblies\FlashControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Solutions\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Solutions\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Solutions\packages\NHibernate.4.0.4.4000\lib\net40\NHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administration\BisEnableProductTypes.aspx" />
+    <Content Include="Administration\Default.aspx" />
+    <Content Include="Administration\DestinationSetAssignments.aspx" />
+    <Content Include="Administration\DestinationSets.aspx" />
+    <Content Include="Administration\FscEditFloatIndexedDetails.aspx" />
+    <Content Include="Administration\FscEditFuelPriceHistory.aspx" />
+    <Content Include="Administration\FscEditMatrices.aspx" />
+    <Content Include="Administration\FscEditOdIndexedDetails.aspx" />
+    <Content Include="Administration\FscForwardToMatrixDetailsEdit.aspx" />
+    <Content Include="Administration\GeocodeDestinations.aspx" />
+    <Content Include="Administration\RfsCalculateEstimatedServiceThroughput.aspx" />
+    <Content Include="Administration\UserDetail.aspx" />
+    <Content Include="Administration\Users.aspx" />
+    <Content Include="Agilis\AgilisDailyPlanDetails.aspx" />
+    <Content Include="Agilis\AgilisEquipmentTracking.aspx" />
+    <Content Include="Agilis\AgilisNightShuttleDrivers.aspx" />
+    <Content Include="Agilis\Default.aspx" />
+    <Content Include="App_Themes\Corporate\Corporate.css" />
+    <Content Include="Auditing\AuditForwardToEditRfsService.aspx" />
+    <Content Include="Auditing\AuditRfsCalculationResults.aspx" />
+    <Content Include="Auditing\AuditRfsCalculationResultsForwardToResolution.aspx" />
+    <Content Include="Auditing\AuditRfsCalculationResultsNoResolution.aspx" />
+    <Content Include="Auditing\AuditRfsCalculationResultsResolveNoService.aspx" />
+    <Content Include="Auditing\AuditRfsCalculationResultsResolveServiceCalculationError.aspx" />
+    <Content Include="Auditing\AuditRfsWarehouseCalculationResults.aspx" />
+    <Content Include="Auditing\AuditRfsWarehouseCalculationResultsResolveNoService.aspx" />
+    <Content Include="Auditing\Default.aspx" />
+    <Content Include="Authentication\ChangePassword.aspx" />
+    <Content Include="Authentication\CreateAccount.aspx" />
+    <Content Include="Authentication\Login.aspx" />
+    <Content Include="Authentication\PasswordReminder.aspx" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\button.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\checkboxeditor.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\checkboxrender.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\cmdbar.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\fpspread.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\fpspread.js" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\fpspreadie8.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\fpspreadie9.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\FpSpreadJsIntellisense.js" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\fpspreadmac.js" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\listboxeditor.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\listboxrender.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\multicolumncombobox.css" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\multicolumncombobox.js" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\percenteditor.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\percentrender.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\radiobtnlisteditor.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\spreadchart.js" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\HTC\tagcloud.htc" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Add-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Add-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Add.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\bshadow.png" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Cancel-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Cancel-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Cancel.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\cbbg.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\cbm.png" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\chbg.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\checked.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\chm.png" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Clear-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Clear-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Clear.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Copy-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Copy-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Copy.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\cshadow.png" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Cut-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Cut.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Delete-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Delete-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Delete.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\down.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\downarrow.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Edit-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Edit-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Edit.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\First-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\First-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\First.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\gline.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\gradient1_ch.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\gradient1_ch_s.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Insert-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Insert-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Insert.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Last-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Last-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Last.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\lshadow.png" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\minus.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Next-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Next-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Next.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Add-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Add-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Add.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Cancel-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Cancel-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Cancel.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Clear-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Clear-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Clear.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Copy-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Copy-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Copy.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Delete-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Delete-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Delete.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Edit-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Edit-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Edit.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007First-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007First-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007First.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Insert-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Insert-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Insert.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Last-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Last-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Last.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Next-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Next-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Next.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Paste-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Paste-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Paste.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Prev-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Prev-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Prev.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Print-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Print-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Print.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007PrintPDF-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007PrintPDF-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007PrintPDF.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Update-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Update-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Office2007Update.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Paste-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Paste-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Paste.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\pin.GIF" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\plus.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Prev-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Prev-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Prev.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Print-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Print-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Print.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\PrintPDF-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\PrintPDF-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\PrintPDF.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\resize.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Save-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Save.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\sbar.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\small_square.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\spinner.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\unchecked.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\up.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\uparrow.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Update-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Update-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\Update.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaAdd-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaAdd-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaAdd.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaCancel-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaCancel-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaCancel.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaClear-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaClear-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaClear.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaCopy-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaCopy-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaCopy.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaDelete-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaDelete-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaDelete.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaEdit-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaEdit-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaEdit.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaFirst-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaFirst-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaFirst.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaInsert-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaInsert-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaInsert.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaLast-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaLast-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaLast.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaNext-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaNext-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaNext.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPaste-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPaste-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPaste.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPrev-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPrev-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPrev.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPrint-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPrint-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPrint.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPrintPDF-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPrintPDF-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaPrintPDF.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaUpdate-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaUpdate-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\VistaUpdate.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpAdd-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpAdd-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpAdd.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpCancel-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpCancel-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpCancel.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpClear-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpClear-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpClear.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpCopy-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpCopy-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpCopy.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpDelete-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpDelete-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpDelete.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpEdit-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpEdit-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpEdit.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpFirst-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpFirst-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpFirst.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpInsert-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpInsert-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpInsert.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpLast-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpLast-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpLast.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpNext-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpNext-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpNext.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPaste-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPaste-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPaste.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPrev-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPrev-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPrev.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPrint-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPrint-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPrint.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPrintPDF-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPrintPDF-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpPrintPDF.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpUpdate-d.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpUpdate-h.gif" />
+    <Content Include="Controls\fp_client\fpspread\5_0_3524_2008\img\XpUpdate.gif" />
+    <Content Include="Controls\PopupCalendarControl.ascx" />
+    <Content Include="Controls\PopupCalendarControl.png" />
+    <Content Include="Dashboard\DashboardBudwayDwellTime.aspx" />
+    <Content Include="Dashboard\DashboardKpiLoadCountAndRevenue.aspx" />
+    <Content Include="Dashboard\DashboardKpiThroughputDwellAndRevenue.aspx" />
+    <Content Include="Dashboard\Default.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\arrow_bullet_1.gif" />
+    <Content Include="Images\Bops Web Logo.gif" />
+    <Content Include="Images\Budway Logo.gif" />
+    <Content Include="Images\CalendarIcon16x16.png" />
+    <Content Include="Images\collapse_blue.jpg" />
+    <Content Include="Images\expand_blue.jpg" />
+    <Content Include="Images\Icon - Check Mark.gif" />
+    <Content Include="Images\Icon - Cross Mark.gif" />
+    <Content Include="Images\Icon - Question Mark.gif" />
+    <Content Include="Images\PushPin - Destination.gif" />
+    <Content Include="Images\PushPin - Truck.gif" />
+    <Content Include="Inventory\BisAdjustStorageAssetQuantity.aspx" />
+    <Content Include="Inventory\BisContainerProjects.aspx" />
+    <Content Include="Inventory\BisContainerProjectTransactions.aspx" />
+    <Content Include="Inventory\BisDeactivateStorageAsset.aspx" />
+    <Content Include="Inventory\BisHelpRailcarToContainerWorkflow.aspx" />
+    <Content Include="Inventory\BisProjSummary.aspx" />
+    <Content Include="Inventory\BisStorageAssets.aspx" />
+    <Content Include="Inventory\BisStorageAssetsNEW.aspx" />
+    <Content Include="Inventory\BisStorageCreateAssetFromRailcar.aspx" />
+    <Content Include="Inventory\BisStorageCreateAssetFromRailcarUkey.aspx" />
+    <Content Include="Inventory\BisStorageCreateSiloAsset.aspx" />
+    <Content Include="Inventory\BisStorageTransfer.aspx" />
+    <Content Include="Inventory\BisTransactionHistory.aspx" />
+    <Content Include="Inventory\BisTransactionHistoryDX.aspx" />
+    <Content Include="Inventory\BisTransactionHistoryNEW.aspx" />
+    <Content Include="Inventory\BisWithdrawToContainer.aspx" />
+    <Content Include="Inventory\BisWithdrawToLoad.aspx" />
+    <Content Include="Inventory\BisContainerProjectsNEW.aspx" />
+    <Content Include="Inventory\Default.aspx" />
+    <Content Include="Monitoring\Default.aspx" />
+    <Content Include="Monitoring\DriversFuelCards.aspx" />
+    <Content Include="Monitoring\DriversFuelUsageDetails.aspx" />
+    <Content Include="Monitoring\DriversFuelUsageSummary.aspx" />
+    <Content Include="Monitoring\DriversNearHarbor.aspx" />
+    <Content Include="Monitoring\DriversNearHarbor_Mobile320x320.aspx" />
+    <Content Include="Monitoring\DriversNearSite.aspx" />
+    <Content Include="Monitoring\GeocodedClients.aspx" />
+    <Content Include="Monitoring\ICdocs.aspx" />
+    <Content Include="Monitoring\ShowLocation.aspx" />
+    <Content Include="Planning\ContainerConfirmProjectClose.aspx" />
+    <Content Include="Planning\ContainerCreateProject.aspx" />
+    <Content Include="Planning\ContainerDemurrageClock.aspx" />
+    <Content Include="Planning\ContainerMoveEntry.aspx" />
+    <Content Include="Planning\ContainerMoveEntryFailureNoProjects.aspx" />
+    <Content Include="Planning\ContainerMoveHistory.aspx" />
+    <Content Include="Planning\ContainerPlanner.aspx" />
+    <Content Include="Planning\ContainerProjectAssignRailcar.aspx" />
+    <Content Include="Planning\ContainerProjectAssignRailcarsFromProject.aspx" />
+    <Content Include="Planning\ContainerProjectRailcars.aspx" />
+    <Content Include="Planning\ContainerProjectRailcarsFromProject.aspx" />
+    <Content Include="Planning\ContainerProjectsSummary.aspx" />
+    <Content Include="Planning\Default.aspx" />
+    <Content Include="Planning\DriverPlanner.aspx" />
+    <Content Include="Planning\DriverPlanner2.aspx" />
+    <Content Include="Planning\DriverPlannerCreate.aspx" />
+    <Content Include="Planning\DriverPlannerCreateStep.aspx" />
+    <Content Include="Planning\DriverPlannerDeleteLastStep.aspx" />
+    <Content Include="Planning\DriverPlannerDeleteStep.aspx" />
+    <Content Include="Planning\DriverPlannerEdit.aspx" />
+    <Content Include="Planning\DriverPlannerEdit2.aspx" />
+    <Content Include="Planning\DriverPlannerEditStep.aspx" />
+    <Content Include="Planning\DriverPlannerPlanStep.aspx" />
+    <Content Include="Planning\HarborProjectPlanner.aspx" />
+    <Content Include="Planning\HarborProjectPlannerConfigureProject.aspx" />
+    <Content Include="Planning\HarborProjectPlannerFilter.aspx" />
+    <Content Include="Planning\HarborProjectPlannerNextPlannerStatus.aspx" />
+    <Content Include="Planning\HarborProjectPlanner_Mobile320x320.aspx" />
+    <Content Include="Planning\Images\Planning Status 0.gif" />
+    <Content Include="Planning\Images\Planning Status 1.gif" />
+    <Content Include="Planning\Images\Planning Status 2.gif" />
+    <Content Include="RFS\Default.aspx" />
+    <Content Include="RFS\Images\Add.gif" />
+    <Content Include="RFS\Images\Cancel.gif" />
+    <Content Include="RFS\Images\Delete.gif" />
+    <Content Include="RFS\Images\Insert.gif" />
+    <Content Include="RFS\Images\Update.gif" />
+    <Content Include="RFS\RfsStorageBillingDetails.aspx" />
+    <Content Include="RFS\RfsStorageBillingEditAssignment.aspx" />
+    <Content Include="RFS\RfsStorageBillingEditRate.aspx" />
+    <Content Include="RFS\RfsStorageBillingEvents.aspx" />
+    <Content Include="RFS\RfsStorageBillingRateAssignments.aspx" />
+    <Content Include="RFS\RfsStorageBillingRates.aspx" />
+    <Content Include="RFS\RfsStorageBillings.aspx" />
+    <Content Include="RFS\RfsValidateSingleRfs.aspx" />
+    <Content Include="RFS\RfsWizard.aspx" />
+    <Content Include="RFS\RfsWizardCreate.aspx" />
+    <Content Include="RFS\RfsWizardHelp.aspx" />
+    <Content Include="RFS\RfsWizardMain.aspx" />
+    <Content Include="RFS\RfsWizardRequestAssessorial.aspx" />
+    <Content Include="RFS\RfsWizardRequestTransporation.aspx" />
+    <Content Include="RFS\RfsWizardRequestWarehouse.aspx" />
+    <Content Include="RFS\RfsWizardRouteServiceRequest.aspx" />
+    <Content Include="RFS\RfsWizardSelect.aspx" />
+    <Content Include="RFS\RfsWizardSelectRfsAndForward.aspx" />
+    <Content Include="RFS\RfsWizardServices.aspx" />
+    <Content Include="RFS\RfsWizardStakeholderError.aspx" />
+    <Content Include="RFS\RfsWizardStakeholderInstructions.aspx" />
+    <Content Include="RFS\RfsWizardStakeholderReferences.aspx" />
+    <Content Include="RFS\RfsWizardStakeholders.aspx" />
+    <Content Include="RFS\RfsWizardTools.aspx" />
+    <Content Include="BopsWeb.master" />
+    <Content Include="_bin_deployableAssemblies\AjaxControlToolkit.dll" />
+    <Content Include="_bin_deployableAssemblies\DundasWebChart.dll" />
+    <Content Include="_bin_deployableAssemblies\DundasWebChart.xml" />
+    <Content Include="_bin_deployableAssemblies\DundasWebGauge.dll" />
+    <Content Include="_bin_deployableAssemblies\DundasWebGauge.xml" />
+    <Content Include="_bin_deployableAssemblies\FarPoint.CalcEngine.dll" />
+    <Content Include="_bin_deployableAssemblies\FarPoint.CalcEngine.xml" />
+    <Content Include="_bin_deployableAssemblies\FarPoint.Excel.dll" />
+    <Content Include="_bin_deployableAssemblies\FarPoint.Excel.xml" />
+    <Content Include="_bin_deployableAssemblies\FarPoint.PDF.dll" />
+    <Content Include="_bin_deployableAssemblies\FarPoint.PDF.xml" />
+    <Content Include="_bin_deployableAssemblies\FarPoint.Web.Chart.dll" />
+    <Content Include="_bin_deployableAssemblies\FarPoint.Web.Spread.dll" />
+    <Content Include="_bin_deployableAssemblies\FarPoint.Web.Spread.xml" />
+    <Content Include="_bin_deployableAssemblies\FlashControl.dll" />
+    <None Include="Properties\PublishProfiles\Rackspace.pubxml" />
+    <None Include="Properties\PublishProfiles\SCM Cloud.pubxml" />
+    <None Include="Properties\PublishProfiles\SQL4 web deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\SQL4.pubxml" />
+    <None Include="Service References\GeoCode_Service\configuration91.svcinfo" />
+    <None Include="Service References\GeoCode_Service\configuration.svcinfo" />
+    <None Include="Service References\GeoCode_Service\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Service References\GeoCode_Service\Web_App.GeoCode_Service.GeocoderAddressResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GeoCode_Service\Web_App.GeoCode_Service.GeocoderIntersectionResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GeoCode_Service\Web_App.GeoCode_Service.GeocoderResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <Content Include="_bin_deployableAssemblies\Dundas.Charting.WebControl.Chart.lic" />
+    <Content Include="_bin_deployableAssemblies\Dundas.Gauges.WebControl.GaugeContainer.lic" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administration\BisEnableProductTypes.aspx.cs">
+      <DependentUpon>BisEnableProductTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\BisEnableProductTypes.aspx.designer.cs">
+      <DependentUpon>BisEnableProductTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\DestinationSetAssignments.aspx.cs">
+      <DependentUpon>DestinationSetAssignments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\DestinationSetAssignments.aspx.designer.cs">
+      <DependentUpon>DestinationSetAssignments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\DestinationSets.aspx.cs">
+      <DependentUpon>DestinationSets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\DestinationSets.aspx.designer.cs">
+      <DependentUpon>DestinationSets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\FscEditFloatIndexedDetails.aspx.cs">
+      <DependentUpon>FscEditFloatIndexedDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\FscEditFloatIndexedDetails.aspx.designer.cs">
+      <DependentUpon>FscEditFloatIndexedDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\FscEditFuelPriceHistory.aspx.cs">
+      <DependentUpon>FscEditFuelPriceHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\FscEditFuelPriceHistory.aspx.designer.cs">
+      <DependentUpon>FscEditFuelPriceHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\FscEditMatrices.aspx.cs">
+      <DependentUpon>FscEditMatrices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\FscEditMatrices.aspx.designer.cs">
+      <DependentUpon>FscEditMatrices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\FscEditOdIndexedDetails.aspx.cs">
+      <DependentUpon>FscEditOdIndexedDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\FscEditOdIndexedDetails.aspx.designer.cs">
+      <DependentUpon>FscEditOdIndexedDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\FscForwardToMatrixDetailsEdit.aspx.cs">
+      <DependentUpon>FscForwardToMatrixDetailsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\FscForwardToMatrixDetailsEdit.aspx.designer.cs">
+      <DependentUpon>FscForwardToMatrixDetailsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\GeocodeDestinations.aspx.cs">
+      <DependentUpon>GeocodeDestinations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\GeocodeDestinations.aspx.designer.cs">
+      <DependentUpon>GeocodeDestinations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\RfsCalculateEstimatedServiceThroughput.aspx.cs">
+      <DependentUpon>RfsCalculateEstimatedServiceThroughput.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\RfsCalculateEstimatedServiceThroughput.aspx.designer.cs">
+      <DependentUpon>RfsCalculateEstimatedServiceThroughput.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\UserDetail.aspx.cs">
+      <DependentUpon>UserDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\UserDetail.aspx.designer.cs">
+      <DependentUpon>UserDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agilis\AgilisDailyPlanDetails.aspx.cs">
+      <DependentUpon>AgilisDailyPlanDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agilis\AgilisDailyPlanDetails.aspx.designer.cs">
+      <DependentUpon>AgilisDailyPlanDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agilis\AgilisEquipmentTracking.aspx.cs">
+      <DependentUpon>AgilisEquipmentTracking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agilis\AgilisEquipmentTracking.aspx.designer.cs">
+      <DependentUpon>AgilisEquipmentTracking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agilis\AgilisNightShuttleDrivers.aspx.cs">
+      <DependentUpon>AgilisNightShuttleDrivers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agilis\AgilisNightShuttleDrivers.aspx.designer.cs">
+      <DependentUpon>AgilisNightShuttleDrivers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agilis\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agilis\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\AuditForwardToEditRfsService.aspx.cs">
+      <DependentUpon>AuditForwardToEditRfsService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auditing\AuditForwardToEditRfsService.aspx.designer.cs">
+      <DependentUpon>AuditForwardToEditRfsService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsCalculationResults.aspx.cs">
+      <DependentUpon>AuditRfsCalculationResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsCalculationResults.aspx.designer.cs">
+      <DependentUpon>AuditRfsCalculationResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsCalculationResultsForwardToResolution.aspx.cs">
+      <DependentUpon>AuditRfsCalculationResultsForwardToResolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsCalculationResultsForwardToResolution.aspx.designer.cs">
+      <DependentUpon>AuditRfsCalculationResultsForwardToResolution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsCalculationResultsNoResolution.aspx.cs">
+      <DependentUpon>AuditRfsCalculationResultsNoResolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsCalculationResultsNoResolution.aspx.designer.cs">
+      <DependentUpon>AuditRfsCalculationResultsNoResolution.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsCalculationResultsResolveNoService.aspx.cs">
+      <DependentUpon>AuditRfsCalculationResultsResolveNoService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsCalculationResultsResolveNoService.aspx.designer.cs">
+      <DependentUpon>AuditRfsCalculationResultsResolveNoService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsCalculationResultsResolveServiceCalculationError.aspx.cs">
+      <DependentUpon>AuditRfsCalculationResultsResolveServiceCalculationError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsCalculationResultsResolveServiceCalculationError.aspx.designer.cs">
+      <DependentUpon>AuditRfsCalculationResultsResolveServiceCalculationError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsWarehouseCalculationResults.aspx.cs">
+      <DependentUpon>AuditRfsWarehouseCalculationResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsWarehouseCalculationResults.aspx.designer.cs">
+      <DependentUpon>AuditRfsWarehouseCalculationResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsWarehouseCalculationResultsResolveNoService.aspx.cs">
+      <DependentUpon>AuditRfsWarehouseCalculationResultsResolveNoService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auditing\AuditRfsWarehouseCalculationResultsResolveNoService.aspx.designer.cs">
+      <DependentUpon>AuditRfsWarehouseCalculationResultsResolveNoService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Auditing\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auditing\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\CreateAccount.aspx.cs">
+      <DependentUpon>CreateAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\CreateAccount.aspx.designer.cs">
+      <DependentUpon>CreateAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\PasswordReminder.aspx.cs">
+      <DependentUpon>PasswordReminder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\PasswordReminder.aspx.designer.cs">
+      <DependentUpon>PasswordReminder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BopsWeb.master.cs">
+      <DependentUpon>BopsWeb.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BopsWeb.master.designer.cs">
+      <DependentUpon>BopsWeb.master</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PopupCalendarControl.ascx.cs">
+      <DependentUpon>PopupCalendarControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\PopupCalendarControl.ascx.designer.cs">
+      <DependentUpon>PopupCalendarControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\DashboardBudwayDwellTime.aspx.cs">
+      <DependentUpon>DashboardBudwayDwellTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\DashboardBudwayDwellTime.aspx.designer.cs">
+      <DependentUpon>DashboardBudwayDwellTime.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\DashboardKpiLoadCountAndRevenue.aspx.cs">
+      <DependentUpon>DashboardKpiLoadCountAndRevenue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\DashboardKpiLoadCountAndRevenue.aspx.designer.cs">
+      <DependentUpon>DashboardKpiLoadCountAndRevenue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\DashboardKpiThroughputDwellAndRevenue.aspx.cs">
+      <DependentUpon>DashboardKpiThroughputDwellAndRevenue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\DashboardKpiThroughputDwellAndRevenue.aspx.designer.cs">
+      <DependentUpon>DashboardKpiThroughputDwellAndRevenue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisAdjustStorageAssetQuantity.aspx.cs">
+      <DependentUpon>BisAdjustStorageAssetQuantity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisAdjustStorageAssetQuantity.aspx.designer.cs">
+      <DependentUpon>BisAdjustStorageAssetQuantity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisContainerProjects.aspx.cs">
+      <DependentUpon>BisContainerProjects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisContainerProjects.aspx.designer.cs">
+      <DependentUpon>BisContainerProjects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisContainerProjectTransactions.aspx.cs">
+      <DependentUpon>BisContainerProjectTransactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisContainerProjectTransactions.aspx.designer.cs">
+      <DependentUpon>BisContainerProjectTransactions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisDeactivateStorageAsset.aspx.cs">
+      <DependentUpon>BisDeactivateStorageAsset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisDeactivateStorageAsset.aspx.designer.cs">
+      <DependentUpon>BisDeactivateStorageAsset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisHelpRailcarToContainerWorkflow.aspx.cs">
+      <DependentUpon>BisHelpRailcarToContainerWorkflow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisHelpRailcarToContainerWorkflow.aspx.designer.cs">
+      <DependentUpon>BisHelpRailcarToContainerWorkflow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisProjSummary.aspx.cs">
+      <DependentUpon>BisProjSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisProjSummary.aspx.designer.cs">
+      <DependentUpon>BisProjSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisStorageAssets.aspx.cs">
+      <DependentUpon>BisStorageAssets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisStorageAssets.aspx.designer.cs">
+      <DependentUpon>BisStorageAssets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisStorageAssetsNEW.aspx.cs">
+      <DependentUpon>BisStorageAssetsNEW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisStorageAssetsNEW.aspx.designer.cs">
+      <DependentUpon>BisStorageAssetsNEW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisStorageCreateAssetFromRailcar.aspx.cs">
+      <DependentUpon>BisStorageCreateAssetFromRailcar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisStorageCreateAssetFromRailcar.aspx.designer.cs">
+      <DependentUpon>BisStorageCreateAssetFromRailcar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisStorageCreateAssetFromRailcarUkey.aspx.cs">
+      <DependentUpon>BisStorageCreateAssetFromRailcarUkey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisStorageCreateAssetFromRailcarUkey.aspx.designer.cs">
+      <DependentUpon>BisStorageCreateAssetFromRailcarUkey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisStorageCreateSiloAsset.aspx.cs">
+      <DependentUpon>BisStorageCreateSiloAsset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisStorageCreateSiloAsset.aspx.designer.cs">
+      <DependentUpon>BisStorageCreateSiloAsset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisStorageTransfer.aspx.cs">
+      <DependentUpon>BisStorageTransfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisStorageTransfer.aspx.designer.cs">
+      <DependentUpon>BisStorageTransfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisTransactionHistory.aspx.cs">
+      <DependentUpon>BisTransactionHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisTransactionHistory.aspx.designer.cs">
+      <DependentUpon>BisTransactionHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisTransactionHistoryDX.aspx.cs">
+      <DependentUpon>BisTransactionHistoryDX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisTransactionHistoryDX.aspx.designer.cs">
+      <DependentUpon>BisTransactionHistoryDX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisTransactionHistoryNEW.aspx.cs">
+      <DependentUpon>BisTransactionHistoryNEW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisTransactionHistoryNEW.aspx.designer.cs">
+      <DependentUpon>BisTransactionHistoryNEW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisWithdrawToContainer.aspx.cs">
+      <DependentUpon>BisWithdrawToContainer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisWithdrawToContainer.aspx.designer.cs">
+      <DependentUpon>BisWithdrawToContainer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisWithdrawToLoad.aspx.cs">
+      <DependentUpon>BisWithdrawToLoad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisWithdrawToLoad.aspx.designer.cs">
+      <DependentUpon>BisWithdrawToLoad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\BisContainerProjectsNEW.aspx.cs">
+      <DependentUpon>BisContainerProjectsNEW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\BisContainerProjectsNEW.aspx.designer.cs">
+      <DependentUpon>BisContainerProjectsNEW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inventory\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoring\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\DriversFuelCards.aspx.cs">
+      <DependentUpon>DriversFuelCards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoring\DriversFuelCards.aspx.designer.cs">
+      <DependentUpon>DriversFuelCards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\DriversFuelUsageDetails.aspx.cs">
+      <DependentUpon>DriversFuelUsageDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoring\DriversFuelUsageDetails.aspx.designer.cs">
+      <DependentUpon>DriversFuelUsageDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\DriversFuelUsageSummary.aspx.cs">
+      <DependentUpon>DriversFuelUsageSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoring\DriversFuelUsageSummary.aspx.designer.cs">
+      <DependentUpon>DriversFuelUsageSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\DriversNearHarbor.aspx.cs">
+      <DependentUpon>DriversNearHarbor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoring\DriversNearHarbor.aspx.designer.cs">
+      <DependentUpon>DriversNearHarbor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\DriversNearHarbor_Mobile320x320.aspx.cs">
+      <DependentUpon>DriversNearHarbor_Mobile320x320.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoring\DriversNearHarbor_Mobile320x320.aspx.designer.cs">
+      <DependentUpon>DriversNearHarbor_Mobile320x320.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\DriversNearSite.aspx.cs">
+      <DependentUpon>DriversNearSite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoring\DriversNearSite.aspx.designer.cs">
+      <DependentUpon>DriversNearSite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\GeocodedClients.aspx.cs">
+      <DependentUpon>GeocodedClients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoring\GeocodedClients.aspx.designer.cs">
+      <DependentUpon>GeocodedClients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\ICdocs.aspx.cs">
+      <DependentUpon>ICdocs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoring\ICdocs.aspx.designer.cs">
+      <DependentUpon>ICdocs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring\ShowLocation.aspx.cs">
+      <DependentUpon>ShowLocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Monitoring\ShowLocation.aspx.designer.cs">
+      <DependentUpon>ShowLocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerConfirmProjectClose.aspx.cs">
+      <DependentUpon>ContainerConfirmProjectClose.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerConfirmProjectClose.aspx.designer.cs">
+      <DependentUpon>ContainerConfirmProjectClose.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerCreateProject.aspx.cs">
+      <DependentUpon>ContainerCreateProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerCreateProject.aspx.designer.cs">
+      <DependentUpon>ContainerCreateProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerDemurrageClock.aspx.cs">
+      <DependentUpon>ContainerDemurrageClock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerDemurrageClock.aspx.designer.cs">
+      <DependentUpon>ContainerDemurrageClock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerMoveEntry.aspx.cs">
+      <DependentUpon>ContainerMoveEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerMoveEntry.aspx.designer.cs">
+      <DependentUpon>ContainerMoveEntry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerMoveEntryFailureNoProjects.aspx.cs">
+      <DependentUpon>ContainerMoveEntryFailureNoProjects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerMoveEntryFailureNoProjects.aspx.designer.cs">
+      <DependentUpon>ContainerMoveEntryFailureNoProjects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerMoveHistory.aspx.cs">
+      <DependentUpon>ContainerMoveHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerMoveHistory.aspx.designer.cs">
+      <DependentUpon>ContainerMoveHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerPlanner.aspx.cs">
+      <DependentUpon>ContainerPlanner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerPlanner.aspx.designer.cs">
+      <DependentUpon>ContainerPlanner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerProjectAssignRailcar.aspx.cs">
+      <DependentUpon>ContainerProjectAssignRailcar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerProjectAssignRailcar.aspx.designer.cs">
+      <DependentUpon>ContainerProjectAssignRailcar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerProjectAssignRailcarsFromProject.aspx.cs">
+      <DependentUpon>ContainerProjectAssignRailcarsFromProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerProjectAssignRailcarsFromProject.aspx.designer.cs">
+      <DependentUpon>ContainerProjectAssignRailcarsFromProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerProjectRailcars.aspx.cs">
+      <DependentUpon>ContainerProjectRailcars.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerProjectRailcars.aspx.designer.cs">
+      <DependentUpon>ContainerProjectRailcars.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerProjectRailcarsFromProject.aspx.cs">
+      <DependentUpon>ContainerProjectRailcarsFromProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerProjectRailcarsFromProject.aspx.designer.cs">
+      <DependentUpon>ContainerProjectRailcarsFromProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\ContainerProjectsSummary.aspx.cs">
+      <DependentUpon>ContainerProjectsSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\ContainerProjectsSummary.aspx.designer.cs">
+      <DependentUpon>ContainerProjectsSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\DriverPlanner.aspx.cs">
+      <DependentUpon>DriverPlanner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\DriverPlanner.aspx.designer.cs">
+      <DependentUpon>DriverPlanner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\DriverPlanner2.aspx.cs">
+      <DependentUpon>DriverPlanner2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\DriverPlanner2.aspx.designer.cs">
+      <DependentUpon>DriverPlanner2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerCreate.aspx.cs">
+      <DependentUpon>DriverPlannerCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerCreate.aspx.designer.cs">
+      <DependentUpon>DriverPlannerCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerCreateStep.aspx.cs">
+      <DependentUpon>DriverPlannerCreateStep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerCreateStep.aspx.designer.cs">
+      <DependentUpon>DriverPlannerCreateStep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerDeleteLastStep.aspx.cs">
+      <DependentUpon>DriverPlannerDeleteLastStep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerDeleteLastStep.aspx.designer.cs">
+      <DependentUpon>DriverPlannerDeleteLastStep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerDeleteStep.aspx.cs">
+      <DependentUpon>DriverPlannerDeleteStep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerDeleteStep.aspx.designer.cs">
+      <DependentUpon>DriverPlannerDeleteStep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerEdit.aspx.cs">
+      <DependentUpon>DriverPlannerEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerEdit.aspx.designer.cs">
+      <DependentUpon>DriverPlannerEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerEdit2.aspx.cs">
+      <DependentUpon>DriverPlannerEdit2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerEdit2.aspx.designer.cs">
+      <DependentUpon>DriverPlannerEdit2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerEditStep.aspx.cs">
+      <DependentUpon>DriverPlannerEditStep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerEditStep.aspx.designer.cs">
+      <DependentUpon>DriverPlannerEditStep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerPlanStep.aspx.cs">
+      <DependentUpon>DriverPlannerPlanStep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\DriverPlannerPlanStep.aspx.designer.cs">
+      <DependentUpon>DriverPlannerPlanStep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\HarborProjectPlanner.aspx.cs">
+      <DependentUpon>HarborProjectPlanner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\HarborProjectPlanner.aspx.designer.cs">
+      <DependentUpon>HarborProjectPlanner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\HarborProjectPlannerConfigureProject.aspx.cs">
+      <DependentUpon>HarborProjectPlannerConfigureProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\HarborProjectPlannerConfigureProject.aspx.designer.cs">
+      <DependentUpon>HarborProjectPlannerConfigureProject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\HarborProjectPlannerFilter.aspx.cs">
+      <DependentUpon>HarborProjectPlannerFilter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\HarborProjectPlannerFilter.aspx.designer.cs">
+      <DependentUpon>HarborProjectPlannerFilter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\HarborProjectPlannerNextPlannerStatus.aspx.cs">
+      <DependentUpon>HarborProjectPlannerNextPlannerStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\HarborProjectPlannerNextPlannerStatus.aspx.designer.cs">
+      <DependentUpon>HarborProjectPlannerNextPlannerStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planning\HarborProjectPlanner_Mobile320x320.aspx.cs">
+      <DependentUpon>HarborProjectPlanner_Mobile320x320.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Planning\HarborProjectPlanner_Mobile320x320.aspx.designer.cs">
+      <DependentUpon>HarborProjectPlanner_Mobile320x320.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RFS\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RFS.master.cs">
+      <DependentUpon>RFS.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RFS.master.designer.cs">
+      <DependentUpon>RFS.master</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingDetails.aspx.cs">
+      <DependentUpon>RfsStorageBillingDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingDetails.aspx.designer.cs">
+      <DependentUpon>RfsStorageBillingDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingEditAssignment.aspx.cs">
+      <DependentUpon>RfsStorageBillingEditAssignment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingEditAssignment.aspx.designer.cs">
+      <DependentUpon>RfsStorageBillingEditAssignment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingEditRate.aspx.cs">
+      <DependentUpon>RfsStorageBillingEditRate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingEditRate.aspx.designer.cs">
+      <DependentUpon>RfsStorageBillingEditRate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingEvents.aspx.cs">
+      <DependentUpon>RfsStorageBillingEvents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingEvents.aspx.designer.cs">
+      <DependentUpon>RfsStorageBillingEvents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingRateAssignments.aspx.cs">
+      <DependentUpon>RfsStorageBillingRateAssignments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingRateAssignments.aspx.designer.cs">
+      <DependentUpon>RfsStorageBillingRateAssignments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingRates.aspx.cs">
+      <DependentUpon>RfsStorageBillingRates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillingRates.aspx.designer.cs">
+      <DependentUpon>RfsStorageBillingRates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillings.aspx.cs">
+      <DependentUpon>RfsStorageBillings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsStorageBillings.aspx.designer.cs">
+      <DependentUpon>RfsStorageBillings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsValidateSingleRfs.aspx.cs">
+      <DependentUpon>RfsValidateSingleRfs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsValidateSingleRfs.aspx.designer.cs">
+      <DependentUpon>RfsValidateSingleRfs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizard.aspx.cs">
+      <DependentUpon>RfsWizard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizard.aspx.designer.cs">
+      <DependentUpon>RfsWizard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardCreate.aspx.cs">
+      <DependentUpon>RfsWizardCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardCreate.aspx.designer.cs">
+      <DependentUpon>RfsWizardCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardHelp.aspx.cs">
+      <DependentUpon>RfsWizardHelp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardHelp.aspx.designer.cs">
+      <DependentUpon>RfsWizardHelp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardMain.aspx.cs">
+      <DependentUpon>RfsWizardMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardMain.aspx.designer.cs">
+      <DependentUpon>RfsWizardMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardRequestAssessorial.aspx.cs">
+      <DependentUpon>RfsWizardRequestAssessorial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardRequestAssessorial.aspx.designer.cs">
+      <DependentUpon>RfsWizardRequestAssessorial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardRequestTransporation.aspx.cs">
+      <DependentUpon>RfsWizardRequestTransporation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardRequestTransporation.aspx.designer.cs">
+      <DependentUpon>RfsWizardRequestTransporation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardRequestWarehouse.aspx.cs">
+      <DependentUpon>RfsWizardRequestWarehouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardRequestWarehouse.aspx.designer.cs">
+      <DependentUpon>RfsWizardRequestWarehouse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardRouteServiceRequest.aspx.cs">
+      <DependentUpon>RfsWizardRouteServiceRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardRouteServiceRequest.aspx.designer.cs">
+      <DependentUpon>RfsWizardRouteServiceRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardSelect.aspx.cs">
+      <DependentUpon>RfsWizardSelect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardSelect.aspx.designer.cs">
+      <DependentUpon>RfsWizardSelect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardSelectRfsAndForward.aspx.cs">
+      <DependentUpon>RfsWizardSelectRfsAndForward.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardSelectRfsAndForward.aspx.designer.cs">
+      <DependentUpon>RfsWizardSelectRfsAndForward.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardServices.aspx.cs">
+      <DependentUpon>RfsWizardServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardServices.aspx.designer.cs">
+      <DependentUpon>RfsWizardServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardStakeholderError.aspx.cs">
+      <DependentUpon>RfsWizardStakeholderError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardStakeholderError.aspx.designer.cs">
+      <DependentUpon>RfsWizardStakeholderError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardStakeholderInstructions.aspx.cs">
+      <DependentUpon>RfsWizardStakeholderInstructions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardStakeholderInstructions.aspx.designer.cs">
+      <DependentUpon>RfsWizardStakeholderInstructions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardStakeholderReferences.aspx.cs">
+      <DependentUpon>RfsWizardStakeholderReferences.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardStakeholderReferences.aspx.designer.cs">
+      <DependentUpon>RfsWizardStakeholderReferences.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardStakeholders.aspx.cs">
+      <DependentUpon>RfsWizardStakeholders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardStakeholders.aspx.designer.cs">
+      <DependentUpon>RfsWizardStakeholders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RFS\RfsWizardTools.aspx.cs">
+      <DependentUpon>RfsWizardTools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RFS\RfsWizardTools.aspx.designer.cs">
+      <DependentUpon>RfsWizardTools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\GeoCode_Service\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NHibernateDwsNoRepData.xml.config" />
+    <Content Include="NHibernateDwsRepData.xml.config" />
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Customer Service\Libraries\CopsUtilities\CopsUtilities.csproj">
+      <Project>{F9F078D0-37EA-4C42-A3DD-0871C523D8F2}</Project>
+      <Name>CopsUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\BopsBusinessLogicBis\BopsBusinessLogicBis.csproj">
+      <Project>{D06B8F83-A9C9-48F3-9AA7-DBA1F2C425EA}</Project>
+      <Name>BopsBusinessLogicBis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\BopsBusinessLogicDestinations\BopsBusinessLogicDestinations.csproj">
+      <Project>{EC5A3DBD-3DFB-4DB3-B145-A8D94938A3D1}</Project>
+      <Name>BopsBusinessLogicDestinations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\BopsBusinessLogicPlanning\BopsBusinessLogicPlanning.csproj">
+      <Project>{762E92AF-A87C-48DE-B8C2-AD844FC21F2C}</Project>
+      <Name>BopsBusinessLogicPlanning</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\BopsBusinessLogicRfs\BopsBusinessLogicRfs.csproj">
+      <Project>{DC85CA38-1FEC-4995-B861-75A16EA5CE9B}</Project>
+      <Name>BopsBusinessLogicRfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\BopsDataAccess\BopsDataAccess.csproj">
+      <Project>{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}</Project>
+      <Name>BopsDataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\BopsDataConnector\BopsDataConnector.csproj">
+      <Project>{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19}</Project>
+      <Name>BopsDataConnector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libraries\NHibernateUtilities\NHibernateUtilities.csproj">
+      <Project>{BBABCE36-C99A-4F65-8263-1038D792BB01}</Project>
+      <Name>NHibernateUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tools\Client Geocoding Utility\Client Geocoding Utility.csproj">
+      <Project>{29B892BF-6D77-4F62-9D77-0C98633FC15F}</Project>
+      <Name>Client Geocoding Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administration\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Authentication\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Web.config" />
+    <Content Include="RFS\RFS.master" />
+    <Content Include="RFS\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Corporate\Corporate.skin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\GeoCode_Service\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GeoCode_Service\GeoCoder.wsdl" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1111</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Import Project="$(SolutionDir)\BinDeployableAssemblies.targets" Condition="Exists('$(SolutionDir)\BinDeployableAssemblies.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

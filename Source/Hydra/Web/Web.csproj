@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C9075FA-4123-467D-8BBD-CB047625510C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web</RootNamespace>
+    <AssemblyName>Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxThemes.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v16.2.Core, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.Resources.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v16.2.Web, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administration\AddUser.aspx" />
+    <Content Include="Administration\AdministerUsers.aspx" />
+    <Content Include="Administration\AdministerUsersDelete.aspx" />
+    <Content Include="Administration\AdministerUsersPassword.aspx" />
+    <Content Include="Administration\AdministrationError.aspx" />
+    <Content Include="Administration\Default.aspx" />
+    <Content Include="Administration\ManageUsers.aspx" />
+    <Content Include="App_Data\TopMenu.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Authentication\ChangePassword.aspx" />
+    <Content Include="Authentication\Login.aspx" />
+    <Content Include="Authentication\Logout.aspx" />
+    <Content Include="Authentication\Tutorial.aspx" />
+    <Content Include="Authentication\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="Clients\All\CB_Inventory_on_date.aspx" />
+    <Content Include="Clients\All\CB_Inventory_Pending.aspx" />
+    <Content Include="Clients\All\CB_received_on_date.aspx" />
+    <Content Include="Clients\All\CB_shipped_on_date.aspx" />
+    <Content Include="Clients\All\Default.aspx" />
+    <Content Include="Clients\All\InventoryConsigned.aspx" />
+    <Content Include="Clients\All\Lumber_Inventory_Pending.aspx" />
+    <Content Include="Clients\All\Lumber_received_on_date.aspx" />
+    <Content Include="Clients\All\Lumber_shipped_on_date.aspx" />
+    <Content Include="Clients\All\SP_Inventory_on_date.aspx" />
+    <Content Include="Clients\All\SP_Inventory_Pending.aspx" />
+    <Content Include="Clients\All\SP_received_on_date.aspx" />
+    <Content Include="Clients\All\SP_shipped_on_date.aspx" />
+    <Content Include="Clients\Assigned\CB_Inventory_on_date_all.aspx" />
+    <Content Include="Clients\Assigned\CB_Inventory_on_date_consigned.aspx" />
+    <Content Include="Clients\Assigned\CB_Inventory_Pending_all.aspx" />
+    <Content Include="Clients\Assigned\CB_received_on_date_all.aspx" />
+    <Content Include="Clients\Assigned\CB_shipped_on_date_all.aspx" />
+    <Content Include="Clients\Assigned\Default.aspx" />
+    <Content Include="Clients\Assigned\Inventory_on_date.aspx" />
+    <Content Include="Clients\Assigned\Inventory_on_date_lumber.aspx" />
+    <Content Include="Clients\Assigned\Lumber_Inventory_on_date_all.aspx" />
+    <Content Include="Clients\Assigned\Lumber_Inventory_on_date_consigned.aspx" />
+    <Content Include="Clients\Assigned\Lumber_Inventory_Pending_all.aspx" />
+    <Content Include="Clients\Assigned\Lumber_received_on_date_all.aspx" />
+    <Content Include="Clients\Assigned\Lumber_shipped_on_date_all.aspx" />
+    <Content Include="Clients\Assigned\Metrics.aspx" />
+    <Content Include="Clients\Assigned\Physical Inventory Counts.aspx" />
+    <Content Include="Clients\Assigned\SP_Inventory_on_date_all.aspx" />
+    <Content Include="Clients\Assigned\SP_Inventory_Pending_all.aspx" />
+    <Content Include="Clients\Assigned\SP_received_on_date_all.aspx" />
+    <Content Include="Clients\Assigned\SP_shipped_on_date_all.aspx" />
+    <Content Include="Clients\Inventory.aspx" />
+    <Content Include="Clients\test1.aspx" />
+    <Content Include="Controls\SaveLayout.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="EmailTemplates\PasswordRecover.txt" />
+    <Content Include="ForgetPassword.aspx" />
+    <Content Include="Images\Hydra-Website-Header-small.jpg" />
+    <Content Include="Images\Hydra-Website-Header.jpg" />
+    <Content Include="Images\Web.config" />
+    <Content Include="Hydra.master" />
+    <Content Include="NHibernateDwsNoRepData.xml.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="NHibernateDwsRepData.xml.config" />
+    <Content Include="Administration\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Power Users\Default.aspx" />
+    <Content Include="Power Users\ImpersonateClient.aspx" />
+    <Content Include="Power Users\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Properties\PublishProfiles\hydra on Budway SQL4.pubxml" />
+    <None Include="Properties\PublishProfiles\LocalHydra.pubxml" />
+    <None Include="Properties\PublishProfiles\Rackspace.pubxml" />
+    <None Include="Properties\PublishProfiles\SQL4 at Budway.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administration\AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\AdministerUsers.aspx.cs">
+      <DependentUpon>AdministerUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\AdministerUsers.aspx.designer.cs">
+      <DependentUpon>AdministerUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\AdministerUsersDelete.aspx.cs">
+      <DependentUpon>AdministerUsersDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\AdministerUsersDelete.aspx.designer.cs">
+      <DependentUpon>AdministerUsersDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\AdministerUsersPassword.aspx.cs">
+      <DependentUpon>AdministerUsersPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\AdministerUsersPassword.aspx.designer.cs">
+      <DependentUpon>AdministerUsersPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\AdministrationError.aspx.cs">
+      <DependentUpon>AdministrationError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\ManageUsers.aspx.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\ManageUsers.aspx.designer.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\UserData.cs" />
+    <Compile Include="Authentication\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\Tutorial.aspx.cs">
+      <DependentUpon>Tutorial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\Tutorial.aspx.designer.cs">
+      <DependentUpon>Tutorial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\CB_Inventory_on_date.aspx.cs">
+      <DependentUpon>CB_Inventory_on_date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\CB_Inventory_on_date.aspx.designer.cs">
+      <DependentUpon>CB_Inventory_on_date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\CB_Inventory_Pending.aspx.cs">
+      <DependentUpon>CB_Inventory_Pending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\CB_Inventory_Pending.aspx.designer.cs">
+      <DependentUpon>CB_Inventory_Pending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\CB_received_on_date.aspx.cs">
+      <DependentUpon>CB_received_on_date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\CB_received_on_date.aspx.designer.cs">
+      <DependentUpon>CB_received_on_date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\CB_shipped_on_date.aspx.cs">
+      <DependentUpon>CB_shipped_on_date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\CB_shipped_on_date.aspx.designer.cs">
+      <DependentUpon>CB_shipped_on_date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\InventoryConsigned.aspx.cs">
+      <DependentUpon>InventoryConsigned.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\InventoryConsigned.aspx.designer.cs">
+      <DependentUpon>InventoryConsigned.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\Lumber_Inventory_Pending.aspx.cs">
+      <DependentUpon>Lumber_Inventory_Pending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\Lumber_Inventory_Pending.aspx.designer.cs">
+      <DependentUpon>Lumber_Inventory_Pending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\Lumber_received_on_date.aspx.cs">
+      <DependentUpon>Lumber_received_on_date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\Lumber_received_on_date.aspx.designer.cs">
+      <DependentUpon>Lumber_received_on_date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\Lumber_shipped_on_date.aspx.cs">
+      <DependentUpon>Lumber_shipped_on_date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\Lumber_shipped_on_date.aspx.designer.cs">
+      <DependentUpon>Lumber_shipped_on_date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\SP_Inventory_on_date.aspx.cs">
+      <DependentUpon>SP_Inventory_on_date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\SP_Inventory_on_date.aspx.designer.cs">
+      <DependentUpon>SP_Inventory_on_date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\SP_Inventory_Pending.aspx.cs">
+      <DependentUpon>SP_Inventory_Pending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\SP_Inventory_Pending.aspx.designer.cs">
+      <DependentUpon>SP_Inventory_Pending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\SP_received_on_date.aspx.cs">
+      <DependentUpon>SP_received_on_date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\SP_received_on_date.aspx.designer.cs">
+      <DependentUpon>SP_received_on_date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\All\SP_shipped_on_date.aspx.cs">
+      <DependentUpon>SP_shipped_on_date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\All\SP_shipped_on_date.aspx.designer.cs">
+      <DependentUpon>SP_shipped_on_date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\CB_Inventory_on_date_all.aspx.cs">
+      <DependentUpon>CB_Inventory_on_date_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\CB_Inventory_on_date_all.aspx.designer.cs">
+      <DependentUpon>CB_Inventory_on_date_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\CB_Inventory_on_date_consigned.aspx.cs">
+      <DependentUpon>CB_Inventory_on_date_consigned.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\CB_Inventory_on_date_consigned.aspx.designer.cs">
+      <DependentUpon>CB_Inventory_on_date_consigned.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\CB_Inventory_Pending_all.aspx.cs">
+      <DependentUpon>CB_Inventory_Pending_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\CB_Inventory_Pending_all.aspx.designer.cs">
+      <DependentUpon>CB_Inventory_Pending_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\CB_received_on_date_all.aspx.cs">
+      <DependentUpon>CB_received_on_date_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\CB_received_on_date_all.aspx.designer.cs">
+      <DependentUpon>CB_received_on_date_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\CB_shipped_on_date_all.aspx.cs">
+      <DependentUpon>CB_shipped_on_date_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\CB_shipped_on_date_all.aspx.designer.cs">
+      <DependentUpon>CB_shipped_on_date_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\Inventory_on_date.aspx.cs">
+      <DependentUpon>Inventory_on_date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\Inventory_on_date.aspx.designer.cs">
+      <DependentUpon>Inventory_on_date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\Inventory_on_date_lumber.aspx.cs">
+      <DependentUpon>Inventory_on_date_lumber.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\Inventory_on_date_lumber.aspx.designer.cs">
+      <DependentUpon>Inventory_on_date_lumber.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\Lumber_Inventory_on_date_all.aspx.cs">
+      <DependentUpon>Lumber_Inventory_on_date_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\Lumber_Inventory_on_date_all.aspx.designer.cs">
+      <DependentUpon>Lumber_Inventory_on_date_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\Lumber_Inventory_on_date_consigned.aspx.cs">
+      <DependentUpon>Lumber_Inventory_on_date_consigned.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\Lumber_Inventory_on_date_consigned.aspx.designer.cs">
+      <DependentUpon>Lumber_Inventory_on_date_consigned.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\Lumber_Inventory_Pending_all.aspx.cs">
+      <DependentUpon>Lumber_Inventory_Pending_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\Lumber_Inventory_Pending_all.aspx.designer.cs">
+      <DependentUpon>Lumber_Inventory_Pending_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\Lumber_received_on_date_all.aspx.cs">
+      <DependentUpon>Lumber_received_on_date_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\Lumber_received_on_date_all.aspx.designer.cs">
+      <DependentUpon>Lumber_received_on_date_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\Lumber_shipped_on_date_all.aspx.cs">
+      <DependentUpon>Lumber_shipped_on_date_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\Lumber_shipped_on_date_all.aspx.designer.cs">
+      <DependentUpon>Lumber_shipped_on_date_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\Metrics.aspx.cs">
+      <DependentUpon>Metrics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\Metrics.aspx.designer.cs">
+      <DependentUpon>Metrics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\Physical Inventory Counts.aspx.cs">
+      <DependentUpon>Physical Inventory Counts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\Physical Inventory Counts.aspx.designer.cs">
+      <DependentUpon>Physical Inventory Counts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\SP_Inventory_on_date_all.aspx.cs">
+      <DependentUpon>SP_Inventory_on_date_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\SP_Inventory_on_date_all.aspx.designer.cs">
+      <DependentUpon>SP_Inventory_on_date_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\SP_Inventory_Pending_all.aspx.cs">
+      <DependentUpon>SP_Inventory_Pending_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\SP_Inventory_Pending_all.aspx.designer.cs">
+      <DependentUpon>SP_Inventory_Pending_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\SP_received_on_date_all.aspx.cs">
+      <DependentUpon>SP_received_on_date_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\SP_received_on_date_all.aspx.designer.cs">
+      <DependentUpon>SP_received_on_date_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Assigned\SP_shipped_on_date_all.aspx.cs">
+      <DependentUpon>SP_shipped_on_date_all.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Assigned\SP_shipped_on_date_all.aspx.designer.cs">
+      <DependentUpon>SP_shipped_on_date_all.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\Inventory.aspx.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\Inventory.aspx.designer.cs">
+      <DependentUpon>Inventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clients\test1.aspx.cs">
+      <DependentUpon>test1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clients\test1.aspx.designer.cs">
+      <DependentUpon>test1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SaveLayout.ascx.cs">
+      <DependentUpon>SaveLayout.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SaveLayout.ascx.designer.cs">
+      <DependentUpon>SaveLayout.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgetPassword.aspx.designer.cs">
+      <DependentUpon>ForgetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hydra.master.cs">
+      <DependentUpon>Hydra.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hydra.master.designer.cs">
+      <DependentUpon>Hydra.master</DependentUpon>
+    </Compile>
+    <Compile Include="Power Users\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Power Users\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Power Users\ImpersonateClient.aspx.cs">
+      <DependentUpon>ImpersonateClient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Power Users\ImpersonateClient.aspx.designer.cs">
+      <DependentUpon>ImpersonateClient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4153</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2669/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\BinDeployableAssemblies.targets" Condition="Exists('$(SolutionDir)\BinDeployableAssemblies.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

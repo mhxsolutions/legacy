@@ -1,0 +1,229 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_BlackGlass
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    cursor: wait;
+}
+.dxheLoadingPanel_BlackGlass
+{
+    font: 12px Tahoma;
+    color: #303030;
+}
+.dxheLoadingPanel_BlackGlass td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+}
+
+.dxheControl_BlackGlass
+{
+    border: Solid 1px black;
+}
+
+/* Area */
+.dxheErrorFrame_BlackGlass
+{
+    font-size: 12px;
+    font-family: Tahoma;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheErrorFrame_BlackGlass .dxhe {
+    padding: 5px;
+}
+.dxheErrorFrame_BlackGlass .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_BlackGlass .dxheErrorFrameCloseButton_BlackGlass {
+   cursor: pointer;
+}
+.dxheContentArea_BlackGlass
+{
+    padding: 4px;
+	padding-bottom: 6px;
+    background-color: #8A8B8B;
+}
+.dxheViewArea_BlackGlass
+{
+    border: Solid 1px #4E4F51;    
+}
+.dxheHtmlViewEdit_BlackGlass,
+.dxheDesignViewArea_BlackGlass,
+.dxhePreviewArea_BlackGlass 
+{
+    margin: 0px;
+    background-color: #FFFFFF;
+    background-image: none;
+    font-size: smaller;
+    font: normal 12px Arial;
+}
+td.dxheHtmlViewEdit_BlackGlass, body.dxheDesignViewArea_BlackGlass, body.dxhePreviewArea_BlackGlass
+{
+    padding: 0 0 0 4px;
+}
+.dxheControl_BlackGlass.dxhe-rtl td.dxheHtmlViewEdit_BlackGlass, 
+.dxheControl_BlackGlass.dxhe-rtl .dxeMemo_BlackGlass td,
+body.dxheDesignViewArea_BlackGlass.dxhe-rtl, 
+body.dxhePreviewArea_BlackGlass.dxhe-rtl
+{
+	padding: 0 4px 0 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .dxheControl_BlackGlass.dxhe-rtl td.dxheHtmlViewEdit_BlackGlass, 
+    .dxheControl_BlackGlass.dxhe-rtl .dxeMemo_BlackGlass td
+    {
+	    padding: 0 0 0 4px;
+    }
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_BlackGlass table.dxEmptyBorderTable,
+body.dxheDesignViewArea_BlackGlass table.dxEmptyBorderTable td  {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_BlackGlass table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_BlackGlass table.dxEmptyBorderTable td  {
+		border:0px;
+	}
+}
+.dxheControl_BlackGlass .dxeMemo_BlackGlass textarea 
+{
+	resize:none;
+}
+
+/* Status Bar */
+.dxheStatusBar_BlackGlass 
+{
+}
+.dxheStatusBar_BlackGlass .dxheStatusBarTab_BlackGlass 
+{
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+.dxheStatusBar_BlackGlass .dxheStatusBarActiveTab_BlackGlass 
+{
+    background-color: White;
+}
+.dxHtmlEditor_heSizeGrip_BlackGlass 
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_BlackGlass 
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_BlackGlass 
+{
+    float: left;
+    height: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -12px;
+}
+.dxheControl_BlackGlass.dxhe-rtl .dxheSizeGripContainer_BlackGlass 
+{
+    text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+#dxInsertTableForm .buttonsCell,
+#dxInsertLinkForm .buttonsCell,
+#dxInsertImageForm .buttonsCell,
+#dxPasteFromWordForm .buttonsCell,
+#dxTableColumnPropertiesForm .buttonsCell,
+.dxheCustomDialog_BlackGlass .dxhecd-Buttons
+{
+	background-color: #C9D6DE;
+	border-top-style: none;
+	
+	background-image: url('dfFooterBack.gif');
+    background-repeat:repeat-x;
+    background-position:top;	
+
+    padding: 11px;
+}
+#dxInsertImageForm .imagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px white;
+}
+#dxPasteFromWordForm .pasteContainerCell td
+{
+	border: Solid 1px #9F9F9F;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_BlackGlass
+{
+	height: 1px;
+}
+.dxtbControl_BlackGlass 
+{
+	font: 12px Tahoma;
+	color: black;
+	background-color: black;
+    border-bottom: Solid 1px black;
+}
+.dxtbControl_BlackGlass td.dxmtb.dxmMenu_BlackGlass
+{
+	border: 0;
+}
+.dxtbComboBoxMenuItem_BlackGlass
+{
+    padding: 3px 4px 3px 4px;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_BlackGlass .dxmLite_BlackGlass .dxm-main.dxmtb {
+    border-width: 0px;
+}
+.dxmLite_BlackGlass .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem {
+    border-width: 0px;
+    padding: 3px 4px;
+}
+.dxtbControl_BlackGlass .dxmLite_BlackGlass .dxm-horizontal.dxmtb .dxm-image-l .dxm-dropDownMode.dxtb-cb .dxm-content, 
+.dxtbControl_BlackGlass .dxmLite_BlackGlass .dxm-horizontal.dxmtb .dxm-image-r .dxm-dropDownMode.dxtb-cb .dxm-content
+{
+	padding-top: 5px;
+	padding-bottom: 6px;
+}
+.dxtbControl_BlackGlass .dxmLite_BlackGlass .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_BlackGlass .dxmLite_BlackGlass .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+.dxmLite_BlackGlass .dxhetipControl_BlackGlass img
+{
+	vertical-align: top;
+}
+.dxtbControl_BlackGlass .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbColorDiv_BlackGlass
+{
+    margin-bottom: -1px;
+}
+.dxtbControl_BlackGlass .dxmLite_BlackGlass .dxm-horizontal .dxm-item .dxm-content .dxm-image {
+	margin: 0px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_BlackGlass { }
+.dxtcbColorDiv_BlackGlass
+{
+	width: 16px;
+	height: 4px;
+	font-size:0px;
+	background-color: Red;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_BlackGlass .dxrpcontent
+{
+    padding: 9px 8px;
+}
+

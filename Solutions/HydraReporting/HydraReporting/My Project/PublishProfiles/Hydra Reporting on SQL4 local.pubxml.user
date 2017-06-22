@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\sql4\SCData\hydrareporting</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="allinventory.aspx">
+      <publishTime>05/22/2015 12:26:47</publishTime>
+    </File>
+    <File Include="bin/HydraReporting.dll">
+      <publishTime>05/18/2015 14:43:42</publishTime>
+    </File>
+    <File Include="bin/HydraReporting.xml">
+      <publishTime>05/18/2015 14:43:42</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>05/05/2015 00:26:13</publishTime>
+    </File>
+    <File Include="Driver Match Error Check.aspx">
+      <publishTime>04/30/2015 18:18:12</publishTime>
+    </File>
+    <File Include="harmon.aspx">
+      <publishTime>05/22/2015 12:26:47</publishTime>
+    </File>
+    <File Include="Harmon_Received.aspx">
+      <publishTime>05/22/2015 12:26:47</publishTime>
+    </File>
+    <File Include="Harmon_Shipped.aspx">
+      <publishTime>05/29/2015 11:08:10</publishTime>
+    </File>
+    <File Include="Inventory on Date.aspx">
+      <publishTime>05/22/2015 12:26:47</publishTime>
+    </File>
+    <File Include="Plan.aspx">
+      <publishTime>04/30/2015 18:40:58</publishTime>
+    </File>
+    <File Include="Planned Loads.aspx">
+      <publishTime>05/22/2015 12:26:47</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/23/2015 01:35:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

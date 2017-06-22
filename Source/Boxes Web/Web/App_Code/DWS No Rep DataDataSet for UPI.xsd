@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DWS_x0020_No_x0020_Rep_x0020_DataDataSet_x0020_for_x0020_UPI" targetNamespace="http://tempuri.org/DWS No Rep DataDataSet for UPI.xsd" xmlns:mstns="http://tempuri.org/DWS No Rep DataDataSet for UPI.xsd" xmlns="http://tempuri.org/DWS No Rep DataDataSet for UPI.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="DWS No Rep DataConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DWS No Rep DataConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.DWS No Rep DataConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="UPI tons and times monthly summryTableAdapter" Name="UPI tons and times monthly summry">
+            <MainSource>
+              <DbSource ConnectionRef="DWS No Rep DataConnectionString (Web.config)" DbObjectName="[DWS No Rep Data].dbo.[UPI tons and times monthly summry]" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Year, Month, Fleet, Tons, [Theoretical Min] FROM dbo.[UPI tons and times monthly summry]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Year" DataSetColumn="Year" />
+              <Mapping SourceColumn="Month" DataSetColumn="Month" />
+              <Mapping SourceColumn="Fleet" DataSetColumn="Fleet" />
+              <Mapping SourceColumn="Tons" DataSetColumn="Tons" />
+              <Mapping SourceColumn="Theoretical Min" DataSetColumn="Theoretical Min" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DWS_x0020_No_x0020_Rep_x0020_DataDataSet_x0020_for_x0020_UPI" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="False">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="UPI_x0020_tons_x0020_and_x0020_times_x0020_monthly_x0020_summry">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" type="xs:int" minOccurs="0" />
+              <xs:element name="Month" type="xs:int" minOccurs="0" />
+              <xs:element name="Fleet">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tons" type="xs:double" minOccurs="0" />
+              <xs:element name="Theoretical_x0020_Min" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,226 @@
+.dxeListBoxItemHover_BudwayThemeFromMulberry img.dxHtmlEditor_heEnumIcon_BudwayThemeFromMulberry,
+.dxeListBoxItemHover_BudwayThemeFromMulberry img.dxHtmlEditor_heEventIcon_BudwayThemeFromMulberry,
+.dxeListBoxItemHover_BudwayThemeFromMulberry img.dxHtmlEditor_heFieldIcon_BudwayThemeFromMulberry,
+.dxeListBoxItemHover_BudwayThemeFromMulberry img.dxHtmlEditor_heXmlItemIcon_BudwayThemeFromMulberry,
+.dxeListBoxItemSelected_BudwayThemeFromMulberry .dxHtmlEditor_heEnumIcon_BudwayThemeFromMulberry,
+.dxeListBoxItemSelected_BudwayThemeFromMulberry .dxHtmlEditor_heEventIcon_BudwayThemeFromMulberry,
+.dxeListBoxItemSelected_BudwayThemeFromMulberry .dxHtmlEditor_heFieldIcon_BudwayThemeFromMulberry,
+.dxeListBoxItemSelected_BudwayThemeFromMulberry .dxHtmlEditor_heXmlItemIcon_BudwayThemeFromMulberry,
+.dxHtmlEditor_heConstrainProportionsBottom_BudwayThemeFromMulberry,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_BudwayThemeFromMulberry,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_BudwayThemeFromMulberry,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_BudwayThemeFromMulberry,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_BudwayThemeFromMulberry,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_BudwayThemeFromMulberry,
+.dxHtmlEditor_heConstrainProportionsTop_BudwayThemeFromMulberry,
+.dxHtmlEditor_heConstrainProportionsTopRtl_BudwayThemeFromMulberry,
+.dxHtmlEditor_heEnumIcon_BudwayThemeFromMulberry,
+.dxHtmlEditor_heErrorFrameCloseButton_BudwayThemeFromMulberry,
+.dxHtmlEditor_heEventIcon_BudwayThemeFromMulberry,
+.dxHtmlEditor_heFieldIcon_BudwayThemeFromMulberry,
+.dxHtmlEditor_heReset_BudwayThemeFromMulberry,
+.dxHtmlEditor_heSizeGrip_BudwayThemeFromMulberry,
+.dxHtmlEditor_heSizeGripRtl_BudwayThemeFromMulberry,
+.dxHtmlEditor_heTagInspectorChangeButton_BudwayThemeFromMulberry,
+.dxHtmlEditor_heTagInspectorRemoveButton_BudwayThemeFromMulberry,
+.dxHtmlEditor_heTagInspectorSeparator_BudwayThemeFromMulberry,
+.dxHtmlEditor_heToolbarPopOut_BudwayThemeFromMulberry,
+.dxHtmlEditor_heToolbarPopOutDisabled_BudwayThemeFromMulberry,
+.dxHtmlEditor_heXmlItemIcon_BudwayThemeFromMulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxeListBoxItemHover_BudwayThemeFromMulberry img.dxHtmlEditor_heEnumIcon_BudwayThemeFromMulberry
+{
+    background-position: -17px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemHover_BudwayThemeFromMulberry img.dxHtmlEditor_heEventIcon_BudwayThemeFromMulberry
+{
+    background-position: -51px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemHover_BudwayThemeFromMulberry img.dxHtmlEditor_heFieldIcon_BudwayThemeFromMulberry
+{
+    background-position: -34px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemHover_BudwayThemeFromMulberry img.dxHtmlEditor_heXmlItemIcon_BudwayThemeFromMulberry
+{
+    background-position: -51px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_BudwayThemeFromMulberry .dxHtmlEditor_heEnumIcon_BudwayThemeFromMulberry
+{
+    background-position: -34px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_BudwayThemeFromMulberry .dxHtmlEditor_heEventIcon_BudwayThemeFromMulberry
+{
+    background-position: 0px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_BudwayThemeFromMulberry .dxHtmlEditor_heFieldIcon_BudwayThemeFromMulberry
+{
+    background-position: 0px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxeListBoxItemSelected_BudwayThemeFromMulberry .dxHtmlEditor_heXmlItemIcon_BudwayThemeFromMulberry
+{
+    background-position: 0px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_BudwayThemeFromMulberry
+{
+    background-position: -69px -50px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_BudwayThemeFromMulberry
+{
+    background-position: -68px -40px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_BudwayThemeFromMulberry
+{
+    background-position: -43px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_BudwayThemeFromMulberry
+{
+    background-position: -19px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_BudwayThemeFromMulberry
+{
+    background-position: -31px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_BudwayThemeFromMulberry
+{
+    background-position: -55px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_BudwayThemeFromMulberry
+{
+    background-position: -68px -57px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_BudwayThemeFromMulberry
+{
+    background-position: -69px -68px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heEnumIcon_BudwayThemeFromMulberry
+{
+    background-position: -17px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_BudwayThemeFromMulberry
+{
+    background-position: -67px -21px;
+    width: 13px;
+    height: 9px;
+}
+.dxHtmlEditor_heEventIcon_BudwayThemeFromMulberry
+{
+    background-position: -34px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_BudwayThemeFromMulberry
+{
+    background-position: -51px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_BudwayThemeFromMulberry
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxHtmlEditor_heSizeGrip_BudwayThemeFromMulberry
+{
+    background-position: 0px -21px;
+    width: 18px;
+    height: 18px;
+}
+.dxHtmlEditor_heSizeGripRtl_BudwayThemeFromMulberry
+{
+    background-position: -61px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_BudwayThemeFromMulberry
+{
+    background-position: -41px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_BudwayThemeFromMulberry
+{
+    background-position: -21px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_BudwayThemeFromMulberry
+{
+    background-position: -76px -32px;
+    width: 4px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOut_BudwayThemeFromMulberry
+{
+    background-position: -67px -35px;
+    width: 8px;
+    height: 4px;
+}
+.dxHtmlEditor_heToolbarPopOutDisabled_BudwayThemeFromMulberry
+{
+    background-position: -68px -63px;
+    width: 8px;
+    height: 4px;
+}
+.dxHtmlEditor_heXmlItemIcon_BudwayThemeFromMulberry
+{
+    background-position: -17px -74px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_BudwayThemeFromMulberry,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_BudwayThemeFromMulberry,
+.dxHtmlEditor_heConstrainProportionsBottom_BudwayThemeFromMulberry,
+.dxHtmlEditor_heConstrainProportionsTop_BudwayThemeFromMulberry,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_BudwayThemeFromMulberry,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_BudwayThemeFromMulberry,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_BudwayThemeFromMulberry,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_BudwayThemeFromMulberry,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_BudwayThemeFromMulberry,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_BudwayThemeFromMulberry,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_BudwayThemeFromMulberry,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_BudwayThemeFromMulberry,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_BudwayThemeFromMulberry,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_BudwayThemeFromMulberry
+{
+	display:block;
+}
+

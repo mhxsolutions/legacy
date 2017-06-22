@@ -1,0 +1,406 @@
+.dxreControl_BudwayThemeFromMulberry
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CFCFCF;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-rulerWrapper {
+	padding-top: 2px;
+    background-color: #F5F5F5;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-columnHandleLeftPart,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-columnHandleRightPart {
+    width: 5px;
+    background-color: #bcb8b8;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerTableColumnSeparatorHandle,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerDivisions,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerDivisions div,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerMarginLeftPanel,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerMarginRightPanel,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-columnHandle,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-columnHandle > div {
+	height: 12px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerTableColumnSeparatorHandle > div {
+    margin-top: 2px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerDivisions,
+.dxreControl_BudwayThemeFromMulberry .dxre-rulerWrapper .dxre-rulertabAlignBox > div {
+    background-color: #fff;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerTableColumnSeparatorHandle,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerMarginLeftPanel,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerMarginRightPanel,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-columnHandle,
+.dxreControl_BudwayThemeFromMulberry .dxre-rulerWrapper .dxre-rulertabAlignBox {
+    background-color: #d3d3d3;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerDivisions .dxre-rulerMinorDivision,
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerDivisions .dxre-rulerMajorDivision {
+	border-left: 1px solid #a3a3a3;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-ruler .dxre-rulerDivisions .dxre-rulerNumberDivision {
+	color: #4e4e4e;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-rulerLine {
+	border-left: 1px dashed #717171;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-rulerLine.table {
+	border-left: 1px solid #599eff;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-table-border-line {
+	background-color: #599eff;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-leftIdentDragHandleBody {
+    background-color: white;
+    border: 1px solid #929292;
+    border-top: none;
+    height: 6px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxr-minBtn 
+{
+	margin-right: 5px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry
+{
+	background-color: #FFFFFF;
+}
+.dxreControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxreControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-page 
+{
+    border: 1px solid #A0A0A0;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-view 
+{
+	background: #F5F5F5;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-bar 
+{
+	background-color: #FFF;
+	border-top: 4px solid #F0F0F0;
+    height: 28px;
+    font-size: 14px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-bar .dxre-loadingPanel {
+    float: right;
+    margin: 6px 4px 0 0;
+    color: #7e7e7e;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-bar .dxre-loadingPanel .dx {
+    line-height: 0;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-bar .dxre-loadingPanel .dxlp-loadingImage {
+    width: 16px;
+    height: 16px;
+    background: url('reLoadingOnStatusBar.gif');
+}
+/* QuickSearch*/
+.dxreControl_BudwayThemeFromMulberry .dxre-quickSearchPanel {
+    background-color: #ffffff;
+    border: 1px solid #cbcbcb;
+    border-top: none;
+    padding: 6px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-quickSearchPanel .dxre-quickSearchButtonEdit {
+    width: 280px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-quickSearchPanel .dxre-quickSearchButton:first-of-type {
+    margin-left: 6px;
+    margin-right: 3px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-quickSearchPanel .dxre-quickSearchButton:nth-of-type(3) {
+    margin-left: 32px;
+    margin-right: 10px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-quickSearchPanel .dxre-quickSearchButton {
+    padding: 0px !important;
+    background: none !important;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-quickSearchPanel .dxre-quickSearchButton:nth-of-type(-n+2) .dxb {
+    padding: 1px 12px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-quickSearchPanel .dxre-quickSearchButton:nth-last-of-type(-n+2) {
+    border: none !important;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-quickSearchPanel .dxre-quickSearchButton:nth-last-of-type(-n+2) .dxb {
+    padding: 0px !important;
+}
+
+/*Dialogs Style*/
+.dxreControl_BudwayThemeFromMulberry .dxreDlgSaveFileForm .dxrpControl_BudwayThemeFromMulberry .dxrpcontent.dx-borderBox {
+    padding: 20px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgParagraphForm .dxtc-content {
+    width: 490px;
+    height: 380px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgParagraphForm .dxre-dialogControlsWrapper > tbody > tr > td:first-child {
+    text-align: left;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgPageSetupForm .dxtc-content {
+    width: 410px;
+    height: 220px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgTablePropertiesForm .dxtc-content {
+    width: 480px;
+    height: 590px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgTablePropertiesForm .dxre-dialogCellBlock {
+    width: 78px;
+    height: 27px;
+    background-color: #FAFAFA;
+    border: dashed 1px #818181;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgTablePropertiesForm .dxre-dialogCellMargins td.dxre-dialogLGC {
+    padding-left: 8px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgTablePropertiesForm .dxre-dialogCellNavigation {
+    width: auto;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgTablePropertiesForm .dxre-dialogCellNavigation td.dxre-dialogLGC {
+    padding: 0px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreTableBorderPreview {
+    position: absolute;
+    width: 130px;
+    left: 450px;
+    top: 100px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgBorderShadingForm .dxtc-content {
+    width: 630px;
+    height: 300px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgBorderShadingForm .dxtc-content .dxflGroup_BudwayThemeFromMulberry {
+    width: auto;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreBorderButton {
+    visibility: hidden;
+    padding: 3px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreBorderButton div.dxb {
+    padding: 0px !important;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgColumnsForm {
+    width: 500px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgColumnsForm .dxreDlgColumnsEditorMainTable > tbody > tr > td {
+    padding: 2px 4px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgColumnsForm .dxreDlgColumnsEditor {
+    height: 150px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgTextBox {
+    width: 60px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgSpinEdit {
+    width: 130px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgAlertForm {
+    width: 400px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFinishMergeForm {
+    width: 300px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgSaveFileForm {
+    width: 540px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgInsertMergeFieldForm {
+    width: 350px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgInsertMergeFieldForm .dxeListBox_BudwayThemeFromMulberry {
+    height: 300px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgBookmarksForm {
+    width: 400px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgOpenFileForm {
+    width: 800px;
+    height: 500px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgOpenFileForm .dxre-dialogContentGroup,
+.dxreControl_BudwayThemeFromMulberry .dxreDlgOpenFileForm .dxre-dialogContentGroup .dxflItem_BudwayThemeFromMulberry {
+    padding: 0px !important;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFindReplaceForm {
+    width: 510px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFindReplaceForm .dxre-searchResultList {
+    width: 100%;
+    height: 180px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFindReplaceForm .dxre-searchResultList .dxeListBoxItem_BudwayThemeFromMulberry {
+    white-space: normal;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFindReplaceForm .dxre-dialogContentGroup {
+    padding: 32px !important;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFindReplaceForm .dxre-searchResult .dxflCaptionCellSys {
+    width: 100% !important;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFindReplaceForm .dxre-searchResult .dxre-dialogLINC {
+    white-space: nowrap;
+    color: #acacac;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFindReplaceForm .dxre-dialogControlsWrapper > tbody > tr > td:first-child {
+    width: auto;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFindReplaceForm .dxre-dialogControlsWrapper > tbody > tr > td:nth-child(2){
+    width: 100%;
+    text-align: left;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-dialogShortEditor {
+    width: 80px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-dialogEditor {
+    width: 150px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-dialogLongEditor {
+    width: 180px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-EmptyLine {
+    height: 10px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-Separator {
+    height: 0px;
+    margin: 5px 0;
+    border-top: 1px solid #808080;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFooterBtn {
+    width: 100px;
+    margin-left: 8px;
+}
+.dxreControl_BudwayThemeFromMulberry table.dxre-dialogLG.dxflGroupSys.dxre-dialogContentGroup {
+    padding: 11px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-dialogFooter {
+    width: auto;
+	padding: 11px;
+    background-color: #FAFAFA;
+    border-top: Solid 1px #CBCBCB;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgInsertImageForm .dxreDlgImagePreview {
+    margin-top: 10px;
+    width: 100%;
+    height: 170px;
+    color: #878787;
+    border: dashed 1px #cac8c8;
+    text-align:center;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgInsertImageForm .dxreDlgInsertImagePanel {
+    width: 380px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgInsertImageForm .dxre-dialogRadioNavigation {
+    padding-bottom: 10px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgNumberingListForm .dxreDlgMainContainer {
+    width: 520px;
+    height: 220px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgHyperlinkForm {
+    width: 540px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxflFormLayout_BudwayThemeFromMulberry .dxre-editorsGroupWithPaddings {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgTabsForm {
+    width: 420px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgTabsForm .dxreDlgTabsList {
+    height: 100px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-dialog .dxrpControl_BudwayThemeFromMulberry.dxrp-noCollapsing > tbody > tr.dxrpCR > .dxrpcontent {
+    padding: 17px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-dialog .dxrpControlGB_BudwayThemeFromMulberry > tbody > tr.dxrpCR > .dxrpcontent {
+    padding: 10px 12px 12px 12px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreMultiLevelNumberingListBoxLayout,
+.dxreControl_BudwayThemeFromMulberry .dxreMultiLevelNumberingListBoxLayout .dxlbd {
+    width: 50px;
+    height: 100% !important;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgMultiLevelNumberingListForm .dxre-dialogContentGroup td.dxre-dialogLGC:first-child {
+    padding-left: 8px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgMultiLevelNumberingListForm .dxflFullHeightItemCellSys {
+    padding-left: 0px !important;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgBulletedListForm .dxreDlgBulletPresetBtn {
+    width: 45px;
+    margin: 8px 0px 12px 5px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgNumberingListForm .dxreDlgNumberingListPreview {
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFontForm .dxreCheckBoxContainer .dxflGroup_BudwayThemeFromMulberry {
+    padding: 0px 0px 0px 30px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgFontForm .dxreCheckBoxContainer .dxflItem_BudwayThemeFromMulberry {
+    padding: 0px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgListBox {
+    padding: 1px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgSymbolsForm .dxreDlgSymbolsList {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #D1D1D1;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgListBox > div {
+    border: 1px solid #D1D1D1;
+    margin: 1px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgSymbolsForm .dxreDlgListBox > div {
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    font-size: large;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgNumberingListForm .dxreDlgListBox > div {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgListBox .dxreDlgListHover {
+    background-color: #F1F1F1;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgListBox .dxreDlgListSelected {
+    background-color: #BF4E6A;
+    color: #FFF;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-dialogLGB > .dxre-dialogLG tr:first-child > .dxre-dialogLGC > .dxre-dialogLI {
+    padding-top: 4px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-dialogLayoutWhithPaddings tr td:first-child .dxflItemSys {
+    padding-left: 5px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxre-dialogLayoutWhithPaddings tr td:first-child .dxflTextItemSys {
+    padding-left: 0px;
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgSpellingForm .dxreDlgSS,
+.dxreControl_BudwayThemeFromMulberry .dxreDlgSpellingForm .dxreDlgSM {
+    width: 400px;
+    height: 150px
+}
+.dxreControl_BudwayThemeFromMulberry .dxreDlgSpellingForm .dxreDlgSB {
+    min-width: 80px;
+    width: 100%;
+    margin-bottom: 5px;
+}

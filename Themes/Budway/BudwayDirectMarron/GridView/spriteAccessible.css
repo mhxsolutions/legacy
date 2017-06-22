@@ -1,0 +1,613 @@
+.dx-acc-r .dxGridView_gvCellError_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMClearFilter_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMClearFilterDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMClearGrouping_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMClearGroupingDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMCollapseDetailRow_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMCollapseDetailRowDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMCollapseRow_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMCollapseRowDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMDeleteRow_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMDeleteRowDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMEditRow_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMEditRowDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMExpandDetailRow_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMExpandDetailRowDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMExpandRow_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMExpandRowDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMFullCollapse_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMFullCollapseDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMFullExpand_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMFullExpandDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMGroupByColumn_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMGroupByColumnDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMNewRow_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMNewRowDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMRefresh_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMRefreshDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSearchPanel_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSearchPanelDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindow_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindowDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMShowFilterEditor_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMShowFilterEditorDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMShowGroupPanel_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMShowGroupPanelDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMShowSearchPanel_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMShowSearchPanelDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSortAscending_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSortAscendingDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSortDescending_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSortDescendingDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSummaryAverage_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSummaryAverageDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSummaryCount_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSummaryCountDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSummaryMax_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSummaryMaxDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSummaryMin_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSummaryMinDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSummarySum_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMSummarySumDisabled_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCMUngroupColumn_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCollapsedButton_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvCollapsedButtonRtl_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvDetailCollapsedButton_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvDetailCollapsedButtonRtl_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvDetailExpandedButton_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvDetailExpandedButtonRtl_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowDown_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowLeft_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowRight_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvDragAndDropArrowUp_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvDragAndDropHideColumn_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvExpandedButton_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvExpandedButtonRtl_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvFilterRowButton_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvFixedGroupRow_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvHeaderFilter_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvHeaderFilterActive_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvHeaderSortDown_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvHeaderSortUp_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvHideAdaptiveDetailButton_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvParentGroupRows_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_gvShowAdaptiveDetailButton_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_WindowResizer_BudwayDirectMarron:before,
+.dx-acc-r .dxGridView_WindowResizerRtl_BudwayDirectMarron:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxGridView_gvCellError_BudwayDirectMarron:before
+
+{
+    left: -28px;
+    top: -348px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearFilter_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -111px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearFilterDisabled_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -128px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearGrouping_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -179px;
+
+}
+.dx-acc-r .dxGridView_gvCMClearGroupingDisabled_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -264px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseDetailRow_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -196px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseDetailRowDisabled_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -196px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseRow_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -213px;
+
+}
+.dx-acc-r .dxGridView_gvCMCollapseRowDisabled_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -315px;
+
+}
+.dx-acc-r .dxGridView_gvCMDeleteRow_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -281px;
+
+}
+.dx-acc-r .dxGridView_gvCMDeleteRowDisabled_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -213px;
+
+}
+.dx-acc-r .dxGridView_gvCMEditRow_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -298px;
+
+}
+.dx-acc-r .dxGridView_gvCMEditRowDisabled_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -43px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandDetailRow_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -94px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandDetailRowDisabled_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -43px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandRow_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -247px;
+
+}
+.dx-acc-r .dxGridView_gvCMExpandRowDisabled_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -264px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullCollapse_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -94px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullCollapseDisabled_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -230px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullExpand_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -111px;
+
+}
+.dx-acc-r .dxGridView_gvCMFullExpandDisabled_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -128px;
+
+}
+.dx-acc-r .dxGridView_gvCMGroupByColumn_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -60px;
+
+}
+.dx-acc-r .dxGridView_gvCMGroupByColumnDisabled_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -315px;
+
+}
+.dx-acc-r .dxGridView_gvCMNewRow_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -60px;
+
+}
+.dx-acc-r .dxGridView_gvCMNewRowDisabled_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -298px;
+
+}
+.dx-acc-r .dxGridView_gvCMRefresh_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -315px;
+
+}
+.dx-acc-r .dxGridView_gvCMRefreshDisabled_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -230px;
+
+}
+.dx-acc-r .dxGridView_gvCMSearchPanel_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -77px;
+
+}
+.dx-acc-r .dxGridView_gvCMSearchPanelDisabled_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -281px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindow_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -196px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowCustomizationWindowDisabled_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -162px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowFilterEditor_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -128px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowFilterEditorDisabled_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -247px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowGroupPanel_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -111px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowGroupPanelDisabled_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -145px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowSearchPanel_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -298px;
+
+}
+.dx-acc-r .dxGridView_gvCMShowSearchPanelDisabled_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -230px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortAscending_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -77px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortAscendingDisabled_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -162px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortDescending_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -162px;
+
+}
+.dx-acc-r .dxGridView_gvCMSortDescendingDisabled_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -145px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryAverage_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -179px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryAverageDisabled_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -281px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryCount_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -247px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryCountDisabled_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -77px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMax_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -179px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMaxDisabled_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -213px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMin_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -43px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummaryMinDisabled_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -60px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummarySum_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -264px;
+
+}
+.dx-acc-r .dxGridView_gvCMSummarySumDisabled_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -94px;
+
+}
+.dx-acc-r .dxGridView_gvCMUngroupColumn_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -145px;
+
+}
+.dx-acc-r .dxGridView_gvCollapsedButton_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -332px;
+
+}
+.dx-acc-r .dxGridView_gvCollapsedButtonRtl_BudwayDirectMarron:before
+
+{
+    left: -32px;
+    top: -332px;
+
+}
+.dx-acc-r .dxGridView_gvDetailCollapsedButton_BudwayDirectMarron:before
+
+{
+    left: -26px;
+    top: -378px;
+
+}
+.dx-acc-r .dxGridView_gvDetailCollapsedButtonRtl_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -392px;
+
+}
+.dx-acc-r .dxGridView_gvDetailExpandedButton_BudwayDirectMarron:before
+
+{
+    left: -38px;
+    top: -378px;
+
+}
+.dx-acc-r .dxGridView_gvDetailExpandedButtonRtl_BudwayDirectMarron:before
+
+{
+    left: -14px;
+    top: -378px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowDown_BudwayDirectMarron:before
+
+{
+    left: -40px;
+    top: -392px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowLeft_BudwayDirectMarron:before
+
+{
+    left: -43px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowRight_BudwayDirectMarron:before
+
+{
+    left: -43px;
+    top: -348px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropArrowUp_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -405px;
+
+}
+.dx-acc-r .dxGridView_gvDragAndDropHideColumn_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvExpandedButton_BudwayDirectMarron:before
+
+{
+    left: -16px;
+    top: -332px;
+
+}
+.dx-acc-r .dxGridView_gvExpandedButtonRtl_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -348px;
+
+}
+.dx-acc-r .dxGridView_gvFilterRowButton_BudwayDirectMarron:before
+
+{
+    left: -19px;
+    top: -364px;
+
+}
+.dx-acc-r .dxGridView_gvFixedGroupRow_BudwayDirectMarron:before
+
+{
+    left: -20px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderFilter_BudwayDirectMarron:before
+
+{
+    left: -23px;
+    top: 0px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderFilterActive_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderSortDown_BudwayDirectMarron:before
+
+{
+    left: -39px;
+    top: -23px;
+
+}
+.dx-acc-r .dxGridView_gvHeaderSortUp_BudwayDirectMarron:before
+
+{
+    left: -16px;
+    top: -348px;
+
+}
+.dx-acc-r .dxGridView_gvHideAdaptiveDetailButton_BudwayDirectMarron:before
+
+{
+    left: -12px;
+    top: -392px;
+
+}
+.dx-acc-r .dxGridView_gvParentGroupRows_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -364px;
+
+}
+.dx-acc-r .dxGridView_gvShowAdaptiveDetailButton_BudwayDirectMarron:before
+
+{
+    left: -26px;
+    top: -392px;
+
+}
+.dx-acc-r .dxGridView_WindowResizer_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -378px;
+
+}
+.dx-acc-r .dxGridView_WindowResizerRtl_BudwayDirectMarron:before
+
+{
+    left: -33px;
+    top: -364px;
+
+}

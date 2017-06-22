@@ -1,0 +1,418 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_BudwayDirectMarron
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_BudwayDirectMarron
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: 1px solid #898989;
+}
+.dxheLoadingPanel_BudwayDirectMarron td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxheLoadingPanel_BudwayDirectMarron .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+
+.dxheControl_BudwayDirectMarron
+{
+    border: Solid 1px #8A0A37;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+
+/* Area */
+.dxheContentArea_BudwayDirectMarron
+{
+    padding: 4px;
+    background-color: #f48d7f;
+}
+.dxheErrorFrame_BudwayDirectMarron
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_BudwayDirectMarron .dxeMemo_BudwayDirectMarron .dxheErrorFrame_BudwayDirectMarron .dxhe,
+.dxheControl_BudwayDirectMarron.dxhe-rtl .dxeMemo_BudwayDirectMarron .dxheErrorFrame_BudwayDirectMarron .dxhe,
+.dxheErrorFrame_BudwayDirectMarron .dxhe {
+    padding: 5px;
+}
+.dxheControl_BudwayDirectMarron .dxeMemo_BudwayDirectMarron .dxheErrorFrame_BudwayDirectMarron .dxhe td,
+.dxheControl_BudwayDirectMarron.dxhe-rtl .dxeMemo_BudwayDirectMarron .dxheErrorFrame_BudwayDirectMarron .dxhe td,
+.dxheErrorFrame_BudwayDirectMarron .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_BudwayDirectMarron .dxheErrorFrameCloseButton_BudwayDirectMarron {
+    cursor: pointer;
+}
+.dxheViewArea_BudwayDirectMarron
+{
+    border: Solid 1px #A74768;    
+}
+.dxheContentArea_BudwayDirectMarron td.dxheViewArea_BudwayDirectMarron {
+    line-height: 0;
+}
+.dxheContentArea_BudwayDirectMarron td.dxheViewArea_BudwayDirectMarron.dxheHtmlViewArea_BudwayDirectMarron
+{
+    line-height: inherit;
+}
+.dxheDesignViewArea_BudwayDirectMarron,
+.dxhePreviewArea_BudwayDirectMarron
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_BudwayDirectMarron .dxheHtmlViewArea_BudwayDirectMarron,
+.dxheHtmlViewArea_BudwayDirectMarron .CodeMirror,
+body.dxheDesignViewArea_BudwayDirectMarron,
+body.dxhePreviewArea_BudwayDirectMarron 
+{
+    margin: 0px;
+    background-color: #FFFFFF;
+    background-image: none;
+    font-size: smaller;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+.dxheControl_BudwayDirectMarron .dxeMemo_BudwayDirectMarron.dxheHtmlViewArea_BudwayDirectMarron .dxeMemoEditArea_BudwayDirectMarron,
+body.dxheDesignViewArea_BudwayDirectMarron,
+body.dxhePreviewArea_BudwayDirectMarron
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_BudwayDirectMarron .dxeMemo_BudwayDirectMarron.dxheHtmlViewArea_BudwayDirectMarron td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_BudwayDirectMarron.dxhe-rtl .dxheContentArea_BudwayDirectMarron .dxeMemo_BudwayDirectMarron.dxheHtmlViewArea_BudwayDirectMarron td
+{
+	padding: 0 0 0 40px;
+}
+.dxheControl_BudwayDirectMarron .dxeMemo_BudwayDirectMarron textarea 
+{
+	resize:none;
+}
+.dxheControl_BudwayDirectMarron td.dxheDesignViewArea_BudwayDirectMarron
+{
+    position: relative;
+}
+td.dxheDesignViewArea_BudwayDirectMarron .dxmLite_BudwayDirectMarron {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_BudwayDirectMarron .dxmLite_BudwayDirectMarron.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_BudwayDirectMarron .dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_BudwayDirectMarron .dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_BudwayDirectMarron .dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_BudwayDirectMarron .dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_BudwayDirectMarron img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_BudwayDirectMarron img.dxheAudio,
+.dxheViewArea_BudwayDirectMarron img.dxheFlash,
+.dxheViewArea_BudwayDirectMarron img.dxheVideo,
+.dxheViewArea_BudwayDirectMarron img.dxheYoutube,
+.dxheViewArea_BudwayDirectMarron img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_BudwayDirectMarron .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_BudwayDirectMarron.dxheDesignViewArea_BudwayDirectMarron .dxheSelected
+{
+    background-color: #C57C96;
+    color: white;
+}
+.dxhe-insertPlaceholder .dxeListBox_BudwayDirectMarron.dxeFocused_BudwayDirectMarron
+{
+    border: 1px solid #BC758E;
+}
+.dxpc-contentWrapper .dxflFormLayout_BudwayDirectMarron.dxhe-insertPlaceholder .dxflGroup_BudwayDirectMarron .dxflGroupBox_BudwayDirectMarron
+{
+    padding: 0 0 6px 0;
+    margin: 0;
+}
+.dxpc-contentWrapper .dxflFormLayout_BudwayDirectMarron.dxhe-insertPlaceholder .dxflGroup_BudwayDirectMarron .dxflGroupBox_BudwayDirectMarron .dxflListBoxItemSys
+{
+    padding-top: 0;
+}
+.dxhe-insertPlaceholder .dxflGroup_BudwayDirectMarron .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 10px;
+}
+.dxhe-insertPlaceholder .dxeListBox_BudwayDirectMarron,
+.dxhe-insertPlaceholder .dxeListBox_BudwayDirectMarron .dxlbd
+{
+    width: 220px;
+    height: 200px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_BudwayDirectMarron .CodeMirror-activeline-background 
+{
+    background-color: #AD275C;
+    opacity: 0.1;
+}
+.dxheHtmlViewArea_BudwayDirectMarron .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_BudwayDirectMarron .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_BudwayDirectMarron .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_BudwayDirectMarron table.dxEmptyBorderTable,
+body.dxheDesignViewArea_BudwayDirectMarron table.dxEmptyBorderTable td  {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_BudwayDirectMarron table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_BudwayDirectMarron table.dxEmptyBorderTable td  {
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_BudwayDirectMarron
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_BudwayDirectMarron pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+/* Status Bar */
+.dxheStatusBar_BudwayDirectMarron 
+{
+}
+.dxheStatusBarTab_BudwayDirectMarron 
+{    
+}
+.dxheStatusBar_BudwayDirectMarron .dxheStatusBarActiveTab_BudwayDirectMarron 
+{
+    background-color: White;
+}
+.dxHtmlEditor_heSizeGrip_BudwayDirectMarron 
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_BudwayDirectMarron 
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_BudwayDirectMarron 
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -16px;
+}
+.dxheControl_BudwayDirectMarron.dxhe-rtl .dxheSizeGripContainer_BudwayDirectMarron 
+{
+	text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_BudwayDirectMarron .dxheDlgFooter,
+.dxpcLite_BudwayDirectMarron .dxheCustomDialog_BudwayDirectMarron .dxhecd-Buttons
+{
+	background-color: #EED8E3;
+	border-top: 1px #CB9FB4 solid;
+	padding: 10px 11px;
+	text-align: right;
+}
+.dxpcLite_BudwayDirectMarron.dxRtl .dxheDlgFooter,
+.dxpcLite_BudwayDirectMarron.dxRtl .dxheCustomDialog_BudwayDirectMarron .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_BudwayDirectMarron .dxheDlgFooterBtn
+{
+    width: 80px;
+    margin-left: 8px;
+}
+.dxpcLite_BudwayDirectMarron.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 8px;
+    margin-left: 0;
+}
+.dxpcLite_BudwayDirectMarron .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+.dxpcLite_BudwayDirectMarron .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #BC758E;
+}
+.dxhe-dialog .dxflGroupBoxCaption_BudwayDirectMarron
+{
+	background-color: #F5ECF1;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_BudwayDirectMarron
+{
+	height: 1px;
+}
+.dxtbControl_BudwayDirectMarron 
+{
+	color: black;
+	background-color: #f48d7f;
+    border-bottom: Solid 1px #f48d7f;
+}
+
+.dxtbControl_BudwayDirectMarron td.dxmtb.dxmMenu_BudwayDirectMarron
+{
+	border-width: 0px;
+}
+.dxtbComboBoxMenuItem_BudwayDirectMarron
+{
+    padding: 2px 0px;
+    padding-right: 1px;
+}
+.dxheControl_BudwayDirectMarron .dxrControl_BudwayDirectMarron .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+    border-color: #A74768;
+}
+.dxheControl_BudwayDirectMarron .dxrControl_BudwayDirectMarron .dxr-minBtn
+{
+    padding-right: 6px;
+}
+.dxheControl_BudwayDirectMarron .dxtbControl_BudwayDirectMarron.dxtbr_BudwayDirectMarron,
+.dxheControl_BudwayDirectMarron .dxrControl_BudwayDirectMarron .dxtc-strip.dxtc-stripContainer,
+.dxheControl_BudwayDirectMarron .dxrControl_BudwayDirectMarron .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_BudwayDirectMarron .dxmLite_BudwayDirectMarron .dxm-main.dxmtb 
+{
+    border-width: 0px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal.dxmtb .dxm-image-r .dxtb-comboBoxMenuItem 
+{
+	padding-left: 1px;
+}
+.dxmLite_BudwayDirectMarron .dxhetipControl_BudwayDirectMarron img
+{
+	vertical-align: top;
+}
+.dxtbControl_BudwayDirectMarron .dxmLite_BudwayDirectMarron .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_BudwayDirectMarron .dxmLite_BudwayDirectMarron .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_BudwayDirectMarron { }
+.dxtcbColorDiv_BudwayDirectMarron
+{
+	width: 16px;
+	height: 4px;
+	font-size: 0;
+	background-color: Red;
+    margin-top: -3px;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_BudwayDirectMarron .dxrpcontent
+{
+    padding: 11px !important;
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_BudwayDirectMarron .dxhe-dialogSettings 
+{
+    width: 250px;
+    padding-left: 16px;
+}
+.dxflFormLayout_BudwayDirectMarron.dxhe-mediaDialog 
+{
+    width: 700px;
+}
+.dxflFormLayout_BudwayDirectMarron.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_BudwayDirectMarron.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 450px;
+}
+div.dxflFormLayout_BudwayDirectMarron.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+div.dxflFormLayout_BudwayDirectMarron.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_BudwayDirectMarron.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 16px;
+}
+div.dxflFormLayout_BudwayDirectMarron.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_BudwayDirectMarron.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 32px;
+}
+/* tag inspector */
+.dxheDesignViewArea_BudwayDirectMarron .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_BudwayDirectMarron.dxeFocused_BudwayDirectMarron
+{
+    border-color: #8A0A37;
+}
+
+div.dxhe-searchQuick div.dxbButton_BudwayDirectMarron,
+div.dxhe-searchQuick div.dxbButton_BudwayDirectMarron .dxb
+{
+    background: none !important;
+    border: none !important;
+}
+

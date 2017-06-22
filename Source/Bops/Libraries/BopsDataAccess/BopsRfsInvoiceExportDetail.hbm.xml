@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsInvoiceExportDetail, BopsDataAccess" table="[RFS Invoice Export Details]" lazy="false">
+    <composite-id>
+      <key-property name="ExportRef" column="[Export Ref]"/>
+      <key-property name="InvoiceRef" column="[Invoice Ref]"/>
+      <key-property name="GeneralLedgerCode" column="[General Ledger Code]" />
+    </composite-id>
+    <property name="ClientAbbreviation" column="[Client Abbreviation]" />
+    <property name="DetailAmount" column="[Detail Amount]" />
+    <property name="InvoiceDate" column="[Invoice Date]" />
+    <property name="DueDate" column="[Due Date]" />
+  </class>
+</hibernate-mapping>

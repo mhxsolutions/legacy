@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\sql4\Web Sites\CopsWeb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Administration/AdministerError.aspx">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Administration/AdministerShowSiteLog.aspx">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Administration/AdministerUserReports.aspx">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Administration/AdministerUsers.aspx">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Administration/AdministerUsersDelete.aspx">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Administration/AdministerUsersPassword.aspx">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Administration/BudwayUserDetails.aspx">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Administration/BudwayUsers.aspx">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Administration/Default.aspx">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Administration/Web.config">
+      <publishTime>03/03/2015 11:37:53</publishTime>
+    </File>
+    <File Include="App_Browsers/CSSFriendlyAdapters.browser">
+      <publishTime>03/03/2015 11:38:40</publishTime>
+    </File>
+    <File Include="App_Themes/DefaultTheme/DefaultGridView.skin">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="App_Themes/DefaultTheme/DefaultTheme.css">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="App_Themes/DefaultTheme/DefaultTheme.skin">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Authentication/ChangePassword.aspx">
+      <publishTime>03/03/2015 11:37:42</publishTime>
+    </File>
+    <File Include="Authentication/Login.aspx">
+      <publishTime>03/03/2015 11:37:42</publishTime>
+    </File>
+    <File Include="Authentication/Logout.aspx">
+      <publishTime>03/03/2015 11:37:42</publishTime>
+    </File>
+    <File Include="Authentication/PasswordReminder.aspx">
+      <publishTime>03/03/2015 11:37:42</publishTime>
+    </File>
+    <File Include="Authentication/Web.config">
+      <publishTime>03/03/2015 11:37:42</publishTime>
+    </File>
+    <File Include="bin/BopsAuthentication.dll">
+      <publishTime>03/03/2015 13:22:03</publishTime>
+    </File>
+    <File Include="bin/BopsDataAccess.dll">
+      <publishTime>03/03/2015 13:22:05</publishTime>
+    </File>
+    <File Include="bin/BopsDataConnector.dll">
+      <publishTime>03/03/2015 13:22:04</publishTime>
+    </File>
+    <File Include="bin/BopsUtilities.dll">
+      <publishTime>03/03/2015 13:22:08</publishTime>
+    </File>
+    <File Include="bin/Castle.DynamicProxy.dll">
+      <publishTime>03/03/2015 11:38:28</publishTime>
+    </File>
+    <File Include="bin/CopsUtilities.dll">
+      <publishTime>03/03/2015 13:22:06</publishTime>
+    </File>
+    <File Include="bin/CopsWeb.dll">
+      <publishTime>03/03/2015 13:22:17</publishTime>
+    </File>
+    <File Include="bin/CopsWebReportUtils.dll">
+      <publishTime>03/03/2015 13:22:07</publishTime>
+    </File>
+    <File Include="bin/CSSFriendly.dll">
+      <publishTime>03/03/2015 11:38:27</publishTime>
+    </File>
+    <File Include="bin/DataUtilities.dll">
+      <publishTime>03/03/2015 13:22:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Charts.v14.2.Core.dll">
+      <publishTime>03/03/2015 09:37:35</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v14.2.dll">
+      <publishTime>03/03/2015 09:36:31</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Docs.v14.2.dll">
+      <publishTime>03/03/2015 09:37:03</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v14.2.Core.dll">
+      <publishTime>03/03/2015 09:37:10</publishTime>
+    </File>
+    <File Include="bin/DevExpress.PivotGrid.v14.2.Core.dll">
+      <publishTime>03/03/2015 09:37:39</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v14.2.Core.dll">
+      <publishTime>03/03/2015 09:37:11</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v14.2.Core.dll">
+      <publishTime>03/03/2015 09:37:43</publishTime>
+    </File>
+    <File Include="bin/DevExpress.SpellChecker.v14.2.Core.dll">
+      <publishTime>03/03/2015 09:37:23</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Utils.v14.2.dll">
+      <publishTime>03/03/2015 09:37:26</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxHtmlEditor.v14.2.dll">
+      <publishTime>03/03/2015 09:36:20</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxPivotGrid.v14.2.dll">
+      <publishTime>03/03/2015 09:36:20</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxSpellChecker.v14.2.dll">
+      <publishTime>03/03/2015 09:36:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxSpreadsheet.v14.2.dll">
+      <publishTime>03/03/2015 09:37:24</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v14.2.dll">
+      <publishTime>03/03/2015 09:36:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxTreeList.v14.2.dll">
+      <publishTime>03/03/2015 09:36:21</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v14.2.dll">
+      <publishTime>03/03/2015 09:36:20</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v14.2.dll">
+      <publishTime>03/03/2015 09:37:36</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraCharts.v14.2.Web.dll">
+      <publishTime>03/03/2015 09:36:20</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraEditors.v14.2.dll">
+      <publishTime>03/03/2015 09:37:37</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraPivotGrid.v14.2.dll">
+      <publishTime>03/03/2015 09:37:39</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraPrinting.v14.2.dll">
+      <publishTime>03/03/2015 09:37:39</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v14.2.dll">
+      <publishTime>03/03/2015 09:37:41</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraReports.v14.2.Web.dll">
+      <publishTime>03/03/2015 09:37:41</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraScheduler.v14.2.Core.dll">
+      <publishTime>03/03/2015 09:37:49</publishTime>
+    </File>
+    <File Include="bin/DevExpress.XtraScheduler.v14.2.dll">
+      <publishTime>03/03/2015 09:37:45</publishTime>
+    </File>
+    <File Include="bin/Dundas.Charting.WebControl.Chart.lic">
+      <publishTime>03/03/2015 11:38:27</publishTime>
+    </File>
+    <File Include="bin/Dundas.Gauges.WebControl.GaugeContainer.lic">
+      <publishTime>03/03/2015 11:38:28</publishTime>
+    </File>
+    <File Include="bin/DundasWebChart.dll">
+      <publishTime>03/03/2015 11:38:27</publishTime>
+    </File>
+    <File Include="bin/DundasWebChart.xml">
+      <publishTime>03/03/2015 11:38:27</publishTime>
+    </File>
+    <File Include="bin/DundasWebGauge.xml">
+      <publishTime>03/03/2015 11:38:26</publishTime>
+    </File>
+    <File Include="bin/Iesi.Collections.dll">
+      <publishTime>03/03/2015 12:01:49</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>03/03/2015 11:39:51</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/03/2015 12:01:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Common.dll">
+      <publishTime>03/03/2015 13:04:33</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.dll">
+      <publishTime>03/03/2015 13:04:35</publishTime>
+    </File>
+    <File Include="bin/NHibernate.dll">
+      <publishTime>03/03/2015 12:01:59</publishTime>
+    </File>
+    <File Include="bin/NHibernateUtilities.dll">
+      <publishTime>03/03/2015 13:22:04</publishTime>
+    </File>
+    <File Include="Controls/LoadTrackingControl.ascx">
+      <publishTime>03/03/2015 11:38:34</publishTime>
+    </File>
+    <File Include="Controls/LoadTrackingUnifiedHistoryControl.ascx">
+      <publishTime>03/03/2015 11:38:35</publishTime>
+    </File>
+    <File Include="Controls/LoadTrackingUnifiedLoadContentsControl.ascx">
+      <publishTime>03/03/2015 11:38:34</publishTime>
+    </File>
+    <File Include="Customers/Alcoa/Delivery Summary.aspx">
+      <publishTime>03/03/2015 11:37:42</publishTime>
+    </File>
+    <File Include="Customers/Ball/Ball-CurrentAndShipping.aspx">
+      <publishTime>03/03/2015 11:37:51</publishTime>
+    </File>
+    <File Include="Customers/BlueLinx/bltransactions.aspx">
+      <publishTime>03/03/2015 11:37:43</publishTime>
+    </File>
+    <File Include="Customers/Default.aspx">
+      <publishTime>03/03/2015 11:37:53</publishTime>
+    </File>
+    <File Include="Customers/Maas/MaasDwell.aspx">
+      <publishTime>03/03/2015 11:37:43</publishTime>
+    </File>
+    <File Include="Customers/Maas/MaasDwellDetail.aspx">
+      <publishTime>03/03/2015 11:37:43</publishTime>
+    </File>
+    <File Include="Customers/Metal Container/MiraLoma-CurrentAndShipping.aspx">
+      <publishTime>03/03/2015 11:37:43</publishTime>
+    </File>
+    <File Include="Customers/Metal Container/Riverside-CurrentAndShipping.aspx">
+      <publishTime>03/03/2015 11:37:43</publishTime>
+    </File>
+    <File Include="Customers/Thoro/ThoroDwell.aspx">
+      <publishTime>03/03/2015 11:37:51</publishTime>
+    </File>
+    <File Include="Customers/Thoro/ThoroLoadPlan.aspx">
+      <publishTime>03/03/2015 11:37:51</publishTime>
+    </File>
+    <File Include="Customers/Wise/Consumption.aspx">
+      <publishTime>03/03/2015 11:37:43</publishTime>
+    </File>
+    <File Include="Customers/Wise/HFI.aspx">
+      <publishTime>03/03/2015 11:37:43</publishTime>
+    </File>
+    <File Include="Customers/Wise/MCCmatrix.aspx">
+      <publishTime>03/03/2015 11:37:43</publishTime>
+    </File>
+    <File Include="Customers/Wise/Return.aspx">
+      <publishTime>03/03/2015 11:37:43</publishTime>
+    </File>
+    <File Include="Customers/_All/BOLs.aspx">
+      <publishTime>03/03/2015 12:14:06</publishTime>
+    </File>
+    <File Include="Customers/_All/boxinfo.aspx">
+      <publishTime>03/03/2015 12:14:07</publishTime>
+    </File>
+    <File Include="Customers/_All/CLPindex.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/Committed_Inventory.aspx">
+      <publishTime>03/03/2015 12:14:10</publishTime>
+    </File>
+    <File Include="Customers/_All/Consigned_Loads.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/ContainerProjectDetail.aspx">
+      <publishTime>03/03/2015 12:14:11</publishTime>
+    </File>
+    <File Include="Customers/_All/ContainerProjectsSummary.aspx">
+      <publishTime>03/03/2015 12:14:11</publishTime>
+    </File>
+    <File Include="Customers/_All/CSR.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/Default.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/DefaultHarbor.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/DefaultInv.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/Defaultloaddet.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/Defaultloadhist.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/Defaultrail.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/DefaultTTL.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/FscCentsPerMileMatrix.aspx">
+      <publishTime>03/03/2015 12:14:20</publishTime>
+    </File>
+    <File Include="Customers/_All/FscFuelPriceHistory.aspx">
+      <publishTime>03/03/2015 12:14:20</publishTime>
+    </File>
+    <File Include="Customers/_All/FscMatrices.aspx">
+      <publishTime>03/03/2015 12:14:22</publishTime>
+    </File>
+    <File Include="Customers/_All/FscPercentMatrix.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/HarborDetail.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/HarborDetailHistory.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/HarborLoadDetails.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/HarborLoadDetailShipper.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/HarborSummary.aspx">
+      <publishTime>03/03/2015 11:37:51</publishTime>
+    </File>
+    <File Include="Customers/_All/InboundShippingMap.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/InventoryAtBudwaySummary.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/inventoryatFON.aspx">
+      <publishTime>03/03/2015 12:14:27</publishTime>
+    </File>
+    <File Include="Customers/_All/InventoryConsignedDetail.aspx">
+      <publishTime>03/03/2015 12:14:27</publishTime>
+    </File>
+    <File Include="Customers/_All/InventoryOCTG.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/InventoryOCTG2.aspx">
+      <publishTime>03/03/2015 12:14:28</publishTime>
+    </File>
+    <File Include="Customers/_All/InventoryOnConsignment.aspx">
+      <publishTime>03/03/2015 12:14:28</publishTime>
+    </File>
+    <File Include="Customers/_All/InventoryOnConsignmentOCTG.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/InvoiceDisplay.aspx">
+      <publishTime>03/03/2015 11:37:51</publishTime>
+    </File>
+    <File Include="Customers/_All/InvoiceHistory.aspx">
+      <publishTime>03/03/2015 11:37:51</publishTime>
+    </File>
+    <File Include="Customers/_All/InvoiceSearch.aspx">
+      <publishTime>03/03/2015 12:14:29</publishTime>
+    </File>
+    <File Include="Customers/_All/InvoiceSupportingDocumentsDisplay.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/LoadCtHistory.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/loadctreview.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/LoadHistory2.aspx">
+      <publishTime>03/03/2015 12:14:31</publishTime>
+    </File>
+    <File Include="Customers/_All/LoadTrackingReport.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/LoadTrackingReportInvalidLoadError.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/OCTGinvAdv.aspx">
+      <publishTime>03/03/2015 12:14:36</publishTime>
+    </File>
+    <File Include="Customers/_All/OutboundShippingMap.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/PlannedDeliveriesToday.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/PlannedDestinationLoadHistory.aspx">
+      <publishTime>03/03/2015 11:37:51</publishTime>
+    </File>
+    <File Include="Customers/_All/PlannedOriginLoadHistory.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/PlannedOriginToday.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/PlannedReceiverLoadHistory.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/PlannedReceiverToday.aspx">
+      <publishTime>03/03/2015 11:37:51</publishTime>
+    </File>
+    <File Include="Customers/_All/PlannedShipmentsToday.aspx">
+      <publishTime>03/03/2015 11:37:51</publishTime>
+    </File>
+    <File Include="Customers/_All/PlannedShipperLoadHistory.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/Product_Consigned_Transactions_Lookup.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/Product_Transactions.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/Product_Transactions_Lookup.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/Product_Transactions_Lookup_RunningTotals.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/Product_Transactions_Lookup_RunningTotals2.aspx">
+      <publishTime>03/03/2015 12:14:41</publishTime>
+    </File>
+    <File Include="Customers/_All/Product_Transactions_RunningTotals.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/ProfileList.aspx">
+      <publishTime>03/03/2015 11:37:51</publishTime>
+    </File>
+    <File Include="Customers/_All/Rail.aspx">
+      <publishTime>03/03/2015 12:14:42</publishTime>
+    </File>
+    <File Include="Customers/_All/receiving.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/ReceivingOCTG.aspx">
+      <publishTime>03/03/2015 12:14:44</publishTime>
+    </File>
+    <File Include="Customers/_All/SearchHarborInv.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/SearchInventoryatFON.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/StorageBillings.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/tally_detail.aspx">
+      <publishTime>03/03/2015 12:14:46</publishTime>
+    </File>
+    <File Include="Customers/_All/tonsMTD.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/transactions.aspx">
+      <publishTime>03/03/2015 11:37:49</publishTime>
+    </File>
+    <File Include="Customers/_All/TransitConsigned.aspx">
+      <publishTime>03/03/2015 12:14:47</publishTime>
+    </File>
+    <File Include="Customers/_All/TransitInv.aspx">
+      <publishTime>03/03/2015 12:14:47</publishTime>
+    </File>
+    <File Include="Customers/_All/Vessel_Loads.aspx">
+      <publishTime>03/03/2015 11:37:50</publishTime>
+    </File>
+    <File Include="Customers/_All/WebForm1.aspx">
+      <publishTime>03/03/2015 13:20:17</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/Default.aspx">
+      <publishTime>03/03/2015 11:37:53</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/encana/encana_receivers.aspx">
+      <publishTime>03/03/2015 11:37:52</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/encana/encana_release_details.aspx">
+      <publishTime>03/03/2015 11:37:52</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/encana/encana_release_review.aspx">
+      <publishTime>03/03/2015 11:37:52</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/flyashentry.aspx">
+      <publishTime>03/03/2015 12:15:39</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/flyashonsite.aspx">
+      <publishTime>03/03/2015 12:15:39</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/flyash_analysis.aspx">
+      <publishTime>03/03/2015 12:15:40</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/fly_ash_pipeline.aspx">
+      <publishTime>03/03/2015 11:37:52</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/GPsummary.aspx">
+      <publishTime>03/03/2015 11:37:52</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/GPtimeanalysis.aspx">
+      <publishTime>03/03/2015 12:15:43</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/GroupedShipments.aspx">
+      <publishTime>03/03/2015 11:37:52</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/Product_Transactions_Lookup.aspx">
+      <publishTime>03/03/2015 11:37:53</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/Rail Summary with Preferred Date.aspx">
+      <publishTime>03/03/2015 11:37:53</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/Recv_Confirm.aspx">
+      <publishTime>03/03/2015 12:15:44</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/UPI_Planned.aspx">
+      <publishTime>03/03/2015 12:15:45</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/wellsite transaction.aspx">
+      <publishTime>03/03/2015 11:37:52</publishTime>
+    </File>
+    <File Include="Customers/_Assigned/wellsite.aspx">
+      <publishTime>03/03/2015 11:37:52</publishTime>
+    </File>
+    <File Include="CustomerService.master">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/03/2015 11:38:34</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/03/2015 11:38:34</publishTime>
+    </File>
+    <File Include="Images/Budway Logo.gif">
+      <publishTime>03/03/2015 11:38:38</publishTime>
+    </File>
+    <File Include="Images/budway_header_for_web_apps.png">
+      <publishTime>03/03/2015 11:38:39</publishTime>
+    </File>
+    <File Include="Images/Cops Web Logo.gif">
+      <publishTime>03/03/2015 11:38:39</publishTime>
+    </File>
+    <File Include="Images/generic_header_for_copsweb_OL.png">
+      <publishTime>03/03/2015 11:38:39</publishTime>
+    </File>
+    <File Include="Images/generic_header_for_copsweb_OL_STAR_without_line.png">
+      <publishTime>03/03/2015 11:38:40</publishTime>
+    </File>
+    <File Include="Images/generic_header_for_copsweb_OL_STAR_with_line.png">
+      <publishTime>03/03/2015 11:38:39</publishTime>
+    </File>
+    <File Include="Images/generic_header_for_copsweb_OL_STAR_with_line_big.png">
+      <publishTime>03/03/2015 11:38:39</publishTime>
+    </File>
+    <File Include="Images/PushPin - Destination.gif">
+      <publishTime>03/03/2015 11:38:39</publishTime>
+    </File>
+    <File Include="Images/PushPin - Truck.gif">
+      <publishTime>03/03/2015 11:38:38</publishTime>
+    </File>
+    <File Include="Images/TTL-Invoice-Header.jpg">
+      <publishTime>03/03/2015 11:38:38</publishTime>
+    </File>
+    <File Include="Images/TTL-Invoice-Header.png">
+      <publishTime>03/03/2015 11:38:39</publishTime>
+    </File>
+    <File Include="Images/Web.config">
+      <publishTime>03/03/2015 11:38:38</publishTime>
+    </File>
+    <File Include="NHibernateDwsNoRepData.xml.config">
+      <publishTime>03/03/2015 11:38:34</publishTime>
+    </File>
+    <File Include="NHibernateDwsRepData.xml.config">
+      <publishTime>03/03/2015 11:38:34</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/03/2015 11:38:34</publishTime>
+    </File>
+    <File Include="Power Users/ImpersonateClient.aspx">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Power Users/Web.config">
+      <publishTime>03/03/2015 11:37:54</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/03/2015 13:22:19</publishTime>
+    </File>
+    <File Include="Web.sitemap">
+      <publishTime>03/03/2015 11:38:42</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/Castle.DynamicProxy.dll">
+      <publishTime>03/03/2015 11:38:28</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/CSSFriendly.dll">
+      <publishTime>03/03/2015 11:38:27</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/Dundas.Charting.WebControl.Chart.lic">
+      <publishTime>03/03/2015 11:38:27</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/Dundas.Gauges.WebControl.GaugeContainer.lic">
+      <publishTime>03/03/2015 11:38:28</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/DundasWebChart.dll">
+      <publishTime>03/03/2015 11:38:27</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/DundasWebChart.xml">
+      <publishTime>03/03/2015 11:38:27</publishTime>
+    </File>
+    <File Include="_bin_deployableAssemblies/DundasWebGauge.xml">
+      <publishTime>03/03/2015 11:38:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

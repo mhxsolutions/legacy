@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="BopsDataAccess.BopsDestinationSetAssignment, BopsDataAccess" table="[Destination Set Assignments]" lazy="false">
+		<composite-id>
+			<key-property name="SetRef" column="[Set Ref]"/>
+			<key-property name="DestinationRef" column="[Destination Ref]"/>
+		</composite-id>
+	</class>
+</hibernate-mapping>

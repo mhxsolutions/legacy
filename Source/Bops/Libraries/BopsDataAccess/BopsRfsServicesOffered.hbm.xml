@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsServicesOffered, BopsDataAccess" table="[RFS Services Offered]" lazy="false">
+    <id name="Id" column="[Service Offered Id]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="Name" column="[Name]"/>
+    <property name="CategoryRef" column="[Service Category Ref]"/>
+    <property name="CostMethodRef" column="[Cost Method Ref]"/>
+    <property name="Cost" column="[Cost]"/>
+    <property name="UnitRef" column="[Unit Ref]"/>
+    <property name="CostMatrixRef" column="[Cost Matrix Ref]"/>
+    <property name="GeneralLedgerCode" column="[General Ledger Code]"/>
+    <property name="SolomonAccountNumber" column="[SL Account Num]"/>
+    <property name="SolomonCostCenterType" column="[SL Cost Center Type]"/>
+    <property name="SLCOA" column="[SLCOA]"/>
+    <property name="SLSUB" column="[SLSUB]"/>
+    <property name="CompanyRef" column="[Company ID ref]"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,561 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_BudwayThemeFromMulberry
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.dxheLoadingPanel_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxheLoadingPanel_BudwayThemeFromMulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxheLoadingPanel_BudwayThemeFromMulberry .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+.dxheControl_BudwayThemeFromMulberry
+{
+    border: Solid 1px #cbcbcb;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+
+/* Area */
+.dxheContentArea_BudwayThemeFromMulberry
+{
+    padding: 0;
+}
+.dxheErrorFrame_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheControl_BudwayThemeFromMulberry .dxeMemo_BudwayThemeFromMulberry .dxheErrorFrame_BudwayThemeFromMulberry .dxhe,
+.dxheControl_BudwayThemeFromMulberry.dxhe-rtl .dxeMemo_BudwayThemeFromMulberry .dxheErrorFrame_BudwayThemeFromMulberry .dxhe,
+.dxheErrorFrame_BudwayThemeFromMulberry .dxhe 
+{
+    padding: 5px;
+}
+.dxheControl_BudwayThemeFromMulberry .dxeMemo_BudwayThemeFromMulberry .dxheErrorFrame_BudwayThemeFromMulberry .dxhe td,
+.dxheControl_BudwayThemeFromMulberry.dxhe-rtl .dxeMemo_BudwayThemeFromMulberry .dxheErrorFrame_BudwayThemeFromMulberry .dxhe td,
+.dxheErrorFrame_BudwayThemeFromMulberry .dxhe td 
+{
+    padding: 0;
+}
+.dxheErrorFrame_BudwayThemeFromMulberry .dxheErrorFrameCloseButton_BudwayThemeFromMulberry 
+{
+    cursor: pointer;
+}
+.dxheViewArea_BudwayThemeFromMulberry,
+.dxheViewArea_BudwayThemeFromMulberry.dxeMemo_BudwayThemeFromMulberry
+{
+    border: 0;
+}
+.dxheContentArea_BudwayThemeFromMulberry td.dxheViewArea_BudwayThemeFromMulberry 
+{
+    line-height: 0;
+}
+.dxheContentArea_BudwayThemeFromMulberry td.dxheViewArea_BudwayThemeFromMulberry.dxheHtmlViewArea_BudwayThemeFromMulberry
+{
+    line-height: inherit;
+}
+.dxheDesignViewArea_BudwayThemeFromMulberry,
+.dxhePreviewArea_BudwayThemeFromMulberry
+{
+    background-color: #FFFFFF;
+}
+.dxheControl_BudwayThemeFromMulberry .dxheHtmlViewArea_BudwayThemeFromMulberry,
+.dxheHtmlViewArea_BudwayThemeFromMulberry .CodeMirror,
+body.dxheDesignViewArea_BudwayThemeFromMulberry,
+body.dxhePreviewArea_BudwayThemeFromMulberry 
+{
+    margin: 0px;
+    background-color: #FFFFFF;
+    background-image: none;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #343434;
+}
+.dxheContentArea_BudwayThemeFromMulberry .dxeMemo_BudwayThemeFromMulberry,
+.dxheContentArea_BudwayThemeFromMulberry .dxeMemoEditArea_BudwayThemeFromMulberry
+{
+    background-color: white;
+}
+.dxheControl_BudwayThemeFromMulberry .dxeMemo_BudwayThemeFromMulberry.dxheHtmlViewArea_BudwayThemeFromMulberry .dxeMemoEditArea_BudwayThemeFromMulberry,
+body.dxheDesignViewArea_BudwayThemeFromMulberry,
+body.dxhePreviewArea_BudwayThemeFromMulberry
+{
+    padding: 15px 20px 0 20px;
+}
+.dxheControl_BudwayThemeFromMulberry .dxeMemo_BudwayThemeFromMulberry.dxheHtmlViewArea_BudwayThemeFromMulberry td
+{
+    padding: 0 40px 0 0;
+}
+.dxheControl_BudwayThemeFromMulberry.dxhe-rtl .dxheContentArea_BudwayThemeFromMulberry .dxeMemo_BudwayThemeFromMulberry.dxheHtmlViewArea_BudwayThemeFromMulberry td
+{
+	padding: 0 0 0 40px;
+}
+.dxheControl_BudwayThemeFromMulberry .dxeMemo_BudwayThemeFromMulberry textarea 
+{
+	resize:none;
+}
+.dxheControl_BudwayThemeFromMulberry td.dxheDesignViewArea_BudwayThemeFromMulberry .dxm-main.dxmtb 
+{
+    border: 1px solid #cfcfcf;
+    padding: 2px 3px;
+    background-color: #fafafa;
+}
+.dxheControl_BudwayThemeFromMulberry td.dxheDesignViewArea_BudwayThemeFromMulberry
+{
+    position: relative;
+}
+td.dxheDesignViewArea_BudwayThemeFromMulberry .dxmLite_BudwayThemeFromMulberry {
+    position: absolute;
+    right: 0;
+    padding-top: 5px;
+    padding-right: 22px;
+}
+td.dxheDesignViewArea_BudwayThemeFromMulberry .dxmLite_BudwayThemeFromMulberry.dxm-rtl {
+    right: inherit;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.dxheViewArea_BudwayThemeFromMulberry .dxheAudio
+{
+	background-image: url('dxheAudio.png');
+}
+.dxheViewArea_BudwayThemeFromMulberry .dxheFlash
+{
+	background-image: url('dxheFlash.png');
+}
+.dxheViewArea_BudwayThemeFromMulberry .dxheVideo
+{
+	background-image: url('dxheVideo.png');
+}
+.dxheViewArea_BudwayThemeFromMulberry .dxheYoutube
+{
+	background-image: url('dxheYoutube.png');
+}
+.dxheViewArea_BudwayThemeFromMulberry img.dxheNotSupported
+{
+	background-image: url('dxheNotSupported.png');
+}
+.dxheViewArea_BudwayThemeFromMulberry img.dxheAudio,
+.dxheViewArea_BudwayThemeFromMulberry img.dxheFlash,
+.dxheViewArea_BudwayThemeFromMulberry img.dxheVideo,
+.dxheViewArea_BudwayThemeFromMulberry img.dxheYoutube,
+.dxheViewArea_BudwayThemeFromMulberry img.dxheNotSupported
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cfcfcf;
+    border: 1px dotted #FFFFFF;
+    opacity: 0.8;
+}
+.dxheViewArea_BudwayThemeFromMulberry .dxhePlaceholder 
+{
+    cursor: default;
+    white-space: nowrap;
+}
+.dxheViewArea_BudwayThemeFromMulberry.dxheDesignViewArea_BudwayThemeFromMulberry .dxheSelected
+{
+    background-color: #C5C5C5;
+}
+.dxhe-insertPlaceholder .dxeListBox_BudwayThemeFromMulberry.dxeFocused_BudwayThemeFromMulberry
+{
+    border: 1px solid #CBCBCB;
+}
+div.dxflFormLayout_BudwayThemeFromMulberry.dxhe-dialog.dxhe-insertPlaceholder > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 20px 40px 30px 40px;
+}
+.dxhe-insertPlaceholder .dxflGroup_BudwayThemeFromMulberry .dxhe-dialogLI.dxhe-dialogButtonsContainer
+{
+    padding-top: 13px;
+}
+.dxhe-insertPlaceholder .dxeListBox_BudwayThemeFromMulberry,
+.dxhe-insertPlaceholder .dxeListBox_BudwayThemeFromMulberry .dxlbd
+{
+    width: 260px;
+    height: 240px;
+}
+/* CodeMirror */
+.dxheHtmlViewArea_BudwayThemeFromMulberry .CodeMirror-activeline-background 
+{
+    background: #efd3da;
+    opacity: 0.4;
+}
+.dxheHtmlViewArea_BudwayThemeFromMulberry .CodeMirror-foldgutter-open::after
+{
+    content: url('heFoldGutterOpen.png');
+}
+.dxheHtmlViewArea_BudwayThemeFromMulberry .CodeMirror-foldgutter-folded::after
+{
+    content: url('heFoldGutterFolded.png');
+}
+.dxheHtmlViewArea_BudwayThemeFromMulberry .CodeMirror-foldmarker::after
+{
+    content: url('dxheFoldMarker.png');
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_BudwayThemeFromMulberry table.dxEmptyBorderTable,
+body.dxheDesignViewArea_BudwayThemeFromMulberry table.dxEmptyBorderTable td {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_BudwayThemeFromMulberry table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_BudwayThemeFromMulberry table.dxEmptyBorderTable td {
+		border:0px;
+	}
+}
+body.dxheDesignViewArea_BudwayThemeFromMulberry
+{
+    word-wrap: inherit;
+}
+body.dxheDesignViewArea_BudwayThemeFromMulberry pre
+{
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+/* Status Bar */
+.dxheStatusBar_BudwayThemeFromMulberry 
+{
+    
+}
+.dxheStatusBarTab_BudwayThemeFromMulberry 
+{    
+}
+.dxHtmlEditor_heSizeGrip_BudwayThemeFromMulberry
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_BudwayThemeFromMulberry
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_BudwayThemeFromMulberry 
+{
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -18px;
+}
+.dxheControl_BudwayThemeFromMulberry.dxhe-rtl .dxheSizeGripContainer_BudwayThemeFromMulberry
+{
+	text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgFooter,
+.dxpcLite_BudwayThemeFromMulberry .dxheCustomDialog_BudwayThemeFromMulberry .dxhecd-Buttons
+{
+	background-color: #fafafa;
+	border-top: 1px #cbcbcb solid;
+	padding: 16px 11px;
+	text-align: right;
+}
+.dxpcLite_BudwayThemeFromMulberry.dxRtl .dxheDlgFooter,
+.dxpcLite_BudwayThemeFromMulberry.dxRtl .dxheCustomDialog_BudwayThemeFromMulberry .dxhecd-Buttons
+{
+    text-align: left;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgFooterBtn
+{
+    width: 100px;
+    margin-left: 6px;
+}
+.dxpcLite_BudwayThemeFromMulberry.dxRtl .dxheDlgFooterBtn
+{
+    margin-right: 6px;
+    margin-left: 0;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertImageForm .dxheDlgImagePreviewCell
+{
+    color: #737373;
+    border: dashed 1px #cac8c8;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgPasteFromWordForm .dxheDlgPasteContainerCell td
+{
+	border: Solid 1px #cbcbcb;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertImageForm .dxheDlgRadionButtonTable
+{
+    width: 360px;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertImageForm .dxheDlgFromTheWeb
+{
+    width: 360px;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertImageForm .dxheDlgWrapTextCell
+{
+    width: 180px;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertTableForm .dxheDlgCaptionCell,
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgTableColumnPropertiesForm .dxheDlgCaptionCell
+{
+    padding-top: 9px;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertImageForm .dxheDlgImagePropertiesForm .dxheDlgImagePropertiesCell .dxeTextBox_BudwayThemeFromMulberry,
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertImageForm .dxheDlgImagePropertiesForm .dxheDlgImagePropertiesCell .dxeButtonEdit_BudwayThemeFromMulberry  
+{ 
+    width: 200px!important; 
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertTableForm .dxrpControl_BudwayThemeFromMulberry > tbody > tr > td > table,
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgTableColumnPropertiesForm .dxrpControl_BudwayThemeFromMulberry > tbody > tr > td > table
+{
+    width: 480px!important;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertImageForm .dxheDlgSpinEdit,
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertTableForm .dxheDlgSpinEdit,
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgTableColumnPropertiesForm .dxheDlgSpinEdit
+{
+    width: 70px!important;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertImageForm .dxheDlgColorEdit,
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertTableForm .dxheDlgColorEdit,
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgTableColumnPropertiesForm .dxheDlgColorEdit
+{
+    width: 140px!important;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertTableForm .dxheDlgSizeComboBox,
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgTableColumnPropertiesForm .dxheDlgSizeComboBox
+{
+    width: 170px!important;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertTableForm .dxheDlgSizeTypeComboBox,
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgTableColumnPropertiesForm .dxheDlgSizeTypeComboBox
+{
+    width: 60px!important;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertTableForm .dxheDlgAlignComboBox,
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgTableColumnPropertiesForm .dxheDlgAlignComboBox
+{
+    width: 100px!important;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgInsertTableForm .dxheDlgHeaderComboBox,
+.dxpcLite_BudwayThemeFromMulberry .dxheDlgTableColumnPropertiesForm .dxheDlgHeaderComboBox
+{
+    width: 120px!important;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_BudwayThemeFromMulberry
+{
+	height: 1px;
+}
+.dxtbControl_BudwayThemeFromMulberry 
+{
+	color: #343434;
+	background-color: #fafafa;
+    border-bottom: Solid 1px #cbcbcb;
+}
+.dxtbControl_BudwayThemeFromMulberry > tbody > tr > td
+{
+    padding: 2px 0;
+}
+.dxtbControl_BudwayThemeFromMulberry td.dxmMenu_BudwayThemeFromMulberry
+{
+	border: 0;
+}
+.dxtbComboBoxMenuItem_BudwayThemeFromMulberry
+{
+    padding: 3px 2px;
+}
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry > .dxtc-stripContainer.dxtc-strip
+{
+    padding-top: 4px !important;
+}
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top .dxtc-leftIndent
+{
+    width: 4px !important;
+}
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top > .dxtc-stripContainer .dxtc-activeTab,
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top.dxtc-noSpacing > .dxtc-stripContainer .dxtc-activeTab.dxtc-lead,
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent
+{
+    border-bottom: 1px solid #cbcbcb!important;
+}
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+    border-bottom: 1px solid transparent!important;
+    border-top: 1px solid #cbcbcb!important;
+}
+.dxheControl_BudwayThemeFromMulberry.dxhe-rtl .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top .dxtc-stripContainer .dxtc-activeTab.dxtc-lead
+{
+    border-left: 1px solid #cbcbcb !important;
+    border-right: 1px solid transparent!important;
+}
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-tab
+{
+    background-color: transparent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-tabHover
+{
+    border-top: 1px solid #cbcbcb;
+    border-left: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+}
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top .dxtc-strip.dxtc-stripContainer .dxtc-spacer
+{
+    width: 2px;
+    margin-left: -1px;
+}
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top > ul
+{
+    border: 0!important;
+}
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxr-minBtn
+{
+    margin: 0 5px 0 0;
+}
+.dxheControl_BudwayThemeFromMulberry .dxtbControl_BudwayThemeFromMulberry.dxtbr_BudwayThemeFromMulberry,
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxpc-mainDiv.dxr-minPopup
+{
+    border: 0;
+}
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxr-tabContent
+{
+    border-width: 0 0 1px 0;
+    border-color: #cbcbcb;
+}
+.dxheControl_BudwayThemeFromMulberry .dxrControl_BudwayThemeFromMulberry .dxtcLite_BudwayThemeFromMulberry.dxtc-top .dxtc-tab
+{
+	background-color: #fafafa;
+}
+
+/* Toolbars Lightweight Mode */
+.dxmLite_BudwayThemeFromMulberry .dxhetipControl_BudwayThemeFromMulberry img
+{
+	vertical-align: top;
+	margin-top: 3px;
+}
+.dxtbControl_BudwayThemeFromMulberry .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbControl_BudwayThemeFromMulberry > img
+{
+    margin-top: -1px;
+}
+.dxtbControl_BudwayThemeFromMulberry .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbColorDiv_BudwayThemeFromMulberry
+{
+    margin-top: -1px;
+    margin-bottom: -2px;
+}
+.dxtbControl_BudwayThemeFromMulberry .dxmLite_BudwayThemeFromMulberry .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_BudwayThemeFromMulberry .dxmLite_BudwayThemeFromMulberry .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 4px;
+	padding-bottom: 5px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_BudwayThemeFromMulberry { }
+.dxtcbColorDiv_BudwayThemeFromMulberry
+{
+	width: 16px;
+	height: 4px;
+	font-size: 0;
+	background-color: Red;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_BudwayThemeFromMulberry .dxrpcontent
+{
+    padding: 9px 10px 10px 10px !important;
+}
+
+/* InsertMediaDialogs */
+.dxflFormLayout_BudwayThemeFromMulberry .dxhe-dialogSettings 
+{
+    width: 300px;
+    padding-left: 25px;
+}
+.dxflFormLayout_BudwayThemeFromMulberry.dxhe-mediaDialog 
+{
+    width: 800px;
+}
+.dxflFormLayout_BudwayThemeFromMulberry.dxhe-mediaDialog .dxic-control, 
+.dxflFormLayout_BudwayThemeFromMulberry.dxhe-mediaDialog .dxhe-dialogSettings 
+{
+    height: 570px;
+}
+div.dxflFormLayout_BudwayThemeFromMulberry.dxhe-dialog table.dxhe-dialogLG
+{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+div.dxflFormLayout_BudwayThemeFromMulberry.dxhe-dialog > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_BudwayThemeFromMulberry.dxhe-dialog .dxhe-dialogButtonsContainer  
+{
+    padding: 25px;
+}
+
+div.dxflFormLayout_BudwayThemeFromMulberry.dxhe-mediaDialogStyleSettings > table.dxhe-dialogLG.dxflGroupSys,
+div.dxflFormLayout_BudwayThemeFromMulberry.dxhe-mediaDialogMainSettings > table.dxhe-dialogLG.dxflGroupSys
+{
+    padding: 40px;
+}
+/* tag inspector */
+.dxheDesignViewArea_BudwayThemeFromMulberry .dxhe-tiSelection 
+{
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #2255FF;
+    background-color: #0066FF;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+.dxheDesignViewArea_BudwayThemeFromMulberry .dxhe-tiSeparator,
+.dxheDesignViewArea_BudwayThemeFromMulberry .dxhe-tiTagName 
+{
+    color: #343434;
+}
+
+.dxhe-intelliSenseSysWin .dxeListBox_BudwayThemeFromMulberry.dxeFocused_BudwayThemeFromMulberry
+{
+    border-color: #CBCBCB;
+    outline: inherit;
+}
+
+div.dxhe-searchQuick div.dxbButton_BudwayThemeFromMulberry .dxb
+{
+    padding: 1px 12px;
+}
+.dxpcLite_BudwayThemeFromMulberry.dxhe-quickSearchSysWin .dxhe-flItem0 
+{
+    padding-left: 2px !important;
+}
+div.dxhe-searchAdvancedButtons div.dxbButton_BudwayThemeFromMulberry .dxb
+{
+    padding: 2px 10px;
+}
+.dxflFormLayout_BudwayThemeFromMulberry.dxhe-searchAdvancedButtons .dxhe-searchdialogLG,
+.dxpcLite_BudwayThemeFromMulberry .dxhe-searchWarning
+{
+    padding: 12px;
+}
+.dxhe-searchAdvanced .dxflGroup_BudwayThemeFromMulberry.dxhe-searchdialogLG 
+{
+    padding: 20px 32px;
+}
+.dxflFormLayout_BudwayThemeFromMulberry.dxhe-searchdialog.dxhe-searchQuick
+{
+    padding: 2px;
+}

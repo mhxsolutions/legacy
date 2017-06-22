@@ -1,0 +1,633 @@
+.dxEditors_edtError_iOS,
+.dxEditors_edtCalendarPrevYear_iOS,
+.dxEditors_edtCalendarPrevYearDisabled_iOS,
+.dxEditors_edtCalendarPrevMonth_iOS,
+.dxEditors_edtCalendarPrevMonthDisabled_iOS,
+.dxEditors_edtCalendarNextMonth_iOS,
+.dxEditors_edtCalendarNextMonthDisabled_iOS,
+.dxEditors_edtCalendarNextYear_iOS,
+.dxEditors_edtCalendarNextYearDisabled_iOS,
+.dxEditors_edtCalendarFNPrevYear_iOS,
+.dxEditors_edtCalendarFNNextYear_iOS,
+.dxEditors_edtRadioButtonChecked_iOS,
+.dxEditors_edtRadioButtonUnchecked_iOS,
+.dxEditors_edtRadioButtonCheckedDisabled_iOS,
+.dxEditors_edtRadioButtonUncheckedDisabled_iOS,
+.dxEditors_edtEllipsis_iOS,
+.dxEditors_edtEllipsisDisabled_iOS,
+.dxEditors_edtDropDown_iOS,
+.dxEditors_edtDropDownDisabled_iOS,
+.dxEditors_edtSpinEditIncrementImage_iOS,
+.dxEditors_edtSpinEditIncrementImageDisabled_iOS,
+.dxEditors_edtSpinEditIncrementImagePressed_iOS,
+.dxEditors_edtSpinEditDecrementImage_iOS,
+.dxEditors_edtSpinEditDecrementImageDisabled_iOS,
+.dxEditors_edtSpinEditDecrementImagePressed_iOS,
+.dxEditors_edtSpinEditLargeIncImage_iOS,
+.dxEditors_edtSpinEditLargeIncImageDisabled_iOS,
+.dxEditors_edtSpinEditLargeIncImagePressed_iOS,
+.dxEditors_edtSpinEditLargeDecImage_iOS,
+.dxEditors_edtSpinEditLargeDecImageDisabled_iOS,
+.dxEditors_edtSpinEditLargeDecImagePressed_iOS,
+.dxEditors_fcadd_iOS,
+.dxEditors_fcaddhot_iOS,
+.dxEditors_fcremove_iOS,
+.dxEditors_fcremovehot_iOS,
+.dxEditors_fcgroupaddcondition_iOS,
+.dxEditors_fcgroupaddgroup_iOS,
+.dxEditors_fcgroupremove_iOS,
+.dxEditors_fcopany_iOS,
+.dxEditors_fcopbegin_iOS,
+.dxEditors_fcopbetween_iOS,
+.dxEditors_fcopcontain_iOS,
+.dxEditors_fcopnotcontain_iOS,
+.dxEditors_fcopnotequal_iOS,
+.dxEditors_fcopend_iOS,
+.dxEditors_fcopequal_iOS,
+.dxEditors_fcopgreater_iOS,
+.dxEditors_fcopgreaterorequal_iOS,
+.dxEditors_fcopnotblank_iOS,
+.dxEditors_fcopblank_iOS,
+.dxEditors_fcopless_iOS,
+.dxEditors_fcoplessorequal_iOS,
+.dxEditors_fcoplike_iOS,
+.dxEditors_fcopnotany_iOS,
+.dxEditors_fcopnotbetween_iOS,
+.dxEditors_fcopnotlike_iOS,
+.dxEditors_fcgroupand_iOS,
+.dxEditors_fcgroupor_iOS,
+.dxEditors_fcgroupnotand_iOS,
+.dxEditors_fcgroupnotor_iOS,
+.dxEditors_caRefresh_iOS,
+.dxEditors_edtTBDecBtn_iOS,
+.dxEditors_edtTBIncBtn_iOS,
+.dxEditors_edtTBMainDH_iOS,
+.dxEditors_edtTBSecondaryDH_iOS,
+.dxEditors_edtTBIncBtnDisabled_iOS,
+.dxEditors_edtTBDecBtnDisabled_iOS,
+.dxEditors_edtTBMainDHDisabled_iOS,
+.dxEditors_edtTBSecondaryDHDisabled_iOS,
+.dxEditors_edtCheckBoxSwitchOn_iOS,
+.dxEditors_edtCheckBoxSwitchOff_iOS,
+.dxEditors_edtCheckBoxSwitchOnDisabled_iOS,
+.dxEditors_edtCheckBoxSwitchOffDisabled_iOS,
+.dxEditors_edtRadioButtonListOn_iOS,
+.dxEditors_edtRadioButtonListOnDisabled_iOS
+{
+    background-image: url('sprite.png');
+    -background-image: url('sprite.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.dxEditors_edtError_iOS,
+.dxEditors_edtCalendarPrevYear_iOS,
+.dxEditors_edtCalendarPrevYearDisabled_iOS,
+.dxEditors_edtCalendarPrevMonth_iOS,
+.dxEditors_edtCalendarPrevMonthDisabled_iOS,
+.dxEditors_edtCalendarNextMonth_iOS,
+.dxEditors_edtCalendarNextMonthDisabled_iOS,
+.dxEditors_edtCalendarNextYear_iOS,
+.dxEditors_edtCalendarNextYearDisabled_iOS,
+.dxEditors_edtCalendarFNPrevYear_iOS,
+.dxEditors_edtCalendarFNNextYear_iOS,
+.dxEditors_edtEllipsis_iOS,
+.dxEditors_edtEllipsisDisabled_iOS,
+.dxEditors_edtDropDown_iOS,
+.dxEditors_edtDropDownDisabled_iOS,
+.dxEditors_edtSpinEditIncrementImage_iOS,
+.dxEditors_edtSpinEditIncrementImageDisabled_iOS,
+.dxEditors_edtSpinEditDecrementImage_iOS,
+.dxEditors_edtSpinEditDecrementImageDisabled_iOS,
+.dxEditors_edtSpinEditLargeIncImage_iOS,
+.dxEditors_edtSpinEditLargeIncImageDisabled_iOS,
+.dxEditors_edtSpinEditLargeDecImage_iOS,
+.dxEditors_edtSpinEditLargeDecImageDisabled_iOS
+{
+	display:block;
+    margin:auto;
+}
+
+.dxEditors_edtError_iOS {
+    background-position: -1px -243px;
+    width: 14px;
+    height: 14px;
+}
+
+/* SpinEdit */
+.dxEditors_edtSpinEditIncrementImage_iOS,
+.dxEditors_edtSpinEditIncrementImageDisabled_iOS,
+.dxEditors_edtSpinEditIncrementImagePressed_iOS,
+.dxEditors_edtSpinEditDecrementImage_iOS,
+.dxEditors_edtSpinEditDecrementImageDisabled_iOS,
+.dxEditors_edtSpinEditDecrementImagePressed_iOS
+{
+    display: block;
+	margin: auto;
+	width: 39px;
+    height: 19px;
+}
+.dxEditors_edtSpinEditLargeIncImage_iOS,
+.dxEditors_edtSpinEditLargeDecImage_iOS,
+.dxEditors_edtSpinEditLargeIncImageDisabled_iOS,
+.dxEditors_edtSpinEditLargeDecImageDisabled_iOS,
+.dxEditors_edtSpinEditLargeIncImagePressed_iOS,
+.dxEditors_edtSpinEditLargeDecImagePressed_iOS
+{
+	display: block;
+	margin: auto;
+	width: 39px;
+    height: 39px;
+}
+
+.dxEditors_edtSpinEditIncrementImage_iOS
+{
+    background-position: -213px -1px;
+}
+.dxEditors_edtSpinEditIncrementImageDisabled_iOS  
+{
+    background-position: -213px -41px;
+}
+
+.dxEditors_edtSpinEditIncrementImagePressed_iOS,
+.dxeSpinIncButtonPressed_iOS .dxEditors_edtSpinEditIncrementImage_iOS
+{ 
+	background-position: -213px -81px;
+}
+.dxEditors_edtSpinEditDecrementImage_iOS
+{
+    background-position: -213px -21px; 
+}
+.dxEditors_edtSpinEditDecrementImageDisabled_iOS  
+{
+    background-position: -213px -61px; 
+}
+.dxEditors_edtSpinEditDecrementImagePressed_iOS ,
+.dxeSpinDecButtonPressed_iOS .dxEditors_edtSpinEditDecrementImage_iOS
+{ 
+	background-position: -213px -101px; 
+}
+.dxEditors_edtSpinEditLargeIncImage_iOS
+{ 
+    background-position: -253px -1px;
+}
+.dxEditors_edtSpinEditLargeIncImageDisabled_iOS 
+{ 
+    background-position: -253px -41px;
+}
+.dxEditors_edtSpinEditLargeIncImagePressed_iOS 
+{ 
+	background-position: -253px -81px; 
+}
+.dxEditors_edtSpinEditLargeDecImage_iOS
+{ 
+    background-position: -173px -1px; 
+}
+.dxEditors_edtSpinEditLargeDecImageDisabled_iOS 
+{ 
+    background-position: -173px -41px; 
+}
+.dxEditors_edtSpinEditLargeDecImagePressed_iOS 
+{ 
+	background-position: -173px -81px; 
+}
+
+/* RadioButtonList */
+.dxEditors_edtRadioButtonListOn_iOS,
+.dxEditors_edtRadioButtonListOnDisabled_iOS,
+.dxEditors_edtRadioButtonListOff_iOS,
+.dxEditors_edtRadioButtonListOffDisabled_iOS
+{
+    width: 22px;
+    height: 22px;
+}
+
+.dxEditors_edtRadioButtonListOn_iOS
+{
+    background-position: -10px -145px;
+}
+
+.dxEditors_edtRadioButtonListOnDisabled_iOS
+{
+    background-position: -50px -134px;
+}
+
+.dxEditors_edtRadioButtonListOff_iOS,
+.dxEditors_edtRadioButtonListOffDisabled_iOS
+{
+    background-color: transparent;
+}
+
+/* TrackBar */
+.dxEditors_edtTBDecBtn_iOS, .dxEditors_edtTBIncBtn_iOS,
+.dxEditors_edtTBDecBtnHover_iOS, .dxEditors_edtTBIncBtnHover_iOS,
+.dxEditors_edtTBDecBtnPressed_iOS, .dxEditors_edtTBIncBtnPressed_iOS,
+.dxEditors_edtTBDecBtnDisabled_iOS, .dxEditors_edtTBIncBtnDisabled_iOS
+{
+	width: 15px;
+	height: 15px;
+}
+
+.dxEditors_edtTBMainDH_iOS, .dxeTBHSys .dxEditors_edtTBSecondaryDH_iOS,
+.dxEditors_edtTBMainDHHover_iOS, .dxeTBHSys .dxEditors_edtTBSecondaryDHHover_iOS,
+.dxEditors_edtTBMainDHPressed_iOS, .dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_iOS,
+.dxEditors_edtTBMainDHDisabled_iOS, .dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_iOS
+{
+	width: 23px;
+	height: 23px;
+}
+
+.dxEditors_edtTBDecBtn_iOS
+{
+	background-position: -6px -63px;
+}
+.dxEditors_edtTBDecBtnHover_iOS
+{
+	background-position: -6px -63px;
+}
+.dxEditors_edtTBDecBtnPressed_iOS
+{
+	background-position: -123px -132px;
+}
+.dxEditors_edtTBDecBtnDisabled_iOS
+{
+	background-position: -124px -63px;
+}
+
+.dxEditors_edtTBIncBtn_iOS
+{
+	background-position: -33px -63px;
+}
+.dxEditors_edtTBIncBtnHover_iOS
+{
+	background-position: -33px -63px;
+}
+.dxEditors_edtTBIncBtnPressed_iOS
+{ 
+	background-position: -95px -132px;
+}
+.dxEditors_edtTBIncBtnDisabled_iOS
+{
+	background-position: -95px -63px;
+}
+
+.dxEditors_edtTBMainDH_iOS,
+.dxEditors_edtTBSecondaryDH_iOS
+{
+	background-position: -68px -65px;
+}
+
+.dxEditors_edtTBMainDHPressed_iOS,
+.dxEditors_edtTBSecondaryDHPressed_iOS
+{
+	background-position: -126px -100px;
+	z-index: 7;
+}
+
+.dxEditors_edtTBMainDHDisabled_iOS,
+.dxEditors_edtTBSecondaryDHDisabled_iOS
+{
+	visibility: hidden;
+}
+
+/* Switch */
+.dxEditors_edtCheckBoxSwitchOn_iOS,
+.dxEditors_edtCheckBoxSwitchOff_iOS,
+.dxEditors_edtCheckBoxSwitchOnDisabled_iOS,
+.dxEditors_edtCheckBoxSwitchOffDisabled_iOS
+{
+    width: 65px;
+    height: 25px;
+    border: 1px Solid #B4B4B4!important;
+}
+.dxEditors_edtCheckBoxSwitchOn_iOS 
+{
+    background-position: -3px -25px;
+    -webkit-animation-name: 'switchOn';
+    -webkit-animation-fill-mode : forwards;
+	-webkit-animation-duration: 0.3s;
+}
+.dxEditors_edtCheckBoxSwitchOff_iOS 
+{
+    background-position: -43px -25px;
+    -webkit-animation-name: 'switchOff';
+    -webkit-animation-fill-mode : forwards;
+	-webkit-animation-duration: 0.3s;
+}
+.dxEditors_edtCheckBoxSwitchOnDisabled_iOS 
+{
+    background-position: -3px -99px;
+}
+.dxEditors_edtCheckBoxSwitchOffDisabled_iOS 
+{
+    background-position: -43px -99px;
+}
+
+@-webkit-keyframes 'switchOn' {
+    from { background-position: -43px -25px; }
+    to { background-position: -3px -25px; }	
+}
+@-webkit-keyframes 'switchOff' {
+    from { background-position: -3px -25px; }
+    to { background-position: -43px -25px; }	
+}
+
+/* RadioButton */
+.dxEditors_edtRadioButtonChecked_iOS,
+.dxEditors_edtRadioButtonUnchecked_iOS,
+.dxEditors_edtRadioButtonCheckedDisabled_iOS,
+.dxEditors_edtRadioButtonUncheckedDisabled_iOS {
+    width: 27px;
+    height: 28px;
+}
+
+.dxEditors_edtRadioButtonUnchecked_iOS {
+	background-position: -144px -168px; 
+}
+.dxEditors_edtRadioButtonChecked_iOS {
+	background-position: -144px -198px; 
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_iOS {
+	background-position: -173px -168px; 
+}
+.dxEditors_edtRadioButtonCheckedDisabled_iOS {
+	background-position: -173px -198px; 
+}
+
+/* Calendar */
+.dxEditors_edtCalendarPrevYear_iOS 
+{
+    background-position: -129px -2px;
+    width: 17px;
+    height: 15px;
+}
+
+.dxEditors_edtCalendarPrevYearDisabled_iOS /*TODO */
+{
+    background-position: -129px -2px;
+    width: 17px;
+    height: 15px;
+}
+
+.dxEditors_edtCalendarPrevMonth_iOS 
+{
+    background-position: -117px -2px;
+    width: 10px;
+    height: 15px;
+}
+
+.dxEditors_edtCalendarPrevMonthDisabled_iOS /*TODO*/
+{
+	background-position: -117px -2px;
+    width: 10px;
+    height: 15px;
+}
+
+.dxEditors_edtCalendarNextMonth_iOS 
+{
+    background-position: -117px -19px;
+    width: 10px;
+    height: 15px;
+}
+
+.dxEditors_edtCalendarNextMonthDisabled_iOS { /*TODO*/
+    background-position: -117px -19px;
+    width: 10px;
+    height: 15px;
+}
+
+.dxEditors_edtCalendarNextYear_iOS 
+{
+	background-position: -129px -19px;
+    width: 17px;
+    height: 15px;
+}
+
+.dxEditors_edtCalendarNextYearDisabled_iOS /* TODO */
+{
+	background-position: -129px -19px;
+    width: 17px;
+    height: 15px;
+}
+
+.dxEditors_edtCalendarFNPrevYear_iOS /* TODO */
+{
+	background-position: -117px -2px;
+    width: 10px;
+    height: 15px;
+}
+
+.dxEditors_edtCalendarFNNextYear_iOS 
+{
+	background-position: -117px -19px;
+    width: 10px;
+    height: 15px;
+}
+
+.dxEditors_edtDropDown_iOS
+{
+	background-position: -1px -163px;
+    width: 39px;
+    height: 39px;
+}
+.dxEditors_edtDropDownDisabled_iOS
+{
+	background-position: -81px -163px;
+    width: 39px;
+    height: 39px;
+}
+.dxeButtonEditButtonPressed_iOS .dxEditors_edtDropDown_iOS
+{
+	background-position: -41px -163px;
+    width: 39px;
+    height: 39px;
+}
+
+.dxgvFilterRow_iOS .dxEditors_edtDropDown_iOS,
+.dxgvFilterRow_iOS .dxEditors_edtDropDownDisabled_iOS,
+.dxmtb.dxmMenu_iOS .dxEditors_edtDropDown_iOS,
+.dxmtb.dxmMenu_iOS .dxEditors_edtDropDownDisabled_iOS,
+.dxmLite_iOS .dxm-horizontal.dxmtb .dxEditors_edtDropDown_iOS,
+.dxmLite_iOS .dxm-horizontal.dxmtb .dxEditors_edtDropDownDisabled_iOS
+{
+	background-position: -15px -180px;
+    width: 11px;
+    height: 6px;
+}
+
+.dxEditors_edtEllipsis_iOS
+{
+	background-position: -1px -203px;
+    width: 39px;
+    height: 39px;
+}
+.dxEditors_edtEllipsisDisabled_iOS
+{
+	background-position: -81px -203px;
+    width: 39px;
+    height: 39px;
+}
+
+.dxeButtonEditButtonPressed_iOS .dxEditors_edtEllipsis_iOS
+{
+	background-position: -41px -203px;
+    width: 39px;
+    height: 39px;
+}
+
+/* Filter Control*/
+.dxEditors_fcadd_iOS,
+.dxEditors_fcaddhot_iOS,
+.dxEditors_fcremove_iOS,
+.dxEditors_fcremovehot_iOS,
+.dxEditors_fcgroupaddcondition_iOS,
+.dxEditors_fcgroupaddgroup_iOS,
+.dxEditors_fcgroupremove_iOS,
+.dxEditors_fcopany_iOS,
+.dxEditors_fcopbegin_iOS,
+.dxEditors_fcopbetween_iOS,
+.dxEditors_fcopcontain_iOS,
+.dxEditors_fcopnotcontain_iOS,
+.dxEditors_fcopnotequal_iOS,
+.dxEditors_fcopend_iOS,
+.dxEditors_fcopequal_iOS,
+.dxEditors_fcopgreater_iOS,
+.dxEditors_fcopgreaterorequal_iOS,
+.dxEditors_fcopnotblank_iOS,
+.dxEditors_fcopblank_iOS,
+.dxEditors_fcopless_iOS,
+.dxEditors_fcoplessorequal_iOS,
+.dxEditors_fcoplike_iOS,
+.dxEditors_fcopnotany_iOS,
+.dxEditors_fcopnotbetween_iOS,
+.dxEditors_fcopnotlike_iOS,
+.dxEditors_fcgroupand_iOS,
+.dxEditors_fcgroupor_iOS,
+.dxEditors_fcgroupnotand_iOS,
+.dxEditors_fcgroupnotor_iOS {
+	width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcadd_iOS {
+    background-position: 0px -260px;
+}
+
+.dxEditors_fcaddhot_iOS {
+    background-position: -21px -260px;
+}
+
+.dxEditors_fcremove_iOS {
+    background-position: -42px -260px;
+}
+
+.dxEditors_fcremovehot_iOS {
+    background-position: -63px -260px;
+}
+
+.dxEditors_fcgroupaddcondition_iOS {
+    background-position: -210px -260px;
+}
+
+.dxEditors_fcgroupaddgroup_iOS {
+    background-position: -189px -260px;
+}
+
+.dxEditors_fcgroupremove_iOS {
+    background-position: -126px -260px;
+}
+
+.dxEditors_fcopany_iOS {
+    background-position: 0px -281px;
+}
+
+.dxEditors_fcopbegin_iOS {
+    background-position: -42px -281px;
+}
+
+.dxEditors_fcopbetween_iOS {
+    background-position: -84px -281px;
+}
+
+.dxEditors_fcopcontain_iOS {
+    background-position: -105px -302px;
+}
+
+.dxEditors_fcopnotcontain_iOS {
+    background-position: -147px -302px;
+}
+
+.dxEditors_fcopnotequal_iOS {
+    background-position: -168px -281px;
+}
+
+.dxEditors_fcopend_iOS {
+    background-position: -63px -281px;
+}
+
+.dxEditors_fcopequal_iOS {
+    background-position: 0px -302px;
+}
+
+.dxEditors_fcopgreater_iOS {
+    background-position: -21px -302px;
+}
+
+.dxEditors_fcopgreaterorequal_iOS {
+    background-position: -42px -302px;
+}
+
+.dxEditors_fcopnotblank_iOS {
+    background-position: -105px -281px;
+}
+
+.dxEditors_fcopblank_iOS {
+    background-position: -126px -281px;
+}
+
+.dxEditors_fcopless_iOS {
+    background-position: -63px -302px;
+}
+
+.dxEditors_fcoplessorequal_iOS {
+    background-position: -84px -302px;
+}
+
+.dxEditors_fcoplike_iOS {
+    background-position: -126px -302px;
+}
+
+.dxEditors_fcopnotany_iOS {
+    background-position: -21px -281px;
+}
+
+.dxEditors_fcopnotbetween_iOS {
+    background-position: -147px -281px;
+}
+
+.dxEditors_fcopnotlike_iOS {
+    background-position: -168px -302px;
+}
+
+.dxEditors_fcgroupand_iOS {
+    background-position: -84px -260px;
+}
+
+.dxEditors_fcgroupor_iOS {
+    background-position: -168px -260px;
+}
+
+.dxEditors_fcgroupnotand_iOS {
+    background-position: -105px -260px;
+}
+
+.dxEditors_fcgroupnotor_iOS {
+    background-position: -147px -260px;
+}
+
+.dxEditors_caRefresh_iOS
+{
+    background-position: -173px -136px;
+    width: 25px;
+    height: 25px;
+}

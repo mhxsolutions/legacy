@@ -1,0 +1,235 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_Office2003Blue
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    cursor: wait;
+}
+.dxheLoadingPanel_Office2003Blue
+{
+	font: 12px Tahoma;
+	color: #303030;
+}
+.dxheLoadingPanel_Office2003Blue td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px 12px 12px 12px;
+}
+
+.dxheControl_Office2003Blue
+{
+    border: Solid 1px #002D96;
+}
+
+/* Area */
+.dxheErrorFrame_Office2003Blue
+{
+    font-size: 12px;
+    font-family: Tahoma;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheErrorFrame_Office2003Blue .dxhe {
+    padding: 5px;
+}
+.dxheErrorFrame_Office2003Blue .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_Office2003Blue .dxheErrorFrameCloseButton_Office2003Blue {
+    cursor: pointer;
+}
+.dxheContentArea_Office2003Blue
+{
+    padding: 4px;
+	padding-bottom: 6px;
+    background-color: #DDECFE;
+}
+.dxheViewArea_Office2003Blue
+{
+    border: Solid 1px #002D96;    
+}
+.dxheHtmlViewEdit_Office2003Blue,
+.dxheDesignViewArea_Office2003Blue,
+.dxhePreviewArea_Office2003Blue 
+{
+    margin: 0px;
+    background-color: #FFFFFF;
+    background-image: none;
+    font-size: smaller;
+    font: normal 12px Arial;
+}
+td.dxheHtmlViewEdit_Office2003Blue, body.dxheDesignViewArea_Office2003Blue, body.dxhePreviewArea_Office2003Blue
+{
+    padding: 0 0 0 4px;
+}
+.dxheControl_Office2003Blue.dxhe-rtl td.dxheHtmlViewEdit_Office2003Blue, 
+.dxheControl_Office2003Blue.dxhe-rtl .dxeMemo_Office2003Blue td,
+body.dxheDesignViewArea_Office2003Blue.dxhe-rtl, 
+body.dxhePreviewArea_Office2003Blue.dxhe-rtl
+{
+	padding: 0 4px 0 1px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .dxheControl_Office2003Blue.dxhe-rtl td.dxheHtmlViewEdit_Office2003Blue, 
+    .dxheControl_Office2003Blue.dxhe-rtl .dxeMemo_Office2003Blue td
+    {
+	    padding: 0 0 0 4px;
+    }    
+}
+.dxheControl_Office2003Blue .dxeMemo_Office2003Blue textarea 
+{
+	resize:none;
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_Office2003Blue table.dxEmptyBorderTable,
+body.dxheDesignViewArea_Office2003Blue table.dxEmptyBorderTable td  {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_Office2003Blue table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_Office2003Blue table.dxEmptyBorderTable td  {
+		border:0px;
+	}
+}
+/* Status Bar */
+.dxheStatusBar_Office2003Blue 
+{
+}
+.dxheStatusBarTab_Office2003Blue 
+{    
+}
+.dxheStatusBar_Office2003Blue .dxheStatusBarTab_Office2003Blue 
+{
+    padding-left: 11px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+}
+.dxheStatusBar_Office2003Blue .dxheStatusBarActiveTab_Office2003Blue 
+{
+    background-color: White;
+}
+.dxHtmlEditor_heSizeGrip_Office2003Blue 
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_Office2003Blue 
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_Office2003Blue 
+{
+    float: left;
+    height: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top:-16px;
+}
+.dxheControl_Office2003Blue.dxhe-rtl .dxheSizeGripContainer_Office2003Blue 
+{
+	text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+#dxInsertTableForm .buttonsCell,
+#dxInsertLinkForm .buttonsCell,
+#dxInsertImageForm .buttonsCell,
+#dxPasteFromWordForm .buttonsCell,
+#dxTableColumnPropertiesForm .buttonsCell,
+.dxheCustomDialog_Office2003Blue .dxhecd-Buttons
+{
+	background-color: #CFE1F9;
+	border-top: 1px #7BA4E0 solid;
+    padding: 11px;
+}
+#dxInsertImageForm .imagePreviewCell
+{
+    color: #878787;
+    border: dashed 1px #cac8c8;
+}
+#dxPasteFromWordForm .pasteContainerCell td
+{
+	border: Solid 1px #6A8CCB;
+}
+
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_Office2003Blue
+{
+	height: 1px;
+}
+.dxtbControl_Office2003Blue 
+{
+	font: 12px Tahoma;
+	color: black;
+	background-color: #7BA4E0;
+    border-bottom: Solid 1px #002D96;
+}
+
+.dxtbControl_Office2003Blue td.dxmtb.dxmMenu_Office2003Blue
+{
+	border: 0px;
+}
+.dxtbComboBoxMenuItem_Office2003Blue
+{
+    padding-top: 1px;
+    padding-right: 2px;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxm-main.dxmtb {
+    border-width: 0px;
+}
+
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxmtb .dxtb-comboBoxMenuItem {
+	border-width: 0px;
+	padding: 1px 2px 1px 0px;
+}
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxm-horizontal.dxmtb .dxm-image-l .dxm-dropDownMode.dxtb-cb .dxm-content, 
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxm-horizontal.dxmtb .dxm-image-r .dxm-dropDownMode.dxtb-cb .dxm-content
+{
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content img, 
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content img
+{
+	margin-top: -1px;
+}
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxm-horizontal.dxmtb .dxm-image-l .dxm-popOut, 
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxm-horizontal.dxmtb .dxm-image-r .dxm-popOut, 
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxm-horizontal.dxmtb .dxm-dropDownMode .dxm-popOut
+{
+	padding-top: 10px;
+}
+.dxtbControl_Office2003Blue .dxmLite_Office2003Blue .dxhetipControl_Office2003Blue img
+{
+	vertical-align: top;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_Office2003Blue { }
+.dxtcbColorDiv_Office2003Blue
+{
+	width: 16px;
+	height: 4px;
+	font-size:0px;
+	background-color: Red;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_Office2003Blue .dxrpcontent
+{
+    padding: 9px 8px;
+}
+

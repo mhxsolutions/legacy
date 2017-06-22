@@ -1,0 +1,855 @@
+.dxHtmlEditor_Icons_heCut_iOS,
+.dxHtmlEditor_Icons_heCutDisabled_iOS,
+.dxHtmlEditor_Icons_heCopy_iOS,
+.dxHtmlEditor_Icons_heCopyDisabled_iOS,
+.dxHtmlEditor_Icons_hePaste_iOS,
+.dxHtmlEditor_Icons_hePasteDisabled_iOS,
+.dxHtmlEditor_Icons_hePasteFromWord_iOS,
+.dxHtmlEditor_Icons_hePasteFromWordDisabled_iOS,
+.dxHtmlEditor_Icons_heUndo_iOS,
+.dxHtmlEditor_Icons_heUndoDisabled_iOS,
+.dxHtmlEditor_Icons_heRedo_iOS,
+.dxHtmlEditor_Icons_heRedoDisabled_iOS,
+.dxHtmlEditor_Icons_heBold_iOS,
+.dxHtmlEditor_Icons_heBoldDisabled_iOS,
+.dxHtmlEditor_Icons_heItalic_iOS,
+.dxHtmlEditor_Icons_heItalicDisabled_iOS,
+.dxHtmlEditor_Icons_heUnderline_iOS,
+.dxHtmlEditor_Icons_heUnderlineDisabled_iOS,
+.dxHtmlEditor_Icons_heStrikethrough_iOS,
+.dxHtmlEditor_Icons_heStrikethroughDisabled_iOS,
+.dxHtmlEditor_Icons_heCenter_iOS,
+.dxHtmlEditor_Icons_heCenterDisabled_iOS,
+.dxHtmlEditor_Icons_heLeft_iOS,
+.dxHtmlEditor_Icons_heLeftDisabled_iOS,
+.dxHtmlEditor_Icons_heRight_iOS,
+.dxHtmlEditor_Icons_heRightDisabled_iOS,
+.dxHtmlEditor_Icons_heJustifyFull_iOS,
+.dxHtmlEditor_Icons_heJustifyFullDisabled_iOS,
+.dxHtmlEditor_Icons_heSuperscript_iOS,
+.dxHtmlEditor_Icons_heSuperscriptDisabled_iOS,
+.dxHtmlEditor_Icons_heSubscript_iOS,
+.dxHtmlEditor_Icons_heSubscriptDisabled_iOS,
+.dxHtmlEditor_Icons_heIndent_iOS,
+.dxHtmlEditor_Icons_heIndentDisabled_iOS,
+.dxHtmlEditor_Icons_heOutdent_iOS,
+.dxHtmlEditor_Icons_heOutdentDisabled_iOS,
+.dxHtmlEditor_Icons_heInsertOrderedList_iOS,
+.dxHtmlEditor_Icons_heInsertOrderedListDisabled_iOS,
+.dxHtmlEditor_Icons_heInsertUnorderedList_iOS,
+.dxHtmlEditor_Icons_heInsertUnorderedListDisabled_iOS,
+.dxHtmlEditor_Icons_heInsertImageDialog_iOS,
+.dxHtmlEditor_Icons_heInsertImageDialogDisabled_iOS,
+.dxHtmlEditor_Icons_heInsertLinkDialog_iOS,
+.dxHtmlEditor_Icons_heInsertLinkDialogDisabled_iOS,
+.dxHtmlEditor_Icons_heInsertTableDialog_iOS,
+.dxHtmlEditor_Icons_heInsertTableDialogDisabled_iOS,
+.dxHtmlEditor_Icons_heChangeTableDialog_iOS,
+.dxHtmlEditor_Icons_heChangeTableDialogDisabled_iOS,
+.dxHtmlEditor_Icons_heChangeTableCellDialog_iOS,
+.dxHtmlEditor_Icons_heChangeTableCellDialogDisabled_iOS,
+.dxHtmlEditor_Icons_heChangeTableColumnDialog_iOS,
+.dxHtmlEditor_Icons_heChangeTableColumnDialogDisabled_iOS,
+.dxHtmlEditor_Icons_heChangeTableRowDialog_iOS,
+.dxHtmlEditor_Icons_heChangeTableRowDialogDisabled_iOS,
+.dxHtmlEditor_Icons_heInsertTableRowAbove_iOS,
+.dxHtmlEditor_Icons_heInsertTableRowAboveDisabled_iOS,
+.dxHtmlEditor_Icons_heInsertTableRowBelow_iOS,
+.dxHtmlEditor_Icons_heInsertTableRowBelowDisabled_iOS,
+.dxHtmlEditor_Icons_heInsertTableColumnOnLeft_iOS,
+.dxHtmlEditor_Icons_heInsertTableColumnOnLeftDisabled_iOS,
+.dxHtmlEditor_Icons_heInsertTableColumnOnRight_iOS,
+.dxHtmlEditor_Icons_heInsertTableColumnOnRightDisabled_iOS,
+.dxHtmlEditor_Icons_heSplitTableCellHorizontal_iOS,
+.dxHtmlEditor_Icons_heSplitTableCellHorizontalDisabled_iOS,
+.dxHtmlEditor_Icons_heSplitTableCellVertical_iOS,
+.dxHtmlEditor_Icons_heSplitTableCellVerticalDisabled_iOS,
+.dxHtmlEditor_Icons_heMergeTableCellHorizontal_iOS,
+.dxHtmlEditor_Icons_heMergeTableCellHorizontalDisabled_iOS,
+.dxHtmlEditor_Icons_heMergeTableCellVertical_iOS,
+.dxHtmlEditor_Icons_heMergeTableCellVerticalDisabled_iOS,
+.dxHtmlEditor_Icons_heDeleteTable_iOS,
+.dxHtmlEditor_Icons_heDeleteTableDisabled_iOS,
+.dxHtmlEditor_Icons_heDeleteTableColumn_iOS,
+.dxHtmlEditor_Icons_heDeleteTableColumnDisabled_iOS,
+.dxHtmlEditor_Icons_heDeleteTableRow_iOS,
+.dxHtmlEditor_Icons_heDeleteTableRowDisabled_iOS,
+.dxHtmlEditor_Icons_heUnlink_iOS,
+.dxHtmlEditor_Icons_heUnlinkDisabled_iOS,
+.dxHtmlEditor_Icons_heBackColor_iOS,
+.dxHtmlEditor_Icons_heBackColorDisabled_iOS,
+.dxHtmlEditor_Icons_heForeColor_iOS,
+.dxHtmlEditor_Icons_heForeColorDisabled_iOS,
+.dxHtmlEditor_Icons_heRemoveFormat_iOS,
+.dxHtmlEditor_Icons_heRemoveFormatDisabled_iOS,
+.dxHtmlEditor_Icons_hePrint_iOS,
+.dxHtmlEditor_Icons_hePrintDisabled_iOS,
+.dxHtmlEditor_Icons_heCheckSpelling_iOS,
+.dxHtmlEditor_Icons_heCheckSpellingDisabled_iOS,
+.dxHtmlEditor_Icons_heFullscreen_iOS,
+.dxHtmlEditor_Icons_heFullscreenDisabled_iOS,
+.dxHtmlEditor_Icons_heSaveAsDocx_iOS,
+.dxHtmlEditor_Icons_heSaveAsMht_iOS,
+.dxHtmlEditor_Icons_heSaveAsOdt_iOS,
+.dxHtmlEditor_Icons_heSaveAsPdf_iOS,
+.dxHtmlEditor_Icons_heSaveAsRtf_iOS,
+.dxHtmlEditor_Icons_heSaveAsTxt_iOS,
+.dxHtmlEditor_heToolbarPopOut_iOS,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_iOS,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_iOS,
+.dxHtmlEditor_heConstrainProportionsBottom_iOS,
+.dxHtmlEditor_heConstrainProportionsTop_iOS,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_iOS,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_iOS,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_iOS,
+.dxHtmlEditor_heConstrainProportionsTopRtl_iOS,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_iOS,
+.dxHtmlEditor_heSizeGrip_iOS,
+.dxHtmlEditor_heSizeGripRtl_iOS,
+.dxHtmlEditor_heErrorFrameCloseButton_iOS
+ {
+    background-image: url('sprite.png');
+    -background-image: url('sprite.gif'); /* for IE6 */
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.dxHtmlEditor_heConstrainProportionsMiddleOn_iOS,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_iOS,
+.dxHtmlEditor_heConstrainProportionsBottom_iOS,
+.dxHtmlEditor_heConstrainProportionsTop_iOS,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_iOS,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_iOS
+{
+	display:block;
+}
+
+.dxHtmlEditor_Icons_heCut_iOS {
+    background-position: -72px -99px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heCutDisabled_iOS {
+    background-position: -105px -99px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heCopy_iOS {
+    background-position: -6px -99px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heCopyDisabled_iOS {
+    background-position: -39px -99px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_hePaste_iOS {
+    background-position: -138px -264px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_hePasteDisabled_iOS {
+    background-position: -171px -264px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_hePasteFromWord_iOS {
+    background-position: -204px -264px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_hePasteFromWordDisabled_iOS {
+    background-position: -237px -264px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heUndo_iOS {
+    background-position: -138px -363px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heUndoDisabled_iOS {
+    background-position: -171px -363px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heRedo_iOS {
+    background-position: -72px -297px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heRedoDisabled_iOS {
+    background-position: -105px -297px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heBold_iOS {
+    background-position: -72px -33px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heBoldDisabled_iOS {
+    background-position: -105px -33px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heItalic_iOS {
+    background-position: -6px -231px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heItalicDisabled_iOS {
+    background-position: -39px -231px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heUnderline_iOS {
+    background-position: -72px -363px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heUnderlineDisabled_iOS {
+    background-position: -105px -363px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heStrikethrough_iOS {
+    background-position: -138px -330px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heStrikethroughDisabled_iOS {
+    background-position: -171px -330px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heCenter_iOS {
+    background-position: -138px -33px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heCenterDisabled_iOS {
+    background-position: -171px -33px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heLeft_iOS {
+    background-position: -138px -231px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heLeftDisabled_iOS {
+    background-position: -171px -231px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heRight_iOS {
+    background-position: -204px -297px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heRightDisabled_iOS {
+    background-position: -237px -297px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heJustifyFull_iOS {
+    background-position: -72px -231px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heJustifyFullDisabled_iOS {
+    background-position: -105px -231px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSuperscript_iOS {
+    background-position: -6px -363px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSuperscriptDisabled_iOS {
+    background-position: -39px -363px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSubscript_iOS {
+    background-position: -204px -330px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSubscriptDisabled_iOS {
+    background-position: -237px -330px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heIndent_iOS {
+    background-position: -138px -132px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heIndentDisabled_iOS {
+    background-position: -171px -132px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heOutdent_iOS {
+    background-position: -72px -264px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heOutdentDisabled_iOS {
+    background-position: -105px -264px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertOrderedList_iOS {
+    background-position: -72px -165px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertOrderedListDisabled_iOS {
+    background-position: -105px -165px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertUnorderedList_iOS {
+    background-position: -204px -198px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertUnorderedListDisabled_iOS {
+    background-position: -237px -198px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertImageDialog_iOS {
+    background-position: -204px -132px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertImageDialogDisabled_iOS {
+    background-position: -237px -132px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertLinkDialog_iOS {
+    background-position: -6px -165px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertLinkDialogDisabled_iOS {
+    background-position: -39px -165px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertTableDialog_iOS {
+    background-position: -6px -198px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertTableDialogDisabled_iOS {
+    background-position: -39px -198px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heChangeTableDialog_iOS {
+    background-position: -72px -66px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heChangeTableDialogDisabled_iOS {
+    background-position: -105px -66px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heChangeTableCellDialog_iOS {
+    background-position: -204px -33px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heChangeTableCellDialogDisabled_iOS {
+    background-position: -237px -33px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heChangeTableColumnDialog_iOS {
+    background-position: -6px -66px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heChangeTableColumnDialogDisabled_iOS {
+    background-position: -39px -66px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heChangeTableRowDialog_iOS {
+    background-position: -138px -66px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heChangeTableRowDialogDisabled_iOS {
+    background-position: -171px -66px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertTableRowAbove_iOS {
+    background-position: -72px -198px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertTableRowAboveDisabled_iOS {
+    background-position: -105px -198px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertTableRowBelow_iOS {
+    background-position: -138px -198px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertTableRowBelowDisabled_iOS {
+    background-position: -171px -198px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertTableColumnOnLeft_iOS {
+    background-position: -138px -165px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertTableColumnOnLeftDisabled_iOS {
+    background-position: -171px -165px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertTableColumnOnRight_iOS {
+    background-position: -204px -165px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heInsertTableColumnOnRightDisabled_iOS {
+    background-position: -237px -165px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSplitTableCellHorizontal_iOS {
+    background-position: -6px -330px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSplitTableCellHorizontalDisabled_iOS {
+    background-position: -39px -330px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSplitTableCellVertical_iOS {
+    background-position: -72px -330px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSplitTableCellVerticalDisabled_iOS {
+    background-position: -105px -330px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heMergeTableCellHorizontal_iOS {
+    background-position: -204px -231px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heMergeTableCellHorizontalDisabled_iOS {
+    background-position: -237px -231px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heMergeTableCellVertical_iOS {
+    background-position: -6px -264px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heMergeTableCellVerticalDisabled_iOS {
+    background-position: -39px -264px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heDeleteTable_iOS {
+    background-position: -138px -99px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heDeleteTableDisabled_iOS {
+    background-position: -171px -99px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heDeleteTableColumn_iOS {
+    background-position: -204px -99px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heDeleteTableColumnDisabled_iOS {
+    background-position: -237px -99px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heDeleteTableRow_iOS {
+    background-position: -6px -132px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heDeleteTableRowDisabled_iOS {
+    background-position: -39px -132px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heUnlink_iOS {
+    background-position: -204px -363px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heUnlinkDisabled_iOS {
+    background-position: -237px -363px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heBackColor_iOS {
+    background-position: -6px -33px;
+    width: 32px;
+    height: 29px;
+}
+
+.dxHtmlEditor_Icons_heBackColorDisabled_iOS {
+    background-position: -39px -33px;
+    width: 32px;
+    height: 29px;
+}
+
+.dxHtmlEditor_Icons_heForeColor_iOS {
+    background-position: -72px -132px;
+    width: 32px;
+    height: 29px;
+}
+
+.dxHtmlEditor_Icons_heForeColorDisabled_iOS {
+    background-position: -105px -132px;
+    width: 32px;
+    height: 29px;
+}
+
+.dxHtmlEditor_Icons_heRemoveFormat_iOS {
+    background-position: -138px -297px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heRemoveFormatDisabled_iOS {
+    background-position: -171px -297px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_hePrint_iOS {
+    background-position: -6px -297px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_hePrintDisabled_iOS {
+    background-position: -39px -297px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heCheckSpelling_iOS {
+    background-position: -204px -66px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heCheckSpellingDisabled_iOS {
+    background-position: -237px -66px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heFullscreen_iOS 
+{
+    background-position: -39px -396px;
+    width: 32px;
+    height: 32px;
+}
+.dxHtmlEditor_Icons_heFullscreenDisabled_iOS
+{
+    background-position: -39px -429px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSaveAsDocx_iOS
+{
+    background-position: -72px -396px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSaveAsMht_iOS
+{
+    background-position: -105px -396px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSaveAsOdt_iOS
+{
+    background-position: -138px -396px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSaveAsPdf_iOS
+{
+    background-position: -171px -396px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSaveAsRtf_iOS
+{
+    background-position: -204px -396px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_Icons_heSaveAsTxt_iOS
+{
+    background-position: -237px -396px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_heToolbarPopOut_iOS {
+    background-position: -72px -429px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxHtmlEditor_heConstrainProportionsMiddleOn_iOS {
+    background-position: -25px 0px;
+    width: 11px;
+    height: 18px;
+}
+
+.dxHtmlEditor_heConstrainProportionsMiddleOff_iOS {
+    background-position: -1px 0px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_iOS {
+    background-position: -166px 0px;
+    width: 11px;
+    height: 18px;
+}
+
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_iOS {
+    background-position: -185px 0px;
+    width: 11px;
+    height: 18px;
+}
+
+.dxHtmlEditor_heConstrainProportionsBottom_iOS {
+    background-position: -44px 0px;
+    width: 11px;
+    height: 6px;
+}
+
+.dxHtmlEditor_heConstrainProportionsTop_iOS {
+    background-position: -44px -14px;
+    width: 11px;
+    height: 5px;
+}
+
+.dxHtmlEditor_heConstrainProportionsBottomRtl_iOS {
+    background-position: -147px 0px;
+    width: 11px;
+    height: 6px;
+}
+
+.dxHtmlEditor_heConstrainProportionsTopRtl_iOS {
+    background-position: -147px -14px;
+    width: 11px;
+    height: 5px;
+}
+
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_iOS {
+    background-position: -109px 0px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_iOS {
+    background-position: -122px 0px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_iOS {
+    background-position: -57px -13px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_iOS {
+    background-position: -70px -13px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_iOS {
+    background-position: -57px 0px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_iOS {
+    background-position: -70px 0px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_iOS {
+    background-position: -83px -13px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_iOS {
+    background-position: -96px -13px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_iOS {
+    background-position: -83px 0px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_iOS {
+    background-position: -96px 0px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxHtmlEditor_heSizeGrip_iOS {
+    background-position: -6px -396px;
+    width: 32px;
+    height: 32px;
+}
+.dxHtmlEditor_heSizeGripRtl_iOS {
+    background-position: -6px -429px;
+    width: 32px;
+    height: 32px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_iOS {
+    background-position: -109px -9px;
+    width: 13px;
+    height: 9px;
+}
+

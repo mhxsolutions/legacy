@@ -1,0 +1,196 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="ETIinventory.aspx.vb" Inherits="ETIinventory" %>
+
+<%@ Register assembly="DevExpress.Web.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta name="viewport" content="width=320" />
+    <title>ETI Inventory Analysis</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <h3>
+            ETI Inventory Analysis - <a href="default.aspx">home</a></h3>
+        <dx:ASPxButton ID="ASPxButton1" runat="server" EnableTheming="True" 
+            Text="Export to Excel" Theme="BlackGlass" Width="138px">
+            
+        </dx:ASPxButton>
+        <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" 
+            DataSourceID="SqlDataSource1" EnableTheming="True" Theme="Metropolis">
+
+<Settings ShowTitlePanel="True" ShowFilterRow="True" ShowFilterRowMenu="True" 
+                ShowGroupPanel="True" ShowFooter="True"></Settings>
+
+<SettingsText Title="ETI Receiving"></SettingsText>
+            <SettingsContextMenu Enabled="True" EnableRowMenu="False">
+            </SettingsContextMenu>
+            <SettingsPager PageSize="30">
+                <allbutton visible="True">
+                </allbutton>
+                <pagesizeitemsettings visible="True">
+                </pagesizeitemsettings>
+            </SettingsPager>
+            <Settings ShowFilterRow="True" ShowFilterRowMenu="True" ShowFooter="True" 
+                ShowGroupPanel="True" ShowTitlePanel="True" />
+            <SettingsBehavior EnableCustomizationWindow="True" EnableRowHotTrack="True" />
+            <settingspopup>
+                <headerfilter minheight="400px" />
+            </settingspopup>
+            <SettingsSearchPanel Visible="True" />
+            <SettingsText Title="ETI Receiving" />
+
+            <Columns>
+                <dx:GridViewCommandColumn ShowClearFilterButton="True" VisibleIndex="0">
+                </dx:GridViewCommandColumn>
+                <dx:GridViewDataTextColumn FieldName="Abbreviation" GroupIndex="0" SortIndex="0" 
+                    SortOrder="Ascending" VisibleIndex="1" Caption="Terminal">
+                    <settings allowheaderfilter="True" headerfiltermode="CheckedList" />
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataDateColumn Caption="Month" FieldName="Date Recd" GroupIndex="1" 
+                    SortIndex="1" SortOrder="Descending" VisibleIndex="2">
+                    <Settings GroupInterval="DateMonth" />
+<Settings GroupInterval="DateMonth" allowheaderfilter="True" headerfiltermode="CheckedList"></Settings>
+                </dx:GridViewDataDateColumn>
+                <dx:GridViewDataTextColumn FieldName="Code" GroupIndex="3" SortIndex="3" 
+                    SortOrder="Ascending" VisibleIndex="4">
+                    <Settings ShowFilterRowMenu="True" />
+<Settings ShowFilterRowMenu="True"></Settings>
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="Mill" SortIndex="4" SortOrder="Ascending" 
+                    VisibleIndex="6">
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="Inspection" SortIndex="5" 
+                    SortOrder="Ascending" VisibleIndex="8">
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="LNFT" VisibleIndex="9">
+                    <PropertiesTextEdit DisplayFormatString="{0:n1}">
+                    </PropertiesTextEdit>
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="Tons" VisibleIndex="11">
+                    <PropertiesTextEdit DisplayFormatString="{0:n1}">
+                    </PropertiesTextEdit>
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="Profile" GroupIndex="2" SortIndex="2" 
+                    SortOrder="Ascending" VisibleIndex="3">
+                    <Settings AllowHeaderFilter="True" />
+<Settings AllowHeaderFilter="True" headerfiltermode="CheckedList"></Settings>
+                </dx:GridViewDataTextColumn>
+            </Columns>
+            <TotalSummary>
+                <dx:ASPxSummaryItem DisplayFormat="{0:n1}" FieldName="LNFT" ShowInColumn="LNFT" 
+                    SummaryType="Sum" />
+                <dx:ASPxSummaryItem DisplayFormat="{0:n1}" FieldName="Tons" 
+                    ShowInGroupFooterColumn="Tons" SummaryType="Sum" />
+            </TotalSummary>
+            <GroupSummary>
+                <dx:ASPxSummaryItem DisplayFormat="LNFT={0:n1}" FieldName="LNFT" 
+                    SummaryType="Sum" />
+                <dx:ASPxSummaryItem DisplayFormat="Tons={0:n1}" FieldName="Tons" 
+                    SummaryType="Sum" />
+            </GroupSummary>
+        </dx:ASPxGridView>
+        <br />
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+            ConnectionString="<%$ ConnectionStrings:DWS No Rep DataConnectionString %>" 
+            SelectCommand="SELECT * FROM [ETI receiving for web]"></asp:SqlDataSource>
+    
+        <dx:ASPxGridViewExporter ID="GridViewExporter1" runat="server" 
+            FileName="ETI Inv Receiving" GridViewID="ASPxGridView1">
+        </dx:ASPxGridViewExporter>
+        <dx:ASPxButton ID="ASPxButton2" runat="server" Text="Export to Excel" 
+            Theme="Glass" Width="151px">
+            
+        </dx:ASPxButton>
+
+    <dx:ASPxGridView ID="ASPxGridView2" runat="server" AutoGenerateColumns="False" 
+        DataSourceID="SqlDataSource2" EnableTheming="True" Theme="MetropolisBlue">
+
+<Settings ShowTitlePanel="True" ShowFilterRow="True" ShowGroupPanel="True" 
+            ShowFooter="True"></Settings>
+
+<SettingsText Title="ETI Shipping"></SettingsText>
+        <SettingsContextMenu Enabled="True" EnableRowMenu="False">
+        </SettingsContextMenu>
+        <SettingsPager PageSize="30">
+            <allbutton visible="True">
+            </allbutton>
+            <pagesizeitemsettings visible="True">
+            </pagesizeitemsettings>
+        </SettingsPager>
+        <Settings ShowFilterRow="True" ShowFooter="True" ShowGroupPanel="True" 
+            ShowTitlePanel="True" />
+        <SettingsBehavior EnableCustomizationWindow="True" EnableRowHotTrack="True" />
+        <settingspopup>
+            <headerfilter minheight="400px" />
+        </settingspopup>
+        <SettingsSearchPanel Visible="True" />
+        <SettingsText Title="ETI Shipping" />
+
+        <Columns>
+            <dx:GridViewCommandColumn ShowClearFilterButton="True" VisibleIndex="0">
+            </dx:GridViewCommandColumn>
+            <dx:GridViewDataDateColumn Caption="Month" FieldName="Shipment Date" 
+                GroupIndex="1" SortIndex="1" SortOrder="Descending" VisibleIndex="2">
+                <Settings GroupInterval="DateMonth" />
+<Settings GroupInterval="DateMonth" allowheaderfilter="True"></Settings>
+            </dx:GridViewDataDateColumn>
+            <dx:GridViewDataTextColumn FieldName="Destination" GroupIndex="3" SortIndex="3" 
+                SortOrder="Ascending" VisibleIndex="5">
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn Caption="Carrier" FieldName="Load Type" 
+                VisibleIndex="3">
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Profile" GroupIndex="2" SortIndex="2" 
+                SortOrder="Ascending" VisibleIndex="4">
+                <Settings AllowHeaderFilter="True" />
+<Settings AllowHeaderFilter="True" headerfiltermode="CheckedList"></Settings>
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Code" SortIndex="4" SortOrder="Ascending" 
+                VisibleIndex="6" GroupIndex="4">
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Mill" SortIndex="5" SortOrder="Ascending" 
+                VisibleIndex="7">
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Inspection" SortIndex="6" 
+                SortOrder="Ascending" VisibleIndex="8">
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="LNFT" VisibleIndex="9">
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Tons" VisibleIndex="10">
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn Caption="Terminal" FieldName="Abbreviation" 
+                GroupIndex="0" SortIndex="0" SortOrder="Ascending" VisibleIndex="1">
+                <settings allowheaderfilter="True" headerfiltermode="CheckedList" />
+            </dx:GridViewDataTextColumn>
+        </Columns>
+        <TotalSummary>
+            <dx:ASPxSummaryItem DisplayFormat="{0:n1}" FieldName="LNFT" SummaryType="Sum" />
+            <dx:ASPxSummaryItem DisplayFormat="{0:n1}" FieldName="Tons" SummaryType="Sum" />
+        </TotalSummary>
+        <GroupSummary>
+            <dx:ASPxSummaryItem DisplayFormat="LNFT={0:n1}" FieldName="LNFT" 
+                SummaryType="Sum" />
+            <dx:ASPxSummaryItem DisplayFormat="Tons={0:n1}" FieldName="Tons" 
+                SummaryType="Sum" />
+        </GroupSummary>
+    </dx:ASPxGridView>
+    <asp:SqlDataSource ID="SqlDataSource2" runat="server" 
+        ConnectionString="<%$ ConnectionStrings:DWS No Rep DataConnectionString %>" 
+        SelectCommand="SELECT * FROM [ETI shipping for web]"></asp:SqlDataSource>
+    <dx:ASPxGridViewExporter ID="GridViewExporter2" runat="server" 
+        FileName="ETI Inv Shipping" GridViewID="ASPxGridView2">
+    </dx:ASPxGridViewExporter>
+    </form>
+    <p>
+        No Transfers, Inspections or Corrections included.</p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class Customers__All_BOLs : BasePage
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+
+    public static string SetTarget(object ancherTag)
+    {
+        string tag = ancherTag != null ? ancherTag.ToString() : string.Empty;
+        return tag.Replace("<a href=", "<a target=\"_blank\" href=");
+    }
+    
+}

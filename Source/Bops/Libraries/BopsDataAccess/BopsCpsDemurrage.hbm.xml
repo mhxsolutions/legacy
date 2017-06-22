@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="BopsDataAccess.BopsCpsDemurrage, BopsDataAccess" table="[CPS Demurrage]" lazy="false">
+		<composite-id>
+			<key-property name="ProjectRef" column="[Project Ref]"/>
+			<key-property name="ContainerRef" column="[Container Ref]"/>
+		</composite-id>
+		<property name="ClockBegin" column="[Clock Begin]"/>
+		<property name="ClockEnd" column="[Clock End]"/>
+		<property name="ClockBeginMovementRef" column="[Clock Begin Movement Ref]" />
+		<property name="ClockEndMovementRef" column="[Clock End Movement Ref]" />
+		<property name="BisExclude" column="[BIS Exclude]" />
+	</class>
+</hibernate-mapping>

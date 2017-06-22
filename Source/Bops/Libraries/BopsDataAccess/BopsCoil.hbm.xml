@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsCoil, BopsDataAccess" table="[tblCoils]" lazy="false">
+    <composite-id>
+      <key-property name="LoadReference" column="[LOAD]"/>
+      <key-property name="Coil" column="[COIL]"/>
+    </composite-id>
+    <property name="Location" column="[LOC]"/>
+    <property name="Weight" column="[WT]"/>
+    <property name="Staged" column="[Staged]"/>
+    <property name="Loaded" column="[Loaded]"/>
+    <property name="StageQuad" column="[StageQuad]"/>
+    <property name="Lost" column="[Lost]"/>
+    <property name="StageTime" column="[StageTime]"/>
+    <property name="LoadTime" column="[LoadTime]"/>
+  </class>
+</hibernate-mapping>

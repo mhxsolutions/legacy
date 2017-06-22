@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsProjectManagerDr, BopsDataAccess" table="[Project Manager DR]" lazy="false">
+    <id name="DrId" column="[PMDRID]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="BillOfLadingRef" column="[PMBOL Ref]"/>
+    <property name="ItemNumber" column="[Item #]"/>
+    <property name="Printed" column="[Printed]"/>
+    <property name="Count" column="[PMDR CT]"/>
+    <property name="Weight" column="[PMDR Wt]"/>
+    <property name="LoadKeyRef" column="[Load ref]"/>
+    <property name="GatePass" column="[Gate Pass]"/>
+    <property name="Status" column="[Status]"/>
+    <property name="UserWhoCreated" column="[Created By]"/>
+    <property name="DateCreated" column="[Created Date]"/>
+    <property name="UserWhoModified" column="[Modified By]"/>
+    <property name="DateModified" column="[Modified Date]"/>
+  </class>
+</hibernate-mapping>

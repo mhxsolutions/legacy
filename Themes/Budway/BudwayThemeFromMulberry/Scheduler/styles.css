@@ -1,0 +1,539 @@
+.dxscControl_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+
+    background: #cbcbcb;
+    border: solid 1px #cbcbcb;
+}
+.dxscLoadingPanel_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxscLoadingPanel_BudwayThemeFromMulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxscLoadingPanel_BudwayThemeFromMulberry .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+/* Headers */
+.dxscDateHeader_BudwayThemeFromMulberry, 
+.dxscAlternateDateHeader_BudwayThemeFromMulberry,
+.dxscDayHeader_BudwayThemeFromMulberry,
+.dxscDateCellHeader_BudwayThemeFromMulberry,
+.dxscTodayCellHeader_BudwayThemeFromMulberry,
+.dxscTimelineDateHeader_BudwayThemeFromMulberry,
+.dxscHorizontalResourceHeader_BudwayThemeFromMulberry,
+.dxscVerticalResourceHeader_BudwayThemeFromMulberry
+{    
+    color: #7e7e7e;
+    background: #fafafa;
+    border: solid 1px #cbcbcb;
+    border-width: 0 1px 1px 0;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+    
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dxscAlternateTimelineDateHeader_BudwayThemeFromMulberry,
+.dxscAlternateDateHeader_BudwayThemeFromMulberry
+{
+    background: #BF4E6A;    
+    color: White;
+}
+.dxscDayHeader_BudwayThemeFromMulberry
+{
+    border-width: 1px 1px 0 0;
+}
+.dxscDateCellHeader_BudwayThemeFromMulberry
+{
+    border-width: 1px;
+}
+.dxscTodayCellHeader_BudwayThemeFromMulberry
+{    
+    border-top-width: 1px;
+    background: #BF4E6A;
+    color: White;
+}
+.dxscTimelineDateHeader_BudwayThemeFromMulberry
+{
+    border-width: 1px 1px 1px 0;
+}
+.dxscHorizontalResourceHeader_BudwayThemeFromMulberry
+{
+    border-width: 1px 1px 1px 0;
+    background: #fafafa;
+    padding-bottom: 5px;
+}
+.dxscVerticalResourceHeader_BudwayThemeFromMulberry
+{
+    border-width: 1px 1px 0 0;
+    background: #fafafa;
+    white-space: normal;
+}
+.dxscSelectionBar_BudwayThemeFromMulberry 
+{	
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    height: 30px;
+}
+
+/* Corners */
+.dxscLeftTopCorner_BudwayThemeFromMulberry, 
+.dxscRightTopCorner_BudwayThemeFromMulberry
+{
+    background: #fafafa;
+    width: 1px;
+    border-style: solid;
+    border-color: #cbcbcb;	
+    border-width: 0 0 1px;
+}
+.dxscLeftTopCorner_BudwayThemeFromMulberry
+{    
+    border-width: 1px 1px 1px 0;
+    font-size: 0.79em;
+    text-align: center;
+    padding: 2px;
+    overflow: hidden;
+}
+
+/* Separators */
+.dxscGroupSeparatorVertical_BudwayThemeFromMulberry, 
+.dxscGroupSeparatorHorizontal_BudwayThemeFromMulberry
+{
+    background: white;
+    border: solid 1px #cbcbcb;
+}
+
+.dxscGroupSeparatorVertical_BudwayThemeFromMulberry
+{
+    width: 1px; 
+    border-width: 0 1px;
+}
+.dxscGroupSeparatorHorizontal_BudwayThemeFromMulberry
+{
+    height: 1px;
+    border-width: 1px 0 0;
+    font-size: 0;
+}
+
+/* Apts Area */
+.dxscAllDayArea_BudwayThemeFromMulberry
+{
+    background: #fafafa;
+    border: solid 1px #cbcbcb;
+    border-width: 0 1px 1px 0;
+}
+.dxscDateCellBody_BudwayThemeFromMulberry 
+{
+    height: 100px;
+    border: solid 1px;
+    border-width: 0 1px 0 0;
+}
+.dxscTimeCellBody_BudwayThemeFromMulberry
+{
+    border: solid 1px #cbcbcb;
+}
+.dxscTimelineCellBody_BudwayThemeFromMulberry
+{
+    height: 300px;
+    border-color: #cbcbcb;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+}
+
+.dxscAppointment_BudwayThemeFromMulberry
+{
+    color: black;
+    font-size: 0.79em;
+    border: solid 1px #cbcbcb;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;	
+    -moz-box-sizing: content-box; 
+    box-sizing: content-box;
+}
+.dxscAppointmentInnerBorders_BudwayThemeFromMulberry
+{	
+    border: solid 1px #cbcbcb;
+    padding: 0px;
+}
+.dxscAppointmentHorizontalSeparator_BudwayThemeFromMulberry
+{
+    height: 1px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.dxscMoreButton_BudwayThemeFromMulberry
+{
+    font-size: 0.79em;
+    color: black;
+    text-decoration: underline;
+    padding: 0;
+}
+
+/* Rulers */
+.dxscTimeRulerHoursItem_BudwayThemeFromMulberry, .dxscTimeRulerMinuteItem_BudwayThemeFromMulberry
+{
+    color: #283b56;
+    background: #fafafa;
+    border: solid 1px #cbcbcb;
+    border-width: 0px 1px 1px 0;
+    vertical-align: top;
+    white-space: nowrap;
+} 
+.dxscTimeRulerHoursItem_BudwayThemeFromMulberry
+{
+    border-right-width: 0;
+    border-left-color: #cbcbcb;
+    font-size: 1.21em;
+    text-align: right;
+    width: 45px;
+    padding: 2px 4px 0px;
+}
+.dxscTimeRulerMinuteItem_BudwayThemeFromMulberry
+{
+    border-left-width: 0px;
+    text-align: center;
+    width: 18px;
+    font-size: 0.79em;
+    padding: 4px 1px 4px 1px;
+}
+
+.dxscTimeRulerHeaderHourItem_BudwayThemeFromMulberry
+{
+    width: 55px;
+}	
+.dxscTimeRulerHeaderMinuteItem_BudwayThemeFromMulberry
+{
+    width: 16px;
+}
+.dxscScrollHeaderItem_BudwayThemeFromMulberry
+{
+    width: 16px;
+}
+
+
+/* Control elements */
+.dxscToolbarContainer_BudwayThemeFromMulberry
+{
+	border-right: 1px solid #cbcbcb;
+}
+.dxscToolbar_BudwayThemeFromMulberry
+{
+    border: none;
+    background: #fafafa;
+    padding: 0px 14px;    
+    height: 42px;
+}
+.dxscViewSelector_BudwayThemeFromMulberry
+{    
+    border: none;
+    padding: 0px 7px;   
+    background: #fafafa;
+    height: 42px;
+}
+.dxscResourceNavigator_BudwayThemeFromMulberry 
+{    
+    background: white;
+    padding: 7px 10px;
+    border: solid 1px #cbcbcb;
+}
+.dxscViewVisibleInterval_BudwayThemeFromMulberry
+{    
+    color: #BF4E6A;
+    white-space: nowrap;
+}
+.dxscInplaceEditor_BudwayThemeFromMulberry
+{
+    background: #fafafa;
+    border: solid 2px black;
+    padding: 0;
+}
+.dxscControlAreaForm_BudwayThemeFromMulberry
+{
+    font-size: 1.14em;
+    color: black;
+    background-color: #f5ecf1;
+    border: none;
+    white-space: normal;
+    padding: 9px 12px;
+}
+.dxpcLite_BudwayThemeFromMulberry .dxscButtonTable,
+.dxpcLite_BudwayThemeFromMulberry .dxscAppointmentForm
+{
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+.dxscErrorInfo_BudwayThemeFromMulberry
+{
+    background: #f1abab;
+    color: #853a3a;
+    padding: 10px;
+    border: solid 1px #8a0a37;
+    border-width: 1px 0;
+}
+
+/* Buttons */
+.dxscViewSelectorButton_BudwayThemeFromMulberry
+{
+    padding: 5px 13px 6px;
+}
+.dxscViewSelectorButtonPressed_BudwayThemeFromMulberry
+{
+    background: #d8d8d8;
+}
+.dxscViewSelectorButtonHover_BudwayThemeFromMulberry
+{
+	background: #dcdcdc;
+}
+.dxscViewSelectorButtonChecked_BudwayThemeFromMulberry
+{
+    background: #BF4E6A;
+    color: white;
+}
+.dxscViewNavigatorButton_BudwayThemeFromMulberry,
+.dxscViewNavigatorGotoDateButton_BudwayThemeFromMulberry 
+{    
+	border: 1px solid transparent!important;
+	margin: 0 1px;
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.dxscViewNavigatorButton_BudwayThemeFromMulberry
+{    
+    padding: 1px 7px;
+}
+.dxscViewNavigatorGotoDateButton_BudwayThemeFromMulberry 
+{
+    padding: 10px 7px !important;
+}
+.dxscViewNavigatorButtonHover_BudwayThemeFromMulberry,
+.dxscViewNavigatorGotoDateButtonHover_BudwayThemeFromMulberry
+{
+    border: 1px solid #CBCBCB!important;
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxscViewNavigatorButtonPressed_BudwayThemeFromMulberry,
+.dxscViewNavigatorGotoDateButtonPressed_BudwayThemeFromMulberry
+{
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+}
+.dxscViewNavigatorButton_BudwayThemeFromMulberry.dxscViewNavigatorGotoTodayButton,
+.dxscViewNavigatorButtonHover_BudwayThemeFromMulberry.dxscViewNavigatorGotoTodayButton,
+.dxscViewNavigatorButtonPressed_BudwayThemeFromMulberry.dxscViewNavigatorGotoTodayButton
+{
+    border: 0!important;
+    background: none;
+    color: #BF4E6A;
+    padding: 3px 7px 5px;
+
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.dxscViewNavigatorButtonHover_BudwayThemeFromMulberry.dxscViewNavigatorGotoTodayButton span
+{
+    text-decoration: underline!important;
+}
+.dxscResourceNavigatorButton_BudwayThemeFromMulberry,
+.dxscDVTopMoreButton_BudwayThemeFromMulberry,
+.dxscDVBottomMoreButton_BudwayThemeFromMulberry,
+.dxscNavigationButton_BudwayThemeFromMulberry
+{
+	border: 1px solid #CBCBCB;
+	background: #f7f7f7;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjFGMUYxIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+
+	padding: 9px 7px;
+}
+.dxscResourceNavigatorButtonHover_BudwayThemeFromMulberry,
+.dxscDVTopMoreButtonHover_BudwayThemeFromMulberry,
+.dxscDVBottomMoreButtonHover_BudwayThemeFromMulberry,
+.dxscNavigationButtonHover_BudwayThemeFromMulberry
+{
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxscResourceNavigatorButtonPressed_BudwayThemeFromMulberry,
+.dxscDVTopMoreButtonPressed_BudwayThemeFromMulberry,
+.dxscDVBottomMoreButtonPressed_BudwayThemeFromMulberry,
+.dxscNavigationButtonPressed_BudwayThemeFromMulberry
+{
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+.dxscResourceNavigatorDisabled_BudwayThemeFromMulberry,
+.dxscNavigationDisabled_BudwayThemeFromMulberry
+{
+	background: #e7e7e7;
+	color: #C3C3C3;
+	border-color: #d3d3d3;
+	cursor: default;
+}
+
+.dxscDVBottomMoreButton_BudwayThemeFromMulberry
+{
+	padding: 7px 7px 6px;
+}
+.dxscDVTopMoreButton_BudwayThemeFromMulberry
+{
+	padding: 6px 7px 7px;
+}
+.dxscNavigationButton_BudwayThemeFromMulberry
+{
+	padding: 4px 6px;
+}
+.dxscSmartTagButton_BudwayThemeFromMulberry 
+{
+    border: solid 1px black;
+    background: #ffffee;
+    padding: 4px 5px;
+    cursor: pointer;
+}
+.dxscNoBorderButton_BudwayThemeFromMulberry
+{
+    background: none;
+    cursor: pointer;
+    border: solid 1px #c6dfff;
+}
+.dxscNoBorderButtonPressed_BudwayThemeFromMulberry,
+.dxscNoBorderButtonHover_BudwayThemeFromMulberry
+{
+    border-color: #ffbd69;
+}
+.dxscToolTipRoundedCornersTopBottomRow_BudwayThemeFromMulberry 
+{
+    font-size: 0;
+}
+.dxscToolTipRoundedCornersTopSide_BudwayThemeFromMulberry
+{
+    border-top: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersLeftSide_BudwayThemeFromMulberry
+{
+    border-left: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersRightSide_BudwayThemeFromMulberry
+{
+    border-right: 1px black solid; 
+    vertical-align:bottom; 
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersBottomSide_BudwayThemeFromMulberry
+{
+    border-bottom: 1px black solid; 
+    vertical-align:bottom; 
+    height:1px;	
+    background-color:#fafad2;
+}
+.dxscToolTipRoundedCornersContent_BudwayThemeFromMulberry
+{
+    background-color:#fafad2;
+    padding:0;
+}
+.dxscToolTipSquaredCorners_BudwayThemeFromMulberry
+{
+    background: #f9f9cd;
+    padding: 1px 1px;
+    font-size: 0;
+    color: #303030;
+    white-space: nowrap;
+    border: solid 1px black;
+}
+.dxscTimeMarker_BudwayThemeFromMulberry 
+{
+    top:-7px;
+}
+.dxscTimeMarkerLine_BudwayThemeFromMulberry 
+{
+    top:-2px;
+    height:13px;
+    font-size: 0;
+}
+.dxscTimeMarkerLineV_BudwayThemeFromMulberry 
+{
+    position:absolute;
+    width:1px;
+    font-size: 0;
+    border: 1px dashed #BF4E6A;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+.dxscTimeMarkerLineH_BudwayThemeFromMulberry
+{
+    position:absolute;
+    top:-2px;
+    height:1px;
+    font-size: 0;
+    border: 1px dashed #BF4E6A;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+

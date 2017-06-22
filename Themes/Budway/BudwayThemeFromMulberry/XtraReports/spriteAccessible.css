@@ -1,0 +1,181 @@
+.dx-acc-r .dxXtraReports_BtnFirstPage_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnFirstPageDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnLastPage_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnLastPageDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnNextPage_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnNextPageDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnPrevPage_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnPrevPageDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnPrint_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnPrintDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnPrintPage_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnPrintPageDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnSave_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnSaveDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnSaveWindow_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnSaveWindowDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnSearch_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_BtnSearchDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_PageBorder_blc_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_PageBorder_brc_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_PageBorder_tlc_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxXtraReports_PageBorder_trc_BudwayThemeFromMulberry:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxXtraReports_BtnFirstPage_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxXtraReports_BtnFirstPageDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -289px;
+
+}
+.dx-acc-r .dxXtraReports_BtnLastPage_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -85px;
+
+}
+.dx-acc-r .dxXtraReports_BtnLastPageDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -51px;
+
+}
+.dx-acc-r .dxXtraReports_BtnNextPage_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -255px;
+
+}
+.dx-acc-r .dxXtraReports_BtnNextPageDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -119px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrevPage_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -136px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrevPageDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -204px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrint_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -102px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -272px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintPage_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -34px;
+
+}
+.dx-acc-r .dxXtraReports_BtnPrintPageDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -68px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSave_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -170px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -187px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveWindow_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -153px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSaveWindowDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -221px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSearch_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -17px;
+
+}
+.dx-acc-r .dxXtraReports_BtnSearchDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -238px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_blc_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -306px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_brc_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -317px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_tlc_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -328px;
+
+}
+.dx-acc-r .dxXtraReports_PageBorder_trc_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -339px;
+
+}

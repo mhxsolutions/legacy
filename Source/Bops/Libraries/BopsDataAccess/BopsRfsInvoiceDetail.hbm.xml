@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsInvoiceDetail, BopsDataAccess" table="[RFS Invoice Details]" lazy="false">
+    <composite-id>
+      <key-property name="InvoiceRef" column="[RFS Invoice Ref]"/>
+      <key-property name="LineNumber" column="[Line Number]"/>
+    </composite-id>
+    <property name="ServiceCalculationResultRef" column="[RFS Service Calculation Result Ref]"/>
+    <property name="ItemDate" column="[Item Date]"/>
+    <property name="ItemDescription" column="[Item Description]"/>
+    <property name="ItemTotal" column="[Item Total]"/>
+    <property name="GroupName" column="[Group Name]"/>
+    <property name="LineNumberDisplayed" column="[Line Number Displayed]"/>
+    <property name="ServiceOfferedRef" column="[Service Offered Ref]"/>
+    <property name="LocationCode" column="[Location Code]"/>
+    <property name="StorageBillingDetailRef" column="[RFS Storage Billing Detail Ref]"/>
+    <property name="ArTrnRecId" column="[ArTrnRecId]"/>
+  </class>
+</hibernate-mapping>

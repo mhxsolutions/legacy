@@ -1,0 +1,591 @@
+.dxEditors_edtError_Office2010Blue,
+.dxEditors_edtCalendarPrevYear_Office2010Blue,
+.dxEditors_edtCalendarPrevYearDisabled_Office2010Blue,
+.dxEditors_edtCalendarPrevMonth_Office2010Blue,
+.dxEditors_edtCalendarPrevMonthDisabled_Office2010Blue,
+.dxEditors_edtCalendarNextMonth_Office2010Blue,
+.dxEditors_edtCalendarNextMonthDisabled_Office2010Blue,
+.dxEditors_edtCalendarNextYear_Office2010Blue,
+.dxEditors_edtCalendarNextYearDisabled_Office2010Blue,
+.dxEditors_edtCalendarFNPrevYear_Office2010Blue,
+.dxEditors_edtCalendarFNNextYear_Office2010Blue,
+.dxEditors_edtEllipsis_Office2010Blue,
+.dxEditors_edtEllipsisDisabled_Office2010Blue,
+.dxEditors_edtDropDown_Office2010Blue,
+.dxEditors_edtDropDownDisabled_Office2010Blue,
+.dxEditors_edtSpinEditIncrementImage_Office2010Blue,
+.dxEditors_edtSpinEditIncrementImageDisabled_Office2010Blue,
+.dxEditors_edtSpinEditDecrementImage_Office2010Blue,
+.dxEditors_edtSpinEditDecrementImageDisabled_Office2010Blue,
+.dxEditors_edtSpinEditLargeIncImage_Office2010Blue,
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office2010Blue,
+.dxEditors_edtSpinEditLargeDecImage_Office2010Blue,
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office2010Blue,
+.dxEditors_fcadd_Office2010Blue,
+.dxEditors_fcaddhot_Office2010Blue,
+.dxEditors_fcremove_Office2010Blue,
+.dxEditors_fcremovehot_Office2010Blue,
+.dxEditors_fcgroupaddcondition_Office2010Blue,
+.dxEditors_fcgroupaddgroup_Office2010Blue,
+.dxEditors_fcgroupremove_Office2010Blue,
+.dxEditors_fcopany_Office2010Blue,
+.dxEditors_fcopbegin_Office2010Blue,
+.dxEditors_fcopbetween_Office2010Blue,
+.dxEditors_fcopcontain_Office2010Blue,
+.dxEditors_fcopnotcontain_Office2010Blue,
+.dxEditors_fcopnotequal_Office2010Blue,
+.dxEditors_fcopend_Office2010Blue,
+.dxEditors_fcopequal_Office2010Blue,
+.dxEditors_fcopgreater_Office2010Blue,
+.dxEditors_fcopgreaterorequal_Office2010Blue,
+.dxEditors_fcopnotblank_Office2010Blue,
+.dxEditors_fcopblank_Office2010Blue,
+.dxEditors_fcopless_Office2010Blue,
+.dxEditors_fcoplessorequal_Office2010Blue,
+.dxEditors_fcoplike_Office2010Blue,
+.dxEditors_fcopnotany_Office2010Blue,
+.dxEditors_fcopnotbetween_Office2010Blue,
+.dxEditors_fcopnotlike_Office2010Blue,
+.dxEditors_fcgroupand_Office2010Blue,
+.dxEditors_fcgroupor_Office2010Blue,
+.dxEditors_fcgroupnotand_Office2010Blue,
+.dxEditors_fcgroupnotor_Office2010Blue,
+.dxEditors_caRefresh_Office2010Blue,
+.dxEditors_edtRadioButtonChecked_Office2010Blue,
+.dxEditors_edtRadioButtonUnchecked_Office2010Blue,
+.dxEditors_edtRadioButtonCheckedDisabled_Office2010Blue,
+.dxEditors_edtRadioButtonUncheckedDisabled_Office2010Blue,
+.dxEditors_edtRadioButtonGrayedDisabled_Office2010Blue,
+.dxEditors_edtTBDecBtn_Office2010Blue,
+.dxEditors_edtTBIncBtn_Office2010Blue,
+.dxEditors_edtTBMainDH_Office2010Blue,
+.dxEditors_edtTBSecondaryDH_Office2010Blue,
+.dxEditors_edtTBIncBtnDisabled_Office2010Blue,
+.dxEditors_edtTBDecBtnDisabled_Office2010Blue,
+.dxEditors_edtTBMainDHDisabled_Office2010Blue,
+.dxEditors_edtTBSecondaryDHDisabled_Office2010Blue
+{
+    background-image: url('sprite.png');
+    -background-image: url('sprite.gif'); /* for IE6 */
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+/* TrackBar */
+.dxEditors_edtTBDecBtn_Office2010Blue, .dxEditors_edtTBIncBtn_Office2010Blue,
+.dxEditors_edtTBDecBtnHover_Office2010Blue, .dxEditors_edtTBIncBtnHover_Office2010Blue,
+.dxEditors_edtTBDecBtnPressed_Office2010Blue, .dxEditors_edtTBIncBtnPressed_Office2010Blue,
+.dxEditors_edtTBDecBtnDisabled_Office2010Blue, .dxEditors_edtTBIncBtnDisabled_Office2010Blue
+{
+	width: 16px;
+	height: 16px;
+}
+
+.dxeTBHSys .dxEditors_edtTBMainDH_Office2010Blue, .dxeTBHSys .dxEditors_edtTBSecondaryDH_Office2010Blue,
+.dxeTBHSys .dxEditors_edtTBMainDHHover_Office2010Blue, .dxeTBHSys .dxEditors_edtTBSecondaryDHHover_Office2010Blue,
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_Office2010Blue, .dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_Office2010Blue,
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_Office2010Blue, .dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_Office2010Blue
+{
+	width: 11px;
+	height: 17px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDH_Office2010Blue, .dxeTBVSys .dxEditors_edtTBSecondaryDH_Office2010Blue,
+.dxeTBVSys .dxEditors_edtTBMainDHHover_Office2010Blue, .dxeTBVSys .dxEditors_edtTBSecondaryDHHover_Office2010Blue,
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_Office2010Blue, .dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_Office2010Blue,
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_Office2010Blue, .dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_Office2010Blue
+{
+	width: 17px;
+	height: 11px;
+}
+
+.dxEditors_edtTBDecBtn_Office2010Blue
+{
+	background-position: 1px -159px;
+}
+.dxEditors_edtTBDecBtnHover_Office2010Blue
+{
+	background-position: -40px -159px;
+}
+.dxEditors_edtTBDecBtnPressed_Office2010Blue
+{
+	background-position: -80px -159px;
+}
+.dxEditors_edtTBDecBtnDisabled_Office2010Blue
+{
+	background-position: 1px -179px;
+}
+
+.dxEditors_edtTBIncBtn_Office2010Blue
+{
+	background-position: -20px -159px;
+}
+.dxEditors_edtTBIncBtnHover_Office2010Blue
+{
+	background-position: -60px -159px;
+}
+.dxEditors_edtTBIncBtnPressed_Office2010Blue
+{ 
+	background-position: -100px -159px;
+}
+.dxEditors_edtTBIncBtnDisabled_Office2010Blue
+{ 
+	background-position: -20px -179px;
+}
+
+.dxeTBHSys .dxEditors_edtTBMainDH_Office2010Blue,
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_Office2010Blue
+{
+	background-position: -29px -135px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHHover_Office2010Blue,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_Office2010Blue
+{
+	background-position: -43px -135px;
+}
+
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_Office2010Blue,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_Office2010Blue
+{
+	background-position: -57px -135px;
+	z-index: 7;
+}
+
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_Office2010Blue,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_Office2010Blue
+{
+	background-position: -71px -135px;
+}
+
+.dxeFocused_Office2010Blue .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_Office2010Blue,
+.dxeFocused_Office2010Blue .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_Office2010Blue
+{
+	background-position: -85px -135px;
+}
+.dxeFocused_Office2010Blue .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_Office2010Blue,
+.dxeFocused_Office2010Blue .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_Office2010Blue
+{
+	background-position: -99px -135px;
+}
+.dxeFocused_Office2010Blue .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_Office2010Blue,
+.dxeFocused_Office2010Blue .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_Office2010Blue
+{
+	background-position: -113px -135px;
+}
+
+.dxeTBVSys .dxEditors_edtTBMainDH_Office2010Blue,
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_Office2010Blue
+{
+	background-position: -128px -135px;
+}
+
+.dxeTBVSys .dxEditors_edtTBMainDHHover_Office2010Blue,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_Office2010Blue
+{
+	background-position: -128px -149px;
+}
+
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_Office2010Blue,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_Office2010Blue
+{
+	background-position: -149px -135px;
+	z-index: 7;
+}
+
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_Office2010Blue,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_Office2010Blue
+{
+	background-position: -149px -149px;
+}
+
+.dxeFocused_Office2010Blue .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_Office2010Blue,
+.dxeFocused_Office2010Blue .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_Office2010Blue
+{
+	background-position: -170px -135px;
+}
+.dxeFocused_Office2010Blue .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_Office2010Blue,
+.dxeFocused_Office2010Blue .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_Office2010Blue
+{
+	background-position: -170px -149px;
+}
+.dxeFocused_Office2010Blue .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_Office2010Blue,
+.dxeFocused_Office2010Blue .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_Office2010Blue
+{
+	background-position: -170px -163px;
+}
+
+/* RadioButton */
+.dxEditors_edtRadioButtonChecked_Office2010Blue,
+.dxEditors_edtRadioButtonUnchecked_Office2010Blue,
+.dxEditors_edtRadioButtonCheckedDisabled_Office2010Blue,
+.dxEditors_edtRadioButtonUncheckedDisabled_Office2010Blue,
+.dxEditors_edtRadioButtonGrayedDisabled_Office2010Blue {
+    width: 15px;
+    height: 15px;
+}
+
+.dxEditors_edtError_Office2010Blue,
+.dxEditors_edtCalendarPrevYear_Office2010Blue,
+.dxEditors_edtCalendarPrevYearDisabled_Office2010Blue,
+.dxEditors_edtCalendarPrevMonth_Office2010Blue,
+.dxEditors_edtCalendarPrevMonthDisabled_Office2010Blue,
+.dxEditors_edtCalendarNextMonth_Office2010Blue,
+.dxEditors_edtCalendarNextMonthDisabled_Office2010Blue,
+.dxEditors_edtCalendarNextYear_Office2010Blue,
+.dxEditors_edtCalendarNextYearDisabled_Office2010Blue,
+.dxEditors_edtCalendarFNPrevYear_Office2010Blue,
+.dxEditors_edtCalendarFNNextYear_Office2010Blue,
+.dxEditors_edtEllipsis_Office2010Blue,
+.dxEditors_edtEllipsisDisabled_Office2010Blue,
+.dxEditors_edtDropDown_Office2010Blue,
+.dxEditors_edtDropDownDisabled_Office2010Blue,
+.dxEditors_edtSpinEditIncrementImage_Office2010Blue,
+.dxEditors_edtSpinEditIncrementImageDisabled_Office2010Blue,
+.dxEditors_edtSpinEditDecrementImage_Office2010Blue,
+.dxEditors_edtSpinEditDecrementImageDisabled_Office2010Blue,
+.dxEditors_edtSpinEditLargeIncImage_Office2010Blue,
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office2010Blue,
+.dxEditors_edtSpinEditLargeDecImage_Office2010Blue,
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office2010Blue
+{
+	display:block;
+	margin:auto;
+}
+
+.dxEditors_edtRadioButtonUnchecked_Office2010Blue {
+	background-position: 0px -51px; 
+}
+.dxEditors_edtRadioButtonChecked_Office2010Blue {
+	background-position: -15px -51px; 
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_Office2010Blue {
+	background-position: -30px -51px; 
+}
+.dxEditors_edtRadioButtonCheckedDisabled_Office2010Blue {
+	background-position: -45px -51px; 
+}
+
+.dxEditors_edtSpinEditLargeIncImage_Office2010Blue, .dxEditors_edtSpinEditLargeIncImageDisabled_Office2010Blue,
+.dxEditors_edtSpinEditLargeDecImage_Office2010Blue, .dxEditors_edtSpinEditLargeDecImageDisabled_Office2010Blue,
+.dxEditors_edtSpinEditIncrementImage_Office2010Blue, .dxEditors_edtSpinEditIncrementImageDisabled_Office2010Blue,
+.dxEditors_edtSpinEditDecrementImage_Office2010Blue, .dxEditors_edtSpinEditDecrementImageDisabled_Office2010Blue
+{
+	margin:auto;
+}
+
+.dxEditors_edtError_Office2010Blue {
+    background-position: -126px -34px;
+    width: 14px;
+    height: 14px;
+}
+
+.dxEditors_edtCalendarPrevYear_Office2010Blue {
+    background-position: -100px 0px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxEditors_edtCalendarPrevYearDisabled_Office2010Blue {
+    background-position: -100px -25px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxEditors_edtCalendarPrevMonth_Office2010Blue {
+    background-position: -75px 0px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxEditors_edtCalendarPrevMonthDisabled_Office2010Blue {
+    background-position: -75px -25px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxEditors_edtCalendarNextMonth_Office2010Blue {
+    background-position: -25px 0px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxEditors_edtCalendarNextMonthDisabled_Office2010Blue {
+    background-position: -25px -25px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxEditors_edtCalendarNextYear_Office2010Blue {
+    background-position: -50px 0px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxEditors_edtCalendarNextYearDisabled_Office2010Blue {
+    background-position: -50px -25px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxEditors_edtCalendarFNPrevYear_Office2010Blue {
+    background-position: 0px 0px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxEditors_edtCalendarFNNextYear_Office2010Blue {
+    background-position: 0px -25px;
+    width: 23px;
+    height: 23px;
+}
+
+.dxEditors_edtEllipsis_Office2010Blue {
+    background-position: -139px 0px;
+    width: 11px;
+    height: 13px;
+}
+
+.dxEditors_edtEllipsisDisabled_Office2010Blue {
+    background-position: -139px -16px;
+    width: 11px;
+    height: 13px;
+}
+
+.dxEditors_edtDropDown_Office2010Blue {
+    background-position: -126px 0px;
+    width: 10px;
+    height: 13px;
+}
+
+.dxEditors_edtDropDownDisabled_Office2010Blue {
+    background-position: -126px -16px;
+    width: 10px;
+    height: 13px;
+}
+
+.dxEditors_edtSpinEditIncrementImage_Office2010Blue {
+    background-position: -162px 0px;
+    width: 7px;
+    height: 5px;
+}
+
+.dxEditors_edtSpinEditIncrementImageDisabled_Office2010Blue {
+    background-position: -162px -8px;
+    width: 7px;
+    height: 5px;
+}
+
+.dxEditors_edtSpinEditDecrementImage_Office2010Blue {
+    background-position: -153px 0px;
+    width: 7px;
+    height: 5px;
+}
+
+.dxEditors_edtSpinEditDecrementImageDisabled_Office2010Blue {
+    background-position: -153px -8px;
+    width: 7px;
+    height: 5px;
+}
+
+.dxEditors_edtSpinEditLargeIncImage_Office2010Blue {
+    background-position: -179px 0px;
+    width: 5px;
+    height: 7px;
+}
+
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office2010Blue {
+    background-position: -179px -8px;
+    width: 5px;
+    height: 7px;
+}
+
+.dxEditors_edtSpinEditLargeDecImage_Office2010Blue {
+    background-position: -172px 0px;
+    width: 5px;
+    height: 7px;
+}
+
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office2010Blue {
+    background-position: -172px -8px;
+    width: 5px;
+    height: 7px;
+}
+
+.dxEditors_fcadd_Office2010Blue {
+    background-position: 0px -74px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcaddhot_Office2010Blue {
+    background-position: -21px -74px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcremove_Office2010Blue {
+    background-position: -42px -74px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcremovehot_Office2010Blue {
+    background-position: -63px -74px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupaddcondition_Office2010Blue {
+    background-position: -168px -53px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupaddgroup_Office2010Blue {
+    background-position: -147px -53px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupremove_Office2010Blue {
+    background-position: -126px -74px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopany_Office2010Blue {
+    background-position: 0px -95px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopbegin_Office2010Blue {
+    background-position: -42px -95px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopbetween_Office2010Blue {
+    background-position: -84px -95px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopcontain_Office2010Blue {
+    background-position: -105px -116px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotcontain_Office2010Blue {
+    background-position: -147px -116px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotequal_Office2010Blue {
+    background-position: -168px -95px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopend_Office2010Blue {
+    background-position: -63px -95px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopequal_Office2010Blue {
+    background-position: 0px -116px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopgreater_Office2010Blue {
+    background-position: -21px -116px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopgreaterorequal_Office2010Blue {
+    background-position: -42px -116px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotblank_Office2010Blue {
+    background-position: -105px -95px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopblank_Office2010Blue {
+    background-position: -126px -95px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopless_Office2010Blue {
+    background-position: -63px -116px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcoplessorequal_Office2010Blue {
+    background-position: -84px -116px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcoplike_Office2010Blue {
+    background-position: -126px -116px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotany_Office2010Blue {
+    background-position: -21px -95px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotbetween_Office2010Blue {
+    background-position: -147px -95px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotlike_Office2010Blue {
+    background-position: -168px -116px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupand_Office2010Blue {
+    background-position: -84px -74px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupor_Office2010Blue {
+    background-position: -168px -74px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupnotand_Office2010Blue {
+    background-position: -105px -74px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupnotor_Office2010Blue {
+    background-position: -147px -74px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_caRefresh_Office2010Blue {
+    background-position: 0px -132px;
+    width: 25px;
+    height: 25px;
+}

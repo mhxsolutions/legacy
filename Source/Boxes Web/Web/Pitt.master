@@ -1,0 +1,39 @@
+﻿<%@ Master Language="VB" CodeFile="Pitt.master.vb" Inherits="Pitt" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Pittsburg</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div id="topContent">
+    <a href="Default.aspx">Pittsburg Fleet Reports</a>
+    <div>
+
+ <div id="mainContent">
+ <asp:ContentPlaceHolder id="MainContent" runat="server">
+ <h3>Content Area</h3>
+ </asp:ContentPlaceHolder>
+ </div>
+ 
+ <div id="leftContent">
+ <h3>Lessons</h3>    
+ <ul>
+ <li>TODO</li>
+ </ul>
+ <h3>News</h3>    
+ <ul>
+ <li>TODO</li>
+ </ul>
+ </div>
+ 
+ <div id="footerContent">
+ &nbsp;footer</div>
+ </form>
+  </body>
+</html>

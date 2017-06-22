@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="BopsDataAccess.BopsDestinationSet, BopsDataAccess" table="[Destination Sets]" lazy="false">
+		<id name="Id" column="[Set Id]" unsaved-value="0">
+			<generator class="identity" />
+		</id>
+		<property name="Name" column="[Name]" />
+		<property name="AllowDelete" column="[Allow Delete]"/>
+	</class>
+</hibernate-mapping>

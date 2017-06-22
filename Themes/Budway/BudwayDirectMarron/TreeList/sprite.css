@@ -1,0 +1,76 @@
+.dxTreeList_CollapsedButton_BudwayDirectMarron,
+.dxTreeList_CollapsedButtonRtl_BudwayDirectMarron,
+.dxTreeList_DragAndDropArrowDown_BudwayDirectMarron,
+.dxTreeList_DragAndDropArrowUp_BudwayDirectMarron,
+.dxTreeList_DragAndDropHide_BudwayDirectMarron,
+.dxTreeList_DragAndDropNode_BudwayDirectMarron,
+.dxTreeList_ExpandedButton_BudwayDirectMarron,
+.dxTreeList_ExpandedButtonRtl_BudwayDirectMarron,
+.dxTreeList_SortAsc_BudwayDirectMarron,
+.dxTreeList_SortDesc_BudwayDirectMarron
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxTreeList_CollapsedButton_BudwayDirectMarron
+{
+    background-position: 0px -39px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_CollapsedButtonRtl_BudwayDirectMarron
+{
+    background-position: -16px -23px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_DragAndDropArrowDown_BudwayDirectMarron
+{
+    background-position: -12px -69px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropArrowUp_BudwayDirectMarron
+{
+    background-position: 0px -69px;
+    width: 11px;
+    height: 9px;
+}
+.dxTreeList_DragAndDropHide_BudwayDirectMarron
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxTreeList_DragAndDropNode_BudwayDirectMarron
+{
+    background-position: 0px -55px;
+    width: 13px;
+    height: 13px;
+}
+.dxTreeList_ExpandedButton_BudwayDirectMarron
+{
+    background-position: 0px -23px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_ExpandedButtonRtl_BudwayDirectMarron
+{
+    background-position: -16px -39px;
+    width: 15px;
+    height: 15px;
+}
+.dxTreeList_SortAsc_BudwayDirectMarron
+{
+    background-position: -14px -55px;
+    width: 11px;
+    height: 13px;
+}
+.dxTreeList_SortDesc_BudwayDirectMarron
+{
+    background-position: -23px 0px;
+    width: 11px;
+    height: 13px;
+}
+

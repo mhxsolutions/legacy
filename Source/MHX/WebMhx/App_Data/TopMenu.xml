@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item Text="Home" NavigateUrl="~/All/Default.aspx" />
+  <item Text="Change Password" NavigateUrl="~/All/ChangePassword.aspx"  />
+  <item Text="Tutorial" NavigateUrl="~/All/Tutorial.aspx"  />
+  <item Text="Logout" NavigateUrl="~/All/Logout.aspx"  />
+</items>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<locations>
+	<location name="The Golden Bull" latitude="35.383352" longitude="-119.216493" distance="1.0" />
+	<location name="Cowboy Burger" latitude="34.039734" longitude="-117.524398" distance="0.5" />
+	<location name="SS Burger Basket" latitude="34.098709" longitude="-117.489000" distance="1.0" />
+</locations>

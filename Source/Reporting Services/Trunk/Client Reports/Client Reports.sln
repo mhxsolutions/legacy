@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Alcoa", "Alcoa\Alcoa.rptproj", "{3E791527-9BB6-42B9-862C-22AF753A0568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Production|Default = Production|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E791527-9BB6-42B9-862C-22AF753A0568}.Debug|Default.ActiveCfg = DebugLocal
+		{3E791527-9BB6-42B9-862C-22AF753A0568}.Debug|Default.Build.0 = DebugLocal
+		{3E791527-9BB6-42B9-862C-22AF753A0568}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{3E791527-9BB6-42B9-862C-22AF753A0568}.DebugLocal|Default.Build.0 = DebugLocal
+		{3E791527-9BB6-42B9-862C-22AF753A0568}.Production|Default.ActiveCfg = Production
+		{3E791527-9BB6-42B9-862C-22AF753A0568}.Production|Default.Build.0 = Production
+		{3E791527-9BB6-42B9-862C-22AF753A0568}.Production|Default.Deploy.0 = Production
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

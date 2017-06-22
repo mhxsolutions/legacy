@@ -1,0 +1,74 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Average.aspx.vb" Inherits="Average" %>
+
+<%@ Register assembly="DevExpress.Web.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta name="viewport" content="width=320" />
+    <title>Avg LNFT</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <h3>
+            Average LNFT &amp; Weight - <a href="default.aspx">home</a></h3>
+        <br />
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+            ConnectionString="<%$ ConnectionStrings:DWS No Rep DataConnectionString %>" 
+            SelectCommand="SELECT * FROM [TTL average LnFt] ORDER BY [Client], [Profile], [Extended Description]">
+        </asp:SqlDataSource>
+    
+    </div>
+    <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" 
+        DataSourceID="SqlDataSource1" EnableTheming="True" Theme="Metropolis">
+        <SettingsBehavior EnableCustomizationWindow="True" EnableRowHotTrack="True" />
+        <SettingsSearchPanel Visible="True" />
+        <Columns>
+            <dx:GridViewCommandColumn ShowClearFilterButton="True" VisibleIndex="0">
+            </dx:GridViewCommandColumn>
+            <dx:GridViewDataTextColumn FieldName="Terminal" GroupIndex="0" SortIndex="0" 
+                SortOrder="Ascending" VisibleIndex="1">
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Client" SortIndex="1" 
+                SortOrder="Ascending" VisibleIndex="2">
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Profile" SortIndex="2" 
+                SortOrder="Ascending" VisibleIndex="3">
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Extended Description" SortIndex="3" 
+                SortOrder="Ascending" VisibleIndex="4">
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Avg LnFt" VisibleIndex="5">
+                <PropertiesTextEdit DisplayFormatString="{0:n1}">
+                </PropertiesTextEdit>
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Min LnFt" VisibleIndex="6">
+                <PropertiesTextEdit DisplayFormatString="{0:n1}">
+                </PropertiesTextEdit>
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Max LnFt" VisibleIndex="7">
+                <PropertiesTextEdit DisplayFormatString="{0:n1}">
+                </PropertiesTextEdit>
+            </dx:GridViewDataTextColumn>
+            <dx:GridViewDataTextColumn FieldName="Avg Wt" VisibleIndex="8">
+                <PropertiesTextEdit DisplayFormatString="{0:n1}">
+                </PropertiesTextEdit>
+            </dx:GridViewDataTextColumn>
+        </Columns>
+        <SettingsContextMenu Enabled="True" EnableRowMenu="False">
+        </SettingsContextMenu>
+        <SettingsPager PageSize="20">
+            <AllButton Visible="True">
+            </AllButton>
+            <PageSizeItemSettings Visible="True">
+            </PageSizeItemSettings>
+        </SettingsPager>
+        <Settings ShowFilterRow="True" ShowFilterRowMenu="True" ShowGroupPanel="True" />
+    </dx:ASPxGridView>
+    </form>
+</body>
+</html>

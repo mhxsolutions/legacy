@@ -1,0 +1,75 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace Web.Administration
+{
+    public partial class AddUser : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (Session["CompanyId"] == null)
+            {
+                FormsAuthentication.RedirectToLoginPage();
+            }
+            if (!IsPostBack)
+            {
+                string[] roles = System.Web.Security.Roles.GetRolesForUser(User.Identity.Name);
+                if (roles.Length > 0)
+                {
+                    Session["Role"] = roles[0];
+                }
+            }
+
+        }
+        protected void btnAddUser_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MembershipUser user = Membership.GetUser(txtUserName.Text.Trim());
+                if (user == null)
+                {
+                    user = Membership.CreateUser(txtUserName.Text.Trim(), txtPassword.Text, txtEmail.Text);
+                    user.IsApproved = true;
+                    user.Comment = txtComment.Text;
+
+                    Membership.UpdateUser(user);
+                    Roles.AddUserToRole(user.UserName, cbRole.SelectedItem.Value.ToString());
+                    UserData.SaveClient(user.UserName, cbClient.SelectedItem.Value.ToString());
+                    UserData.SaveMobileNo(user.UserName, txtMobile.Text.Trim());
+
+                    Response.Redirect("ManageUsers.aspx");
+                }
+                else
+                {
+                    lblMessage.Text = "Username already exists. Please try with different username.";
+                    lblMessage.ForeColor = System.Drawing.Color.Red;
+                }
+            }
+            catch (Exception ex)
+            {
+                lblMessage.Text = ex.Message;
+                lblMessage.ForeColor = System.Drawing.Color.Red;
+            }
+        }
+
+
+        protected void txtConfirmedPassword_Validation(object sender, DevExpress.Web.ValidationEventArgs e)
+        {
+            if (e.IsValid && txtPassword.Text != txtConfirmedPassword.Text)
+            {
+                e.ErrorText = "Passwords do not match";
+                e.IsValid = false;
+            }
+        }
+
+        protected void btnCancel_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}

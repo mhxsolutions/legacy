@@ -1,0 +1,6003 @@
+/*Warning - Some <%= are replaced with < %= to overcome parser exceptions */
+/* CheckBox */
+.dxICBFocused_iOS
+{
+}
+.dxICheckBox_iOS
+{
+    cursor: default;
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* -- ASPxCallbackPanel -- */
+.dxcpLoadingPanel_iOS,
+.dxcpLoadingPanelWithContent_iOS
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxcpLoadingPanel_iOS td.dx,
+.dxcpLoadingPanelWithContent_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxcpLoadingPanel_iOS td.dx:first-child,
+.dxcpLoadingPanelWithContent_iOS td.dx:first-child,
+*[dir="rtl"] .dxcpLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxcpLoadingPanelWithContent_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxcpLoadingPanel_iOS td.dx:last-child,
+.dxcpLoadingPanelWithContent_iOS td.dx:last-child,
+*[dir="rtl"] .dxcpLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxcpLoadingPanelWithContent_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;	
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxcpLoadingPanel_iOS td.dx:first-child:last-child,
+.dxcpLoadingPanelWithContent_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxcpLoadingPanel_iOS td.dx + td.dx,
+.dxcpLoadingPanelWithContent_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxcpLoadingPanel_iOS td.dx + td.dx,
+*[dir="rtl"] .dxcpLoadingPanelWithContent_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxcpLoadingDiv_iOS
+{
+	background-color: #C9CACB;
+	opacity: 0.01;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+/* Disabled */
+.dxcpDisabled_iOS
+{
+	color: #bbb;
+	cursor: default;
+}
+
+/* -- ASPxCloudControl -- */
+.dxccControl_iOS
+{
+	font: bold 17px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	text-decoration: none;
+	border: none;
+}
+.dxccControl_iOS *
+{
+	font-size: 17px !important;
+}
+.dxccControl_iOS td > a,
+.dxccControl_iOS td > span	/* selector's duplicate for design-time */
+{
+	background-color: #1879F2;
+}
+.dxccControl_iOS td > a,
+.dxccControl_iOS td > span
+{
+	padding: 11px 10px;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	background-color: rgba(24, 121, 242, 1);
+}
+.dxccControl_iOS td > a[dir="rtl"],
+.dxccControl_iOS td > span[dir="rtl"]
+{
+	margin-right: 0px;
+	margin-left: 5px;
+}
+.dxccControl_iOS a
+{
+	color: #FFF;
+	text-decoration: none!important;
+}
+.dxccControl_iOS .dxccRank7
+{
+	background-color: #1879F2;
+}
+.dxccControl_iOS .dxccRank7
+{
+	background-color: rgba(24, 121, 242, 1);
+}
+.dxccControl_iOS .dxccRank6
+{
+	background-color: #2F86F3;
+}
+.dxccControl_iOS .dxccRank6
+{
+	background-color: rgba(24, 121, 242, 0.9);
+}
+.dxccControl_iOS .dxccRank5
+{
+	background-color: #4694F5;
+}
+.dxccControl_iOS .dxccRank5
+{
+	background-color: rgba(24, 121, 242, 0.8);
+}
+.dxccControl_iOS .dxccRank4
+{
+	background-color: #74AFF7;
+}
+.dxccControl_iOS .dxccRank4
+{
+	background-color: rgba(24, 121, 242, 0.6);
+}
+.dxccControl_iOS .dxccRank3
+{
+	background-color: #8BBCF8;
+}
+.dxccControl_iOS .dxccRank3
+{
+	background-color: rgba(24, 121, 242, 0.5);
+}
+.dxccControl_iOS .dxccRank2
+{
+	background-color: #B9D7FB;
+}
+.dxccControl_iOS .dxccRank2
+{
+	background-color: rgba(24, 121, 242, 0.3);
+}
+.dxccControl_iOS .dxccRank1
+{
+	background-color: #D1E4FC;
+}
+.dxccControl_iOS .dxccRank1
+{
+	background-color: rgba(24, 121, 242, 0.2);
+}
+
+/* Disabled */
+.dxccDisabled_iOS
+{
+	color: #FFF;
+	cursor: default;
+}
+
+/* -- ASPxDataView -- */
+.dxdvControl_iOS 
+{
+	font-family:HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: #787878;
+	border-collapse: separate!important;
+}
+.dxdvControl_iOS td.dxdvCtrl
+{
+	border: 1px Solid #505153;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.dxdvLoadingPanel_iOS
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxdvLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxdvLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxdvLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxdvLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxdvLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxdvLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxdvLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxdvLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxdvPPSpacing {
+    background-color: #505153;
+}
+.dxdvContent_iOS
+{
+   background-color: #A9ACAE;
+}
+.dxdvItem_iOS,
+.dxdvFlowItem_iOS
+{
+    background-color: #D4D8DA;
+	padding: 30px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvFlowItem_iOS
+{
+	float: left;
+	overflow: hidden;
+}
+.dxdvFlowItemsContainer_iOS
+{
+}
+.dxdvEmptyItem_iOS
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 12px 12px 12px 14px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvPagerPanel_iOS
+{
+    background-color: #7C8087;
+}
+.dxdvEmptyData_iOS
+{
+	color: Gray;
+}
+/* Disabled */
+
+.dxdvDisabled_iOS
+{
+	color: #808080;
+	cursor: default;
+}
+/* -- ASPxHeadline -- */
+.dxhlControl_iOS
+{
+	font-family: HelveticaNeue,Helvetica,Verdana,sans-serif;
+	font-weight: bold;
+	color: #000;
+	border: none;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+.dxhlControl_iOS a
+{
+	color: #006EE9;
+}
+.dxhlContent_iOS
+{
+	color: Black;
+	font-size: 13px;
+} 
+.dxhlDate_iOS
+{
+	font-size: 13px;
+	color: #898A8D;
+}
+.dxhlHeader_iOS,
+.dxhlDateHeader_iOS
+{
+	font-size: 18px;    
+	padding-bottom: 6px;
+	color: #4C566C;
+}
+
+.dxhlLeftPanel_iOS,
+.dxhlRightPanel_iOS
+{
+	padding-top: 3px;
+}
+.dxhlDateLeftPanel_iOS,
+.dxhlDateRightPanel_iOS
+{
+	white-space: nowrap;
+}
+/* Disabled */
+.dxhlDisabled_iOS,
+.dxhlDisabled_iOS a,
+.dxhlDisabled_iOS a:hover
+{
+	cursor: default;
+}
+
+/* -- ASPxLoadingPanel -- */
+.dxlpLoadingPanel_iOS
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	text-shadow: 0 -1px rgba(255, 255, 255, 0.5);
+	border: 1px solid #A6A6A6;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxlpLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxlpLoadingPanel_iOS td.dx:first-child,
+.dxlpLoadingPanel_iOS[dir="rtl"] td.dx:last-child,
+*[dir="rtl"] .dxlpLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxlpLoadingPanel_iOS td.dx:last-child,
+.dxlpLoadingPanel_iOS[dir="rtl"] td.dx:first-child,
+*[dir="rtl"] .dxlpLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxlpLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxlpLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxlpLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxlpLoadingDiv_iOS
+{
+	background-color: Black;
+	opacity: 0.6;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=60);
+}
+
+/* -- ASPxMenu -- */
+.dxmMenu_iOS a,
+.dxmVerticalMenu_iOS a,
+.dxmSubMenu_iOS a
+{
+	color: Black;
+	text-decoration: none;
+}
+.dxmLoadingPanel_iOS
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxmLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxmLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxmLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxmLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxmLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxmLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxmLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxmLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxmMenu_iOS 
+{
+    color: Black;
+    font-family: HelveticaNeue, Helvetica, Verdana, sans-serif;
+    font-weight: bold;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	padding: 3px 9px;
+	white-space: nowrap;
+}
+.dxmVerticalMenu_iOS
+{
+    background: White;
+    color: Black;
+    font-family: HelveticaNeue, Helvetica, Verdana, sans-serif;
+    font-weight: bold;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+	white-space: nowrap;
+}
+.dxmMenu_iOS
+{
+	background: #e2e5ea;
+}
+.dxmMenuGutter_iOS,
+.dxmMenuRtlGutter_iOS
+{
+}
+
+.dxmMenuSeparator_iOS .dx,
+.dxmMenuFullHeightSeparator_iOS .dx
+{
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+}
+.dxmMenuFullHeightSeparator_iOS
+{
+    display: none;
+}
+.dxmMenuSeparator_iOS .dx,
+.dxmMenuFullHeightSeparator_iOS
+{
+}
+.dxmMenuSeparator_iOS .dx
+{
+    background: #afb1b6;
+	height: 34px;
+}
+.dxmMenuVerticalSeparator_iOS
+{
+    height: 1px;
+    width: 100%;
+    background: #e0e0e0;
+}
+.dxmMenu_iOS .dxmIFC,
+table[dir="rtl"] > tbody > tr > td.dxmMenu_iOS .dxmILC
+{
+    border-radius: 3px 0 0 3px;
+}
+.dxmMenu_iOS .dxmILC,
+table[dir="rtl"] > tbody > tr > td.dxmMenu_iOS .dxmIFC
+{
+    border-radius: 0 3px 3px 0;
+}
+.dxmMenu_iOS .dxmIFC.dxmILC,
+table[dir="rtl"] > tbody > tr > td.dxmMenu_iOS .dxmIFC.dxmILC
+{
+    border-radius: 3px;
+}
+
+.dxmMenuItem_iOS
+.dxmMenuItemWithImage_iOS,
+.dxmMenuItemWithPopOutImage_iOS,
+.dxmMenuItemWithImageWithPopOutImage_iOS,
+.dxmMenuLargeItem_iOS,
+.dxmMenuLargeItemWithImage_iOS,
+.dxmMenuLargeItemWithPopOutImage_iOS,
+.dxmMenuLargeItemWithImageWithPopOutImage_iOS,
+.dxmVerticalMenuItem_iOS,
+.dxmVerticalMenuItemWithImage_iOS,
+.dxmVerticalMenuItemWithPopOutImage_iOS,
+.dxmVerticalMenuItemWithImageWithPopOutImage_iOS, 
+.dxmVerticalMenuRtlItem_iOS,
+.dxmVerticalMenuRtlItemWithImage_iOS,
+.dxmVerticalMenuRtlItemWithPopOutImage_iOS,
+.dxmVerticalMenuRtlItemWithImageWithPopOutImage_iOS,
+.dxmVerticalMenuLargeItem_iOS,
+.dxmVerticalMenuLargeItemWithImage_iOS,
+.dxmVerticalMenuLargeItemWithPopOutImage_iOS,
+.dxmVerticalMenuLargeItemWithImageWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItem_iOS,
+.dxmVerticalMenuLargeRtlItemWithImage_iOS,
+.dxmVerticalMenuLargeRtlItemWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItemWithImageWithPopOutImage_iOS
+{
+}
+.dxmMenuItem_iOS
+{
+	padding: 12px 10px 11px;
+}
+.dxmMenuItemWithImage_iOS 
+{
+    padding: 6px 11px 5px;
+}
+.dxmMenuItemWithPopOutImage_iOS,
+.dxmMenuItemWithImageWithPopOutImage_iOS
+{
+    padding: 6px 1px 5px 9px;
+}
+.dxmVerticalMenuItem_iOS
+{
+    padding: 12px 60px 11px 10px;
+}
+.dxmVerticalMenuRtlItem_iOS
+{
+    padding: 12px 10px 11px 60px;
+}
+.dxmVerticalMenuItemWithImage_iOS
+{
+    padding: 6px 30px 5px 10px;
+}
+.dxmVerticalMenuRtlItemWithImage_iOS
+{
+    padding: 6px 10px 5px 30px;
+}
+.dxmVerticalMenuItemWithPopOutImage_iOS,
+.dxmVerticalMenuItemWithImageWithPopOutImage_iOS
+{
+    padding: 6px 6px 5px 10px;
+}
+.dxmVerticalMenuRtlItemWithPopOutImage_iOS,
+.dxmVerticalMenuRtlItemWithImageWithPopOutImage_iOS
+{
+    padding: 6px 10px 5px 6px;
+}
+.dxmVerticalMenuItemWithImage_iOS:nth-child(1) div,
+.dxmVerticalMenuRtlItemWithImage_iOS:nth-child(1) div,
+.dxmVerticalMenuItemWithPopOutImage_iOS:nth-child(2) div,
+.dxmVerticalMenuRtlItemWithPopOutImage_iOS:nth-child(2) div,
+.dxmVerticalMenuItemWithImageWithPopOutImage_iOS:nth-child(1) div,
+.dxmVerticalMenuRtlItemWithImageWithPopOutImage_iOS:nth-child(1) div
+{
+    height: 32px !important;
+}
+
+.dxmMenuLargeItem_iOS,
+.dxmMenuLargeItemWithImage_iOS
+{
+    padding: 6px 9px 5px;
+}
+.dxmMenuLargeItemWithPopOutImage_iOS,
+.dxmMenuLargeItemWithImageWithPopOutImage_iOS
+{
+	padding: 6px 1px 5px 9px;
+}
+.dxmVerticalMenuLargeItem_iOS,
+.dxmVerticalMenuLargeItemWithImage_iOS,
+.dxmVerticalMenuLargeRtlItem_iOS,
+.dxmVerticalMenuLargeRtlItemWithImage_iOS
+{
+	padding: 4px 30px;
+}
+.dxmVerticalMenuLargeItemWithPopOutImage_iOS,
+.dxmVerticalMenuLargeItemWithImageWithPopOutImage_iOS
+{
+	padding: 4px 1px 4px 50px;
+}
+.dxmVerticalMenuLargeRtlItemWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItemWithImageWithPopOutImage_iOS
+{
+	padding: 4px 50px 4px 1px;
+}
+.dxmMenuItemDropDownButton_iOS, 
+.dxmMenuLargeItemDropDownButton_iOS
+{
+    padding: 6px 1px 5px 0;
+    border-left-width: 0;
+}
+.dxmMenuRtlItemDropDownButton_iOS, 
+.dxmMenuLargeRtlItemDropDownButton_iOS
+{
+	padding: 6px 0 5px 1px;
+    border-right-width: 0;
+}
+.dxmVerticalMenuItemDropDownButton_iOS,
+.dxmVerticalMenuLargeItemDropDownButton_iOS
+{
+	padding: 6px 6px 5px 0;
+    border-left-width: 0;
+}
+.dxmVerticalMenuRtlItemDropDownButton_iOS,
+.dxmVerticalMenuLargeRtlItemDropDownButton_iOS
+{
+	padding: 6px 0 5px 6px;
+    border-right-width: 0;
+}
+.dxmMenuItemSelected_iOS,
+.dxmMenuItemSelectedWithImage_iOS,
+.dxmMenuItemSelectedWithPopOutImage_iOS,
+.dxmMenuItemSelectedWithImageWithPopOutImage_iOS,
+.dxmMenuLargeItemSelected_iOS,
+.dxmMenuLargeItemSelectedWithImage_iOS,
+.dxmMenuLargeItemSelectedWithPopOutImage_iOS,
+.dxmMenuLargeItemSelectedWithImageWithPopOutImage_iOS
+{
+    background: #bcbdc1 url('mHSItemBack.png') repeat-x left top;
+	border: 1px solid rgba(80, 81, 83, 0.5);
+	box-shadow: 0 1px 1px -1px rgba(255, 255, 255, 0.25), 0 4px 2px -3px rgba(19, 20, 21, 0.1) inset;
+}
+.dxmVerticalMenuItemSelected_iOS,
+.dxmVerticalMenuItemSelectedWithImage_iOS,
+.dxmVerticalMenuItemSelectedWithPopOutImage_iOS,
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_iOS,
+.dxmVerticalMenuRtlItemSelected_iOS,
+.dxmVerticalMenuRtlItemSelectedWithImage_iOS,
+.dxmVerticalMenuRtlItemSelectedWithPopOutImage_iOS,
+.dxmVerticalMenuRtlItemSelectedWithImageWithPopOutImage_iOS,
+.dxmVerticalMenuLargeItemSelected_iOS,
+.dxmVerticalMenuLargeItemWithImageSelected_iOS,
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_iOS,
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItemSelected_iOS,
+.dxmVerticalMenuLargeRtlItemWithImageSelected_iOS,
+.dxmVerticalMenuLargeRtlItemSelectedWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItemSelectedWithImageWithPopOutImage_iOS
+{
+    color: White;
+	background: #015ee6 url('mVSItemBack.png') repeat-x left top;
+}
+.dxmVerticalMenuItemSelected_iOS a,
+.dxmVerticalMenuItemSelectedWithImage_iOS a,
+.dxmVerticalMenuItemSelectedWithPopOutImage_iOS a,
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_iOS a,
+.dxmVerticalMenuRtlItemSelected_iOS a,
+.dxmVerticalMenuRtlItemSelectedWithImage_iOS a,
+.dxmVerticalMenuRtlItemSelectedWithPopOutImage_iOS a,
+.dxmVerticalMenuRtlItemSelectedWithImageWithPopOutImage_iOS a,
+.dxmVerticalMenuLargeItemSelected_iOS a,
+.dxmVerticalMenuLargeItemWithImageSelected_iOS a,
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_iOS a,
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_iOS a,
+.dxmVerticalMenuLargeRtlItemSelected_iOS a,
+.dxmVerticalMenuLargeRtlItemWithImageSelected_iOS a,
+.dxmVerticalMenuLargeRtlItemSelectedWithPopOutImage_iOS a,
+.dxmVerticalMenuLargeRtlItemSelectedWithImageWithPopOutImage_iOS a
+{
+    color: White;
+}
+.dxmMenuItemSelected_iOS
+{
+	padding: 11px 9px 10px;
+}
+.dxmMenuItemSelectedWithImage_iOS 
+{
+    padding: 5px 10px 4px;
+}
+.dxmMenuItemSelectedWithPopOutImage_iOS,
+.dxmMenuItemSelectedWithImageWithPopOutImage_iOS
+{
+    padding: 5px 0px 4px 8px;
+}
+.dxmVerticalMenuItemSelected_iOS
+{
+	padding: 12px 60px 11px 10px;
+}
+.dxmVerticalMenuRtlItemSelected_iOS
+{
+	padding: 12px 10px 11px 60px;
+}
+.dxmVerticalMenuItemSelectedWithImage_iOS
+{
+	padding: 6px 30px 5px 10px;
+}
+.dxmVerticalMenuRtlItemSelectedWithImage_iOS
+{
+	padding: 6px 10px 5px 30px;
+}
+.dxmVerticalMenuItemSelectedWithPopOutImage_iOS,
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_iOS
+{
+	padding: 6px 6px 5px 10px;
+}
+.dxmVerticalMenuRtlItemSelectedWithPopOutImage_iOS,
+.dxmVerticalMenuRtlItemSelectedWithImageWithPopOutImage_iOS
+{
+	padding: 6px 10px 5px 6px;
+}
+.dxmVerticalMenuItemSelectedWithImage_iOS:nth-child(1) div,
+.dxmVerticalMenuRtlItemSelectedWithImage_iOS:nth-child(1) div,
+.dxmVerticalMenuItemSelectedWithPopOutImage_iOS:nth-child(2) div,
+.dxmVerticalMenuRtlItemSelectedWithPopOutImage_iOS:nth-child(2) div,
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_iOS:nth-child(1) div,
+.dxmVerticalMenuRtlItemSelectedWithImageWithPopOutImage_iOS:nth-child(1) div
+{
+    height: 32px !important;
+}
+
+.dxmMenuLargeItemSelected_iOS,
+.dxmMenuLargeItemSelectedWithImage_iOS
+{
+    padding: 5px 8px 4px;
+}
+.dxmMenuLargeItemSelectedWithPopOutImage_iOS,
+.dxmMenuLargeItemSelectedWithImageWithPopOutImage_iOS
+{
+	padding: 5px 0 4px 8px;
+}
+.dxmVerticalMenuLargeItemSelected_iOS,
+.dxmVerticalMenuLargeItemSelectedWithImage_iOS,
+.dxmVerticalMenuLargeRtlItemSelected_iOS,
+.dxmVerticalMenuLargeRtlItemSelectedWithImage_iOS
+{
+	padding: 4px 30px;
+}
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_iOS,
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_iOS
+{
+	padding: 4px 1px 4px 50px;
+}
+.dxmVerticalMenuLargeRtlItemSelectedWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItemSelectedWithImageWithPopOutImage_iOS 
+{
+	padding: 4px 50px 4px 1px;
+}
+.dxmMenuItemDropDownButtonSelected_iOS,
+.dxmMenuLargeItemDropDownButtonSelected_iOS
+{
+    padding: 5px 0 4px;
+    border-left-width: 0;
+}
+.dxmMenuRtlItemDropDownButtonSelected_iOS,
+.dxmMenuLargeRtlItemDropDownButtonSelected_iOS
+{
+	padding: 5px 0 4px;
+    border-right-width: 0;
+}
+.dxmVerticalMenuItemDropDownButtonSelected_iOS,
+.dxmVerticalMenuLargeItemDropDownButtonSelected_iOS
+{
+	padding: 6px 6px 5px 0;
+    border-left-width: 0;
+}
+.dxmVerticalMenuRtlItemDropDownButtonSelected_iOS,
+.dxmVerticalMenuLargeRtlItemDropDownButtonSelected_iOS
+{
+	padding: 6px 0 5px 6px;
+    border-right-width: 0;
+}
+.dxmMenuItemChecked_iOS,
+.dxmMenuItemCheckedWithImage_iOS,
+.dxmMenuItemCheckedWithPopOutImage_iOS,
+.dxmMenuItemCheckedWithImageWithPopOutImage_iOS,
+.dxmMenuLargeItemChecked_iOS,
+.dxmMenuLargeItemCheckedWithImage_iOS,
+.dxmMenuLargeItemCheckedWithPopOutImage_iOS,
+.dxmMenuLargeItemCheckedWithImageWithPopOutImage_iOS
+{
+    background: #bcbdc1 url('mHSItemBack.png') repeat-x left top;
+	border: 1px solid rgba(80, 81, 83, 0.5);
+	box-shadow: 0 1px 1px -1px rgba(255, 255, 255, 0.25), 0 4px 2px -3px rgba(19, 20, 21, 0.1) inset;
+}
+.dxmVerticalMenuItemChecked_iOS,
+.dxmVerticalMenuItemCheckedWithImage_iOS,
+.dxmVerticalMenuItemCheckedWithPopOutImage_iOS,
+.dxmVerticalMenuItemCheckedWithImageWithPopOutImage_iOS,
+.dxmVerticalMenuRtlItemChecked_iOS,
+.dxmVerticalMenuRtlItemCheckedWithImage_iOS,
+.dxmVerticalMenuRtlItemCheckedWithPopOutImage_iOS,
+.dxmVerticalMenuRtlItemCheckedWithImageWithPopOutImage_iOS,
+.dxmVerticalMenuLargeItemChecked_iOS,
+.dxmVerticalMenuLargeItemWithImageChecked_iOS,
+.dxmVerticalMenuLargeItemCheckedWithPopOutImage_iOS,
+.dxmVerticalMenuLargeItemCheckedWithImageWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItemChecked_iOS,
+.dxmVerticalMenuLargeRtlItemWithImageChecked_iOS,
+.dxmVerticalMenuLargeRtlItemCheckedWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItemCheckedWithImageWithPopOutImage_iOS
+{
+    color: White;
+	background: #015ee6 url('mVSItemBack.png') repeat-x left top;
+}
+.dxmVerticalMenuItemChecked_iOS a,
+.dxmVerticalMenuItemCheckedWithImage_iOS a,
+.dxmVerticalMenuItemCheckedWithPopOutImage_iOS a,
+.dxmVerticalMenuItemCheckedWithImageWithPopOutImage_iOS a,
+.dxmVerticalMenuRtlItemChecked_iOS a,
+.dxmVerticalMenuRtlItemCheckedWithImage_iOS a,
+.dxmVerticalMenuRtlItemCheckedWithPopOutImage_iOS a,
+.dxmVerticalMenuRtlItemCheckedWithImageWithPopOutImage_iOS a,
+.dxmVerticalMenuLargeItemChecked_iOS a,
+.dxmVerticalMenuLargeItemWithImageChecked_iOS a,
+.dxmVerticalMenuLargeItemCheckedWithPopOutImage_iOS a,
+.dxmVerticalMenuLargeItemCheckedWithImageWithPopOutImage_iOS a,
+.dxmVerticalMenuLargeRtlItemChecked_iOS a,
+.dxmVerticalMenuLargeRtlItemWithImageChecked_iOS a,
+.dxmVerticalMenuLargeRtlItemCheckedWithPopOutImage_iOS a,
+.dxmVerticalMenuLargeRtlItemCheckedWithImageWithPopOutImage_iOS a
+{
+    color: White;
+}
+.dxmMenuItemChecked_iOS
+{
+	padding: 11px 9px 10px;
+}
+.dxmMenuItemCheckedWithImage_iOS 
+{
+    padding: 5px 10px 4px;
+}
+.dxmMenuItemCheckedWithPopOutImage_iOS,
+.dxmMenuItemCheckedWithImageWithPopOutImage_iOS
+{
+    padding: 5px 0px 4px 8px;
+}
+.dxmVerticalMenuItemChecked_iOS
+{
+	padding: 12px 60px 11px 10px;
+}
+.dxmVerticalMenuRtlItemChecked_iOS
+{
+	padding: 12px 10px 11px 60px;
+}
+.dxmVerticalMenuItemCheckedWithImage_iOS
+{
+	padding: 6px 30px 5px 10px;
+}
+.dxmVerticalMenuRtlItemCheckedWithImage_iOS
+{
+	padding: 6px 10px 5px 30px;
+}
+.dxmVerticalMenuItemCheckedWithPopOutImage_iOS,
+.dxmVerticalMenuItemCheckedWithImageWithPopOutImage_iOS
+{
+	padding: 6px 6px 5px 10px;
+}
+.dxmVerticalMenuRtlItemCheckedWithPopOutImage_iOS,
+.dxmVerticalMenuRtlItemCheckedWithImageWithPopOutImage_iOS
+{
+	padding: 6px 10px 5px 6px;
+}
+.dxmVerticalMenuItemCheckedWithImage_iOS:nth-child(1) div,
+.dxmVerticalMenuRtlItemCheckedWithImage_iOS:nth-child(1) div,
+.dxmVerticalMenuItemCheckedWithPopOutImage_iOS:nth-child(2) div,
+.dxmVerticalMenuRtlItemCheckedWithPopOutImage_iOS:nth-child(2) div,
+.dxmVerticalMenuItemCheckedWithImageWithPopOutImage_iOS:nth-child(1) div,
+.dxmVerticalMenuRtlItemCheckedWithImageWithPopOutImage_iOS:nth-child(1) div
+{
+    height: 32px !important;
+}
+
+.dxmMenuLargeItemChecked_iOS,
+.dxmMenuLargeItemCheckedWithImage_iOS
+{
+    padding: 5px 8px 4px;
+}
+.dxmMenuLargeItemCheckedWithPopOutImage_iOS,
+.dxmMenuLargeItemCheckedWithImageWithPopOutImage_iOS
+{
+	padding: 5px 0 4px 8px;
+}
+.dxmVerticalMenuLargeItemChecked_iOS,
+.dxmVerticalMenuLargeItemCheckedWithImage_iOS,
+.dxmVerticalMenuLargeRtlItemChecked_iOS,
+.dxmVerticalMenuLargeRtlItemCheckedWithImage_iOS
+{
+	padding: 4px 30px;
+}
+.dxmVerticalMenuLargeItemCheckedWithPopOutImage_iOS,
+.dxmVerticalMenuLargeItemCheckedWithImageWithPopOutImage_iOS
+{
+	padding: 4px 1px 4px 50px;
+}
+.dxmVerticalMenuLargeRtlItemCheckedWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItemCheckedWithImageWithPopOutImage_iOS
+{
+	padding: 4px 50px 4px 1px;
+}
+.dxmMenuItemDropDownButtonChecked_iOS,
+.dxmMenuLargeItemDropDownButtonChecked_iOS
+{
+    padding: 5px 0 4px;
+    border-left-width: 0;
+}
+.dxmMenuRtlItemDropDownButtonChecked_iOS,
+.dxmMenuLargeRtlItemDropDownButtonChecked_iOS
+{
+	padding: 5px 0 4px;
+    border-right-width: 0;
+}
+.dxmVerticalMenuItemDropDownButtonChecked_iOS,
+.dxmVerticalMenuLargeItemDropDownButtonChecked_iOS
+{
+	padding: 6px 6px 5px 0;
+    border-left-width: 0;
+}
+.dxmVerticalMenuRtlItemDropDownButtonChecked_iOS,
+.dxmVerticalMenuLargeRtlItemDropDownButtonChecked_iOS
+{
+	padding: 6px 0 5px 6px;
+    border-right-width: 0;
+}
+.dxmMenuItemHover_iOS,
+.dxmMenuItemHoverWithImage_iOS,
+.dxmMenuItemHoverWithPopOutImage_iOS,
+.dxmMenuItemHoverWithImageWithPopOutImage_iOS,
+.dxmMenuLargeItemHover_iOS,
+.dxmMenuLargeItemHoverWithImage_iOS,
+.dxmMenuLargeItemHoverWithPopOutImage_iOS,
+.dxmMenuLargeItemHoverWithImageWithPopOutImage_iOS 
+{
+    background: #bcbdc1 url('mHSItemBack.png') repeat-x left top;
+	border: 1px solid rgba(80, 81, 83, 0.5);
+	box-shadow: 0 1px 1px -1px rgba(255, 255, 255, 0.25), 0 4px 2px -3px rgba(19, 20, 21, 0.1) inset;
+}
+.dxmVerticalMenuItemHover_iOS,
+.dxmVerticalMenuItemHoverWithImage_iOS,
+.dxmVerticalMenuItemHoverWithPopOutImage_iOS,
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_iOS, 
+.dxmVerticalMenuRtlItemHover_iOS,
+.dxmVerticalMenuRtlItemHoverWithImage_iOS,
+.dxmVerticalMenuRtlItemHoverWithPopOutImage_iOS,
+.dxmVerticalMenuRtlItemHoverWithImageWithPopOutImage_iOS, 
+.dxmVerticalMenuLargeItemHover_iOS,
+.dxmVerticalMenuLargeItemHoverWithImage_iOS,
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_iOS,
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItemHover_iOS,
+.dxmVerticalMenuLargeRtlItemHoverWithImage_iOS,
+.dxmVerticalMenuLargeRtlItemHoverWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItemHoverWithImageWithPopOutImage_iOS
+{
+    color: White;
+	background: #015ee6 url('mVSItemBack.png') repeat-x left top;
+}
+.dxmVerticalMenuItemHover_iOS a,
+.dxmVerticalMenuItemHoverWithImage_iOS a,
+.dxmVerticalMenuItemHoverWithPopOutImage_iOS a,
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_iOS a, 
+.dxmVerticalMenuRtlItemHover_iOS a,
+.dxmVerticalMenuRtlItemHoverWithImage_iOS a,
+.dxmVerticalMenuRtlItemHoverWithPopOutImage_iOS a,
+.dxmVerticalMenuRtlItemHoverWithImageWithPopOutImage_iOS a, 
+.dxmVerticalMenuLargeItemHover_iOS a,
+.dxmVerticalMenuLargeItemHoverWithImage_iOS a,
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_iOS a,
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_iOS a,
+.dxmVerticalMenuLargeRtlItemHover_iOS a,
+.dxmVerticalMenuLargeRtlItemHoverWithImage_iOS a,
+.dxmVerticalMenuLargeRtlItemHoverWithPopOutImage_iOS a,
+.dxmVerticalMenuLargeRtlItemHoverWithImageWithPopOutImage_iOS a
+{
+    color: White;
+}
+.dxmMenuItemHover_iOS
+{
+	padding: 11px 9px 10px;
+}
+.dxmMenuItemHoverWithImage_iOS 
+{
+    padding: 5px 10px 4px;
+}
+.dxmMenuItemHoverWithPopOutImage_iOS,
+.dxmMenuItemHoverWithImageWithPopOutImage_iOS
+{
+    padding: 5px 0px 4px 8px;
+}
+.dxmVerticalMenuItemHover_iOS
+{
+	padding: 12px 60px 11px 10px;
+}
+.dxmVerticalMenuRtlItemHover_iOS
+{
+	padding: 12px 10px 11px 60px;
+}
+.dxmVerticalMenuItemHoverWithImage_iOS
+{
+	padding: 6px 30px 5px 10px;
+}
+.dxmVerticalMenuRtlItemHoverWithImage_iOS
+{
+	padding: 6px 10px 5px 30px;
+}
+.dxmVerticalMenuItemHoverWithPopOutImage_iOS,
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_iOS
+{
+	padding: 6px 6px 5px 10px;
+}
+.dxmVerticalMenuRtlItemHoverWithPopOutImage_iOS,
+.dxmVerticalMenuRtlItemHoverWithImageWithPopOutImage_iOS
+{
+	padding: 6px 10px 5px 6px;
+}
+.dxmVerticalMenuItemHoverWithImage_iOS:nth-child(1) div,
+.dxmVerticalMenuRtlItemHoverWithImage_iOS:nth-child(1) div,
+.dxmVerticalMenuItemHoverWithPopOutImage_iOS:nth-child(2) div,
+.dxmVerticalMenuRtlItemHoverWithPopOutImage_iOS:nth-child(2) div,
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_iOS:nth-child(1) div,
+.dxmVerticalMenuRtlItemHoverWithImageWithPopOutImage_iOS:nth-child(1) div
+{
+    height: 32px !important;
+}
+
+.dxmMenuLargeItemHover_iOS,
+.dxmMenuLargeItemHoverWithImage_iOS
+{
+    padding: 5px 8px 4px;
+}
+.dxmMenuLargeItemHoverWithPopOutImage_iOS,
+.dxmMenuLargeItemHoverWithImageWithPopOutImage_iOS
+{
+	padding: 5px 0 4px 8px;
+}
+.dxmVerticalMenuLargeItemHover_iOS,
+.dxmVerticalMenuLargeItemHoverWithImage_iOS,
+.dxmVerticalMenuLargeRtlItemHover_iOS,
+.dxmVerticalMenuLargeRtlItemHoverWithImage_iOS
+{
+	padding: 4px 30px;
+}
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_iOS,
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_iOS
+{
+	padding: 4px 1px 4px 50px;
+}
+.dxmVerticalMenuLargeRtlItemHoverWithPopOutImage_iOS,
+.dxmVerticalMenuLargeRtlItemHoverWithImageWithPopOutImage_iOS
+{
+	padding: 4px 50px 4px 1px;
+}
+.dxmMenuItemDropDownButtonHover_iOS,
+.dxmMenuLargeItemDropDownButtonHover_iOS
+{
+    padding: 5px 0 4px;
+    border-left-width: 0;
+}
+.dxmMenuRtlItemDropDownButtonHover_iOS,
+.dxmMenuLargeRtlItemDropDownButtonHover_iOS
+{
+	padding: 5px 0 4px;
+    border-right-width: 0;
+}
+.dxmVerticalMenuItemDropDownButtonHover_iOS,
+.dxmVerticalMenuLargeItemDropDownButtonHover_iOS
+{
+	padding: 6px 6px 5px 0;
+    border-left-width: 0;
+}
+.dxmVerticalMenuRtlItemDropDownButtonHover_iOS,
+.dxmVerticalMenuLargeRtlItemDropDownButtonHover_iOS
+{
+	padding: 6px 0 5px 6px;
+    border-right-width: 0;
+}
+
+.dxmSubMenu_iOS
+{
+    color: Black;
+    font-family: HelveticaNeue, Helvetica, Verdana, sans-serif;
+    font-weight: bold;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+	white-space: nowrap;
+	background: White;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 7px;
+	padding: 10px 0;
+    box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.35);
+}
+.dxmSubMenuGutter_iOS,
+.dxmSubMenuRtlGutter_iOS
+{
+}
+table[id*='DXMST'] > tbody > tr:first-child > td:nth-child(2),
+table[id*='DXMST'] > tbody > tr:nth-child(2)
+{
+    display:none;
+}
+.dxmSubMenuSeparator_iOS,
+.dxmSubMenu_iOS tr[id$='_IS'] > td
+{
+    background: #e0e0e0;
+    height: 1px;
+}
+.dxmSubMenuItem_iOS,
+.dxmSubMenuItemWithImage_iOS,
+.dxmSubMenuItemWithPopOutImage_iOS,
+.dxmSubMenuItemWithImageWithPopOutImage_iOS,
+.dxmSubMenuRtlItem_iOS,
+.dxmSubMenuRtlItemWithImage_iOS,
+.dxmSubMenuRtlItemWithPopOutImage_iOS,
+.dxmSubMenuRtlItemWithImageWithPopOutImage_iOS
+{
+}
+.dxmSubMenuItem_iOS 
+{
+    padding: 12px 60px 11px 10px;
+}
+.dxmSubMenuRtlItem_iOS
+{
+    padding: 12px 10px 11px 60px;
+}
+.dxmSubMenuItemWithImage_iOS
+{
+	padding: 6px 30px 5px 10px;
+}
+.dxmSubMenuRtlItemWithImage_iOS
+{
+	padding: 6px 10px 5px 30px;
+}
+.dxmSubMenuItemWithPopOutImage_iOS,
+.dxmSubMenuItemWithImageWithPopOutImage_iOS
+{
+    padding: 6px 6px 5px 10px;
+}
+.dxmSubMenuRtlItemWithPopOutImage_iOS,
+.dxmSubMenuRtlItemWithImageWithPopOutImage_iOS
+{
+    padding: 6px 10px 5px 6px;
+}
+.dxmSubMenuItemDropDownButton_iOS
+{
+	padding: 6px 6px 5px 0;
+    border-left-width: 0;
+}
+.dxmSubMenuRtlItemDropDownButton_iOS
+{
+	padding: 6px 0 5px 6px;
+    border-right-width: 0;
+}
+.dxmSubMenuItemWithImage_iOS:nth-child(1) div,
+.dxmSubMenuRtlItemWithImage_iOS:nth-child(1) div,
+.dxmSubMenuItemWithPopOutImage_iOS:nth-child(2) div,
+.dxmSubMenuRtlItemWithPopOutImage_iOS:nth-child(2) div,
+.dxmSubMenuItemWithImageWithPopOutImage_iOS:nth-child(1) div,
+.dxmSubMenuRtlItemWithImageWithPopOutImage_iOS:nth-child(1) div
+{
+    height: 32px !important;
+}
+.dxmSubMenuItemSelected_iOS,
+.dxmSubMenuItemSelectedWithImage_iOS,
+.dxmSubMenuItemSelectedWithPopOutImage_iOS,
+.dxmSubMenuItemSelectedWithImageWithPopOutImage_iOS,
+.dxmSubMenuRtlItemSelected_iOS,
+.dxmSubMenuRtlItemSelectedWithImage_iOS,
+.dxmSubMenuRtlItemSelectedWithPopOutImage_iOS,
+.dxmSubMenuRtlItemSelectedWithImageWithPopOutImage_iOS
+{
+	color: White;
+	background: #015ee6 url('mVSItemBack.png') repeat-x left top;
+}
+.dxmSubMenuItemSelected_iOS a,
+.dxmSubMenuItemSelectedWithImage_iOS a,
+.dxmSubMenuItemSelectedWithPopOutImage_iOS a,
+.dxmSubMenuItemSelectedWithImageWithPopOutImage_iOS a,
+.dxmSubMenuRtlItemSelected_iOS a,
+.dxmSubMenuRtlItemSelectedWithImage_iOS a,
+.dxmSubMenuRtlItemSelectedWithPopOutImage_iOS a,
+.dxmSubMenuRtlItemSelectedWithImageWithPopOutImage_iOS a
+{
+	color: White;
+	text-decoration: none;
+}
+.dxmSubMenuItemSelected_iOS 
+{
+    padding: 12px 60px 11px 10px;
+}
+.dxmSubMenuRtlItemSelected_iOS
+{
+    padding: 12px 10px 11px 60px;
+}
+.dxmSubMenuItemSelectedWithImage_iOS
+{
+	padding: 6px 30px 5px 10px;
+}
+.dxmSubMenuRtlItemSelectedWithImage_iOS
+{
+	padding: 6px 10px 5px 30px;
+}
+.dxmSubMenuItemSelectedWithPopOutImage_iOS,
+.dxmSubMenuItemSelectedWithImageWithPopOutImage_iOS
+{
+    padding: 6px 6px 5px 10px;
+}
+.dxmSubMenuRtlItemSelectedWithPopOutImage_iOS,
+.dxmSubMenuRtlItemSelectedWithImageWithPopOutImage_iOS
+{
+    padding: 6px 10px 5px 6px;
+}
+.dxmSubMenuItemDropDownButtonSelected_iOS
+{
+	padding: 6px 6px 5px 0;
+    border-left-width: 0;
+}
+.dxmSubMenuRtlItemDropDownButtonSelected_iOS
+{
+	padding: 6px 0 5px 6px;
+    border-right-width: 0;
+}
+.dxmSubMenuItemChecked_iOS,
+.dxmSubMenuItemCheckedWithImage_iOS,
+.dxmSubMenuItemCheckedWithPopOutImage_iOS,
+.dxmSubMenuItemCheckedWithImageWithPopOutImage_iOS
+.dxmSubMenuRtlItemChecked_iOS,
+.dxmSubMenuRtlItemCheckedWithImage_iOS,
+.dxmSubMenuRtlItemCheckedWithPopOutImage_iOS,
+.dxmSubMenuRtlItemCheckedWithImageWithPopOutImage_iOS
+{
+}
+.dxmSubMenuItemDropDownButtonChecked_iOS
+{
+}
+.dxmSubMenuRtlItemDropDownButtonChecked_iOS
+{
+}
+.dxmSubMenuItemHover_iOS,
+.dxmSubMenuItemHoverWithImage_iOS,
+.dxmSubMenuItemHoverWithPopOutImage_iOS,
+.dxmSubMenuItemHoverWithImageWithPopOutImage_iOS,
+.dxmSubMenuRtlItemHover_iOS,
+.dxmSubMenuRtlItemHoverWithImage_iOS,
+.dxmSubMenuRtlItemHoverWithPopOutImage_iOS,
+.dxmSubMenuRtlItemHoverWithImageWithPopOutImage_iOS
+{
+	color: White;
+	background: #015ee6 url('mVSItemBack.png') repeat-x left top;
+}
+.dxmSubMenuItemHover_iOS a,
+.dxmSubMenuItemHoverWithImage_iOS a,
+.dxmSubMenuItemHoverWithPopOutImage_iOS a,
+.dxmSubMenuItemHoverWithImageWithPopOutImage_iOS a,
+.dxmSubMenuRtlItemHover_iOS a,
+.dxmSubMenuRtlItemHoverWithImage_iOS a,
+.dxmSubMenuRtlItemHoverWithPopOutImage_iOS a,
+.dxmSubMenuRtlItemHoverWithImageWithPopOutImage_iOS a
+{
+    color: White;
+    text-decoration: none;
+}
+.dxmSubMenuItemHover_iOS
+{
+    padding: 12px 60px 11px 10px;
+}
+.dxmSubMenuRtlItemHover_iOS
+{
+    padding: 12px 10px 11px 60px;
+}
+.dxmSubMenuItemHoverWithImage_iOS
+{
+	padding: 6px 30px 5px 10px;
+}
+.dxmSubMenuRtlItemHoverWithImage_iOS
+{
+	padding: 6px 10px 5px 30px;
+}
+.dxmSubMenuItemHoverWithPopOutImage_iOS,
+.dxmSubMenuItemHoverWithImageWithPopOutImage_iOS
+{
+    padding: 6px 6px 5px 10px;
+}
+.dxmSubMenuRtlItemHoverWithPopOutImage_iOS,
+.dxmSubMenuRtlItemHoverWithImageWithPopOutImage_iOS
+{
+    padding: 6px 10px 5px 6px;
+}
+.dxmSubMenuItemDropDownButtonHover_iOS
+{
+	padding: 6px 6px 5px 0;
+    border-left-width: 0;
+}
+.dxmSubMenuRtlItemDropDownButtonHover_iOS
+{
+	padding: 6px 0 5px 6px;
+    border-right-width: 0;
+}
+.dxmSubMenuBorderCorrector_iOS
+{
+	position: absolute;
+	border-width: 0px;
+	padding: 0px;
+	background: transparent;
+	box-shadow: none;
+}
+
+.dxmMenuItemSpacing_iOS
+{
+    width: 7px;
+}
+.dxmMenuLargeItemSpacing_iOS,
+.dxmMenuItemSeparatorSpacing_iOS,
+.dxmMenuLargeItemSeparatorSpacing_iOS
+{
+	width: 9px;
+}
+.dxmVerticalMenuItemSpacing_iOS,
+.dxmVerticalMenuItemSeparatorSpacing_iOS,
+.dxmVerticalMenuLargeItemSpacing_iOS,
+.dxmVerticalMenuLargeItemSeparatorSpacing_iOS,
+.dxmSubMenuItemSpacing_iOS,
+.dxmSubMenuItemSeparatorSpacing_iOS
+{
+	display: none;
+}
+
+.dxmMenuItemLeftImageSpacing_iOS
+{
+	padding-right: 6px;
+}
+.dxmMenuItemRightImageSpacing_iOS
+{
+	padding-left: 6px;
+}
+.dxmVerticalMenuItemLeftImageSpacing_iOS,
+.dxmVerticalMenuItemRightImageSpacing_iOS,
+.dxmSubMenuItemImageSpacing_iOS
+{
+	width: 3px;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	border-left-width: 0px!important;
+	border-right-width: 0px!important;
+}
+.dxmVerticalMenuItemLeftImageSpacing_iOS div,
+.dxmVerticalMenuItemRightImageSpacing_iOS div
+{
+	width: 7px;
+	height: 1px;
+}
+.dxmMenuItemTopImageSpacing_iOS,
+.dxmVerticalMenuItemTopImageSpacing_iOS
+{
+	margin-bottom: 4px;
+}
+.dxmMenuItemBottomImageSpacing_iOS,
+.dxmVerticalMenuItemBottomImageSpacing_iOS
+{
+	margin-top: 4px;
+}
+.dxmSubMenuItemImageSpacing_iOS div
+{
+	width: 6px;
+	height: 1px;
+}
+/* Scroll elements */
+.dxmScrollUpButton_iOS,
+.dxmScrollDownButton_iOS
+{
+	border-style: none;
+	cursor: pointer;
+	font-size: 0px;
+	padding: 1px;
+	text-align: center;
+}
+.dxmScrollUpButton_iOS
+{
+	margin-bottom: 1px;
+}
+.dxmScrollDownButton_iOS
+{
+	margin-top: 1px;
+}
+.dxmScrollButtonHover_iOS,
+.dxmScrollButtonPressed_iOS
+{
+	border: 1px solid #a6a9b2;
+	padding: 0;
+}
+.dxmScrollButtonHover_iOS
+{
+}
+.dxmScrollButtonPressed_iOS
+{
+}
+.dxmScrollButtonDisabled_iOS
+{
+	cursor: default;
+}
+.dxmScrollArea_iOS
+{
+	overflow: hidden;
+}
+
+/* Disabled */
+.dxmDisabled_iOS
+{
+	color: #9b9ea4;
+	cursor: default;
+}
+
+/* -- ASPxMenu Toolbar mode -- */
+/*                             */
+td.dxmtb.dxmMenu_iOS
+{
+	font-size: 12px;
+	line-height: 15px;
+	background: #f0f2f4;
+}
+.dxmtb .dxmMenuItem_iOS
+{
+	padding: 15px 10px 13px;
+}
+.dxmtb .dxmMenuItemSelected_iOS,
+.dxmtb .dxmMenuItemChecked_iOS,
+.dxmtb .dxmMenuItemHover_iOS
+{
+	padding: 14px 9px 12px;
+}
+.dxmtb .dxmMenuSeparator_iOS .dx
+{
+	height: 30px;
+}
+/* Editor */
+.dxmtb.dxmMenu_iOS td.dxic 
+{
+    padding: 2px 6px 3px 7px !important;
+}
+.dxmtb.dxmMenu_iOS input.dxeEditAreaSys 
+{
+    margin: 0 !important;
+}
+.dxmtb.dxmMenu_iOS .dxbebt 
+{
+    padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*                     */
+/* -- ASPxMenu Lite -- */
+/*                     */
+.dxm-rtl
+{
+	direction: ltr;
+}
+.dxm-rtl .dxm-content
+{
+	direction: rtl;
+}
+
+.dxm-ltr .dxm-main,
+.dxm-ltr .dxm-horizontal ul.dx
+{
+	float: left;
+}
+.dxm-rtl .dxm-main,
+.dxm-rtl .dxm-horizontal ul.dx
+{
+	float: right;
+}
+.dxm-popup
+{
+	position: relative;
+}
+ul.dx
+{
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.dxm-rtl ul.dx
+{
+	background-position: right top;
+}
+.dxm-image,
+.dxm-pImage
+{
+	border-width: 0px;
+	vertical-align: top;
+}
+.dxm-popOut,
+.dxm-spacing,
+.dxm-separator,
+.dxm-separator b
+{
+	font-size: 0px;
+	line-height: 0px;
+	display: block;
+}
+
+.dxm-ltr .dxm-horizontal .dxm-item,
+.dxm-ltr .dxm-horizontal .dxm-spacing,
+.dxm-ltr .dxm-horizontal .dxm-separator,
+.dxm-ltr .dxm-content
+{
+	float: left;
+}
+.dxm-rtl .dxm-horizontal .dxm-item,
+.dxm-rtl .dxm-horizontal .dxm-spacing,
+.dxm-rtl .dxm-horizontal .dxm-separator,
+.dxm-rtl .dxm-content
+{
+	float: right;
+}
+
+.dxm-vertical .dxm-image-r .dxm-popOut
+{
+	float: left;
+}
+.dxm-vertical .dxm-image-l .dxm-popOut
+{
+	float: right;
+}
+
+.dxm-ltr .dxm-horizontal .dxm-popOut
+{
+	float: left;
+}
+.dxm-ltr .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxm-ltr .dxm-vertical .dxm-image-b .dxm-popOut,
+.dxm-ltr .dxm-popup .dxm-popOut
+{
+	float: right;
+}
+
+.dxm-rtl .dxm-horizontal .dxm-popOut
+{
+	float: right;
+}
+.dxm-rtl .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxm-rtl .dxm-vertical .dxm-image-b .dxm-popOut,
+.dxm-rtl .dxm-popup .dxm-popOut
+{
+	float: left;
+}
+
+.dxm-ie7 .dxm-vertical ul.dx,
+.dxm-ie7 .dxm-popup ul.dx
+{
+	height: 1%;
+}
+.dxm-ie7 .dxm-vertical .dxm-item,
+.dxm-ie7 .dxm-popup .dxm-item
+{
+	margin-bottom: -2px;
+}
+.dxm-ie7 .dxm-vertical .dxm-spacing,
+.dxm-ie7 .dxm-popup .dxm-spacing
+{
+	margin-bottom: -1px;
+}
+.dxm-ie7 .dxm-vertical .dxm-item,
+.dxm-ie7 .dxm-vertical .dxm-spacing,
+.dxm-ie7 .dxm-vertical .dxm-separator,
+.dxm-ie7 .dxm-popup .dxm-item,
+.dxm-ie7 .dxm-popup .dxm-spacing,
+.dxm-ie7 .dxm-popup .dxm-separator
+{
+	zoom: 1;
+}
+.dxm-vertical .dxm-separator b,
+.dxm-popup .dxm-separator b
+{
+	margin: 0px auto;
+}
+.dxm-ie7 .dxm-vertical .dxm-separator b,
+.dxm-ie7 .dxm-popup .dxm-separator b
+{
+	margin: 0px;
+}
+.dxm-ie7 .dxm-vertical .dxm-separator,
+.dxm-ie7 .dxm-popup .dxm-separator
+{
+	text-align: center;
+}
+/* Horizontal align = Center */
+.dxm-haCenter {
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	overflow: hidden;
+}
+.dxm-haCenter .dxm-haWrapper,
+.dxm-haCenter .dxm-content {
+	position: relative;
+}
+.dxm-ltr .dxm-image-l .dxm-haCenter .dxm-haWrapper,
+.dxm-ltr .dxm-image-t .dxm-haCenter .dxm-haWrapper,
+.dxm-ltr .dxm-image-b .dxm-haCenter .dxm-haWrapper {
+	float: left;
+	left: 50%;
+}
+.dxm-rtl .dxm-image-l .dxm-haCenter .dxm-haWrapper,
+.dxm-rtl .dxm-image-t .dxm-haCenter .dxm-haWrapper,
+.dxm-rtl .dxm-image-b .dxm-haCenter .dxm-haWrapper {
+	float: right;
+	right: 50%;
+} 
+.dxm-ltr .dxm-image-l .dxm-haCenter .dxm-content,
+.dxm-ltr .dxm-image-t .dxm-haCenter .dxm-content,
+.dxm-ltr .dxm-image-b .dxm-haCenter .dxm-content {
+	left: -50%;
+}
+.dxm-rtl .dxm-image-l .dxm-haCenter .dxm-content,
+.dxm-rtl .dxm-image-t .dxm-haCenter .dxm-content,
+.dxm-rtl .dxm-image-b .dxm-haCenter .dxm-content {
+	right: -50%;
+}
+.dxm-ltr .dxm-image-r .dxm-haCenter .dxm-haWrapper {
+	float: right;
+	right: 50%;
+}
+.dxm-rtl .dxm-image-r .dxm-haCenter .dxm-haWrapper {
+	float: left;
+	left: 50%;
+}
+.dxm-ltr .dxm-image-r .dxm-haCenter .dxm-content {
+	right: -50%;
+}
+.dxm-rtl .dxm-image-r .dxm-haCenter .dxm-content {
+	left: -50%;
+}
+
+.dxmLite_iOS .dxm-main > ul 
+{
+    width: 100%;
+}
+
+/* Appearance */
+.dxmLite_iOS .dxm-main
+{
+	padding: 3px 9px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.dxmLite_iOS .dxm-horizontal 
+{
+    background: #e2e5ea;
+}
+.dxmLite_iOS .dxm-vertical
+{
+    background: White;
+	width: 250px;
+	padding: 0;
+}
+
+.dxmLite_iOS .dxm-popup
+{
+	background-color: White;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 7px;
+	padding: 10px 0;
+	box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.35);
+}
+
+.dxmBrdCor_iOS
+{
+	background-color: transparent;
+}
+
+.dxmLite_iOS ul.dx
+{
+	color: Black;
+    font-family: HelveticaNeue, Helvetica, Verdana, sans-serif;
+    font-weight: bold;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.dxmLite_iOS .dxm-popup .dxm-gutter
+{
+	background-image: none;
+}
+.dxmLite_iOS.dxm-rtl .dxm-popup .dxm-gutter
+{
+	background-image: none;
+}
+
+.dxmLite_iOS .dxm-item
+{
+	cursor: default;
+}
+
+.dxmLite_iOS .dxm-image-t .dxm-item,
+.dxmLite_iOS .dxm-image-b .dxm-item,
+.dxmLite_iOS .dxm-content
+{
+	text-align: center;
+	white-space: nowrap;
+}
+
+.dxmLite_iOS .dxm-content a
+{
+	color: Black;
+	text-decoration: none;
+}
+.dxmLite_iOS .dxm-selected .dxm-content a,
+.dxmLite_iOS .dxm-selected .dxm-checked a,
+.dxmLite_iOS .dxm-selected .dxm-hovered a
+{
+	color: White;
+}
+.dxmLite_iOS .dxm-disabled,
+.dxmLite_iOS .dxm-disabled .dxm-content a.dx
+{
+	color: #9b9ea4;
+}
+
+.dxmLite_iOS .dxm-horizontal .dxm-item
+{
+	border-width: 1px;
+	border-color: Transparent;
+	border-style: solid;
+	border-radius: 3px;
+}
+.dxmLite_iOS .dxm-popup .dxm-image
+{
+	float: left;
+}
+.dxmLite_iOS.dxm-rtl .dxm-popup .dxm-image
+{
+	float: right;
+}
+
+/* Checked, Selected, Hovered */
+.dxmLite_iOS .dxm-horizontal .dxm-item.dxm-selected,
+.dxmLite_iOS .dxm-horizontal .dxm-item.dxm-checked,
+.dxmLite_iOS .dxm-horizontal .dxm-item.dxm-hovered
+{
+	border-color: rgba(80, 81, 83, 0.5);
+    box-shadow: 0 1px 1px -1px rgba(255, 255, 255, 0.25), 0 4px 2px -3px rgba(19, 20, 21, 0.1) inset;
+}
+
+.dxmLite_iOS .dxm-horizontal .dxm-selected,
+.dxmLite_iOS .dxm-horizontal .dxm-checked,
+.dxmLite_iOS .dxm-horizontal .dxm-hovered
+{
+	background: #bcbdc1 url('mHSItemBack.png') repeat-x left top;
+}
+.dxmLite_iOS .dxm-vertical .dxm-selected,
+.dxmLite_iOS .dxm-vertical .dxm-checked,
+.dxmLite_iOS .dxm-vertical .dxm-hovered,
+.dxmLite_iOS .dxm-popup .dxm-selected,
+.dxmLite_iOS .dxm-popup .dxm-checked,
+.dxmLite_iOS .dxm-popup .dxm-hovered
+{
+    color: White;
+	background: #015ee6 url('mVSItemBack.png') repeat-x left top;
+}
+.dxmLite_iOS .dxm-selected .dxm-content a,
+.dxmLite_iOS .dxm-hovered .dxm-content a
+{
+    color: White;
+    text-decoration: none;
+}
+
+/* Content */
+.dxmLite_iOS .dxm-horizontal .dxm-content
+{
+	padding: 11px 9px 4px;
+}
+.dxmLite_iOS .dxm-horizontal .dxm-noImages .dxm-content,
+.dxmLite_iOS .dxm-horizontal .dxm-noImage .dxm-content
+{
+    padding-bottom: 10px;
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_iOS .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 5px 8px 4px;
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_iOS .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding-top: 23px;
+	padding-bottom: 22px;
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_iOS .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_iOS .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content
+{
+    
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_iOS .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+}
+
+.dxmLite_iOS.dxm-ltr .dxm-vertical .dxm-content,
+.dxmLite_iOS.dxm-ltr .dxm-popup .dxm-content
+{
+	padding: 12px 30px 5px 10px;
+}
+.dxmLite_iOS.dxm-ltr .dxm-vertical .dxm-noImages .dxm-content,
+.dxmLite_iOS.dxm-ltr .dxm-popup .dxm-noImages .dxm-content
+{
+    padding-right: 60px;
+}
+.dxmLite_iOS.dxm-rtl .dxm-vertical .dxm-content,
+.dxmLite_iOS.dxm-rtl .dxm-popup .dxm-content
+{
+	padding: 12px 10px 5px 30px;
+}
+.dxmLite_iOS.dxm-rtl .dxm-vertical .dxm-noImages .dxm-content,
+.dxmLite_iOS.dxm-rtl .dxm-popup .dxm-noImages .dxm-content
+{
+    padding-left: 60px;
+}
+
+.dxmLite_iOS .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_iOS .dxm-vertical .dxm-image-b .dxm-content
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.dxmLite_iOS .dxm-vertical .dxm-noImages .dxm-content,
+.dxmLite_iOS .dxm-vertical .dxm-noImage .dxm-content,
+.dxmLite_iOS .dxm-popup .dxm-noImages .dxm-content,
+.dxmLite_iOS .dxm-popup .dxm-noImage .dxm-content
+{
+    padding-bottom: 11px;
+}
+.dxmLite_iOS .dxm-vertical .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_iOS .dxm-vertical .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+
+.dxmLite_iOS.dxm-ltr .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_iOS.dxm-ltr .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_iOS.dxm-ltr .dxm-popup .dxm-dropDownMode .dxm-content
+{
+}
+.dxmLite_iOS.dxm-rtl .dxm-popup .dxm-noSubMenu .dxm-content,
+.dxmLite_iOS.dxm-rtl .dxm-popup .dxm-subMenu .dxm-content,
+.dxmLite_iOS.dxm-rtl .dxm-popup .dxm-dropDownMode .dxm-content
+{
+}
+
+.dxmLite_iOS .dxm-vertical .dxm-image-r .dxm-noSubMenu .dxm-content,
+.dxmLite_iOS .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_iOS .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+}
+
+/* Image */
+.dxmLite_iOS .dxm-horizontal .dxm-image-l .dxm-image,
+.dxmLite_iOS .dxm-horizontal .dxm-image-r .dxm-image,
+.dxmLite_iOS .dxm-vertical .dxm-image-l .dxm-image,
+.dxmLite_iOS .dxm-vertical .dxm-image-r .dxm-image,
+.dxmLite_iOS .dxm-popup .dxm-image
+{
+    margin-top: -6px;
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-l .dxm-hasText .dxm-image
+{
+	margin-right: 6px;
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image
+{
+	margin-left: 6px;
+}
+.dxmLite_iOS .dxm-vertical .dxm-image-l .dxm-image,
+.dxmLite_iOS.dxm-ltr .dxm-popup .dxm-image
+{
+	margin-right: 9px;
+}
+.dxmLite_iOS .dxm-vertical .dxm-image-r .dxm-image,
+.dxmLite_iOS.dxm-rtl .dxm-popup .dxm-image
+{
+	margin-left: 9px;
+}
+.dxmLite_iOS .dxm-image-t .dxm-image
+{
+	margin-bottom: 4px;
+}
+.dxmLite_iOS .dxm-image-b .dxm-image
+{
+	margin-top: 4px;
+}
+
+/* Image replacement */
+.dxmLite_iOS .dxm-vertical .dxm-image-l .dxm-noImage,
+.dxmLite_iOS.dxm-ltr .dxm-popup .dxm-noImage
+{
+	padding-left: 41px;
+}
+.dxmLite_iOS .dxm-vertical .dxm-image-r .dxm-noImage,
+.dxmLite_iOS.dxm-rtl .dxm-popup .dxm-noImage
+{
+	padding-right: 41px;
+}
+
+/* PopOut */
+.dxmLite_iOS .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_iOS .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_iOS .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-top: 17px;
+	padding-bottom: 16px;
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 1px;
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 1px;
+}  
+.dxmLite_iOS .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_iOS .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-right: 1px;
+}
+.dxmLite_iOS.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_iOS.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-left: 1px;
+}
+
+.dxmLite_iOS .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_iOS .dxm-vertical .dxm-image-r .dxm-popOut,
+.dxmLite_iOS .dxm-popup .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+
+.dxmLite_iOS .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_iOS .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.dxmLite_iOS .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_iOS.dxm-ltr .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_iOS.dxm-ltr .dxm-vertical .dxm-image-b .dxm-popOut,
+.dxmLite_iOS.dxm-ltr .dxm-popup .dxm-popOut
+{
+	padding-left: 0;
+	padding-right: 6px;
+}
+.dxmLite_iOS .dxm-vertical .dxm-image-r .dxm-popOut,
+.dxmLite_iOS.dxm-rtl .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_iOS.dxm-rtl .dxm-vertical .dxm-image-b .dxm-popOut,
+.dxmLite_iOS.dxm-rtl .dxm-popup .dxm-popOut
+{
+    padding-left: 6px;
+	padding-right: 0;
+}
+
+/* PopOut replacement */
+.dxmLite_iOS .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_iOS .dxm-vertical .dxm-image-b .dxm-content 
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.dxmLite_iOS .dxm-vertical .dxm-image-t .dxm-noSubMenu,
+.dxmLite_iOS .dxm-vertical .dxm-image-b .dxm-noSubMenu
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dxmLite_iOS.dxm-ltr .dxm-popup .dxm-noSubMenu
+{
+	padding-right: 30px;
+}
+
+/* Spacings */
+.dxmLite_iOS .dxm-horizontal .dxm-spacing
+{
+	width: 9px;
+	height: 1px;
+}
+.dxmLite_iOS .dxm-vertical .dxm-image-l .dxm-spacing,
+.dxmLite_iOS .dxm-vertical .dxm-image-r .dxm-spacing,
+.dxmLite_iOS .dxm-vertical .dxm-image-t .dxm-spacing,
+.dxmLite_iOS .dxm-vertical .dxm-image-b .dxm-spacing,
+.dxmLite_iOS .dxm-popup .dxm-spacing
+{
+	height: 1px;
+}
+.dxmLite_iOS .dxm-horizontal .dxm-separator
+{
+	margin: 0 9px;
+}
+.dxmLite_iOS .dxm-vertical .dxm-image-l .dxm-separator,
+.dxmLite_iOS .dxm-vertical .dxm-image-r .dxm-separator,
+.dxmLite_iOS .dxm-vertical .dxm-image-t .dxm-separator,
+.dxmLite_iOS .dxm-vertical .dxm-image-b .dxm-separator,
+.dxmLite_iOS .dxm-popup .dxm-separator
+{
+	margin: 0;
+}
+.dxmLite_iOS.dxm-ie7 .dxm-vertical .dxm-image-l .dxm-separator,
+.dxmLite_iOS.dxm-ie7 .dxm-vertical .dxm-image-r .dxm-separator,
+.dxmLite_iOS.dxm-ie7 .dxm-vertical .dxm-image-t .dxm-separator,
+.dxmLite_iOS.dxm-ie7 .dxm-vertical .dxm-image-b .dxm-separator
+{
+	margin-top: -3px;
+}
+
+/* Separator */
+.dxmLite_iOS .dxm-horizontal .dxm-separator b
+{
+	background: #afb1b6;
+	height: 34px;
+	width: 1px;
+}
+.dxmLite_iOS .dxm-vertical .dxm-separator b,
+.dxmLite_iOS .dxm-popup .dxm-separator b
+{
+	background: #e0e0e0;
+	height: 1px;
+}
+
+.dxmLite_iOS .dxm-horizontal .dxm-separator b,
+.dxmLite_iOS .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-separator b,
+.dxmLite_iOS .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-separator b
+{
+	margin-top: 5px;
+}
+.dxmLite_iOS .dxm-horizontal .dxm-image-t .dxm-separator b,
+.dxmLite_iOS .dxm-horizontal .dxm-image-b .dxm-separator b
+{
+	margin-top: 18px;
+}
+.dxmLite_iOS .dxm-popup .dxm-gutter .dxm-separator
+{
+}
+/* Scroll elements */
+.dxmLite_iOS .dxm-scrollUpBtn,
+.dxmLite_iOS .dxm-scrollDownBtn
+{
+	border-style: none;
+	cursor: pointer;
+	font-size: 0px;
+	padding: 1px;
+	text-align: center;
+}
+.dxmLite_iOS .dxm-scrollUpBtn
+{
+	margin-bottom: 1px;
+}
+.dxmLite_iOS .dxm-scrollDownBtn
+{
+	margin-top: 1px;
+}
+.dxmLite_iOS .dxm-scrollBtnHovered,
+.dxmLite_iOS .dxm-scrollBtnPressed
+{
+	border: 1px solid #a6a9b2;
+	padding: 0;
+}
+.dxmLite_iOS .dxm-scrollBtnHovered
+{
+}
+.dxmLite_iOS .dxm-scrollBtnPressed
+{
+}
+.dxmLite_iOS .dxm-scrollBtnDisabled
+{
+	cursor: default;
+}
+.dxmLite_iOS .dxm-scrollArea
+{
+	overflow: hidden;
+	position: relative;
+}
+
+/*                                  */
+/* -- ASPxMenu Lite Toolbar mode -- */
+/*                                  */
+.dxmLite_iOS .dxm-main.dxmtb 
+{
+    background: #f0f2f4;
+}
+.dxmLite_iOS .dxm-main.dxmtb ul.dx
+{
+    font-size: 12px;
+	line-height: 15px;
+}
+/* has image */
+.dxmLite_iOS .dxmtb.dxm-horizontal .dxm-content
+{
+	padding: 14px 9px 4px;
+}
+/* no image */
+.dxmLite_iOS .dxmtb.dxm-horizontal .dxm-noImages .dxm-content,
+.dxmLite_iOS .dxmtb.dxm-horizontal .dxm-noImage .dxm-content
+{
+    padding-bottom: 12px;
+}
+
+.dxmLite_iOS .dxmtb.dxm-horizontal .dxm-image-l .dxm-image,
+.dxmLite_iOS .dxmtb.dxm-horizontal .dxm-image-r .dxm-image
+{
+	margin-top: -9px;
+}
+.dxmLite_iOS.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-hasText .dxm-image
+{
+	margin-right: 6px;
+}
+.dxmLite_iOS.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image
+{
+	margin-left: 6px;
+}
+.dxmLite_iOS .dxmtb.dxm-horizontal .dxm-separator b
+{
+	margin-top: 6px;
+	height: 30px;
+	width: 1px;
+}
+/* Editor */
+.dxmLite_iOS .dxmtb.dxm-horizontal td.dxic 
+{
+    padding: 2px 6px 3px 7px !important;
+}
+.dxmLite_iOS .dxmtb.dxm-horizontal input.dxeEditAreaSys 
+{
+    margin: 0 !important;
+}
+.dxmLite_iOS .dxmtb.dxm-horizontal .dxbebt 
+{
+    padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* -- ASPxNavBar -- */
+.dxnbControl_iOS
+{
+    width: 306px;
+    color: #303030;
+    font: bold 16px HelveticaNeue,Helvetica,Verdana,sans-serif;
+    text-shadow: 0px 1px 1px #FFFFFF;
+}
+
+.dxnbControl_iOS td.dxnbCtrl
+{
+    border-top: 1px solid #7a8091;
+}
+
+.dxnbControl_iOS a
+{
+    text-decoration: none;
+}
+
+.dxnbLoadingPanel_iOS
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+    margin: 10px;
+}
+.dxnbLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxnbLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxnbLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxnbLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxnbLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxnbLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxnbLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxnbLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+
+.dxnbControl_iOS td.dxnb
+{
+    direction: ltr;
+}
+
+.dxnbGroupHeader_iOS, .dxnbGroupHeaderCollapsed_iOS
+{
+    direction: rtl;
+    border-bottom: 1px solid #999fa5;
+    background-color: #f0f2f4;
+    color: #ffffff;
+    text-shadow: 0px 1px 1px #6f767c;
+    overflow: hidden;
+    cursor: pointer;
+    clear: both;
+    padding: 11px 16px;
+    background: url('nbHeaderBack.png') repeat-x scroll left top #909faa;
+}
+
+.dxnbGroupHeader_iOS a, .dxnbGroupHeaderCollapsed_iOS a
+{
+    text-decoration: underline;
+}
+
+.dxnbGroupHeader_iOS td.dxnb, .dxnbGroupHeaderCollapsed_iOS td.dxnb
+{
+    white-space: nowrap;
+}
+
+.dxnbRtl .dxnbGroupHeader_iOS, .dxnbRtl .dxnbGroupHeaderCollapsed_iOS
+{
+    direction: ltr;
+}
+
+.dxnbControl_iOS .dxnbRtl td.dxnb
+{
+    direction: rtl;
+}
+
+.dxnbItem_iOS, .dxnbLargeItem_iOS, .dxnbBulletItem_iOS
+{
+    border-bottom: 1px solid #d1d4da;
+    border-top: 1px solid #eceef1;
+    background-color: #e2e5ea;
+    clear: both;
+    overflow: hidden;
+    cursor: default;
+    padding: 11px 45px;
+}
+
+.dxnbItemSelected_iOS, .dxnbLargeItemSelected_iOS, .dxnbBulletItemSelected_iOS
+{
+    color: #ffffff;
+    text-shadow: 0px -1px 1px #000000;
+    padding: 12px 45px;
+    border-bottom: none;
+    border-top: none;
+    background: url('nbSelBack.png') repeat-x scroll left top #058bf5;
+}
+
+.dxnbItemSelected_iOS a, .dxnbLargeItemSelected_iOS a, .dxnbBulletItemSelected_iOS a
+{
+    color: #ffffff;
+    text-shadow: 0px -1px 1px #000000;
+}
+
+.dxnbGroupHeader_iOS, .dxnbGroupHeaderCollapsed_iOS
+{
+    text-align: left;
+}
+
+.dxnbItem_iOS, .dxnbItemHover_iOS, .dxnbItemSelected_iOS, .dxnbBulletItem_iOS, .dxnbBulletItemHover_iOS, .dxnbBulletItemSelected_iOS
+{
+    text-align: left;
+}
+
+.dxnbLargeItem_iOS, .dxnbLargeItemHover_iOS, .dxnbLargeItemSelected_iOS
+{
+    text-align: center;
+}
+
+.dxnbGroupSpacing_iOS, .dxnbItemSpacing_iOS
+{
+    
+}
+
+.dxnbItemSelected_iOS.dxnbItem_iOS.dxnbImgCellLeft_iOS, .dxnbLargeItemSelected_iOS.dxnbItem_iOS.dxnbImgCellLeft_iOS, .dxnbBulletItemSelected_iOS.dxnbItem_iOS.dxnbImgCellLeft_iOS
+{
+    padding: 6px 15px 6px 45px;
+}
+
+.dxnbItemSelected_iOS.dxnbItem_iOS.dxnbImgCellRight_iOS, .dxnbLargeItemSelected_iOS.dxnbItem_iOS.dxnbImgCellRight_iOS, .dxnbBulletItemSelected_iOS.dxnbItem_iOS.dxnbImgCellRight_iOS
+{
+    padding: 6px 45px 6px 15px;
+}
+
+.dxnbImgCellLeft_iOS
+{
+    padding: 5px 0 0 13px;
+}
+
+.dxnbItem_iOS.dxnbImgCellRight_iOS
+{
+    padding: 5px 45px 5px 15px;
+}
+
+.dxnbGroupHeaderCollapsed_iOS .dxnbImgCellLeft_iOS
+{
+    padding: 1px 0 0 13px;
+}
+
+.dxnbGroupHeaderCollapsed_iOS .dxnbImgCellRight_iOS
+{
+    padding: 1px 13px 0 0;
+}
+
+.dxnbItem_iOS.dxnbImgCellLeft_iOS
+{
+    padding: 5px 15px 5px 45px;
+}
+
+.dxnbImgCellRight_iOS
+{
+    padding: 5px 13px 0 0;
+}
+.dxnbLargeItemImgTop_iOS
+{
+    padding-bottom: 5px;
+}
+.dxnbLargeItemImgBottom_iOS
+{
+    padding-top: 5px;
+}
+
+.dxnbDisabled_iOS, .dxnbDisabled_iOS td.dxnb, td.dxnbDisabled_iOS a
+{
+    color: #A6A6A6;
+    cursor: default;
+}
+
+.dxnbDisabled_iOS td.dxnb, .dxnbDisabled_iOS td.dxnb
+{
+    color: #777777;
+}
+
+/* -- ASPxNavBar Lite -- */
+.dxnbLite_iOS
+{
+    list-style: none none outside;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 306px;
+    color: #303030;
+    font: bold 16px HelveticaNeue,Helvetica,Verdana,sans-serif;
+    text-shadow: 0px 1px 1px #FFFFFF;
+}
+.dxnbLite_iOS a
+{
+    text-decoration: none !important;
+}
+        
+.dxnbLite_iOS .dxnb-gr:first-of-type .dxnb-header, 
+.dxnbLite_iOS .dxnb-gr:first-of-type .dxnb-headerCollapsed
+{
+    border-top: 1px solid #7a8091;
+}
+        
+.dxnbLite_iOS .dxnb-header, 
+.dxnbLite_iOS .dxnb-headerCollapsed
+{
+    border-bottom: 1px solid #999fa5;
+    border-top: 1px solid #e2e5ea;
+    background-color: #f0f2f4;
+    color: #ffffff;
+    text-shadow: 0px 1px 1px #6f767c;
+    overflow: hidden;
+    cursor: pointer;
+    clear: both;
+    padding: 11px 16px;
+    background: url('nbHeaderBack.png') repeat-x scroll left top #909faa;
+}
+        
+.dxnbLite_iOS .dxnb-content
+{
+    list-style: none none outside;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+        
+.dxnbLite_iOS .dxnb-item, 
+.dxnbLite_iOS .dxnb-large, 
+.dxnbLite_iOS .dxnb-bullet
+{
+    border-bottom: 1px solid #d1d4da;
+    border-top: 1px solid #eceef1;
+    background-color: #e2e5ea;
+    clear: both;
+    overflow: hidden;
+    cursor: default;
+    padding: 11px 45px;
+}
+        
+.dxnbLite_iOS .dxnb-bullet, 
+.dxnbLite_iOS .dxnb-bulletHover, 
+.dxnbLite_iOS .dxnb-bulletSelected
+{
+    overflow: visible;
+}
+        
+.dxnbLite_iOS .dxnb-itemSelected, 
+.dxnbLite_iOS .dxnb-largeSelected, 
+.dxnbLite_iOS .dxnb-last.dxnb-itemSelected, 
+.dxnbLite_iOS .dxnb-last.dxnb-largeSelected
+{
+    color: #ffffff;
+    text-shadow: 0px -1px 1px #000000;
+    padding: 12px 45px;
+    border-bottom: none;
+    border-top: none;
+    background: url('nbSelBack.png') repeat-x scroll left top #058bf5;
+
+}
+
+.dxnbLite_iOS .dxnb-itemSelected a, 
+.dxnbLite_iOS .dxnb-largeSelected a, 
+.dxnbLite_iOS .dxnb-last.dxnb-itemSelected a, 
+.dxnbLite_iOS .dxnb-last.dxnb-largeSelected a
+{
+    color: #ffffff;
+    text-shadow: 0px -1px 1px #000000;
+}
+        
+.dxnbLite_iOS .dxnb-header, 
+.dxnbLite_iOS .dxnb-headerCollapsed, 
+.dxnbLite_iOS .dxnb-item, 
+.dxnbLite_iOS .dxnb-itemHover, 
+.dxnbLite_iOS .dxnb-itemSelected, 
+.dxnbLite_iOS .dxnb-bullet, 
+.dxnbLite_iOS .dxnb-bulletHover, 
+.dxnbLite_iOS .dxnb-bulletSelected
+{
+    text-align: left;
+}
+        
+.dxnbLite_iOS .dxnb-large, 
+.dxnbLite_iOS .dxnb-largeHover, 
+.dxnbLite_iOS .dxnb-largeSelected
+{
+    text-align: center;
+}
+        
+.dxnbLite_iOS .dxnb-last,
+.dxnbLite_iOS.dxnb-noHeads .dxnb-last
+{
+    border-bottom: 1px solid #e2e5ea;
+}
+        
+.dxnbLite_iOS .dxnb-headerCollapsed .dxnb-btn
+{
+    margin: 3px 15px 0 0;
+}
+        
+.dxnbLite_iOS .dxnb-btn
+{
+    margin: 5px 15px 0 0;
+    float: left;
+}
+        
+.dxnbLite_iOS .dxnb-btnLeft
+{
+    margin: 5px 0 0 15px;
+    float: right;
+}
+        
+.dxnbLite_iOS .dxnb-headerCollapsed .dxnb-btnLeft
+{
+    margin: 3px 0 0 15px;
+}
+        
+.dxnbLite_iOS .dxnb-img
+{
+    float: left;
+    margin: -5px 15px 0 0;
+}
+        
+.dxnbLite_iOS .dxnb-right .dxnb-item .dxnb-img, 
+.dxnbLite_iOS .dxnb-rtlHeader .dxnb-img
+{
+    float: right;
+    margin: -5px 0 0 15px;
+}
+        
+.dxnbLite_iOS .dxnb-top .dxnb-large .dxnb-img
+{
+    margin-bottom: 5px;
+}
+        
+.dxnbLite_iOS .dxnb-bottom .dxnb-large .dxnb-img
+{
+    margin-top: 5px;
+}
+        
+.dxnbLite_iOS .dxnb-large .dxnb-img
+{
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+        
+.dxnbLiteDisabled_iOS, 
+.dxnbLite_iOS .dxnbLiteDisabled_iOS, 
+.dxnbLiteDisabled_iOS a, 
+.dxnbLiteDisabled_iOS .dxnb-item, 
+.dxnbLiteDisabled_iOS .dxnb-large, 
+.dxnbLiteDisabled_iOS .dxnb-bullet, 
+.dxnbLiteDisabled_iOS .dxnb-header, 
+.dxnbLiteDisabled_iOS .dxnb-headerCollapsed
+{
+    color: #A6A6A6;
+    cursor: default
+}
+
+.dxnbLiteDisabled_iOS .dxnb-header, 
+.dxnbLiteDisabled_iOS .dxnb-headerCollapsed
+{
+    color: #777777;
+}
+
+/* -- ASPxNewsControl -- */
+.dxncControl_iOS
+{
+	font-family: HelveticaNeue,Helvetica,Verdana,sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #000;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+	border: none;
+}
+.dxncControl_iOS a
+{
+	color: #006EE9;
+}
+.dxncControl_iOS td.dxncCtrl
+{
+	padding: 0;
+}
+.dxncLoadingPanel_iOS
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxncLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxncLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxncLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxncLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxncLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxncLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxncLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxncLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxncContent_iOS
+{
+	padding: 16px 0px 37px 19px;
+}
+.dxncControl_iOS[dir="rtl"] .dxncContent_iOS
+{
+	padding: 16px 19px 37px 0px;
+}
+.dxncPagerPanel_iOS
+{
+	padding: 19px 0;
+}
+.dxncControl_iOS .dxncPPSpacing
+{
+	background: url('ncPagerPanelSpacingBack.png') repeat-x;
+}
+.dxncItem_iOS
+{
+	vertical-align: top;
+	border-style: none;
+	padding: 15px 0 17px;
+}
+.dxncEmptyItem_iOS
+{
+	vertical-align: top;
+	padding: 12px 12px 12px 14px;
+}
+.dxncBackToTop_iOS
+{
+	text-align: right
+}
+.dxncControl_iOS[dir="rtl"] .dxncBackToTop_iOS
+{
+	text-align: left;
+}
+.dxncBackToTop_iOS a
+{
+	color: #006EE9;
+	text-decoration: none;
+	border-bottom: 1px dashed #006EE9;
+}
+/* Headline */
+.dxncItemHeader_iOS,
+.dxncItemDate_iOS,
+.dxncItemContent_iOS
+{
+	padding-right: 19px;
+}
+.dxncControl_iOS[dir="rtl"] .dxncItemHeader_iOS,
+.dxncControl_iOS[dir="rtl"] .dxncItemDate_iOS,
+.dxncControl_iOS[dir="rtl"] .dxncItemContent_iOS
+{
+	padding-left: 19px;
+	padding-right: 0;
+}
+.dxncItemContent_iOS
+{
+	color: Black;
+}
+.dxncItemContent_iOS:last-child,
+.dxncItemTail_iOS:last-child
+{
+	/* with Back to top */
+	background: url('ncPagerPanelSpacingBack.png') repeat-x;
+	background-position: bottom;
+	padding-bottom: 16px;
+}
+.dxncItem_iOS table:last-child .dxncItemContent_iOS,
+.dxncItem_iOS table:last-child .dxncItemTail_iOS
+{
+	/* without Back to top */
+	background: none;
+	padding-bottom: 0;
+}
+.dxncItemDate_iOS
+{
+	color: #898A8D;
+}
+.dxncItemHeader_iOS
+{
+    font-size: 18px;    
+	padding-bottom: 6px;
+	color: #4C566C;
+}
+.dxncItemLeftPanel_iOS,
+.dxncItemRightPanel_iOS
+{
+	padding-top: 3px;
+}
+.dxncItemDateLeftPanel_iOS,
+.dxncItemDateRightPanel_iOS
+{
+	white-space: nowrap;
+}
+.dxncEmptyData_iOS
+{
+	color: Black;
+}
+/* Disabled */
+.dxncDisabled_iOS,
+.dxncDisabled_iOS a,
+.dxncDisabled_iOS a:hover
+{
+	cursor: default;
+}
+
+/* -- ASPxPopupControl -- */
+.dxpcControl_iOS 
+{
+    box-shadow: 0 7px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+
+.dxpcHeader_iOS
+{
+	border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.dxpcAlert .dxpcFooter_iOS td.dxpc,
+.dxpcAlert .dxpcHeader_iOS td.dxpc
+{
+    color: #FFFFFF;
+	text-shadow: 0 1px 1px #252B3D;
+}
+
+.dxpcControl_iOS > table > tbody > tr:first-child > .dxpcContent_iOS 
+{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.dxpcControl_iOS > table > tbody > tr:last-child > .dxpcContent_iOS 
+{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.dxpcFooter_iOS td.dxpc,
+.dxpcHeader_iOS td.dxpc
+{
+    color: #6C737A;
+	text-shadow: 0 1px 1px #E2E2E2;
+	font-weight: bold;
+	font-size: 20px;
+	white-space: nowrap;
+}
+.dxpcControl_iOS
+{
+	font: 12px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	cursor: default;
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 0px;
+	width: 200px;
+}
+
+.dxpcControl_iOS a
+{
+	color: #3F7ABE;
+}
+.dxpcControl_iOS a:hover
+{
+	color: #2C4D79;
+}
+.dxpcCloseButton_iOS
+{
+	cursor: pointer;
+	padding: 6px 4px 4px 6px;
+}
+.dxpcAlert .dxpcCloseButton_iOS
+{	
+	padding: 4px 6px 6px 6px;
+}
+
+.dxpcCloseButtonHover_iOS
+{
+}
+.dxpcContent_iOS
+{
+	color: #000000;
+	line-height: 128%;
+	white-space: normal;
+	vertical-align: top;
+	border: 1px Solid;
+	border-color: rgba(0,0,0,0.15);
+	background-clip: padding-box;
+}
+
+.dxpcAlert .dxpcContent_iOS
+{
+    border: 7px Solid #000B29;
+}
+
+.dxpcContentPaddings_iOS 
+{
+	padding: 14px 20px 15px;
+}
+.dxpcFooter_iOS
+{
+    border-left: 1px Solid;
+    border-right: 1px Solid;
+    border-bottom: 1px Solid;
+    border-color: rgba(0,0,0,0.15);
+	background-clip: padding-box;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.dxpcAlert .dxpcFooter_iOS
+{
+    background-color: #000B29;
+    border: 0px;
+}
+.dxpcFooter_iOS td.dxpc
+{
+	padding: 9px 5px 8px 14px;
+}
+
+.dxpcHeader_iOS 
+{
+    background: #ABAFBC url('pcHeaderBack.png') repeat-x top;
+	border: 1px Solid;
+    border-color: rgba(0,0,0,0.15);
+	background-clip: padding-box;	
+	padding-bottom: 0px;
+}
+
+.dxpcAlert .dxpcHeader_iOS 
+{
+    border: 1px Solid #000B29;
+    background: #000B29 url('pcHeaderBackAlert.png') repeat-x top;	
+}
+
+.dxpcAlert .dxpcHeader_iOS td.dxpc 
+{
+	padding: 1px 0px 4px 0px;
+}
+.dxpcHeader_iOS td.dxpc
+{
+	padding: 8px 0px 3px 0px;	
+}
+.dxpcModalBackground_iOS
+{
+	background-color: #000000;
+	opacity: 0.55;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxpcLoadingPanel_iOS,
+.dxdpLoadingPanel_iOS
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxpcLoadingPanel_iOS td.dx,
+.dxdpLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxpcLoadingPanel_iOS td.dx:first-child,
+.dxdpLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxpcLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxdpLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxpcLoadingPanel_iOS td.dx:last-child,
+.dxdpLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxpcLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxdpLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxpcLoadingPanel_iOS td.dx:first-child:last-child,
+.dxdpLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxpcLoadingPanel_iOS td.dx + td.dx,
+.dxdpLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxpcLoadingPanel_iOS td.dx + td.dx,
+*[dir="rtl"] .dxdpLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxpcLoadingDiv_iOS
+{
+	background-color: #C9CACB;
+	opacity: 0.01;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+/* Disabled */
+.dxpcDisabled_iOS
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+/* -- ASPxPopupControl Lite -- */
+.dxdpLite_iOS,
+.dxdpLite_iOS .dxpc-mainDiv,
+.dxdpLite_iOS.dxpc-mainDiv 
+{
+}
+.dxpc-shadow,
+.dxpc-mainDiv
+{
+    box-shadow: 0 7px 40px rgba(0, 0, 0, 0.3);
+}
+
+.dxdzControlHor > .dxdpLite_iOS > .dxpc-mainDiv,
+.dxdzControlVert > .dxdpLite_iOS > .dxpc-mainDiv
+{
+    box-shadow: none;
+}
+
+.dxpcLite_iOS,
+.dxdpLite_iOS,
+.dxpcLite_iOS .dxpc-mainDiv,
+.dxpcLite_iOS.dxpc-mainDiv,
+.dxdpLite_iOS .dxpc-mainDiv,
+.dxdpLite_iOS.dxpc-mainDiv
+{
+	border-radius: 7px;
+}
+
+.dxpcLite_iOS .dxpc-header,
+.dxdpLite_iOS .dxpc-header
+{
+	border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.dxpcLite_iOS,
+.dxdpLite_iOS 
+{
+    font: 12px HelveticaNeue,Helvetica,Verdana,sans-serif;
+    color: #000000;
+	background-color: #FFFFFF;
+	border: 0px;
+	width: 200px;
+	left: 0;
+	top: 0;
+	display: none;
+	position: absolute;
+	visibility: hidden;
+}
+
+.dxpcLite_iOS .dxpc-mainDiv,
+.dxdpLite_iOS .dxpc-mainDiv
+{
+	position: relative;
+}
+
+.dxpcLite_iOS .dxpc-mainDiv,
+.dxpcLite_iOS.dxpc-mainDiv,
+.dxdpLite_iOS .dxpc-mainDiv,
+.dxdpLite_iOS.dxpc-mainDiv 
+{
+	top: 0;
+	left: 0;
+	color: black;
+}
+
+.dxpcLite_iOS a,
+.dxdpLite_iOS a 
+{
+	color: #3F7ABE;
+}
+.dxpcLite_iOS a:hover,
+.dxdpLite_iOS a:hover 
+{
+	color: #2C4D79;
+}
+
+.dxpcLite_iOS .dxpc-link,
+.dxdpLite_iOS .dxpc-link
+{
+	float: left;
+}
+
+.dxpcLite_iOS.dxRtl .dxpc-link,
+.dxdpLite_iOS.dxRtl .dxpc-link
+{
+	float: right;
+}
+
+.dxpcLite_iOS a .dxpc-headerText,
+.dxpcLite_iOS a .dxpc-footerText,
+.dxdpLite_iOS a .dxpc-headerText,
+.dxdpLite_iOS a .dxpc-footerText
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.dxpcAlert.dxpcLite_iOS .dxpc-closeBtn,
+.dxpcAlert.dxdpLite_iOS .dxpc-closeBtn
+{
+    padding: 2px 4px 2px 6px;
+}
+
+.dxpcLite_iOS .dxpc-closeBtn,
+.dxdpLite_iOS .dxpc-closeBtn  
+{
+	padding: 1px 4px 3px 6px;
+	float: right;
+}
+
+.dxpcLite_iOS.dxRtl  .dxpc-closeBtn,
+.dxdpLite_iOS.dxRtl  .dxpc-closeBtn  
+{
+	float: left;
+}
+
+.dxpcLite_iOS .dxpc-closeBtnHover,
+.dxdpLite_iOS .dxpc-closeBtnHover
+{
+}
+
+.dxpcLite_iOS .dxpc-header,
+.dxdpLite_iOS .dxpc-header 
+{
+	background: #AAAEBB url('pcHeaderBack.png') repeat-x top;
+	border: 1px Solid;
+	border-color: rgba(0,0,0,0.15);
+	background-clip: padding-box;
+	padding: 5px 2px 7px 12px;
+}
+
+.dxpcAlert.dxpcLite_iOS .dxpc-header,
+.dxpcAlert.dxdpLite_iOS .dxpc-header 
+{
+    border-color: #000B29;
+    background: #000B29 url('pcHeaderBackAlert.png') repeat-x top;	
+}
+
+.dxpcLite_iOS .dxpc-header.dxpc-withBtn,
+.dxdpLite_iOS .dxpc-header.dxpc-withBtn 
+{
+	padding-bottom: 4px;
+}
+
+.dxpcLite_iOS.dxRtl .dxpc-header,
+.dxdpLite_iOS.dxRtl .dxpc-header 
+{
+	padding-right: 12px;
+	padding-left: 2px;
+}
+
+.dxpcLite_iOS .dxpc-headerText,
+.dxdpLite_iOS .dxpc-headerText,
+.dxpcLite_iOS .dxpc-footerText,
+.dxdpLite_iOS .dxpc-footerText 
+{
+    color: #6C737A;
+	text-shadow: 0 1px 1px #E2E2E2;
+	font-weight: bold;
+	font-size: 20px;
+	white-space: nowrap;
+	float: left;
+}
+
+.dxpcAlert.dxpcLite_iOS .dxpc-headerText,
+.dxpcAlert.dxdpLite_iOS .dxpc-headerText,
+.dxpcAlert.dxpcLite_iOS .dxpc-footerText,
+.dxpcAlert.dxdpLite_iOS .dxpc-footerText 
+{
+    color: #FFFFFF;
+	text-shadow: 0 1px 1px #252B3D;
+}
+
+.dxpcAlert..dxpcLite_iOS .dxpc-headerText,
+.dxpcAlert..dxdpLite_iOS .dxpc-headerText
+{
+    margin-top: 2px;
+}
+
+.dxpcLite_iOS .dxpc-headerText,
+.dxdpLite_iOS .dxpc-headerText
+{
+	margin-top: 5px;
+}
+
+.dxpcLite_iOS.dxRtl .dxpc-headerText,
+.dxdpLite_iOS.dxRtl .dxpc-headerText
+{
+	float: right;
+}
+
+.dxpcLite_iOS .dxpc-headerImg,
+.dxdpLite_iOS .dxpc-headerImg
+{
+	float: left;
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_iOS.dxRtl .dxpc-headerImg,
+.dxdpLite_iOS.dxRtl .dxpc-headerImg
+{
+	float: right;
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_iOS .dxpc-contentWrapper,
+.dxdpLite_iOS .dxpc-contentWrapper 
+{
+	background-color: #FFFFFF;
+	border-color: rgba(0,0,0,0.15);
+	background-clip: padding-box;
+	border-style: solid;
+	border-width: 1px;
+	overflow:hidden;
+}
+
+.dxpcLite_iOS > .dxpc-mainDiv > .dxpc-contentWrapper,
+.dxdpLite_iOS > .dxpc-mainDiv > .dxpc-contentWrapper,
+.dxpcLite_iOS.dxpc-mainDiv > .dxpc-contentWrapper 
+{
+    border-width: 1px;
+    border-radius: none;
+}
+.dxpcLite_iOS > .dxpc-mainDiv > DIV:first-child.dxpc-contentWrapper,
+.dxdpLite_iOS > .dxpc-mainDiv > DIV:first-child.dxpc-contentWrapper,
+.dxpcLite_iOS.dxpc-mainDiv > DIV:first-child.dxpc-contentWrapper
+{
+    border-bottom-width: 0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.dxpcLite_iOS > .dxpc-mainDiv > DIV:nth-child(2).dxpc-contentWrapper,
+.dxdpLite_iOS > .dxpc-mainDiv > DIV:nth-child(2).dxpc-contentWrapper,
+.dxpcLite_iOS.dxpc-mainDiv > DIV:nth-child(2).dxpc-contentWrapper
+{
+
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+.dxpcLite_iOS > .dxpc-mainDiv > DIV:last-child.dxpc-contentWrapper,
+.dxdpLite_iOS > .dxpc-mainDiv > DIV:last-child.dxpc-contentWrapper,
+.dxpcLite_iOS.dxpc-mainDiv > DIV:last-child.dxpc-contentWrapper
+{
+    border-bottom-width: 1px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.dxpcAlert.dxpcLite_iOS .dxpc-contentWrapper,
+.dxpcAlert.dxdpLite_iOS .dxpc-contentWrapper
+{
+    border-color: #000B29;
+	border-width: 0px 7px 7px 7px;
+}
+
+.dxpcLite_iOS .dxpc-content,
+.dxdpLite_iOS .dxpc-content
+{
+	white-space: normal;
+	line-height: 128%;		
+	padding: 14px 20px 15px;
+}
+
+.dxpcLite_iOS .dxpc-footer,
+.dxdpLite_iOS .dxpc-footer
+{
+    border-left: 1px Solid;
+    border-right: 1px Solid;
+    border-bottom: 1px Solid;
+    border-color: rgba(0,0,0,0.15);
+	background-clip: padding-box;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.dxpcAlert.dxpcLite_iOS .dxpc-footer,
+.dxpcAlert.dxdpLite_iOS .dxpc-footer 
+{
+    background-color: #000B29;
+    border: 0px;
+}
+
+.dxpcLite_iOS .dxpc-footerContent,
+.dxdpLite_iOS .dxpc-footerContent,
+.dxpcLite_iOS .dxpc-headerContent,
+.dxdpLite_iOS .dxpc-headerContent
+{
+    float: left;
+}
+
+.dxpcLite_iOS.dxRtl .dxpc-footerContent,
+.dxdpLite_iOS.dxRtl .dxpc-footerContent,
+.dxpcLite_iOS.dxRtl .dxpc-headerContent,
+.dxdpLite_iOS.dxRtl .dxpc-headerContent
+{
+	float: right;
+}
+
+.dxpcLite_iOS .dxpc-footerContent,
+.dxdpLite_iOS .dxpc-footerContent
+{
+	margin: 0;
+	padding: 9px 2px 9px 14px;
+}
+.dxpcLite_iOS.dxRtl .dxpc-footerText,
+.dxdpLite_iOS.dxRtl .dxpc-footerText
+{
+	float: right;
+}
+
+.dxpcLite_iOS .dxpc-footerImg,
+.dxdpLite_iOS .dxpc-footerImg
+{
+	float: left;
+	margin: -1px 4px 0 0;
+}
+
+.dxpcLite.dxRtl .dxpc-footerImg,
+.dxdpLite.dxRtl .dxpc-footerImg
+{
+	float: right;
+	margin: -1px 0 0 4px;
+}
+
+.dxpcLite_iOS .dxpc-sizeGrip,
+.dxdpLite_iOS .dxpc-sizeGrip
+{
+	float: right;
+	margin-top: 15px; 
+}
+
+.dxpcLite_iOS.dxRtl .dxpc-sizeGrip,
+.dxdpLite_iOS.dxRtl .dxpc-sizeGrip
+{
+	float: left;
+}
+
+.dxpcModalBackLite_iOS,
+.dxdpModalBackLite_iOS
+{
+	background-color: #777777;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+
+.dxpcLiteDisabled_iOS,
+.dxdpLiteDisabled_iOS
+{
+	color: #A6A6A6;
+	cursor: default;
+}
+
+/* -- ASPxRoundPanel -- */
+.dxrpControl_iOS 
+{
+    border-radius: 10px;
+    border: 1px Solid #AFB1B6;
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.dxrpControl_iOS > tbody > tr > td > table > tbody > tr:first-child,
+.dxrpControl_iOS > tbody > tr > td > table > tbody > tr:last-child,
+.dxrpControl_iOS .dxrpHLE, 
+.dxrpControl_iOS .dxrpHRE, 
+.dxrpControl_iOS .dxrpLE, 
+.dxrpControl_iOS .dxrpRE
+{
+  visibility: hidden;
+  display:none;
+}
+
+.dxrpControl_iOS .dxrpcontent,
+.dxrpControlGB_iOS .dxrpcontent
+{
+    font: 12px HelveticaNeue,Helvetica,Verdana,sans-serif;
+    vertical-align: top;
+}
+
+.dxrpControl_iOS .dxrpHeader_iOS
+{
+    border-bottom: 1px Solid #E0E0E0;
+}
+
+.dxrpControl_iOS > TBODY > TR > TD > TABLE > TBODY > TR:nth-child(2) > TD:nth-child(2) 
+{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1) inset;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.dxrpHeader_iOS
+{
+    border-radius: 9px 9px 0px 0px;
+    text-shadow: 0px 1px 1px White;
+    padding: 14px 11px 11px;
+    color: #4C566C;
+    background-color: #F0F2F4;
+    font-weight: bold;
+	font-family: HelveticaNeue,Helvetica,Verdana,sans-serif;
+	font-size: 16px;
+}
+
+/* -- ASPxSiteMapControl -- */
+.dxsmControl_iOS a:visited
+{
+	color: #af4480;
+}
+.dxsmControl_iOS a
+{
+	text-decoration: none;
+}
+
+.dxsmControl_iOS
+{
+	font: bold 13px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+	border-style: none;
+}
+/* - Category Level - */
+.dxsmCategoryLevel_iOS,
+.dxsmCategoryLevel_iOS a
+{
+	font-size: 18px;
+	color: #7C7C7C;
+	text-decoration: none;
+}
+.dxsmCategoryLevel_iOS
+{
+	white-space: nowrap;
+	padding: 0;
+}
+.dxsmCategoryLevel_iOS
+{
+	padding-bottom: 10px;
+}
+ /*flow layout*/
+.dxsmLevelCategoryFlow_iOS,
+.dxsmLevelCategoryFlow_iOS a
+{
+	font-size: 18px;
+	color: #7C7C7C;
+}
+/* - Level 0 - */
+.dxsmLevel0_iOS,
+.dxsmLevel0_iOS a,
+.dxsmLevel0Categorized_iOS a,
+.dxsmLevel0Categorized_iOS
+{
+	color: #0160E7;
+}
+.dxsmLevel0_iOS,
+.dxsmLevel0Categorized_iOS
+{
+	white-space: nowrap;
+	padding-bottom: 10px;
+}
+.dxsmLevel0_iOS ~ div
+{
+	margin-left: 21px;
+}
+ /*flow layout*/
+.dxsmLevel0Flow_iOS,
+.dxsmLevel0Flow_iOS a,
+.dxsmLevel0CategorizedFlow_iOS a,
+.dxsmLevel0CategorizedFlow_iOS
+{
+	color: #0160E7;
+}
+.dxsmLevel0Flow_iOS
+{
+	padding: 0;
+}
+
+.dxsmLevel0_iOS a:visited,
+.dxsmLevel0Categorized_iOS a:visited,
+.dxsmLevel0Flow_iOS a:visited,
+.dxsmLevel0CategorizedFlow_iOS a:visited
+{
+	color: #af4480;
+}
+
+/* - Level 1 - */
+.dxsmLevel1_iOS,
+.dxsmLevel1_iOS a,
+.dxsmLevel1Categorized_iOS a,
+.dxsmLevel1Categorized_iOS
+{
+	color: #0160E7;
+}
+.dxsmLevel1_iOS,
+.dxsmLevel1Categorized_iOS
+{
+	white-space: nowrap;
+	padding-bottom: 10px;
+}
+
+/*flow layout*/
+.dxsmLevel1Flow_iOS,
+.dxsmLevel1Flow_iOS a,
+.dxsmLevel1CategorizedFlow_iOS,
+.dxsmLevel1CategorizedFlow_iOS a
+{
+	color: #0160E7;
+}
+.dxsmLevel1Flow_iOS
+{
+	padding-bottom: 10px;
+}
+
+/* - Level 2 - */
+.dxsmLevel2_iOS,
+.dxsmLevel2_iOS a,
+.dxsmLevel2Categorized_iOS a,
+.dxsmLevel2Categorized_iOS
+{
+	color: #0160E7;
+}
+.dxsmLevel2_iOS,
+.dxsmLevel2Categorized_iOS
+{
+	white-space: nowrap;
+	padding-bottom: 10px;
+}
+/*flow layout*/
+.dxsmLevel2Flow_iOS,
+.dxsmLevel2Flow_iOS a
+{
+	color: #0160E7;
+}
+.dxsmLevel2Flow_iOS
+{
+	padding-bottom: 10px;
+}
+/* - Level 3 - */
+.dxsmLevel3_iOS,
+.dxsmLevel3_iOS a
+{
+	color: #0160E7;
+}
+.dxsmLevel3_iOS
+{
+	white-space: nowrap;
+	padding-bottom: 10px;
+}
+/*flow layout*/
+.dxsmLevel3Flow_iOS,
+.dxsmLevel3Flow_iOS a
+{
+	color: #0160E7;
+}
+.dxsmLevel3Flow_iOS
+{
+	padding-bottom: 10px;
+}
+/* - Level 4 - */
+.dxsmLevel4_iOS,
+.dxsmLevel4_iOS a
+{
+	color: #0160E7;
+}
+.dxsmLevel4_iOS
+{
+	white-space: nowrap;
+	padding-bottom: 10px;
+}
+/*flow layout*/ 
+.dxsmLevel4Flow_iOS,
+.dxsmLevel4Flow_iOS a
+{
+	color: #0160E7;
+}
+.dxsmLevel4Flow_iOS
+{
+	padding-bottom: 10px;
+}
+/* - Other Levels - */
+.dxsmLevelOther_iOS,
+.dxsmLevelOther_iOS a
+{
+	color: #0160E7;
+}
+.dxsmLevelOther_iOS
+{
+	white-space: nowrap;
+	padding-bottom: 10px;
+}
+/*flow layout*/
+.dxsmLevelOtherFlow_iOS,
+.dxsmLevelOtherFlow_iOS a
+{
+	color: #0160E7;
+	padding-bottom: 10px;
+}
+/* Disabled */
+.dxsmDisabled_iOS,
+.dxsmDisabled_iOS *
+{
+	color: #BBB;
+	cursor: default;
+}
+
+/* -- ASPxTabControl, ASPxPageControl -- */
+.dxtcControl_iOS
+{
+	font-size: 18px;
+	font-family: HelveticaNeue,Helvetica,Verdana,sans-serif;
+	font-weight: bold;
+	color: #7C7C7C;
+}
+.dxtcPageContent_iOS,
+.dxtcPageContentWithTabPositionBottom_iOS
+{
+	border:none!important;
+}
+.dxtcActiveRow_iOS
+{
+}
+
+.dxtcActiveRow_iOS > tbody > tr > td > div
+{
+	background-color:#B4B4B4;
+}
+.dxtcActiveRow_iOS > tbody > tr > td
+{
+	background: #E3E3E3 url('tcTabBack.png') repeat-x top;
+	border-top: none!important;
+	border-bottom: none!important;
+	display:none;
+}
+.dxtcActiveRow_iOS > tbody > tr > td.dxtcTab_iOS,
+.dxtcActiveRow_iOS > tbody > tr > td.dxtcActiveTab_iOS,
+.dxtcActiveRow_iOS > tbody > tr > td.dxtcActiveTabWithTabPositionBottom_iOS,
+.dxtcActiveRow_iOS > tbody > tr > td.dxtcTabWithTabPositionBottom_iOS
+{
+	display:table-cell;
+	border-left:1px solid rgba(162, 163, 165, .6);
+	border-right:1px solid rgba(162, 163, 165, .6);
+	box-shadow: 0 1px 0px white;
+}
+.dxtcActiveRow_iOS > tbody > tr > td:nth-child(-n+2)
+{
+	border-radius: 10px 0 0 10px;
+	border-left: 1px solid #B6B8BC;
+}
+div > .dxtcActiveRow_iOS > tbody > tr > td:last-child
+{
+	background:none!important;
+	border:none!important;
+}
+div > .dxtcActiveRow_iOS > tbody > tr > td:last-child > div
+{
+	background:none!important;
+}
+div > .dxtcActiveRow_iOS > tbody > tr > td:nth-last-child(-n+3),
+.dxtcActiveRow_iOS > tbody > tr > td:nth-last-child(-n+2)
+{
+	border-radius: 0 10px 10px 0;
+	border-right: 1px solid #B6B8BC;
+}
+.dxtcActiveTab_iOS,
+.dxtcActiveTabWithTabPositionBottom_iOS,
+.dxtcActiveTabWithTabPositionLeft_iOS,
+.dxtcActiveTabWithTabPositionRight_iOS
+{
+	border-left-width:1px!important;
+	border-color: rgba(23,63,131,0.5)!important;
+}
+.dxtcActiveTab_iOS > table,
+.dxtcActiveTabWithTabPositionBottom_iOS > table,
+.dxtcActiveTabWithTabPositionLeft_iOS > table,
+.dxtcActiveTabWithTabPositionRight_iOS > table
+{
+	margin-top: 1px;
+	margin-bottom: 0px!important;
+}
+
+.dxtcLoadingPanel_iOS,
+.dxtcLoadingPanel_TabBar
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxtcLoadingPanel_iOS td.dx,
+.dxtcLoadingPanel_TabBar td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxtcLoadingPanel_iOS td.dx:first-child,
+.dxtcLoadingPanel_TabBar td.dx:first-child,
+*[dir="rtl"] .dxtcLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxtcLoadingPanel_TabBar td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxtcLoadingPanel_iOS td.dx:last-child,
+.dxtcLoadingPanel_TabBar td.dx:last-child,
+*[dir="rtl"] .dxtcLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxtcLoadingPanel_TabBar td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxtcLoadingPanel_iOS td.dx:first-child:last-child,
+.dxtcLoadingPanel_TabBar td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxtcLoadingPanel_iOS td.dx + td.dx,
+.dxtcLoadingPanel_TabBar td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxtcLoadingPanel_iOS td.dx + td.dx,
+*[dir="rtl"] .dxtcLoadingPanel_TabBar td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+
+/* Tab Hyperlink*/
+.dxtcTab_iOS a,
+.dxtcTabWithTabPositionLeft_iOS a,
+.dxtcTabWithTabPositionBottom_iOS a,
+.dxtcTabWithTabPositionRight_iOS a,
+.dxtcActiveTab_iOS a,
+.dxtcActiveTabWithTabPositionBottom_iOS a,
+.dxtcActiveTabWithTabPositionLeft_iOS a,
+.dxtcActiveTabWithTabPositionRight_iOS a,
+.dxtcTabHover_iOS a,
+.dxtcTabHoverWithTabPositionBottom_iOS a,
+.dxtcTabHoverWithTabPositionLeft_iOS a,
+.dxtcTabHoverWithTabPositionRight_iOS a
+{
+	text-decoration: none;
+	color: #7C7C7C;
+}
+.dxtcActiveTab_iOS,
+.dxtcActiveTabWithTabPositionBottom_iOS,
+.dxtcActiveTabWithTabPositionLeft_iOS,
+.dxtcActiveTabWithTabPositionRight_iOS
+{
+	text-align: center;
+	padding:0 12px;
+}
+.dxtcActiveTabWithTabPositionLeft_iOS,
+.dxtcActiveTabWithTabPositionRight_iOS
+{
+	padding: 2px 13px 5px 12px;
+}
+/* Active Tab */
+.dxtcActiveTab_iOS td.dxtc,
+.dxtcActiveTabWithTabPositionBottom_iOS td.dxtc,
+.dxtcActiveTabWithTabPositionLeft_iOS td.dxtc,
+.dxtcActiveTabWithTabPositionRight_iOS td.dxtc
+{
+	white-space: nowrap;
+	border-width: 0px!important;
+	padding: 0px!important;
+	color:White;
+}
+.dxtcActiveTabHover_iOS
+{
+}
+/* Tab */
+.dxtcTab_iOS
+{
+	border-bottom-style: none;
+}
+.dxtcActiveTab_iOS,
+.dxtcActiveTabWithTabPositionBottom_iOS,
+.dxtcActiveTabWithTabPositionLeft_iOS,
+.dxtcActiveTabWithTabPositionRight_iOS
+{
+	background-image: url('tcATabBack.png')!important;
+	background-color: #4183E8!important;
+}
+
+.dxtcTab_iOS > TABLE,
+.dxtcTabWithTabPositionLeft_iOS > TABLE, 
+.dxtcTabWithTabPositionBottom_iOS > TABLE,
+.dxtcTabWithTabPositionRight_iOS > TABLE 
+{
+    margin-top: 1px;
+}
+
+.dxtcTab_iOS,
+.dxtcTabWithTabPositionLeft_iOS, 
+.dxtcTabWithTabPositionBottom_iOS,
+.dxtcTabWithTabPositionRight_iOS
+{
+	padding: 0 12px;
+	text-align: center;
+	text-shadow: 0 1px 0px white;
+}
+.dxtcTab_iOS td.dxtc,
+.dxtcTabWithTabPositionBottom_iOS td.dxtc, 
+.dxtcTabWithTabPositionLeft_iOS td.dxtc,
+.dxtcTabWithTabPositionRight_iOS td.dxtc
+{
+	white-space: nowrap;
+	background: transparent none!important;
+	border-width: 0px!important;
+	padding: 0px!important;
+}
+.dxtcTabWithTabPositionBottom_iOS
+{
+}
+.dxtcTabWithTabPositionLeft_iOS
+{
+}
+.dxtcTabWithTabPositionRight_iOS
+{
+}
+.dxtcLeftIndentCell_iOS,
+.dxtcRightIndentCell_iOS,
+.dxtcRightAlignCell_iOS,
+.dxtcLeftAlignCell_iOS
+{
+	border:none!important;
+}
+/* Hover */
+.dxtcTabHover,
+.dxtcTabHoverWithTabPositionBottom,
+.dxtcTabHoverWithTabPositionLeft,
+.dxtcTabHoverWithTabPositionRight
+{
+}
+.dxtcPageContent,
+.dxtcPageContentWithTabPositionBottom, 
+.dxtcPageContentWithTabPositionLeft,
+.dxtcPageContentWithTabPositionRight,
+.dxtcPageContentWithoutTabs
+{
+}
+.dxtcContent,
+.dxtcContentWithTabPositionBottom,
+.dxtcContentWithTabPositionLeft,
+.dxtcContentWithTabPositionRight
+{
+}
+.dxtcControl td.dxtcTabsCell,
+.dxtcControl td.dxtcTabsCellWithTabPositionBottom,
+.dxtcControl td.dxtcTabsCellWithTabPositionLeft,
+.dxtcControl td.dxtcTabsCellWithTabPositionRight 
+{
+}
+/* Scrolling */
+.dxtcScrollButtonCell_iOS
+{
+	border-style: none;
+	width: 1px;
+	vertical-align: top;
+}
+.dxtcTabsCellWithTabPositionBottom_iOS .dxtcScrollButtonCell_iOS
+{
+	vertical-align: bottom;
+}
+.dxtcScrollButtonSeparator_iOS,
+.dxtcScrollButtonSeparator_iOS div 
+{
+	display:none;
+}
+.dxtcScrollButtonIndent_iOS, 
+.dxtcScrollButtonIndent_iOS div 
+{
+	height: 1px;
+	width: 5px;
+}
+.dxtcScrollButton_iOS 
+{
+	cursor: pointer;
+	text-align: center;
+}
+.dxtcScrollButtonHover_iOS
+{
+}
+.dxtcScrollButtonPressed_iOS
+{
+	background-color: #8D8D8D;
+}
+.dxtcScrollButtonDisabled_iOS
+{
+	cursor: default;
+	border-color: #C3C3C3;
+}
+.dxWeb_tcScrollLeft_iOS
+{
+}
+/* Misc */
+.dxtcLeftAlignCell_iOS,
+.dxtcTabsCellWithTabPositionBottom_iOS .dxtcLeftAlignCell_iOS 
+{
+	text-align: left;
+}
+.dxtcRightAlignCell,
+.dxtcTabsCellWithTabPositionBottom_iOS .dxtcRightAlignCell_iOS
+{
+	text-align: right;
+}
+/* Disabled */
+.dxtcDisabled_iOS,
+.dxtcDisabled_iOS table
+{
+	color: #BBBBBB;
+}
+/* RTL */
+.dxtcControl_iOS[dir="rtl"] .dxtcActiveRow_iOS > tbody > tr > td:nth-child(-n+2)
+{
+	border-radius: 0 10px 10px 0;
+	border-right: 1px solid #B6B8BC;
+}
+.dxtcControl_iOS[dir="rtl"] div > .dxtcActiveRow_iOS > tbody > tr > td:nth-last-child(-n+3),
+.dxtcControl_iOS[dir="rtl"] .dxtcActiveRow_iOS > tbody > tr > td:nth-last-child(-n+2)
+{
+	border-radius: 10px 0 0 10px;
+	border-left: 1px solid #B6B8BC;
+}
+	
+/* -- ASPxTabControl Lite -- */
+.dxtcLite_iOS,
+.dxtcLite_TabBar
+{
+	float: left;
+	overflow: hidden;
+}
+.dxtcLite_iOS .dxtc-strip,
+.dxtcLite_iOS .dxtc-wrapper,
+.dxtcLite_TabBar .dxtc-strip,
+.dxtcLite_TabBar .dxtc-wrapper 
+{
+	list-style: none outside none;
+	float: left;
+	padding: 0;
+	margin: 0;
+	_overflow: hidden;
+}
+.dxtcLite_iOS .dxtc-tab,
+.dxtcLite_iOS .dxtc-activeTab,
+.dxtcLite_iOS .dxtc-leftIndent,
+.dxtcLite_iOS .dxtc-spacer,
+.dxtcLite_iOS .dxtc-rightIndent,
+.dxtcLite_iOS .dxtc-sbWrapper,
+.dxtcLite_iOS .dxtc-sbIndent,
+.dxtcLite_iOS .dxtc-sbSpacer,
+.dxtcLite_TabBar .dxtc-tab,
+.dxtcLite_TabBar .dxtc-activeTab,
+.dxtcLite_TabBar .dxtc-leftIndent,
+.dxtcLite_TabBar .dxtc-spacer,
+.dxtcLite_TabBar .dxtc-rightIndent,
+.dxtcLite_TabBar .dxtc-sbWrapper,
+.dxtcLite_TabBar .dxtc-sbIndent,
+.dxtcLite_TabBar .dxtc-sbSpacer
+{
+	display: block;
+	height: 29px;
+	margin: 0;
+}
+.dxtcLite_iOS .dxtc-lineBreak,
+.dxtcLite_TabBar .dxtc-lineBreak
+{
+	float: none;
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.dxtcLite_iOS .dxtc-tab,
+.dxtcLite_iOS .dxtc-activeTab,
+.dxtcLite_iOS.dxtc-noSpacing .dxtc-tab.dxtc-lead,
+.dxtcLite_iOS.dxtc-noSpacing .dxtc-activeTab.dxtc-lead,
+.dxtcLite_iOS.dxtc-noSpacing .dxtc-tab,
+.dxtcLite_iOS.dxtc-noSpacing .dxtc-activeTab
+{
+	box-shadow: 0 1px 0 white;
+}
+.dxtcLite_iOS.dxtc-noSpacing .dxtc-tab,
+.dxtcLite_iOS.dxtc-noSpacing .dxtc-activeTab,
+.dxtcLite_TabBar.dxtc-noSpacing .dxtc-tab,
+.dxtcLite_TabBar.dxtc-noSpacing .dxtc-activeTab
+{
+	border-left-style: none;
+}
+.dxtcLite_iOS .dxtc-tab,
+.dxtcLite_iOS .dxtc-activeTab,
+.dxtcLite_TabBar .dxtc-tab,
+.dxtcLite_TabBar .dxtc-activeTab
+{
+	background-color: #E0E0E0;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxtcLite_iOS .dxtc-tab
+{
+	background: #F1F2F4 url('tcTabBack.png') repeat-x top;
+	border-left: 1px solid rgba(162, 163, 165, 0.6);
+    border-right: 1px solid rgba(162, 163, 165, 0.6);
+}
+.dxtcLite_iOS .dxtc-activeTab
+{
+	background-image: url('tcATabBack.png')!important;
+	border-left: 1px solid rgba(23, 63, 131, 0.5) !important;
+    border-right: 1px solid rgba(23, 63, 131, 0.5) !important;
+}
+.dxtcLite_iOS .dxtc-spacer
+{
+	display:none;
+}
+.dxtcLite_iOS .dxtc-lead
+{
+	border-radius:10px 0px 0px 10px;
+	border-left: 1px solid #B6B8BC;
+}
+.dxtcLite_iOS .dxtc-strip>li:nth-last-child(3),
+.dxtcLite_iOS .dxtc-strip>li:nth-last-child(2)
+{
+	border-radius:0px 10px 10px 0px;
+	border-right: 1px solid #B6B8BC;
+}
+.dxtcLite_iOS .dxtc-spacer
+{
+}
+.dxtcLite_iOS .dxtc-spacer:last-of-type
+{
+	background:none!important;
+}
+.dxtcLite_iOS .dxtc-activeTab,
+.dxtcLite_TabBar .dxtc-activeTab
+{
+	color: white;
+}
+.dxtcLite_iOS .dxtc-tab a,
+.dxtcLite_TabBar .dxtc-tab a 
+{
+	text-decoration: none;
+	color: #747474;
+}
+.dxtcLite_iOS .dxtc-tab a
+{
+	color: #7C7C7C;
+	text-shadow: 0 1px 0px #FFFFFF;
+}
+.dxtcLite_iOS .dxtc-tabHover,
+.dxtcLite_TabBar .dxtc-tabHover
+{
+	background-color: #F2F2F2;
+}
+.dxtcLite_iOS .dxtc-leftIndent,
+.dxtcLite_iOS .dxtc-spacer,
+.dxtcLite_iOS .dxtc-rightIndent,
+.dxtcLite_iOS .dxtc-sbWrapper,
+.dxtcLite_iOS .dxtc-sbIndent,
+.dxtcLite_iOS .dxtc-sbSpacer,
+.dxtcLite_TabBar .dxtc-leftIndent,
+.dxtcLite_TabBar .dxtc-spacer,
+.dxtcLite_TabBar .dxtc-rightIndent,
+.dxtcLite_TabBar .dxtc-sbWrapper,
+.dxtcLite_TabBar .dxtc-sbIndent,
+.dxtcLite_TabBar .dxtc-sbSpacer
+{
+	float: left;
+	overflow: hidden;
+	_border-top-color: #000001;
+	_zoom: 1;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color=#000001);
+}
+.dxtcLite_iOS .dxtc-spacer,
+.dxtcLite_TabBar .dxtc-spacer
+{
+	width: 1px;
+}
+.dxtcLite_iOS .dxtc-leftIndent,
+.dxtcLite_iOS .dxtc-rightIndent,
+.dxtcLite_TabBar .dxtc-leftIndent,
+.dxtcLite_TabBar .dxtc-rightIndent
+{
+	display:none;
+}
+.dxtcLite_iOS .dxtc-link,
+.dxtcLite_TabBar .dxtc-link
+{
+	padding: 10px 12px;
+	display: block;
+	font-size: 0;
+	text-decoration: none;
+	_float: left;
+}
+.dxtcLite_TabBar .dxtc-link
+{
+	padding: 4px 12px 4px;
+}
+.dxtcLite_TabBar .dxtc-link a
+{
+}
+.dxtcLite_TabBar .dxtc-link .dxtc-text
+{
+	height: 28px;
+	display:block;
+	padding-top:12px;
+}
+.dxtcLite_TabBar .dxtc-activeTab .dxtc-link b:first-child
+{
+	background-color:#3A3A3A;
+	border-radius:5px;
+	opacity: 0.7;
+}
+
+.dxtcLite_iOS .dxtc-text,
+.dxtcLite_iOS .dxtc-leftIndent,
+.dxtcLite_iOS .dxtc-rightIndent,
+.dxtcLite_TabBar .dxtc-text,
+.dxtcLite_TabBar .dxtc-leftIndent,
+.dxtcLite_TabBar .dxtc-rightIndent
+{
+	font-size: 18px;
+	font-family: HelveticaNeue,Helvetica,Verdana,sans-serif;
+	font-weight: bold;
+	display: block;
+}
+.dxtcLite_iOS .dxtc-img,
+.dxtcLite_TabBar .dxtc-img
+{
+	border-style: none;
+	margin: 0 3px -4px 0;
+	width: 16px;
+	height: 16px;
+} 
+.dxtcLite_iOS.dxtc-rtl .dxtc-img,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-img
+{
+	margin: 0 0 -4px 3px;
+}
+.dxtcLite_iOS .dxtc-content,
+.dxtcLite_TabBar .dxtc-content 
+{
+	font: 12px Tahoma;
+	color: black;
+	float: left;
+	clear: left;
+	overflow: auto;
+}
+.dxtcLite_iOS.dxtc-top .dxtc-content,
+.dxtcLite_TabBar.dxtc-top .dxtc-content
+{
+	border-top-style: none!important;
+}
+/* Rtl */
+.dxtcLite_iOS.dxtc-rtl,
+.dxtcLite_iOS.dxtc-rtl .dxtc-content,
+.dxtcLite_iOS.dxtc-rtl .dxtc-strip,
+.dxtcLite_iOS.dxtc-rtl .dxtc-wrapper,
+.dxtcLite_iOS.dxtc-rtl .dxtc-leftIndent,
+.dxtcLite_iOS.dxtc-rtl .dxtc-spacer,
+.dxtcLite_iOS.dxtc-rtl .dxtc-rightIndent,
+.dxtcLite_iOS.dxtc-rtl .dxtc-sbWrapper,
+.dxtcLite_iOS.dxtc-rtl .dxtc-sbIndent,
+.dxtcLite_iOS.dxtc-rtl .dxtc-sbSpacer,
+.dxtcLite_iOS.dxtc-rtl .dxtc-tab,
+.dxtcLite_iOS.dxtc-rtl .dxtc-activeTab,
+.dxtcLite_TabBar.dxtc-rtl,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-content,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-strip,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-wrapper,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-leftIndent,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-spacer,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-rightIndent,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-sbWrapper,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-sbIndent,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-sbSpacer,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-tab,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-activeTab
+{
+	float: right;
+}
+.dxtc-top.dxtc-rtl .dxtc-content,
+.dxtc-bottom.dxtc-rtl .dxtc-strip,
+.dxtc-bottom.dxtc-rtl .dxtc-wrapper
+{
+	clear: right!important;
+}
+.dxtc-left.dxtc-rtl .dxtc-strip 
+{
+	float: left;
+}
+.dxtcLite_iOS.dxtc-rtl .dxtc-content,
+.dxtcLite_iOS.dxtc-rtl .dxtc-strip,
+.dxtcLite_iOS.dxtc-rtl .dxtc-wrapper,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-content,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-strip,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-wrapper
+{
+	*float: left;
+}
+.dxtcLite_iOS.dxtc-rtl .dxtc-content,
+.dxtcLite_TabBar.dxtc-rtl .dxtc-content
+{
+	*clear: left!important;
+}
+.dxtcLite_iOS.dxtc-rtl .dxtc-lead
+{
+	border-radius:0px 10px 10px 0px;
+	border-right: 1px solid #B6B8BC;
+}
+.dxtcLite_iOS.dxtc-rtl .dxtc-strip>li:nth-last-child(3),
+.dxtcLite_iOS.dxtc-rtl .dxtc-strip>li:nth-last-child(2)
+{
+	border-radius:10px 0px 0px 10px;
+	border-left: 1px solid #B6B8BC;
+}
+/* Scrolling */
+.dxtcLite_iOS .dxtc-sb,
+.dxtcLite_TabBar .dxtc-sb          
+{
+	cursor: pointer;
+	font-size: 0;
+}
+.dxtcLite_iOS.dxtc-bottom .dxtc-sb,
+.dxtcLite_TabBar.dxtc-bottom .dxtc-sb
+{
+}
+.dxtcLite_iOS .dxtc-sbHover,
+.dxtcLite_TabBar .dxtc-sbHover
+{
+}
+.dxtcLite_iOS .dxtc-sbPressed,
+.dxtcLite_TabBar .dxtc-sbPressed
+{
+}
+.dxtcLite_iOS .dxtc-sbDisabled,
+.dxtcLite_TabBar .dxtc-sbDisabled
+{
+	cursor: default;
+}
+.dxtcLite_iOS .dxtc-sb img,
+.dxtcLite_TabBar .dxtc-sb img 
+{
+	border: none;
+	border-style: none;
+}
+.dxtcLite_iOS .dxtc-sbIndent,
+.dxtcLite_TabBar .dxtc-sbIndent
+{
+	width: 5px;
+}
+.dxtcLite_iOS .dxtc-sbSpacer,
+.dxtcLite_TabBar .dxtc-sbSpacer
+{
+	width: 0px;
+}
+/* Multi-row */
+.dxtcLite_TabBar .dxtc-n
+{
+	_display: inline;
+}
+.dxtcLiteDisabled_iOS,
+.dxtcLiteDisabled_iOS .dxtc-text,
+.dxtcLiteDisabled_iOS .dxtc-activeTab .dxtc-text,
+.dxtcLiteDisabled_iOS .dxtc-content
+{
+	cursor: default;
+}
+.dxtcLiteDisabled_iOS .dxtc-text,
+.dxtcLiteDisabled_iOS .dxtc-content
+{
+	color: #BBBBBB;
+}
+.dxtcLiteDisabled_iOS .dxtc-activeTab .dxtc-text
+{
+	color: White;
+}
+/* bottom  */
+.dxtcLite_TabBar.dxtc-bottom .dxtc-strip,
+.dxtcLite_TabBar.dxtc-bottom .dxtc-wrapper
+{
+	clear: left;
+	*float: none;
+}
+/* left */
+.dxtcLite_TabBar.dxtc-left .dxtc-tab,
+.dxtcLite_TabBar.dxtc-left .dxtc-activeTab,
+.dxtcLite_TabBar.dxtc-left .dxtc-leftIndent,
+.dxtcLite_TabBar.dxtc-left .dxtc-spacer,
+.dxtcLite_TabBar.dxtc-left .dxtc-rightIndent
+{
+	float: none;
+	*float: left;
+	clear: none;
+	*clear: both;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_TabBar.dxtc-left .dxtc-activeTab,
+.dxtc-left.dxtc-noSpacing .dxtc-tab,
+.dxtc-left.dxtc-noSpacing .dxtc-activeTab,
+.dxtc-left.dxtc-noSpacing .dxtc-tab.dxtc-lead,
+.dxtc-left.dxtc-noSpacing .dxtc-activeTab.dxtc-lead
+{
+	border: 1px solid #A8A8A8;
+}
+.dxtc-left.dxtc-noSpacing .dxtc-tab,
+.dxtc-left.dxtc-noSpacing .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_TabBar.dxtc-left .dxtc-activeTab
+{
+	border-right: 1px solid white;
+	background-color: white;
+}
+.dxtcLite_TabBar.dxtc-left .dxtc-leftIndent,
+.dxtcLite_TabBar.dxtc-left .dxtc-spacer,
+.dxtcLite_TabBar.dxtc-left .dxtc-rightIndent
+{
+	border: none;
+	border-right: 1px solid #A8A8A8;
+	border-left: 1px solid transparent;
+	width: auto;
+	_border-left-color: #000001;
+	_zoom: 1;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color=#000001);
+}
+.dxtcLite_TabBar.dxtc-left .dxtc-leftIndent,
+.dxtcLite_TabBar.dxtc-left .dxtc-rightIndent
+{
+	height: 5px;
+}
+.dxtcLite_TabBar.dxtc-left .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_TabBar.dxtc-left .dxtc-content
+{
+	border-top: 1px solid #A8A8A8;
+	border-right: 1px solid #A8A8A8;
+	border-bottom: 1px solid #A8A8A8;
+	border-left-color: #A8A8A8;
+	border-left-width: 1px;
+	border-left-style: none!important;
+	float: left;
+	clear: none;
+}
+/* right */
+.dxtcLite_TabBar.dxtc-right .dxtc-tab,
+.dxtcLite_TabBar.dxtc-right .dxtc-activeTab,
+.dxtcLite_TabBar.dxtc-right .dxtc-leftIndent,
+.dxtcLite_TabBar.dxtc-right .dxtc-spacer,
+.dxtcLite_TabBar.dxtc-right .dxtc-rightIndent
+{
+	float: none;
+	*float: left;
+	clear: none;
+	*clear: both;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_TabBar.dxtc-right .dxtc-activeTab,
+.dxtc-right.dxtc-noSpacing .dxtc-tab,
+.dxtc-right.dxtc-noSpacing .dxtc-activeTab,
+.dxtc-right.dxtc-noSpacing .dxtc-tab.dxtc-lead,
+.dxtc-right.dxtc-noSpacing .dxtc-activeTab.dxtc-lead
+{
+	border: 1px solid #A8A8A8;
+}
+.dxtc-right.dxtc-noSpacing .dxtc-tab,
+.dxtc-right.dxtc-noSpacing .dxtc-activeTab
+{
+	border-top-style: none;
+}
+.dxtcLite_TabBar.dxtc-right .dxtc-activeTab
+{
+	border-left: 1px solid white;
+	background-color: white;
+}
+.dxtcLite_TabBar.dxtc-right .dxtc-leftIndent,
+.dxtcLite_TabBar.dxtc-right .dxtc-spacer,
+.dxtcLite_TabBar.dxtc-right .dxtc-rightIndent
+{
+	border: none;
+	border-left: 1px solid #A8A8A8;
+	border-right: 1px solid transparent;
+	_border-right-color: #000001;
+	_zoom: 1;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color=#000001);
+}
+.dxtcLite_TabBar.dxtc-right .dxtc-leftIndent,
+.dxtcLite_TabBar.dxtc-right .dxtc-rightIndent
+{
+	height: 5px;
+}
+.dxtcLite_TabBar.dxtc-right .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_TabBar.dxtc-right .dxtc-content
+{
+	border-top: 1px solid #A8A8A8;
+	border-right-color: #A8A8A8;
+	border-bottom: 1px solid #A8A8A8;
+	border-left: 1px solid #A8A8A8;
+	border-right-width: 1px;
+	border-right-style: none!important;
+	float: left;
+	clear: none;
+}
+/* Services rules */
+.dxtcLite_TabBar.dxtc-noTabs .dxtc-content
+{
+	border: 1px solid #A8A8A8!important;
+}
+.dxtcLite_TabBar .dxtc-strip
+{
+    background-image: url('TabBarBack.png');
+    background-repeat: repeat-x;
+}
+.dxtcLite_TabBar .dxtc-tab, 
+.dxtcLite_TabBar .dxtc-activeTab
+{
+    border: none !important;
+    background-color: transparent !important;
+}
+.iOSBottomTabBar .dxtc-link
+{
+    padding: 4px 10px 3px !important;
+}
+.dxtcLite_TabBar.dxtc-bottom .dxtc-leftIndent, 
+.dxtcLite_TabBar.dxtc-bottom .dxtc-spacer, 
+.dxtcLite_TabBar.dxtc-bottom .dxtc-rightIndent, 
+.dxtcLite_TabBar.dxtc-bottom .dxtc-sbWrapper, 
+.dxtcLite_TabBar.dxtc-bottom .dxtc-sbIndent, 
+.dxtcLite_TabBar.dxtc-bottom .dxtc-sbSpacer
+{
+    border: none !important;
+}
+
+/* -- ASPxTitleIndex -- */
+.dxtiControl_iOS 
+{
+	font: bold 13px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	border-style: none;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+.dxtiControl_iOS a
+{
+	color: #0160E7;
+	text-decoration: none;
+}
+.dxtiLoadingPanel_iOS
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	text-shadow: 0 -1px rgba(255, 255, 255, 0.5);
+	border: 1px solid #A6A6A6;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxtiLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxtiLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxtiLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxtiLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxtiLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxtiLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxtiLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxtiLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxtiItem_iOS
+{
+	color: #0160E7;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtiGroupHeader_iOS,
+.dxtiGroupHeaderCategorized_iOS
+{
+	text-decoration: none;
+	white-space: nowrap;
+}
+/* - GroupHeaderText - */
+.dxtiGroupHeaderText_iOS,
+.dxtiGroupHeaderTextCategorized_iOS
+{
+	font-size: 18px;
+	color: #7C7C7C;
+}
+.dxtiGroupHeaderTextCategorized_iOS
+{
+	padding: 0 25px;
+}
+/* - FilterBox - */
+.dxtiFilterBox_iOS
+{
+	color: #000;
+	padding: 22px 25px;	
+}
+.dxtiFilterBoxInfoText_iOS
+{
+}
+.dxtiFilterBoxEdit_iOS
+{
+	font-size: 13px;
+	padding: 6px 6px 6px 26px;
+	font-weight: bold;
+	width: 140px;
+	background: white url('Filter.png') no-repeat;
+	background-position: 8px 8px;
+	border-top: 1px solid #616262;
+    border-left: 1px solid  #919293;
+    border-right: 1px solid #919293;
+    border-bottom: 1px solid #B2B3B4;
+    border-radius: 14px;
+    box-shadow: 0 1px 1px #A3A3A3 inset, 0 1px rgba(255, 255, 255, 0.25);
+    -webkit-box-shadow: 0 1px 1px #A3A3A3 inset, 0 1px rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: 0 1px 1px #A3A3A3 inset, 0 1px rgba(255, 255, 255, 0.25);
+}
+/* - IndexPanel - */
+.dxtiIndexPanel_iOS
+{
+	background: #CACACA url('tiIPBack.png') repeat-x left top;
+	height: 36px;
+	border: 1px solid #B3B5B9;
+	border-radius: 19px;
+	padding: 0 19px;
+	text-decoration: none;
+	white-space: nowrap;	
+	box-shadow: 0 1px rgba(255, 255, 255, 0.5);
+	-webkit-box-shadow: 0 1px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+.dxtiIndexPanel_iOS > table td
+{
+	height: 36px;
+	display: block;
+}
+.dxtiIndexPanelItem_iOS
+{
+	border: 1px solid Transparent;
+}
+.dxtiIndexPanelItem_iOS,
+.dxtiCurrentIndexPanelItem_iOS,
+.dxtiIndexPanelItem_iOS a
+{
+	color: #7C7C7C;
+	text-decoration: none;
+}
+.dxtiIndexPanelItem_iOS,
+.dxtiCurrentIndexPanelItem_iOS
+{
+	display: inline-block !important;
+	padding: 7px 6px 0;
+	height: 29px;
+	margin-top: -1px;
+}
+.dxtiCurrentIndexPanelItem_iOS
+{
+	color: #FFF;
+	background: #4B8CED url('tiCIBack.png') repeat-x left top;
+	border-top: 1px solid #184186;
+	border-bottom: 1px solid #5284CC;
+	border-right: 1px solid #2D5FAD;
+	border-right: 1px solid rgba(6, 32, 76, 0.25);
+	border-left: 1px solid #2D5FAD;
+	border-left: 1px solid rgba(6, 32, 76, 0.25);
+	
+	-moz-box-shadow: 0 2px 4px rgba(3, 30, 77, 0.5) inset;
+	box-shadow: 0 2px 4px rgba(3, 30, 77, 0.5) inset;
+	-webkit-box-shadow: 0 2px 4px rgba(3, 30, 77, 0.5) inset;
+	
+	background-clip: border-box;
+	-webkit-background-clip: border-box;
+	-moz-background-clip: border-box;
+	text-shadow: none;
+}
+/* - BackToTop - */
+.dxtiBackToTop_iOS,
+.dxtiBackToTopRtl_iOS
+{
+	padding: 7px 4px 4px;
+	background: url('tiBTTSpacingBack.png') repeat-x left top;
+}
+/* Disabled */
+.dxtiDisabled_iOS
+{
+	color: #bbb;
+	cursor: default;
+}
+
+/* -- ASPxUploadControl -- */
+.dxucControl_iOS,
+.dxucEditArea_iOS
+{
+	font: bold 13px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: #303030;
+	text-shadow: 0 1px 0px #ECECEC;
+}
+.dxucControl_iOS .dxucInputs_iOS
+{
+	border-collapse: separate!important;
+}
+.dxucTextBox_iOS
+{
+	background-color: white;
+	border: 1px solid #AFB1B6 !important;
+	border-radius: 5px;
+	padding: 3px 8px 2px;
+}
+.dxucTextBox_iOS.dxCB
+{
+    display: none;
+}
+
+.dxucTextBox_iOS .dxucEditArea_iOS
+{
+	margin: 0px;
+	background-color: white;
+	height: 24px;
+}
+.dxucNullText_iOS .dxucEditArea_iOS
+{
+    color: #979797;
+}
+.dxucErrorCell_iOS
+{
+	color: Red;
+	text-align: left;
+}
+.dxucButton_iOS,
+.dxucButton_iOS a
+{
+	color: #0D45B7;
+	white-space: nowrap;
+}
+.dxucBrowseButton_iOS
+{
+    display: none;
+}
+.dxucBrowseButton_iOS,
+.dxucBrowseButton_iOS a
+{
+	color: #000000;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.dxucControl_iOS .dxucBrowseButton_iOS a
+{
+	color: #000000;
+}
+.dxucControl_iOS a[unselectable="on"]
+{
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.dxucBrowseButton_iOS
+{
+	padding: 3px 8px 4px;
+	border: 1px solid;
+	border-color: #78797A #A3A3A4 #ACADAD #A3A3A4;
+	background: #E0DFDF url('ucButtonBack.gif') repeat-x top;
+}
+.dxucBrowseButtonPressed_iOS
+{
+	border: 1px solid #606060;
+	background: #F2F2F2 url('ucButtonPressedBack.gif') repeat-x top;
+}
+/* ProgressBar */
+.dxucProgressBar_iOS
+{
+	background: #EEE url('ucProgressBack.png') repeat-x left top;
+	border-right: 1px solid #989A9D;
+	border-radius: 4px;
+	box-shadow: -1px 0 1px rgba(0, 0, 0, 0.10) inset, 0 1px 0 rgba(255, 255, 255, 0.50);
+	overflow: hidden;
+}
+.dxucProgressBar_iOS,
+.dxucProgressBar_iOS td.dx
+{
+	color: #FFFFFF;
+    font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+    text-shadow: -1px -1px 2px #3A79DD, 1px -1px 2px #3A79DD, -1px 1px 2px #3A79DD, 1px 1px 2px #3A79DD;
+}
+.dxucProgressBar_iOS .dxucPBMainCell,
+.dxucProgressBar_iOS td.dx
+{
+	padding: 0;
+}
+.dxucProgressBarIndicator_iOS 
+{
+	background: #4C8CEC url('ucProgressIndicatorBack.png') repeat-x left top;
+	border-left: 1px solid #376EC3;
+	border-right: 1px solid #376EC3;
+	
+	border-left: 1px solid rgba(6, 32, 76, 0.27);
+	border-right: 1px solid rgba(6, 32, 76, 0.27);
+	box-shadow: 1px 0 1px rgba(0, 0, 0, 0.10);
+}
+
+/* Silverlight Plugin Link */
+.dxucSilverlightPluginLinkPanel_iOS {
+	font: 9px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: #7d7d7d;
+	text-align: left;
+}
+.dxucSilverlightPluginLinkPanel_iOS td {
+	padding: 0px 3px;
+	vertical-align: middle;
+}
+.dxucSilverlightPluginLinkPanel_iOS a {
+	color: #0D45B7;
+}
+/* Disabled */
+.dxucDisabled_iOS,
+.dxucDisabled_iOS a
+{
+	color: #ACACAC;
+	cursor: default;
+}
+.dxucTextBoxDisabled_iOS
+{
+	border-color: #C3C3C3;
+}
+.dxucButtonDisabled_iOS,
+.dxucButtonDisabled_iOS a
+{
+	text-decoration: none;
+}
+.dxucBrowseButtonDisabled_iOS
+{
+	border-color: #C3C3C3;
+}
+.dxucControl_iOS .dxucBrowseButtonDisabled_iOS a
+{
+    color: #808080;
+}
+
+
+/* -- ASPxSplitter -- */
+.dxsplControl_iOS
+{
+}
+.dxsplControl_iOS,
+.dxsplPane_iOS
+{
+	border: 0px solid #AFB1B6;
+}
+.dxsplPane_iOS,
+.dxsplPane_iOS > div
+{
+	border-width: 0;
+	overflow: hidden;
+}
+.dxsplPaneCollapsed_iOS
+{
+	border-width: 0;
+}
+.dxsplVSeparatorHover_iOS
+{
+	cursor: w-resize;
+}
+.dxsplHSeparatorHover_iOS
+{
+	cursor: n-resize;
+}
+.dxsplVSeparatorCollapsed_iOS,
+.dxsplHSeparatorCollapsed_iOS
+{
+	border-width: 0;
+	cursor: default!important;
+}
+.dxsplVSeparatorButton_iOS
+{
+	cursor: pointer;
+	padding: 24px 0;
+}
+.dxsplHSeparatorButton_iOS
+{
+	cursor: pointer;
+	padding: 0 28px;
+}
+.dxsplDisabled_iOS .dxsplVSeparatorButton_iOS,
+.dxsplDisabled_iOS .dxsplHSeparatorButton_iOS
+{
+	cursor: default;
+}
+.dxsplResizingPointer_iOS
+{
+	background: url('splResizingPointer.gif') repeat;
+	font-size: 0px;
+	line-height: 0px;
+}
+.dxsplLCC
+{
+	padding: 0px;
+	border-radius: 0px;
+}
+
+/* -- ASPxTreeView -- */
+.dxtvControl_iOS
+{
+    color: #303030;
+    font: bold 16px HelveticaNeue,Helvetica,Verdana,sans-serif;
+    float: left;
+}
+.dxtvControl_iOS li
+{
+    overflow-y: hidden;
+}
+.dxtvControl_iOS ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+.dxtvControl_iOS a
+{
+    color: #1b3f91;
+    text-decoration: none;
+}
+.dxtvControl_iOS .dxtv-ln
+{
+    vertical-align: top;
+}
+.dxtvControl_iOS .dxtv-nd
+{
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding: 1px 9px;
+    margin: 6px 1px 6px 0;
+    cursor: pointer;
+    outline: 0 none;
+}
+.dxtvControl_iOS .dxtv-elbNoLn, .dxtvControl_iOS .dxtv-elb
+{
+    width: 36px;
+    height: 21px;
+    vertical-align: top;
+    float: left;
+}
+.dxtvControl_iOS .dxtv-btn
+{
+    margin: 16px 0 0 15px;
+    cursor: pointer;
+}
+.dxtvControl_iOS .dxtv-subnd
+{
+    margin: 0 0 0 48px;
+}
+.dxtvControl_iOS .dxtv-ndImg
+{
+    padding: 1px 8px;
+    float: left;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.dxtvControl_iOS .dxtv-ndTxt
+{
+    padding: 4px;
+    float: left;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.dxtvControl_iOS .dxtv-ndChk
+{
+    padding: 0;
+    float: left;
+    vertical-align: middle;
+    cursor: default;
+    margin: 2px 14px 2px 0;
+}
+.dxtvControl_iOS .dxtv-ndTmpl
+{
+    float: left;
+    white-space: nowrap;
+}
+
+.dxtvControl_iOS .dxtv-ndSel
+{
+    background-color: #1879f2;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    cursor: default;
+}
+
+.dxtv-ndSel .dxtv-ndTxt, .dxtv-ndSel .dxtv-ndImg
+{
+    cursor: default;
+}
+
+.dxtvControl_iOS .dxtv-ndHov
+{
+    cursor: pointer;
+}
+
+.dxtv-ndHov .dxtv-ndTxt, .dxtv-ndHov .dxtv-ndImg
+{
+    cursor: pointer;
+}
+
+.dxtvControl_iOS .dxtv-clr, .dxtvControl_iOS .dxtv-clrIE7
+{
+    clear: both;
+    font-size: 0;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    width: 0;
+}
+
+.dxtvControl_iOS .dxtv-clr
+{
+    line-height: 0;
+}
+
+.dxtvControl_iOS.dxtvRtl, .dxtvControl_iOS.dxtvRtl .dxtv-nd, .dxtvControl_iOS.dxtvRtl .dxtv-elbNoLn, .dxtvControl_iOS.dxtvRtl .dxtv-elb, .dxtvControl_iOS.dxtvRtl .dxtv-ndTxt, .dxtvControl_iOS.dxtvRtl .dxtv-ndImg, .dxtvControl_iOS.dxtvRtl .dxtv-ndChk, .dxtvControl_iOS.dxtvRtl .dxtv-ndTmpl
+{
+    float: right;
+}
+.dxtvControl_iOS.dxtvRtl .dxtv-nd
+{
+    padding: 1px 9px;
+    margin: 6px 0 6px 1px;
+}
+.dxtvControl_iOS.dxtvRtl .dxtv-elb, .dxtvControl_iOS.dxtvRtl .dxtv-ln
+{
+    background-position: right top;
+}
+.dxtvControl_iOS.dxtvRtl .dxtv-btn
+{
+    margin: 16px 15px 0 0;
+}
+.dxtvControl_iOS.dxtvRtl .dxtv-subnd
+{
+    margin: 0 48px 0 0;
+}
+.dxtvControl_iOS.dxtvRtl .dxtv-ndImg
+{
+    padding: 1px 8px;
+}
+.dxtvControl_iOS.dxtvRtl.OperaRtlFix .dxtv-btn
+{
+}
+
+.dxtvControl_iOS.dxtvRtl .dxtv-ndChk
+{
+    margin: 2px 0 2px 14px;
+}
+.dxtvControl_iOS.dxtvRtl.OperaRtlFix .dxtv-subnd
+{
+    overflow-x: hidden;
+}
+
+.dxtvDisabled_iOS, .dxtvControl_iOS .dxtvDisabled, .dxtvDisabled_iOS a, .dxtvDisabled_iOS .dxtv-ndTxt, .dxtvDisabled_iOS .dxtv-ndImg, .dxtvDisabled_iOS .dxtv-btn, .dxtvDisabled_iOS .dxtv-nd
+{
+    color: #A6A6A6;
+    cursor: default;
+}
+
+.dxtvLoadingPanelWithContent_iOS
+{
+    font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+    color: Black;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+    border-collapse: separate !important;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+    background-clip: content-box;
+    -webkit-background-clip: content-box;
+    -moz-background-clip: content-box;
+}
+.dxtvLoadingPanelWithContent_iOS td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 32px 29px;
+    background-color: #E2E5EA;
+}
+
+
+/* ASPxFileManager */
+.dxfmControl_iOS
+{
+	font: normal 12px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	outline: 0px;
+}
+.dxfmDisabled_iOS
+{
+	color: #ACACAC;
+}
+/* FileManager - Splitter */
+.dxfmControl_iOS .dxsplControl_iOS
+{
+	background-color: white;
+	border-radius: 5px 5px 0 0;
+	border-style: solid;	
+	border-width: 1px;
+	border-color: #B3B5B9;
+}
+.dxfmControl_iOS .dxsplPane_iOS
+{
+	border-width: 0px;
+	border-radius: 0;
+	box-shadow: none;
+}
+.dxfmControl_iOS .dxsplHSeparator_iOS
+{
+	background-color: #B3B5B9;
+}
+.dxfmControl_iOS .dxsplPane_iOS > div
+{
+	border-radius: 0;
+}
+.dxfmControl_iOS .dxsplLCC 
+{
+	outline-width: 0px;
+}
+
+.dxfmControl_iOS .dxsplP .dxsplVSeparator_iOS
+{
+	border-color: #AFB1B6;
+	border-style: solid;
+	border-width: 0 1px;
+	width: 20px!important;
+	background: White!important;
+}
+div.dxfmControl_iOS.dxfm-dst td.dxsplVSeparator_iOS > div.dxsplS
+{
+	margin: 0 auto!important;
+}
+
+.dxfmControl_iOS.dxfm-dst.dxfm-rtl .dxsplVSeparator
+{
+	background-position-x: left;
+}
+.dxfmControl_iOS.dxfm-tch .dxsplVSeparator
+{
+	border-width: 0 1px;
+	border-color: #E0E0E0;
+}
+.dxfmControl_iOS .dxsplHSeparator
+{
+	border-width: 0px;
+	background-color: #E0E0E0;
+}
+
+/* FileManager - TreeView */
+
+.dxfmControl_iOS .dxtvControl_iOS 
+{
+	margin-left: -5px;
+}
+.dxfmControl_iOS .dxtvControl_iOS .dxtv-nd .dxtv-ndTxt 
+{
+	padding-left: 1px;
+}
+.dxfmControl_iOS .dxtvControl_iOS .dxtv-nd 
+{
+	border: 1px solid transparent;
+	padding-left: 3px;
+	margin-bottom: 0px;
+}
+.dxfmControl_iOS .dxtvControl_iOS .dxfm-folderSI
+{
+	background-color: #B2B2B2;
+	color: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+	padding-left: 3px;
+}
+.dxfmControl_iOS .dxtvControl_iOS .dxtv-ndSel
+{
+	border: 1px solid transparent;
+}
+.dxfmControl_iOS .dxtvControl_iOS .dxtv-ndHov
+{
+	padding-left: 3px;
+}
+.dxfmControl_iOS .dxtvControl_iOS .dxtv-ndSel
+{
+	padding-left: 3px;
+}
+.dxfmControl_iOS .dxtvControl_iOS .dxtv-ndImg
+{
+	padding: 0px;
+	margin-right: 3px;
+	margin-top: -2px;
+}
+
+/* FileManager - File */
+
+.dxfmControl_iOS .dxfm-file 
+{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 5px;
+	margin: 5px;
+}
+.dxfmControl_iOS.dxfm-rtl .dxfm-file 
+{
+	float: right;
+}
+.dxfmDisabled .dxfm-file
+{
+	cursor: default;
+}
+.dxfmControl_iOS .dxfm-fileSI
+{
+	background-color: #B2B2B2;
+	color: White;
+	border-radius: 2px;
+}
+.dxfmControl_iOS .dxfm-fileSA
+{
+	background-color: #1879F2;
+	border-radius: 2px;
+}
+.dxfmControl_iOS .dxfm-fileH
+{
+	
+}
+.dxfmControl_iOS .dxfm-content
+{
+	overflow: hidden;
+	padding: 13px 4px 8px 2px;
+}
+.dxfmControl_iOS .dxfm-content div
+{
+	overflow: hidden;
+	width: 100%;
+	height: 18px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 14px;
+}
+.dxfmControl_iOS .dxfm-fileSA .dxfm-content div
+{
+	text-shadow: 0 -1px 0px #529BF5;
+	color: White;
+}
+.dxfmControl_iOS .dxfm-content .dxfm-highlight
+{
+	background-color: #CFCFCF;
+	background-repeat: repeat;
+	color: #333333;
+	font-weight: bold;
+}
+
+/* FileManager - Toolbar */
+
+.dxfmControl_iOS .dxfm-toolbar
+{
+	background-color: #F0F2F4;
+	border-radius: 5px 5px 0 0!important;
+}
+.dxfmControl_iOS .dxfm-toolbar.dxsplPane_iOS table.dxfm
+{
+	width: 100%;
+}
+.dxfmControl_iOS .dxfm-toolbar table.dxfm > tbody > tr > td:first-child
+{
+	padding-left: 7px;
+}
+.dxfmControl_iOS .dxfm-toolbar table.dxfm .dxfm-filter
+{
+	padding-right: 7px;
+	font: bold 12px HelveticaNeue,Helvetica,Verdana,sans-serif;
+    text-shadow: 0 -1px 0px #D3D4D6;
+}
+.dxfmControl_iOS .dxfm-toolbar.dxsplPane_iOS .dxfm-filter
+{
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+	padding-top: 7px;
+}
+
+.dxfmControl_iOS.dxfm-rtl .dxfm-toolbar.dxsplPane_iOS .dxfm-filter 
+{
+	text-align: left;
+}
+.dxfmControl_iOS .dxfm-toolbar.dxsplPane_iOS .dxfm-filter input
+{
+	width: 130px;
+	height: 26px;
+	font: 12px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: #385487;
+	padding: 0 10px 0 26px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ADADAE #C7C7C7 #D8D8D9 #C7C7C7;
+	border-radius: 14px;
+	box-shadow: 0 1px #E0E0E0 inset;
+	margin: 4px 4px 0px 3px;
+	background: white url('Filter.png') no-repeat 8px 7px;
+}
+.dxfmControl_iOS .dxfm-toolbar.dxsplPane_iOS .dxfm-path input
+{
+	width: 230px;
+	height: 26px;
+	font: 12px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	text-shadow: 0 -1px 0px #CDD4E1;
+	color: #385487;
+	padding: 0 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ADADAE #C7C7C7 #D8D8D9 #C7C7C7;
+	border-radius: 5px;
+	box-shadow: 0 1px #E0E0E0 inset;
+}
+
+/* FileManager - Toolbar - Light */
+
+.dxfmControl_iOS .dxfm-toolbar .dxsplLCC 
+{
+	height: 49px!important;
+	color: #7C7C7C;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmLite_iOS .dxm-main
+{
+	margin-top: 0px;
+	border-width: 0px;
+	background: transparent none;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmLite_iOS .dxmtb.dxm-horizontal .dxm-separator 
+{
+	display: none;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmLite_iOS .dxfm-path input
+{
+	margin: 1px 8px 0px 4px;
+}
+.dxfmControl_iOS.dxfm-rtl .dxfm-toolbar .dxmLite_iOS .dxfm-path input 
+{
+	margin: 1px 4px 0px 8px;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmLite_iOS .dxm-item
+{
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmLite_iOS .dxm-item.dxm-hovered
+{
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmLite_iOS .dxm-item .dxm-content 
+{
+	margin: 0;
+	border: 1px solid transparent;
+	padding: 13px 4px 4px 4px;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmLite_iOS .dxm-item .dxm-content  > img
+{
+}
+.dxmLite_iOS .dxm-horizontal .dxm-spacing
+{
+	width: 0px;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmLite_iOS .dxm-item.dxm-hovered .dxm-content 
+{
+	border-radius: 3px;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmLite_iOS,
+.dxfmControl_iOS .dxfm-toolbar .dxmLite_iOS ul.dx
+{
+	color: #7C7C7C;
+	font: bold 12px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	text-shadow: 0 1px 0px rgba(255, 255, 255, .5);
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmLite_iOS .dxfm-path 
+{
+	padding-left: 1px;
+	padding-top: 6px;
+}
+
+/* FileManager - Toolbar - Classic */
+
+.dxfmControl_iOS .dxfm-toolbar .dxmMenu
+{
+	border-width: 0px;
+	background: #F3F3F3 none;
+	padding-top: 1px;
+	padding-left: 3px;
+	display: inline-block;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmMenu .dxmMenuSeparator 
+{
+	padding: 0px 11px;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmMenu .dxmMenuItemSeparatorSpacing 
+{
+	width: 1px;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmMenu .dxmMenuItemSpacing 
+{
+	width: 0px;
+	display: block;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmMenu .dxmMenuItem.dxfm-path 
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 3px;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmMenu .dxmMenuItem
+{
+	padding-top: 1px;
+	padding-left: 3px;
+	background: transparent none;
+}
+.dxfmControl_iOS .dxfm-toolbar .dxmMenu .dxfm-path input
+{
+	margin: 0px 8px 0px 4px;
+}
+.dxfmControl_iOS.dxfm-rtl .dxfm-toolbar .dxmMenu .dxfm-path input
+{
+	margin: 0px 4px 0px 8px;
+}
+
+/* FileManager - UploadPanel */
+
+.dxfmControl_iOS .dxfm-uploadPanel
+{
+	background-color: #F0F2F4;
+	text-align: right;
+}
+.dxfmControl_iOS.dxfm-rtl .dxfm-uploadPanel
+{
+	text-align: left;
+}
+.dxfmControl_iOS .dxfm-uploadPanel.dxsplPane_iOS table.dxfm-uploadPanelTable
+{
+	margin-top: 20px;
+	margin-left: 19px;
+}
+.dxfmControl_iOS .dxfm-uploadPanel.dxsplPane_iOS table.dxfm-uploadPanelTable .dxucControl_iOS 
+{
+    width: 385px!important;
+	margin-top: 0px;
+	margin-right: 16px;
+}
+.dxfmControl_iOS.dxfm-rtl .dxfm-uploadPanel.dxsplPane_iOS table.dxfm-uploadPanelTable .dxucControl_iOS 
+{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.dxfmControl_iOS .dxfm-uploadPanel.dxsplPane_iOS table.dxfm-uploadPanelTable .dxucControl_iOS  .dxucProgressBar_iOS
+{
+    height: 39px!important;
+    margin: -3px 0px;
+}
+.dxfmControl_iOS .dxfm-uploadPanel.dxsplPane_iOS table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a 
+{
+    display: block;
+    width: 140px;
+    padding: 8px 0px 7px;
+    color: #303030;
+	font: bold 13px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	text-decoration: none;
+	text-shadow: 0 1px 0px White;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid;
+	border-top-color: #78797A;
+	border-left-color: #A0A1A2;
+	border-right-color: #A0A1A2;
+	border-bottom-color: #ACADAD;
+	border-radius: 5px;
+	background: #fbfbfb url('ucButtonBack.gif') repeat-x bottom;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+}
+.dxfmControl_iOS .dxfm-uploadPanel.dxsplPane_iOS table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a.dxfm-uploadDisable
+{
+	border-color: #78797A #9E9FA0 #ABACAD;
+	color: #BBBBBB;
+	text-decoration: none;
+	cursor: default;
+}
+
+.dxfmControl_iOS .dxfm-uploadPanel.dxsplPane_iOS .dxucTextBox_iOS {
+	padding: 3px 8px 2px;
+}
+.dxfmControl_iOS .dxfm-uploadPanel.dxsplPane_iOS .dxucBrowseButton_iOS {
+	padding: 2px 8px 3px;
+}
+.dxfmControl_iOS .dxfm-uploadPanel.dxsplPane_iOS .dxucSilverlightPluginLinkPanel_iOS {
+	margin-top: -8px;
+}
+
+/* FileManager - Create, Rename input */
+
+.dxfmControl_iOS .dxfm-cInput,
+.dxfmControl_iOS .dxfm-rInput
+{
+	border: 1px solid #9f9f9f;
+	border-radius: 5px;
+	padding: 1px;
+	font: bold 13px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	outline-width: 0px;
+	margin: 0px;
+}
+
+/* FileManager - LoadingPanel */
+
+.dxfmControl_iOS .dxfmLoadingPanel_iOS
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxfmControl_iOS .dxfmLoadingPanel_iOS td.dx {
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxfmControl_iOS .dxfmLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxfmControl_iOS .dxfmLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxfmControl_iOS .dxfmLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxfmControl_iOS .dxfmLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxfmControl_iOS .dxfmLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+.dxfmControl_iOS .dxfmLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxfmControl_iOS .dxfmLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+
+/* FileManager - Move PopupControl */
+table[id$='MovePopup_PW-1'] > tbody > tr > td:not(.dxpcControl_iOS)
+{
+	display: none;
+}
+.dxfmControl_iOS .dxpcContentPaddings_iOS 
+{
+	padding: 5px 0px 0px;
+	background-color: White;
+	border-radius: 0 0 7px 7px;
+}
+.dxfmControl_iOS .dxpcContent_iOS .dxfm-mpFoldersC 
+{
+	overflow: auto;
+	padding: 0px 0px 20px 5px;
+}
+.dxfmControl_iOS .dxpcContent_iOS .dxfm-mpButtonC
+{
+	margin-top: 20px;
+	background-color: #F3F3F3;
+	border-top: 1px solid #E0E0E0;
+	text-align: right;
+	padding: 10px 15px 10px 10px;
+	border-radius: 0 0 7px 7px;
+}
+.dxfmControl_iOS .dxpcContent_iOS .dxfm-mpButtonC a 
+{
+	margin-left: 12px;
+	color: #006EE9;
+	font-size: 18px;
+	font-weight: bold;
+    text-decoration: none;
+	border-bottom: 1px dashed #006EE9;
+}
+
+
+/* -- ASPxPager -- */
+/* -- DataView Pager --*/
+.dxdvControl_iOS .dxpButton_iOS 
+{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.dxdvControl_iOS .dxpControl_iOS 
+{
+    color: #4F5459;
+}
+.dxdvControl_iOS .dxpControl_iOS td.dxpCtrl 
+{
+    background-image: url('pagerBack.png');
+}
+.dxdvControl_iOS .dxpPageNumber_iOS,
+.dxdvControl_iOS .dxpSummary_iOS,
+.dxdvControl_iOS .dxpPageSizeItem_iOS
+{
+    color:White;
+}
+.dxdvControl_iOS .dxpPageNumber_iOS
+{
+	text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.5)!important;
+}
+.dxdvControl_iOS .dxpPageNumber_iOS a 
+{
+    display: inline-block;
+    padding-top: 1px;
+}
+
+.dxdvControl_iOS .dxpCurrentPageNumber_iOS
+{
+    border: 1px Solid #505153!important;
+    box-shadow: 0 1px 0 0 rgba(172, 176, 183, 0.3), inset 0 2px 2px 0 rgba(80, 81, 83, 0.3);    
+    background-color:rgba(0,0,0,0.10);
+}
+
+.dxpControl_iOS
+{
+	font-size: 14px;
+	font-family: HelveticaNeue,Helvetica,Verdana,sans-serif;	
+}
+.dxpControl_iOS td.dxpCtrl
+{
+	padding: 8px 2px 7px 2px;
+}
+.dxpControl_iOS a
+{
+	color: #7C7C7C;
+	text-decoration: none;
+}
+.dxpButton_iOS
+{
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+    padding-right: 5px;
+}
+.dxpDisabledButton_iOS
+{
+	color: #000000;
+	text-decoration: none;
+}
+.dxpCurrentPageNumber_iOS.dxpPageNumber_iOS 
+{
+    display: block;
+    height: 20px;
+    padding-top: 1px;
+    line-height: 20px;
+}
+.dxpPageNumber_iOS a 
+{
+    color: White;
+}
+
+.dxdvControl_iOS  .dxdvCtrl > TABLE > TBODY > TR:first-child > .dxdvPagerPanel_iOS 
+{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    overflow:hidden;
+}
+.dxdvControl_iOS  .dxdvCtrl > TABLE > TBODY > TR:last-child > .dxdvPagerPanel_iOS 
+{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow:hidden;
+}
+
+.dxpPageNumber_iOS
+{
+    color: #7C7C7C;
+	font-weight:bold;
+	border: 1px Solid Transparent;	
+	text-align: center;
+	vertical-align: middle;
+	padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 1px;
+}
+.dxpCurrentPageNumber_iOS
+{
+    color: White;
+	text-decoration: none;
+	white-space: nowrap;
+	font-weight: bold;
+	border-radius: 3px;
+	background-color: #999A9A;
+}
+.dxpPageSizeItem_iOS
+{
+    color: #7C7C7C;
+	font-weight: bold;
+    padding: 0 4px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.dxpPageSizeItem_iOS > table
+{
+    margin: -2px 0px;
+}
+.dxpPageSizeItem_iOS .dx
+{
+    padding-top: 1px;
+    white-space: nowrap;
+}
+.dxpComboBox_iOS
+{
+    background-color: White;
+    border-color: #616262 #919293 #B2B3B4;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 1px #A3A3A3 inset;
+    padding: 1px;
+}
+.dxpHoverComboBox_iOS
+{
+}
+.dxpPressedComboBox_iOS
+{
+}
+.dxpComboBox_iOS input
+{
+    color: #385487;
+    font-family: HelveticaNeue,Helvetica,Verdana,sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px 2px;
+    border-width: 0px;
+    background-color: transparent;
+    width: 40px;
+}
+.dxpDropDownButton_iOS
+{
+    cursor: pointer;
+    padding: 0px;
+}
+.dxpHoverDropDownButton_iOS
+{
+}
+.dxpPressedDropDownButton_iOS
+{
+}
+.dxpSummary_iOS
+{
+	color: #7C7C7C;
+	font-weight: bold;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px 4px;
+}
+.dxpSeparator_iOS
+{
+}
+/* Disabled */
+.dxpDisabled_iOS
+{
+	color: #BEBEBE;
+	cursor: default;
+}
+.dxpDisabled_iOS .dxpCurrentPageNumber_iOS 
+{
+    color: #F8F8F9;
+}
+
+
+.dxpDisabledComboBox_iOS
+{
+    border: 1px solid #A3C0E8;
+}
+.dxpDisabledComboBox_iOS input
+{
+    color: #acacac;
+}
+.dxpDisabledDropDownButton_iOS
+{
+    cursor: default;
+}
+
+/* -- ASPxPager Lite -- */
+.dxpLite_iOS
+{
+	font-size: 14px;
+	font-family: HelveticaNeue,Helvetica,Verdana,sans-serif;	
+	color: #C7DFFF;
+	padding: 8px 2px;
+	float: left;
+}
+
+.dxpLite_iOS .dxp-summary,
+.dxpLite_iOS .dxp-sep,
+.dxpLite_iOS .dxp-button,
+.dxpLite_iOS .dxp-pageSizeItem,
+.dxpLite_iOS .dxp-num,
+.dxpLite_iOS .dxp-current,
+.dxpLite_iOS .dxp-ellip
+{
+	display: block;
+	float: left;
+	margin-left: 4px;
+	font-weight: normal;
+}
+.dxpLite_iOS .dxp-lead
+{
+	margin-left: 0!important;
+}
+
+.dxpLite_iOS a
+{
+	color: #394EA2;
+}
+
+.dxpLite_iOS .dxp-button
+{
+	color: #3F66A0;
+	white-space: nowrap;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: underline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.dxpLite_iOS .dxp-button img
+{
+	border: none;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.dxpLite_iOS .dxp-wideButton
+{
+	padding: 0 5px;
+}
+.dxpLite_iOS .dxp-disabledButton
+{
+	text-decoration: none;
+	color: #acacac;
+	cursor: default;
+}
+
+.dxpLite_iOS .dxp-pageSizeItem
+{
+    color: #7C7C7C;
+    font-weight: bold;
+    padding: 0 4px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.dxpLite_iOS .dxp-pageSizeItem .dx
+{
+    display: block;
+    float: left;
+    margin-top: 2px;
+    white-space: nowrap;
+}
+.dxpLite_iOS .dxp-comboBox
+{
+    background-color: White;
+    border-color: #616262 #919293 #B2B3B4;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 1px #A3A3A3 inset;
+    display: block;
+    float: left;
+    margin: -2px 0px;
+    padding: 1px;
+}
+.dxpLite_iOS .dxp-comboBox input
+{
+    color: #385487;
+    font-family: HelveticaNeue,Helvetica,Verdana,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    background-color: transparent;
+    border-width: 0px;
+    padding: 0px;
+    margin: 3px 2px 0px;
+    width: 40px;
+}
+.dxpLite_iOS .dxp-hoverComboBox
+{
+}
+.dxpLite_iOS .dxp-pressedComboBox
+{
+}
+.dxpLite_iOS .dxp-dropDownButton
+{
+    font-size: 0px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    padding: 0px;
+}
+.dxpLite_iOS .dxp-hoverDropDownButton
+{
+}
+.dxpLite_iOS .dxp-pressedDropDownButton
+{
+}
+.dxpLite_iOS .dxp-dropDownButton img
+{
+    border: none;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.dxpLite_iOS .dxp-num
+{
+	color: #7C7C7C;
+	border: 1px Solid Transparent;
+	text-decoration: none;
+	font-weight:bold;
+	padding: 2px 17px;
+	cursor: pointer;
+}
+
+.dxpLite_iOS .dxp-current
+{
+	color: White;
+	background-color: #999A9A;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 2px 17px;
+	cursor: text;
+}
+
+.dxpLite_iOS .dxp-summary,
+.dxpLite_iOS .dxp-ellip
+{
+	color: #7C7C7C;
+	font-weight: bold;
+	white-space: nowrap;
+	padding: 2px 4px 1px;
+}
+
+.dxpLite_iOS .dxp-sep
+{
+	width: 1px;
+	height: 11px;
+	margin-top: 5px;
+}
+
+.dxpLiteDisabled_iOS,
+.dxpLiteDisabled_iOS a,
+.dxpLiteDisabled_iOS .dxp-summary,
+.dxpLiteDisabled_iOS .dxp-sep,
+.dxpLiteDisabled_iOS .dxp-button,
+.dxpLiteDisabled_iOS .dxp-num,
+.dxpLiteDisabled_iOS .dxp-ellip
+{
+	color: #BEBEBE;
+	cursor: default;
+}
+
+.dxpLiteDisabled_iOS .dxp-current 
+{
+    color: #F8F8F9;
+	cursor: default;
+}
+
+.dxpLite_iOS .dxp-disabledComboBox
+{
+    border: 1px solid #A3C0E8;
+}
+.dxpLite_iOS .dxp-disabledComboBox input
+{
+    color: #acacac;
+}
+.dxpLite_iOS .dxp-disabledDropDownButton
+{
+    cursor: default;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxfmControl_iOS,
+.dxnbGroupHeader_iOS,
+.dxnbGroupHeaderCollapsed_iOS,
+.dxnbGroupContent_iOS > TABLE > TBODY > TR,
+.dxtcTab_iOS,
+.dxtcActiveTab_iOS,
+.dxtv-nd,
+.dxpPageNumber_iOS,
+.dxpButton_iOS,
+.dxtcLite_iOS
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}

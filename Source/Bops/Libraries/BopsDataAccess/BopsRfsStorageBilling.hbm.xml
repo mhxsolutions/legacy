@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsStorageBilling, BopsDataAccess" table="[RFS Storage Billings]" lazy="false">
+    <id name="BillingId" column="[Billing Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="DateBilledThrough" column="[Date Billed Through]"/>
+    <property name="DateGenerated" column="[Date Generated]"/>
+    <property name="UserId" column="[User Id]"/>
+    <property name="TotalItemsProcessed" column="[Total Items Processed]"/>
+    <property name="TotalRevenue" column="[Total Revenue]"/>
+    <property name="DateInvoiced" column="[Date Invoiced]"/>
+  </class>
+</hibernate-mapping>

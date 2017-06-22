@@ -1,0 +1,7 @@
+# Flash Remoting MX for .NET  -  Configuration File
+# Each configuration property should begin on a new line using a key = value format.
+#
+SN=FRD100-10616-68223-24042
+IP=
+Log Level=Error
+Log File Size=1048576

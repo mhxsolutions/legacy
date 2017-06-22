@@ -1,0 +1,293 @@
+.dx-acc-r .dxPivotGrid_CTNAttribute:before,
+.dx-acc-r .dxPivotGrid_CTNCalculatedMeasure:before,
+.dx-acc-r .dxPivotGrid_CTNDimension:before,
+.dx-acc-r .dxPivotGrid_CTNFolderClosed:before,
+.dx-acc-r .dxPivotGrid_CTNFolderOpen:before,
+.dx-acc-r .dxPivotGrid_CTNHierarchy:before,
+.dx-acc-r .dxPivotGrid_CTNKpi:before,
+.dx-acc-r .dxPivotGrid_CTNMeasure:before,
+.dx-acc-r .dxPivotGrid_FLBottomPanelOnly1by4_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_FLBottomPanelOnly2by2_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_FLButton_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_FLColumnAreaHeaders_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_FLDataAreaHeaders_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_FLFieldList_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_FLFilterAreaHeaders_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_FLRowAreaHeaders_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_FLStackedDefault_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_FLStackedSideBySide_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_FLTopPanelOnly_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgCollapsedButton_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgCustomizationFormCloseButton_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgDataHeaders_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgDragArrowDown_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgDragArrowLeft_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgDragArrowRight_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgDragArrowUp_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgDragHideField_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgExpandedButton_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgFilterButton_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgFilterButtonActive_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgFilterResizer_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgGroupSeparator_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgPrefilterButton_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgSortByColumn_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgSortDownButton_BudwayDirectMarron:before,
+.dx-acc-r .dxPivotGrid_pgSortUpButton_BudwayDirectMarron:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxPivotGrid_CTNAttribute:before
+
+{
+    left: -77px;
+    top: -66px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNCalculatedMeasure:before
+
+{
+    left: -51px;
+    top: -103px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNDimension:before
+
+{
+    left: -68px;
+    top: -103px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNFolderClosed:before
+
+{
+    left: -34px;
+    top: -86px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNFolderOpen:before
+
+{
+    left: -17px;
+    top: -86px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNHierarchy:before
+
+{
+    left: 0px;
+    top: -103px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNKpi:before
+
+{
+    left: -51px;
+    top: -86px;
+
+}
+.dx-acc-r .dxPivotGrid_CTNMeasure:before
+
+{
+    left: -85px;
+    top: -86px;
+
+}
+.dx-acc-r .dxPivotGrid_FLBottomPanelOnly1by4_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_FLBottomPanelOnly2by2_BudwayDirectMarron:before
+
+{
+    left: -33px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_FLButton_BudwayDirectMarron:before
+
+{
+    left: -34px;
+    top: -103px;
+
+}
+.dx-acc-r .dxPivotGrid_FLColumnAreaHeaders_BudwayDirectMarron:before
+
+{
+    left: -68px;
+    top: -86px;
+
+}
+.dx-acc-r .dxPivotGrid_FLDataAreaHeaders_BudwayDirectMarron:before
+
+{
+    left: -60px;
+    top: -66px;
+
+}
+.dx-acc-r .dxPivotGrid_FLFieldList_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -86px;
+
+}
+.dx-acc-r .dxPivotGrid_FLFilterAreaHeaders_BudwayDirectMarron:before
+
+{
+    left: -17px;
+    top: -103px;
+
+}
+.dx-acc-r .dxPivotGrid_FLRowAreaHeaders_BudwayDirectMarron:before
+
+{
+    left: -85px;
+    top: -103px;
+
+}
+.dx-acc-r .dxPivotGrid_FLStackedDefault_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_FLStackedSideBySide_BudwayDirectMarron:before
+
+{
+    left: -33px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_FLTopPanelOnly_BudwayDirectMarron:before
+
+{
+    left: -66px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_pgCollapsedButton_BudwayDirectMarron:before
+
+{
+    left: -89px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_pgCustomizationFormCloseButton_BudwayDirectMarron:before
+
+{
+    left: -20px;
+    top: -66px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDataHeaders_BudwayDirectMarron:before
+
+{
+    left: -68px;
+    top: -120px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDragArrowDown_BudwayDirectMarron:before
+
+{
+    left: -77px;
+    top: -56px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDragArrowLeft_BudwayDirectMarron:before
+
+{
+    left: -81px;
+    top: -120px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDragArrowRight_BudwayDirectMarron:before
+
+{
+    left: -94px;
+    top: -66px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDragArrowUp_BudwayDirectMarron:before
+
+{
+    left: -91px;
+    top: -120px;
+
+}
+.dx-acc-r .dxPivotGrid_pgDragHideField_BudwayDirectMarron:before
+
+{
+    left: -66px;
+    top: -33px;
+
+}
+.dx-acc-r .dxPivotGrid_pgExpandedButton_BudwayDirectMarron:before
+
+{
+    left: -89px;
+    top: -50px;
+
+}
+.dx-acc-r .dxPivotGrid_pgFilterButton_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -66px;
+
+}
+.dx-acc-r .dxPivotGrid_pgFilterButtonActive_BudwayDirectMarron:before
+
+{
+    left: -40px;
+    top: -66px;
+
+}
+.dx-acc-r .dxPivotGrid_pgFilterResizer_BudwayDirectMarron:before
+
+{
+    left: -40px;
+    top: -120px;
+
+}
+.dx-acc-r .dxPivotGrid_pgGroupSeparator_BudwayDirectMarron:before
+
+{
+    left: -99px;
+    top: 0px;
+
+}
+.dx-acc-r .dxPivotGrid_pgPrefilterButton_BudwayDirectMarron:before
+
+{
+    left: -54px;
+    top: -120px;
+
+}
+.dx-acc-r .dxPivotGrid_pgSortByColumn_BudwayDirectMarron:before
+
+{
+    left: -24px;
+    top: -120px;
+
+}
+.dx-acc-r .dxPivotGrid_pgSortDownButton_BudwayDirectMarron:before
+
+{
+    left: -12px;
+    top: -120px;
+
+}
+.dx-acc-r .dxPivotGrid_pgSortUpButton_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -120px;
+
+}

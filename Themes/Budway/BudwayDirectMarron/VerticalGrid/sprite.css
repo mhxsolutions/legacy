@@ -1,0 +1,76 @@
+.dxVerticalGrid_CategoryCollapsed_BudwayDirectMarron,
+.dxVerticalGrid_CategoryExpanded_BudwayDirectMarron,
+.dxVerticalGrid_CollapsedButton_BudwayDirectMarron,
+.dxVerticalGrid_ExpandedButton_BudwayDirectMarron,
+.dxVerticalGrid_gvCellError_BudwayDirectMarron,
+.dxVerticalGrid_gvFilterRowButton_BudwayDirectMarron,
+.dxVerticalGrid_gvHeaderFilter_BudwayDirectMarron,
+.dxVerticalGrid_gvHeaderFilterActive_BudwayDirectMarron,
+.dxVerticalGrid_gvHeaderSortDown_BudwayDirectMarron,
+.dxVerticalGrid_gvHeaderSortUp_BudwayDirectMarron
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxVerticalGrid_CategoryCollapsed_BudwayDirectMarron
+{
+    background-position: -18px -20px;
+    width: 17px;
+    height: 17px;
+}
+.dxVerticalGrid_CategoryExpanded_BudwayDirectMarron
+{
+    background-position: 0px -20px;
+    width: 17px;
+    height: 17px;
+}
+.dxVerticalGrid_CollapsedButton_BudwayDirectMarron
+{
+    background-position: -36px -20px;
+    width: 15px;
+    height: 15px;
+}
+.dxVerticalGrid_ExpandedButton_BudwayDirectMarron
+{
+    background-position: -40px 0px;
+    width: 15px;
+    height: 15px;
+}
+.dxVerticalGrid_gvCellError_BudwayDirectMarron
+{
+    background-position: -24px -38px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_gvFilterRowButton_BudwayDirectMarron
+{
+    background-position: -39px -38px;
+    width: 13px;
+    height: 13px;
+}
+.dxVerticalGrid_gvHeaderFilter_BudwayDirectMarron
+{
+    background-position: -20px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxVerticalGrid_gvHeaderFilterActive_BudwayDirectMarron
+{
+    background-position: 0px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxVerticalGrid_gvHeaderSortDown_BudwayDirectMarron
+{
+    background-position: 0px -38px;
+    width: 11px;
+    height: 15px;
+}
+.dxVerticalGrid_gvHeaderSortUp_BudwayDirectMarron
+{
+    background-position: -12px -38px;
+    width: 11px;
+    height: 15px;
+}
+

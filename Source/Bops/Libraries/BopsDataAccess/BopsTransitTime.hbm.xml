@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsTransitTime, BopsDataAccess" table="[Transit Times]" lazy="false">
+    <id name="TransitId" column="[Transit ID]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="FromRef" column="[From Ref]"/>
+    <property name="ToRef" column="[To Ref]"/>
+    <property name="Transit" column="[Transit]"/>
+    <property name="Points" column="[Points]"/>
+    <property name="Hourly" column="[Hourly]"/>
+    <property name="Hour" column="[Hour]"/>
+    <property name="Sample" column="[Sample]"/>
+    <property name="Edited" column="[Edited]"/>
+    <property name="Editor" column="[Editor]"/>
+  </class>
+</hibernate-mapping>

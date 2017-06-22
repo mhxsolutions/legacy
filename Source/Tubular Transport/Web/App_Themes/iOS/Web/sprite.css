@@ -1,0 +1,536 @@
+/* ASPxRoundPanel */
+.dxWeb_pPopOut_iOS,
+.dxWeb_pPopOutDisabled_iOS,
+.dxWeb_pPopOutPressed_iOS,
+.dxWeb_pPrev_iOS,
+.dxWeb_pPrevDisabled_iOS,
+.dxWeb_pNext_iOS,
+.dxWeb_pNextDisabled_iOS,
+.dxWeb_tcScrollLeft_iOS,
+.dxWeb_tcScrollRight_iOS,
+.dxWeb_pcCloseButton_iOS,
+.dxWeb_pcSizeGrip_iOS,
+.dxWeb_pcSizeGripRtl_iOS,
+.dxWeb_nbExpand_iOS,
+.dxWeb_nbCollapse_iOS,
+.dxWeb_tvColBtn_iOS,
+.dxWeb_tvColBtnRtl_iOS,
+.dxWeb_tvExpBtn_iOS,
+.dxWeb_tvExpBtnRtl_iOS,
+.dxWeb_mHorizontalPopOut_iOS,
+.dxWeb_mVerticalPopOut_iOS,
+.dxWeb_mVerticalPopOutRtl_iOS,
+.dxWeb_mSubMenuItem_iOS,
+.dxWeb_mSubMenuItemChecked_iOS,
+.dxsmLevel0_iOS .dxWeb_smBullet_iOS,
+.dxsmLevel0Categorized_iOS .dxWeb_smBullet_iOS,
+.dxWeb_splVSeparator_iOS,
+.dxWeb_splHSeparator_iOS,
+.dxWeb_splVCollapseBackwardButton_iOS,
+.dxWeb_splHCollapseBackwardButton_iOS,
+.dxWeb_splVCollapseForwardButton_iOS,
+.dxWeb_splHCollapseForwardButton_iOS,
+.dxWeb_fmFolder_iOS,
+.dxWeb_fmFolderLocked_iOS,
+.dxWeb_fmCreateButton_iOS,
+.dxWeb_fmMoveButton_iOS,
+.dxWeb_fmRenameButton_iOS,
+.dxWeb_fmDeleteButton_iOS,
+.dxWeb_fmRefreshButton_iOS,
+.dxWeb_fmDwnlButton_iOS,
+.dxWeb_fmCreateButtonDisabled_iOS,
+.dxWeb_fmMoveButtonDisabled_iOS,
+.dxWeb_fmRenameButtonDisabled_iOS,
+.dxWeb_fmDeleteButtonDisabled_iOS,
+.dxWeb_fmRefreshButtonDisabled_iOS,
+.dxWeb_fmDwnlButtonDisabled_iOS,
+.dxfmControl_iOS .dxsplVSeparator_iOS .dxsplS
+{
+    background-color: transparent;
+    background-image: url('sprite.png');
+    -background-image: url('sprite.gif');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.dxWeb_edtCheckBoxChecked_iOS,
+.dxWeb_edtCheckBoxUnchecked_iOS,
+.dxWeb_edtCheckBoxGrayed_iOS,
+.dxWeb_edtCheckBoxCheckedDisabled_iOS,
+.dxWeb_edtCheckBoxUncheckedDisabled_iOS,
+.dxWeb_edtCheckBoxGrayedDisabled_iOS {
+	background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+	width: 27px;
+    height: 28px;
+}
+
+.dxWeb_pcCloseButton_iOS 
+{
+    width: 35px;
+    height: 29px;
+    background-position: -204px -65px;
+}
+
+.dxpcAlert .dxWeb_pcCloseButton_iOS
+{
+    background-position: -18px -1px;
+}
+
+.dxWeb_pcSizeGrip_iOS,
+.dxWeb_pcSizeGripRtl_iOS 
+{
+   width: 19px;
+   height: 19px;
+   padding: 1px;
+}
+.dxWeb_pcSizeGrip_iOS 
+{
+    background-position: -64px -35px;
+}
+.dxWeb_pcSizeGripRtl_iOS 
+{
+    background-position: -63px -8px;
+}
+
+.dxWeb_nbExpand_iOS
+{
+    width: 16px;
+    height: 16px; 
+    background-position: -95px -19px;
+}
+
+.dxWeb_nbCollapse_iOS
+{
+    width: 16px;
+    height: 16px; 
+    background-position: -92px -4px;
+}
+
+/* Pager */
+.dxWeb_pPopOut_iOS,
+.dxWeb_pPopOutPressed_iOS,
+.dxWeb_pPopOutDisabled_iOS
+{
+    width:23px;
+	height:23px;
+}
+.dxWeb_pPrev_iOS,
+.dxWeb_pPrevDisabled_iOS,
+.dxWeb_pNext_iOS,
+.dxWeb_pNextDisabled_iOS
+{
+	width:52px;
+	height:23px;
+}
+.dxWeb_pNext_iOS 
+{
+    background-position: -11px -127px;
+}
+.dxpRTL .dxWeb_pNext_iOS 
+{
+    background-position: -128px -127px;
+}
+
+.dxWeb_pNextDisabled_iOS
+{
+	background-position: -12px -154px;
+}
+.dxpRTL .dxWeb_pNextDisabled_iOS
+{
+	background-position: -129px -154px;
+}
+
+.dxWeb_pPopOut_iOS
+{
+    background-position: -116px -61px;
+}
+.dxWeb_pPopOutPressed_iOS
+{
+    background-position: -141px -61px;
+}
+.dxWeb_pPopOutDisabled_iOS
+{
+    background-position: -166px -61px;
+}
+.dxWeb_pPrev_iOS 
+{
+    background-position: -70px -127px;
+}
+.dxpRTL .dxWeb_pPrev_iOS 
+{
+    background-position: -187px -127px;
+}
+
+.dxWeb_pPrevDisabled_iOS
+{
+	background-position: -70px -154px;
+}
+.dxpRTL .dxWeb_pPrevDisabled_iOS
+{
+    background-position: -187px -154px;
+}
+/* DataView Pager */
+.dxdvControl_iOS .dxWeb_pPrev_iOS,
+.dxdvControl_iOS .dxWeb_pPrevDisabled_iOS,
+.dxdvControl_iOS .dxWeb_pNext_iOS,
+.dxdvControl_iOS .dxWeb_pNextDisabled_iOS
+{
+	width:52px;
+	height:24px;
+}
+
+.dxdvControl_iOS .dxWeb_pNext_iOS 
+{
+    background-position: -11px -100px;
+}
+
+.dxdvControl_iOS .dxpRTL .dxWeb_pNext_iOS 
+{
+    background-position: -128px -100px;
+}
+
+.dxdvControl_iOS .dxWeb_pNextDisabled_iOS
+{
+    background-position: -12px -179px;
+}
+.dxdvControl_iOS .dxpRTL .dxWeb_pNextDisabled_iOS
+{
+    background-position: -129px -179px;
+}
+
+.dxdvControl_iOS .dxWeb_pPrev_iOS 
+{
+    background-position: -70px -100px;
+}
+.dxdvControl_iOS .dxpRTL .dxWeb_pPrev_iOS 
+{
+    background-position: -187px -100px;
+}
+
+.dxdvControl_iOS .dxWeb_pPrevDisabled_iOS
+{	
+     background-position: -70px -179px;
+}
+.dxdvControl_iOS .dxpRTL .dxWeb_pPrevDisabled_iOS
+{	
+     background-position: -187px -179px;
+}
+
+/* CheckBox */
+.dxWeb_edtCheckBoxUnchecked_iOS {
+	background-position: -31px -271px;
+}
+.dxWeb_edtCheckBoxChecked_iOS {
+	background-position: -2px -271px;
+}
+.dxWeb_edtCheckBoxGrayed_iOS {
+	background-position: -60px -271px;
+}
+.dxWeb_edtCheckBoxUncheckedDisabled_iOS {
+	background-position: -31px -300px;
+}
+.dxWeb_edtCheckBoxCheckedDisabled_iOS {
+	background-position: -2px -300px;
+}
+.dxWeb_edtCheckBoxGrayedDisabled_iOS {
+	background-position: -60px -300px;
+}
+
+.dxWeb_tvColBtn_iOS,
+.dxWeb_tvColBtnRtl_iOS,
+.dxWeb_tvExpBtn_iOS,
+.dxWeb_tvExpBtnRtl_iOS
+{
+    width: 11px;
+    height: 11px;
+}
+
+.dxWeb_tvExpBtn_iOS
+{
+    background-position: -193px -3px;
+}
+
+.dxWeb_tvColBtn_iOS
+{
+    background-position: -177px -3px;
+}
+
+.dxWeb_tvColBtnRtl_iOS
+{
+     background-position: -177px -3px;
+}
+
+.dxWeb_tvExpBtnRtl_iOS
+{
+    background-position: -202px -2px;
+}
+
+.dxWeb_tcScrollLeft_iOS
+{
+	background-position: -23px -61px;
+	width:45px;
+	height:29px;
+}
+.dxWeb_tcScrollRight_iOS
+{
+	background-position: -68px -61px;
+	width:44px;
+	height:29px;
+}
+
+/* Menu */
+
+.dxWeb_mHorizontalPopOut_iOS 
+{
+    background-position: -130px -330px;
+	width: 32px;
+	height: 32px;
+}
+
+.dxmMenuItemDropDownButton_iOS .dxWeb_mHorizontalPopOut_iOS,
+.dxmMenuLargeItemDropDownButton_iOS .dxWeb_mHorizontalPopOut_iOS,
+.dxmMenuRtlItemDropDownButton_iOS .dxWeb_mHorizontalPopOut_iOS,
+.dxmMenuLargeRtlItemDropDownButton_iOS .dxWeb_mHorizontalPopOut_iOS,
+.dxm-dropDownMode .dxWeb_mHorizontalPopOut_iOS
+{
+    background-position: -130px -398px;
+	width: 32px;
+	height: 32px;
+}
+
+.dxWeb_mVerticalPopOut_iOS
+{
+    background-position: -2px -330px;
+	width: 62px;
+	height: 32px;
+}
+.dxWeb_mVerticalPopOutRtl_iOS
+{
+    background-position: -66px -330px;
+	width: 62px;
+	height: 32px;
+}
+
+/* Hover, Select, Checked item popOut image */
+.dxmVerticalMenuItemSelectedWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmVerticalMenuItemSelectedWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmVerticalMenuLargeItemSelectedWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmVerticalMenuLargeItemSelectedWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmVerticalMenuItemCheckedWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmVerticalMenuItemCheckedWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmVerticalMenuLargeItemCheckedWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmVerticalMenuLargeItemCheckedWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmVerticalMenuItemHoverWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmVerticalMenuItemHoverWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmVerticalMenuLargeItemHoverWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmVerticalMenuLargeItemHoverWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmSubMenuItemSelectedWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmSubMenuItemSelectedWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmSubMenuItemHoverWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxmSubMenuItemHoverWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOut_iOS,
+.dxm-selected .dxWeb_mVerticalPopOut_iOS,
+.dxm-checked .dxWeb_mVerticalPopOut_iOS,
+.dxm-hovered .dxWeb_mVerticalPopOut_iOS
+{
+    background-position: -2px -364px;
+	width: 62px;
+	height: 32px;
+}
+.dxmVerticalMenuRtlItemSelectedWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmVerticalMenuRtlItemSelectedWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmVerticalMenuLargeRtlItemSelectedWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmVerticalMenuLargeRtlItemSelectedWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmVerticalMenuRtlItemCheckedWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmVerticalMenuRtlItemCheckedWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmVerticalMenuLargeRtlItemCheckedWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmVerticalMenuLargeRtlItemCheckedWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmVerticalMenuRtlItemHoverWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmVerticalMenuRtlItemHoverWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS
+.dxmVerticalMenuLargeRtlItemHoverWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmVerticalMenuLargeRtlItemHoverWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmSubMenuRtlItemSelectedWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmSubMenuRtlItemSelectedWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmSubMenuRtlItemHoverWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxmSubMenuRtlItemHoverWithImageWithPopOutImage_iOS .dxWeb_mVerticalPopOutRtl_iOS,
+.dxm-selected .dxWeb_mVerticalPopOutRtl_iOS,
+.dxm-checked .dxWeb_mVerticalPopOutRtl_iOS,
+.dxm-hovered .dxWeb_mVerticalPopOutRtl_iOS
+{
+    background-position: -66px -364px;
+	width: 62px;
+	height: 32px;
+}
+
+.dxmDDIPIC .dxWeb_mVerticalPopOut_iOS,
+.dxm-dropDownMode .dxWeb_mVerticalPopOut_iOS
+{
+    background-position: -2px -398px;
+	width: 62px;
+	height: 32px;
+}
+
+.dxmDDIPIC .dxWeb_mVerticalPopOutRtl_iOS,
+.dxm-dropDownMode .dxWeb_mVerticalPopOutRtl_iOS
+{
+    background-position: -66px -398px;
+	width: 62px;
+	height: 32px;
+}
+
+.dxWeb_mSubMenuItem_iOS
+{
+    background-position: -118px -22px;
+	width: 32px;
+	height: 32px;
+}
+
+.dxWeb_mSubMenuItemChecked_iOS
+{
+    background-position: -130px -364px;
+	width: 32px;
+	height: 32px;
+}
+
+/* SiteMap */
+.dxsmLevel0_iOS .dxWeb_smBullet_iOS,
+.dxsmLevel0Categorized_iOS .dxWeb_smBullet_iOS
+{
+    background-position: -147px -0px;
+    width: 10px;
+    height: 11px;
+}
+.dxsmLevel1_iOS .dxWeb_smBullet_iOS
+{
+	background-color: transparent;
+	width: 10px;
+    height: 11px;
+}
+
+/* Splitter */
+.dxWeb_splVSeparator_iOS {
+    background-position: -239px -17px;
+    width: 10px;
+    height: 20px;
+}
+
+.dxWeb_splHSeparator_iOS {
+    background-position: -217px -17px;
+    width: 19px;
+    height: 16px;
+}
+
+.dxWeb_splVCollapseBackwardButton_iOS {
+    background-position: -193px -17px;
+    width: 8px;
+    height: 16px;
+}
+
+.dxWeb_splHCollapseBackwardButton_iOS {
+    background-position: -155px -17px;
+    width: 15px;
+    height: 12px;
+}
+
+.dxWeb_splVCollapseForwardButton_iOS {
+    background-position: -203px -17px;
+    width: 10px;
+    height: 16px;
+}
+
+.dxWeb_splHCollapseForwardButton_iOS {
+    background-position: -174px -17px;
+    width: 15px;
+    height: 16px;
+}
+
+/* FileManager */
+.dxfmControl_iOS .dxsplVSeparator_iOS>.dxsplS
+{
+	background-position: -239px -17px;
+	width: 10px!important;
+    height: 20px!important;
+}
+
+.dxWeb_fmFolder_iOS {
+	background-position: 0px -205px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxWeb_fmFolderLocked_iOS {
+	background-position: -33px -205px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxWeb_fmCreateButton_iOS {
+	background-position: -66px -205px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxWeb_fmRenameButton_iOS {
+	background-position: -99px -205px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxWeb_fmMoveButton_iOS {
+	background-position: -132px -205px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxWeb_fmDeleteButton_iOS {
+	background-position: -165px -205px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxWeb_fmRefreshButton_iOS {
+	background-position: -198px -205px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmDwnlButton_iOS {
+	background-position: 0px -239px;
+    width: 32px;
+    height: 32px;
+}
+.dxWeb_fmDwnlButtonDisabled_iOS {
+	background-position: -33px -239px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxWeb_fmCreateButtonDisabled_iOS {
+	background-position: -66px -239px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxWeb_fmRenameButtonDisabled_iOS {
+	background-position: -99px -239px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxWeb_fmMoveButtonDisabled_iOS {
+	background-position: -132px -239px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxWeb_fmDeleteButtonDisabled_iOS {
+	background-position: -165px -239px;
+    width: 32px;
+    height: 32px;
+}
+
+.dxWeb_fmRefreshButtonDisabled_iOS {
+	background-position: -198px -239px;
+    width: 32px;
+    height: 32px;
+}

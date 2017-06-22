@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsStorageBillingDetail, BopsDataAccess" table="[RFS Storage Billing Details]" lazy="false">
+    <id name="DetailId" column="[Billing Detail Id]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="BillingRef" column="[Billing Ref]"/>
+    <property name="InventoryRef" column="[Inventory Ref]"/>
+    <property name="PriorDateBilledThrough" column="[Prior Date Billed Through]"/>
+    <property name="NewDateBilledThrough" column="[New Date Billed Through]"/>
+    <property name="BillToClientRef" column="[Bill To Client Ref]"/>
+    <property name="ProfileRef" column="[Profile Ref]"/>
+    <property name="Quantity" column="[Quantity]"/>
+    <property name="CyclesBilled" column="[Cycles Billed]"/>
+    <property name="AverageCostPerCycle" column="[Average Cost Per Cycle]"/>
+    <property name="Revenue" column="[Revenue]"/>
+    <property name="PublicDetails" column="[Public Details]"/>
+    <property name="PrivateDetails" column="[Private Details]"/>
+    <property name="BillingStatus" column="[Billing Status Ref]"/>
+    <property name="CompanyRef" column="[Company ID ref]"/>
+  </class>
+</hibernate-mapping>

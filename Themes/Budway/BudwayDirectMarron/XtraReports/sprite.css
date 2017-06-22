@@ -1,0 +1,195 @@
+.dxXtraReports_BtnFirstPage_BudwayDirectMarron,
+.dxXtraReports_BtnFirstPageDisabled_BudwayDirectMarron,
+.dxXtraReports_BtnLastPage_BudwayDirectMarron,
+.dxXtraReports_BtnLastPageDisabled_BudwayDirectMarron,
+.dxXtraReports_BtnNextPage_BudwayDirectMarron,
+.dxXtraReports_BtnNextPageDisabled_BudwayDirectMarron,
+.dxXtraReports_BtnPrevPage_BudwayDirectMarron,
+.dxXtraReports_BtnPrevPageDisabled_BudwayDirectMarron,
+.dxXtraReports_BtnPrint_BudwayDirectMarron,
+.dxXtraReports_BtnPrintDisabled_BudwayDirectMarron,
+.dxXtraReports_BtnPrintPage_BudwayDirectMarron,
+.dxXtraReports_BtnPrintPageDisabled_BudwayDirectMarron,
+.dxXtraReports_BtnSave_BudwayDirectMarron,
+.dxXtraReports_BtnSaveDisabled_BudwayDirectMarron,
+.dxXtraReports_BtnSaveWindow_BudwayDirectMarron,
+.dxXtraReports_BtnSaveWindowDisabled_BudwayDirectMarron,
+.dxXtraReports_BtnSearch_BudwayDirectMarron,
+.dxXtraReports_BtnSearchDisabled_BudwayDirectMarron,
+.dxXtraReports_PageBorder_blc_BudwayDirectMarron,
+.dxXtraReports_PageBorder_brc_BudwayDirectMarron,
+.dxXtraReports_PageBorder_tlc_BudwayDirectMarron,
+.dxXtraReports_PageBorder_trc_BudwayDirectMarron
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxXtraReports_BtnFirstPage_BudwayDirectMarron
+{
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnFirstPageDisabled_BudwayDirectMarron
+{
+    background-position: 0px -289px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPage_BudwayDirectMarron
+{
+    background-position: 0px -85px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnLastPageDisabled_BudwayDirectMarron
+{
+    background-position: 0px -51px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPage_BudwayDirectMarron
+{
+    background-position: 0px -255px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnNextPageDisabled_BudwayDirectMarron
+{
+    background-position: 0px -119px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPage_BudwayDirectMarron
+{
+    background-position: 0px -136px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrevPageDisabled_BudwayDirectMarron
+{
+    background-position: 0px -204px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrint_BudwayDirectMarron
+{
+    background-position: 0px -102px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintDisabled_BudwayDirectMarron
+{
+    background-position: 0px -272px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPage_BudwayDirectMarron
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnPrintPageDisabled_BudwayDirectMarron
+{
+    background-position: 0px -68px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSave_BudwayDirectMarron
+{
+    background-position: 0px -170px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveDisabled_BudwayDirectMarron
+{
+    background-position: 0px -187px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindow_BudwayDirectMarron
+{
+    background-position: 0px -153px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSaveWindowDisabled_BudwayDirectMarron
+{
+    background-position: 0px -221px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearch_BudwayDirectMarron
+{
+    background-position: 0px -17px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_BtnSearchDisabled_BudwayDirectMarron
+{
+    background-position: 0px -238px;
+    width: 16px;
+    height: 16px;
+}
+.dxXtraReports_PageBorder_blc_BudwayDirectMarron
+{
+    background-position: 0px -306px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_brc_BudwayDirectMarron
+{
+    background-position: 0px -317px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_tlc_BudwayDirectMarron
+{
+    background-position: 0px -328px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_trc_BudwayDirectMarron
+{
+    background-position: 0px -339px;
+    width: 10px;
+    height: 10px;
+}
+.dxXtraReports_PageBorder_t_BudwayDirectMarron,
+.dxXtraReports_PageBorder_l_BudwayDirectMarron,
+.dxXtraReports_PageBorder_r_BudwayDirectMarron,
+.dxXtraReports_PageBorder_b_BudwayDirectMarron {
+    padding: 0px;
+    background-color: transparent;
+}
+
+.dxXtraReports_PageBorder_t_BudwayDirectMarron {
+    background-image: url('pageTopBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+
+.dxXtraReports_PageBorder_l_BudwayDirectMarron {
+    background-image: url('pageLeftBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_r_BudwayDirectMarron {
+    background-image: url('pageRightBorder.png');
+    background-repeat: repeat-y;
+    width: 10px;
+    height: 1px;
+}
+
+.dxXtraReports_PageBorder_b_BudwayDirectMarron {
+    background-image: url('pageBottomBorder.png');
+    background-repeat: repeat-x;
+    width: 1px;
+    height: 10px;
+}
+

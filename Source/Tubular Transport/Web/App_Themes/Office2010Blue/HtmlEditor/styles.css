@@ -1,0 +1,238 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_Office2010Blue
+{
+    background: White;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    cursor: wait;
+}
+.dxheLoadingPanel_Office2010Blue
+{
+    font: 11px Verdana;
+    color: #1e395b;
+}
+.dxheLoadingPanel_Office2010Blue td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 14px;
+}
+
+.dxheControl_Office2010Blue
+{
+    border: 1px solid #8ba0bc;
+}
+
+/* Area */
+.dxheContentArea_Office2010Blue
+{
+    padding: 0;
+    background-color: #cfddee;
+}
+.dxheContentArea_Office2010Blue .dxheErrorFrame_Office2010Blue
+{
+    font-size: 11px;
+    font-family: Verdana;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheContentArea_Office2010Blue .dxheErrorFrame_Office2010Blue .dxhe {
+    padding: 5px;
+}
+.dxheContentArea_Office2010Blue .dxheErrorFrame_Office2010Blue .dxhe td {
+    padding: 0px;
+}
+.dxheContentArea_Office2010Blue .dxheErrorFrame_Office2010Blue .dxheErrorFrameCloseButton_Office2010Blue {
+    cursor: pointer;
+}
+.dxheControl_Office2010Blue .dxheViewArea_Office2010Blue
+{
+    border-width: 0;
+}
+.dxheHtmlViewArea_Office2010Blue,
+.dxheDesignViewArea_Office2010Blue,
+.dxhePreviewArea_Office2010Blue
+{
+    margin: 0px;
+    background-color: White;
+    background-image: none;
+    font-size: smaller;
+    font: normal 12px Arial;
+}
+.dxheHtmlViewArea_Office2010Blue td,
+.dxheHtmlViewArea_Office2010Blue.dxeMemo_Office2010Blue td,
+body.dxheDesignViewArea_Office2010Blue, 
+body.dxhePreviewArea_Office2010Blue
+{
+    padding: 4px 0 0 4px;
+}
+.dxheControl_Office2010Blue.dxhe-rtl .dxheHtmlViewArea_Office2010Blue td,
+.dxheControl_Office2010Blue.dxhe-rtl .dxheHtmlViewArea_Office2010Blue.dxeMemo_Office2010Blue td,
+body.dxheDesignViewArea_Office2010Blue.dxhe-rtl, 
+body.dxhePreviewArea_Office2010Blue.dxhe-rtl
+{
+    padding: 0 4px 0 1px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .dxheControl_Office2010Blue.dxhe-rtl .dxheHtmlViewArea_Office2010Blue td,
+    .dxheControl_Office2010Blue.dxhe-rtl .dxheHtmlViewArea_Office2010Blue.dxeMemo_Office2010Blue td
+    {
+        padding: 0 0 0 4px;
+    }    
+}
+.dxheControl_Office2010Blue .dxeMemo_Office2010Blue textarea 
+{
+	resize:none;
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_Office2010Blue table.dxEmptyBorderTable,
+body.dxheDesignViewArea_Office2010Blue table.dxEmptyBorderTable td
+{
+    border: 1px dotted Gray;
+}
+@media print
+{
+	body.dxheDesignViewArea_Office2010Blue table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_Office2010Blue table.dxEmptyBorderTable td
+	{
+		border:0px;
+	}
+}
+
+/* Status Bar */
+.dxheStatusBar_Office2010Blue
+{
+}
+.dxheStatusBar_Office2010Blue .dxheStatusBarTab_Office2010Blue
+{
+    padding-left: 34px;
+    padding-right: 35px;
+    padding-bottom: 5px;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+.dxheControl_Office2010Blue.dxhe-rtl .dxheStatusBar_Office2010Blue .dxheStatusBarTab_Office2010Blue
+{
+    border-left-width: 1px;
+    border-right-width: 0;
+}
+.dxheStatusBarActiveTab_Office2010Blue
+{
+}
+.dxHtmlEditor_heSizeGrip_Office2010Blue
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_Office2010Blue
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_Office2010Blue
+{
+    float: left;
+    height: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -13px;
+}
+.dxheControl_Office2010Blue.dxhe-rtl .dxheSizeGripContainer_Office2010Blue 
+{
+	text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+#dxInsertTableForm .buttonsCell,
+#dxInsertLinkForm .buttonsCell,
+#dxInsertImageForm .buttonsCell,
+#dxPasteFromWordForm .buttonsCell,
+#dxTableColumnPropertiesForm .buttonsCell,
+.dxheCustomDialog_Office2010Blue .dxhecd-Buttons
+{
+    background-color: #cfddee;
+    border-top: 1px solid #aec0d5;
+    padding: 11px;
+}
+#dxInsertImageForm .imagePreviewCell
+{
+    color: #737373;
+    border: 1px dashed #cac8c8;
+}
+#dxPasteFromWordForm .pasteContainerCell td
+{
+	border: 1px solid #8ba0bc;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_Office2010Blue
+{
+	height: 1px;
+}
+.dxtbControl_Office2010Blue
+{
+    font: 11px Verdana;
+    color: Black;
+    background-color: #cfddee;
+    width: 100%;
+    border-bottom: 1px solid #859ebf;
+}
+.dxtbControl_Office2010Blue td.dxmMenu_Office2010Blue
+{
+	border: 0;
+}
+.dxtbComboBoxMenuItem_Office2010Blue
+{
+    padding: 2px 2px 1px;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_Office2010Blue .dxmLite_Office2010Blue .dxm-main
+{
+    border-width: 0;
+}
+.dxtbControl_Office2010Blue .dxmLite_Office2010Blue .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem
+{
+	border-width: 0;
+	padding: 2px 2px 1px !important;
+}
+.dxtbControl_Office2010Blue .dxmLite_Office2010Blue .dxm-horizontal.dxmtb .dxm-image-l .dxm-dropDownMode.dxtb-cb .dxm-content, 
+.dxtbControl_Office2010Blue .dxmLite_Office2010Blue .dxm-horizontal.dxmtb .dxm-image-r .dxm-dropDownMode.dxtb-cb .dxm-content
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.dxtbControl_Office2010Blue .dxmLite_Office2010Blue .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_Office2010Blue .dxmLite_Office2010Blue .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 4px;
+	padding-bottom: 3px;
+}
+.dxtbControl_Office2010Blue .dxmLite_Office2010Blue .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content img,
+.dxtbControl_Office2010Blue .dxmLite_Office2010Blue .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content img
+{
+	margin-top: -1px;
+}
+.dxmLite_Office2010Blue .dxhetipControl_Office2010Blue img
+{
+	vertical-align: top;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_Office2010Blue
+{
+}
+.dxtcbColorDiv_Office2010Blue
+{
+	width: 16px;
+	height: 3px;
+	font-size: 0px;
+	background-color: Transparent;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_Office2010Blue .dxrpcontent
+{
+    padding: 9px 8px;
+}
+

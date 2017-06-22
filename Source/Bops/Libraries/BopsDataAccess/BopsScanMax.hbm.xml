@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsScanMax, BopsDataAccess" table="[Scans_max]" lazy="false">
+    <id name="ScanId" column="[POD_Index_Max]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="DocumentId" column="[DOCID]" />
+    <property name="DocTypeRef" column="[DOC Type Ref]" />
+  </class>
+</hibernate-mapping>

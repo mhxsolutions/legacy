@@ -1,0 +1,85 @@
+.dx-acc-r .dxVerticalGrid_CategoryCollapsed_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxVerticalGrid_CategoryExpanded_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxVerticalGrid_CollapsedButton_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxVerticalGrid_ExpandedButton_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxVerticalGrid_gvCellError_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxVerticalGrid_gvFilterRowButton_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderFilter_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderFilterActive_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderSortDown_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderSortUp_BudwayThemeFromMulberry:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxVerticalGrid_CategoryCollapsed_BudwayThemeFromMulberry:before
+
+{
+    left: -36px;
+    top: -30px;
+
+}
+.dx-acc-r .dxVerticalGrid_CategoryExpanded_BudwayThemeFromMulberry:before
+
+{
+    left: -24px;
+    top: -30px;
+
+}
+.dx-acc-r .dxVerticalGrid_CollapsedButton_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_ExpandedButton_BudwayThemeFromMulberry:before
+
+{
+    left: -16px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvCellError_BudwayThemeFromMulberry:before
+
+{
+    left: -32px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvFilterRowButton_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -30px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderFilter_BudwayThemeFromMulberry:before
+
+{
+    left: -19px;
+    top: -16px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderFilterActive_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -16px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderSortDown_BudwayThemeFromMulberry:before
+
+{
+    left: -38px;
+    top: -16px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderSortUp_BudwayThemeFromMulberry:before
+
+{
+    left: -14px;
+    top: -30px;
+
+}

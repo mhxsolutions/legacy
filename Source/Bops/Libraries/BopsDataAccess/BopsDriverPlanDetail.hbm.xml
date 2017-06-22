@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsDriverPlanDetail, BopsDataAccess" table="[Planner Detail]" lazy="false">
+    <id name="PlanDetailId" column="[Planner Detail ID]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="PlanRef" column="[Planner Ref]"/>
+    <property name="OriginRef" column="[Origin Ref]"/>
+    <property name="DestinationRef" column="[Dest Ref]"/>
+    <property name="SequenceNumber" column="[Order]"/>
+    <property name="Notes" column="[Notes]"/>
+    <property name="MinutesInTransit" column="[Transit]"/>
+    <property name="MinutesInDetention" column="[Detention]"/>
+    <property name="ScheduledArrival" column="[Sch Arrive]"/>
+    <property name="ScheduledDeparture" column="[Sch Depart]"/>
+    <property name="LoadRef" column="[Load Ref]"/>
+    <property name="ScheduleAdjust" column="[SchAdjust]"/>
+    <property name="DetentionCall" column="[DetentionCall]"/>
+    <property name="ActualDepartOrigin" column="[Depart Origin]"/>
+    <property name="ActualArriveDestination" column="[Arrive Destination]"/>
+    <property name="ActualDepartDestination" column="[Depart Destination]"/>
+    <property name="DestinationValue" column="[Destination Value]"/>
+    <property name="Multiplier" column="[Multiplier]"/>
+    <property name="HourlySw" column="[HourlySW]"/>
+    <property name="HourlyWage" column="[HourlyWage]"/>
+    <property name="PayrollEditor" column="[Payroll editor]"/>
+    <property name="PlannerEditor" column="[Planner editor]"/>
+    <property name="PayDetention" column="[PayDetention]"/>
+	<property name="LastEdited" column="[Edited]"/>
+	<property name="BadTime" column="[BadTime]"/>
+	<property name="TransitBillingLoadRef" column="[Transit Billing Load Ref]"/>
+	<property name="DwellBillingLoadRef" column="[Dwell Billing Load Ref]"/>
+	<property name="ActionRef" column="[Action ref]"/>
+	<property name="ClientNotes" column="[Client Notes]"/>
+  </class>
+</hibernate-mapping>

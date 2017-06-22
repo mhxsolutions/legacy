@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5523F654-3B5A-4DAB-8820-9B46588B9C9C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RFS_Invoice_Utility</RootNamespace>
+    <AssemblyName>RFS Invoice Utility</AssemblyName>
+    <ApplicationIcon>RFS Invoice Utility.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\..\Solutions\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <PublishUrl>C:\deploy\RFSInvoiceUtility\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\vdev\rfsinvoiceutility\</InstallUrl>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2553453395B4B9DB67A3C8C23BD087D076971D8F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>RFS Invoice Utility_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.CalcEngine, Version=8.35.20143.0, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Excel, Version=8.35.20143.0, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Localization, Version=8.20.20143.0, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.PDF, Version=8.35.20143.0, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.PluginCalendar.WinForms, Version=8.35.20143.0, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.Win, Version=8.35.20143.0, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.Win.Chart, Version=8.35.20143.0, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.Win.Spread, Version=8.35.20143.0, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win.Spread.Html, Version=8.35.20143.0, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL" />
+    <Reference Include="GrapeCity.Win.PluginInputMan, Version=8.35.20143.0, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL" />
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Solutions\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Solutions\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Solutions\packages\NHibernate.4.0.4.4000\lib\net40\NHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBillsToInvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBillsToInvoiceForm.Designer.cs">
+      <DependentUpon>AddBillsToInvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BulkInvoiceByRfsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BulkInvoiceByRfsForm.Designer.cs">
+      <DependentUpon>BulkInvoiceByRfsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BulkInvoicer.cs" />
+    <Compile Include="ChooseLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseLoginForm.Designer.cs">
+      <DependentUpon>ChooseLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyDetails.cs" />
+    <Compile Include="ConfirmFinalizeInvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmFinalizeInvoiceForm.Designer.cs">
+      <DependentUpon>ConfirmFinalizeInvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateInvoiceDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateInvoiceDetailsForm.Designer.cs">
+      <DependentUpon>CreateInvoiceDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateInvoiceFromManualBillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateInvoiceFromManualBillForm.Designer.cs">
+      <DependentUpon>CreateInvoiceFromManualBillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateInvoiceFromStorageBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateInvoiceFromStorageBills.Designer.cs">
+      <DependentUpon>CreateInvoiceFromStorageBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateInvoicesFromStorageBillingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateInvoicesFromStorageBillingForm.Designer.cs">
+      <DependentUpon>CreateInvoicesFromStorageBillingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditServiceGlCodesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditServiceGlCodesForm.Designer.cs">
+      <DependentUpon>EditServiceGlCodesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupPromptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupPromptForm.Designer.cs">
+      <DependentUpon>GroupPromptForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice-Budway.cs">
+      <DependentUpon>Invoice-Budway.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Invoice-BudwayEast.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Invoice-BudwayEast.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Invoice-Hydra.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Invoice-Hydra.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Invoice-MHX.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Invoice-MHX.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Invoice-NewX.cs">
+      <DependentUpon>Invoice-NewX.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Invoice-Pulse.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Invoice-Pulse.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Invoice-SCLS.cs">
+      <DependentUpon>Invoice-SCLS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Invoice-SCM.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Invoice-SCM.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Invoice-TTran.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Invoice-TTran.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="InvoiceCollection.cs" />
+    <Compile Include="InvoiceConfigurationSection.cs" />
+    <Compile Include="InvoiceCrystalReport.cs">
+      <DependentUpon>InvoiceCrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="InvoiceDetailDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceDetailDetailsForm.Designer.cs">
+      <DependentUpon>InvoiceDetailDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceDetailManualChargeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceDetailManualChargeForm.Designer.cs">
+      <DependentUpon>InvoiceDetailManualChargeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceDetails.cs" />
+    <Compile Include="InvoiceDuplicatesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceDuplicatesForm.Designer.cs">
+      <DependentUpon>InvoiceDuplicatesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceEditLinesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceEditLinesForm.Designer.cs">
+      <DependentUpon>InvoiceEditLinesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceElement.cs" />
+    <Compile Include="InvoiceExportResultsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceExportResultsForm.Designer.cs">
+      <DependentUpon>InvoiceExportResultsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceFactory.cs" />
+    <Compile Include="InvoicePackageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoicePackageForm.Designer.cs">
+      <DependentUpon>InvoicePackageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoicePreviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoicePreviewForm.Designer.cs">
+      <DependentUpon>InvoicePreviewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceSupportingDocumentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceSupportingDocumentsForm.Designer.cs">
+      <DependentUpon>InvoiceSupportingDocumentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressForm.Designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PromptNewRfsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PromptNewRfsForm.Designer.cs">
+      <DependentUpon>PromptNewRfsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RfsDetectiveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RfsDetectiveForm.Designer.cs">
+      <DependentUpon>RfsDetectiveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RfsInvoiceUtilityMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RfsInvoiceUtilityMainForm.Designer.cs">
+      <DependentUpon>RfsInvoiceUtilityMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddBillsToInvoiceForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddBillsToInvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BulkInvoiceByRfsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BulkInvoiceByRfsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseLoginForm.resx">
+      <DependentUpon>ChooseLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmFinalizeInvoiceForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConfirmFinalizeInvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateInvoiceDetailsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateInvoiceDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateInvoiceFromManualBillForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateInvoiceFromManualBillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateInvoiceFromStorageBills.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateInvoiceFromStorageBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateInvoicesFromStorageBillingForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CreateInvoicesFromStorageBillingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditServiceGlCodesForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EditServiceGlCodesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupPromptForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GroupPromptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice-Budway.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Invoice-Budway.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice-BudwayEast.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Invoice-BudwayEast.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice-Hydra.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Invoice-Hydra.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice-MHX.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Invoice-MHX.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice-NewX.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Invoice-NewX.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice-Pulse.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Invoice-Pulse.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice-SCLS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Invoice-SCLS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice-SCM.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Invoice-SCM.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice-TTran.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Invoice-TTran.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceCrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InvoiceCrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceDetailDetailsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InvoiceDetailDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceDetailManualChargeForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InvoiceDetailManualChargeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceDuplicatesForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InvoiceDuplicatesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceEditLinesForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InvoiceEditLinesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceExportResultsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InvoiceExportResultsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoicePackageForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InvoicePackageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoicePreviewForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InvoicePreviewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceSupportingDocumentsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>InvoiceSupportingDocumentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PromptNewRfsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PromptNewRfsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RfsDetectiveForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RfsDetectiveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RfsInvoiceUtilityMainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RfsInvoiceUtilityMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectExportForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StorageBillingForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StorageBillingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StorageBillingHistoryForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StorageBillingHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StorageBillingSummaryForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StorageBillingSummaryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewLoadDetailsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewLoadDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewReceiverDetailsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewReceiverDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewShipperDetailsForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewShipperDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Budway Logo.png">
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SelectExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectExportForm.Designer.cs">
+      <DependentUpon>SelectExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StorageBillingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StorageBillingForm.Designer.cs">
+      <DependentUpon>StorageBillingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StorageBillingHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StorageBillingHistoryForm.Designer.cs">
+      <DependentUpon>StorageBillingHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StorageBillingSummaryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StorageBillingSummaryForm.Designer.cs">
+      <DependentUpon>StorageBillingSummaryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewLoadDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewLoadDetailsForm.Designer.cs">
+      <DependentUpon>ViewLoadDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewReceiverDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewReceiverDetailsForm.Designer.cs">
+      <DependentUpon>ViewReceiverDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewShipperDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewShipperDetailsForm.Designer.cs">
+      <DependentUpon>ViewShipperDetailsForm.cs</DependentUpon>
+    </Compile>
+    <None Include="RFS Invoice Utility_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\SCM\OpsCore\Libraries\Scm.OpsCore.Bootstrap\Scm.OpsCore.Bootstrap.csproj">
+      <Project>{65faac9f-26f5-4988-b6a4-216254d70ff2}</Project>
+      <Name>Scm.OpsCore.Bootstrap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\SCM\OpsCore\Libraries\Scm.OpsCore.Injection\Scm.OpsCore.Injection.csproj">
+      <Project>{075e49b7-1d4a-43fe-8f26-8e36e1a68d5e}</Project>
+      <Name>Scm.OpsCore.Injection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\SCM\OpsCore\Libraries\Scm.OpsCore.Legacy.DataLayer\Scm.OpsCore.Legacy.DataLayer.csproj">
+      <Project>{98b2104f-b995-4ea0-a2c1-29cb0c6fac69}</Project>
+      <Name>Scm.OpsCore.Legacy.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\SCM\OpsCore\Libraries\Scm.OpsCore.Legacy.NHibernate\Scm.OpsCore.Legacy.NHibernate.csproj">
+      <Project>{213c91b2-8684-4261-9a63-d0ef493b82ea}</Project>
+      <Name>Scm.OpsCore.Legacy.NHibernate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\BopsAuthentication\BopsAuthentication.csproj">
+      <Project>{55934167-7AD3-41DA-93F4-7029B04A3BE2}</Project>
+      <Name>BopsAuthentication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\BopsBusinessLogicRfs\BopsBusinessLogicRfs.csproj">
+      <Project>{DC85CA38-1FEC-4995-B861-75A16EA5CE9B}</Project>
+      <Name>BopsBusinessLogicRfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\BopsDataAccess\BopsDataAccess.csproj">
+      <Project>{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}</Project>
+      <Name>BopsDataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\BopsUiRfs\BopsUiRfs.csproj">
+      <Project>{1CCD4EF4-3D95-4735-9F46-255D38D80872}</Project>
+      <Name>BopsUiRfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\BopsUtilities\BopsUtilities.csproj">
+      <Project>{DF084C4B-47F4-43C3-B541-2B6A967D6E67}</Project>
+      <Name>BopsUtilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries\NHibernateUtilities\NHibernateUtilities.csproj">
+      <Project>{BBABCE36-C99A-4F65-8263-1038D792BB01}</Project>
+      <Name>NHibernateUtilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Budway Logo 2.png" />
+    <Content Include="PDF Assets\Budway East Logo.png" />
+    <Content Include="PDF Assets\Invoice Budway Logo.png">
+    </Content>
+    <None Include="Resources\Icon - Magnifying Glass.png" />
+    <None Include="Resources\Icon - Cross Mark 2.png" />
+    <None Include="Resources\Icon - Check Mark 2.png" />
+    <None Include="RFS Invoice Utility.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

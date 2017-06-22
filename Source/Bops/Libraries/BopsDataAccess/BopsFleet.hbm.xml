@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsFleet, BopsDataAccess" table="[Fleet]" lazy="false">
+    <id name="FleetId" column="[Fleet ID]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="Description" column="[Fleet]"/>
+    <property name="TimeZoneRef" column="[Time Zone ref]"/>
+    <property name="OriginRef" column="[Origin ref]"/>
+  </class>
+</hibernate-mapping>

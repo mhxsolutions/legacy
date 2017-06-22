@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="BopsDataAccess.BopsAtsfRailcar, BopsDataAccess" table="[ATSF]" lazy="false">
+		<id name="Ukey" column="[UKEY]">
+			<generator class="assigned" />
+		</id>
+		<property name="CarNumber" column="[Car Number]" />
+		<property name="LoadedStatus" column="[S]"/>
+		<property name="Content" column="[Content]" />
+		<property name="Shipper" column="[Shipper]" />
+		<property name="Origin" column="[Orgin]" />
+		<property name="Currently" column="[Currently]" />
+		<property name="BlDate" column="[B/L Date]" />
+		<property name="Terminal" column="[Terminal]" />
+		<property name="Eta" column="[E T A]" />
+		<property name="Time" column="[Time]" />
+		<property name="GoalTime" column="[Goal Time]" />
+		<property name="CarComments" column="[Car Comments]" />
+		<property name="CpDate" column="[CP Date]" />
+		<property name="Flagspot" column="[flagspot]" />
+		<property name="SpotReqDate" column="[Spot Req Date]" />
+		<property name="Spotcom" column="[spotcom]" />
+		<property name="PlDate" column="[PL Date]" />
+		<property name="ReloadDate" column="[Reload Date]" />
+		<property name="Flagrel" column="[flagrel]" />
+		<property name="ReleaseReqDate" column="[Release Req Date]" />
+		<property name="Yardcomm" column="[yardcomm]" />
+		<property name="DateRel" column="[daterel]" />
+		<property name="StatusRef" column="[Status Flag]" />
+		<property name="BnsfUprr" column="[bnsfuprr]" />
+		<property name="Init" column="[Init]" />
+		<property name="Number" column="[Number]" />
+		<property name="CarType" column="[CarType]" />
+		<property name="OriginCity" column="[Orign City]" />
+		<property name="OriginSt" column="[Orign St]" />
+		<property name="BillWeight" column="[billwgt]" />
+		<property name="TsaNumber" column="[TSANUMBER]" />
+		<property name="QbcNumber" column="[QBCNUMBER]" />
+		<property name="ChgBnsf" column="[CHGBNSF]" />
+		<property name="AtsfBill" column="[atsfbill]" />
+		<property name="AtsfBillDate" column="[atsfbilldate]" />
+		<property name="BoxCarSize" column="[boxcarsize]" />
+		<property name="BnsfStorageRef" column="[BNSF Storage Ref]" />
+		<property name="BnsfCrossdockRef" column="[BNSF Crossdock Ref]" />
+		<property name="ClientRef" column="[Client Ref]" />
+		<property name="ProductTypeRef" column="[Product Type Ref]" />
+		<property name="ClientBol" column="[Client BOL]" />
+		<property name="SttcNumber" column="[STTCNUMBER]" />
+		<property name="BillTo" column="[Bill To]" />
+		<property name="WayBillNumber" column="[WayBill Number]" />
+		<property name="Asn" column="[ASN]" />
+		<property name="TmpFlag" column="[TmpFlag]" />
+		<property name="TmpStatus" column="[TmpStatus]" />
+		<property name="WhseComplete" column="[WhseComplete]" />
+		<property name="RailcarId" column="[Railcar ID]" />
+		<property name="AbSalesOrderRef" column="[AB-Sales Order ref]" />
+		<property name="RfsRef" column="[RFS Ref]" />
+		<property name="ClientPreferredDate" column="[Client Preferred Date]" />
+    </class>
+</hibernate-mapping>

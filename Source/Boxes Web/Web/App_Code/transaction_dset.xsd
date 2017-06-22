@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:mstns="http://tempuri.org/nwindDataSet.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" id="transaction_dset" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=sql4;Initial Catalog=&quot;DWS No Rep Data&quot;;Integrated Security=True" IsAppSettingsProperty="false" Modifier="Assembly" ParameterPrefix="@" Provider="System.Data.SqlClient" Name="Connection" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="COPS Transactions In by Carrier with distinct columnsAdapter" Name="COPS Transactions In by Carrier with distinct columns" UserDataComponentName="COPS Transactions In by Carrier with distinct columnsAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Connection" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Terminal, Client, [Client ref], Receiver, BOL, Profile, Date, Type, Carrier, Description, [Product Group 1], [Product Group 2], [Product Group 3], release, [Pounds per Foot], Notes, [Item Ct In], [Piece Ct In], [Pounds In], [Linear Ft In], [Item Ct Out], [Piece Ct Out], [Pounds Out], [Linear Ft Out] FROM dbo.[COPS Transactions In by Carrier with distinct columns]</CommandText>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Terminal" DataSetColumn="Terminal" />
+              <Mapping SourceColumn="Client" DataSetColumn="Client" />
+              <Mapping SourceColumn="Client ref" DataSetColumn="Client ref" />
+              <Mapping SourceColumn="Receiver" DataSetColumn="Receiver" />
+              <Mapping SourceColumn="BOL" DataSetColumn="BOL" />
+              <Mapping SourceColumn="Profile" DataSetColumn="Profile" />
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+              <Mapping SourceColumn="Type" DataSetColumn="Type" />
+              <Mapping SourceColumn="Carrier" DataSetColumn="Carrier" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="Product Group 1" DataSetColumn="Product Group 1" />
+              <Mapping SourceColumn="Product Group 2" DataSetColumn="Product Group 2" />
+              <Mapping SourceColumn="Product Group 3" DataSetColumn="Product Group 3" />
+              <Mapping SourceColumn="release" DataSetColumn="release" />
+              <Mapping SourceColumn="Pounds per Foot" DataSetColumn="Pounds per Foot" />
+              <Mapping SourceColumn="Notes" DataSetColumn="Notes" />
+              <Mapping SourceColumn="Item Ct In" DataSetColumn="Item Ct In" />
+              <Mapping SourceColumn="Piece Ct In" DataSetColumn="Piece Ct In" />
+              <Mapping SourceColumn="Pounds In" DataSetColumn="Pounds In" />
+              <Mapping SourceColumn="Linear Ft In" DataSetColumn="Linear Ft In" />
+              <Mapping SourceColumn="Item Ct Out" DataSetColumn="Item Ct Out" />
+              <Mapping SourceColumn="Piece Ct Out" DataSetColumn="Piece Ct Out" />
+              <Mapping SourceColumn="Pounds Out" DataSetColumn="Pounds Out" />
+              <Mapping SourceColumn="Linear Ft Out" DataSetColumn="Linear Ft Out" />
+            </Mappings>
+          </TableAdapter>
+        </Tables>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="transaction_dset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="COPS_x0020_Transactions_x0020_In_x0020_by_x0020_Carrier_x0020_with_x0020_distinct_x0020_columns">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Terminal">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Client">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="112" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Client_x0020_ref" type="xs:int" minOccurs="0" />
+              <xs:element name="Receiver" type="xs:int" />
+              <xs:element name="BOL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="Profile" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Carrier" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Product_x0020_Group_x0020_1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Product_x0020_Group_x0020_2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Product_x0020_Group_x0020_3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="release" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pounds_x0020_per_x0020_Foot" type="xs:double" minOccurs="0" />
+              <xs:element name="Notes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Item_x0020_Ct_x0020_In" type="xs:int" minOccurs="0" />
+              <xs:element name="Piece_x0020_Ct_x0020_In" type="xs:int" minOccurs="0" />
+              <xs:element name="Pounds_x0020_In" type="xs:int" minOccurs="0" />
+              <xs:element name="Linear_x0020_Ft_x0020_In" type="xs:double" minOccurs="0" />
+              <xs:element name="Item_x0020_Ct_x0020_Out" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="Piece_x0020_Ct_x0020_Out" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="Pounds_x0020_Out" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="Linear_x0020_Ft_x0020_Out" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//COPS_x0020_Transactions_x0020_In_x0020_by_x0020_Carrier_x0020_with_x0020_distinct_x0020_columns" />
+      <xs:field xpath="Receiver" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

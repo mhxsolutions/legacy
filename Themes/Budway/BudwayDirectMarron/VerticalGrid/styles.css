@@ -1,0 +1,447 @@
+.dxvgControl_BudwayDirectMarron,
+.dxvgDisabled_BudwayDirectMarron
+{
+    border: 1px Solid #8A0A37;
+    font: 12px Tahoma, Geneva, sans-serif;
+    background-color: #EFEFEF;
+    color: #000000;
+    cursor: default;
+}
+.dxvgDisabled_BudwayDirectMarron
+{
+    color: Gray;
+}
+.dxvgControl_BudwayDirectMarron a
+{
+    color: #8A0A37;
+}
+.dxvgControl_BudwayDirectMarron a:hover
+{
+    color: #BE458B;
+}
+.dxvgDisabled_BudwayDirectMarron a
+{
+    color: Gray;
+}
+
+.dxvgTable_BudwayDirectMarron
+{
+    background-color: White;
+    border-width: 0;
+    border-collapse: separate!important;
+    overflow: hidden;
+    table-layout: fixed;
+}
+.dxvgTable_BudwayDirectMarron .dxvgHEC
+{
+    background-color: White;
+    border-width: 0;
+    overflow: hidden;
+}
+
+.dxvgHeader_BudwayDirectMarron
+{
+    cursor: pointer;
+    color: white;
+    font-weight: normal;
+    text-align: left;
+    background-color: #AA1248;
+    padding: 5px;
+    border: 1px Solid #D5D5D5;
+    border-width: 0 1px 1px 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.dxvgCategory_BudwayDirectMarron
+{
+    color: #B5486D;
+    font-weight: bold;
+    background-color: #EBEBEB;
+    padding: 9px 6px;
+    border-bottom: 1px solid #D5D5D5;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.dxvgCategoryRow_BudwayDirectMarron.dxvgER .dxvgCategory_BudwayDirectMarron,
+.dxvgCategoryRow_BudwayDirectMarron.dxvgCR .dxvgCategory_BudwayDirectMarron 
+{
+    cursor: pointer;
+}
+.dxvgCategoryRow_BudwayDirectMarron.dxvgER .dxvgCategory_BudwayDirectMarron.dxvg__I,
+.dxvgCategoryRow_BudwayDirectMarron.dxvgCR .dxvgCategory_BudwayDirectMarron.dxvg__I 
+{
+    cursor: default;
+} 
+
+.dxvgRecord_BudwayDirectMarron
+{
+    padding: 4px 5px 5px;
+    border: 1px Solid #D5D5D5;
+    border-width: 0 1px 1px 0;
+    overflow: hidden;
+}
+.dxvgRecord_BudwayDirectMarron:last-child 
+{
+    border-right-width: 0;
+}
+.dxvgRPFC .dxvgRecord_BudwayDirectMarron
+{
+    border-bottom: 1px Solid #D5D5D5;
+}
+.dxvgRecordAlt_BudwayDirectMarron
+{
+    background-color: #F8EDEF;
+}
+
+/* Select, Hover */
+.dxvgSelectedRecord_BudwayDirectMarron
+{
+    background-color: #AD275C;
+    color: #FFFFFF;
+}
+.dxvgSelectedRecord_BudwayDirectMarron a
+{
+    color: #FFFFFF;
+}
+.dxvgDataRowHover_BudwayDirectMarron .dxvgRecord_BudwayDirectMarron
+{
+    background: #DBBBDA none;
+    color: Black;
+}
+
+/* Command Items */
+.dxvgCommandCell_BudwayDirectMarron a,
+.dxvgHeader_BudwayDirectMarron a.dxvgCommandItem_BudwayDirectMarron
+{
+    margin: 0 3px 0 0;
+}
+.dxvgHeader_BudwayDirectMarron a,
+.dxvgHeader_BudwayDirectMarron a.dxvgCommandItem_BudwayDirectMarron,
+.dxvgHeader_BudwayDirectMarron a.dxvgCommandItem_BudwayDirectMarron:hover
+{
+    color: White;
+}
+.dxbButton_BudwayDirectMarron[class~="dxvgCommandItem_BudwayDirectMarron"]
+{
+    margin: 0px 2px 0px 2px;
+}
+.dxbButton_BudwayDirectMarron[class~="dxvgCommandItem_BudwayDirectMarron"] .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Indents */
+.dxvgControl_BudwayDirectMarron .dxvg__I
+{
+    border-style: solid;
+    border-color: #D5D5D5;
+    border-width: 0 1px 0 0;
+    cursor: default;
+}
+.dxvgControl_BudwayDirectMarron .dxvg__I.dxvg__BB 
+{
+    border-bottom-width: 1px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgER .dxvg__I.dxvg__BB 
+{
+    border-bottom-width: 0;
+}
+.dxvgControl_BudwayDirectMarron .dxvgMHI .dxvg__I 
+{
+    border-right-width: 0;
+}
+.dxvgControl_BudwayDirectMarron .dxvgMHI .dxvgER .dxvg__I.dxvg__BB 
+{
+    border-bottom-width: 1px;
+}
+
+/* Title Panel, Status bar, Summary Panel */
+.dxvgTitlePanel_BudwayDirectMarron,
+.dxvgTable_BudwayDirectMarron caption
+{
+    font-weight: normal;
+    padding: 5px 5px 6px;
+    text-align: center;
+    border-bottom: 1px Solid #8A0A37;
+    color: #8A0A37;
+    background-color: #EED8E3;
+}
+.dxvgStatusBar_BudwayDirectMarron
+{
+    border-top: 1px Solid #D5D5D5;
+}
+.dxvgStatusBar_BudwayDirectMarron tr.dxvg
+{
+    height: 20px;
+}
+.dxvgStatusBar_BudwayDirectMarron tr.dxvg > td
+{
+    padding: 4px;
+}
+.dxvgStatusBar_BudwayDirectMarron tr.dxvg span .dxbButtonSys:first-child
+{
+    margin-left: 2px;
+}
+.dxvgSummaryPanel_BudwayDirectMarron
+{
+    background-color: #EED8E3;
+    border-top: 1px solid #e2ccd4;
+    padding: 8px 21px;
+}
+.dxvgSummaryItem_BudwayDirectMarron
+{
+    display: inline-block;
+    margin: 5px 8px 5px 0;
+}
+
+/* Pager */
+.dxvgPagerTopPanel_BudwayDirectMarron,
+.dxvgPagerBottomPanel_BudwayDirectMarron
+{
+    padding: 4px 0;
+}
+.dxvgPagerTopPanel_BudwayDirectMarron 
+{
+    border-bottom: 1px solid #e2ccd4;
+}
+.dxvgPagerBottomPanel_BudwayDirectMarron 
+{
+    border-top: 1px solid #e2ccd4;
+}
+
+.dxvgControl_BudwayDirectMarron .dxpSummary_BudwayDirectMarron,
+.dxvgControl_BudwayDirectMarron .dxpPageSizeItem_BudwayDirectMarron,
+.dxvgControl_BudwayDirectMarron .dxpLite_BudwayDirectMarron .dx-summary,
+.dxvgControl_BudwayDirectMarron .dxpLite_BudwayDirectMarron .dxp-pageSizeItem
+{
+    color: #727272;
+}
+
+/* Filter Builder, Filter Bar */
+.dxvgFilterBar_BudwayDirectMarron
+{
+    border-top: 1px solid #e2ccd4;
+    background: #efe2e8 none;
+}
+.dxvgFilterBar_BudwayDirectMarron a
+{
+    color: #8A0A37;
+    text-decoration: underline;
+}
+.dxvgFilterBar_BudwayDirectMarron a:hover
+{
+    color: #BE458B;
+}
+.dxvgFilterBarCheckBoxCell_BudwayDirectMarron
+{
+    padding: 0 7px 0 3px;
+}
+.dxvgFilterBarImageCell_BudwayDirectMarron
+{
+    padding: 0 1px 0 3px;
+    cursor: pointer;
+}
+.dxvgFilterBarExpressionCell_BudwayDirectMarron
+{
+    padding: 5px 5px 8px 0;
+    white-space: nowrap;
+}
+.dxvgFilterBarClearButtonCell_BudwayDirectMarron
+{
+    padding: 5px 6px 8px;
+}
+.dxvgFilterBuilderMainArea_BudwayDirectMarron
+{
+    background: white none;
+    padding: 6px 2px;
+} 
+.dxvgFilterBuilderButtonArea_BudwayDirectMarron
+{
+    background-color: #EED8E3;
+    border-top: 1px solid #CB9FB4;
+    padding: 6px;
+    white-space: nowrap;
+}
+
+/* Header Filter */
+.dxvgControl_BudwayDirectMarron .dxvgHFSAC
+{
+    padding: 9px 0 0 5px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgHFC
+{
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgHFC .dxeCalendar_BudwayDirectMarron
+{
+    margin-top: 3px;
+    margin-left: 23px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgHFSC
+{
+    padding: 9px 0 6px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgHFSC div
+{
+    height: 1px;
+    background: #8A0A37;
+}
+.dxvgControl_BudwayDirectMarron .dxvgHFSAC,
+.dxvgControl_BudwayDirectMarron .dxvgHFC,
+.dxvgControl_BudwayDirectMarron .dxvgHFSC,
+.dxvgControl_BudwayDirectMarron .dxvgHFLC
+{
+    background: White;
+}
+.dxvgControl_BudwayDirectMarron div[id$='DXEPLPC']
+{
+    height: 59px;
+}
+
+.dxvgControl_BudwayDirectMarron .dxvgHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxvgControl_BudwayDirectMarron .dxvgHFDRC
+{
+    margin: 15px 15px 25px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 25px;
+}
+
+/* Batch Edit */
+.dxvgControl_BudwayDirectMarron td.dxvgBatchEditCell_BudwayDirectMarron
+{
+    padding: 0 2px;
+}
+.dxvgControl_BudwayDirectMarron td.dxvgBatchEditModifiedCell_BudwayDirectMarron
+{
+    background: #d7f9c7;
+}
+.dxvgControl_BudwayDirectMarron .dxvgErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgErrorCell img
+{
+    margin: -3px 0;
+}
+.dxvgStatusBar_BudwayDirectMarron .dxbButton_BudwayDirectMarron
+{
+    margin-right: 10px;
+}
+.dxvgControl_BudwayDirectMarron td.dxvgBatchEditCell_BudwayDirectMarron .dxichCellSys
+{
+    padding-left: 0;
+}
+.dxvgRecordError_BudwayDirectMarron
+{
+    background-color: #F3D6D6;
+    color: #BA1717;
+    padding: 6px 10px;
+    height: 100%;
+}
+
+/* LoadingPanel */
+.dxvgLoadingPanel_BudwayDirectMarron
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    color: #767676;
+    background-color: #f6f6f6;
+    border: 1px solid #898989;
+}
+.dxvgLoadingPanel_BudwayDirectMarron td.dx
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px 20px 6px;
+}
+.dxvgLoadingPanel_BudwayDirectMarron .dxlp-loadingImage,
+.dxvgLoadingPanelStatusBar_BudwayDirectMarron .dxlp-loadingImage 
+{
+    background-image: url('../Web/Loading.gif');
+    height: 18px;
+    width: 18px;
+}
+.dxvgLoadingPanelStatusBar_BudwayDirectMarron
+{
+    background-color: transparent;
+}
+.dxvgLoadingPanelStatusBar_BudwayDirectMarron td
+{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0px 2px;
+}
+
+/* Search Panel */
+.dxvgSearchPanel_BudwayDirectMarron
+{
+    background: #E2A4BA;
+    padding: 7px 4px 7px 6px;
+    border-bottom: 1px solid #8A0A37;
+}
+.dxvgSearchPanel_BudwayDirectMarron > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgSearchPanel_BudwayDirectMarron .dxbButton_BudwayDirectMarron
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxvgControl_BudwayDirectMarron .dxvgSearchPanel_BudwayDirectMarron .dxbButton_BudwayDirectMarron {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgHL
+{
+    background: #ffd83a;
+    color: #333333;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxvgControl_BudwayDirectMarron .dxvgSearchPanel_BudwayDirectMarron .dxbButton_BudwayDirectMarron
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxvgControl_BudwayDirectMarron .dxvgSearchPanel_BudwayDirectMarron .dxbButton_BudwayDirectMarron .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxvgTable_BudwayDirectMarron
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxvgFocusedCell_BudwayDirectMarron
+{
+    box-shadow: inset 2px 2px 0 #dcdcdc, inset -2px -2px 0 #dcdcdc;
+    -webkit-box-shadow: inset 2px 2px 0 #dcdcdc, inset -2px -2px 0 #dcdcdc;
+    -moz-box-shadow: inset 2px 2px 0 #dcdcdc, inset -2px -2px 0 #dcdcdc;
+}

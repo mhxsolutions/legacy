@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="BopsDataAccess.BopsPickupRequest, BopsDataAccess" table="[tblPickUpRequests]" lazy="false">
+		<id name="PickupRequestId" column="[Pick Up ID]">
+			<generator class="identity" />
+		</id>
+		<property name="PickupDate" column="[Pick Up Date]" />
+		<property name="PickUpAptTime" column="[Pick Up Apt Time]" />
+		<property name="ReleaseNumber" column="[Pick Up Release Number]" />
+		<property name="ShipperRef" column="[Shipper Ref]" />
+		<property name="LocationRef" column="[Pick Up Location Ref]" />
+		<property name="PickupAddress" column="[Pick Up Address]" />
+		<property name="CommodityRef" column="[Pick Up Commodity Ref]" />
+		<property name="ReceiverRef" column="[Receiver Ref]" />
+		<property name="DeliveryRef" column="[Pick Up Delivery Ref]" />
+		<property name="DeliveryAddress" column="[Pick Up Del Address]" />
+		<property name="PurShipperRef" column="[PUR Shipper]" />
+		<property name="PurReceiverRef" column="[PUR Receiver]" />
+		<property name="PurBillToRef" column="[PUR Bill To]" />
+		<property name="Comments" column="[Pick Up Comments]" />
+		<property name="CreateDate" column="[Pick Up Creation Date]" />
+		<property name="ModificationDate" column="[Pick Up Modification Date]" />
+		<property name="Editor" column="[Pick Up Editor]" />
+		<property name="Printed" column="[Printed]" />
+		<property name="CreatedBy" column="[Created By]" />
+		<property name="ModifiedBy" column="[Modified By]" />
+		<property name="LogRef" column="[Log Ref]" />
+		<property name="BillThisLoad" column="[Bill this Load]" />
+		<property name="ShipBlind" column="[ShipBlind]" />
+		<property name="RfsRef" column="[RFS Ref]" />
+		<property name="FleetRef" column="[Fleet ref]" />
+		<property name="ClientInvoiceData" column="[Client Invoice Data]" />
+	</class>
+</hibernate-mapping>

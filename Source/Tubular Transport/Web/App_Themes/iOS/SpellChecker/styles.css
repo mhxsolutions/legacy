@@ -1,0 +1,104 @@
+/* -- ASPxSpellChecker -- */
+#dxMainSpellCheckFormTable,
+#dxMainSpellCheckOptionsFormTable
+{
+    font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+    color: #4C566C;
+}
+.dxwscCheckedTextContainer_iOS
+{
+	background-color: white;
+	font-size: 14px;
+	border: solid 1px #B2B2B2;
+	vertical-align:top;
+	overflow:auto;
+	width: 340px;	
+	height: 110px;
+	padding: 5px;	
+}
+.dxwscErrorWord_iOS
+{
+	background: url('scErrorUnderline.gif') bottom;
+	background-repeat:repeat-x;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+.dxsc-main
+{
+    border-radius: 4px;
+}
+.dxsc-main > TABLE > TBODY > TR:last-child,
+.dxsc-main > TABLE > TBODY > TR:first-child > TD:last-child,
+.dxsc-main.dxwsc-rtl > TABLE > TBODY > TR:first-child > TD:first-child
+{
+    display: none;
+}
+.dxsc-main.dxwsc-rtl > TABLE > TBODY > TR:first-child > TD:last-child
+{
+    display: inherit;
+}
+
+.dxwscLoadingPanel_iOS
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxwscLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxwscLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxwscLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxwscLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxwscLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxwscLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxwscLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxwscLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxwscLoadingPanelStatusBar_iOS
+{
+	background-color: Transparent;
+}
+.dxwscLoadingPanelStatusBar_iOS td
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 0px 2px;
+}

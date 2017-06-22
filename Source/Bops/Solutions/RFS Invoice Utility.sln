@@ -1,0 +1,110 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{55F51A68-ADF4-4482-B50A-08D83247FEE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F47D7EB0-0BA3-4773-BCC2-A27D07F000CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFS Invoice Utility", "..\Tools\RFS Invoice Utility\RFS Invoice Utility.csproj", "{5523F654-3B5A-4DAB-8820-9B46588B9C9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsAuthentication", "..\Libraries\BopsAuthentication\BopsAuthentication.csproj", "{55934167-7AD3-41DA-93F4-7029B04A3BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsBusinessLogicRfs", "..\Libraries\BopsBusinessLogicRfs\BopsBusinessLogicRfs.csproj", "{DC85CA38-1FEC-4995-B861-75A16EA5CE9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsDataAccess", "..\Libraries\BopsDataAccess\BopsDataAccess.csproj", "{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsDataConnector", "..\Libraries\BopsDataConnector\BopsDataConnector.csproj", "{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsUtilities", "..\Libraries\BopsUtilities\BopsUtilities.csproj", "{DF084C4B-47F4-43C3-B541-2B6A967D6E67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateUtilities", "..\Libraries\NHibernateUtilities\NHibernateUtilities.csproj", "{BBABCE36-C99A-4F65-8263-1038D792BB01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsBusinessLogicFsc", "..\Libraries\BopsBusinessLogicFsc\BopsBusinessLogicFsc.csproj", "{D1CC058F-A164-4615-80B3-4CDF910040C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsUiRfs", "..\Libraries\BopsUiRfs\BopsUiRfs.csproj", "{1CCD4EF4-3D95-4735-9F46-255D38D80872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsBusinessLogicRfsTests", "..\Tests\BopsBusinessLogicRfsTests\BopsBusinessLogicRfsTests.csproj", "{6F486287-2201-4F45-AFEF-F57854A6F9ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsDataAccessTests", "..\Tests\BopsDataAccessTests\BopsDataAccessTests.csproj", "{0F5067A9-12E5-406C-AAD3-D44D722397E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsUtilitiesTests", "..\Tests\BopsUtilitiesTests\BopsUtilitiesTests.csproj", "{70D541DC-2C17-4962-855C-53798418196D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F5E7A3EC-4088-432C-A80E-A573BD02CE03}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5523F654-3B5A-4DAB-8820-9B46588B9C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5523F654-3B5A-4DAB-8820-9B46588B9C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5523F654-3B5A-4DAB-8820-9B46588B9C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5523F654-3B5A-4DAB-8820-9B46588B9C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55934167-7AD3-41DA-93F4-7029B04A3BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55934167-7AD3-41DA-93F4-7029B04A3BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55934167-7AD3-41DA-93F4-7029B04A3BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55934167-7AD3-41DA-93F4-7029B04A3BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC85CA38-1FEC-4995-B861-75A16EA5CE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC85CA38-1FEC-4995-B861-75A16EA5CE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC85CA38-1FEC-4995-B861-75A16EA5CE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC85CA38-1FEC-4995-B861-75A16EA5CE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF084C4B-47F4-43C3-B541-2B6A967D6E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF084C4B-47F4-43C3-B541-2B6A967D6E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF084C4B-47F4-43C3-B541-2B6A967D6E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF084C4B-47F4-43C3-B541-2B6A967D6E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBABCE36-C99A-4F65-8263-1038D792BB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBABCE36-C99A-4F65-8263-1038D792BB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBABCE36-C99A-4F65-8263-1038D792BB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBABCE36-C99A-4F65-8263-1038D792BB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CC058F-A164-4615-80B3-4CDF910040C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CC058F-A164-4615-80B3-4CDF910040C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CC058F-A164-4615-80B3-4CDF910040C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CC058F-A164-4615-80B3-4CDF910040C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCD4EF4-3D95-4735-9F46-255D38D80872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCD4EF4-3D95-4735-9F46-255D38D80872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCD4EF4-3D95-4735-9F46-255D38D80872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCD4EF4-3D95-4735-9F46-255D38D80872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F486287-2201-4F45-AFEF-F57854A6F9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F486287-2201-4F45-AFEF-F57854A6F9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F486287-2201-4F45-AFEF-F57854A6F9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F486287-2201-4F45-AFEF-F57854A6F9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5067A9-12E5-406C-AAD3-D44D722397E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5067A9-12E5-406C-AAD3-D44D722397E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5067A9-12E5-406C-AAD3-D44D722397E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5067A9-12E5-406C-AAD3-D44D722397E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D541DC-2C17-4962-855C-53798418196D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D541DC-2C17-4962-855C-53798418196D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D541DC-2C17-4962-855C-53798418196D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D541DC-2C17-4962-855C-53798418196D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55934167-7AD3-41DA-93F4-7029B04A3BE2} = {55F51A68-ADF4-4482-B50A-08D83247FEE2}
+		{DC85CA38-1FEC-4995-B861-75A16EA5CE9B} = {55F51A68-ADF4-4482-B50A-08D83247FEE2}
+		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C} = {55F51A68-ADF4-4482-B50A-08D83247FEE2}
+		{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19} = {55F51A68-ADF4-4482-B50A-08D83247FEE2}
+		{DF084C4B-47F4-43C3-B541-2B6A967D6E67} = {55F51A68-ADF4-4482-B50A-08D83247FEE2}
+		{BBABCE36-C99A-4F65-8263-1038D792BB01} = {55F51A68-ADF4-4482-B50A-08D83247FEE2}
+		{D1CC058F-A164-4615-80B3-4CDF910040C6} = {55F51A68-ADF4-4482-B50A-08D83247FEE2}
+		{1CCD4EF4-3D95-4735-9F46-255D38D80872} = {55F51A68-ADF4-4482-B50A-08D83247FEE2}
+		{6F486287-2201-4F45-AFEF-F57854A6F9ED} = {F47D7EB0-0BA3-4773-BCC2-A27D07F000CE}
+		{0F5067A9-12E5-406C-AAD3-D44D722397E1} = {F47D7EB0-0BA3-4773-BCC2-A27D07F000CE}
+		{70D541DC-2C17-4962-855C-53798418196D} = {F47D7EB0-0BA3-4773-BCC2-A27D07F000CE}
+	EndGlobalSection
+EndGlobal

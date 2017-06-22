@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsCalculationResult, BopsDataAccess" table="[RFS Calculation Results]" lazy="false">
+    <id name="ResultId" column="[Result Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="LoadReference" column="[Load]"/>
+    <property name="ResultType" column="[Result Type]"/>
+    <property name="LastCalculation" column="[Last Calculation]"/>
+    <property name="Resolved" column="[Resolved]"/>
+    <property name="DoNotUpdate" column="[Do Not Update]"/>
+    <property name="WarehouseDocumentId" column="[Warehouse Document Id]"/>
+    <property name="WarehouseDocumentType" column="[Warehouse Document Type]"/>
+  </class>
+</hibernate-mapping>

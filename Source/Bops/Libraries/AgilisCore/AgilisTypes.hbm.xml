@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="AgilisCore.AgilisDriverPosition, AgilisCore" table="[Agilis Imported Driver Position History]" lazy="false">
+    <id name="DriverPositionId" column="[Driver Position Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="DriverId" column="[Driver Ref]"/>
+    <property name="Timestamp" column="Timestamp"/>
+    <property name="Latitude" column="Latitude"/>
+    <property name="Longitude" column="Longitude"/>
+    <property name="Accuracy" column="Accuracy"/>
+  </class>
+  <class name="AgilisCore.AgilisDriverEvent, AgilisCore" table="[Agilis Imported Driver Event History]" lazy="false">
+    <id name="DriverEventId" column="[Driver Event Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="DriverId" column="[Driver Ref]"/>
+    <property name="DriverEventCode" column="[Event Code]"/>
+    <property name="Timestamp" column="Timestamp"/>
+  </class>
+  <class name="AgilisCore.AgilisDriver, AgilisCore" table="[Agilis Imported Drivers]" lazy="false">
+    <id name="DriverId" column="[Driver Id]" unsaved-value="0">
+      <generator class="assigned" />
+    </id>
+    <property name="VehicleNumber" column="[Vehicle Number]"/>
+    <property name="PhoneNumber" column="[Phone Number]"/>
+    <property name="LastSynced" column="[Last Synced]"/>
+    <property name="FirstName" column="[First Name]"/>
+    <property name="LastName" column="[Last Name]"/>
+    <property name="FleetNumber" column="[Fleet Number]"/>
+    <property name="BusinessUnitNumber" column="[Business Unit Number]"/>
+    <property name="Active" column="[Active]"/>
+  </class>
+  <class name="AgilisCore.AgilisWorkOrder, AgilisCore" table="[Agilis Imported Work Orders]" lazy="false">
+    <id name="WorkOrderId" column="[Work Order Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="WorkOrderNumber" column="[Work Order Number]"/>
+    <property name="LastEdited" column="[Last Edited]"/>
+    <property name="CurrentStatus" column="[Current Status]"/>
+    <property name="StatusLastUpdated" column="[Status Last Updated]"/>
+    <property name="SlotStartDate" column="[Slot Start Date]"/>
+    <property name="DriverNumber" column="[Driver Number]"/>
+    <property name="Sequence" column="[Sequence]"/>
+    <property name="PlannerDetailId" column="[Planner Detail Ref]"/>
+    <property name="OriginId" column="[Origin Ref]"/>
+    <property name="DestinationId" column="[Destination Ref]"/>
+    <property name="LoadRef" column="[Load Ref]"/>
+    <property name="Tractor" column="[Tractor]"/>
+    <property name="Trailer" column="[Trailer]"/>
+    <property name="Notes" column="[Notes]"/>
+  </class>
+  <class name="AgilisCore.AgilisWorkOrderJob, AgilisCore" table="[Agilis Imported Work Order Jobs]" lazy="false">
+    <id name="WorkOrderJobId" column="[Work Order Job Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="WorkOrderRef" column="[Work Order Ref]"/>
+    <property name="AgilisJobId" column="[Agilis Job Id]"/>
+    <property name="AgilisJobType" column="[Agilis Job Type]"/>
+    <property name="Description" column="[Description]"/>
+  </class>
+  <class name="AgilisCore.AgilisWorkOrderJobStatusHistory, AgilisCore" table="[Agilis Imported Work Order Job History]" lazy="false">
+    <id name="WorkOrderJobStatusHistoryId" column="[Work Order Job History Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="WorkOrderJobRef" column="[Work Order Job Ref]"/>
+    <property name="AgilisJobStatus" column="[Agilis Job Status]"/>
+    <property name="Description" column="[Description]"/>
+    <property name="Timestamp" column="Timestamp"/>
+    <property name="CorrectTimestamp" column="[Correct Timestamp]"/>
+    <property name="PositionTimestamp" column="[Position Timestamp]"/>
+    <property name="Latitude" column="Latitude"/>
+    <property name="Longitude" column="Longitude"/>
+    <property name="Accuracy" column="Accuracy"/>
+  </class>
+  <class name="AgilisCore.AgilisIntegrationOperation, AgilisCore" table="[Agilis Integration Operations]" lazy="false">
+    <id name="OperationId" column="[Operation Id]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="PlanDate" column="[Plan Date]"/>
+    <property name="BeginDate" column="[Begin Date]"/>
+    <property name="EndDate" column="[End Date]"/>
+    <property name="DataTypeString" column="[Data Type]"/>
+    <property name="OperationString" column="[Operation]"/>
+    <property name="RecordsSuccessful" column="[Records Successful]"/>
+    <property name="RecordsFailed" column="[Records Failed]"/>
+    <property name="WarningCount" column="[Warning Count]"/>
+    <property name="ErrorCount" column="[Error Count]"/>
+    <property name="Successful" column="[Successful]"/>
+    <property name="Notes" column="[Notes]"/>
+  </class>
+  <class name="AgilisCore.AgilisOperationFilter, AgilisCore" table="[Agilis Integration Operation Filters]" lazy="false">
+    <id name="FilterId" column="[Filter Id]">
+      <generator class="identity"/>
+    </id>
+    <property name="DataTypeString" column="[Data Type]"/>
+    <property name="FilterTypeString" column="[Filter Type]"/>
+    <property name="FilterScopeString" column="[Filter Scope]"/>
+    <property name="FilterField" column="[Filter Field]"/>
+    <property name="FilterRule" column="[Filter Rule]"/>
+    <property name="ReverseFilter" column="[Reverse Filter]"/>
+    <property name="BeginDate" column="[Begin Date]" />
+    <property name="EndDate" column="[End Date]"/>
+  </class>
+  <class name="AgilisCore.AgilisSignature, AgilisCore" table="[Agilis Imported Work Order Signatures]" lazy="false">
+    <id name="SignatureId" column="[Signature Id]">
+      <generator class="identity"/>
+    </id>
+    <property name="WorkOrderRef" column="[Work Order Ref]"/>
+    <property name="Timestamp" column="[Timestamp]"/>
+    <property name="Number" column="[Number]"/>
+    <property name="Folder" column="[Folder]"/>
+    <property name="FileName" column="[FileName]"/>
+    <property name="Type" column="[Type]"/>
+  </class>
+  <class name="AgilisCore.AgilisDriverPlanControl, AgilisCore" table="[Agilis Driver Plan Control]" lazy="false">
+    <id name="DriverRef" column="[Driver Ref]">
+      <generator class="identity"/>
+    </id>
+    <property name="UploadStrategy" column="[Upload Strategy]"/>
+    <property name="UploadHour" column="[Upload Hour]"/>
+  </class>
+</hibernate-mapping>

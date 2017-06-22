@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsFuelCardDriverAssignment, BopsDataAccess" table="[Fuel Card Driver Assignments]" lazy="false">
+    <id name="CardId" column="[Card Id]" unsaved-value="0">
+      <generator class="assigned" />
+    </id>
+    <property name="DriverRef" column="[Driver Ref]" />
+  </class>
+</hibernate-mapping>

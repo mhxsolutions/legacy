@@ -1,0 +1,110 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="TubularTransport.master.cs" Inherits="TubularTransport" %>
+
+<%@ Register Src="Controls/LoadTrackingControl.ascx" TagName="LoadTrackingControl" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Tubular Transport</title>
+    <style type="text/css">
+        #form1
+        {
+            height: 22px;
+            width: 1121px;
+        }
+        .style2
+        {
+            font-family: Verdana;
+        }
+        .style3
+        {
+            font-family: Verdana;
+            font-size: small;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderHead" runat="server" />
+</head>
+<body id="Body"  style="width: 100%; height: 100%;" runat="server">
+        
+        <form id="form1" runat="server">
+
+            <%-- Main logo --%>
+
+            <%-- "Breadcrumbs" --%>
+
+            <div style="z-index: 102; left: 8px; width: 500px; position: absolute; top: 97px; font-family: Verdana;">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+                    <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                    <CurrentNodeStyle ForeColor="DimGray" />
+                    <NodeStyle Font-Bold="True" ForeColor="Black" />
+                    <RootNodeStyle Font-Bold="True" ForeColor="DarkRed" />
+                </asp:SiteMapPath>
+            </div>
+
+            <%-- Navigation Pane --%>
+
+            <div style="z-index: 103; position: absolute; left: 9px; top: 157px; width: 220px;">
+
+                <div style="width: 219px; font-family: Verdana; font-size: small;">
+                    <uc1:LoadTrackingControl ID="LoadTrackingControl1" runat="server" />
+                    <asp:Label ID="_UserLabel" runat="server" Text='?'></asp:Label>
+                    <br />
+                    <br />
+                </div>
+                    
+                <div style="z-index: 200; height: 380px; width: 219px;">
+                    <dx:ASPxNavBar ID="ASPxNavBar1" runat="server" AutoCollapse="True" DataSourceID="ASPxSiteMapDataSource1" ExpandGroupAction="MouseOver" Theme="Office2010Black">
+                    </dx:ASPxNavBar>
+                    <asp:Menu ID="_TopMenu" runat="server" CssSelectorClass="TopMenu" 
+                        DataSourceID="SiteMapDataSource1" onmenuitemclick="_TopMenu_MenuItemClick" StaticSubMenuIndent="10px" 
+                        Height="245px" Width="220px" BackColor="#E3EAEB" 
+                        DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
+                        ForeColor="#666666" style="font-size: medium" Visible="False"  >
+                        <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#E3EAEB" />
+                        <DynamicSelectedStyle BackColor="#1C5E55" />
+                        <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#1C5E55" />
+                    </asp:Menu>
+                    <br />
+                </div>
+                    
+                <div style="z-index: 200; height: 114px;">
+                    <br />
+                    <dx:ASPxSiteMapDataSource ID="ASPxSiteMapDataSource1" runat="server" SiteMapFileName="" />
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+                </div>
+                
+                <p><strong><span class="style2">TTL</span><br class="style2" />
+                    </strong><span class="style3">11799 Sebastian Way, Ste 101</span><br class="style3" />
+                    <span class="style3">Rancho Cucamonga, Ca 91730</span></p>
+                <p><span class="style3">562-280-7185</span><br class="style2" />
+                </p>
+
+                
+
+                <!-- GeoTrust QuickSSL [tm] Smart Icon tag. Do not edit. -->
+                 <script type="text/javascript" src="https://seal.geotrust.com/getgeotrustsslseal?host_name=ttl.sc-man.com&amp;size=M&amp;lang=en"></script>
+                <!-- end GeoTrust Smart Icon tag -->
+
+
+                <p class="CopyrightText"><span class="style3">Copyright © 2011-2015</span><br class="style3" />
+                    <span class="style3">Tubular Transport and Logistics</span><br class="style3" />
+                    <span class="style3">All Rights Reserved</span></p>
+
+            </div>
+
+            <%-- Content Pane --%> 
+            
+            <div style="z-index: 100; position: absolute; left: 260px; top: 136px; width: 1024px; height: 469px;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+            </div>
+            <p style="height: 83px">
+                <asp:Image ID="Logo" runat="server" ImageUrl="~/Images/TTL-Website-Header.jpg" />
+            </p>
+            <hr />
+        </form>
+    </body>
+</html>

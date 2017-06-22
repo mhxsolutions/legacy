@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FarPoint.Localization</name>
+    </assembly>
+    <members>
+        <member name="T:FarPoint.Localization.LocalizationResourceManager">
+            <summary>
+            Provides convenient access to culture-specific resources at run time.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Localization.LocalizationResourceManager.#ctor(System.Type)">
+            <summary>
+            Initializes a new instance of the FarPoint.Localization.LocalizationResourceManager class
+            that looks up resources in satellite assemblies based on information from the specified System.Type.
+            </summary>
+            <param name="resourceSource">
+            A System.Type from which the FarPoint.Localization.LocalizationResourceManager
+            derives all information for finding .resources files.
+            </param>
+        </member>
+        <member name="M:FarPoint.Localization.LocalizationResourceManager.#ctor(System.String,System.Reflection.Assembly)">
+            <summary>
+            Initializes a new instance of the FarPoint.Localization.LocalizationResourceManager class
+            that looks up specified resources with the default language resources namespace inside satellite assemblies
+            of the specified assembly.
+            Note: This constructor use the information in the FarPoint.Localization.DefaultLanguageResourcesNameSpaceAttribute
+            of the assembly to identify the rootname of resource file, so if the assembly don't have this attribute, this constructor
+            would suppose that the resource file has empty namespace.
+            </summary>
+            <param name="resourceName">The resource file name (without its extension).</param>
+            <param name="assembly">The main assembly for the resources.</param>
+        </member>
+        <member name="M:FarPoint.Localization.LocalizationResourceManager.GetDefaultLanguageResourcesNameSpace(System.Reflection.Assembly)">
+            <summary>
+            Get the default name space of languages resources file of the specified assembly
+            from its DefaultLanguageResourcesNameSpace attribute
+            </summary>
+            <param name="assembly">The specified assembly</param>
+            <returns>The default name space of languages resources file</returns>
+        </member>
+        <member name="M:FarPoint.Localization.LocalizationResourceManager.#ctor(System.String,System.String,System.Reflection.Assembly)">
+            <summary>
+            Initializes a new instance of the FarPoint.Localization.LocalizationResourceManager class
+            that looks up specified resources in the default language resources path inside satellite assemblies
+            of the specified assembly.
+            Note: This constructor use the information in the FarPoint.Localization.DefaultLanguageResourcesPathAttribute
+            of the assembly to identify the rootname of resource file, so if the assembly don't have this attribute, this constructor
+            would cause a exception.
+            </summary>
+            <param name="nameSpace">The fully qualified namespace of language resource file</param>
+            <param name="resourceName">The resource file name (without its extension).</param>
+            <param name="assembly">The main assembly for the resources.</param>
+        </member>
+        <member name="T:FarPoint.Localization.DefaultLanguageResourcesNameSpaceAttribute">
+            <summary>
+            Specifies the default fully qualified namespace of language resources files inside the attributed assembly.
+            This attribute is using by FarPoint.Win.Location.LocatizationResourceManager object 
+            to identify the root name of the resource file with specified file name inside specified assembly.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Localization.DefaultLanguageResourcesNameSpaceAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the FarPoint.Localization.DefaultLanguageResourcesNameSpaceAttribute class
+            with the default fully qualified namespace of language resources files inside the attributed assembly.
+            </summary>
+            <param name="defaultLanguageResourcesPath">
+            The default fully qualified namespace name of language resources files.
+            </param>
+        </member>
+        <member name="P:FarPoint.Localization.DefaultLanguageResourcesNameSpaceAttribute.DefaultNameSpace">
+            <summary>
+            Gets the default fully qualified namespace name of language resources files.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsStorageRate, BopsDataAccess" table="[RFS Storage Rates]" lazy="false">
+    <id name="RateId" column="[Rate Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="BillToClientRef" column="[Bill To Client Ref]"/>
+    <property name="BillingType" column="[Billing Type Ref]"/>
+    <property name="DaysInCycle" column="[Days In Cycle]"/>
+    <property name="UnitCostPerCycle" column="[Unit Cost Per Cycle]"/>
+    <property name="UnitRef" column="[Unit Ref]"/>
+    <property name="Description" column="[Description]"/>
+  </class>
+</hibernate-mapping>

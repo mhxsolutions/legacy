@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="~/default.aspx" title="Home">
+    <siteMapNode title="Administration" roles="Administrators">
+      <siteMapNode url="~/Administration/AdministerUsers.aspx" title="Administer Users" roles="Administrators" />
+    </siteMapNode>
+    <siteMapNode title="Power Users" roles="Administrators,Power Users">
+      <siteMapNode url="~/Power Users/ImpersonateClient.aspx" title="Impersonate Client" roles="Administrators, Power Users" />
+      <siteMapNode url="~/Power Users/LoginCount.aspx" title="Login Count" roles="Administrators, Power Users" />
+      <siteMapNode url="~/Power Users/LoginHistory.aspx" title="Login History" roles="Administrators, Power Users" />
+    </siteMapNode>
+    <siteMapNode title="Stock on Hand" roles="*">
+      <siteMapNode url="~/Clients/All/StockSummary.aspx" title="Stock Summary" />
+    </siteMapNode>
+    <siteMapNode title="My Custom Reports" roles="*">
+      <siteMapNode url="~/Clients/Assigned/Default.aspx" title="My Reports" />
+    </siteMapNode>
+    <siteMapNode title="My Account" roles="*">
+      <siteMapNode url="~/All/ChangePassword.aspx" title="Change Password" />
+    </siteMapNode>
+    <siteMapNode title="Tutorials" roles="*">
+      <siteMapNode url="~/All/Tutorial.aspx" title="Data Grid Tutorials"></siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

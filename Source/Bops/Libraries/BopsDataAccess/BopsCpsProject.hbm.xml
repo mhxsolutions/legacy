@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsCpsProject, BopsDataAccess" table="[CPS Projects]" lazy="false">
+    <id name="ProjectId" column="[Project Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="CreateTimestamp" column="[Create Timestamp]"/>
+    <property name="CreateUser" column="[Create User]"/>
+    <property name="BillToClientRef" column="[Bill To Client Ref]"/>
+    <property name="BookingId" column="[Booking Id]"/>
+    <property name="Description" column="[Description]"/>
+    <property name="Berth" column="[Berth]"/>
+    <property name="ShippingLine" column="[Shipping Line]"/>
+    <property name="DefaultOriginRef" column="[Default Origin Ref]"/>
+    <property name="DefaultDestinationRef" column="[Default Destination Ref]"/>
+    <property name="BeginDate" column="[Begin Date]"/>
+    <property name="DemurrageDays" column="[Demurrage Days]"/>
+    <property name="TotalContainers" column="[Total Containers]"/>
+    <property name="Notes" column="[Notes]"/>
+    <property name="Complete" column="[Complete]"/>
+  </class>
+</hibernate-mapping>

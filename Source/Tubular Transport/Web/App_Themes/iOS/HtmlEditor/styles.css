@@ -1,0 +1,390 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingPanel_iOS
+{
+	font: bold 18px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Black;
+	border: 1px solid rgba(0, 0, 0, 0.35);
+	border-radius: 8px;
+	border-collapse: separate !important;
+	
+	box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 0 0 1px rgba(255,255,255,0.25), 0 8px 16px 0px rgba(0,0,0,0.35);
+	
+	background-clip: content-box;
+	-webkit-background-clip: content-box;
+	-moz-background-clip: content-box;
+}
+.dxheLoadingPanel_iOS td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 32px 29px;
+	background-color: #E2E5EA;
+}
+.dxheLoadingPanel_iOS td.dx:first-child,
+*[dir="rtl"] .dxheLoadingPanel_iOS td.dx:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.dxheLoadingPanel_iOS td.dx:last-child,
+*[dir="rtl"] .dxheLoadingPanel_iOS td.dx:first-child
+{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.dxheLoadingPanel_iOS td.dx:first-child:last-child
+{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.dxheLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: -1px 0px #E2E5EA;
+}
+*[dir="rtl"] .dxheLoadingPanel_iOS td.dx + td.dx
+{
+	-webkit-box-shadow: 1px 0px #E2E5EA;
+}
+.dxheLoadingPanelStatusBar_iOS
+{
+	background-color: Transparent;
+}
+.dxheLoadingPanelStatusBar_iOS td
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 0px 2px;
+}
+
+
+.dxheControl_iOS
+{
+    border: Solid 1px #AFB1B6;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.dxtcTabsCellWithTabPositionBottom 
+{
+    padding: 0px!important;
+    border-bottom: 0px Solid Transparent;
+}
+.dxtcLeftIndentCell_iOS,
+.dxtcRightAlignCell_iOS
+{
+    display:none;
+}
+.dxtcTabsCellWithTabPositionBottom > TABLE > TBODY > TR > TD 
+{
+    width: 100%;
+}
+
+.dxtcTabsCellWithTabPositionBottom .dxtcActiveRow_iOS > tbody > tr > td 
+{
+    box-shadow: none!important;
+}
+.dxtcTabsCellWithTabPositionBottom .dxtcActiveRow_iOS > tbody > tr > td:nth-child(-n+2) {
+    border-radius: 0 0 0 4px;
+    border-color: transparent;
+}
+.dxheControl_iOS.dxhe-rtl .dxtcTabsCellWithTabPositionBottom .dxtcActiveRow_iOS > tbody > tr > td:nth-child(-n+2) 
+{
+    border-radius: 0 0 4px 0;
+}
+.dxtcTabsCellWithTabPositionBottom .dxtcActiveRow_iOS > tbody > tr > td:nth-last-child(-n+2) 
+{
+    border-radius: 0 0 4px 0;
+    border-color: transparent;
+}
+.dxheControl_iOS.dxhe-rtl .dxtcTabsCellWithTabPositionBottom .dxtcActiveRow_iOS > tbody > tr > td:nth-last-child(-n+2) 
+{
+    border-radius: 0 0 0 4px;
+}
+
+.dxtcActiveRow_iOS 
+{
+    height: 42px;
+}
+
+.dxtcActiveRow_iOS > TBODY >TR > TD > TABLE 
+{
+    width:100%;
+}
+/* Area */
+.dxheErrorFrame_iOS
+{
+    font: bold 13px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: Red;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheErrorFrame_iOS .dxhe {
+    padding: 5px;
+}
+.dxheErrorFrame_iOS .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_iOS .dxheErrorFrameCloseButton_iOS {
+    cursor: pointer;
+}
+.dxheContentArea_iOS
+{
+}
+.dxheViewArea_iOS,
+.dxheHtmlViewArea_iOS
+{
+    padding: 0px!importnant;
+    border-color:Transparent!important;
+    box-shadow: none!important;
+}
+
+.dxhePreviewArea_iOS
+{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.dxheHtmlViewEdit_iOS,
+.dxheDesignViewArea_iOS,
+.dxhePreviewArea_iOS 
+{
+    margin: 0px;
+    background-color: #FFFFFF;
+    background-image: none;
+    font-size: smaller;
+    font: Bold 13px HelveticaNeue,Helvetica,Verdana,sans-serif;
+}
+td.dxheHtmlViewEdit_iOS, body.dxheDesignViewArea_iOS, body.dxhePreviewArea_iOS
+{
+    padding: 0 0 0 4px;
+}
+.dxheControl_iOS.dxhe-rtl td.dxheHtmlViewEdit_iOS,
+.dxheControl_iOS.dxhe-rtl .dxeMemo_iOS td,
+body.dxheDesignViewArea_iOS.dxhe-rtl, 
+body.dxhePreviewArea_iOS.dxhe-rtl
+{
+	padding: 0 4px 0 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .dxheControl_iOS.dxhe-rtl td.dxheHtmlViewEdit_iOS,
+    .dxheControl_iOS.dxhe-rtl .dxeMemo_iOS td
+    {
+	    padding: 0 0 0 4px;
+    }    
+}
+.dxheControl_iOS .dxeMemo_iOS textarea 
+{
+	resize:none;
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_iOS table.dxEmptyBorderTable,
+body.dxheDesignViewArea_iOS table.dxEmptyBorderTable td {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_iOS table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_iOS table.dxEmptyBorderTable td {
+		border:0px;
+	}
+}
+/* Status Bar */
+.dxheStatusBar_iOS 
+{
+}
+.dxheStatusBarTab_iOS 
+{    
+}
+.dxHtmlEditor_heSizeGrip_iOS
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_iOS
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_iOS 
+{
+    float: left;
+    height: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -32px;
+}
+.dxheControl_iOS.dxhe-rtl .dxheSizeGripContainer_iOS
+{
+	text-align: left;
+}
+
+.dxtb-comboBoxMenuItem > DIV > TABLE > TBODY > TR:last-child,
+.dxtb-comboBoxMenuItem > DIV > TABLE > TBODY > TR:first-child > TD:last-child
+{
+    display: none;
+}
+.dxheControl_iOS.dxhe-rtl .dxtb-comboBoxMenuItem > DIV > TABLE > TBODY > TR:first-child > TD:last-child
+{
+    display: inline;
+}
+
+.dxtbControl_iOS .dxm-main 
+{
+    padding: 2px;
+}
+
+.dxtbControl_iOS .dxm-horizontal.dxmtb .dxm-content 
+{
+    padding: 14px 5px 4px;
+}
+
+/* ----------------- Dialog Forms ----------------- */
+.captionCell,
+.rowsCaptionCell
+{
+    padding-top: 10px!important;
+}
+
+#dxInsertTableForm .dxrpControl_iOS,
+#dxTableColumnPropertiesForm .dxrpControl_iOS
+{ 
+    width: 100%!important; 
+}
+
+#dxInsertTableForm .dxeButtonEdit_iOS,
+#dxTableColumnPropertiesForm .dxeButtonEdit_iOS 
+{ 
+    width: 170px!important; 
+}
+#dxInsertImageForm .imageSizeEditorsCell .dxeButtonEdit_iOS { width: 130px!important; }
+#dxInsertLinkForm .dxeRadioButtonList_iOS { width: 200px;}
+
+
+#dxInsertTableForm .dxrp.dxrpcontent,
+#dxInsertLinkForm .dxrp.dxrpcontent,
+#dxInsertImageForm .dxrp.dxrpcontent,
+#dxTableColumnPropertiesForm .dxrp.dxrpcontent
+{
+    border-bottom: none;
+}
+
+#dxInsertTableForm .buttonsCell,
+#dxInsertLinkForm .buttonsCell,
+#dxInsertImageForm .buttonsCell,
+#dxPasteFromWordForm .buttonsCell,
+#dxTableColumnPropertiesForm .buttonsCell,
+.dxheCustomDialog_iOS .dxhecd-Buttons
+{
+    padding: 11px;
+}
+#dxInsertImageForm .imagePreviewCell
+{
+    color: #737373;
+    border: dashed 1px #cac8c8;
+}
+#dxPasteFromWordForm .pasteContainerCell td
+{
+	border: Solid 1px #B2B2B2;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_iOS
+{
+	height: 1px;
+}
+.dxtbControl_iOS 
+{
+	font: bold 13px HelveticaNeue,Helvetica,Verdana,sans-serif;
+	color: black;
+	background-color: #F0F2F4;
+    border-bottom: Solid 1px #E0E0E0;
+}
+.dxtbControl_iOS td.dxmMenu_iOS
+{
+	border: 0px;
+}
+.dxtbComboBoxMenuItem_iOS
+{
+    padding: 3px 2px;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_iOS .dxmLite_iOS .dxm-main.dxmtb {
+    border-width: 0px;
+}
+.dxmLite_iOS .dxm-horizontal.dxmtb .dxm-image-l.dxm-noImages .dxm-item,
+.dxmLite_iOS .dxm-horizontal.dxmtb .dxm-image-l .dxm-noImage {
+    padding-left: 0px;
+}
+.dxmLite_iOS .dxhetipControl_iOS img
+{
+	vertical-align: top;
+}
+
+.dxtbControl_iOS .dxmLite_iOS .dxm-horizontal.dxmtb .dxm-dropDownMode .dxm-popOut,
+.dxtbControl_iOS .dxmLite_iOS .dxm-horizontal.dxmtb .dxm-popOut {
+    padding: 4px 4px;
+}
+.dxtbControl_iOS .dxmLite_iOS .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem {
+    border-width: 0px;
+    padding: 6px 2px 3px 2px;
+}
+
+.dxtbControl_iOS .dxmLite_iOS .dxm-horizontal.dxmtb .dxm-image-l .dxm-dropDownMode.dxtb-cb .dxm-content, 
+.dxtbControl_iOS .dxmLite_iOS .dxm-horizontal.dxmtb .dxm-image-r .dxm-dropDownMode.dxtb-cb .dxm-content
+{
+	padding-top: 5px;
+	padding-bottom: 6px;
+}
+.dxtbControl_iOS .dxmLite_iOS .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_iOS .dxmLite_iOS .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.dxtbControl_iOS .dxmLite_iOS .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content img,
+.dxtbControl_iOS .dxmLite_iOS .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content img
+{
+	margin-top: -1px;
+}
+
+.dxtbControl_iOS .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbColorDiv_iOS
+{
+    margin-bottom: -1px;
+}
+
+.dxheControl_iOS .dxtbControl_iOS,
+.dxheControl_iOS .dxm-main 
+{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_iOS { }
+.dxtcbColorDiv_iOS
+{
+	width: 16px;
+	height: 4px;
+	font-size:0px;
+	background-color: Red;
+	margin-left: 9px;
+	margin-right: 9px;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_iOS .dxrpcontent
+{
+    padding: 9px 8px;
+}
+

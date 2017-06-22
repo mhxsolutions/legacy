@@ -1,0 +1,210 @@
+/* Common */
+body {
+    color: black;
+
+    font-size: 12px;
+	padding: 0px; 
+	margin: 0px;
+}
+.BodyBackColor {
+	background-color: #2A2A2A;
+}
+a {
+    color: #3e6b96; 
+    text-decoration: underline;   
+}
+a:hover {
+    color: #FF9600;
+    text-decoration: underline;   
+}
+a:visited {
+    color: #800080;
+    text-decoration: underline;   
+}
+div.PageContent {
+    padding: 0px 0px 0px 0px;
+}
+/* Action Container Panel */
+.ACPanel 
+{
+	background: url('opacity50.png') repeat;
+	
+	padding-top: 4px;
+	padding-left: 5px;
+	padding-right: 20px;
+	height: 25px;
+}	
+/* Main table */
+.Main {
+	background: white;
+}
+h1 {
+	color: Black;
+	
+	font-size: 200%;
+	font-family: Tahoma;
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+/* Footer */
+.FooterCopyright {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: right;
+	
+	color: #788183;
+}
+/* Dialog */
+body.Dialog {
+	background-color: White !important;
+}
+div.DialogPageContent {
+	margin: 0px;
+}
+div.Header {
+	width: 100%;
+	height: 80px;
+	margin: 0px;
+}
+/* Error */
+.Error {
+	color: Black;
+}
+/* Links on dark background */
+.Footer .menuLinks_BlackGlass a,
+.Footer .menuLinks_BlackGlass a.dx,
+.Security .menuLinks_BlackGlass a,
+.Security .menuLinks_BlackGlass a.dx,
+.TabsContainer .menuLinks_BlackGlass a,
+.TabsContainer .menuLinks_BlackGlass a.dx,
+.Footer .menuLinks_BlackGlass a:visited,
+.Footer .menuLinks_BlackGlass a.dx:visited,
+.Security .menuLinks_BlackGlass a:visited,
+.Security .menuLinks_BlackGlass a.dx:visited,
+.TabsContainer .menuLinks_BlackGlass a:visited,
+.TabsContainer .menuLinks_BlackGlass a.dx:visited
+{
+	color: White !important;
+}
+/* Controls customization */
+.dxgvControl_BlackGlass {
+	width: 100%;
+}
+.dxgvHeader_BlackGlass td {
+    white-space:normal;
+}
+.dxtcControl_BlackGlass,
+.dxtcLite_BlackGlass {
+    width: 100% !important;
+}
+.NavigationTabsActionContainer .dxtcControl_BlackGlass,
+.NavigationTabsActionContainer .dxtcLite_BlackGlass {
+background-image: url('opacity50.png'); 
+background-repeat: repeat-x;
+}
+.NavigationTabsActionContainer .dxtcPageContent_BlackGlass,
+.NavigationTabsActionContainer .dxtcLite_BlackGlass .dxtc-content {
+	padding-left: 18px;
+    border: none !important;
+}
+.NavigationTabsActionContainer .dxtcLeftIndentCell_BlackGlass div,
+.NavigationTabsActionContainer .dxtcLite_BlackGlass .dxtc-leftIndent {
+	width: 15px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_BlackGlass .dxtc-tab,
+.NavigationTabsActionContainer .dxtcLite_BlackGlass .dxtc-activeTab
+{
+    margin-top: 8px !important;
+}
+.NavigationTabsActionContainer .dxtc-content .dxmLite_BlackGlass .menuLinks_BlackGlass
+{
+    padding-left: 15px !important;
+}
+.NavigationTabsActionContainer .dxtc-rightIndent .dxmLite_BlackGlass
+{
+    margin-top: 4px !important;
+}
+.NavigationTabsActionContainer .dxtcLite_BlackGlass .dxtc-leftIndent,
+.NavigationTabsActionContainer .dxtcLite_BlackGlass .dxtc-spacer,
+.NavigationTabsActionContainer .dxtcLite_BlackGlass .dxtc-rightIndent,
+.NavigationTabsActionContainer .dxtcLite_BlackGlass .dxtc-sbWrapper,
+.NavigationTabsActionContainer .dxtcLite_BlackGlass .dxtc-sbIndent,
+.NavigationTabsActionContainer .dxtcLite_BlackGlass .dxtc-sbSpacer
+{
+	height: 29px;
+}
+.ACV .dxmVerticalMenuItemWithImage_BlackGlass
+{
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+/* NavigationHistory (NavigationHistoryActionContainer) */
+.NavigationHistoryLinks {
+	color: #86888D;
+	padding: 0px 0px 0px 2px;
+}
+.NavigationHistoryLinks a:hover {
+	text-decoration: underline;
+    color: #FF9600;
+}
+.NavigationHistoryLinks a, .NavigationHistoryLinks a:visited {
+	text-decoration: underline;
+    color: #3e6b96;
+}
+.NavigationHistoryLinks a.Current, .NavigationHistoryLinks a.Current:hover, .NavigationHistoryLinks a.Current:visited {
+	text-decoration: none;
+	color: #86888D;
+}
+.Security .dxmMenuSeparator_BlackGlass,
+.Security .dxmLite_BlackGlass .dxm-separator {
+	padding: 0px 4px 0px 11px;
+}
+.TabsContainer .dxmMenuSeparator_BlackGlass,
+.TabsContainer .dxmLite_BlackGlass .dxm-separator {
+	padding: 0px 10px 0px 16px;
+}
+.TabsContainer .dxmLite_BlackGlass .dxm-separator 
+{
+	padding-top: 4px;
+}
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_BlackGlass,
+.LayoutTabContainerWithNestedFrame > .Item:first-child > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_BlackGlass .dxm-main {
+	border-top: 0px;
+}
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmMenu_BlackGlass,
+.LayoutTabContainerWithNestedFrame > .Item > .NestedFrame > .ToolBarUpdatePanel > .ToolBar .dxmLite_BlackGlass .dxm-main
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+.HorizontalTemplateHeader,
+.VerticalTemplateHeader,
+.Header
+{
+	background-image: url('background.jpg'); 
+    background-position: left top; 
+    background-repeat: no-repeat;
+	background-color: #2A2A2A;
+}
+.RecordsNavigationContainer .menuLinks_BlackGlass {
+	padding-left: 8px;
+}
+.RecordsNavigationContainer .menuLinks_BlackGlass .dxmMenuItemWithImage_BlackGlass {
+	padding-left: 3px;
+}
+.RecordsNavigationContainer .dxmLite_BlackGlass .dxm-content,
+.RecordsNavigationContainer .dxmLite_BlackGlass .dxm-disabled.dxm-content
+{
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+}
+.EditModeActions .dxmLite_BlackGlass .menuLinks_BlackGlass,
+.Content .EditModeActions .dxmLite_BlackGlass .menuLinks_BlackGlass
+{
+	padding-left: 2px !important;
+}
+.RecordsNavigationContainer .dxmLite_BlackGlass
+{
+    margin-right: 3px !important;
+}

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SCM", "http://localhost:65519", "{DE06A96C-4378-42D0-99E5-4E6600446CB2}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_65519"
+		Debug.AspNetCompiler.PhysicalPath = "..\Source\SCM_New\SCM\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65519\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_65519"
+		Release.AspNetCompiler.PhysicalPath = "..\Source\SCM_New\SCM\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65519\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\Source\SCM_New\SCM\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_65519"
+		Debug.AspNetCompiler.PhysicalPath = "..\Source\SCM_New\SCM\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65519\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_65519"
+		Release.AspNetCompiler.PhysicalPath = "SCM\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65519\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\Source\SCM_New\SCM\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Production|Any CPU = Production|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE06A96C-4378-42D0-99E5-4E6600446CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE06A96C-4378-42D0-99E5-4E6600446CB2}.Production|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE06A96C-4378-42D0-99E5-4E6600446CB2}.Production|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

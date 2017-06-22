@@ -1,0 +1,67 @@
+.dxTreeList_CollapsedButton_iOS,
+.dxTreeList_CollapsedButtonRtl_iOS,
+.dxTreeList_ExpandedButton_iOS,
+.dxTreeList_ExpandedButtonRtl_iOS,
+.dxTreeList_SortAsc_iOS,
+.dxTreeList_SortDesc_iOS,
+.dxTreeList_DragAndDropArrowDown_iOS,
+.dxTreeList_DragAndDropArrowUp_iOS,
+.dxTreeList_DragAndDropHide_iOS,
+.dxTreeList_DragAndDropNode_iOS {
+    background-image: url('sprite.png');
+    -background-image: url('sprite.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.dxTreeList_CollapsedButton_iOS,
+.dxTreeList_CollapsedButtonRtl_iOS {
+    background-position: 16px -11px;
+    width: 39px;
+    height: 39px;
+}
+
+.dxTreeList_ExpandedButton_iOS,
+.dxTreeList_ExpandedButtonRtl_iOS {
+    background-position: 14px 16px;
+    width: 39px;
+    height: 39px;
+}
+
+.dxTreeList_SortAsc_iOS {
+    background-position: -48px 0px;
+    width: 9px;
+    height: 16px;
+}
+
+.dxTreeList_SortDesc_iOS {
+    background-position: -48px -17px;
+    width: 9px;
+    height: 16px;
+}
+
+.dxTreeList_DragAndDropArrowDown_iOS {
+    background-position: -30px 0px;
+    width: 11px;
+    height: 9px;
+}
+
+.dxTreeList_DragAndDropArrowUp_iOS {
+    background-position: -30px -17px;
+    width: 11px;
+    height: 9px;
+}
+
+.dxTreeList_DragAndDropHide_iOS {
+    background-position: -80px -15px;
+    width: 22px;
+    height: 22px;
+}
+
+.dxTreeList_DragAndDropNode_iOS {
+    background-position: -83px 0px;
+    width: 13px;
+    height: 13px;
+}
+
+

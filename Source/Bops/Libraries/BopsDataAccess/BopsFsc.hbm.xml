@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsFsc, BopsDataAccess" table="[FSC Main]" lazy="false">
+    <id name="FscId" column="[FSC ID]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="Name" column="[Name]"/>
+    <property name="Description" column="[Description]"/>
+    <property name="CostMethodRef" column="[Cost Method Ref]"/>
+    <property name="BeginDate" column="[Begin Date]"/>
+    <property name="EndDate" column="[End Date]"/>
+  </class>
+</hibernate-mapping>

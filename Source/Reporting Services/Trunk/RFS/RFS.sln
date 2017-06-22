@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "RFS", "RFS\RFS.rptproj", "{7F28C3C7-0320-446E-A2B9-E8A5B1A89B9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Production|Default = Production|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F28C3C7-0320-446E-A2B9-E8A5B1A89B9A}.Debug|Default.ActiveCfg = Debug
+		{7F28C3C7-0320-446E-A2B9-E8A5B1A89B9A}.Debug|Default.Build.0 = DebugLocal
+		{7F28C3C7-0320-446E-A2B9-E8A5B1A89B9A}.Debug|Default.Deploy.0 = DebugLocal
+		{7F28C3C7-0320-446E-A2B9-E8A5B1A89B9A}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{7F28C3C7-0320-446E-A2B9-E8A5B1A89B9A}.DebugLocal|Default.Build.0 = DebugLocal
+		{7F28C3C7-0320-446E-A2B9-E8A5B1A89B9A}.Production|Default.ActiveCfg = Production
+		{7F28C3C7-0320-446E-A2B9-E8A5B1A89B9A}.Production|Default.Build.0 = Production
+		{7F28C3C7-0320-446E-A2B9-E8A5B1A89B9A}.Production|Default.Deploy.0 = Production
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

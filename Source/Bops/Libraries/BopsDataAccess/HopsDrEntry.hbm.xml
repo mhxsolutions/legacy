@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.HopsDrEntry, BopsDataAccess" table="[Hops DR Entry]" lazy="false">
+    <id name="DrId" column="[DRID]" unsaved-value="0">
+      <generator class="assigned" />
+    </id>
+    <property name="ProjectManagerBolRef" column="[PMBOL Ref]"/>
+    <property name="Count" column="[Count]"/>
+    <property name="Weight" column="[Weight]"/>
+    <property name="LastUpdateTime" column="[Last Update Time]"/>
+    <property name="Finalized" column="[Finalized]"/>
+    <property name="GatePass" column="[Gate Pass]"/>
+    <property name="LoadRef" column="[Load Ref]"/>
+    <property name="Tractor" column="[Tractor]"/>
+  </class>
+</hibernate-mapping>

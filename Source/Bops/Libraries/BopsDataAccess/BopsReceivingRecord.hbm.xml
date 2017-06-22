@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsReceivingRecord, BopsDataAccess" table="[Receivers S]" lazy="false">
+    <id name="ReceiverId" column="[Receiver ID]">
+      <generator class="identity"/>
+    </id>
+    <property name="Terminal" column="[Terminal]"/>
+    <property name="ReceiverType" column="[Receiver Type]"/>
+    <property name="DateReceived" column="[Date Received]"/>
+    <property name="ShippingClientRef" column="[Shipping Client Ref]"/>
+    <property name="ShippingAddress" column="[Shipping Address]"/>
+    <property name="ReceivingClientRef" column="[Receiving Client Ref]"/>
+    <property name="ReceiverAddress" column="[Receiver Address]"/>
+    <property name="PaymentContractRef" column="[Payment Contract Ref]"/>
+    <property name="PaymentAddress" column="[Payment Address]"/>
+    <property name="SourceRef" column="[Source REF]"/>
+    <property name="EquipmentComments" column="[Equipment Comments]"/>
+    <property name="ProductProfileRef" column="[Product Profile Ref]"/>
+    <property name="ProductProfileDescription" column="[Product Profile Description]"/>
+    <property name="GroupLabel1" column="[Group Label 1]"/>
+    <property name="GroupLabel2" column="[Group Label 2]"/>
+    <property name="GroupLabel3" column="[Group Label 3]"/>
+    <property name="WeightLabel" column="[Weight Label]"/>
+    <property name="PackageLabel" column="[Package Label]"/>
+    <property name="RecordLock" column="[Record Lock]"/>
+    <property name="CreationDate" column="[Creation Date]"/>
+    <property name="ReceiverDupeLock" column="[Receiver Dupe Lock]"/>
+    <property name="ReceiverDupeLockLabel" column="[Receiver Dupe Lock Label]"/>
+    <property name="ReceiverRef" column="[Receiver Ref]"/>
+    <property name="ReceiverEditor" column="[Recv Editor]"/>
+    <property name="RfsRef" column="[RFS ref]"/>
+    <property name="DetailWeight" column="[Detail Wt]"/>
+    <property name="BillingStatus" column="[Billing Status Ref]"/>
+    <property name="OriginRef" column="[Origin ref]"/>
+    <property name="DestinationRef" column="[Destination ref]"/>
+    <property name="ClientInvoiceData" column="[Client Invoice Data]"/>
+    <property name="ClientPurchaseOrder" column="[Client PO]"/>
+    <property name="SpecialInvoiceValue" column="[Special Invoice Value]"/>
+    <property name="PostedCount" column="[PostedCt]" />
+    <property name="CompanyRef" column="[Company ID ref]" />
+  </class>
+</hibernate-mapping>

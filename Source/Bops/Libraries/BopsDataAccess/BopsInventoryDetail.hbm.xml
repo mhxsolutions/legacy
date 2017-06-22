@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsInventoryDetail, BopsDataAccess" table="[Inventory Detail]" lazy="false">
+    <id name="DetailId" column="[Rec Detail ID]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="ReceiverRef" column="[Receiver Ref]"/>
+    <property name="ProductGroup1" column="[Product Group 1]"/>
+    <property name="ProductGroup2" column="[Product Group 2]"/>
+    <property name="ProductGroup3" column="[Product Group 3]"/>
+    <property name="ItemId" column="[Item ID]"/>
+    <property name="Weight" column="[Weight]"/>
+    <property name="CountInPackage" column="[Count In Package]"/>
+    <property name="DamageComments" column="[Damage Comments]"/>
+    <property name="MfgControlDate" column="[Mfg Control Date]"/>
+    <property name="MfgReleaseDate" column="[Mfg Release Date]"/>
+    <property name="ScheduleReleaseDate" column="[Schedule Release Date]"/>
+    <property name="StatusRef" column="[Status Ref]"/>
+    <property name="Location" column="[Location]"/>
+    <property name="ItemEditor" column="[Item Editor]"/>
+    <property name="RecDetailRef" column="[Rec Detail Ref]"/>
+    <property name="Grade" column="[Grade]"/>
+    <property name="GaugeEnglish" column="[Gage (eng)]"/>
+    <property name="WidthEnglish" column="[Width (eng)]"/>
+    <property name="GaugeMetric" column="[Gage (mm)]"/>
+    <property name="WidthMetric" column="[Width (mm)]"/>
+    <property name="MillNumber" column="[Mill Number]"/>
+    <property name="HeatNumber" column="[Heat Number]"/>
+    <property name="Type" column="[Type]"/>
+    <property name="CoatingWt" column="[Coating Wt]"/>
+    <property name="LinearFeet" column="[Linear Ft]"/>
+    <property name="ExtendedDescription" column="[Extended Description]"/>
+    <property name="AltCoilRef" column="[Alt Coil Ref]"/>
+    <property name="NetWeight" column="[NetWeight]"/>
+    <property name="NoStorageBilling" column="[No Storage Billing]"/>
+  </class>
+</hibernate-mapping>

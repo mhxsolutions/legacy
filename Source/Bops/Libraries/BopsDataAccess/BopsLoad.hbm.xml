@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsLoad, BopsDataAccess" table="[tblPoscoLoads]" lazy="false">
+    <id name="LoadReference" column="[Load]">
+      <generator class="assigned" />
+    </id>
+    <property name="LoadKey" column="[Load Key]" insert="false" update="false"/>
+    <property name="BillOfLading" column="[BOL]"/>
+    <property name="NetWeight" column="[NetWeight]"/>
+    <property name="CoilCount" column="[CoilCount]"/>
+    <property name="LoadDestination" column="[LoadDestination]"/>
+    <property name="LoadDate" column="[LoadDate]"/>
+    <property name="GrossWeight" column="[GrossWeight]"/>
+    <property name="ChargedWeight" column="[ChargedWeight]"/>
+    <property name="LoggedOut" column="[LogOut]"/>
+    <property name="LogOutTime" column="[LogOutTime]" />
+    <property name="LogOutDate" column="[LogOutDate]"/>
+    <property name="ProofOfDelivery" column="[POD]" />
+    <property name="ProofOfDeliveryTime" column="[POD Time]" />
+    <property name="ProofOfDeliveryDate" column="[POD Date]" />
+    <property name="DriverRef" column="[DriverRef]" />
+    <property name="Truck" column="[Truck]" />
+    <property name="Notes" column="[LoadNotes]" />
+    <property name="DeliveryLocationRef" column="[DeliveryLocation]" />
+    <property name="LoadFamily" column="[LoadFamily]" />
+    <property name="AssignTimestamp" column="[AssignTime]" />
+    <property name="Stage" column="[Stage]" />
+    <property name="StageComplete" column="[Stage Complete]" />
+    <property name="LoadEditor" column="[Load Editor]" />
+    <property name="AsnEditor" column="[Asn Editor]" />
+    <property name="SourceRef" column="[Source Ref]" />
+    <property name="ContractRef" column="[Contract Ref]" />
+    <property name="WillCall" column="[Will Call]" />
+    <property name="WillCallInvoice" column="[Will Call Invoice]" />
+    <property name="WillCallComment" column="[Will Call Comment]" />
+    <property name="WillCallRate" column="[Will Call Rate]" />
+    <property name="Subhaul" column="[Subhaul]" />
+    <property name="ScheduleDate" column="[Sch Date]" />
+    <property name="BillOfLadingRef" column="[BOL Ref]" />
+    <property name="PickUpRequestRef" column="[PUR Ref]" />
+    <property name="LoadSource" column="[Load Source]" />
+    <property name="Color" column="[color]" />
+    <property name="OriginRef" column="[Origin]" />
+    <property name="Hold" column="[Hold]" />
+    <property name="ChangeFlag" column="[ChangeFlag]" />
+    <property name="ProductRef" column="[Product]" />
+    <property name="StageRequestTimestamp" column="[Stage Req Time]" />
+    <property name="ReadyTimestamp" column="[Ready Time]" />
+    <property name="StageEditor" column="[Stage Editor]" />
+    <property name="ReadyEditor" column="[Ready Editor]" />
+    <property name="ConfirmedTimestamp" column="[Date Confirmed]" />
+    <property name="ConfirmedBy" column="[Confirmed By]" />
+    <property name="ScanErrorRef" column="[Scan Error ref]" />
+    <property name="ScanRejectCount" column="[Scan Reject Ct]" />
+    <property name="PitTimestamp" column="[Pit Time]" />
+    <property name="ConfirmWithoutProofOfDelivery" column="[Confirm wout POD]" />
+    <property name="RfsRef" column="[RFS ref]" />
+    <property name="Trailer" column="[Trailer]" />
+    <property name="BillingStatus" column="[Billing Status Ref]" />
+    <property name="FleetRef" column="[Fleet ref]"/>
+    <property name="ClientInvoiceData" column="[Client Invoice Data]"/>
+	  <property name="PartialLoad" column="[Partial Load]"/>
+    <property name="SpecialInvoiceValue" column="[Special Invoice Value]"/>
+  </class>
+</hibernate-mapping>

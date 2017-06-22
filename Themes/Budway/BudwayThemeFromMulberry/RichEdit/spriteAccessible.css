@@ -1,0 +1,117 @@
+.dx-acc-r .dxre-quickSearchButtonHover .dxRichEdit_QuickSearchCloseButton_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxre-quickSearchButtonHover .dxRichEdit_QuickSearchCollapseButton_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_CenterTabDragHandle_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_ColumnSeparatorDragHandle_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_DecimalTabDragHandle_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_FirstLineIdentDragHandle_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_LeftIdentDragHandle_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_LeftTabDragHandle_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_QuickSearchCloseButton_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_QuickSearchCollapseButton_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_QuickSearchNextButton_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_QuickSearchPrevButton_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_RightIdentDragHandle_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxRichEdit_RightTabDragHandle_BudwayThemeFromMulberry:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxre-quickSearchButtonHover .dxRichEdit_QuickSearchCloseButton_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -68px;
+
+}
+.dx-acc-r .dxre-quickSearchButtonHover .dxRichEdit_QuickSearchCollapseButton_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -48px;
+
+}
+.dx-acc-r .dxRichEdit_CenterTabDragHandle_BudwayThemeFromMulberry:before
+
+{
+    left: -11px;
+    top: -17px;
+
+}
+.dx-acc-r .dxRichEdit_ColumnSeparatorDragHandle_BudwayThemeFromMulberry:before
+
+{
+    left: -11px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_DecimalTabDragHandle_BudwayThemeFromMulberry:before
+
+{
+    left: -11px;
+    top: -10px;
+
+}
+.dx-acc-r .dxRichEdit_FirstLineIdentDragHandle_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -128px;
+
+}
+.dx-acc-r .dxRichEdit_LeftIdentDragHandle_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -137px;
+
+}
+.dx-acc-r .dxRichEdit_LeftTabDragHandle_BudwayThemeFromMulberry:before
+
+{
+    left: -13px;
+    top: -41px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchCloseButton_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -88px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchCollapseButton_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -108px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchNextButton_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -24px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchPrevButton_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_RightIdentDragHandle_BudwayThemeFromMulberry:before
+
+{
+    left: -10px;
+    top: -128px;
+
+}
+.dx-acc-r .dxRichEdit_RightTabDragHandle_BudwayThemeFromMulberry:before
+
+{
+    left: -11px;
+    top: -24px;
+
+}

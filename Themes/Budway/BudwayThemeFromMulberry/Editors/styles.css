@@ -1,0 +1,2362 @@
+/* -- ValidationSummary -- */
+.dxvsValidationSummary_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: Red;
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry td.dxvsRC_BudwayThemeFromMulberry
+{
+	vertical-align: top;
+	padding: 2px 5px 4px 6px;
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry .dxvsE_BudwayThemeFromMulberry
+{
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry table.dxvsHT_BudwayThemeFromMulberry
+{
+	width: 100%;
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry td.dxvsH_BudwayThemeFromMulberry
+{
+	padding: 2px 0;
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry a.dxvsHL_BudwayThemeFromMulberry,
+.dxvsValidationSummary_BudwayThemeFromMulberry a.dxvsHL_BudwayThemeFromMulberry:visited
+{
+	color: red;
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry a.dxvsHL_BudwayThemeFromMulberry
+{
+	text-decoration: none;
+	border-bottom: 1px dashed #f70;
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry a.dxvsHL_BudwayThemeFromMulberry:hover
+{
+	color: #f70;
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry table.dxvsT_BudwayThemeFromMulberry
+{
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry tr.dxvsE_BudwayThemeFromMulberry
+{
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry td.dxvsETC_BudwayThemeFromMulberry
+{
+	padding: 2px 0;
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry ul.dxvsL_BudwayThemeFromMulberry
+{
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry ol.dxvsL_BudwayThemeFromMulberry
+{
+}
+.dxvsValidationSummary_BudwayThemeFromMulberry li.dxvsE_BudwayThemeFromMulberry
+{
+	padding: 2px 0;
+}
+
+/* TrackBar */
+.dxeTrackBar_BudwayThemeFromMulberry
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	visibility:hidden;
+}
+
+.dxeDisabled_BudwayThemeFromMulberry .dxeTBHSys a,
+.dxeDisabled_BudwayThemeFromMulberry .dxeTBVSys a
+{
+    cursor: default;
+}
+
+.dxeTBBarHighlight_BudwayThemeFromMulberry
+{
+	font-size: 0;
+}
+
+.dxeTBScale_BudwayThemeFromMulberry,
+.dxeTBTrack_BudwayThemeFromMulberry,
+.dxeTBBarHighlight_BudwayThemeFromMulberry
+{
+	cursor: pointer;
+}
+
+.dxeTBScale_BudwayThemeFromMulberry
+{
+	z-index: 1;
+}
+.dxeTBSecondaryDH_BudwayThemeFromMulberry,
+.dxeTBMainDH_BudwayThemeFromMulberry
+{
+	z-index: 4;
+}
+
+.dxeTrackBar_BudwayThemeFromMulberry.dxeTBHSys
+{
+	width: 170px;
+	height: 53px;
+}
+.dxeTrackBar_BudwayThemeFromMulberry.dxeTBVSys
+{
+	height: 170px;
+	width: 53px;
+}
+.dxeTrackBar_BudwayThemeFromMulberry.dxeTBBScaleSys.dxeTBVSys
+{
+	width: 76px;
+}
+.dxeTrackBar_BudwayThemeFromMulberry.dxeTBBScaleSys.dxeTBHSys
+{	
+	height: 76px;
+}
+
+.dxeTBTrack_BudwayThemeFromMulberry
+{
+	z-index: 2;
+	position: absolute;
+}
+
+.dxeTBTrack_BudwayThemeFromMulberry, .dxeTBBarHighlight_BudwayThemeFromMulberry 
+{
+}
+.dxeTBHSys .dxeTBTrack_BudwayThemeFromMulberry, .dxeTBHSys .dxeTBBarHighlight_BudwayThemeFromMulberry 
+{
+}
+.dxeTBVSys .dxeTBTrack_BudwayThemeFromMulberry, .dxeTBVSys .dxeTBBarHighlight_BudwayThemeFromMulberry 
+{
+}
+
+.dxeTBHSys .dxeTBTrack_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBTrack_BudwayThemeFromMulberry
+{
+	background: #cbcbcb;
+}
+
+.dxeTBHSys .dxeTBTrack_BudwayThemeFromMulberry, 
+.dxeTBHSys .dxeTBBarHighlight_BudwayThemeFromMulberry
+{
+	height: 3px;
+}
+.dxeTBVSys .dxeTBTrack_BudwayThemeFromMulberry, 
+.dxeTBVSys .dxeTBBarHighlight_BudwayThemeFromMulberry
+{
+	width: 3px;
+}
+
+.dxeTBHSys .dxeTBMainDH_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBMainDH_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBSecondaryDH_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry
+{
+	top: -9px;
+	width: 19px;
+	height: 19px;
+	border: 1px solid #cbcbcb;
+	background: #BF4E6A url('edtTrackBarDHBack.png') no-repeat center center;
+
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+}
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry
+{
+	border: 1px solid #BF4E6A;
+}
+.dxeTBHSys .dxeTBMainDH_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry
+{
+	top: -9px;
+}
+.dxeTBVSys .dxeTBMainDH_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBSecondaryDH_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry
+{
+	left: -9px;
+}
+.dxeTBHSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHHover_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHHover_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHHover_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHHover_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHHover_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHHover_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHHover_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHHover_BudwayThemeFromMulberry
+{
+	border: 1px Solid #BF4E6A;
+}
+.dxeTBHSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHPressed_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHPressed_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHPressed_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHPressed_BudwayThemeFromMulberry
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHPressed_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHPressed_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHPressed_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHPressed_BudwayThemeFromMulberry
+{
+	border: 1px Solid #cbcbcb;
+	background-color: #e9e9e9;
+}
+.dxeTBHSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHDisabled_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHDisabled_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHDisabled_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHDisabled_BudwayThemeFromMulberry
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHDisabled_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBHSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHDisabled_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedMDHSys .dxeTBMainDH_BudwayThemeFromMulberry.dxEditors_edtTBMainDHDisabled_BudwayThemeFromMulberry,
+.dxeFocused_BudwayThemeFromMulberry .dxeTBVSys .dxeFocusedSDHSys .dxeTBSecondaryDH_BudwayThemeFromMulberry.dxEditors_edtTBSecondaryDHDisabled_BudwayThemeFromMulberry
+{
+	opacity: 0.5;
+}
+
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBTrack_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBTrack_BudwayThemeFromMulberry
+{
+	left: 50%;
+	margin-left: -12px;
+}
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBTrack_BudwayThemeFromMulberry
+{
+	right: 12px;
+	left: auto;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBTrack_BudwayThemeFromMulberry
+{
+	bottom: 12px;
+	top: auto;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBTrack_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBTrack_BudwayThemeFromMulberry
+{
+	top: 50%;
+	margin-top: -6px;
+}
+
+.dxeTBBarHighlight_BudwayThemeFromMulberry
+{
+	left: 0px;
+	top: 0px;
+	position:absolute;
+	z-index: 3;
+}
+
+.dxeTBHSys .dxeTBBarHighlight_BudwayThemeFromMulberry
+{
+	background: #BF4E6A;
+}
+.dxeTBVSys .dxeTBBarHighlight_BudwayThemeFromMulberry
+{
+	background: #BF4E6A;
+}
+
+.dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeTBLTLabel_BudwayThemeFromMulberry
+{
+	font-size: 0.79em;
+	color: #9f9f9f;
+	text-align: center;
+	cursor: default;
+}
+.dxeTBSmallTickSys .dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeTBSmallTickSys .dxeTBLTLabel_BudwayThemeFromMulberry,
+.dxeTBLargeTickSys .dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeTBLargeTickSys .dxeTBLTLabel_BudwayThemeFromMulberry
+{	
+	position: absolute;
+}
+
+.dxeTBHSys .dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBLTLabel_BudwayThemeFromMulberry
+{
+	width: 100%;
+}
+
+.dxeTBIncBtn_BudwayThemeFromMulberry,
+.dxeTBDecBtn_BudwayThemeFromMulberry
+{
+	width: 25px;
+	height: 25px;
+
+	border-radius: 14px;
+	-webkit-border-radius: 14px;
+}
+.dxeTBIncBtn_BudwayThemeFromMulberry
+{
+	background-image: url('edtTBIncBtn.png');
+    background-position: center center;
+}
+.dxeTBDecBtn_BudwayThemeFromMulberry
+{
+	background-image: url('edtTBDecBtn.png');
+    background-position: center center;
+}
+.dxeTBIncBtn_BudwayThemeFromMulberry.dxEditors_edtTBIncBtnHover_BudwayThemeFromMulberry
+{
+	background-image: url('edtTBIncBtnHover.png');
+}
+.dxeTBDecBtn_BudwayThemeFromMulberry.dxEditors_edtTBDecBtnHover_BudwayThemeFromMulberry
+{
+	background-image: url('edtTBDecBtnHover.png');
+}
+.dxeTBIncBtn_BudwayThemeFromMulberry.dxEditors_edtTBIncBtnPressed_BudwayThemeFromMulberry
+{
+	background-image: url('edtTBIncBtnPressed.png');
+}
+.dxeTBDecBtn_BudwayThemeFromMulberry.dxEditors_edtTBDecBtnPressed_BudwayThemeFromMulberry
+{
+	background-image: url('edtTBDecBtnPressed.png');
+}
+.dxeTBIncBtn_BudwayThemeFromMulberry.dxEditors_edtTBIncBtnDisabled_BudwayThemeFromMulberry
+{
+	background-image: url('edtTBIncBtnDisabled.png');
+}
+.dxeTBDecBtn_BudwayThemeFromMulberry.dxEditors_edtTBDecBtnDisabled_BudwayThemeFromMulberry
+{
+	background-image: url('edtTBDecBtnDisabled.png');
+}
+
+.dxeTBVSys .dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBLTLabel_BudwayThemeFromMulberry
+{
+	padding-top: 2px;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBRBLabel_BudwayThemeFromMulberry
+{
+	margin-left: -4px;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBLTLabel_BudwayThemeFromMulberry
+{
+	right: 0px;
+}
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBLTLabel_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBRBLabel_BudwayThemeFromMulberry
+{
+	left: 0px;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBRBLabel_BudwayThemeFromMulberry
+{
+	bottom: 0px;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBLTLabel_BudwayThemeFromMulberry
+{
+	bottom: 6px;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBLTLabel_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBBScaleSys .dxeTBRBLabel_BudwayThemeFromMulberry
+{
+	top: 6px;
+}
+
+.dxeTBHSys .dxeTBItem_BudwayThemeFromMulberry .dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBItem_BudwayThemeFromMulberry .dxeTBLTLabel_BudwayThemeFromMulberry
+{
+	display: inline-block;
+	margin-left: 0px!important;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBItem_BudwayThemeFromMulberry .dxeTBRBLabel_BudwayThemeFromMulberry
+{
+	padding-top: 12px;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBItem_BudwayThemeFromMulberry .dxeTBLTLabel_BudwayThemeFromMulberry
+{
+	margin-top: 8px;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBItem_BudwayThemeFromMulberry .dxeTBRBLabel_BudwayThemeFromMulberry 
+{
+	margin-left: 5px;
+}
+
+.dxeTBSelectedItem_BudwayThemeFromMulberry .dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeTBSelectedItem_BudwayThemeFromMulberry .dxeTBLTLabel_BudwayThemeFromMulberry,
+.dxeTBSelectedTick_BudwayThemeFromMulberry .dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeTBSelectedTick_BudwayThemeFromMulberry .dxeTBLTLabel_BudwayThemeFromMulberry
+{
+	color: #5e6d9d;
+}
+.dxeDisabled_BudwayThemeFromMulberry .dxeTBSelectedItem_BudwayThemeFromMulberry .dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeDisabled_BudwayThemeFromMulberry .dxeTBSelectedItem_BudwayThemeFromMulberry .dxeTBLTLabel_BudwayThemeFromMulberry,
+.dxeDisabled_BudwayThemeFromMulberry .dxeTBSelectedTick_BudwayThemeFromMulberry .dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeDisabled_BudwayThemeFromMulberry .dxeTBSelectedTick_BudwayThemeFromMulberry .dxeTBLTLabel_BudwayThemeFromMulberry 
+{
+	color: #FFDEB4;
+}
+
+.dxeDisabled_BudwayThemeFromMulberry .dxeTBRBLabel_BudwayThemeFromMulberry,
+.dxeDisabled_BudwayThemeFromMulberry .dxeTBLTLabel_BudwayThemeFromMulberry,
+.dxeDisabled_BudwayThemeFromMulberry .dxeTBItem_BudwayThemeFromMulberry
+{
+	color: #D1DFF3;
+}
+
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBItem_BudwayThemeFromMulberry
+{
+	text-align: left;
+}
+
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBItem_BudwayThemeFromMulberry
+{
+	text-align: right;
+}
+
+.dxeTBVSys .dxeTBBScaleSys .dxeTBItem_BudwayThemeFromMulberry
+{
+	text-align: center;
+}
+
+.dxeTBHSys .dxeTBItem_BudwayThemeFromMulberry
+{
+	background-image:  url('edtTrackBarLargeTickH.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBItem_BudwayThemeFromMulberry
+{
+	background-image:  url('edtTrackBarDoubleSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBItem_BudwayThemeFromMulberry 
+{
+	background-image:  url('edtTrackBarLargeTickV.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBItem_BudwayThemeFromMulberry
+{
+	background-image:  url('edtTrackBarDoubleSmallTickV.gif');
+}
+
+.dxeTBHSys .dxeTBLargeTick_BudwayThemeFromMulberry
+{
+	background-image:  url('edtTrackBarLargeTickH.gif');
+}
+.dxeTBVSys .dxeTBLargeTick_BudwayThemeFromMulberry
+{
+	background-image: url('edtTrackBarLargeTickV.gif');
+}
+.dxeTBHSys .dxeTBSmallTick_BudwayThemeFromMulberry
+{
+	background-image: url('edtTrackBarSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBSmallTick_BudwayThemeFromMulberry
+{
+	background-image: url('edtTrackBarSmallTickV.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBLargeTick_BudwayThemeFromMulberry
+{
+	background-image: url('edtTrackBarDoubleLargeTickH.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBLargeTick_BudwayThemeFromMulberry
+{
+	background-image: url('edtTrackBarDoubleLargeTickV.gif');
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBSmallTick_BudwayThemeFromMulberry
+{
+	background-image: url('edtTrackBarDoubleSmallTickH.gif');
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBSmallTick_BudwayThemeFromMulberry
+{
+	background-image: url('edtTrackBarDoubleSmallTickV.gif');
+}
+
+.dxeTBVSys .dxeTBIncBtn_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeReversedDirectionSys .dxeTBDecBtn_BudwayThemeFromMulberry
+{
+	bottom: 0px;
+	top: auto;
+}
+.dxeTBVSys .dxeTBDecBtn_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeReversedDirectionSys .dxeTBIncBtn_BudwayThemeFromMulberry
+{
+	top: 0px;
+	bottom: auto;
+}
+.dxeTBHSys .dxeTBDecBtn_BudwayThemeFromMulberry, 
+.dxeTBHSys .dxeReversedDirectionSys .dxeTBIncBtn_BudwayThemeFromMulberry
+{
+	left: 0px;
+	right: auto;
+}
+.dxeTBHSys .dxeTBIncBtn_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeReversedDirectionSys .dxeTBDecBtn_BudwayThemeFromMulberry
+{
+	right: 0px;
+	left: auto;
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBDecBtn_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBBScaleSys .dxeTBIncBtn_BudwayThemeFromMulberry
+{
+	margin-left: -14px;
+	left: 50%;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBDecBtn_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBBScaleSys .dxeTBIncBtn_BudwayThemeFromMulberry
+{
+	margin-top: -16px;
+	top: 50%;
+}
+.dxeTBVSys .dxeTBBScaleSys .dxeTBTrack_BudwayThemeFromMulberry
+{ 
+	margin-left: -3px;
+	left: 50%;
+}
+.dxeTBHSys .dxeTBBScaleSys .dxeTBTrack_BudwayThemeFromMulberry
+{ 
+	margin-top: -3px;
+	top: 50%;
+}
+
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBDecBtn_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBLTScaleSys .dxeTBIncBtn_BudwayThemeFromMulberry
+{
+	right: 1px;
+	left: auto;
+}
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBDecBtn_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBLTScaleSys .dxeTBIncBtn_BudwayThemeFromMulberry
+{
+	bottom: 1px;
+	top: auto;
+}
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBDecBtn_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBRBScaleSys .dxeTBIncBtn_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBDecBtn_BudwayThemeFromMulberry,
+.dxeTBVSys .dxeTBIncBtn_BudwayThemeFromMulberry
+{
+	left: 4px;
+}
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBDecBtn_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBRBScaleSys .dxeTBIncBtn_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBDecBtn_BudwayThemeFromMulberry,
+.dxeTBHSys .dxeTBIncBtn_BudwayThemeFromMulberry
+{
+	top: 10px;
+}
+
+.dxeHelpText_BudwayThemeFromMulberry,
+.dxeTBValueToolTip_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+div.dxeHelpText_BudwayThemeFromMulberry,
+.dxeTBValueToolTip_BudwayThemeFromMulberry
+{
+	display: inline;
+	position: absolute;
+	z-index: 41998;
+	padding: 3px 8px 4px;
+	color: #BF4E6A;
+	background: #ffffff;
+	border: 1px solid #cbcbcb;
+	
+	box-shadow: 0 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.1);
+}
+td.dxeHelpText_BudwayThemeFromMulberry {
+    visibility: visible;
+    color: #9F9F9F;
+}
+td.dxeHelpText_BudwayThemeFromMulberry span {
+    font-size: 0.91em;
+}
+td.dxeHelpText_BudwayThemeFromMulberry.dxeHHelpTextSys {
+    padding: 0 6px;
+}
+td.dxeHelpText_BudwayThemeFromMulberry.dxeVHelpTextSys {
+    padding: 2px 0;
+}
+
+/* InternalCheckBox */
+.dxeIRBFocused_BudwayThemeFromMulberry
+{
+    outline: 1px dotted #cbcbcb;
+
+	*border: 1px dotted #cbcbcb;
+	*margin: 0;
+}
+.dxeIRadioButton_BudwayThemeFromMulberry
+{
+}
+.dxeBase_BudwayThemeFromMulberry .dxichCellSys,
+.dxeBase_BudwayThemeFromMulberry.dxichCellSys
+{
+    padding: 3px 3px 1px;
+}
+span.dxeBase_BudwayThemeFromMulberry.dxichCellSys.dxeTAR label,
+span[dir='rtl'].dxeBase_BudwayThemeFromMulberry.dxichCellSys.dxeTAL label
+{
+    padding: 1px 0 2px 7px;
+}
+span.dxeBase_BudwayThemeFromMulberry.dxichCellSys.dxeTAL label,
+span[dir='rtl'].dxeBase_BudwayThemeFromMulberry.dxichCellSys.dxeTAR label
+{
+    padding: 1px 7px 2px 0;
+}
+.dxeTAR.dxeBase_BudwayThemeFromMulberry .dxichTextCellSys,
+.dxeTAL.dxeBase_BudwayThemeFromMulberry[dir='rtl'] .dxichTextCellSys
+{
+    padding: 2px 0 1px 4px;
+}
+.dxeTAL.dxeBase_BudwayThemeFromMulberry .dxichTextCellSys,
+.dxeTAR.dxeBase_BudwayThemeFromMulberry[dir='rtl'] .dxichTextCellSys
+{
+    padding: 2px 4px 1px 0;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingDiv_BudwayThemeFromMulberry
+{
+	opacity: 1!important;
+	filter: alpha(opacity=100)!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_BudwayThemeFromMulberry
+{
+    background-color: transparent!important;
+	border: none!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_BudwayThemeFromMulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+    padding: 0px!important;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_BudwayThemeFromMulberry td.dx > img
+{
+	height: 15px;
+    width: auto;
+    margin-bottom: 0px!important;
+    vertical-align: middle;
+}
+
+.dxeButtonEditSys .dxic .dxeLoadingPanel_BudwayThemeFromMulberry td.dx > span
+{
+	display: none;
+}
+
+.dxeBase_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+}
+/* -- ErrorFrame -- */
+.dxeErrorCell_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: Red;
+    border-color: black;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.dxeErrorCell_BudwayThemeFromMulberry img
+{
+    margin-right: 6px;
+}
+*[dir='rtl'] .dxeErrorCell_BudwayThemeFromMulberry img
+{
+    margin-right: 0;
+    margin-left: 6px;
+}
+.dxeErrorFrame_BudwayThemeFromMulberry
+{
+}
+.dxeErrorFrameWithoutError_BudwayThemeFromMulberry
+{
+	border: 1px solid Red;
+}
+.dxeErrorFrameWithoutError_BudwayThemeFromMulberry .dxeControlsCell_BudwayThemeFromMulberry,
+.dxeErrorFrameWithoutError_BudwayThemeFromMulberry.dxeControlsCell_BudwayThemeFromMulberry
+{
+	padding: 2px;
+}
+.dxeEditArea_BudwayThemeFromMulberry,
+body input.dxeEditArea_BudwayThemeFromMulberry /*Bootstrap correction*/
+{
+	color: #343434;
+}
+input[type="text"].dxeEditArea_BudwayThemeFromMulberry, /*Bootstrap correction*/
+input[type="password"].dxeEditArea_BudwayThemeFromMulberry /*Bootstrap correction*/
+{
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+.dxFirefox input[type="text"].dxeEditArea_BudwayThemeFromMulberry,
+.dxFirefox input[type="password"].dxeEditArea_BudwayThemeFromMulberry {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+/* -- Binary Image -- */
+.dxeBinaryImageButtonPanel_BudwayThemeFromMulberry
+{
+    height: 36px;
+}
+.dxeBinaryImageButton_BudwayThemeFromMulberry
+{
+    margin: 0 6px;
+}
+
+/* -- Buttons -- */
+.dxeButtonEditButton_BudwayThemeFromMulberry,
+.dxeCalendarButton_BudwayThemeFromMulberry,
+.dxeSpinIncButton_BudwayThemeFromMulberry,
+.dxeSpinDecButton_BudwayThemeFromMulberry,
+.dxeSpinLargeIncButton_BudwayThemeFromMulberry,
+.dxeSpinLargeDecButton_BudwayThemeFromMulberry,
+.dxeColorEditButton_BudwayThemeFromMulberry
+{
+	vertical-align: Middle;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+	border: 1px solid transparent;
+} 
+.dxeButtonEditButton_BudwayThemeFromMulberry
+{
+	padding: 1px 2px;
+}
+.dxeSpinLargeIncButton_BudwayThemeFromMulberry,
+.dxeSpinLargeDecButton_BudwayThemeFromMulberry
+{
+	padding: 1px 2px;
+}
+.dxeSpinIncButton_BudwayThemeFromMulberry
+{
+	padding: 1px 2px 0;
+}
+.dxeSpinDecButton_BudwayThemeFromMulberry
+{
+	padding: 0 2px;
+}
+.dxeCalendarButton_BudwayThemeFromMulberry
+{
+    display: block;
+    float: left;
+}
+.dxeCalendarButton_BudwayThemeFromMulberry,
+.dxeColorEditButton_BudwayThemeFromMulberry
+{
+	border: 1px solid #CBCBCB;
+	background: #f7f7f7;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjFGMUYxIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+
+    border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+
+	cursor: pointer;
+	vertical-align: middle;
+	padding: 4px 15px 5px;
+	min-width: 44px;
+}
+
+.dxeButtonEditButton_BudwayThemeFromMulberry.dxeButtonEditClearButton_BudwayThemeFromMulberry,
+.dxeButtonEditButton_BudwayThemeFromMulberry.dxeButtonEditClearButton_BudwayThemeFromMulberry:hover
+{
+    background: none;
+    border-width: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2px;
+}
+
+td:last-of-type.dxeButtonEditButton_BudwayThemeFromMulberry.dxeButtonEditClearButton_BudwayThemeFromMulberry,
+td:last-of-type.dxeButtonEditButton_BudwayThemeFromMulberry.dxeButtonEditClearButton_BudwayThemeFromMulberry:hover
+{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.dxChrome .dxeButtonEditButton_BudwayThemeFromMulberry.dxeButtonEditClearButton_BudwayThemeFromMulberry,
+.dxChrome .dxeButtonEditButton_BudwayThemeFromMulberry.dxeButtonEditClearButton_BudwayThemeFromMulberry:hover
+{
+    padding-bottom: 0;
+}
+
+.dxeButtonEditClearButton_BudwayThemeFromMulberry img
+{
+    vertical-align: baseline;
+}
+
+/* -- Pressed -- */
+.dxeCalendarButtonPressed_BudwayThemeFromMulberry,
+.dxeColorEditButton_BudwayThemeFromMulberry:active,
+.dxeButtonEditButtonPressed_BudwayThemeFromMulberry,
+.dxeSpinIncButtonPressed_BudwayThemeFromMulberry,
+.dxeSpinDecButtonPressed_BudwayThemeFromMulberry,
+.dxeSpinLargeIncButtonPressed_BudwayThemeFromMulberry, 
+.dxeSpinLargeDecButtonPressed_BudwayThemeFromMulberry
+{
+    border: 1px solid #CBCBCB;
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+/* -- Hover -- */
+.dxeCalendarButtonHover_BudwayThemeFromMulberry,
+.dxeColorEditButton_BudwayThemeFromMulberry:hover,
+.dxeButtonEditButtonHover_BudwayThemeFromMulberry,
+.dxeSpinIncButtonHover_BudwayThemeFromMulberry,
+.dxeSpinDecButtonHover_BudwayThemeFromMulberry,
+.dxeSpinLargeIncButtonHover_BudwayThemeFromMulberry,
+.dxeSpinLargeDecButtonHover_BudwayThemeFromMulberry
+{
+    border: 1px solid #CBCBCB;
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+
+.dxeButtonEdit_BudwayThemeFromMulberry
+{
+	background: white;
+	border: 1px Solid #CBCBCB;
+	border-collapse: separate;
+	border-spacing: 1px;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+/*SharePoint 2013 Support*/
+.dxeButtonEditSys.dxeButtonEdit_BudwayThemeFromMulberry
+{
+	border-collapse: separate;
+}
+.dxeButtonEdit_BudwayThemeFromMulberry td.dxic 
+{
+	padding: 2px 2px 2px 7px!important;
+}
+.dxeButtonEdit_BudwayThemeFromMulberry .dxeEditArea_BudwayThemeFromMulberry
+{
+	background-color: white;
+}
+.dxeButtonEdit_BudwayThemeFromMulberry .dxeIIC img
+{
+	padding-left: 3px;
+}
+.dxeTextBox_BudwayThemeFromMulberry
+{
+	background: white;
+	border: 1px Solid #CBCBCB;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+.dxeTextBox_BudwayThemeFromMulberry td.dxic
+{
+	padding: 3px 2px 3px 7px!important;
+}
+.dxeTextBox_BudwayThemeFromMulberry .dxeEditArea_BudwayThemeFromMulberry
+{
+	background-color: white;
+}
+.dxeRadioButtonList_BudwayThemeFromMulberry,
+.dxeCheckBoxList_BudwayThemeFromMulberry
+{
+	font: 14px 'Helvetica Neue', 'Segoe UI', 'Droid Sans', Arial, Tahoma, Geneva, Sans-serif;
+	color: #343434;
+}
+
+.dxeCheckBoxList_BudwayThemeFromMulberry .dxe > table,
+.dxeRadioButtonList_BudwayThemeFromMulberry .dxe > table 
+{
+    width: 100%;
+}
+
+.dxeRadioButtonList_BudwayThemeFromMulberry,
+.dxeCheckBoxList_BudwayThemeFromMulberry
+{
+	border: 1px Solid #cbcbcb;
+}
+.dxeRadioButtonList_BudwayThemeFromMulberry td.dxe,
+.dxeCheckBoxList_BudwayThemeFromMulberry td.dxe
+{
+	padding: 8px 6px 8px 12px;
+}
+.dxeRadioButtonList_BudwayThemeFromMulberry[dir='rtl'] td.dxe,
+.dxeCheckBoxList_BudwayThemeFromMulberry[dir='rtl'] td.dxe
+{
+	padding: 8px 12px 8px 6px;
+}
+
+/* -- Memo -- */
+.dxeMemo_BudwayThemeFromMulberry
+{
+	background: white;
+	border: 1px Solid #CBCBCB;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+.dxeMemoEditArea_BudwayThemeFromMulberry
+{
+	background-color: white;
+	color: #343434;
+	outline: none;
+}
+
+/* -- Hyperlink -- */
+.dxeHyperlink_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #5e6d9d;
+	text-decoration: underline;
+}
+a:hover.dxeHyperlink_BudwayThemeFromMulberry
+{
+	color: #343434;
+	text-decoration: underline;
+}
+a:visited.dxeHyperlink_BudwayThemeFromMulberry
+{
+	color: #A1A1A1;
+	text-decoration: underline;
+}
+/* -- ListBox -- */
+.dxeListBox_BudwayThemeFromMulberry
+{
+	background: #fafafa;
+	border: 1px Solid #CBCBCB;
+	font: 14px 'Helvetica Neue','Segoe UI','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	height: 113px;
+	width: 70px;
+	color: #343434;
+}
+.dxeListBox_BudwayThemeFromMulberry div.dxlbd
+{
+	height: 112px;
+}
+.dxeListBoxItemRow_BudwayThemeFromMulberry
+{
+	cursor: default;
+}
+.dxeListBoxItem_BudwayThemeFromMulberry
+{
+	padding: 5px 6px 6px 8px;
+	white-space: nowrap;
+	text-align: left;
+}
+.dxeListBoxItem_BudwayThemeFromMulberry em
+{
+	background: #FFE7A2 none repeat 0 0;
+	color: #333333;
+	font-weight: bold;
+	font-style: normal;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeI,
+.dxeListBox_BudwayThemeFromMulberry td.dxeIM,
+.dxeListBox_BudwayThemeFromMulberry .dxeHIC,
+.dxeListBox_BudwayThemeFromMulberry td.dxeFTM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeTM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeC,
+.dxeListBox_BudwayThemeFromMulberry td.dxeCM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeHCC,
+.dxeListBox_BudwayThemeFromMulberry td.dxeMI,
+.dxeListBox_BudwayThemeFromMulberry td.dxeMIM
+{
+	border-right-width: 0!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeIR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeIMR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHICR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeFTMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeTMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeCR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeCMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeHCCR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeMIR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeMIMR
+{
+	border-left-width: 0!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeCM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeHCC,
+.dxeListBox_BudwayThemeFromMulberry td.dxeCMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeHCCR
+{
+	width: 40px;
+    *width: 33px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeIM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeIMR
+{
+	width: 0;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeC
+{
+	padding-left: 6px!important;
+    padding-right: 6px!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeCR
+{
+	padding-left: 3px!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeC > span,
+.dxeListBox_BudwayThemeFromMulberry td.dxeCM > span
+{
+    margin: -7px 0 -4px 0;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeCR > span,
+.dxeListBox_BudwayThemeFromMulberry td.dxeCMR > span
+{
+    margin: 2px 3px 2px 2px;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeT
+{
+	width: 100%;
+	padding-left: 0!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeTR
+{
+	width: 100%;
+	padding-right: 0!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeT,
+.dxeListBox_BudwayThemeFromMulberry td.dxeMI
+{
+	border-left-width: 0!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeTR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeMIR
+{
+	border-right-width: 0!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeFTM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeTM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeLTM,
+.dxeListBox_BudwayThemeFromMulberry .dxeHFC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHLC,
+.dxeListBox_BudwayThemeFromMulberry td.dxeFTMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeTMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeLTMR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHFCR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHCR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHLCR
+{
+	overflow: hidden;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeFTM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeTM,
+.dxeListBox_BudwayThemeFromMulberry .dxeHFC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHC
+{
+	padding-right: 6px!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeFTMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeTMR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHFCR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHCR
+{
+	padding-left: 6px!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeLTM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeTM, 
+.dxeListBox_BudwayThemeFromMulberry .dxeHC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHLC
+{
+	padding-left: 6px!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeLTMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeTMR, 
+.dxeListBox_BudwayThemeFromMulberry .dxeHCR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHLCR
+{
+	padding-right: 6px!important;
+}
+/*Grid lines*/
+.dxeListBox_BudwayThemeFromMulberry td.dxeTM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeLTM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeMIM
+{
+	border-left: 1px solid #cbcbcb!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeLTM
+{
+    border-right: 1px solid transparent!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeTMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeLTMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeMIMR
+{
+	border-right: 1px solid #cbcbcb!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeLTMR
+{
+    border-left: 1px solid transparent!important;
+}
+.dxeListBox_BudwayThemeFromMulberry td.dxeIM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeFTM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeTM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeLTM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeCM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeMIM,
+.dxeListBox_BudwayThemeFromMulberry td.dxeIMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeFTMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeTMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeLTMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeCMR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeMIMR
+{
+	border-bottom: 1px solid #cbcbcb;
+}
+
+.dxeListBoxItemSelected_BudwayThemeFromMulberry     
+{
+	background-color: #BF4E6A;
+	color: white;
+}
+.dxeListBoxItemHover_BudwayThemeFromMulberry        
+{
+	background-color: #f1f1f1;
+    color: #343434;
+}
+.dxeListBoxItemSelected_BudwayThemeFromMulberry em,
+.dxeListBoxItemHover_BudwayThemeFromMulberry em
+{
+	background-image: none;
+}
+
+/*Header*/
+.dxeListBox_BudwayThemeFromMulberry .dxeHD
+{
+	background: #fafafa;
+	border-bottom: 1px solid #cbcbcb;
+}
+.dxeListBox_BudwayThemeFromMulberry .dxeHFC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHIC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHLC, 
+.dxeListBox_BudwayThemeFromMulberry td.dxeHMIC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHFCR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHICR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHCR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHLCR, 
+.dxeListBox_BudwayThemeFromMulberry td.dxeHMICR
+{
+	color: #283B56;
+	border-bottom-width: 0;
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+.dxeListBox_BudwayThemeFromMulberry .dxeHD .dxeHFC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHD .dxeHC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHD .dxeHLC
+{
+    color: #8d8d8d;
+}
+.dxeListBox_BudwayThemeFromMulberry .dxeHC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHLC,
+.dxeListBox_BudwayThemeFromMulberry td.dxeHMIC
+{
+	border-left: 1px solid #cbcbcb;
+}
+.dxeListBox_BudwayThemeFromMulberry .dxeHCR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHLCR,
+.dxeListBox_BudwayThemeFromMulberry td.dxeHMICR
+{
+	border-right: 1px solid #cbcbcb;
+	text-align: right;
+}
+.dxeListBox_BudwayThemeFromMulberry .dxeHIC
+{
+	border-left: 1px solid #cbcbcb;
+}
+.dxeListBox_BudwayThemeFromMulberry .dxeHICR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHFCR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHCCR
+{
+	border-right: 1px solid #cbcbcb;
+	text-align: right;
+}
+.dxeListBox_BudwayThemeFromMulberry .dxeHFC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHC,
+.dxeListBox_BudwayThemeFromMulberry .dxeHMIC
+{
+	border-right-width: 0;
+}
+.dxeListBox_BudwayThemeFromMulberry .dxeHFCR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHCR,
+.dxeListBox_BudwayThemeFromMulberry .dxeHMICR
+{
+	border-left-width: 0;
+	text-align: right;
+}
+.dxeListBox_BudwayThemeFromMulberry .dxeHLC
+{
+	border-right: 1px solid #cbcbcb;
+}
+.dxeListBox_BudwayThemeFromMulberry .dxeHLCR
+{
+	border-left: 1px solid #cbcbcb;
+	text-align: right;
+}
+
+/* -- Calendar -- */
+.dxeCalendar_BudwayThemeFromMulberry
+{
+	font: normal 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	border: 1px solid #CBCBCB;
+	background: #FFFFFF;
+}
+.dxeCalendar_BudwayThemeFromMulberry td.dxMonthGrid
+{
+	padding: 3px 22px 6px 21px;
+	cursor: default;
+	background-color: #FFFFFF;
+}
+.dxeCalendar_BudwayThemeFromMulberry td.dxMonthGridWithWeekNumbers
+{
+	padding: 3px 19px 6px 7px;
+	cursor: default;
+}
+.dxeCalendar_BudwayThemeFromMulberry td.dxMonthGridWithWeekNumbersRtl
+{
+	padding: 3px 7px 6px 19px;
+	cursor: default;
+	background-color: #FFFFFF;
+}
+.dxeCalendarDayHeader_BudwayThemeFromMulberry
+{
+	color: #a3a3a3;
+    font-size: 0.86em;
+	padding: 3px 5px 13px 6px;
+}
+.dxeCalendarWeekNumber_BudwayThemeFromMulberry
+{
+	font-size: 0.79em;
+	text-align: right;
+	padding: 3px 3px 2px 4px;
+	color: #343434;
+}
+.dxeCalendarDay_BudwayThemeFromMulberry
+{
+	text-align: center;
+	padding: 2px 11px 3px;
+}
+.dxeCalendarWeekend_BudwayThemeFromMulberry        
+{
+	color: #c00000;
+}
+.dxeCalendarOtherMonth_BudwayThemeFromMulberry     
+{
+	color: #959595;
+}
+.dxeCalendarOutOfRange_BudwayThemeFromMulberry     
+{
+	color: #d0d0d0;
+}
+.dxeCalendarDayDisabled_BudwayThemeFromMulberry {
+	background-color: #fdfcfc;
+	color: #edebec!important;
+}
+.dxeCalendarToday_BudwayThemeFromMulberry         
+{
+	color: #BF4E6A;
+}
+.dxeCalendarSelected_BudwayThemeFromMulberry       
+{
+	background-color: #BF4E6A;
+    color: white;
+}
+.dxeDayInRange.dxeCalendarSelected_BudwayThemeFromMulberry
+{
+    background-color: #eccad2;
+}
+.dxeCalendarHeader_BudwayThemeFromMulberry
+{
+	background: #fafafa;
+	border-bottom: 1px solid #cbcbcb;
+	padding: 8px 6px;
+	margin: 8px;
+}
+.dxeCalendarHeader_BudwayThemeFromMulberry td.dxe
+{
+	color: #676767;
+	text-align: center;
+	cursor: pointer;
+}
+.dxeCalendarHeader_BudwayThemeFromMulberry .dxeCHS
+{
+    min-width: 1px;
+    *width: 1px;
+}
+.dxeCalendarFooter_BudwayThemeFromMulberry
+{
+	background: #fafafa;
+	border-top: 1px solid #cbcbcb;
+
+	padding: 8px 0px;
+}
+.dxeCalendarFooter_BudwayThemeFromMulberry .dxeCFS
+{
+    min-width: 10px;
+    *width: 10px;
+}
+.dxeCalendarFastNav_BudwayThemeFromMulberry
+{
+	color: #343434;
+	background: White;
+	border-bottom: 0px Solid #CBCBCB;
+	border: 1px Solid #CBCBCB;
+	padding: 12px 8px;
+}
+.dxeCalendarFastNavMonthArea_BudwayThemeFromMulberry
+{
+	padding: 0px 12px;
+}
+.dxeCalendarFastNavYearArea_BudwayThemeFromMulberry
+{
+    padding-top: 8px;
+}
+.dxeCalendarFastNavFooter_BudwayThemeFromMulberry
+{
+	border: 1px Solid #CBCBCB;
+    border-top: 0;
+	background: White;
+	padding: 8px 0px;
+}
+.dxeCalendarFastNavFooter_BudwayThemeFromMulberry .dxeCFNFS
+{
+    min-width: 10px;
+    *width: 10px;
+}
+.dxeCalendarFastNavMonth_BudwayThemeFromMulberry,
+.dxeCalendarFastNavYear_BudwayThemeFromMulberry
+{
+	padding: 3px 4px 4px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px Solid White;
+}
+.dxeCalendarFastNavMonthSelected_BudwayThemeFromMulberry,
+.dxeCalendarFastNavYearSelected_BudwayThemeFromMulberry
+{
+	color: white;
+	background: #BF4E6A;
+}
+.dxeCalendarFastNavMonthHover_BudwayThemeFromMulberry,
+.dxeCalendarFastNavYearHover_BudwayThemeFromMulberry
+{
+	background-color: #f1f1f1;
+    color: #343434;
+}
+.dxeDateEditTimeEditCell_BudwayThemeFromMulberry
+{
+    background-color: #FFFFFF;
+    padding: 4px 32px 14px;
+    width: 120px;
+}
+.dxeDateEditClockCell_BudwayThemeFromMulberry
+{
+    background-color: #FFFFFF;
+    padding: 9px 37px 0;
+}
+.dxeCalendarFooter_BudwayThemeFromMulberry.dxeDETSF
+{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+/* Disabled */
+.dxeDisabled_BudwayThemeFromMulberry,
+.dxeDisabled_BudwayThemeFromMulberry td.dxe
+{
+	color: #9f9f9f;
+	cursor: default;
+}
+.dxeEditArea_BudwayThemeFromMulberry.dxeDisabled_BudwayThemeFromMulberry
+{
+	color: #9f9f9f;
+}
+a.dxeDisabled_BudwayThemeFromMulberry, a.dxeDisabled_BudwayThemeFromMulberry:hover
+{
+	color: #dddddd;
+}
+.dxeButtonDisabled_BudwayThemeFromMulberry
+{
+	cursor: default;
+}
+/* -- Button -- */
+.dxbButton_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	padding: 2px 2px;
+
+	border: 1px solid #CBCBCB;
+	background: #f7f7f7;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRjFGMUYxIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 100%);
+
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08);
+}
+.dxbButtonHover_BudwayThemeFromMulberry
+{
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxbButtonChecked_BudwayThemeFromMulberry
+{
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+    color: #565656;
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+.dxbButtonPressed_BudwayThemeFromMulberry
+{
+    border: 1px solid #CBCBCB;
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+    color: #8a8a8a;
+
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.08), inset 0px 1px 1px 0px rgba(0,0,0,0.05);
+}
+.dxbButton_BudwayThemeFromMulberry div.dxb
+{
+	padding: 3px 21px 3px;
+}
+.dxbButton_BudwayThemeFromMulberry div.dxbf
+{
+	padding: 2px 20px 2px;
+	border: 1px dotted #2C4D79;
+}
+/* Button Link */
+a.dxbButton_BudwayThemeFromMulberry
+{
+    border-radius: 0;
+    box-shadow: none;
+
+    color: #5e6d9d;
+    text-decoration: underline;
+}
+a.dxbButton_BudwayThemeFromMulberry:hover
+{
+	color: #343434;
+}
+a.dxbButton_BudwayThemeFromMulberry:visited
+{
+	color: #A1A1A1;
+}
+/* Disabled */
+.dxbDisabled_BudwayThemeFromMulberry
+{
+	background: #e7e7e7;
+	border-color: #d3d3d3;
+}
+.dxbDisabled_BudwayThemeFromMulberry,
+a.dxbButton_BudwayThemeFromMulberry.dxbDisabled_BudwayThemeFromMulberry
+{
+	color: #C3C3C3;
+	cursor: default;
+    text-decoration: none;
+}
+/* -- FilterControl -- */
+.dxfcControl_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	padding: 0 1em;
+}
+.dxfcTable_BudwayThemeFromMulberry
+{
+	border-collapse: separate!important;
+}
+.dxfcTable_BudwayThemeFromMulberry td.dxfc
+{
+	line-height: 30px;
+	padding: 0px 0px 0px 3px;
+}
+a.dxfcPropertyName_BudwayThemeFromMulberry
+{
+	white-space: nowrap!important;
+	padding: 2px 4px!important;
+	color: Blue!important;
+}
+a.dxfcGroupType_BudwayThemeFromMulberry
+{
+	white-space: nowrap!important;
+	padding: 2px 4px!important;
+	color: Red!important;
+}
+a.dxfcOperation_BudwayThemeFromMulberry
+{
+	white-space: nowrap!important;
+	padding: 2px 4px!important;
+	color: Green!important;
+}
+a.dxfcValue_BudwayThemeFromMulberry
+{
+	white-space: nowrap!important;
+	padding: 2px 4px!important;
+	color: Gray!important;
+}
+.dxfcImageButton_BudwayThemeFromMulberry
+{
+	cursor: pointer;
+}
+
+.dxeMaskHint_BudwayThemeFromMulberry
+{
+	background: #ffffe1 none;
+	border: 1px solid black;
+	padding: 2px 5px 3px;
+	color: Black;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+
+.dxfcControl_BudwayThemeFromMulberry ul.dxfc-tree,
+.dxfcControl_BudwayThemeFromMulberry .dxfc-tree ul
+{
+    list-style-type: none;
+    margin: 0;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-tree
+{
+    width: 100%;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-subnd
+{
+    margin-left: 22px;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc > li > table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-elb
+{
+    float: left;
+    height: 21px;
+    vertical-align: top;
+    width: 26px;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-clr
+{
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+    width: 0;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-nd
+{
+    cursor: pointer;
+    display: block;
+    float: left;
+    outline: 0 none;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-nd > tbody > tr > td > a,
+.dxfcControl_BudwayThemeFromMulberry .dxfc-nd > tbody > tr > td > span,
+.dxfcControl_BudwayThemeFromMulberry .dxfc-nd > tbody > tr > td > img,
+.dxfcControl_BudwayThemeFromMulberry .dxfc-editor
+{
+    vertical-align: middle;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-nd > tbody > tr > td > a,
+.dxfcControl_BudwayThemeFromMulberry .dxfc-nd > tbody > tr > td > td,
+.dxfcControl_BudwayThemeFromMulberry .dxfc-nd > tbody > tr > td > span
+{
+    padding: 0 0.1ex;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-nd > tbody > tr > td > a
+{
+    line-height: 40px;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-ln
+{
+    vertical-align: top;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-memo textarea 
+{
+	height: 140px;
+	overflow: auto;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-validationSummary
+{
+	padding: 2px 5px 4px 6px !important;
+	list-style-type: none;
+	margin: 0;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-validationSummary li
+{
+	padding: 2px 0;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-validationSummary li a
+{
+	color: red;
+	text-decoration: none;
+	border-bottom: 1px dashed #f70;
+}
+
+.dxfcControl_BudwayThemeFromMulberry .dxfc-validationSummary li a:hover
+{
+	color: #f70;
+}
+/* -- ProgressBar -- */
+.dxeProgressBar_BudwayThemeFromMulberry
+{
+	background-color: #fafafa;
+
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+
+    height: 10px;
+}
+.dxeProgressBar_BudwayThemeFromMulberry .dxePBMainCell
+{
+	padding: 0;
+}
+.dxeProgressBar_BudwayThemeFromMulberry td.dxe
+{
+    background:  url('edtProgressPositionBack.png') no-repeat 50% center;
+	padding: 5px 0 6px;
+}
+.dxeProgressBarIndicator_BudwayThemeFromMulberry
+{
+	background: #BF4E6A;
+}
+
+/* -- DropDownWindow -- */
+.dxpcDropDown_BudwayThemeFromMulberry,
+.dxeDropDownWindow_BudwayThemeFromMulberry
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+}
+.dxeDropDownWindow_BudwayThemeFromMulberry
+{
+	background-color: White;
+	border: 1px Solid #cbcbcb;
+}
+.dxeDropDownWindow_BudwayThemeFromMulberry .dxgvTable_BudwayThemeFromMulberry
+{
+	border-left: 0;
+	border-right: 0;
+}
+.dxeDropDownWindow_BudwayThemeFromMulberry .dxgvHeader_BudwayThemeFromMulberry
+{
+	border-top: 0!important; 
+}
+
+/*----------------- ColorTable -----------------*/
+.dxeColorIndicator_BudwayThemeFromMulberry
+{
+	width: 18px;
+	height: 18px;
+	margin: 4px 2px 4px 6px;
+	cursor: pointer;
+}
+.dxeItemPicker_BudwayThemeFromMulberry
+{
+	background-color: #F9F9F9;
+	border: 1px solid #A3C0E8;
+}
+.dxeColorTable_BudwayThemeFromMulberry td.dx,
+.dxeItemPicker_BudwayThemeFromMulberry td.dx
+{
+	padding: 4px;
+}
+.dxeColorTableCell_BudwayThemeFromMulberry,
+.dxeItemPickerCell_BudwayThemeFromMulberry,
+.dxeACICell_BudwayThemeFromMulberry
+{
+	padding: 3px;
+	cursor: pointer;
+}
+.dxeColorTableCellDiv_BudwayThemeFromMulberry,
+.dxeACICellDiv_BudwayThemeFromMulberry
+{
+	width: 18px;
+	height: 18px;
+	font-size: 0;
+}
+.dxeColorTableCellDiv_BudwayThemeFromMulberry[style*="rgb(255, 255, 255)"],
+.dxeColorTableCellDiv_BudwayThemeFromMulberry:not([style*="background-color"]),
+.dxeACICellDiv_BudwayThemeFromMulberry[style*="#FFF"],
+.dxeACICellDiv_BudwayThemeFromMulberry:not([style*="background-color"])
+{
+    border: 1px solid #f0f0f0;
+	width: 16px;
+	height: 16px;
+}
+.dxeColorTableCellSelected_BudwayThemeFromMulberry,
+.dxeACICellSelected_BudwayThemeFromMulberry
+{
+	padding: 2px!important;
+
+    border: 1px solid #CBCBCB;
+    background: #d8d8d8;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0Q2RDZENiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRDlEOUQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+	background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(217,217,217,1) 100%);
+}
+.dxeColorTableCellHover_BudwayThemeFromMulberry,
+.dxeItemPickerCellHover_BudwayThemeFromMulberry,
+.dxeAutomaticColorItemCellHover_BudwayThemeFromMulberry,
+.dxeAutomaticColorItem_BudwayThemeFromMulberry:hover > div
+{
+	padding: 2px!important;
+
+    border: 1px solid #CBCBCB;
+	background: white;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+
+/* -- Invalid Style -- */
+.dxeInvalid_BudwayThemeFromMulberry
+{
+}
+.dxeInvalid_BudwayThemeFromMulberry .dxeEditArea_BudwayThemeFromMulberry,
+.dxeInvalid_BudwayThemeFromMulberry .dxeMemoEditArea_BudwayThemeFromMulberry
+{
+}
+
+/* -- Focused Style -- */
+.dxeFocused_BudwayThemeFromMulberry
+{
+	border: 1px solid #BF4E6A;
+    outline: 1px solid #BF4E6A;
+}
+
+.dxeFocused_BudwayThemeFromMulberry.dxeTrackBar_BudwayThemeFromMulberry
+{	
+	border: 0;
+    outline: 0;
+
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+/* -- Null Text Style -- */
+.dxeNullText_BudwayThemeFromMulberry .dxeEditArea_BudwayThemeFromMulberry,
+.dxeNullText_BudwayThemeFromMulberry .dxeMemoEditArea_BudwayThemeFromMulberry
+{
+	color: #b0b0b0;
+}
+
+/* -- Captcha -- */
+.dxcaControl_BudwayThemeFromMulberry 
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    border: 1px solid #cbcbcb;
+    display: table;
+    border-spacing: 0;
+    padding: 8px;
+}
+.dxcaControl_BudwayThemeFromMulberry .dxca-imageDiv 
+{
+    width: 100%!important;
+}
+.dxcaRefreshButton_BudwayThemeFromMulberry
+{
+	text-decoration: none;
+	color: #343434;
+}
+.dxcaDisabledRefreshButton_BudwayThemeFromMulberry
+{
+	color: #dddddd;
+}
+.dxcaRefreshButtonCell_BudwayThemeFromMulberry
+{
+    padding: 0!important;
+    vertical-align: top!important;
+}
+.dxcaRefreshButtonCell_BudwayThemeFromMulberry img
+{
+    margin-top: -2px!important;
+    margin-left: -30px!important;
+    margin-right: -2px!important;
+}
+.dxcaRefreshButtonText_BudwayThemeFromMulberry
+{
+	color: #343434;
+	text-decoration: none;
+}
+.dxcaDisabledRefreshButtonText_BudwayThemeFromMulberry
+{
+	text-decoration: none;
+}
+
+.dxcaTextBoxCell_BudwayThemeFromMulberry,
+.dxcaTextBoxCellNoIndent_BudwayThemeFromMulberry
+{
+	color: #343434;
+}
+.dxcaTextBoxCellNoIndent_BudwayThemeFromMulberry .dxeErrorCell_BudwayThemeFromMulberry
+{
+	padding-left: 0px;
+	padding-top: 4px;
+	color: Red;
+}
+.dxcaTextBoxLabel_BudwayThemeFromMulberry
+{
+	padding-bottom: 4px;
+	display: block;
+}
+
+.dxcaLoadingPanel_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxcaLoadingPanel_BudwayThemeFromMulberry .dxlp-loadingImage 
+{
+	margin:0px;
+}
+.dxcaLoadingPanel_BudwayThemeFromMulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 15px 20px;
+}
+
+.dxpcLite_BudwayThemeFromMulberry .dxHFBPS
+{
+    width: 10px;
+}
+
+.dxeTextBox_BudwayThemeFromMulberry,
+.dxeButtonEdit_BudwayThemeFromMulberry,
+.dxeIRadioButton_BudwayThemeFromMulberry,
+.dxeRadioButtonList_BudwayThemeFromMulberry,
+.dxeCheckBoxList_BudwayThemeFromMulberry
+{
+    cursor: default;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxeTrackBar_BudwayThemeFromMulberry, 
+.dxeIRadioButton_BudwayThemeFromMulberry, 
+.dxeButtonEdit_BudwayThemeFromMulberry, 
+.dxeTextBox_BudwayThemeFromMulberry, 
+.dxeRadioButtonList_BudwayThemeFromMulberry, 
+.dxeCheckBoxList_BudwayThemeFromMulberry, 
+.dxeMemo_BudwayThemeFromMulberry, 
+.dxeListBox_BudwayThemeFromMulberry, 
+.dxeCalendar_BudwayThemeFromMulberry, 
+.dxeColorTable_BudwayThemeFromMulberry
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/* ASPxCololrEdit */
+.dxcpParametersCell_BudwayThemeFromMulberry input
+{
+	width: 71px;
+	height: 21px;
+    line-height: 21px;
+    padding: 3px 0px 4px 5px;
+	background: #fafafa;
+}
+.dxcpParametersCellSys .dxcpWebColorInput_BudwayThemeFromMulberry
+{
+	float: right;
+	margin-top: 9px;
+	*margin-top: 3px;
+}
+.dxcpColorParameterMainDiv_BudwayThemeFromMulberry
+{
+	padding: 0px 0 4px 9px;
+	width: 95px;
+	text-align: right;
+}
+.dxeCustomColorButton_BudwayThemeFromMulberry
+{
+    padding-top: 4px;
+    padding-bottom: 4px;
+	margin: 3px 7px;
+	cursor: pointer;
+}
+.dxeCustomColorButtonHover_BudwayThemeFromMulberry
+{
+    border: 1px solid #CBCBCB;
+    background: white;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+DQogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIgc3RvcC1vcGFjaXR5PSIxIi8+DQogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIiBzdG9wLW9wYWNpdHk9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4NCjwvc3ZnPg0K);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(248,248,248,1) 100%);
+}
+.dxeAutomaticColorItem_BudwayThemeFromMulberry
+{
+    padding: 4px 4px 0px 4px;
+}
+.dxeAutomaticColorItem_BudwayThemeFromMulberry > span
+{
+    margin: 0px 7px;
+    line-height: 24px;
+}
+.dxcpCurrentColor_BudwayThemeFromMulberry, 
+.dxcpSavedColor_BudwayThemeFromMulberry
+{
+	height: 35px;
+}
+.dxcpCurrentAndSaved_BudwayThemeFromMulberry
+{
+	width: 76px;
+	margin: 1px 0px 0px auto;
+	cursor: pointer;
+}
+.dxeColorTablesMainDiv_BudwayThemeFromMulberry,
+.dxeColorSelectorMainDiv_BudwayThemeFromMulberry
+{
+	background-color: #FFFFFF;
+}
+.dxeColorSelectorMainDiv_BudwayThemeFromMulberry
+{
+	padding: 7px;
+}
+.dxcpColorArea_BudwayThemeFromMulberry,
+.dxcpHueAreaImage_BudwayThemeFromMulberry,
+.dxcpCurrentAndSaved_BudwayThemeFromMulberry,
+.dxeColorTablesMainDiv_BudwayThemeFromMulberry,
+.dxeColorSelectorMainDiv_BudwayThemeFromMulberry,
+.dxcpParametersCell_BudwayThemeFromMulberry input
+{
+	border: 1px Solid #cbcbcb;
+}
+.dxeButtonsPanelDiv_BudwayThemeFromMulberry
+{
+	margin-top: 15px;
+	text-align: right;
+}
+.dxeButtonsPanelDiv_BudwayThemeFromMulberry input
+{
+	min-width: 68px;
+	margin-left: 10px;
+}
+
+/* -- ASPxTokenBox -- */
+.dxeButtonEdit_BudwayThemeFromMulberry.dxeTokenBox {
+    padding-top: 0px;
+}
+input.dxeTokenBoxInput_BudwayThemeFromMulberry[type="text"] {
+	display: inline-block;
+	float: left;
+	width: 30px;
+	outline: none;
+	padding: 2px 2px 1px 2px;
+    margin-left: 2px;
+}
+.dxeToken_BudwayThemeFromMulberry {
+	display: inline-block;
+	color: #ffffff;
+	margin: 2px 3px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	min-width: 30px;
+}
+.dxeTokenText_BudwayThemeFromMulberry, .dxeTokenRemoveButton_BudwayThemeFromMulberry {
+	display: block;
+	float: left;
+}
+.dxeTokenText_BudwayThemeFromMulberry {
+	padding: 2px 7px 1px 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.dxeTokenRemoveButton_BudwayThemeFromMulberry {
+	cursor: pointer;
+	margin-bottom: -1px;
+}
+.dxeToken_BudwayThemeFromMulberry {
+	background-color: #BF4E6A;
+}
+
+.dxeButtonEdit_BudwayThemeFromMulberry td.dxictb {
+    padding: 0px 0px 1px 1px !important;
+}
+
+.dxeButtonEdit_BudwayThemeFromMulberry td.dxictb {
+    *padding: 0px 0px 1px 1px !important;
+}
+
+@-moz-document url-prefix() {
+	.dxeTokenText_BudwayThemeFromMulberry {
+		padding: 1px 7px 1px 5px;
+	}
+}
+
+/* ASPxPictureEdit */
+.dxpePreviewContainer_BudwayThemeFromMulberry
+{
+    position: relative;
+}
+.dxpeCommandPanel_BudwayThemeFromMulberry
+{
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    height: 32px;
+    position: absolute;
+}
+.dxpeBottomCommandPanel_BudwayThemeFromMulberry
+{
+    width: 100%;
+    bottom: 0;
+}
+
+.dxpeTopCommandPanel_BudwayThemeFromMulberry
+{
+    width: 100%;      
+    top: 0;    
+}
+.dxpeCommandPanelDeleteButton_BudwayThemeFromMulberry, 
+.dxpeCommandPanelOpenDialogButton_BudwayThemeFromMulberry
+{    
+    cursor: pointer;
+    display: inline-block;
+}
+.dxpeCommandPanelButtonsWrapper_BudwayThemeFromMulberry
+{
+    position: absolute;
+}
+.dxpeCommandPanelButtonsWrapperLeft_BudwayThemeFromMulberry
+{
+    left: 0;
+}
+.dxpeCommandPanelButtonsWrapperCenter_BudwayThemeFromMulberry
+{
+    left: 50%;
+    margin-left: -32px;
+}
+.dxpeCommandPanelButtonsWrapperRight_BudwayThemeFromMulberry
+{
+    right: 0;
+}
+.dxpeCommandPanelDeleteButtonHover_BudwayThemeFromMulberry,
+.dxpeCommandPanelDeleteButtonPressed_BudwayThemeFromMulberry,
+.dxpeCommandPanelOpenDialogButtonHover_BudwayThemeFromMulberry,
+.dxpeCommandPanelOpenDialogButtonPressed_BudwayThemeFromMulberry
+{
+}
+.dxpeCommandPanelDeleteButtonDisabled_BudwayThemeFromMulberry,
+.dxpeCommandPanelOpenDialogButtonDisabled_BudwayThemeFromMulberry
+{
+}
+.dxpeDropZone_BudwayThemeFromMulberry
+{
+    background-color: gray;
+}
+.dxpePlaceHolder_BudwayThemeFromMulberry
+{
+    background-color: lightgray;
+    z-index: -1;
+}
+.dxpeTextPanelContainer_BudwayThemeFromMulberry
+{
+    height: 100%;
+    font-size: 200%;
+    text-align: center;
+    width: 100%;
+}
+.dxpeTextPanel_BudwayThemeFromMulberry
+{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Editor caption */
+.dxeCaptionCell_BudwayThemeFromMulberry
+{
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #2B2B2B;
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+.dxeRoot_BudwayThemeFromMulberry
+{
+}
+.dxeCaption_BudwayThemeFromMulberry
+{
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeTextEditCTypeSys
+{
+    padding-top: 7px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeCheckBoxCTypeSys
+{
+    padding-top: 7px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeRadioButtonCTypeSys
+{
+    padding-top: 8px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeCheckBoxListCTypeSys
+{
+    padding-top: 16px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeRadioButtonListCTypeSys
+{
+    padding-top: 16px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeListBoxCTypeSys
+{
+    padding-top: 8px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeTrackBarCTypeSys
+{
+    padding-top: 13px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeProgressBarCTypeSys
+{
+    padding-top: 6px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeMemoCTypeSys
+{
+    padding-top: 5px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeCustomCTypeSys
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+	.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeCheckBoxCTypeSys
+    {
+        padding-top: 8px;
+    }
+    .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeRadioButtonCTypeSys
+    {
+        padding-top: 9px;
+    }
+    .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeProgressBarCTypeSys
+    {
+        padding-top: 7px;
+    }
+}
+
+/* Chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeTextEditCTypeSys
+    {
+        padding-top: 8px;
+    }
+    .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeCheckBoxCTypeSys
+    {
+        padding-top: 8px;
+    }
+    .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeRadioButtonCTypeSys
+    {
+        padding-top: 9px;
+    }
+    .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeProgressBarCTypeSys
+    {
+        padding-top: 7px;
+    }
+    .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeMemoCTypeSys
+    {
+        padding-top: 6px;
+    }
+}
+
+/* Safari */
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeTextEditCTypeSys.dxeCaptionCellSafariSys
+{
+    padding-top: 7px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeCheckBoxCTypeSys.dxeCaptionCellSafariSys
+{
+    padding-top: 7px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeRadioButtonCTypeSys.dxeCaptionCellSafariSys
+{
+    padding-top: 8px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeProgressBarCTypeSys.dxeCaptionCellSafariSys
+{
+    padding-top: 6px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeMemoCTypeSys.dxeCaptionCellSafariSys
+{
+    padding-top: 5px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeCheckBoxListCTypeSys.dxeCaptionCellSafariSys
+{
+    padding-top: 15px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeRadioButtonListCTypeSys.dxeCaptionCellSafariSys
+{
+    padding-top: 15px;
+}
+.dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeListBoxCTypeSys.dxeCaptionCellSafariSys
+{
+    padding-top: 7px;
+}
+
+/* Opera */
+noindex:-o-prefocus, body:first-of-type .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeTextEditCTypeSys
+{
+    padding-top: 8px;
+}
+noindex:-o-prefocus, body:first-of-type .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeCheckBoxCTypeSys
+{
+    padding-top: 8px;
+}
+noindex:-o-prefocus, body:first-of-type .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeRadioButtonCTypeSys
+{
+    padding-top: 9px;
+}
+noindex:-o-prefocus, body:first-of-type .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeProgressBarCTypeSys
+{
+    padding-top: 7px;
+}
+noindex:-o-prefocus, body:first-of-type .dxeCaptionCell_BudwayThemeFromMulberry.dxeCaptionVATSys.dxeMemoCTypeSys
+{
+    padding-top: 6px;
+}
+
+.dxeRequiredMark_BudwayThemeFromMulberry {
+    color: green;
+    font-style: normal;
+}
+
+.dxeOptionalMark_BudwayThemeFromMulberry {
+    color: gray;
+    font-style: normal;
+}
+/*Loading Panel*/
+.dxlpLoadingPanel_BudwayThemeFromMulberry,
+.dxlpLoadingPanelWithContent_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxlpLoadingPanel_BudwayThemeFromMulberry td.dx,
+.dxlpLoadingPanelWithContent_BudwayThemeFromMulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxlpLoadingPanel_BudwayThemeFromMulberry .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_BudwayThemeFromMulberry .dxlp-loadingImage,
+.dxcaLoadingPanel_BudwayThemeFromMulberry .dxlp-loadingImage,
+.dxeImage_BudwayThemeFromMulberry.dxe-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+/* Out of range warning*/
+.dxeOutOfRWarn_BudwayThemeFromMulberry {
+    font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+    padding: 3px 8px 4px 8px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    z-index: 41998;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #A8A8A8;
+}
+.dxeOutOfRWarnRight_BudwayThemeFromMulberry {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.dxeOutOfRWarnBottom_BudwayThemeFromMulberry {
+    margin-top: 10px;
+}
+

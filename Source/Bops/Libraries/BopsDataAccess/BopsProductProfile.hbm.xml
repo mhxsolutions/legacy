@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsProductProfile, BopsDataAccess" table="[Product Profiles]" lazy="false">
+    <id name="ProfileId" column="[Profile ID]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="ReceivingClientRef" column="[Receiving Client Ref]"/>
+    <property name="ProductClassDescription" column="[Product Class Description]"/>
+    <property name="GroupLabel1" column="[Group Label 1]"/>
+    <property name="GroupLabel2" column="[Group Label 2]"/>
+    <property name="GroupLabel3" column="[Group Label 3]"/>
+    <property name="WeightLabel" column="[Weight Label]"/>
+    <property name="PackageLabel" column="[Package Label]"/>
+    <property name="ProductClassNotes" column="[Product Class Notes]"/>
+    <property name="TransportationClientRef" column="[Transportation Client Ref]"/>
+    <property name="ReceiverDupeLockLabel" column="[Receiver Dupe Lock Lable]"/>
+    <property name="BulkItems" column="[Bulk Items]"/>
+    <property name="PreRelease" column="[PreRelease]"/>
+    <property name="ProductRef" column="[Product Ref]"/>
+    <property name="AutoBillForStorage" column="[Auto Bill for Storage]"/>
+    <property name="BaseTruckloadRate" column="[Base Truckload Rate]"/>
+    <property name="RfsRef" column="[RFS ref]"/>
+    <property name="NoStorageBilling" column="[No Storage Billing]"/>
+  </class>
+</hibernate-mapping>

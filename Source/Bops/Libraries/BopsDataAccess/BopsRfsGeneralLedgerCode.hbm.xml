@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsGeneralLedgerCode, BopsDataAccess" table="[RFS General Ledger Codes]" lazy="false">
+    <id name="GeneralLedgerCode" column="[General Ledger Code]">
+      <generator class="assigned"/>
+    </id>
+    <property name="Description" column="[Description]"/>
+  </class>
+</hibernate-mapping>

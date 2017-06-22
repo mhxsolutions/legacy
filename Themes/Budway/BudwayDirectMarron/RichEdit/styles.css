@@ -1,0 +1,399 @@
+.dxreControl_BudwayDirectMarron
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A74768;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxreControl_BudwayDirectMarron .dxre-rulerWrapper {
+	padding-top: 2px;
+    background-color: #EFE1E8;
+}
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-columnHandleLeftPart,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-columnHandleRightPart {
+    width: 5px;
+    background-color: #bcb8b8;
+}
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerTableColumnSeparatorHandle,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerDivisions,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerDivisions div,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerMarginLeftPanel,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerMarginRightPanel,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-columnHandle,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-columnHandle > div {
+	height: 12px;
+}
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerTableColumnSeparatorHandle > div {
+    margin-top: 2px;
+}
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerDivisions,
+.dxreControl_BudwayDirectMarron .dxre-rulerWrapper .dxre-rulertabAlignBox > div {
+    background-color: #fff;
+}
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerTableColumnSeparatorHandle,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerMarginLeftPanel,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerMarginRightPanel,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerMarginLeftHandlePanel,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerMarginRightHandlePanel,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-columnHandle,
+.dxreControl_BudwayDirectMarron .dxre-rulerWrapper .dxre-rulertabAlignBox {
+    background-color: #d3d3d3;
+}
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerDivisions .dxre-rulerMinorDivision,
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerDivisions .dxre-rulerMajorDivision {
+	border-left: 1px solid #a3a3a3;
+}
+.dxreControl_BudwayDirectMarron .dxre-ruler .dxre-rulerDivisions .dxre-rulerNumberDivision {
+	color: #4e4e4e;
+}
+.dxreControl_BudwayDirectMarron .dxre-rulerLine {
+	border-left: 1px dashed #717171;
+}
+.dxreControl_BudwayDirectMarron .dxre-rulerLine.table {
+	border-left: 1px solid #599eff;
+}
+.dxreControl_BudwayDirectMarron .dxre-table-border-line {
+	background-color: #599eff;
+}
+.dxreControl_BudwayDirectMarron .dxre-leftIdentDragHandleBody {
+    background-color: white;
+    border: 1px solid #929292;
+    border-top: none;
+    height: 6px;
+}
+.dxreControl_BudwayDirectMarron .dxrControl_BudwayDirectMarron .dxr-minBtn 
+{
+	padding-right: 7px;
+}
+.dxreControl_BudwayDirectMarron .dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron
+{
+	background-color: #BE7790;
+}
+.dxreControl_BudwayDirectMarron .dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron .dxtc-leftIndent
+{
+	width: 3px;
+}
+.dxreControl_BudwayDirectMarron .dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron > .dxtc-stripContainer
+{
+    border-style: none;
+}
+.dxreControl_BudwayDirectMarron .dxrControl_BudwayDirectMarron .dxr-tabContent 
+{
+	border-left-style: none;
+	border-right-style: none;
+    border-bottom-color: #A74768;
+}
+.dxreControl_BudwayDirectMarron .dxre-page 
+{
+    border: 1px solid #808080;
+}
+.dxreControl_BudwayDirectMarron .dxre-view 
+{
+	background: #EFE1E8;
+}
+.dxreControl_BudwayDirectMarron .dxre-bar 
+{
+	background-color: #EFEFEF;
+	border-top: 1px solid #D5D5D5;
+    height: 22px;
+}
+.dxreControl_BudwayDirectMarron .dxre-bar .dxre-loadingPanel {
+    float: right;
+    margin: 2px 2px 0 0;
+    color: #000;
+}
+.dxreControl_BudwayDirectMarron .dxre-bar .dxre-loadingPanel .dx {
+    line-height: 0;
+}
+.dxreControl_BudwayDirectMarron .dxre-bar .dxre-loadingPanel .dxlp-loadingImage {
+    width: 18px;
+    height: 18px;
+    background: url('../Web/Loading.gif');
+}
+/* QuickSearch*/
+.dxreControl_BudwayDirectMarron .dxre-quickSearchPanel {
+    background: #f2f2f2;
+    border: 1px solid #a74768;
+    border-top: none;
+    padding: 6px;
+}
+.dxreControl_BudwayDirectMarron .dxre-quickSearchPanel .dxre-quickSearchButtonEdit {
+    width: 200px;
+}
+.dxreControl_BudwayDirectMarron .dxre-quickSearchPanel .dxre-quickSearchButton:first-of-type {
+    margin-left: 5px;
+    margin-right: 1px;
+}
+.dxreControl_BudwayDirectMarron .dxre-quickSearchPanel .dxre-quickSearchButton:nth-of-type(3) {
+    margin-left: 25px;
+    margin-right: 2px;
+}
+.dxreControl_BudwayDirectMarron .dxre-quickSearchPanel .dxre-quickSearchButton {
+    margin-top: 1px;
+}
+.dxFirefox .dxreControl_BudwayDirectMarron .dxre-quickSearchPanel .dxre-quickSearchButton {
+    margin-top: 2px;
+}
+.dxreControl_BudwayDirectMarron .dxre-quickSearchPanel .dxre-quickSearchButton,
+.dxreControl_BudwayDirectMarron .dxre-quickSearchPanel .dxre-quickSearchButton .dxb {
+    padding: 0px !important;
+    background: none !important;
+    border: none !important;
+}
+
+/*Dialogs Style*/
+.dxreControl_BudwayDirectMarron .dxreDlgParagraphForm .dxtc-content {
+    width: 387px;
+    height: 290px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgParagraphForm .dxre-dialogControlsWrapper > tbody > tr > td:first-child {
+    text-align: left;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgPageSetupForm .dxtc-content {
+    width: 320px;
+    height: 155px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgTablePropertiesForm .dxtc-content {
+    width: 385px;
+    height: 400px;
+}
+.dxFirefox .dxreControl_BudwayDirectMarron .dxreDlgTablePropertiesForm .dxtc-content {
+    height: 410px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgTablePropertiesForm .dxre-dialogCellBlock {
+    width: 68px;
+    background-color: #EED8E3;
+    border: dashed 1px #818181;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgTablePropertiesForm .dxre-dialogCellMargins td.dxre-dialogLGC {
+    padding-left: 2px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgTablePropertiesForm .dxre-dialogCellNavigation {
+    width: auto;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgTablePropertiesForm .dxre-dialogCellNavigation td.dxre-dialogLGC {
+    padding: 0px;
+}
+.dxreControl_BudwayDirectMarron .dxreTableBorderPreview {
+    position: absolute;
+    width: 130px;
+    left: 335px;
+    top: 85px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgBorderShadingForm .dxtc-content {
+    width: 460px;
+    height: 260px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgBorderShadingForm .dxtc-content .dxflGroup_BudwayDirectMarron {
+    width: auto;
+}
+.dxreControl_BudwayDirectMarron .dxreBorderButton {
+    visibility: hidden;
+}
+.dxreControl_BudwayDirectMarron .dxreBorderButton div.dxb {
+    border: 1px dotted transparent;
+    padding: 0px !important;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgColumnsForm {
+    width: 400px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgColumnsForm .dxreDlgColumnsEditorMainTable > tbody > tr > td {
+    padding: 2px 4px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgColumnsForm .dxreDlgColumnsEditor {
+    height: 100px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgTextBox {
+    width: 40px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgColumnsForm .dxreDlgColumnsEditor .dxreDlgSpinEdit {
+    width: 90px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgAlertForm {
+    width: 350px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgSaveFileForm {
+    width: 470px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgInsertMergeFieldForm {
+    width: 300px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgInsertMergeFieldForm .dxeListBox_BudwayDirectMarron {
+    height: 250px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgBookmarksForm {
+    width: 300px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgOpenFileForm {
+    width: 800px;
+    height: 500px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgOpenFileForm .dxre-dialogContentGroup,
+.dxreControl_BudwayDirectMarron .dxreDlgOpenFileForm .dxre-dialogContentGroup .dxflItem_BudwayDirectMarron {
+    padding: 0px !important;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgFindReplaceForm {
+    width: 440px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgFindReplaceForm .dxre-searchResultList {
+    width: 100%;
+    height: 180px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgFindReplaceForm .dxre-searchResultList .dxeListBoxItem_BudwayDirectMarron {
+    white-space: normal;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgFindReplaceForm .dxre-dialogContentGroup {
+    padding: 32px !important;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgFindReplaceForm .dxre-searchResult .dxflCaptionCellSys {
+    width: 100% !important;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgFindReplaceForm .dxre-searchResult .dxre-dialogLINC {
+    white-space: nowrap;
+    color: #acacac;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgFindReplaceForm .dxre-dialogControlsWrapper > tbody > tr > td:first-child {
+    width: auto;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgFindReplaceForm .dxre-dialogControlsWrapper > tbody > tr > td:nth-child(2){
+    width: 100%;
+    text-align: left;
+}
+.dxreControl_BudwayDirectMarron .dxre-dialogShortEditor {
+    width: 70px;
+}
+.dxreControl_BudwayDirectMarron .dxre-dialogEditor {
+    width: 110px;
+}
+.dxreControl_BudwayDirectMarron .dxre-dialogLongEditor {
+    width: 170px;
+}
+.dxreControl_BudwayDirectMarron .dxre-EmptyLine {
+    height: 10px;
+}
+.dxreControl_BudwayDirectMarron .dxre-Separator {
+    height: 0px;
+    margin: 5px 0;
+    border-top: 1px solid #808080;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgFooterBtn {
+    width: 80px;
+    margin-left: 8px;
+}
+.dxreControl_BudwayDirectMarron table.dxre-dialogLG.dxflGroupSys.dxre-dialogContentGroup {
+    padding: 11px;
+}
+.dxreControl_BudwayDirectMarron .dxre-dialogFooter {
+    width: auto;
+	padding: 11px;
+    background-color: #EED8E3;
+    border-top: solid 1px #CB9FB4;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgInsertImageForm .dxreDlgImagePreview {
+    margin-top: 10px;
+    width: 100%;
+    height: 170px;
+    color: #808080;
+    border: dashed 1px #808080;
+    text-align:center;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgInsertImageForm .dxreDlgInsertImagePanel {
+    width: 320px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgInsertImageForm .dxre-dialogRadioNavigation {
+    padding-bottom: 10px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgNumberingListForm .dxreDlgMainContainer {
+    width: 520px;
+    height: 220px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgHyperlinkForm {
+    width: 470px;
+}
+.dxreControl_BudwayDirectMarron .dxflFormLayout_BudwayDirectMarron .dxre-editorsGroupWithPaddings {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgTabsForm {
+    width: 380px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgTabsForm .dxreDlgTabsList {
+    height: 70px;
+}
+.dxreControl_BudwayDirectMarron .dxreMultiLevelNumberingListBoxLayout,
+.dxreControl_BudwayDirectMarron .dxreMultiLevelNumberingListBoxLayout .dxlbd {
+    width: 30px;
+    height: 100% !important;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgMultiLevelNumberingListForm .dxre-dialogContentGroup td.dxre-dialogLGC:first-child {
+    padding-left: 8px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgMultiLevelNumberingListForm .dxflFullHeightItemCellSys {
+    padding-left: 0px !important;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgBulletedListForm .dxreDlgBulletPresetBtn {
+    width: 45px;
+    margin: 8px 0px 12px 5px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgNumberingListForm .dxreDlgNumberingListPreview {
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgFontForm .dxreCheckBoxContainer .dxflGroup_BudwayDirectMarron {
+    padding: 0px 0px 0px 30px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgFontForm .dxreCheckBoxContainer .dxflItem_BudwayDirectMarron {
+    padding: 0px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgListBox {
+    padding: 1px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgSymbolsForm .dxreDlgSymbolsList {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #BC758E;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgListBox > div {
+    border: 1px solid #BC758E;
+    margin: 1px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgSymbolsForm .dxreDlgListBox > div {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: large;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgNumberingListForm .dxreDlgListBox > div {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgListBox .dxreDlgListHover {
+    background-color: #DBBBDA;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgListBox .dxreDlgListSelected {
+    background-color: #AD275C;
+    color: #FFF;
+}
+.dxreControl_BudwayDirectMarron .dxre-dialogLGB > .dxre-dialogLG tr:first-child > .dxre-dialogLGC > .dxre-dialogLI {
+    padding-top: 2px;
+}
+.dxreControl_BudwayDirectMarron .dxre-dialogLayoutWhithPaddings tr td:first-child .dxflItemSys {
+    padding-left: 5px;
+}
+.dxreControl_BudwayDirectMarron .dxre-dialogLayoutWhithPaddings tr td:first-child .dxflTextItemSys {
+    padding-left: 0px;
+}
+.dxreControl_BudwayDirectMarron .dxreDlgSpellingForm .dxreDlgSS,
+.dxreControl_BudwayDirectMarron .dxreDlgSpellingForm .dxreDlgSM {
+    width: 320px;
+    height: 100px
+}
+.dxreControl_BudwayDirectMarron .dxreDlgSpellingForm .dxreDlgSB {
+    min-width: 80px;
+    width: 100%;
+    margin-bottom: 5px;
+}

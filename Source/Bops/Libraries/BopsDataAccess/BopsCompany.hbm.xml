@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsCompany, BopsDataAccess" table="[Company]" lazy="false">
+    <id name="CompanyId" column="[Company ID]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="Name" column="[Company Name]"/>
+    <property name="City" column="[Company City]"/>
+    <property name="InvoiceType" column="[Invoice Type]"/>
+  </class>
+</hibernate-mapping>

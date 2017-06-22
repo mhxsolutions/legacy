@@ -1,0 +1,387 @@
+.dxtlControl_BudwayThemeFromMulberry
+{
+	cursor: default;
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	border: 1px none #cbcbcb;
+}
+.dxtlControl_BudwayThemeFromMulberry caption
+{
+	background: #F7FAFF none;
+	color: #343434;
+	border-bottom: 0;
+	border: 1px solid #cbcbcb;
+	font-weight: normal;
+	text-align: center;
+	padding: 5px 5px 6px;
+}
+.dxtlControl_BudwayThemeFromMulberry .dxtlDataTable
+{
+	border: 1px solid #cbcbcb;
+}
+
+/* Indent cells */
+.dxtlIndent_BudwayThemeFromMulberry,
+.dxtlIndentWithButton_BudwayThemeFromMulberry
+{
+	vertical-align: top;
+	background: white none no-repeat top center;
+}
+.dxtlIndent_BudwayThemeFromMulberry
+{
+	padding: 0 11px;
+}
+.dxtlICheckBox_BudwayThemeFromMulberry
+{
+	margin: auto;
+}
+.dxtlIndentWithButton_BudwayThemeFromMulberry
+{
+	padding: 7px 4px;
+}
+.dxtlSelectionCell_BudwayThemeFromMulberry
+{
+	border: 1px solid #cbcbcb;
+	padding: 0 4px;
+}
+.dxtlSelectionCell_BudwayThemeFromMulberry .dxICheckBox_BudwayThemeFromMulberry, 
+.dxtlNode_BudwayThemeFromMulberry .dxICheckBox_BudwayThemeFromMulberry
+{
+	margin: -4px 0;
+}
+/* Tree-lines cells */
+.dxtlLineRoot_BudwayThemeFromMulberry
+{
+	background: White  repeat-y center top;
+}
+.dxtlLineFirst_BudwayThemeFromMulberry
+{
+}
+.dxtlLineMiddle_BudwayThemeFromMulberry
+{
+}
+.dxtlLineLast_BudwayThemeFromMulberry
+{
+}
+.dxtlLineFirstRtl_BudwayThemeFromMulberry
+{
+}
+.dxtlLineMiddleRtl_BudwayThemeFromMulberry
+{
+}
+.dxtlLineLastRtl_BudwayThemeFromMulberry
+{
+}
+
+/* Headers */
+.dxtlControl_BudwayThemeFromMulberry .dxtlHSDC 
+{
+    background: none;
+    border: 1px Solid #cbcbcb;
+}
+.dxtlHeader_BudwayThemeFromMulberry
+{
+	border: 1px Solid #cbcbcb;
+	color: #d8d8d8;
+	padding: 6px 10px;
+	font-weight: normal;
+}
+.dxtlDataTable .dxtlHeader_BudwayThemeFromMulberry
+{
+    border-top: 0;
+    border-right: 0;
+}
+.dxtlControl_BudwayThemeFromMulberry[dir=rtl] .dxtlDataTable .dxtlHeader_BudwayThemeFromMulberry
+{
+    border-left: 0;
+    border-right: 1px Solid #cbcbcb;
+}
+.dxtlDataTable .dxtlHeader_BudwayThemeFromMulberry:first-child 
+{
+    border-left-width: 0;
+}
+.dxtlDataTable .dxtlHeader_BudwayThemeFromMulberry:last-child 
+{
+    border-right-width: 0;
+}
+.dxtlHeader_BudwayThemeFromMulberry table.dxtl
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+.dxtlHeader_BudwayThemeFromMulberry td.dxtl
+{
+	padding: 0;
+}
+.dxtlHeader_BudwayThemeFromMulberry,
+.dxtlHeader_BudwayThemeFromMulberry td.dxtl
+{
+    color: #7e7e7e;
+	white-space: nowrap;
+	text-align: left;
+	overflow: hidden;
+}
+
+/* Nodes */
+.dxtlNode_BudwayThemeFromMulberry
+{
+	background: white;
+}
+.dxtlAltNode_BudwayThemeFromMulberry > td.dxtl,
+.dxtlAltNode_BudwayThemeFromMulberry > .dxtlCommandCell_BudwayThemeFromMulberry,
+.dxtlAltNode_BudwayThemeFromMulberry > .dxtlSelectionCell_BudwayThemeFromMulberry
+{
+	background-color: #eff0f5;
+}
+.dxtlSelectedNode_BudwayThemeFromMulberry > td.dxtl,
+.dxtlSelectedNode_BudwayThemeFromMulberry > .dxtlCommandCell_BudwayThemeFromMulberry,
+.dxtlSelectedNode_BudwayThemeFromMulberry > .dxtlSelectionCell_BudwayThemeFromMulberry
+{
+	background-color: #efd3da;
+}
+.dxtlFocusedNode_BudwayThemeFromMulberry > td.dxtl,
+.dxtlFocusedNode_BudwayThemeFromMulberry > .dxtlCommandCell_BudwayThemeFromMulberry,
+.dxtlFocusedNode_BudwayThemeFromMulberry > .dxtlSelectionCell_BudwayThemeFromMulberry
+{
+	background: #BF4E6A;
+	color: white;
+}
+.dxtlInlineEditNode_BudwayThemeFromMulberry
+{
+	background: white none;
+}
+.dxtlEditFormDisplayNode_BudwayThemeFromMulberry
+{
+	background: #ECF4FE none;
+}
+.dxtlNode_BudwayThemeFromMulberry td.dxtl, 
+.dxtlAltNode_BudwayThemeFromMulberry  td.dxtl, 
+.dxtlSelectedNode_BudwayThemeFromMulberry td.dxtl, 
+.dxtlFocusedNode_BudwayThemeFromMulberry td.dxtl,
+.dxtlEditFormDisplayNode_BudwayThemeFromMulberry td.dxtl,
+.dxtlCommandCell_BudwayThemeFromMulberry
+{
+	padding: 5px 10px 6px;
+	border: 1px solid #cbcbcb;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.dxtlCommandCell_BudwayThemeFromMulberry
+{
+	padding: 0 10px;
+}
+.dxtlHeader_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry,
+.dxtlCommandCell_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry
+{
+    margin: 0px 2px;
+}
+.dxtlHeader_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry .dxb,
+.dxtlCommandCell_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dxtlInlineEditNode_BudwayThemeFromMulberry td.dxtl
+{
+	border: 1px solid #cbcbcb;
+	padding: 1px;
+}
+/* Scrolling */
+.dxtlControl_BudwayThemeFromMulberry .dxtlHSDC,
+.dxtlControl_BudwayThemeFromMulberry .dxtlCSD,
+.dxtlControl_BudwayThemeFromMulberry .dxtlFSDC
+{
+    border: 1px solid #cbcbcb;
+}
+.dxtlControl_BudwayThemeFromMulberry .dxtlHSDC .dxtlCSD,
+.dxtlControl_BudwayThemeFromMulberry .dxtlFSDC .dxtlCSD,
+.dxtlControl_BudwayThemeFromMulberry .dxtlHSDC .dxtlDataTable,
+.dxtlControl_BudwayThemeFromMulberry .dxtlCSD .dxtlDataTable,
+.dxtlControl_BudwayThemeFromMulberry .dxtlFSDC .dxtlDataTable
+{
+    border: 0;
+}
+.dxtlControl_BudwayThemeFromMulberry .dxtlCSD .dxtlDataTable .dxtlHSEC
+{
+    border-left: 1px solid #cbcbcb!important;
+}
+.dxtlControl_BudwayThemeFromMulberry .dxtlHSDC .dxtlHeader_BudwayThemeFromMulberry 
+{
+    border-bottom: 0;
+}
+.dxtlControl_BudwayThemeFromMulberry .dxtlFSDC .dxtlFooter_BudwayThemeFromMulberry td.dxtl,
+.dxtlControl_BudwayThemeFromMulberry .dxtlFSDC .dxtlFooter_BudwayThemeFromMulberry .dxtlIndent_BudwayThemeFromMulberry
+{
+    border-top: 0!important;
+}
+.dxtlControl_BudwayThemeFromMulberry .dxtlHSDC + .dxtlCSD
+{
+    border-top: 0;
+}
+.dxtlControl_BudwayThemeFromMulberry .dxtlCSD + .dxtlFSDC
+{
+    border-top: 0;
+}
+
+/* Preview */
+.dxtlPreview_BudwayThemeFromMulberry
+{
+	background-color: white;
+	color: #8d8d8d;
+
+	padding: 12px 15px 12px 20px;
+	border: 1px solid #cbcbcb;
+	overflow: hidden;
+}
+
+/* Footers */
+.dxtlGroupFooter_BudwayThemeFromMulberry
+{
+	background-color: white;
+}
+.dxtlFooter_BudwayThemeFromMulberry td.dxtl,
+.dxtlFooter_BudwayThemeFromMulberry .dxtlIndent_BudwayThemeFromMulberry,
+.dxtlControl_BudwayThemeFromMulberry .dxtlFSDC
+{
+	background-color: #fafafa;
+}
+.dxtlGroupFooter_BudwayThemeFromMulberry td.dxtl,
+.dxtlFooter_BudwayThemeFromMulberry td.dxtl
+{
+	white-space: nowrap;
+	border: 1px solid #cbcbcb;
+	overflow: hidden;
+}
+.dxtlFooter_BudwayThemeFromMulberry td.dxtl,
+.dxtlFooter_BudwayThemeFromMulberry .dxtlIndent_BudwayThemeFromMulberry
+{
+    border-top: 1px solid #cbcbcb!important;
+}
+.dxtlFooter_BudwayThemeFromMulberry td.dxtl
+{
+	padding: 7px 10px 8px;
+}
+.dxtlGroupFooter_BudwayThemeFromMulberry td.dxtl
+{
+    padding: 4px 10px;
+}
+.dxtlGroupFooter_BudwayThemeFromMulberry .dx-ar > br,
+.dxtlFooter_BudwayThemeFromMulberry .dx-ar > br
+{
+    float: none; 
+}
+
+/* Pagers */
+.dxtlPagerTopPanel_BudwayThemeFromMulberry,
+.dxtlPagerBottomPanel_BudwayThemeFromMulberry
+{
+	padding: 2px 0;
+}
+.dxtlPagerTopPanel_BudwayThemeFromMulberry
+{
+	border-bottom: 1px none #cbcbcb;
+}
+.dxtlPagerBottomPanel_BudwayThemeFromMulberry
+{
+    border-top: 1px none #cbcbcb;
+}
+.dxtlControl_BudwayThemeFromMulberry .dxpLite_BudwayThemeFromMulberry
+{
+	padding: 6px 0 6px 6px;
+}
+
+/* Editing */
+.dxtlEditForm_BudwayThemeFromMulberry
+{
+	border: 1px solid #cbcbcb;
+	padding: 10px 15px;
+}
+.dxtlEditFormCaption_BudwayThemeFromMulberry,
+.dxtlEditFormEditCell_BudwayThemeFromMulberry
+{
+	padding: 4px;
+}
+.dxtlEditFormCaption_BudwayThemeFromMulberry
+{
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.dxtlError_BudwayThemeFromMulberry
+{
+	background: #DBEBFF none;
+	color: #FF0000;
+	padding: 6px 10px;
+	border: 1px solid #cbcbcb;
+}
+.dxtlPopupEditForm_BudwayThemeFromMulberry
+{
+	padding: 12px;
+}
+
+/* Links */
+.dxtlControl_BudwayThemeFromMulberry a,
+.dxtlCommandCell_BudwayThemeFromMulberry a
+{
+	color: #5e6d9d;
+	text-decoration: underline;
+}
+.dxtlControl_BudwayThemeFromMulberry a:hover
+{
+	color: #343434;
+	text-decoration: underline;
+}
+.dxtlFocusedNode_BudwayThemeFromMulberry a,
+.dxtlFocusedNode_BudwayThemeFromMulberry .dxtlCommandCell_BudwayThemeFromMulberry a
+{
+	color: white;
+}
+.dxtlHeader_BudwayThemeFromMulberry a,
+.dxtlFocusedNode_BudwayThemeFromMulberry a,
+.dxtlSelectedNode_BudwayThemeFromMulberry a
+{
+	color: #5e6d9d;
+}
+.dxtlHeader_BudwayThemeFromMulberry a:hover,
+.dxtlFocusedNode_BudwayThemeFromMulberry a:hover,
+.dxtlSelectedNode_BudwayThemeFromMulberry a:hover
+{
+	color: #343434;
+}
+.dxtlCommandCell_BudwayThemeFromMulberry a
+{
+	margin-right: 3px;
+}
+
+/* Loading panel */
+.dxtlLoadingPanel_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxtlLoadingPanel_BudwayThemeFromMulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxtlLoadingPanel_BudwayThemeFromMulberry .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+/* Disabled */
+.dxtlDisabled_BudwayThemeFromMulberry,
+.dxtlDisabled_BudwayThemeFromMulberry .dxtl_BudwayThemeFromMulberry
+{
+	color: #A1A1A1;
+	cursor: default;
+}
+
+
+

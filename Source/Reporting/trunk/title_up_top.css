@@ -1,0 +1,33 @@
+﻿/* CSS layout */
+#masthead {
+}
+
+#top_nav {
+}
+
+#container {
+	position: relative;
+	width: 100%;
+}
+
+#left_col {
+	width: 200px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#page_content {
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+#right_col {
+	width: 200px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+#footer {
+}

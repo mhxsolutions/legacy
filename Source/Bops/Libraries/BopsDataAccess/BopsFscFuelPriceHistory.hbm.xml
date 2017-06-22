@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsFscFuelPriceHistory, BopsDataAccess" table="[FSC Fuel Price History]" lazy="false">
+    <id name="FuelPriceId" column="[FSC Fuel Price ID]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="BeginDate" column="[Begin Date]"/>
+    <property name="EndDate" column="[End Date]"/>
+    <property name="FuelPrice" column="[Fuel Price]"/>
+  </class>
+</hibernate-mapping>

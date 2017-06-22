@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="BopsDataAccess.BopsRfsInvoice, BopsDataAccess" table="[RFS Invoices]" lazy="false">
+		<id name="InvoiceId" column="[RFS Invoice Id]" unsaved-value="0">
+			<generator class="identity"/>
+		</id>
+		<property name="ShipperRef" column="[Shipper Client Ref]"/>
+		<property name="BillToRef" column="[Bill To Client Ref]"/>
+		<property name="InvoiceStatus" column="[Invoice Status Ref]"/>
+		<property name="InvoiceTotal" column="[Invoice Total]"/>
+		<property name="InvoiceDate" column="[Invoice Date]"/>
+		<property name="DateCreated" column="[Date Created]"/>
+		<property name="DateClosed" column="[Date Closed]"/>
+		<property name="PublicNotes" column="[Public Notes]"/>
+		<property name="PrivateNotes" column="[Private Notes]"/>
+		<property name="DocumentFolder" column="[Document Folder]"/>
+		<property name="DocumentFileName" column="[Document FileName]"/>
+		<property name="HideFromClients" column="[Hide From Clients]"/>
+		<property name="InvoiceType" column="[Invoice Type]"/>
+		<property name="BatchId" column="[BatchId]"/>
+		<property name="ARDocRecId" column="[ARDocRecId]"/>
+		<property name="TransferredDate" column="[TransferredDate]"/>
+    <property name="CompanyRef" column="[Company ID ref]"/>
+	</class>
+</hibernate-mapping>

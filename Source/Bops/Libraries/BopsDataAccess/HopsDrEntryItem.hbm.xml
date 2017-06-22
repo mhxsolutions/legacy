@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+
+  <class name="BopsDataAccess.HopsDrEntryItem, BopsDataAccess" table="[Hops DR Entry Items]" lazy="false">
+    <id name="DrItemId" column="[DR Item ID]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="HopsDrRef" column="[Hops DR Ref]"/>
+    <property name="ItemId" column="[Item ID]"/>
+    <property name="BopsBolDetailRef" column="[Bops BOL Detail Ref]"/>
+  </class>
+
+</hibernate-mapping>

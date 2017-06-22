@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="BopsDataAccess.BopsBisStorageAsset, BopsDataAccess" table="[BIS Storage Assets]" lazy="false">
+		<id name="StorageAssetId" column="[Storage Asset Id]" unsaved-value="0">
+			<generator class="identity" />
+		</id>
+		<property name="AssetType" column="[Storage Type Ref]" />
+		<property name="Name" column="[Name]" />
+		<property name="Description" column="[Description]" />
+		<property name="ProductRef" column="[Product Ref]" />
+		<property name="CurrentQuantity" column="[Current Quantity]" />
+		<property name="OriginalAssetRef" column="[Original Asset Ref]" />
+		<property name="Active" column="[Active]" />
+	</class>
+</hibernate-mapping>

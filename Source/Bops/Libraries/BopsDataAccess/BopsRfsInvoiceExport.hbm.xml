@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsInvoiceExport, BopsDataAccess" table="[RFS Invoice Exports]" lazy="false">
+    <id name="ExportId" column="[Export Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="ExportDate" column="[Export Date]" />
+    <property name="UserId" column="[User Id]" />
+    <property name="InvoiceCount" column="[Invoice Count]" />
+    <property name="TotalRevenue" column="[Total Revenue]" />
+  </class>
+</hibernate-mapping>

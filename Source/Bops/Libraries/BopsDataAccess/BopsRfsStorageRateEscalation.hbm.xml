@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsStorageRateEscalation, BopsDataAccess" table="[RFS Storage Rate Escalations]" lazy="false">
+    <id name="EscalationId" column="[Escalation Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="StorageRateRef" column="[Rate Ref]"/>
+    <property name="CycleCount" column="[Cycle Count]"/>
+    <property name="NewUnitCostPerCycle" column="[New Unit Cost Per Cycle]"/>
+    <property name="NewUnitRef" column="[New Unit Ref]"/>
+  </class>
+</hibernate-mapping>

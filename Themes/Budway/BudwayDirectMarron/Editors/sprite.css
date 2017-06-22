@@ -1,0 +1,916 @@
+.dxeButtonEditButtonHover_BudwayDirectMarron .dxEditors_edtClear_BudwayDirectMarron,
+.dxeButtonEditButtonHover_BudwayDirectMarron .dxEditors_edtDropDown_BudwayDirectMarron,
+.dxeButtonEditButtonHover_BudwayDirectMarron .dxEditors_edtEllipsis_BudwayDirectMarron,
+.dxEditors_caRefresh_BudwayDirectMarron,
+.dxEditors_edtBinaryImageDelete_BudwayDirectMarron,
+.dxEditors_edtBinaryImageOpenDialog_BudwayDirectMarron,
+.dxEditors_edtCalendarFNNextYear_BudwayDirectMarron,
+.dxEditors_edtCalendarFNPrevYear_BudwayDirectMarron,
+.dxEditors_edtCalendarNextMonth_BudwayDirectMarron,
+.dxEditors_edtCalendarNextMonthDisabled_BudwayDirectMarron,
+.dxEditors_edtCalendarNextYear_BudwayDirectMarron,
+.dxEditors_edtCalendarNextYearDisabled_BudwayDirectMarron,
+.dxEditors_edtCalendarPrevMonth_BudwayDirectMarron,
+.dxEditors_edtCalendarPrevMonthDisabled_BudwayDirectMarron,
+.dxEditors_edtCalendarPrevYear_BudwayDirectMarron,
+.dxEditors_edtCalendarPrevYearDisabled_BudwayDirectMarron,
+.dxEditors_edtClear_BudwayDirectMarron,
+.dxEditors_edtDETSClockFace_BudwayDirectMarron,
+.dxEditors_edtDETSHourHand_BudwayDirectMarron,
+.dxEditors_edtDETSMinuteHand_BudwayDirectMarron,
+.dxEditors_edtDETSSecondHand_BudwayDirectMarron,
+.dxEditors_edtDropDown_BudwayDirectMarron,
+.dxEditors_edtDropDownDisabled_BudwayDirectMarron,
+.dxEditors_edtEllipsis_BudwayDirectMarron,
+.dxEditors_edtEllipsisDisabled_BudwayDirectMarron,
+.dxEditors_edtError_BudwayDirectMarron,
+.dxEditors_edtRadioButtonChecked_BudwayDirectMarron,
+.dxEditors_edtRadioButtonCheckedDisabled_BudwayDirectMarron,
+.dxEditors_edtRadioButtonUnchecked_BudwayDirectMarron,
+.dxEditors_edtRadioButtonUncheckedDisabled_BudwayDirectMarron,
+.dxEditors_edtSpinEditDecrementImage_BudwayDirectMarron,
+.dxEditors_edtSpinEditDecrementImageDisabled_BudwayDirectMarron,
+.dxEditors_edtSpinEditIncrementImage_BudwayDirectMarron,
+.dxEditors_edtSpinEditIncrementImageDisabled_BudwayDirectMarron,
+.dxEditors_edtSpinEditLargeDecImage_BudwayDirectMarron,
+.dxEditors_edtSpinEditLargeDecImageDisabled_BudwayDirectMarron,
+.dxEditors_edtSpinEditLargeIncImage_BudwayDirectMarron,
+.dxEditors_edtSpinEditLargeIncImageDisabled_BudwayDirectMarron,
+.dxEditors_edtTBDecBtn_BudwayDirectMarron,
+.dxEditors_edtTBDecBtnDisabled_BudwayDirectMarron,
+.dxEditors_edtTBDecBtnHover_BudwayDirectMarron,
+.dxEditors_edtTBDecBtnPressed_BudwayDirectMarron,
+.dxEditors_edtTBIncBtn_BudwayDirectMarron,
+.dxEditors_edtTBIncBtnDisabled_BudwayDirectMarron,
+.dxEditors_edtTBIncBtnHover_BudwayDirectMarron,
+.dxEditors_edtTBIncBtnPressed_BudwayDirectMarron,
+.dxEditors_edtTokenBoxTokenRemoveButton_BudwayDirectMarron,
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_BudwayDirectMarron,
+.dxEditors_fcadd_BudwayDirectMarron,
+.dxEditors_fcaddhot_BudwayDirectMarron,
+.dxEditors_fcgroupaddcondition_BudwayDirectMarron,
+.dxEditors_fcgroupaddgroup_BudwayDirectMarron,
+.dxEditors_fcgroupand_BudwayDirectMarron,
+.dxEditors_fcgroupnotand_BudwayDirectMarron,
+.dxEditors_fcgroupnotor_BudwayDirectMarron,
+.dxEditors_fcgroupor_BudwayDirectMarron,
+.dxEditors_fcgroupremove_BudwayDirectMarron,
+.dxEditors_fcopany_BudwayDirectMarron,
+.dxEditors_fcopavg_BudwayDirectMarron,
+.dxEditors_fcopbegin_BudwayDirectMarron,
+.dxEditors_fcopbetween_BudwayDirectMarron,
+.dxEditors_fcopblank_BudwayDirectMarron,
+.dxEditors_fcopcontain_BudwayDirectMarron,
+.dxEditors_fcopcount_BudwayDirectMarron,
+.dxEditors_fcopend_BudwayDirectMarron,
+.dxEditors_fcopequal_BudwayDirectMarron,
+.dxEditors_fcopexists_BudwayDirectMarron,
+.dxEditors_fcopgreater_BudwayDirectMarron,
+.dxEditors_fcopgreaterorequal_BudwayDirectMarron,
+.dxEditors_fcopless_BudwayDirectMarron,
+.dxEditors_fcoplessorequal_BudwayDirectMarron,
+.dxEditors_fcoplike_BudwayDirectMarron,
+.dxEditors_fcopmax_BudwayDirectMarron,
+.dxEditors_fcopmin_BudwayDirectMarron,
+.dxEditors_fcopnotany_BudwayDirectMarron,
+.dxEditors_fcopnotbetween_BudwayDirectMarron,
+.dxEditors_fcopnotblank_BudwayDirectMarron,
+.dxEditors_fcopnotcontain_BudwayDirectMarron,
+.dxEditors_fcopnotequal_BudwayDirectMarron,
+.dxEditors_fcopnotlike_BudwayDirectMarron,
+.dxEditors_fcopsingle_BudwayDirectMarron,
+.dxEditors_fcopsum_BudwayDirectMarron,
+.dxEditors_fcoptypefield_BudwayDirectMarron,
+.dxEditors_fcoptypefieldhot_BudwayDirectMarron,
+.dxEditors_fcoptypevalue_BudwayDirectMarron,
+.dxEditors_fcoptypevaluehot_BudwayDirectMarron,
+.dxEditors_fcremove_BudwayDirectMarron,
+.dxEditors_fcremovehot_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_BudwayDirectMarron,
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_BudwayDirectMarron,
+.dxeSpinDecButtonHover_BudwayDirectMarron .dxEditors_edtSpinEditDecrementImage_BudwayDirectMarron,
+.dxeSpinIncButtonHover_BudwayDirectMarron .dxEditors_edtSpinEditIncrementImage_BudwayDirectMarron,
+.dxeSpinLargeDecButtonHover_BudwayDirectMarron .dxEditors_edtSpinEditLargeDecImage_BudwayDirectMarron,
+.dxeSpinLargeIncButtonHover_BudwayDirectMarron .dxEditors_edtSpinEditLargeIncImage_BudwayDirectMarron,
+.dxeTBHSys .dxEditors_edtTBMainDH_BudwayDirectMarron,
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_BudwayDirectMarron,
+.dxeTBHSys .dxEditors_edtTBMainDHHover_BudwayDirectMarron,
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_BudwayDirectMarron,
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_BudwayDirectMarron,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_BudwayDirectMarron,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_BudwayDirectMarron,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_BudwayDirectMarron,
+.dxeTBVSys .dxEditors_edtTBMainDH_BudwayDirectMarron,
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_BudwayDirectMarron,
+.dxeTBVSys .dxEditors_edtTBMainDHHover_BudwayDirectMarron,
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_BudwayDirectMarron,
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_BudwayDirectMarron,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_BudwayDirectMarron,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_BudwayDirectMarron,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_BudwayDirectMarron
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxeButtonEditButtonHover_BudwayDirectMarron .dxEditors_edtClear_BudwayDirectMarron
+{
+    background-position: -28px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxeButtonEditButtonHover_BudwayDirectMarron .dxEditors_edtDropDown_BudwayDirectMarron
+{
+    background-position: -140px -261px;
+    width: 11px;
+    height: 5px;
+}
+.dxeButtonEditButtonHover_BudwayDirectMarron .dxEditors_edtEllipsis_BudwayDirectMarron
+{
+    background-position: -163px -166px;
+    width: 12px;
+    height: 3px;
+}
+.dxEditors_caRefresh_BudwayDirectMarron
+{
+    background-position: -166px -65px;
+    width: 21px;
+    height: 23px;
+}
+.dxEditors_edtBinaryImageDelete_BudwayDirectMarron
+{
+    background-position: -155px -89px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtBinaryImageOpenDialog_BudwayDirectMarron
+{
+    background-position: -122px -89px;
+    width: 32px;
+    height: 32px;
+}
+.dxEditors_edtCalendarFNNextYear_BudwayDirectMarron
+{
+    background-position: -54px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarFNPrevYear_BudwayDirectMarron
+{
+    background-position: -18px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarNextMonth_BudwayDirectMarron
+{
+    background-position: -108px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarNextMonthDisabled_BudwayDirectMarron
+{
+    background-position: -36px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarNextYear_BudwayDirectMarron
+{
+    background-position: -148px -71px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarNextYearDisabled_BudwayDirectMarron
+{
+    background-position: -90px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarPrevMonth_BudwayDirectMarron
+{
+    background-position: 0px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarPrevMonthDisabled_BudwayDirectMarron
+{
+    background-position: -72px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarPrevYear_BudwayDirectMarron
+{
+    background-position: -154px -148px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtCalendarPrevYearDisabled_BudwayDirectMarron
+{
+    background-position: -126px -184px;
+    width: 17px;
+    height: 17px;
+}
+.dxEditors_edtClear_BudwayDirectMarron
+{
+    background-position: -168px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_edtDETSClockFace_BudwayDirectMarron
+{
+    background-position: 0px 0px;
+    width: 121px;
+    height: 121px;
+}
+.dxEditors_edtDETSHourHand_BudwayDirectMarron
+{
+    background-position: -138px 0px;
+    width: 7px;
+    height: 69px;
+}
+.dxEditors_edtDETSHourHand_BudwayDirectMarron
+{
+    background-position: -146px 0px \9;
+    width: 7px \9;
+    height: 69px \9;
+}
+.dxEditors_edtDETSMinuteHand_BudwayDirectMarron
+{
+    background-position: -122px 0px;
+    width: 7px;
+    height: 69px;
+}
+.dxEditors_edtDETSMinuteHand_BudwayDirectMarron
+{
+    background-position: -130px 0px \9;
+    width: 7px \9;
+    height: 69px \9;
+}
+.dxEditors_edtDETSSecondHand_BudwayDirectMarron
+{
+    background-position: -160px 0px;
+    width: 5px;
+    height: 69px;
+}
+.dxEditors_edtDETSSecondHand_BudwayDirectMarron
+{
+    background-position: -154px 0px \9;
+    width: 5px \9;
+    height: 69px \9;
+}
+.dxEditors_edtDropDown_BudwayDirectMarron
+{
+    background-position: -176px -164px;
+    width: 11px;
+    height: 5px;
+}
+.dxEditors_edtDropDownDisabled_BudwayDirectMarron
+{
+    background-position: -152px -261px;
+    width: 11px;
+    height: 5px;
+}
+.dxEditors_edtEllipsis_BudwayDirectMarron
+{
+    background-position: -135px -71px;
+    width: 12px;
+    height: 3px;
+}
+.dxEditors_edtEllipsisDisabled_BudwayDirectMarron
+{
+    background-position: -122px -71px;
+    width: 12px;
+    height: 3px;
+}
+.dxEditors_edtError_BudwayDirectMarron
+{
+    background-position: -148px -216px;
+    width: 14px;
+    height: 14px;
+}
+.dxEditors_edtRadioButtonChecked_BudwayDirectMarron
+{
+    background-position: -68px -216px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonCheckedDisabled_BudwayDirectMarron
+{
+    background-position: -132px -216px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUnchecked_BudwayDirectMarron
+{
+    background-position: -100px -216px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_BudwayDirectMarron
+{
+    background-position: -116px -216px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtSpinEditDecrementImage_BudwayDirectMarron
+{
+    background-position: -180px -194px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditDecrementImageDisabled_BudwayDirectMarron
+{
+    background-position: -124px -261px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditIncrementImage_BudwayDirectMarron
+{
+    background-position: -116px -261px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditIncrementImageDisabled_BudwayDirectMarron
+{
+    background-position: -108px -261px;
+    width: 7px;
+    height: 7px;
+}
+.dxEditors_edtSpinEditLargeDecImage_BudwayDirectMarron
+{
+    background-position: -177px -216px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeDecImageDisabled_BudwayDirectMarron
+{
+    background-position: -180px 0px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeIncImage_BudwayDirectMarron
+{
+    background-position: -92px -261px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtSpinEditLargeIncImageDisabled_BudwayDirectMarron
+{
+    background-position: -178px -184px;
+    width: 7px;
+    height: 9px;
+}
+.dxEditors_edtTBDecBtn_BudwayDirectMarron
+{
+    background-position: -22px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBDecBtnDisabled_BudwayDirectMarron
+{
+    background-position: -110px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBDecBtnHover_BudwayDirectMarron
+{
+    background-position: 0px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBDecBtnPressed_BudwayDirectMarron
+{
+    background-position: -132px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtn_BudwayDirectMarron
+{
+    background-position: -66px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtnDisabled_BudwayDirectMarron
+{
+    background-position: -44px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtnHover_BudwayDirectMarron
+{
+    background-position: -88px -148px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTBIncBtnPressed_BudwayDirectMarron
+{
+    background-position: -166px -43px;
+    width: 21px;
+    height: 21px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButton_BudwayDirectMarron
+{
+    background-position: -84px -216px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_edtTokenBoxTokenRemoveButtonDisabled_BudwayDirectMarron
+{
+    background-position: -172px -148px;
+    width: 15px;
+    height: 15px;
+}
+.dxEditors_fcadd_BudwayDirectMarron
+{
+    background-position: -126px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcaddhot_BudwayDirectMarron
+{
+    background-position: -163px -216px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddcondition_BudwayDirectMarron
+{
+    background-position: -98px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupaddgroup_BudwayDirectMarron
+{
+    background-position: -168px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupand_BudwayDirectMarron
+{
+    background-position: -28px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotand_BudwayDirectMarron
+{
+    background-position: -112px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupnotor_BudwayDirectMarron
+{
+    background-position: -126px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupor_BudwayDirectMarron
+{
+    background-position: -14px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcgroupremove_BudwayDirectMarron
+{
+    background-position: -70px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopany_BudwayDirectMarron
+{
+    background-position: -42px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopavg_BudwayDirectMarron
+{
+    background-position: 0px -216px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopbegin_BudwayDirectMarron
+{
+    background-position: -84px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopbetween_BudwayDirectMarron
+{
+    background-position: -140px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopblank_BudwayDirectMarron
+{
+    background-position: 0px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcontain_BudwayDirectMarron
+{
+    background-position: -98px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopcount_BudwayDirectMarron
+{
+    background-position: -166px -26px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopend_BudwayDirectMarron
+{
+    background-position: -154px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopequal_BudwayDirectMarron
+{
+    background-position: -156px -202px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopexists_BudwayDirectMarron
+{
+    background-position: -144px -184px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopgreater_BudwayDirectMarron
+{
+    background-position: -42px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopgreaterorequal_BudwayDirectMarron
+{
+    background-position: -14px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopless_BudwayDirectMarron
+{
+    background-position: -84px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplessorequal_BudwayDirectMarron
+{
+    background-position: -70px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoplike_BudwayDirectMarron
+{
+    background-position: 0px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopmax_BudwayDirectMarron
+{
+    background-position: -51px -216px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopmin_BudwayDirectMarron
+{
+    background-position: -17px -216px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopnotany_BudwayDirectMarron
+{
+    background-position: -56px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotbetween_BudwayDirectMarron
+{
+    background-position: -140px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotblank_BudwayDirectMarron
+{
+    background-position: -70px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotcontain_BudwayDirectMarron
+{
+    background-position: -56px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotequal_BudwayDirectMarron
+{
+    background-position: -112px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopnotlike_BudwayDirectMarron
+{
+    background-position: -154px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcopsingle_BudwayDirectMarron
+{
+    background-position: -161px -184px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcopsum_BudwayDirectMarron
+{
+    background-position: -34px -216px;
+    width: 16px;
+    height: 16px;
+}
+.dxEditors_fcoptypefield_BudwayDirectMarron
+{
+    background-position: -170px -202px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypefieldhot_BudwayDirectMarron
+{
+    background-position: -28px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevalue_BudwayDirectMarron
+{
+    background-position: 0px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcoptypevaluehot_BudwayDirectMarron
+{
+    background-position: -42px -261px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremove_BudwayDirectMarron
+{
+    background-position: -56px -247px;
+    width: 13px;
+    height: 13px;
+}
+.dxEditors_fcremovehot_BudwayDirectMarron
+{
+    background-position: -14px -233px;
+    width: 13px;
+    height: 13px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_BudwayDirectMarron
+{
+    background-position: -70px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_BudwayDirectMarron
+{
+    background-position: -126px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_BudwayDirectMarron
+{
+    background-position: -140px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_BudwayDirectMarron
+{
+    background-position: -42px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_BudwayDirectMarron
+{
+    background-position: -168px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_BudwayDirectMarron
+{
+    background-position: -112px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_BudwayDirectMarron
+{
+    background-position: 0px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_BudwayDirectMarron
+{
+    background-position: -78px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_BudwayDirectMarron
+{
+    background-position: -104px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_BudwayDirectMarron
+{
+    background-position: -78px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_BudwayDirectMarron
+{
+    background-position: -122px -75px;
+    width: 25px;
+    height: 13px;
+}
+.dxeFocused_BudwayDirectMarron .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_BudwayDirectMarron
+{
+    background-position: -130px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeSpinDecButtonHover_BudwayDirectMarron .dxEditors_edtSpinEditDecrementImage_BudwayDirectMarron
+{
+    background-position: -132px -261px;
+    width: 7px;
+    height: 7px;
+}
+.dxeSpinIncButtonHover_BudwayDirectMarron .dxEditors_edtSpinEditIncrementImage_BudwayDirectMarron
+{
+    background-position: -100px -261px;
+    width: 7px;
+    height: 7px;
+}
+.dxeSpinLargeDecButtonHover_BudwayDirectMarron .dxEditors_edtSpinEditLargeDecImage_BudwayDirectMarron
+{
+    background-position: -84px -261px;
+    width: 7px;
+    height: 9px;
+}
+.dxeSpinLargeIncButtonHover_BudwayDirectMarron .dxEditors_edtSpinEditLargeIncImage_BudwayDirectMarron
+{
+    background-position: -180px -16px;
+    width: 7px;
+    height: 9px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDH_BudwayDirectMarron
+{
+    background-position: -98px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_BudwayDirectMarron
+{
+    background-position: -166px 0px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHHover_BudwayDirectMarron
+{
+    background-position: -56px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_BudwayDirectMarron
+{
+    background-position: -14px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_BudwayDirectMarron
+{
+    background-position: 0px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_BudwayDirectMarron
+{
+    background-position: -154px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_BudwayDirectMarron
+{
+    background-position: -28px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_BudwayDirectMarron
+{
+    background-position: -84px -122px;
+    width: 13px;
+    height: 25px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDH_BudwayDirectMarron
+{
+    background-position: -104px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_BudwayDirectMarron
+{
+    background-position: -52px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHHover_BudwayDirectMarron
+{
+    background-position: -156px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_BudwayDirectMarron
+{
+    background-position: 0px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_BudwayDirectMarron
+{
+    background-position: -26px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_BudwayDirectMarron
+{
+    background-position: -26px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_BudwayDirectMarron
+{
+    background-position: -52px -202px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_BudwayDirectMarron
+{
+    background-position: -130px -170px;
+    width: 25px;
+    height: 13px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_BudwayDirectMarron,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_BudwayDirectMarron
+{
+	z-index: 7;
+}
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_BudwayDirectMarron,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_BudwayDirectMarron
+{
+	z-index: 7;
+}
+.dxEditors_edtError_BudwayDirectMarron,
+.dxEditors_edtCalendarPrevYear_BudwayDirectMarron,
+.dxEditors_edtCalendarPrevYearDisabled_BudwayDirectMarron,
+.dxEditors_edtCalendarPrevMonth_BudwayDirectMarron,
+.dxEditors_edtCalendarPrevMonthDisabled_BudwayDirectMarron,
+.dxEditors_edtCalendarNextMonth_BudwayDirectMarron,
+.dxEditors_edtCalendarNextMonthDisabled_BudwayDirectMarron,
+.dxEditors_edtCalendarNextYear_BudwayDirectMarron,
+.dxEditors_edtCalendarNextYearDisabled_BudwayDirectMarron,
+.dxEditors_edtCalendarFNPrevYear_BudwayDirectMarron,
+.dxEditors_edtCalendarFNNextYear_BudwayDirectMarron,
+.dxEditors_edtCheckBoxOn_BudwayDirectMarron,
+.dxEditors_edtCheckBoxOff_BudwayDirectMarron,
+.dxEditors_edtCheckBoxUndefined_BudwayDirectMarron,
+.dxEditors_edtRadioButtonOn_BudwayDirectMarron,
+.dxEditors_edtRadioButtonOff_BudwayDirectMarron,
+.dxEditors_edtRadioButtonUndefined_BudwayDirectMarron,
+.dxEditors_edtEllipsis_BudwayDirectMarron,
+.dxEditors_edtEllipsisDisabled_BudwayDirectMarron,
+.dxEditors_edtEllipsisHover_BudwayDirectMarron,
+.dxEditors_edtDropDown_BudwayDirectMarron,
+.dxEditors_edtDropDownDisabled_BudwayDirectMarron,
+.dxEditors_edtSpinEditIncrementImage_BudwayDirectMarron,
+.dxEditors_edtSpinEditIncrementImageDisabled_BudwayDirectMarron,
+.dxEditors_edtSpinEditDecrementImage_BudwayDirectMarron,
+.dxEditors_edtSpinEditDecrementImageDisabled_BudwayDirectMarron,
+.dxEditors_edtSpinEditLargeIncImage_BudwayDirectMarron,
+.dxEditors_edtSpinEditLargeIncImageDisabled_BudwayDirectMarron,
+.dxEditors_edtSpinEditLargeDecImage_BudwayDirectMarron,
+.dxEditors_edtSpinEditLargeDecImageDisabled_BudwayDirectMarron
+{
+	display:block;
+	margin:auto;
+}
+.dxEditors_edtCalendarFNPrevYear_BudwayDirectMarron
+{
+    margin-right: 8px;
+}
+.dxEditors_edtCalendarFNNextYear_BudwayDirectMarron
+{
+    margin-left: 8px;
+}
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/Default.aspx" title="Home" description="">
+		<siteMapNode url="~/Administration/Default.aspx" title="Administration" description="">
+			<siteMapNode url="~/Administration/BisEnableProductTypes.aspx" title="BIS Enable Product Types" description=""/>
+			<siteMapNode url="~/Administration/DestinationSets.aspx" title="Destination Sets" description=""/>
+			<siteMapNode url="~/Administration/FscEditFuelPriceHistory.aspx" title="FSC Fuel Price History" description=""/>
+			<siteMapNode url="~/Administration/FscEditMatrices.aspx" title="FSC Matrices" description=""/>
+			<siteMapNode url="~/Administration/GeocodeDestinations.aspx" title="Geocode Destinations" description=""/>
+			<siteMapNode url="~/Administration/RfsCalculateEstimatedServiceThroughput.aspx" title="RFS Service Throughput" description=""/>
+			<siteMapNode url="~/Administration/Users.aspx" title="Users" description="" />
+		</siteMapNode>
+		<siteMapNode url="~/Agilis/Default.aspx" title="Agilis" description="">
+			<siteMapNode url="~/Agilis/AgilisDailyPlanDetails.aspx" title="Daily Plan Details" description="" />
+			<siteMapNode url="~/Agilis/AgilisEquipmentTracking.aspx" title="Equipment Tracking" description="" />
+			<siteMapNode url="~/Agilis/AgilisNightShuttleDrivers.aspx" title="Night Shuttle Drivers" description="" />
+		</siteMapNode>
+		<siteMapNode url="~/Auditing/Default.aspx" title="Auditing" description="">
+			<siteMapNode url="~/Auditing/AuditRfsCalculationResults.aspx"  title="RFS Load Calculations"  description="" />
+			<siteMapNode url="~/Auditing/AuditRfsWarehouseCalculationResults.aspx" title="RFS Warehouse Calculations" description=""/>
+		</siteMapNode>
+		<siteMapNode url="~/Inventory/Default.aspx" title="Inventory">
+			<siteMapNode url="~/Inventory/BisStorageAssetsNEW.aspx" title="BIS Storage Assets" />
+			<siteMapNode url="~/Inventory/BisWithdrawToContainer.aspx" title="BIS Withdraw To Container" />
+			<siteMapNode url="~/Inventory/BisWithdrawToLoad.aspx" title="BIS Withdraw To Load" />
+			<siteMapNode url="~/Inventory/BisAdjustStorageAssetQuantity.aspx" title="BIS Adjust Storage Asset Quantity" />
+			<siteMapNode url="~/Inventory/BisTransactionHistoryNEW.aspx" title="BIS Transaction History" />
+			<siteMapNode url="~/Inventory/BisContainerProjectsNEW.aspx" title="BIS Container Project Detail" />
+      <siteMapNode url="~/Inventory/BisProjSummary.aspx" title="BIS Container Project Summary" />
+			<siteMapNode url="~/Inventory/BisHelpRailcarToContainerWorkflow.aspx" title="BIS Help - Railcar to Container Workflow" />
+		</siteMapNode>
+		<siteMapNode url="~/Monitoring/Default.aspx" title="Monitoring">
+			<siteMapNode url="~/Monitoring/DriversFuelCards.aspx" title="Drivers Fuel Cards" />
+			<siteMapNode url="~/Monitoring/DriversFuelUsageSummary.aspx" title="Drivers Fuel Usage Summary" />
+			<siteMapNode url="~/Monitoring/DriversNearHarbor.aspx" title="Drivers Near Harbor" />
+			<siteMapNode url="~/Monitoring/DriversNearSite.aspx" title="Drivers Near Site" />
+			<siteMapNode url="~/Monitoring/GeocodedClients.aspx" title="Geocoded Clients" />
+		</siteMapNode>
+		<siteMapNode url="~/Planning/Default.aspx" title="Planning">
+			<siteMapNode url="~/Planning/ContainerPlanner.aspx" title="Container Project Planner" />
+			<siteMapNode url="~/Planning/ContainerProjectsSummary.aspx" title="Container Projects Summary" />
+			<siteMapNode url="~/Planning/ContainerDemurrageClock.aspx" title="Container Demurrage Clock" />
+			<siteMapNode url="~/Planning/HarborProjectPlanner.aspx" title="Harbor Project Planner" />
+		</siteMapNode>
+		<siteMapNode url="~/RFS/Default.aspx" title="Request for Service">
+			<siteMapNode url="~/RFS/RfsStorageBillingRates.aspx" title="RFS Storage Billing Rates"/>
+			<siteMapNode url="~/RFS/RfsStorageBillingRateAssignments.aspx" title="RFS Storage Rate Assignments"/>
+			<siteMapNode url="~/RFS/RfsStorageBillings.aspx" title="RFS Storage Billings"/>
+			<siteMapNode url="~/RFS/RfsStorageBillingEvents.aspx" title="RFS Storage Billing Events"/>
+			<siteMapNode url="~/RFS/RfsWizard.aspx" title="RFS Wizard">
+				<siteMapNode url="~/RFS/RfsWizardSelect.aspx" title="Select" />
+				<siteMapNode url="~/RFS/RfsWizardCreate.aspx" title="Create" roles="Administrators"/>
+				<siteMapNode url="~/RFS/RfsWizardHelp.aspx" title="Help" />
+			</siteMapNode>
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>

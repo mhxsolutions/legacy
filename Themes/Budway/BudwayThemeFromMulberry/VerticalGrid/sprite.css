@@ -1,0 +1,79 @@
+.dxVerticalGrid_CategoryCollapsed_BudwayThemeFromMulberry,
+.dxVerticalGrid_CategoryExpanded_BudwayThemeFromMulberry,
+.dxVerticalGrid_CollapsedButton_BudwayThemeFromMulberry,
+.dxVerticalGrid_ExpandedButton_BudwayThemeFromMulberry,
+.dxVerticalGrid_gvCellError_BudwayThemeFromMulberry,
+.dxVerticalGrid_gvFilterRowButton_BudwayThemeFromMulberry,
+.dxVerticalGrid_gvHeaderFilter_BudwayThemeFromMulberry,
+.dxVerticalGrid_gvHeaderFilterActive_BudwayThemeFromMulberry,
+.dxVerticalGrid_gvHeaderSortDown_BudwayThemeFromMulberry,
+.dxVerticalGrid_gvHeaderSortUp_BudwayThemeFromMulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxVerticalGrid_CategoryCollapsed_BudwayThemeFromMulberry
+{
+    background-position: -36px -30px;
+    width: 11px;
+    height: 11px;
+}
+.dxVerticalGrid_CategoryExpanded_BudwayThemeFromMulberry
+{
+    background-position: -24px -30px;
+    width: 11px;
+    height: 11px;
+}
+.dxVerticalGrid_CollapsedButton_BudwayThemeFromMulberry
+{
+    background-position: 0px 0px;
+    width: 15px;
+    height: 15px;
+}
+.dxVerticalGrid_ExpandedButton_BudwayThemeFromMulberry
+{
+    background-position: -16px 0px;
+    width: 15px;
+    height: 15px;
+}
+.dxVerticalGrid_gvCellError_BudwayThemeFromMulberry
+{
+    background-position: -32px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxVerticalGrid_gvFilterRowButton_BudwayThemeFromMulberry
+{
+    background-position: 0px -30px;
+    width: 13px;
+    height: 13px;
+}
+.dxVerticalGrid_gvHeaderFilter_BudwayThemeFromMulberry
+{
+    background-position: -19px -16px;
+    width: 18px;
+    height: 13px;
+}
+.dxVerticalGrid_gvHeaderFilterActive_BudwayThemeFromMulberry
+{
+    background-position: 0px -16px;
+    width: 18px;
+    height: 13px;
+}
+.dxVerticalGrid_gvHeaderSortDown_BudwayThemeFromMulberry
+{
+    background-position: -38px -16px;
+    width: 9px;
+    height: 13px;
+}
+.dxVerticalGrid_gvHeaderSortUp_BudwayThemeFromMulberry
+{
+    background-position: -14px -30px;
+    width: 9px;
+    height: 13px;
+}
+.dxVerticalGrid_gvHeaderFilterActive_BudwayThemeFromMulberry
+{
+	background-color: #BF4E6A;
+}

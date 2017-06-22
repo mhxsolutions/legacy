@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{ABF642FB-40BE-43E8-AE80-C8EDC1904E32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Driver Event Scrubber", "..\Tools\Driver Event Scrubber\Driver Event Scrubber.csproj", "{6D20CAE5-07F1-41A5-99F6-B1B36FBD8987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsDataAccess", "..\Libraries\BopsDataAccess\BopsDataAccess.csproj", "{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsDataConnector", "..\Libraries\BopsDataConnector\BopsDataConnector.csproj", "{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgilisCore", "..\Libraries\AgilisCore\AgilisCore.csproj", "{690150FA-7CBB-41EF-B865-B9CF232FD327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateUtilities", "..\Libraries\NHibernateUtilities\NHibernateUtilities.csproj", "{BBABCE36-C99A-4F65-8263-1038D792BB01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsUtilities", "..\Libraries\BopsUtilities\BopsUtilities.csproj", "{DF084C4B-47F4-43C3-B541-2B6A967D6E67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D20CAE5-07F1-41A5-99F6-B1B36FBD8987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D20CAE5-07F1-41A5-99F6-B1B36FBD8987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D20CAE5-07F1-41A5-99F6-B1B36FBD8987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D20CAE5-07F1-41A5-99F6-B1B36FBD8987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690150FA-7CBB-41EF-B865-B9CF232FD327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690150FA-7CBB-41EF-B865-B9CF232FD327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690150FA-7CBB-41EF-B865-B9CF232FD327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690150FA-7CBB-41EF-B865-B9CF232FD327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBABCE36-C99A-4F65-8263-1038D792BB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBABCE36-C99A-4F65-8263-1038D792BB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBABCE36-C99A-4F65-8263-1038D792BB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBABCE36-C99A-4F65-8263-1038D792BB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF084C4B-47F4-43C3-B541-2B6A967D6E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF084C4B-47F4-43C3-B541-2B6A967D6E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF084C4B-47F4-43C3-B541-2B6A967D6E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF084C4B-47F4-43C3-B541-2B6A967D6E67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C} = {ABF642FB-40BE-43E8-AE80-C8EDC1904E32}
+		{DDE3ECDD-C240-4B75-9E5B-6BC2ED8FCC19} = {ABF642FB-40BE-43E8-AE80-C8EDC1904E32}
+		{690150FA-7CBB-41EF-B865-B9CF232FD327} = {ABF642FB-40BE-43E8-AE80-C8EDC1904E32}
+		{BBABCE36-C99A-4F65-8263-1038D792BB01} = {ABF642FB-40BE-43E8-AE80-C8EDC1904E32}
+		{DF084C4B-47F4-43C3-B541-2B6A967D6E67} = {ABF642FB-40BE-43E8-AE80-C8EDC1904E32}
+	EndGlobalSection
+EndGlobal

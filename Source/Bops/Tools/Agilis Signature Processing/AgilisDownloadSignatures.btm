@@ -1,0 +1,27 @@
+@echo off
+
+rem Set up: assign environment variable and switch to download directory.
+
+set ads_targetdir=Signatures\%_year\%@format[02,%_month]
+if not exist %ads_targetdir md %ads_targetdir
+
+rem Update the download folder with any new *.zip files. The copy command
+rem uses the built-in FTP support to update any files from today and yesterday.
+
+pushd Download
+copy /[d-1] /u ftp://budway:d33l3r8@ibis.agilissystems.com/home/budway/*.zip
+
+rem For each file, unzip its contents without respecting any path information
+rem and move the resulting CSV/PNG files to the appropriate target directory.
+
+for %f in (*.zip) (
+	echo %f
+	..\unzip.exe -j %f
+	move *.csv;*.png ..\%ads_targetdir\*.*
+	del %f
+)
+
+rem Tear down: free environment variable and return to original directory.
+
+unset ads_targetdir
+popd

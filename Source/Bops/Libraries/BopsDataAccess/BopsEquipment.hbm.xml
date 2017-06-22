@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsEquipment, BopsDataAccess" table="[EquipmentTable]" lazy="false">
+    <id name="EquipmentId" column="[EquipmentID]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="EquipmentIdentifier" column="[EquipmentIdentifier]"/>
+    <property name="EquipmentType" column="[VehicleTypeID]"/>
+  </class>
+</hibernate-mapping>

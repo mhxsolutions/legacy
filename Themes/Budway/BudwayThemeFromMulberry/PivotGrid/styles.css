@@ -1,0 +1,553 @@
+.dxpgControl_BudwayThemeFromMulberry, .dxpgCustForm_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+}
+.dxpgContainerCell_BudwayThemeFromMulberry
+{
+	vertical-align: top;
+}
+.dxpgMainTable_BudwayThemeFromMulberry
+{
+	width: 100%;
+	text-align: left;
+}
+.dxpgMainTable_BudwayThemeFromMulberry
+{
+    border: 0;
+}
+div.dxpgMainTable_BudwayThemeFromMulberry
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgMainTable_BudwayThemeFromMulberry caption
+{
+    background: #F7FAFF;
+    color: #343434;
+    border-bottom: Solid 1px #cbcbcb;
+    padding: 5px 5px 6px;
+	font-weight: normal;		
+	text-align: center;	
+}    
+table.dxpgHeader_BudwayThemeFromMulberry
+{
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: left;
+}
+.dxpgHeaderTable_BudwayThemeFromMulberry
+{
+	border: 1px Solid #cbcbcb;
+	width: 100%;
+}
+.dxpgMSDraggable .dxpgHeaderTable_BudwayThemeFromMulberry,
+.dxpgCustFieldsDiv_BudwayThemeFromMulberry .dxpgHeaderTable_BudwayThemeFromMulberry
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgHeaderGroupButton_BudwayThemeFromMulberry
+{
+	padding: 0 4px 0 8px;
+}
+.dxpgHeaderText_BudwayThemeFromMulberry
+{
+	color: #7e7e7e;
+	padding: 5px 10px;
+}
+.dxpgHeaderSort_BudwayThemeFromMulberry
+{
+	padding-left: 0px;
+	padding-right: 4px;
+	vertical-align: middle;
+}
+.dxpgHeaderFilter_BudwayThemeFromMulberry
+{
+	padding: 0 8px 0 4px;
+}
+.dxpgHeaderHover_BudwayThemeFromMulberry
+{
+}
+.dxpgArea_BudwayThemeFromMulberry, 
+.dxpgArea_BudwayThemeFromMulberry table
+{
+	color: #979797;
+}
+.dxpgArea_BudwayThemeFromMulberry
+{
+	border: 1px none #cbcbcb;
+}
+.dxpgColumnArea_BudwayThemeFromMulberry
+{
+    border-top: 1px solid #cbcbcb;
+    padding: 0;
+}
+.dxpgRowArea_BudwayThemeFromMulberry + td:last-child 
+{
+    border: 0;
+    border-bottom: 1px solid #cbcbcb;
+}
+.dxpgDataArea_BudwayThemeFromMulberry
+{
+    border-top: 1px solid #cbcbcb;
+}
+.dxpgFilterArea_BudwayThemeFromMulberry
+{
+    border-top: 1px solid #cbcbcb;
+    padding: 2px 0;
+}
+.dxpgEmptyArea_BudwayThemeFromMulberry 
+{
+	cursor: default;
+	padding: 16px 6px;
+}
+.dxpgColumnFieldValue_BudwayThemeFromMulberry
+{
+	background-color: #fafafa;
+	border: Solid 1px #cbcbcb;
+	padding: 4px 6px 5px;
+    font-weight: normal;
+    text-align: left;
+    border-right-style: none;
+	border-bottom-style: none;
+}
+.dxpgColumnTotalFieldValue_BudwayThemeFromMulberry
+{
+	background-color: #f0f0f0;
+	background-image: none;
+}
+.dxpgColumnGrandTotalFieldValue_BudwayThemeFromMulberry
+{
+	background-color: #f0f0f0;
+}
+.dxpgRowFieldValue_BudwayThemeFromMulberry
+{
+	color: #4F4F4F;
+	background-color: #fafafa;
+	border: Solid 1px #cbcbcb;
+	padding: 2px 6px 3px 6px;
+	font-weight: normal;
+	text-align: left;
+    border-right-style: none;
+	border-bottom-style: none;
+}
+.dxpgRowTotalFieldValue_BudwayThemeFromMulberry
+{
+	background-color: #f0f0f0;
+}
+.dxpgRowTreeFieldValue_BudwayThemeFromMulberry
+{
+	padding: 0;
+	font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_BudwayThemeFromMulberry
+{
+	background-color: #f0f0f0;
+	padding: 8px 10px;
+}
+.dxpgCollapsedButton_BudwayThemeFromMulberry
+{
+	vertical-align: -3px;
+	border: 0px;
+	margin-right: 5px;
+}
+.dxpgSortByColumnImage_BudwayThemeFromMulberry
+{
+	vertical-align: -3px;
+	border: 0px;
+	margin-left: 5px;
+}
+.dxpgCell_BudwayThemeFromMulberry
+{
+	text-align: right;
+	background-color: #FFFFFF;	
+	border: 1px solid #cbcbcb;
+	padding: 5px 10px;
+	white-space: nowrap;
+    border-top-style: solid !important;
+	border-left-style: solid !important;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+div.dxpgMainTable_BudwayThemeFromMulberry .dxpgCell_BudwayThemeFromMulberry
+{
+	border-bottom-style: none;
+}
+.dxpgKPICell_BudwayThemeFromMulberry
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.dxpgTotalCell_BudwayThemeFromMulberry
+{
+	background-color: #fcfcfc;
+}
+.dxpgGrandTotalCell_BudwayThemeFromMulberry
+{
+	background-color: #fafafa;
+}
+.dxpgCellsArea_BudwayThemeFromMulberry {
+    background-color: #FFFFFF;
+}
+.dxpgRowFieldValuesArea_BudwayThemeFromMulberry {
+    background-color: #fafafa;
+}
+.dxpgColumnFieldValuesArea_BudwayThemeFromMulberry {
+    background-color: #fafafa;
+}
+.dxpgCellsSCContentTable_BudwayThemeFromMulberry {
+}
+.dxpgRowSCContentTable_BudwayThemeFromMulberry {
+}
+.dxpgColumnSCContentTable_BudwayThemeFromMulberry {
+}
+.dxpgFilterItem_BudwayThemeFromMulberry
+{
+    white-space: nowrap;
+}
+.dxpgFilterButton_BudwayThemeFromMulberry
+{
+}
+
+.dxpgTopPager_BudwayThemeFromMulberry,
+.dxpgBottomPager_BudwayThemeFromMulberry
+{
+	padding: 2px 0px;
+}
+.dxpgControl_BudwayThemeFromMulberry .dxpLite_BudwayThemeFromMulberry
+{
+	padding: 6px 0 6px 6px;
+}
+
+.dxpgTopPager_BudwayThemeFromMulberry,
+.dxpgBottomPager_BudwayThemeFromMulberry
+{
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_BudwayThemeFromMulberry
+{
+	color: #343434;
+	background-image: none!important;
+	padding: 7px 6px 7px 12px!important;
+}
+.dxpgCustomizationFieldsContent_BudwayThemeFromMulberry
+{
+	padding: 0px!important;
+}
+.dxpgMenuItem_BudwayThemeFromMulberry 
+{
+}
+.dxpgDataHeadersImage_BudwayThemeFromMulberry
+{
+	margin-right: 5px;
+	vertical-align: -2px;
+}
+.dxpgPrefilterPanelContainer_BudwayThemeFromMulberry
+{
+	border: 1px solid white;
+}
+.dxpgPrefilterPanelLink_BudwayThemeFromMulberry
+{
+	text-decoration: underline;	
+}
+.dxpgPrefilterPanel_BudwayThemeFromMulberry
+{
+	border-top: 1px solid #cbcbcb;
+}
+.dxpgPrefilterPanel_BudwayThemeFromMulberry a
+{
+	color: #5e6d9d;
+	text-decoration: underline;
+}
+.dxpgPrefilterPanel_BudwayThemeFromMulberry a:hover
+{
+	color: #343434;
+}
+.dxpgPrefilterPanelCheckBoxCell_BudwayThemeFromMulberry
+{
+	padding: 0 3px;
+	padding-right: 7px;
+}
+.dxpgPrefilterPanelImageCell_BudwayThemeFromMulberry
+{
+	padding: 0 3px;
+	padding-right: 1px;
+	cursor: pointer;
+}
+.dxpgPrefilterPanelClearButtonCell_BudwayThemeFromMulberry
+{
+	padding: 7px 6px 8px;
+}
+.dxpgPrefilterPanelExpressionCell_BudwayThemeFromMulberry
+{
+	padding: 7px 5px 8px 0;	
+	white-space: nowrap;
+}
+.dxpgFilterBuilderMainArea_BudwayThemeFromMulberry
+{
+	background: white;
+	padding: 6px 2px;
+} 
+.dxpgFilterBuilderButtonArea_BudwayThemeFromMulberry
+{
+	background-color: #fafafa;
+	border-top: solid 1px #cbcbcb;
+	padding: 6px;
+	white-space: nowrap;
+}
+.dxpgGroupSeparator_BudwayThemeFromMulberry
+{
+	vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_BudwayThemeFromMulberry,
+.dxpgCustFieldsRowAreaHeaders_BudwayThemeFromMulberry,
+.dxpgCustFieldsColumnAreaHeaders_BudwayThemeFromMulberry,
+.dxpgCustFieldsDataAreaHeaders_BudwayThemeFromMulberry,
+.BottomPanelOnly1by4 .dxpgFLFRDiv_BudwayThemeFromMulberry,
+.BottomPanelOnly1by4 .dxpgFLCDDiv_BudwayThemeFromMulberry
+{
+    width:100%;
+    height:50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_BudwayThemeFromMulberry
+{
+    height:34%;
+}
+.StackedDefault .dxpgFLFRDiv_BudwayThemeFromMulberry
+{
+    width:50%;
+    height:66%;
+    float:left;
+}
+.StackedDefault .dxpgFLCDDiv_BudwayThemeFromMulberry
+{
+    width:50%;
+    height:66%;
+    float:right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_BudwayThemeFromMulberry .dxpgFLTextDiv_BudwayThemeFromMulberry,
+.StackedDefault .dxpgCustFieldsColumnAreaHeaders_BudwayThemeFromMulberry .dxpgFLTextDiv_BudwayThemeFromMulberry
+{
+    height:47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_BudwayThemeFromMulberry
+{
+    width:100%;
+    height:100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_BudwayThemeFromMulberry .dxeBase_BudwayThemeFromMulberry,
+.TopPanelOnly .dxpgFLDefereDiv_BudwayThemeFromMulberry .dxpgFLDefereDB_BudwayThemeFromMulberry,
+.TopPanelOnly .dxpgFLFRDiv_BudwayThemeFromMulberry,
+.TopPanelOnly .dxpgFLCDDiv_BudwayThemeFromMulberry,
+.BottomPanelOnly1by4 .dxpgCustFieldsFieldList_BudwayThemeFromMulberry,
+.BottomPanelOnly2by2 .dxpgCustFieldsFieldList_BudwayThemeFromMulberry,
+.TopPanelOnly .dxpgFLTextDiv_BudwayThemeFromMulberry div
+{
+    display:none;
+}
+.TopPanelOnly .dxpgFLTextDiv_BudwayThemeFromMulberry
+{
+    height:19px;   
+}
+.TopPanelOnly .dxpgFLDefereDiv_BudwayThemeFromMulberry
+{
+    height:16px;   
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_BudwayThemeFromMulberry,
+.StackedSideBySide .dxpgCustFieldsFieldList_BudwayThemeFromMulberry
+{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_BudwayThemeFromMulberry
+{
+    width:50%;
+    height:100%;
+    float:right;
+}
+.StackedSideBySide .dxpgFLFRDiv_BudwayThemeFromMulberry,
+.StackedSideBySide .dxpgFLCDDiv_BudwayThemeFromMulberry
+{
+    width:50%;
+    height:50%;
+    float:right;
+}
+.dxpgCustFields_BudwayThemeFromMulberry
+{
+    display:block;
+    position:relative;
+}
+.dxpgFLListDiv_BudwayThemeFromMulberry > div
+{
+    border:1px solid #cbcbcb;
+    position:relative;
+    display:block;
+    height:100%;
+    padding:1px;
+    background:#FFFFFF;
+    overflow:hidden;
+
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.dxpgFLListDiv_BudwayThemeFromMulberry > div > div
+{
+    position:relative;
+    display:block;
+    height:100%;
+    padding:0px;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.DragOver .dxpgFLListDiv_BudwayThemeFromMulberry > div
+{
+    background:#FFD324;
+}
+.dxpgFLListDiv_BudwayThemeFromMulberry
+{
+    padding:0px 3px 0px 3px;
+}
+.dxpgFLButtonDiv_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry div.dxb
+{
+	border: dotted 1px transparent;	
+	padding:1px 7px 0px;
+}
+.dxpgFLButtonDiv_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry div.dxbf
+{
+	border: dotted 1px black;	
+}
+.dxpgFLTextDiv_BudwayThemeFromMulberry
+{
+    height:40px;
+}
+.dxpgFLTextDiv_BudwayThemeFromMulberry div
+{
+   display:block;
+   float:left;
+   margin:-22px 0px 8px 0px;
+   left:6px;
+   top:100%;
+   position:relative;
+}
+div.dxpgFLTextImgDiv_BudwayThemeFromMulberry
+{
+    display:block;
+    height:16px;
+    width:16px;
+    margin:-21px 0px 8px 0px;
+    left:3px;
+}
+.dxpgFLButtonDiv_BudwayThemeFromMulberry
+{
+    float:right;
+    height:40px;
+    position:relative;
+    z-index:1;
+}
+.dxpgFLDefereDiv_BudwayThemeFromMulberry
+{
+    height:64px;
+}
+.dxpgCustFieldsDiv_BudwayThemeFromMulberry
+{
+    clear:both;   
+    padding:0px 9px;
+}
+.dxpgFLButton_BudwayThemeFromMulberry
+{
+     margin:12px 12px 0px 0px;
+     width:40px;
+     height:23px;
+}
+.dxpgFLDefereDiv_BudwayThemeFromMulberry .dxeBase_BudwayThemeFromMulberry
+{
+     float:left;
+     display:block;
+     border-collapse:separate;
+     padding:18px 0px 0px 0px; 
+     margin-left:8px;  
+}
+.dxpgCustForm_BudwayThemeFromMulberry .dxpgFLDefereDiv_BudwayThemeFromMulberry .dxeBase_BudwayThemeFromMulberry
+{
+     padding:18px 0px 0px;
+}
+.dxpgFLDefereDB_BudwayThemeFromMulberry
+{
+    float:right;
+    display:block;
+    margin: 16px 12px 0 0;
+}
+.dxpgFLDefereDiv_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry div.dxb
+{
+    padding:1px 13px 1px 13px;
+    border: dotted 1px transparent;	
+}
+.dxpgFLDefereDiv_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry div.dxbf
+{
+    border: dotted 1px black;	
+}
+.dxpgFLListDiv_BudwayThemeFromMulberry table 
+{
+     width:100%;
+     table-layout:fixed;  
+     overflow:visible;
+}
+.dxpgFLListDiv_BudwayThemeFromMulberry table table td
+{
+     overflow:hidden; 
+}
+/*Loading Panel*/
+.dxpgLoadingPanel_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxpgLoadingPanel_BudwayThemeFromMulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxpgLoadingPanel_BudwayThemeFromMulberry .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+
+.dxpgPTContainerDiv_BudwayThemeFromMulberry td.lastVertCell {
+    border-bottom: 1px solid #d1d1d1 !important;
+}
+.dxpgPTContainerDiv_BudwayThemeFromMulberry td.lastHorzCell {
+    border-right: 1px solid #d1d1d1 !important;
+}
+
+.dxpgVScrollBarAreaCell_BudwayThemeFromMulberry {
+    background-color: #fafafa;
+    border-right: Solid 1px #d1d1d1;
+    border-top: Solid 1px #d1d1d1;
+}
+.dxpgHScrollBarAreaCell_BudwayThemeFromMulberry {
+    background-color: #fafafa;
+    border-left: Solid 1px #d1d1d1;
+    border-bottom: Solid 1px #d1d1d1;
+}
+.dxpgScrollBarEdgeCell_BudwayThemeFromMulberry {
+    background-color: #fafafa;
+    border-right: Solid 1px #d1d1d1;
+    border-bottom: Solid 1px #d1d1d1;
+}
+

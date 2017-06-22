@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UPA.master.cs" Inherits="Web.UPA" %>
+
+<%@ Register Assembly="DevExpress.Web.v16.2, Version=16.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head runat="server">
+    <title>Utility Partners of America</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <style type="text/css">
+        #form1 {
+            height: 22px;
+            width: 1121px;
+        }
+
+        .style2 {
+            font-family: Verdana;
+        }
+
+        .style3 {
+            font-family: Verdana;
+            font-size: small;
+        }
+    </style>
+</head>
+<body id="Body" runat="server">
+
+    <form id="form2" runat="server">
+
+        <%-- "Breadcrumbs" --%>
+
+        <div style="z-index: 102; left: 510px; width: 500px; position: absolute; top: 67px">
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+                <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                <CurrentNodeStyle ForeColor="DimGray" />
+                <NodeStyle Font-Bold="True" ForeColor="Black" />
+                <RootNodeStyle Font-Bold="True" ForeColor="DarkRed" />
+            </asp:SiteMapPath>
+        </div>
+
+        <%-- Navigation Pane --%>
+
+        <div style="z-index: 103; position: absolute; left: 3px; top: 115px; border-right: solid 1px #999999;">
+
+            <div style="z-index: 200">
+                <dx:ASPxNavBar ID="ASPxNavBar1" runat="server" AutoCollapse="True" DataSourceID="SiteMapDataSource1" Theme="Office2010Blue">
+                </dx:ASPxNavBar>
+                <dx:ASPxSiteMapDataSource ID="ASPxSiteMapDataSource1" runat="server" SiteMapFileName="" />
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            </div>
+
+            <p>
+                <strong>Utility Partners of America</strong><br />
+                508 Enos Lane<br />
+                Bakersfield, CA  93314
+            </p>
+
+            <!-- GeoTrust QuickSSL [tm] Smart Icon tag. Do not edit. -->
+            <script type="text/javascript" src="https://seal.geotrust.com/getgeotrustsslseal?host_name=upaweb.sc-man.com&amp;size=M&amp;lang=en"></script>
+            <!-- end GeoTrust Smart Icon tag -->
+
+            <p class="CopyrightText">
+                Copyright © 2016<br />
+                Utility Partners of America<br />
+                All Rights Reserved
+            </p>
+
+        </div>
+
+        <%-- Content Pane --%>
+
+        <div style="z-index: 100; position: absolute; left: 243px; top: 103px; width: 100%; height: 480px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+        </div>
+        <p style="height: 83px">
+            <asp:Image ID="Logo" runat="server" ImageUrl="~/Images/UPA-Website-Header-smaller.jpg" />
+        </p>
+        <hr />
+
+    </form>
+</body>
+</html>
+

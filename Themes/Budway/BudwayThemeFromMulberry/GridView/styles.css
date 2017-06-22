@@ -1,0 +1,877 @@
+.dxgvControl_BudwayThemeFromMulberry,
+.dxgvDisabled_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: #FFFFFF;
+	cursor: default;
+}
+.dxgvDisabled_BudwayThemeFromMulberry
+{
+	color: #dddddd;
+}
+.dxgvControl_BudwayThemeFromMulberry a
+{
+	color: #5e6d9d;
+}
+.dxgvControl_BudwayThemeFromMulberry a:hover
+{
+	color: #343434;
+}
+.dxgvDisabled_BudwayThemeFromMulberry a
+{
+	color: #dddddd;
+}
+
+.dxgvDataRow_BudwayThemeFromMulberry.dxgvLVR > td.dxgv,
+.dxgvGroupRow_BudwayThemeFromMulberry.dxgvLVR > td.dxgv,
+.dxgvInlineEditRow_BudwayThemeFromMulberry.dxgvLVR > td.dxgv,
+.dxgvEditForm_BudwayThemeFromMulberry.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+
+.dxgvRBB .dxgvDataRow_BudwayThemeFromMulberry.dxgvLVR > td.dxgv,
+.dxgvRBB .dxgvGroupRow_BudwayThemeFromMulberry.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+
+.dxgvLoadingPanel_BudwayThemeFromMulberry
+{
+	font: 14px 'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif;
+	color: #343434;
+	background-color: White;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+.dxgvLoadingPanel_BudwayThemeFromMulberry td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 24px 36px 24px 26px;
+}
+.dxgvLoadingPanel_BudwayThemeFromMulberry .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 40px;
+	width: 40px;
+}
+.dxgvLoadingPanelStatusBar_BudwayThemeFromMulberry .dxlp-loadingImage 
+{
+	background-image: url('gvLoadingOnStatusBar.gif');
+	height: 16px;
+	width: 16px;
+}
+.dxgvLoadingPanelStatusBar_BudwayThemeFromMulberry
+{
+	background-color: transparent;
+}
+.dxgvLoadingPanelStatusBar_BudwayThemeFromMulberry td
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 0px 2px;
+}
+
+.dxgvFilterPopupWindow_BudwayThemeFromMulberry
+{
+	color: Black;
+	border: 1px solid #A3C0E8;
+}
+.dxgvFilterPopupItemsArea_BudwayThemeFromMulberry
+{
+	color: Black;
+	background-color: #FFFFFF;
+}
+.dxgvFilterPopupButtonPanel_BudwayThemeFromMulberry
+{
+	background-color: #ECF4FE;
+	border: 1px solid #cbcbcb;
+	color: #2C4D79;
+}
+
+.dxgvFilterPopupItem_BudwayThemeFromMulberry td.dxgv,
+.dxgvFilterPopupActiveItem_BudwayThemeFromMulberry td.dxgv,
+.dxgvFilterPopupSelectedItem_BudwayThemeFromMulberry td.dxgv
+{
+	padding: 3px 2px 4px 4px;
+	cursor: default;
+	white-space: nowrap;
+}
+.dxgvFilterPopupActiveItem_BudwayThemeFromMulberry
+{
+	background-color: #FFE7A2;
+	color: Black;
+}
+.dxgvFilterPopupSelectedItem_BudwayThemeFromMulberry
+{
+	color: Black;
+	background-color: #FFBD69;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxeListBox_BudwayThemeFromMulberry
+{
+	background-color: #FFFFFF;
+}
+
+.dxgvTable_BudwayThemeFromMulberry
+{
+	background-color: #FFFFFF;
+	border: Solid 1px #cbcbcb;
+    border-top: 0;
+    border-bottom: 0;
+	border-collapse: separate!important;
+	overflow: hidden;
+}
+.dxgvTable_BudwayThemeFromMulberry .dxgvHEC
+{
+	background-color: #FFFFFF;
+    border: 0;
+	overflow: hidden;
+}
+div > .dxgvTable_BudwayThemeFromMulberry
+{
+    border-right: 0;
+    border-left: 0;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHSDC
+{
+    border-right: Solid 1px #cbcbcb;
+    border-left: Solid 1px #cbcbcb;
+    border-top: Solid 1px #cbcbcb;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHSDC .dxgvHeader_BudwayThemeFromMulberry
+{
+	border-top: 0!important; 
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvCSD .dxgvHeader_BudwayThemeFromMulberry
+{
+    border-top: 0;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvFSDC
+{
+    border-right: Solid 1px #cbcbcb;
+    border-left: Solid 1px #cbcbcb;
+    border-bottom: Solid 1px #cbcbcb;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvFSDC .dxgvFooter_BudwayThemeFromMulberry td.dxgv
+{
+    border-bottom: 0;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvFGI
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvFGI
+{
+    right: 5px;
+    left: auto;
+}
+*[dir="rtl"].dxgvControl_BudwayThemeFromMulberry .dxgvFGI
+{
+    right: auto;
+    left: 5px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvCSD
+{
+    border: Solid 1px #cbcbcb;
+}
+.dxeDropDownWindow_BudwayThemeFromMulberry .dxgvControl_BudwayThemeFromMulberry .dxgvCSD,
+.dxeDropDownWindow_BudwayThemeFromMulberry .dxgvControl_BudwayThemeFromMulberry .dxgvHSDC,
+.dxeDropDownWindow_BudwayThemeFromMulberry .dxgvControl_BudwayThemeFromMulberry .dxgvFSDC
+{
+    border: 0;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHSDC + .dxgvCSD 
+{
+    border-top: 0;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvFCSD
+{
+    border-right: Solid 1px #cbcbcb;
+    border-left: Solid 1px #cbcbcb;
+    border-bottom: Solid 1px #cbcbcb;
+}
+
+.dxgvDataRowAlt_BudwayThemeFromMulberry
+{
+	background-color: #eff0f5;
+}
+.dxgvFilterRow_BudwayThemeFromMulberry
+{
+}
+.dxgvEditForm_BudwayThemeFromMulberry
+{
+}
+.dxgvEditForm_BudwayThemeFromMulberry td.dxgv
+{
+	border-bottom: 1px Solid #cbcbcb;
+	padding: 10px 15px;
+}
+.dxgvEditForm_BudwayThemeFromMulberry td.dxgvIndentCell
+{
+	border-top-width: 0px;
+    border-right: 1px Solid #cbcbcb;
+}
+.dxgvSelectedRow_BudwayThemeFromMulberry
+{
+	background-color: #efd3da;
+}
+.dxgvFocusedRow_BudwayThemeFromMulberry td.dxgvCommandColumn_BudwayThemeFromMulberry a
+{
+	color: #5e6d9d;
+}
+.dxgvFocusedRow_BudwayThemeFromMulberry
+{
+	background-color: #BF4E6A;
+	color: white;
+}
+.dxgvFocusedRow_BudwayThemeFromMulberry td.dxgv a,
+.dxgvFocusedRow_BudwayThemeFromMulberry td.dxgvCommandColumn_BudwayThemeFromMulberry a
+{
+	color: white;
+}
+.dxgvPreviewRow_BudwayThemeFromMulberry
+{
+	background-color: white;
+	color: #8d8d8d;
+}
+.dxgvDetailRow_BudwayThemeFromMulberry td.dxgv,
+.dxgvPreviewRow_BudwayThemeFromMulberry td.dxgv,
+.dxgvEmptyDataRow_BudwayThemeFromMulberry td.dxgv
+{
+	padding: 12px 15px 12px 20px;
+	border-bottom: 1px Solid #cbcbcb;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+.dxgvPreviewRow_BudwayThemeFromMulberry td.dxgvIndentCell,
+.dxgvDetailRow_BudwayThemeFromMulberry td.dxgvIndentCell
+{
+	padding: 8px 10px;
+	border-bottom: 1px Solid #cbcbcb;
+    border-right: 1px Solid #cbcbcb;
+}
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR .dxgvADT > tbody > tr > td
+{
+    padding: 8px 6px 7px 0;
+}
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR .dxgvADT > tbody > tr > td .dxeTextBoxSys,
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR .dxgvADT > tbody > tr > td .dxichCellSys
+{
+    margin: -8px 0 -5px 0;
+}
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR .dxgvADCC
+{
+    color: #7F7F7F;
+}
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR.dxgvFocusedRow_BudwayThemeFromMulberry .dxgvADCC,
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR.dxgvFocusedRow_BudwayThemeFromMulberry .dxgvADDC
+{
+    color: white;
+}
+
+.dxgvAH + .dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR > td.dxgv,
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR:last-child td.dxgv
+{
+	border-top: 0;
+}
+.dxGridView_gvDetailExpandedButton_BudwayThemeFromMulberry,
+.dxGridView_gvDetailCollapsedButton_BudwayThemeFromMulberry
+{
+    margin: 2px 0 -2px;
+}
+.dxgvEmptyDataRow_BudwayThemeFromMulberry
+{
+	color: #4F4F4F;
+}
+.dxgvEmptyDataRow_BudwayThemeFromMulberry td.dxgv
+{
+	text-align: center;
+}
+
+.dxgvEditFormDisplayRow_BudwayThemeFromMulberry td.dxgv,
+.dxgvInlineEditRow_BudwayThemeFromMulberry td.dxgv,
+.dxgvDetailCell_BudwayThemeFromMulberry td.dxgv,
+.dxgvDataRow_BudwayThemeFromMulberry td.dxgv,
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR td.dxgvAIC
+{
+	overflow: hidden;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-bottom: 1px Solid #cbcbcb;
+	border-right: 1px Solid #cbcbcb;
+	padding: 5px 10px 6px;
+}
+.dxgvDataRow_BudwayThemeFromMulberry td.dxgvAIC
+{
+    border-bottom-width: 0;
+}
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR .dxgvDetailCell_BudwayThemeFromMulberry,
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR td.dxgvAIC
+{
+	border-top: 1px Solid #cbcbcb;
+}
+.dxgvDataRow_BudwayThemeFromMulberry td.dxgvAIC,
+.dxgvInlineEditRow_BudwayThemeFromMulberry td.dxgv.dxgvAIC
+{
+    padding: 0 10px;
+}
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR td.dxgvAIC
+{
+    padding: 12px 10px;
+}
+.dxgvDetailRow_BudwayThemeFromMulberry.dxgvADR td.dxgvAIC:last-child
+{
+    border-right: 0;
+}
+.dxgvEditFormDisplayRow_BudwayThemeFromMulberry:last-child td.dxgv,
+.dxgvInlineEditRow_BudwayThemeFromMulberry:last-child td.dxgv,
+.dxgvDataRow_BudwayThemeFromMulberry:last-child td.dxgv,
+.dxgvDetailRow_BudwayThemeFromMulberry:last-child > td.dxgv
+{
+	border-bottom: 1px Solid #cbcbcb!important;
+}
+.dxgvEditFormDisplayRow_BudwayThemeFromMulberry:first-child td.dxgv,
+.dxgvInlineEditRow_BudwayThemeFromMulberry:first-child td.dxgv,
+.dxgvDataRow_BudwayThemeFromMulberry:first-child td.dxgv
+{
+	border-top: 1px Solid #cbcbcb!important;
+}
+.dxgvEditFormDisplayRow_BudwayThemeFromMulberry td.dxgv:last-child,
+.dxgvInlineEditRow_BudwayThemeFromMulberry td.dxgv:last-child,
+.dxgvDataRow_BudwayThemeFromMulberry td.dxgv:last-child,
+.dxgvDataRowAlt_BudwayThemeFromMulberry td.dxgv:last-child
+{
+	border-right: 0!important;
+}
+.dxgvDataRow_BudwayThemeFromMulberry .dxICheckBox_BudwayThemeFromMulberry,
+.dxgvInlineEditRow_BudwayThemeFromMulberry .dxICheckBox_BudwayThemeFromMulberry,
+.dxgvDataRow_BudwayThemeFromMulberry .dxeIRadioButton_BudwayThemeFromMulberry,
+.dxgvInlineEditRow_BudwayThemeFromMulberry .dxeIRadioButton_BudwayThemeFromMulberry
+{
+    margin: -6px 1px -3px;
+}
+.dxgvCommandColumn_BudwayThemeFromMulberry .dxICheckBox_BudwayThemeFromMulberry,
+.dxgvCommandColumn_BudwayThemeFromMulberry .dxeIRadioButton_BudwayThemeFromMulberry
+{
+    margin: -4px 1px -5px;
+}
+.dxgvCommandColumn_BudwayThemeFromMulberry,
+.dxgvEditFormDisplayRow_BudwayThemeFromMulberry td.dxgvCommandColumn_BudwayThemeFromMulberry,
+.dxgvDataRow_BudwayThemeFromMulberry td.dxgvCommandColumn_BudwayThemeFromMulberry
+{
+	padding: 3px 10px 6px;
+    white-space: nowrap;
+}
+.dxgvEditFormDisplayRow_BudwayThemeFromMulberry
+{
+	background-color: #FFFFFF;
+}
+.dxgvEditFormDisplayRow_BudwayThemeFromMulberry td.dxgv
+{
+}
+.dxgvEditFormDisplayRow_BudwayThemeFromMulberry td.dxgvIndentCell
+{
+	border-right: 1px Solid #cbcbcb;
+	border-left: 1px Solid #cbcbcb;
+	border-top-width: 0px;
+}
+.dxgvEditingErrorRow_BudwayThemeFromMulberry
+{
+	background-color: #F3D6D6;
+	color: #BA1717;
+}
+.dxgvEditingErrorRow_BudwayThemeFromMulberry td.dxgv
+{
+	white-space: pre-wrap;
+	border-bottom: 1px Solid #A3C0E8;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 6px 12px;
+}
+
+.dxgvInlineEditRow_BudwayThemeFromMulberry td.dxgv
+{
+	padding: 1px;
+}
+.dxgvInlineEditRow_BudwayThemeFromMulberry td.dxgvIndentCell
+{
+	background-color: white;
+}
+.dxgvFilterRow_BudwayThemeFromMulberry td.dxgv
+{
+	border-bottom: 1px Solid #cbcbcb;
+	border-right-width: 0px;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 1px;
+	overflow: hidden;
+}
+.dxgvGroupRow_BudwayThemeFromMulberry
+{
+    color: #8d8d8d;
+    background-color: #FFFFFF;
+}
+.dxgvFocusedGroupRow_BudwayThemeFromMulberry
+{
+	background-color: #BF4E6A;
+	color: white;
+}
+.dxgvGroupRow_BudwayThemeFromMulberry td.dxgv,
+.dxgvFocusedGroupRow_BudwayThemeFromMulberry td.dxgv
+{
+	border: 0;
+    border-bottom: 1px Solid #cbcbcb;
+	vertical-align: middle;
+	white-space: nowrap;
+	padding: 5px 10px 6px;
+    background-color: inherit;
+}
+.dxgvGroupRow_BudwayThemeFromMulberry:last-child td.dxgv,
+.dxgvFocusedGroupRow_BudwayThemeFromMulberry:last-child td.dxgv
+{
+    border-bottom: 1px Solid #cbcbcb!important;
+}
+.dxGridView_gvExpandedButton_BudwayThemeFromMulberry,
+.dxGridView_gvCollapsedButton_BudwayThemeFromMulberry 
+{
+    margin: 2px 0 -2px;
+}
+.dxgvFocusedGroupRow_BudwayThemeFromMulberry td.dxgvIndentCell,
+.dxgvFocusedRow_BudwayThemeFromMulberry td.dxgvIndentCell,
+.dxgvSelectedRow_BudwayThemeFromMulberry td.dxgvIndentCell
+{
+	border-top-width: 0px;
+	border-right: 1px Solid #cbcbcb;
+}
+
+.dxgvHeaderPanel_BudwayThemeFromMulberry
+{
+	color: #979797;
+	white-space: nowrap;
+	border-top: 1px Solid #cbcbcb;
+    border-bottom: 1px Solid #cbcbcb;
+	padding: 8px 4px 7px 6px;
+}
+
+.dxIE .dxgvMSDraggable .dxgvHeader_BudwayThemeFromMulberry,
+.dxIE .dxgvMSDraggable.dxgvGroupPanel_BudwayThemeFromMulberry
+{
+    -ms-touch-action: pinch-zoom;
+}
+.dxEdge .dxgvMSDraggable .dxgvHeader_BudwayThemeFromMulberry,
+.dxEdge .dxgvMSDraggable.dxgvGroupPanel_BudwayThemeFromMulberry
+{
+    touch-action: pinch-zoom;
+}
+.dxgvHeader_BudwayThemeFromMulberry
+{
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 4px 10px 5px;
+	border: 1px Solid #cbcbcb;
+    background: white;
+	overflow: hidden;
+	font-weight: normal;
+	text-align: left;
+}
+tr:first-child > .dxgvHeader_BudwayThemeFromMulberry,
+tr[id$="DXHeadersRow0"] > .dxgvHeader_BudwayThemeFromMulberry
+{
+	border-top-width: 1px!important; 
+}
+.dxgvHeader_BudwayThemeFromMulberry a,
+.dxgvHeader_BudwayThemeFromMulberry a:hover
+{
+	color: #BF4E6A;
+}
+
+.dxgvHeader_BudwayThemeFromMulberry,
+.dxgvHeader_BudwayThemeFromMulberry table
+{
+    color: #8d8d8d;
+}
+.dxgvHeader_BudwayThemeFromMulberry td
+{
+	white-space: nowrap;
+}
+.dxgvHeader_BudwayThemeFromMulberry a.dxgvCommandColumnItem_BudwayThemeFromMulberry
+{
+	margin: 0px 5px 0px 0px;
+	vertical-align: middle;
+}
+.dxgvCustomization_BudwayThemeFromMulberry, 
+.dxgvPopupEditForm_BudwayThemeFromMulberry
+{
+	padding: 0;
+	margin: 0;
+}
+.dxgvAdaptiveGroupPanel_BudwayThemeFromMulberry,
+.dxgvGroupPanel_BudwayThemeFromMulberry
+{
+	color: #8d8d8d;
+}
+.dxgvGroupPanel_BudwayThemeFromMulberry
+{
+    border-top: 1px Solid #cbcbcb;
+    padding: 14px 4px 14px 6px;
+    white-space: nowrap;
+}
+.dxgvGroupPanel_BudwayThemeFromMulberry:first-child
+{
+	border-top: 0;
+}
+.dxgvAdaptiveGroupPanel_BudwayThemeFromMulberry
+{
+    padding-left: 6px;
+    padding-top: 14px;
+}
+.dxgvAdaptiveGroupPanel_BudwayThemeFromMulberry div.dxgvADH
+{
+    margin-right: 4px;
+    margin-bottom: 12px;
+}
+.dxgvAdaptiveGroupPanel_BudwayThemeFromMulberry.dxgvEAHP
+{
+    padding-bottom: 14px;
+}
+.dxgvAdaptiveHeaderPanel_BudwayThemeFromMulberry
+{
+    color: #8d8d8d;
+    border-top: 1px Solid #cbcbcb;
+    border-bottom: 1px Solid #cbcbcb;
+    padding-top: 10px;
+}
+.dxgvAdaptiveHeaderPanel_BudwayThemeFromMulberry.dxgvEAHP
+{
+    padding: 10px 7px;
+}
+.dxgvAdaptiveFooterPanel_BudwayThemeFromMulberry
+{
+    border: solid 1px #d1d1d1;
+    border-top-width: 0;    
+    padding-top: 6px;
+}
+.dxgvAdaptiveHeaderPanel_BudwayThemeFromMulberry,
+.dxgvAdaptiveFooterPanel_BudwayThemeFromMulberry
+{
+    padding-left: 30px;
+}
+.dxgvFooter_BudwayThemeFromMulberry
+{
+	white-space: nowrap;
+}
+.dxgvFooter_BudwayThemeFromMulberry td.dxgv
+{
+	padding: 14px 10px;
+	border-right-width: 0px;
+	border-bottom: 1px Solid #cbcbcb!important;
+}
+.dxgvFooter_BudwayThemeFromMulberry.dxgvABV td.dxgv
+{
+    border-right: 1px Solid #cbcbcb!important;
+}
+.dxgvFSDC .dxgvFooter_BudwayThemeFromMulberry td.dxgv,
+.dxgvCSD .dxgvFooter_BudwayThemeFromMulberry td.dxgv
+{
+	border-bottom: 0!important;
+}
+.dxgvGroupFooter_BudwayThemeFromMulberry
+{
+	white-space: nowrap;
+}
+.dxgvGroupFooter_BudwayThemeFromMulberry td.dxgv
+{
+	padding: 5px 10px 6px;
+	border-bottom: 1px Solid #cbcbcb;
+	border-right-width: 0px;
+}
+
+.dxgvDataRow_BudwayThemeFromMulberry td.dxgvIndentCell,
+.dxgvDetailRow_BudwayThemeFromMulberry td.dxgvIndentCell,
+.dxgvPreviewRow_BudwayThemeFromMulberry td.dxgvIndentCell,
+.dxgvGroupRow_BudwayThemeFromMulberry td.dxgvIndentCell,
+.dxgvGroupFooter_BudwayThemeFromMulberry td.dxgvIndentCell
+{
+	background-color: white;
+	border-top-width: 0px;
+	border-right: 1px Solid #cbcbcb;
+}
+
+.dxgvTitlePanel_BudwayThemeFromMulberry,
+.dxgvTable_BudwayThemeFromMulberry caption
+{
+	font-weight: normal;
+	padding: 6px 5px 7px;
+	text-align: center;
+}
+.dxgvLoadingDiv_BudwayThemeFromMulberry
+{
+	background-color: Gray;
+	opacity: 0.01;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=1);
+}
+.dxgvPagerBottomPanel_BudwayThemeFromMulberry + .dxgvStatusBar_BudwayThemeFromMulberry
+{
+	border-top: 1px Solid #cbcbcb;
+}
+.dxgvStatusBar_BudwayThemeFromMulberry tr.dxgv
+{
+	height: 20px;
+}
+.dxgvStatusBar_BudwayThemeFromMulberry tr.dxgv > td
+{
+	padding: 13px 5px;
+}
+.dxgvStatusBar_BudwayThemeFromMulberry tr.dxgv span .dxbButtonSys:first-child
+{
+	margin-left: 4px;
+}
+.dxgvCommandColumn_BudwayThemeFromMulberry a
+{
+	margin: 0px 5px 0px 0px;
+	vertical-align: middle;
+}
+.dxgvCommandColumnItem_BudwayThemeFromMulberry
+{
+}
+.dxbButton_BudwayThemeFromMulberry[class~="dxgvCommandColumnItem_BudwayThemeFromMulberry"],
+.dxgvEditFormTable_BudwayThemeFromMulberry div.dxbButton_BudwayThemeFromMulberry
+{
+	margin: -2px 2px;
+}
+.dxbButton_BudwayThemeFromMulberry[class~="dxgvCommandColumnItem_BudwayThemeFromMulberry"] .dxb
+{
+	padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvFilterRow_BudwayThemeFromMulberry a.dxgvCommandColumnItem_BudwayThemeFromMulberry
+{
+    display: inline-block;
+    margin-top: 1px;
+}
+.dxgvEditFormTable_BudwayThemeFromMulberry
+{
+	margin: 10px 0px;
+	padding: 0px;
+}
+.dxgvEditFormCaption_BudwayThemeFromMulberry
+{
+	padding: 5px 4px 4px 8px;
+	white-space: nowrap;
+}
+
+.dxgvInlineEditCell_BudwayThemeFromMulberry
+{
+	padding: 4px;
+}
+.dxgvEditFormCell_BudwayThemeFromMulberry
+{
+	padding: 4px;
+	border-width: 0;
+}
+
+.dxgvFilterBar_BudwayThemeFromMulberry
+{
+	border-top: 1px solid #cbcbcb;
+}
+.dxgvFilterBar_BudwayThemeFromMulberry a
+{
+	color: #5e6d9d;
+	text-decoration: underline;
+}
+.dxgvFilterBar_BudwayThemeFromMulberry a:hover
+{
+	color: #343434;
+}
+.dxgvFilterBarCheckBoxCell_BudwayThemeFromMulberry
+{
+	padding: 0 5px 0 1px;
+}
+.dxgvFilterBarImageCell_BudwayThemeFromMulberry
+{
+	padding: 0 1px 0 3px;
+	cursor: pointer;
+}
+.dxgvFilterBarExpressionCell_BudwayThemeFromMulberry
+{
+	padding: 6px 5px 8px 0;
+	white-space: nowrap;
+}
+.dxgvFilterBarClearButtonCell_BudwayThemeFromMulberry
+{
+	padding: 5px 6px 8px;
+}
+.dxgvFilterBuilderMainArea_BudwayThemeFromMulberry
+{
+	background: white none;
+	padding: 6px 2px;
+} 
+.dxgvFilterBuilderButtonArea_BudwayThemeFromMulberry
+{
+	background-color: white;
+	border-top: 1px solid #cbcbcb;
+	padding: 12px;
+	white-space: nowrap;
+}
+
+.dxgvPagerBottomPanel_BudwayThemeFromMulberry, 
+.dxgvPagerTopPanel_BudwayThemeFromMulberry
+{
+	padding: 2px 0;
+}
+
+.dxgvDataRowHover_BudwayThemeFromMulberry
+{
+    background-color: #f1f2f5;
+    color: #343434;
+}
+
+.dxgvControl_BudwayThemeFromMulberry .dxpLite_BudwayThemeFromMulberry
+{
+    padding: 6px 0 6px 6px;
+}
+
+.dxgvControl_BudwayThemeFromMulberry .dxgvHFSAC
+{
+    padding: 6px 0 0 3px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHFC
+{
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHFC .dxeCalendar_BudwayThemeFromMulberry
+{
+    margin-top: 3px;
+    margin-left: 32px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHFSC
+{
+    padding: 6px 0 2px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHFSC div
+{
+    height: 1px;
+    background: #ececec;
+}
+.dxgvControl_BudwayThemeFromMulberry div[id$='DXEPLPC']
+{
+    height: 88px;
+}
+
+.dxgvControl_BudwayThemeFromMulberry .dxgvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHFDRC
+{
+    margin: 20px 15px 30px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHFDRP[id*="HFFDE"]
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 30px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxgvTable_BudwayThemeFromMulberry
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxgvControl_BudwayThemeFromMulberry td.dxgvBatchEditCell_BudwayThemeFromMulberry
+{
+    padding: 0;
+}
+.dxgvControl_BudwayThemeFromMulberry td.dxgvBatchEditModifiedCell_BudwayThemeFromMulberry
+{
+    background: #d7f9c7;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvErrorCell img
+{
+    margin: -2px 0;
+}
+.dxgvStatusBar_BudwayThemeFromMulberry .dxgvCommandColumn_BudwayThemeFromMulberry a
+{
+    margin-right: 10px;
+}
+.dxgvControl_BudwayThemeFromMulberry td.dxgvBatchEditCell_BudwayThemeFromMulberry .dxichCellSys
+{
+    padding-left: 0;
+}
+
+.dxgvControl_BudwayThemeFromMulberry td.dxgvBatchEditCell_BudwayThemeFromMulberry,
+.dxgvControl_BudwayThemeFromMulberry td.dxgvBatchEditModifiedCell_BudwayThemeFromMulberry
+{
+    border-bottom-width: 0!important;
+}
+
+.dxgvSearchPanel_BudwayThemeFromMulberry
+{
+    padding: 14px 0;
+}
+.dxgvSearchPanel_BudwayThemeFromMulberry > table 
+{
+    width: 70%;
+    max-width: 650px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvSearchPanel_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxgvControl_BudwayThemeFromMulberry .dxgvSearchPanel_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvHL
+{
+    background: #ffd83a;
+	color: #333333;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxgvControl_BudwayThemeFromMulberry .dxgvSearchPanel_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxgvControl_BudwayThemeFromMulberry .dxgvSearchPanel_BudwayThemeFromMulberry .dxbButton_BudwayThemeFromMulberry .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxgvFocusedCell_BudwayThemeFromMulberry
+{
+     box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+    -webkit-box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+    -moz-box-shadow: inset 2px 2px 0 #2292B1, inset -2px -2px 0 #2292B1;
+}

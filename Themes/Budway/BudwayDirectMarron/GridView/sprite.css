@@ -1,0 +1,538 @@
+.dxGridView_gvCellError_BudwayDirectMarron,
+.dxGridView_gvCMClearFilter_BudwayDirectMarron,
+.dxGridView_gvCMClearFilterDisabled_BudwayDirectMarron,
+.dxGridView_gvCMClearGrouping_BudwayDirectMarron,
+.dxGridView_gvCMClearGroupingDisabled_BudwayDirectMarron,
+.dxGridView_gvCMCollapseDetailRow_BudwayDirectMarron,
+.dxGridView_gvCMCollapseDetailRowDisabled_BudwayDirectMarron,
+.dxGridView_gvCMCollapseRow_BudwayDirectMarron,
+.dxGridView_gvCMCollapseRowDisabled_BudwayDirectMarron,
+.dxGridView_gvCMDeleteRow_BudwayDirectMarron,
+.dxGridView_gvCMDeleteRowDisabled_BudwayDirectMarron,
+.dxGridView_gvCMEditRow_BudwayDirectMarron,
+.dxGridView_gvCMEditRowDisabled_BudwayDirectMarron,
+.dxGridView_gvCMExpandDetailRow_BudwayDirectMarron,
+.dxGridView_gvCMExpandDetailRowDisabled_BudwayDirectMarron,
+.dxGridView_gvCMExpandRow_BudwayDirectMarron,
+.dxGridView_gvCMExpandRowDisabled_BudwayDirectMarron,
+.dxGridView_gvCMFullCollapse_BudwayDirectMarron,
+.dxGridView_gvCMFullCollapseDisabled_BudwayDirectMarron,
+.dxGridView_gvCMFullExpand_BudwayDirectMarron,
+.dxGridView_gvCMFullExpandDisabled_BudwayDirectMarron,
+.dxGridView_gvCMGroupByColumn_BudwayDirectMarron,
+.dxGridView_gvCMGroupByColumnDisabled_BudwayDirectMarron,
+.dxGridView_gvCMNewRow_BudwayDirectMarron,
+.dxGridView_gvCMNewRowDisabled_BudwayDirectMarron,
+.dxGridView_gvCMRefresh_BudwayDirectMarron,
+.dxGridView_gvCMRefreshDisabled_BudwayDirectMarron,
+.dxGridView_gvCMSearchPanel_BudwayDirectMarron,
+.dxGridView_gvCMSearchPanelDisabled_BudwayDirectMarron,
+.dxGridView_gvCMShowCustomizationWindow_BudwayDirectMarron,
+.dxGridView_gvCMShowCustomizationWindowDisabled_BudwayDirectMarron,
+.dxGridView_gvCMShowFilterEditor_BudwayDirectMarron,
+.dxGridView_gvCMShowFilterEditorDisabled_BudwayDirectMarron,
+.dxGridView_gvCMShowGroupPanel_BudwayDirectMarron,
+.dxGridView_gvCMShowGroupPanelDisabled_BudwayDirectMarron,
+.dxGridView_gvCMShowSearchPanel_BudwayDirectMarron,
+.dxGridView_gvCMShowSearchPanelDisabled_BudwayDirectMarron,
+.dxGridView_gvCMSortAscending_BudwayDirectMarron,
+.dxGridView_gvCMSortAscendingDisabled_BudwayDirectMarron,
+.dxGridView_gvCMSortDescending_BudwayDirectMarron,
+.dxGridView_gvCMSortDescendingDisabled_BudwayDirectMarron,
+.dxGridView_gvCMSummaryAverage_BudwayDirectMarron,
+.dxGridView_gvCMSummaryAverageDisabled_BudwayDirectMarron,
+.dxGridView_gvCMSummaryCount_BudwayDirectMarron,
+.dxGridView_gvCMSummaryCountDisabled_BudwayDirectMarron,
+.dxGridView_gvCMSummaryMax_BudwayDirectMarron,
+.dxGridView_gvCMSummaryMaxDisabled_BudwayDirectMarron,
+.dxGridView_gvCMSummaryMin_BudwayDirectMarron,
+.dxGridView_gvCMSummaryMinDisabled_BudwayDirectMarron,
+.dxGridView_gvCMSummarySum_BudwayDirectMarron,
+.dxGridView_gvCMSummarySumDisabled_BudwayDirectMarron,
+.dxGridView_gvCMUngroupColumn_BudwayDirectMarron,
+.dxGridView_gvCollapsedButton_BudwayDirectMarron,
+.dxGridView_gvCollapsedButtonRtl_BudwayDirectMarron,
+.dxGridView_gvDetailCollapsedButton_BudwayDirectMarron,
+.dxGridView_gvDetailCollapsedButtonRtl_BudwayDirectMarron,
+.dxGridView_gvDetailExpandedButton_BudwayDirectMarron,
+.dxGridView_gvDetailExpandedButtonRtl_BudwayDirectMarron,
+.dxGridView_gvDragAndDropArrowDown_BudwayDirectMarron,
+.dxGridView_gvDragAndDropArrowLeft_BudwayDirectMarron,
+.dxGridView_gvDragAndDropArrowRight_BudwayDirectMarron,
+.dxGridView_gvDragAndDropArrowUp_BudwayDirectMarron,
+.dxGridView_gvDragAndDropHideColumn_BudwayDirectMarron,
+.dxGridView_gvExpandedButton_BudwayDirectMarron,
+.dxGridView_gvExpandedButtonRtl_BudwayDirectMarron,
+.dxGridView_gvFilterRowButton_BudwayDirectMarron,
+.dxGridView_gvFixedGroupRow_BudwayDirectMarron,
+.dxGridView_gvHeaderFilter_BudwayDirectMarron,
+.dxGridView_gvHeaderFilterActive_BudwayDirectMarron,
+.dxGridView_gvHeaderSortDown_BudwayDirectMarron,
+.dxGridView_gvHeaderSortUp_BudwayDirectMarron,
+.dxGridView_gvHideAdaptiveDetailButton_BudwayDirectMarron,
+.dxGridView_gvParentGroupRows_BudwayDirectMarron,
+.dxGridView_gvShowAdaptiveDetailButton_BudwayDirectMarron,
+.dxGridView_WindowResizer_BudwayDirectMarron,
+.dxGridView_WindowResizerRtl_BudwayDirectMarron
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxGridView_gvCellError_BudwayDirectMarron
+{
+    background-position: -28px -348px;
+    width: 14px;
+    height: 14px;
+}
+.dxGridView_gvCMClearFilter_BudwayDirectMarron
+{
+    background-position: 0px -111px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearFilterDisabled_BudwayDirectMarron
+{
+    background-position: -17px -128px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearGrouping_BudwayDirectMarron
+{
+    background-position: -17px -179px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMClearGroupingDisabled_BudwayDirectMarron
+{
+    background-position: -17px -264px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseDetailRow_BudwayDirectMarron
+{
+    background-position: 0px -196px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseDetailRowDisabled_BudwayDirectMarron
+{
+    background-position: -17px -196px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseRow_BudwayDirectMarron
+{
+    background-position: 0px -213px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMCollapseRowDisabled_BudwayDirectMarron
+{
+    background-position: -34px -315px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMDeleteRow_BudwayDirectMarron
+{
+    background-position: -17px -281px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMDeleteRowDisabled_BudwayDirectMarron
+{
+    background-position: -17px -213px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMEditRow_BudwayDirectMarron
+{
+    background-position: -17px -298px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMEditRowDisabled_BudwayDirectMarron
+{
+    background-position: -34px -43px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandDetailRow_BudwayDirectMarron
+{
+    background-position: -34px -94px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandDetailRowDisabled_BudwayDirectMarron
+{
+    background-position: 0px -43px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandRow_BudwayDirectMarron
+{
+    background-position: -34px -247px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMExpandRowDisabled_BudwayDirectMarron
+{
+    background-position: 0px -264px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullCollapse_BudwayDirectMarron
+{
+    background-position: 0px -94px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullCollapseDisabled_BudwayDirectMarron
+{
+    background-position: -34px -230px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullExpand_BudwayDirectMarron
+{
+    background-position: -17px -111px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMFullExpandDisabled_BudwayDirectMarron
+{
+    background-position: 0px -128px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMGroupByColumn_BudwayDirectMarron
+{
+    background-position: 0px -60px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMGroupByColumnDisabled_BudwayDirectMarron
+{
+    background-position: -17px -315px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMNewRow_BudwayDirectMarron
+{
+    background-position: -17px -60px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMNewRowDisabled_BudwayDirectMarron
+{
+    background-position: -34px -298px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMRefresh_BudwayDirectMarron
+{
+    background-position: 0px -315px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMRefreshDisabled_BudwayDirectMarron
+{
+    background-position: -17px -230px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSearchPanel_BudwayDirectMarron
+{
+    background-position: -17px -77px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSearchPanelDisabled_BudwayDirectMarron
+{
+    background-position: -34px -281px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustomizationWindow_BudwayDirectMarron
+{
+    background-position: -34px -196px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowCustomizationWindowDisabled_BudwayDirectMarron
+{
+    background-position: -34px -162px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowFilterEditor_BudwayDirectMarron
+{
+    background-position: -34px -128px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowFilterEditorDisabled_BudwayDirectMarron
+{
+    background-position: -17px -247px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowGroupPanel_BudwayDirectMarron
+{
+    background-position: -34px -111px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowGroupPanelDisabled_BudwayDirectMarron
+{
+    background-position: 0px -145px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowSearchPanel_BudwayDirectMarron
+{
+    background-position: 0px -298px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMShowSearchPanelDisabled_BudwayDirectMarron
+{
+    background-position: 0px -230px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortAscending_BudwayDirectMarron
+{
+    background-position: 0px -77px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortAscendingDisabled_BudwayDirectMarron
+{
+    background-position: -17px -162px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortDescending_BudwayDirectMarron
+{
+    background-position: 0px -162px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSortDescendingDisabled_BudwayDirectMarron
+{
+    background-position: -17px -145px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryAverage_BudwayDirectMarron
+{
+    background-position: 0px -179px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryAverageDisabled_BudwayDirectMarron
+{
+    background-position: 0px -281px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryCount_BudwayDirectMarron
+{
+    background-position: 0px -247px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryCountDisabled_BudwayDirectMarron
+{
+    background-position: -34px -77px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMax_BudwayDirectMarron
+{
+    background-position: -34px -179px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMaxDisabled_BudwayDirectMarron
+{
+    background-position: -34px -213px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMin_BudwayDirectMarron
+{
+    background-position: -17px -43px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummaryMinDisabled_BudwayDirectMarron
+{
+    background-position: -34px -60px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummarySum_BudwayDirectMarron
+{
+    background-position: -34px -264px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMSummarySumDisabled_BudwayDirectMarron
+{
+    background-position: -17px -94px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCMUngroupColumn_BudwayDirectMarron
+{
+    background-position: -34px -145px;
+    width: 16px;
+    height: 16px;
+}
+.dxGridView_gvCollapsedButton_BudwayDirectMarron
+{
+    background-position: 0px -332px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvCollapsedButtonRtl_BudwayDirectMarron
+{
+    background-position: -32px -332px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvDetailCollapsedButton_BudwayDirectMarron
+{
+    background-position: -26px -378px;
+    width: 11px;
+    height: 12px;
+}
+.dxGridView_gvDetailCollapsedButtonRtl_BudwayDirectMarron
+{
+    background-position: 0px -392px;
+    width: 11px;
+    height: 12px;
+}
+.dxGridView_gvDetailExpandedButton_BudwayDirectMarron
+{
+    background-position: -38px -378px;
+    width: 11px;
+    height: 12px;
+}
+.dxGridView_gvDetailExpandedButtonRtl_BudwayDirectMarron
+{
+    background-position: -14px -378px;
+    width: 11px;
+    height: 12px;
+}
+.dxGridView_gvDragAndDropArrowDown_BudwayDirectMarron
+{
+    background-position: -40px -392px;
+    width: 11px;
+    height: 9px;
+}
+.dxGridView_gvDragAndDropArrowLeft_BudwayDirectMarron
+{
+    background-position: -43px 0px;
+    width: 9px;
+    height: 11px;
+}
+.dxGridView_gvDragAndDropArrowRight_BudwayDirectMarron
+{
+    background-position: -43px -348px;
+    width: 9px;
+    height: 11px;
+}
+.dxGridView_gvDragAndDropArrowUp_BudwayDirectMarron
+{
+    background-position: 0px -405px;
+    width: 11px;
+    height: 9px;
+}
+.dxGridView_gvDragAndDropHideColumn_BudwayDirectMarron
+{
+    background-position: 0px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxGridView_gvExpandedButton_BudwayDirectMarron
+{
+    background-position: -16px -332px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvExpandedButtonRtl_BudwayDirectMarron
+{
+    background-position: 0px -348px;
+    width: 15px;
+    height: 15px;
+}
+.dxGridView_gvFilterRowButton_BudwayDirectMarron
+{
+    background-position: -19px -364px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_gvFixedGroupRow_BudwayDirectMarron
+{
+    background-position: -20px -23px;
+    width: 18px;
+    height: 18px;
+}
+.dxGridView_gvHeaderFilter_BudwayDirectMarron
+{
+    background-position: -23px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxGridView_gvHeaderFilterActive_BudwayDirectMarron
+{
+    background-position: 0px -23px;
+    width: 19px;
+    height: 19px;
+}
+.dxGridView_gvHeaderSortDown_BudwayDirectMarron
+{
+    background-position: -39px -23px;
+    width: 11px;
+    height: 15px;
+}
+.dxGridView_gvHeaderSortUp_BudwayDirectMarron
+{
+    background-position: -16px -348px;
+    width: 11px;
+    height: 15px;
+}
+.dxGridView_gvHideAdaptiveDetailButton_BudwayDirectMarron
+{
+    background-position: -12px -392px;
+    width: 13px;
+    height: 11px;
+}
+.dxGridView_gvParentGroupRows_BudwayDirectMarron
+{
+    background-position: 0px -364px;
+    width: 18px;
+    height: 13px;
+}
+.dxGridView_gvShowAdaptiveDetailButton_BudwayDirectMarron
+{
+    background-position: -26px -392px;
+    width: 13px;
+    height: 11px;
+}
+.dxGridView_WindowResizer_BudwayDirectMarron
+{
+    background-position: 0px -378px;
+    width: 13px;
+    height: 13px;
+}
+.dxGridView_WindowResizerRtl_BudwayDirectMarron
+{
+    background-position: -33px -364px;
+    width: 13px;
+    height: 13px;
+}
+

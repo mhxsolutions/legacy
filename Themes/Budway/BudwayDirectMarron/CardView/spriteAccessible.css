@@ -1,0 +1,53 @@
+.dx-acc-r .dxCardView_gvCellError_BudwayDirectMarron:before,
+.dx-acc-r .dxCardView_gvFilterRowButton_BudwayDirectMarron:before,
+.dx-acc-r .dxCardView_gvHeaderFilter_BudwayDirectMarron:before,
+.dx-acc-r .dxCardView_gvHeaderFilterActive_BudwayDirectMarron:before,
+.dx-acc-r .dxCardView_gvHeaderSortDown_BudwayDirectMarron:before,
+.dx-acc-r .dxCardView_gvHeaderSortUp_BudwayDirectMarron:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxCardView_gvCellError_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -40px;
+
+}
+.dx-acc-r .dxCardView_gvFilterRowButton_BudwayDirectMarron:before
+
+{
+    left: -15px;
+    top: -40px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderFilter_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderFilterActive_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -20px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderSortDown_BudwayDirectMarron:before
+
+{
+    left: -20px;
+    top: -20px;
+
+}
+.dx-acc-r .dxCardView_gvHeaderSortUp_BudwayDirectMarron:before
+
+{
+    left: -20px;
+    top: 0px;
+
+}

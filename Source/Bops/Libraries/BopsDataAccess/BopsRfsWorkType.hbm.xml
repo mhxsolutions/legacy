@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsWorkType, BopsDataAccess" table="[RFS Work Types]" lazy="false">
+    <id name="WorkTypeId" column="[RFS Work Type ID]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="WorkType" column="[Work Type]"/>
+  </class>
+</hibernate-mapping>

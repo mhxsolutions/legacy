@@ -1,0 +1,12 @@
+
+
+
+<asp:GridView runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
+	<RowStyle BackColor="#F7F6F3" ForeColor="#000000" />
+	<AlternatingRowStyle BackColor="#FFFFFF" ForeColor="#000000" />
+	<HeaderStyle BackColor="#640D0D" Font-Bold="True" ForeColor="#FFFFFF" />
+	<FooterStyle BackColor="#640D0D" Font-Bold="True" ForeColor="#FFFFFF" />
+	<PagerStyle BackColor="#640D0D" ForeColor="#FFFFFF" HorizontalAlign="Center" />
+	<SelectedRowStyle BackColor="#333333" Font-Bold="True" ForeColor="#FFFFFF" />
+	<EditRowStyle BackColor="#999999" />
+</asp:GridView>

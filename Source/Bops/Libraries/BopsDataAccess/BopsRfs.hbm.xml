@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfs, BopsDataAccess" table="[RFS Main]" lazy="false">
+    <id name="RfsId" column="[RFS ID]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="SalespersonRef" column="[Salesperson ref]"/>
+    <property name="ShipperRef" column="[Shipper ref]"/>
+    <property name="CommodityRef" column="[Commodity ref]"/>
+    <property name="WorkTypeRef" column="[Work Type ref]"/>
+    <property name="WorkDescription" column="[Work Description]"/>
+    <property name="Vessel" column="[Vessel]"/>
+    <property name="FirstFreeDate" column="[FFD]"/>
+    <property name="LastFreeDate" column="[LFD]"/>
+    <property name="HarborProjectRef" column="[PMID ref]"/>
+    <property name="StatusRef" column="[Status Ref]"/>
+    <property name="BeginDate" column="[Begin Date]"/>
+    <property name="EndDate" column="[End Date]"/>
+    <property name="StorageFreeDays" column="[Storage Free Days]"/>
+    <property name="LocationCode" column="[Location Code]"/>
+    <property name="CompanyRef" column="[Company ID ref]"/>
+  </class>
+</hibernate-mapping>

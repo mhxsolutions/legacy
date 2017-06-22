@@ -1,0 +1,3436 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FarPoint.Web.Spread.Design</name>
+    </assembly>
+    <members>
+        <member name="M:FarPoint.Web.Spread.ChartEmptyCellSetting.LocalizeGUIStrings">
+            <summary>
+            Localize all GUI strings of this instance
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.ChartEmptyCellSetting.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Form.Closing"/> event.
+            </summary>
+            <param name="e">A <see cref="T:System.ComponentModel.CancelEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.ChartEmptyCellSetting.OK_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the OK control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.ChartEmptyCellSetting.Cancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the Cancel control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:FarPoint.Web.Spread.ChartEmptyCellSetting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.ChartEmptyCellSetting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.ChartEmptyCellSetting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.ChartEmptyCellSetting.ShowHiddenData">
+            <summary>
+            Gets a value indicating whether [show hidden data].
+            </summary>
+            <value><c>true</c> if [show hidden data]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.ChartEmptyCellSetting.EmptyValueStyle">
+            <summary>
+            Gets the empty value style.
+            </summary>
+            <value>The empty value style.</value>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.AboutDialog">
+            <summary>
+            Represents an About dialog.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.AboutDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.AboutDialog.#ctor">
+            <summary>
+            Creates a new about dialog.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.AboutDialog.#ctor(System.Drawing.Image,System.String,System.String,System.String)">
+            <summary>
+            Creates an About dialog with the specified settings.
+            </summary>
+            <param name="img">Image</param>
+            <param name="info">String</param>
+            <param name="serial">Serial number</param>
+            <param name="updatesLink">Updates link</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.AboutDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.AboutDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.AltRowEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.AltRowEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.AltRowEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.MoveChart">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveChart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.MoveChart"/> class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveChart.#ctor(FarPoint.Web.Spread.FpSpread,FarPoint.Web.Spread.Chart.SpreadChart)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.MoveChart"/> class.
+            </summary>
+            <param name="spread">The spread.</param>
+            <param name="chart">The chart.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveChart.OnShown(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Form.Shown"/> event.
+            </summary>
+            <param name="e">A <see cref="T:System.EventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveChart.BtnCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the BtnCancel control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveChart.BtnOK_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the BtnOK control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.MoveChart.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveChart.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveChart.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.ClientScriptObject">
+            <summary>
+            Provide managed object to client JavaScript and dispatch client event to managed environment
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.#ctor(FarPoint.Web.Spread.Design4.Node)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.ClientScriptObject"/> class.
+            </summary>
+            <param name="root">The root.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnSizeChanged(System.Double,System.Double)">
+            <summary>
+            Called when [size changed].
+            </summary>
+            <param name="width">The width.</param>
+            <param name="height">The height.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnColWidthChanged(System.String,System.Int32,System.Int32)">
+            <summary>
+            Called when [col width changed].
+            </summary>
+            <param name="spreadID">The spread ID.</param>
+            <param name="colIndex">Index of the col.</param>
+            <param name="width">The width.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnRowHeightChanged(System.String,System.Int32,System.Int32)">
+            <summary>
+            Called when [row height changed].
+            </summary>
+            <param name="spreadID">The spread ID.</param>
+            <param name="rowIndex">Index of the row.</param>
+            <param name="height">The height.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnSelectionChanged(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Called when [selection changed].
+            </summary>
+            <param name="spreadId">The spread id.</param>
+            <param name="type">The type.</param>
+            <param name="clientRow">The client row.</param>
+            <param name="clientCol">The client col.</param>
+            <param name="rowCount">The row count.</param>
+            <param name="colCount">The col count.</param>
+            <param name="row">The row.</param>
+            <param name="col">The col.</param>
+            <param name="chartID">The chart server id.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnCallbackStart(System.String,System.String,System.Object)">
+            <summary>
+            Called when [call back start].
+            </summary>
+            <param name="spreadId">The spread id.</param>
+            <param name="command">The command.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnCallbackStopped(System.String,System.String)">
+            <summary>
+            Called when [call back stopped].
+            </summary>
+            <param name="spreadId">The spread id.</param>
+            <param name="command">The command.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnActiveCellChanged(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Called when [active cell changed].
+            </summary>
+            <param name="spreadId">The spread id.</param>
+            <param name="cmdId">The CMD id.</param>
+            <param name="clientRow">The row.</param>
+            <param name="clientCol">The col.</param>
+            <param name="row">The row.</param>
+            <param name="col">The col.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnEditStart(System.String,System.Object,System.Boolean)">
+            <summary>
+            Called when [edit start].
+            </summary>
+            <param name="spreadId">The spread id.</param>
+            <param name="cell">The cell.</param>
+            <param name="hasValidator">if set to <c>true</c> [has validator].</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnKeyUp(System.Object)">
+            <summary>
+            Called when [edit start].
+            </summary>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnMouseDown">
+            <summary>
+            Called when [mouse down].
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnEditStopped(System.String,System.Object)">
+            <summary>
+            Called when [edit stopped].
+            </summary>
+            <param name="spreadId">The spread id.</param>
+            <param name="cell">The cell.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnChartMove(System.String,System.Int32,System.Int32)">
+            <summary>
+            Called when [chart move].
+            </summary>
+            <param name="chartID">The chart ID.</param>
+            <param name="left">The left.</param>
+            <param name="top">The top.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnChartResize(System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Called when [chart resize].
+            </summary>
+            <param name="chartID">The chart ID.</param>
+            <param name="left">The left.</param>
+            <param name="top">The top.</param>
+            <param name="width">The width.</param>
+            <param name="height">The height.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ClientScriptObject.OnChartClick(System.String)">
+            <summary>
+            Called when [chart click].
+            </summary>
+            <param name="chartID">The chart ID.</param>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.ClientScriptObject.XMLHttpRequest">
+            <summary>
+            Gets the mock XMLHttpRequest request object.
+            </summary>
+            <value>The XMLHttpRequest object.</value>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.XmlHttpRequest">
+            <summary>
+            mock XmlHttpRequest object for Spread
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.XmlHttpRequest.#ctor(FarPoint.Web.Spread.Design4.Node)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.XmlHttpRequest"/> class.
+            </summary>
+            <param name="root">The root.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.XmlHttpRequest.open(System.String,System.String,System.Object)">
+            <summary>
+            Opens the specified BSTR method.
+            </summary>
+            <param name="bstrMethod">The BSTR method.</param>
+            <param name="bstrUrl">The BSTR URL.</param>
+            <param name="varAsync">The var async.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.XmlHttpRequest.setRequestHeader(System.String,System.String)">
+            <summary>
+            Sets the request header.
+            </summary>
+            <param name="bstrHeader">The BSTR header.</param>
+            <param name="bstrValue">The BSTR value.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.XmlHttpRequest.getResponseHeader(System.String)">
+            <summary>
+            Gets the response header.
+            </summary>
+            <param name="bstrHeader">The BSTR header.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.XmlHttpRequest.getAllResponseHeaders">
+            <summary>
+            Gets all response headers.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.XmlHttpRequest.send(System.Object)">
+            <summary>
+            Sends the specified var body.
+            </summary>
+            <param name="varBody">The var body.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.XmlHttpRequest.abort">
+            <summary>
+            Aborts this instance.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.XmlHttpRequest.EnsureScript(System.String)">
+            <summary>
+            Ensures to update when script changed.
+            </summary>
+            <param name="html">The html.</param>
+            <returns>
+              <c>true</c> when script different, otherwise <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.XmlHttpRequest.GetScripts(System.String)">
+            <summary>
+            Gets the scripts from html.
+            </summary>
+            <param name="html">The html.</param>
+            <returns>The scripts.</returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.XmlHttpRequest.status">
+            <summary>
+            Gets the status.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.XmlHttpRequest.statusText">
+            <summary>
+            Gets the status text.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.XmlHttpRequest.responseXML">
+            <summary>
+            Gets the response XML.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.XmlHttpRequest.responseText">
+            <summary>
+            Gets the response text.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.XmlHttpRequest.responseBody">
+            <summary>
+            Gets the response body.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.XmlHttpRequest.responseStream">
+            <summary>
+            Gets the response stream.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.XmlHttpRequest.readyState">
+            <summary>
+            Gets the state of the ready.
+            </summary>
+            <value>
+            The state of the ready.
+            </value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.XmlHttpRequest.onreadystatechange">
+            <summary>
+            Sets the onreadystatechange.
+            </summary>
+            <value>
+            The onreadystatechange.
+            </value>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.Node">
+            <summary>
+            Node
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.Create(System.String,FarPoint.Web.Spread.Design4.Node)">
+            <summary>
+            Creates node with the specified name and parent.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="parent">The parent.</param>
+            <returns>The node.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.Create(System.String)">
+            <summary>
+            Creates node with the specified name.
+            </summary>
+            <param name="name">The name.</param>
+            <returns>The node.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.CreateValue(System.String,FarPoint.Web.Spread.Design4.Node,System.Object)">
+            <summary>
+            Creates node with specified name, parent and value.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="parent">The parent.</param>
+            <param name="value">The value.</param>
+            <returns>The node.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.CreateValue(System.String,System.Object)">
+            <summary>
+            Creates node with specified name and value.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="value">The value.</param>
+            <returns>The node.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.CreateValue(System.Object)">
+            <summary>
+            Creates node with specified value.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>The node.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.CreateVirtual(System.String,FarPoint.Web.Spread.Design4.Node,System.Object)">
+            <summary>
+            Creates virtual node with specified name, parent and value.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="parent">The parent.</param>
+            <param name="value">The value.</param>
+            <returns>The node.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.ForEach(FarPoint.Web.Spread.Design4.Node,System.Action{FarPoint.Web.Spread.Design4.Node})">
+            <summary>
+            Perform action on each node.
+            </summary>
+            <param name="node">The entry node.</param>
+            <param name="action">The action.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.ForEachValue``1(FarPoint.Web.Spread.Design4.Node,System.Action{``0})">
+            <summary>
+            Perform action on each node value which type is T.
+            </summary>
+            <typeparam name="T">The type of value to perform action.</typeparam>
+            <param name="node">The node.</param>
+            <param name="action">The action.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents the current <see cref="T:System.Object"/>.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.SetParentDirect(FarPoint.Web.Spread.Design4.Node,FarPoint.Web.Spread.Design4.Node)">
+            <summary>
+            Sets the node parent directly.
+            </summary>
+            <param name="node">The node.</param>
+            <param name="parent">The parent.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.PreProcessPath(System.String)">
+            <summary>
+            Preprocess the path, split the path into two part.
+            </summary>
+            <param name="path">The path.</param>
+            <returns>The two part path.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.GetNode(System.String)">
+            <summary>
+            Gets the node at path.
+            </summary>
+            <param name="path">The path.</param>
+            <returns>The node.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.CreateNode(System.String)">
+            <summary>
+            Creates the node along the path.
+            </summary>
+            <param name="path">The path.</param>
+            <returns>The node.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.CreateNodeCollection">
+            <summary>
+            Creates the node collection.
+            </summary>
+            <returns>The node collection.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.GetKeyForNode(FarPoint.Web.Spread.Design4.Node)">
+            <summary>
+            Gets the key for node. The key is used to store node in keyed collection.
+            </summary>
+            <param name="node">The node.</param>
+            <returns>The key.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.GetKeyedNode(System.String)">
+            <summary>
+            Gets the node by key.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>The node.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.OnNameChanged">
+            <summary>
+            Called when Name changed.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.OnParentChanged">
+            <summary>
+            Called when Parent changed.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.OnValueChanged">
+            <summary>
+            Called when Value changed.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Node.VirtualMode">
+            <summary>
+            Gets a value indicating whether in virtual mode.
+            </summary>
+            <value><c>true</c> if in virtual mode; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Node.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Node.Children">
+            <summary>
+            Gets the children.
+            </summary>
+            <value>The children.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Node.Parent">
+            <summary>
+            Gets or sets the parent.
+            </summary>
+            <value>The parent.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Node.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+            <value>The value.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Node.Item(System.String)">
+            <summary>
+            Gets or sets the <see cref="T:FarPoint.Web.Spread.Design4.Node"/> with the specified path.
+            </summary>
+            <value>The node.</value>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection._owner">
+            <summary>
+            the node own this collection
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection.#ctor(FarPoint.Web.Spread.Design4.Node)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection"/> class.
+            </summary>
+            <param name="owner">The owner.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection.#ctor(FarPoint.Web.Spread.Design4.Node,System.Collections.Generic.IEqualityComparer{System.String})">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection"/> class.
+            </summary>
+            <param name="owner">The owner.</param>
+            <param name="compare">The compare.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection.#ctor(FarPoint.Web.Spread.Design4.Node,System.Collections.Generic.IEqualityComparer{System.String},System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection"/> class.
+            </summary>
+            <param name="owner">The owner.</param>
+            <param name="compare">The compare.</param>
+            <param name="threshold">The threshold.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection.Init(FarPoint.Web.Spread.Design4.Node)">
+            <summary>
+            Inits the collection.
+            </summary>
+            <param name="owner">The owner node.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection.GetKeyForItem(FarPoint.Web.Spread.Design4.Node)">
+            <summary>
+            Extracts the key from the specified node.
+            </summary>
+            <param name="item">The node from which to extract the key.</param>
+            <returns>The key for the specified node.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection.InsertItem(System.Int32,FarPoint.Web.Spread.Design4.Node)">
+            <summary>
+            Inserts an node into the <see cref="T:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection"/> at the specified index.
+            </summary>
+            <param name="index">The zero-based index at which <paramref name="item"/> should be inserted.</param>
+            <param name="item">The node to insert.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection.SetItem(System.Int32,FarPoint.Web.Spread.Design4.Node)">
+            <summary>
+            Replaces the item at the specified index with the specified node.
+            </summary>
+            <param name="index">The zero-based index of the node to be replaced.</param>
+            <param name="item">The new node.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection.RemoveItem(System.Int32)">
+            <summary>
+            Removes the node at the specified index of the <see cref="T:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection"/>.
+            </summary>
+            <param name="index">The index of the node to remove.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection.ClearItems">
+            <summary>
+            Removes all nodes from the <see cref="T:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection"/>.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Node.KeyedNodeCollection.ChangeKey(FarPoint.Web.Spread.Design4.Node,System.String)">
+            <summary>
+            Expose ChangeItemKey to Node.
+            </summary>
+            <param name="node">The node.</param>
+            <param name="key">The key.</param>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.ICommand">
+            <summary>
+            Command interface
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ICommand.GetStatus(System.Object[])">
+            <summary>
+            Gets the status of Target by parameter.
+            </summary>
+            <param name="parameter">The parameter.</param>
+            <returns>The status.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ICommand.Execute(System.Object[])">
+            <summary>
+            Executes the command with specified parameter.
+            </summary>
+            <param name="parameter">The parameter.</param>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.ICommand.Target">
+            <summary>
+            Gets or sets the target.
+            </summary>
+            <value>The target.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.ICommand.CanExecute">
+            <summary>
+            Gets a value indicating whether this instance can execute.
+            </summary>
+            <value>
+            	<c>true</c> if this instance can execute; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="E:FarPoint.Web.Spread.Design4.ICommand.TargetChanged">
+            <summary>
+            Occurs when Target changed.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.Command">
+            <summary>
+            Command
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Command.OnTargetChanged">
+            <summary>
+            Called when Target changed.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Command.Execute(System.Object[])">
+            <summary>
+            Executes the command with specified parameter.
+            </summary>
+            <param name="parameter">The parameter.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Command.GetStatus(System.Object[])">
+            <summary>
+            Gets the status of Target by parameter.
+            </summary>
+            <param name="parameter">The parameter.</param>
+            <returns>The status.</returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Command.Target">
+            <summary>
+            Gets or sets the target.
+            </summary>
+            <value>The target.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Command.Root">
+            <summary>
+            Gets or sets the root.
+            </summary>
+            <value>The root.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Command.Tag">
+            <summary>
+            Gets or sets the tag.
+            </summary>
+            <value>The tag.</value>
+        </member>
+        <member name="E:FarPoint.Web.Spread.Design4.Command.TargetChanged">
+            <summary>
+            Occurs when Target changed.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Command.CanExecute">
+            <summary>
+            Gets a value indicating whether this instance can execute.
+            </summary>
+            <value>
+            	<c>true</c> if this instance can execute; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.ICommandManager">
+            <summary>
+            interface of command manager
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ICommandManager.Initialize">
+            <summary>
+            Initializes this instance.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ICommandManager.NotifyTargetChange(System.String)">
+            <summary>
+            Notifies the target change to command specified by node path.
+            </summary>
+            <param name="cmdNodePath">The node path.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ICommandManager.GetCommand(System.String)">
+            <summary>
+            Gets the command specified by node path.
+            </summary>
+            <param name="cmdNodePath">The node path.</param>
+            <returns>The command.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ICommandManager.Execute(System.String,System.Object[])">
+            <summary>
+            Executes the command specified by node path.
+            </summary>
+            <param name="cmdNodePath">The node path.</param>
+            <param name="parameter">The parameter.</param>
+        </member>
+        <member name="E:FarPoint.Web.Spread.Design4.ICommandManager.CommandTargetChanged">
+            <summary>
+            Occurs when target of command which notify the change to manager changed.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.CommandManager">
+            <summary>
+            command manager
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CommandManager.Initialize">
+            <summary>
+            Initializes this instance.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CommandManager.NotifyTargetChange(System.String)">
+            <summary>
+            Notifies the target change to command specified by node path.
+            </summary>
+            <param name="cmdNodePath">The node path.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CommandManager.GetCommand(System.String)">
+            <summary>
+            Gets the command specified by node path.
+            </summary>
+            <param name="cmdNodePath">The node path.</param>
+            <returns>The command.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CommandManager.Execute(System.String,System.Object[])">
+            <summary>
+            Executes the command specified by node path.
+            </summary>
+            <param name="cmdNodePath">The node path.</param>
+            <param name="parameter">The parameter.</param>
+        </member>
+        <member name="E:FarPoint.Web.Spread.Design4.CommandManager.CommandTargetChanged">
+            <summary>
+            Occurs when target of command which notify the change to manager changed.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.CommandAttribute">
+            <summary>
+            Attribute for generate commands automatically
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpSpreadUpdateCommand.Execute(System.Object[])">
+            <summary>
+            Executes the command with specified parameter.
+            </summary>
+            <param name="parameter">[update flags]</param>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.StyleWrapper">
+            <summary>
+            Genrenal wrapper for setting style of (C)ell, co(L)umn, (R)ow and (S)tyleInfo
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleWrapper.#ctor(System.Object)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.StyleWrapper"/> class.
+            </summary>
+            <param name="styleObject">The style object.</param>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.CellType">
+            <summary>
+            Gets or sets the CellType of CLRS
+            </summary>
+            <value>The CellType.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.BackColor">
+            <summary>
+            Gets or sets the back color of CLRS.
+            </summary>
+            <value>The back color.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.ForeColor">
+            <summary>
+            Gets or sets the fore color of CLRS.
+            </summary>
+            <value>The fore color.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.Font">
+            <summary>
+            Gets or sets the Font of CLRS.
+            </summary>
+            <value>The Font.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.HorizontalAlign">
+            <summary>
+            Gets or sets the horizontal alignment of CLRS.
+            </summary>
+            <value>The horizontal alignment.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.VerticalAlign">
+            <summary>
+            Gets or sets the vertical alignment of CLRS.
+            </summary>
+            <value>The vertical alignment.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.Border">
+            <summary>
+            Gets or sets the border of CLRS.
+            </summary>
+            <value>The border.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.Background">
+            <summary>
+            Gets or sets the background of CLRS.
+            </summary>
+            <value>The background.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.Margin">
+            <summary>
+            Gets or sets the margin of CLRS.
+            </summary>
+            <value>The margin.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.Locked">
+            <summary>
+            Gets or sets a value indicating whether CLRS is locked.
+            </summary>
+            <value><c>true</c> if locked; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.TabStop">
+            <summary>
+            Gets or sets a value indicating whether CLRS has tab stop.
+            </summary>
+            <value><c>true</c> if has tab stop; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.ParentStyleName">
+            <summary>
+            Gets or sets the name of the parent style of CLR.
+            </summary>
+            <value>The name of the parent style.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleWrapper.StyleName">
+            <summary>
+            Gets or sets the name of the style of CLR.
+            </summary>
+            <value>The name of the style.</value>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.StyleCommand">
+            <summary>
+            Genrenal command for setting style of Cell, Column and Row
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleCommand.Execute(System.Object[])">
+            <summary>
+            Executes the command with specified parameter.
+            </summary>
+            <param name="parameter">Command name, [parameter]</param>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.CreateSparklineForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CreateSparklineForm.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.CreateSparklineForm"/> class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CreateSparklineForm.SetDataRange(FarPoint.Web.Spread.Model.CellRange)">
+            <summary>
+            Sets the data range.
+            </summary>
+            <param name="selectionRange">The selection range.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CreateSparklineForm.SetLocationRange(FarPoint.Web.Spread.Model.CellRange)">
+            <summary>
+            Sets the location range.
+            </summary>
+            <param name="locationRange">The location range.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CreateSparklineForm.GetDataRange">
+            <summary>
+            Gets the data range.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CreateSparklineForm.GetLocationRange">
+            <summary>
+            Gets the location range.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CreateSparklineForm.IsDataChanged">
+            <summary>
+            Determines whether [is data changed].
+            </summary>
+            <returns>
+              <c>true</c> if [is data changed]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CreateSparklineForm.GetFormula(FarPoint.Web.Spread.Model.CellRange[],System.Boolean,System.Boolean,FarPoint.Web.Spread.SheetView)">
+            <summary>
+            Gets the formula.
+            </summary>
+            <param name="cellRanges">The cell ranges.</param>
+            <param name="fromModel">if set to <c>true</c> [from model].</param>
+            <param name="formulaAsRelative">if set to <c>true</c> [formula as relative].</param>
+            <param name="excludeSheetView">The exclude sheet view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CreateSparklineForm.GetFormula(FarPoint.Web.Spread.Model.CellRange[],System.Boolean,System.Boolean,System.Boolean,FarPoint.Web.Spread.SheetView)">
+            <summary>
+            Gets the formula.
+            </summary>
+            <param name="cellRanges">The cell ranges.</param>
+            <param name="fromModel">if set to <c>true</c> [from model].</param>
+            <param name="rowAsRelative">if set to <c>true</c> [row as relative].</param>
+            <param name="columnAsRelative">if set to <c>true</c> [column as relative].</param>
+            <param name="excludeSheetView">The exclude sheet view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CreateSparklineForm.GetFormula(FarPoint.Web.Spread.Model.CellRange[],System.Boolean,System.Boolean,System.Boolean,FarPoint.Web.Spread.SheetView,FarPoint.Web.Spread.SheetView)">
+            <summary>
+            Gets the formula.
+            </summary>
+            <param name="cellRanges">The cell ranges.</param>
+            <param name="fromModel">if set to <c>true</c> [from model].</param>
+            <param name="rowAsRelative">if set to <c>true</c> [row as relative].</param>
+            <param name="columnAsRelative">if set to <c>true</c> [column as relative].</param>
+            <param name="excludeSheetView">The exclude sheet view.</param>
+            <param name="referSheet">The refer sheet.</param>
+            <returns></returns>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.CreateSparklineForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CreateSparklineForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.CreateSparklineForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.CreateSparklineForm.SparklineSelectDataMode">
+            <summary>
+            form modes of SparklineSelectDataForm
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.ICustomProtocolHandler">
+            <summary>
+            Handle custom protocol
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.ICustomProtocolHandler.CreateRequest(System.Uri,System.String,System.String,System.Byte[])">
+            <summary>
+            Creates a WebRequest object to request the resource specified by url.
+            </summary>
+            <param name="uri">The url.</param>
+            <param name="verb">The verb.</param>
+            <param name="header">The header.</param>
+            <param name="data">The data.</param>
+            <returns></returns>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.FpDesignProtocolHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignProtocolHandler.Register(System.String,FarPoint.Web.Spread.Design4.ICustomProtocolHandler)">
+            <summary>
+            Registers the specified protocol.
+            </summary>
+            <param name="protocol">The protocol.</param>
+            <param name="handler">The handler.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignProtocolHandler.Unregister(System.String)">
+            <summary>
+            Unregisters the specified protocol.
+            </summary>
+            <param name="protocol">The protocol.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignProtocolHandler.GetHandler(System.String)">
+            <summary>
+            Gets the custom protocol handler.
+            </summary>
+            <param name="protocol">The protocol prefix.</param>
+            <returns>The handler.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignProtocolHandler.TrimToCustomProtocol(System.String)">
+            <summary>
+            Trims the absolute url to custom protocol. (fpdesign:page:stub.htm to page:stub.htm)
+            </summary>
+            <param name="url">The absolute url.</param>
+            <returns>The custom protocol uri.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignProtocolHandler.GetCustomProtocolHandler(System.String)">
+            <summary>
+            Gets the custom protocol handler from absolute url.
+            </summary>
+            <param name="url">The absolute url.</param>
+            <returns>The custom protocol handler</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignProtocolRequest.InitializeLifetimeService">
+            <summary>
+            Obtains a lifetime service object to control the lifetime policy for this instance.
+            </summary>
+            <returns>
+            An object of type <see cref="T:System.Runtime.Remoting.Lifetime.ILease"/> used to control the lifetime policy for this instance. This is the current lifetime service object for this instance if one exists; otherwise, a new lifetime service object initialized to the value of the <see cref="P:System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseManagerPollTime"/> property.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignProtocolRequest.GetHttpNegotiate(FarPoint.Web.Spread.Design4.NativeMethods.IInternetProtocolSink)">
+            <summary>
+            Gets the HTTP negotiate from protocol sink.
+            </summary>
+            <param name="sink">The IInternetProtocolSink.</param>
+            <returns>The IHttpNegotiate.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignProtocolRequest.GetVerb(FarPoint.Web.Spread.Design4.NativeMethods.BINDINFO)">
+            <summary>
+            Gets the verb of request.
+            </summary>
+            <param name="bindInfo">The bind info.</param>
+            <returns>The verb. (GET, POST, PUT etc.)</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignProtocolRequest.GetHeaders(System.String,FarPoint.Web.Spread.Design4.NativeMethods.IHttpNegotiate)">
+            <summary>
+            Gets the headers of request.
+            </summary>
+            <param name="url">The url.</param>
+            <param name="negotiate">The http negotiate.</param>
+            <returns>The headers string.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignProtocolRequest.GetPostData(FarPoint.Web.Spread.Design4.NativeMethods.BINDINFO)">
+            <summary>
+            Gets the post data of request from bind info.
+            </summary>
+            <param name="bindInfo">The bind info.</param>
+            <returns>The post data.</returns>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.DesignerAttribute">
+            <summary>
+            Attribute for generate designers automatically
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.Designer">
+            <summary>
+            Designer
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.IDesigner">
+            <summary>
+            Designer interface
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IDesigner.Load(System.Web.UI.Page,System.Windows.Forms.HtmlDocument)">
+            <summary>
+            Loads the designer into document which rendered from specified page.
+            </summary>
+            <param name="page">The page.</param>
+            <param name="document">The document.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IDesigner.Unload">
+            <summary>
+            Unloads the designer.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IDesigner.PrepareCommands(System.Windows.Forms.HtmlElement)">
+            <summary>
+            Prepare commands from specified html element.
+            </summary>
+            <param name="elt">The html element.</param>
+            <returns>The commands.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IDesigner.PrepareAllCommands">
+            <summary>
+            Prepare all commands from root
+            </summary>
+            <returns>The commands</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Designer.CreateCommandCollection">
+            <summary>
+            Creates the command collection.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Designer.PrepareCommands(System.Windows.Forms.HtmlElement)">
+            <summary>
+            Prepare commands from specified html element.
+            </summary>
+            <param name="elt">The html element.</param>
+            <returns>The commands.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Designer.PrepareAllCommands">
+            <summary>
+            Prepare commands for all html elements
+            </summary>
+            <returns>The commands</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Designer.Load(System.Web.UI.Page,System.Windows.Forms.HtmlDocument)">
+            <summary>
+            Loads the designer into document which rendered from specified page.
+            </summary>
+            <param name="page">The page.</param>
+            <param name="document">The document.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Designer.Unload">
+            <summary>
+            Unloads the designer.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Designer.Commands">
+            <summary>
+            Gets the supported commands.
+            </summary>
+            <value>The commands.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Designer.Root">
+            <summary>
+            Gets or sets the root.
+            </summary>
+            <value>The root.</value>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.ButtonCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.ButtonCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.ButtonCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.CheckBoxCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.CheckBoxCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.CheckBoxCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.ColorPicker1.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.ColorPicker1.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.ColorPicker1.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.ComboBoxCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.ComboBoxCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.ComboBoxCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.MiniForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.MiniForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.MiniForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.CurrencyCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.CurrencyCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.CurrencyCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.DateTimeCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.DateTimeCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.DateTimeCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.DateTimeFormatEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.DateTimeFormatEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.DateTimeFormatEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.DoubleCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.DoubleCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.DoubleCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.EmptyCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.EmptyCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.EmptyCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.FormulaEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.FormulaEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.FormulaEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.GeneralCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.GeneralCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.GeneralCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.HyperLinkCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.HyperLinkCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.HyperLinkCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.ImageCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.ImageCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.ImageCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.InputBox.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.InputBox.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.InputBox.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.IntegerCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.IntegerCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.IntegerCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.LabelCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.LabelCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.LabelCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.ListBoxCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.ListBoxCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.ListBoxCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.MultiColumnComboBoxCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.MultiColumnComboBoxCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.MultiColumnComboBoxCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.NumberFormatEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.NumberFormatEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.NumberFormatEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.PercentCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.PercentCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.PercentCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.RadioButtonListCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.RadioButtonListCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.RadioButtonListCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.RegExpCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.RegExpCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.RegExpCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.StyleEditorControl">
+            <summary>
+            Base class for all style editor control
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.IStyleEditorControl">
+            <summary>
+            Interface for supporting style edit
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IStyleEditorControl.OnPreInit">
+            <summary>
+            Called when [pre init].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IStyleEditorControl.OnCompareStyle(FarPoint.Web.Spread.Design4.StyleWrapper)">
+            <summary>
+            Called when [compare style].
+            </summary>
+            <param name="style">The style.</param>
+            <returns><c>true</c> if comparison done, otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IStyleEditorControl.OnInit">
+            <summary>
+            Called when [init].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IStyleEditorControl.OnApply">
+            <summary>
+            Called when [apply].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IStyleEditorControl.OnValidate">
+            <summary>
+            Called when [validate].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.IStyleEditorControl.Style">
+            <summary>
+            Gets or sets the style.
+            </summary>
+            <value>The style.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.IStyleEditorControl.Root">
+            <summary>
+            Gets or sets the root.
+            </summary>
+            <value>The root.</value>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditorControl.OnCompareStyle(FarPoint.Web.Spread.Design4.StyleWrapper)">
+            <summary>
+            Called when [compare style].
+            </summary>
+            <param name="style">The style.</param>
+            <returns>
+            	<c>true</c> if comparison done, otherwise <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditorControl.OnApply">
+            <summary>
+            Called when [apply].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditorControl.OnInit">
+            <summary>
+            Called when [init].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditorControl.OnValidate">
+            <summary>
+            Called when [validate].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditorControl.FarPoint#Web#Spread#Design4#IStyleEditorControl#OnApply">
+            <summary>
+            Called when [apply].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditorControl.FarPoint#Web#Spread#Design4#IStyleEditorControl#OnInit">
+            <summary>
+            Called when [init].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditorControl.FarPoint#Web#Spread#Design4#IStyleEditorControl#OnValidate">
+            <summary>
+            Called when [validate].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditorControl.FarPoint#Web#Spread#Design4#IStyleEditorControl#OnCompareStyle(FarPoint.Web.Spread.Design4.StyleWrapper)">
+            <summary>
+            Called when [compare style].
+            </summary>
+            <param name="style">The style.</param>
+            <returns>
+            	<c>true</c> if comparison done, otherwise <c>false</c>.
+            </returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleEditorControl.Style">
+            <summary>
+            Gets or sets the style.
+            </summary>
+            <value>The style.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleEditorControl.Root">
+            <summary>
+            Gets or sets the root.
+            </summary>
+            <value>The root.</value>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.StyleAlignment.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleAlignment.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleAlignment.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleBorder.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.Editor.StyleBorder"/> class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleBorder.SetClientBorder(System.String,FarPoint.Web.Spread.Design4.Editor.BorderSide,System.Boolean)">
+            <summary>
+            Sets the client border.
+            </summary>
+            <param name="sides">The sides. null or empty to set the current style of client side.</param>
+            <param name="border">The border.</param>
+            <param name="force">if set to <c>true</c> [force].</param>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.StyleBorder.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleBorder.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleBorder.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Editor.StyleBorder.Current">
+            <summary>
+            Gets the current border settings.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.Editor.BorderSide">
+            <summary>
+            A border side setting.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.BorderSide.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.Editor.BorderSide"/> class.
+            </summary>
+            <param name="styleString">The style string like "solid 1px red".</param>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.Editor.BorderWrapper">
+            <summary>
+            Wrapper for wrapper operations on borders.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.BorderWrapper.SetBorder(FarPoint.Web.Spread.Design4.Editor.BorderSide[])">
+            <summary>
+            Sets the border from 4 BorderSide.
+            </summary>
+            <param name="sides">The 4 border sides.</param>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.Editor.BorderClientObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.BorderClientObject.OnSetBorder(System.String,System.String)">
+            <summary>
+            Called when [set border].
+            </summary>
+            <param name="side">The side.</param>
+            <param name="style">The style.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.BorderClientObject.OnStyleChanged(System.String)">
+            <summary>
+            Called when [style changed].
+            </summary>
+            <param name="borderStyle">The border style.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleCellType.OnInit">
+            <summary>
+            Called when [init].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleCellType.OnApply">
+            <summary>
+            Called when [apply].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.StyleCellType.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleCellType.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleCellType.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.StyleFill.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleFill.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleFill.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.IPageFactory">
+            <summary>
+            interface for create page for server
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IPageFactory.CreatePage">
+            <summary>
+            Creates the page.
+            </summary>
+            <returns>The page.</returns>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.StyleFont.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleFont.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleFont.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.StyleMisc.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleMisc.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.StyleMisc.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.TagCloudCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.TagCloudCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.TagCloudCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.TextCellTypeEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.TextCellTypeEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.TextCellTypeEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Editor.UnitEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.UnitEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.UnitEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Editor.UnitEditor.FallbackValue">
+            <summary>
+            Gets or sets the fallback value. Use this value if unit editor contains an invalid value.
+            </summary>
+            <value>The fallback value.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Editor.UnitEditor.Value">
+            <summary>
+            Gets the value.
+            </summary>
+            <value>The value.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Editor.UnitEditor.IncludeValue">
+            <summary>
+            Gets or sets the include values. These values will appear in value ComboBox.
+            </summary>
+            <value>The include values.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.Editor.UnitEditor.ExcludeUnit">
+            <summary>
+            Gets or sets the exclude units. These units will be removed from unit ComboBox.
+            </summary>
+            <value>The exclude units.</value>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Editor.UnitEx.TryParseUnit(System.String,System.Web.UI.WebControls.Unit@)">
+            <summary>
+            TryParse unit. copy from framework to reduce exception.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="result">The result.</param>
+            <returns></returns>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.FpWebBrowser">
+            <summary>
+            The embedded web browser for designer
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.FpWebBrowser.FpWebBrowserEventHelper">
+            <summary>
+            Helper class for event sink
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.FpWebBrowser.FpWebBrowserSite">
+            <summary>
+            The site of embedded ActiveX WebBrowser
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.WebBrowserBeforeNavigate2EventArgs.Cancel">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:FarPoint.Web.Spread.Design4.WebBrowserBeforeNavigate2EventArgs"/> is cancel.
+            </summary>
+            <value><c>true</c> if cancel; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.WebBrowserBeforeNavigate2EventArgs.Flags">
+            <summary>
+            Gets or sets the flags.
+            </summary>
+            <value>The flags.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.WebBrowserBeforeNavigate2EventArgs.Headers">
+            <summary>
+            Gets or sets the headers.
+            </summary>
+            <value>The headers.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.WebBrowserBeforeNavigate2EventArgs.PostData">
+            <summary>
+            Gets or sets the post data.
+            </summary>
+            <value>The post data.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.WebBrowserBeforeNavigate2EventArgs.TargetFrameName">
+            <summary>
+            Gets or sets the name of the target frame.
+            </summary>
+            <value>The name of the target frame.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.WebBrowserBeforeNavigate2EventArgs.Url">
+            <summary>
+            Gets or sets the URL.
+            </summary>
+            <value>The URL.</value>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.HeaderDesignForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.HeaderDesignForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.HeaderDesignForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.MiniDesigner.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MiniDesigner.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MiniDesigner.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.MiniDesigner.RowIndex">
+            <summary>
+            Gets or sets the index of the row.
+            </summary>
+            <value>The index of the row.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.MiniDesigner.ColIndex">
+            <summary>
+            Gets or sets the index of the col.
+            </summary>
+            <value>The index of the col.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.MiniDesigner.RowCount">
+            <summary>
+            Gets or sets the row count.
+            </summary>
+            <value>The row count.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.MiniDesigner.ColCount">
+            <summary>
+            Gets or sets the col count.
+            </summary>
+            <value>The col count.</value>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IServer.Start">
+            <summary>
+            Start the server.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IServer.Stop">
+            <summary>
+            Stop the server.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebServer.Start">
+            <summary>
+            Start the server.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebServer.Stop">
+            <summary>
+            Stop the server.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebServer.FarPoint#Web#Spread#Design4#ICustomProtocolHandler#CreateRequest(System.Uri,System.String,System.String,System.Byte[])">
+            <summary>
+            Creates a WebRequest object to request the resource specified by url.
+            </summary>
+            <param name="url">The url.</param>
+            <param name="verb">The verb.</param>
+            <param name="header">The header.</param>
+            <param name="data">The data.</param>
+            <returns>The WebRequest.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebServer.RegisterPageFactory(System.String,FarPoint.Web.Spread.Design4.IPageFactory)">
+            <summary>
+            Registers the page factory.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="factory">The page factory.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebServer.UnRegisterPageFactory(System.String)">
+            <summary>
+            Unregisters page factory.
+            </summary>
+            <param name="name">The name.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebServer.GetPageFactory(System.String)">
+            <summary>
+            Gets the page factory.
+            </summary>
+            <param name="name">The name.</param>
+            <returns>The page factory.</returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebServer.Instance">
+            <summary>
+            Gets the instance of server.
+            </summary>
+            <value>The instance.</value>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.IStatusSupport">
+            <summary>
+            interface for support status information of WebResponse
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.FpDesignWebRequestFactory">
+            <summary>
+            Factory to create FpDesignWebRequest
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequestFactory.System#Net#IWebRequestCreate#Create(System.Uri)">
+            <summary>
+            Creates the WebRequest from specified url.
+            </summary>
+            <param name="url">The url.</param>
+            <returns>The WebRequest</returns>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.FpDesignWebRequest">
+            <summary>
+            FpDesign WebRequest
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.#ctor(System.Uri)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.FpDesignWebRequest"/> class.
+            </summary>
+            <param name="url">The URL.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.CreateRequestHeaders">
+            <summary>
+            Creates the headers.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.GetRequestStream">
+            <summary>
+            When overridden in a descendant class, returns a <see cref="T:System.IO.Stream"/> for writing data to the Internet resource.
+            </summary>
+            <returns>
+            A <see cref="T:System.IO.Stream"/> for writing data to the Internet resource.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.GetResponse">
+            <summary>
+            When overridden in a descendant class, returns a response to an Internet request.
+            </summary>
+            <returns>
+            A <see cref="T:System.Net.WebResponse"/> containing the response to the Internet request.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.GetResourceResponse(System.Boolean)">
+            <summary>
+            Gets the resource response.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.GetPageResponse">
+            <summary>
+            Gets the page response.
+            </summary>
+            <returns>The response.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.GetChartResponse">
+            <summary>
+            Gets the Chart prsponse
+            </summary>
+            <returns>The response.</returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebRequest.Server">
+            <summary>
+            Gets or sets the server.
+            </summary>
+            <value>The server.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebRequest.Method">
+            <summary>
+            When overridden in a descendant class, gets or sets the protocol method to use in this request.
+            </summary>
+            <value></value>
+            <returns>The protocol method to use in this request.</returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebRequest.RequestUri">
+            <summary>
+            When overridden in a descendant class, gets the URI of the Internet resource associated with the request.
+            </summary>
+            <value></value>
+            <returns>A <see cref="T:System.Uri"/> representing the resource associated with the request </returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebRequest.Headers">
+            <summary>
+            When overridden in a descendant class, gets or sets the collection of header name/value pairs associated with the request.
+            </summary>
+            <value></value>
+            <returns>A <see cref="T:System.Net.WebHeaderCollection"/> containing the header name/value pairs associated with this request.</returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebRequest.ContentLength">
+            <summary>
+            When overridden in a descendant class, gets or sets the content length of the request data being sent.
+            </summary>
+            <value></value>
+            <returns>The number of bytes of request data being sent.</returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebRequest.ContentType">
+            <summary>
+            When overridden in a descendant class, gets or sets the content type of the request data being sent.
+            </summary>
+            <value></value>
+            <returns>The content type of the request data.</returns>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest">
+            <summary>
+            Custom HttpWorkerRequest
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.#ctor(FarPoint.Web.Spread.Design4.FpDesignWebRequest,FarPoint.Web.Spread.Design4.FpDesignWebResponse)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest"/> class.
+            </summary>
+            <param name="request">The request.</param>
+            <param name="response">The response.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.EndOfRequest">
+            <summary>
+            Used by the runtime to notify the <see cref="T:System.Web.HttpWorkerRequest"/> that request processing for the current request is complete.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.FlushResponse(System.Boolean)">
+            <summary>
+            Sends all pending response data to the client.
+            </summary>
+            <param name="finalFlush">true if this is the last time response data will be flushed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetHttpVerbName">
+            <summary>
+            Returns the specified member of the request header.
+            </summary>
+            <returns>
+            The HTTP verb returned in the request header.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetHttpVersion">
+            <summary>
+            Provides access to the HTTP version of the request (for example, "HTTP/1.1").
+            </summary>
+            <returns>
+            The HTTP version returned in the request header.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetKnownRequestHeader(System.Int32)">
+            <summary>
+            Returns the standard HTTP request header that corresponds to the specified index.
+            </summary>
+            <param name="index">The index of the header. For example, the <see cref="F:System.Web.HttpWorkerRequest.HeaderAllow"/> field.</param>
+            <returns>The HTTP request header.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetUnknownRequestHeaders">
+            <summary>
+            Get all nonstandard HTTP header name-value pairs.
+            </summary>
+            <returns>An array of header name-value pairs.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetLocalAddress">
+            <summary>
+            Provides access to the specified member of the request header.
+            </summary>
+            <returns>
+            The server IP address returned in the request header.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetLocalPort">
+            <summary>
+            Provides access to the specified member of the request header.
+            </summary>
+            <returns>
+            The server port number returned in the request header.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetPreloadedEntityBody">
+            <summary>
+            Returns the portion of the HTTP request body that has already been read.
+            </summary>
+            <returns>
+            The portion of the HTTP request body that has been read.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetQueryString">
+            <summary>
+            Returns the query string specified in the request URL.
+            </summary>
+            <returns>The request query string.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetRawUrl">
+            <summary>
+            Returns the URL path contained in the request header with the query string appended.
+            </summary>
+            <returns>The raw URL path of the request header.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetRemoteAddress">
+            <summary>
+            Provides access to the specified member of the request header.
+            </summary>
+            <returns>The client's IP address.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetRemotePort">
+            <summary>
+            Provides access to the specified member of the request header.
+            </summary>
+            <returns>The client's HTTP port number.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.GetUriPath">
+            <summary>
+            Returns the virtual path to the requested URI.
+            </summary>
+            <returns>The path to the requested URI.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.SendKnownResponseHeader(System.Int32,System.String)">
+            <summary>
+            Adds a standard HTTP header to the response.
+            </summary>
+            <param name="index">The header index. For example, <see cref="F:System.Web.HttpWorkerRequest.HeaderContentLength"/>.</param>
+            <param name="value">The value of the header.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.SendUnknownResponseHeader(System.String,System.String)">
+            <summary>
+            Adds a nonstandard HTTP header to the response.
+            </summary>
+            <param name="name">The name of the header to send.</param>
+            <param name="value">The value of the header.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.SendResponseFromFile(System.IntPtr,System.Int64,System.Int64)">
+            <summary>
+            Adds the contents of the specified file to the response and specifies the starting position in the file and the number of bytes to send.
+            </summary>
+            <param name="handle">The handle of the file to send.</param>
+            <param name="offset">The starting position in the file.</param>
+            <param name="length">The number of bytes to send.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.SendResponseFromFile(System.String,System.Int64,System.Int64)">
+            <summary>
+            Adds the contents of the specified file to the response and specifies the starting position in the file and the number of bytes to send.
+            </summary>
+            <param name="filename">The name of the file to send.</param>
+            <param name="offset">The starting position in the file.</param>
+            <param name="length">The number of bytes to send.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.SendResponseFromMemory(System.Byte[],System.Int32)">
+            <summary>
+            Adds the specified number of bytes from a byte array to the response.
+            </summary>
+            <param name="data">The byte array to send.</param>
+            <param name="length">The number of bytes to send, starting at the first byte.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebRequest.FpHttpWorkerRequest.SendStatus(System.Int32,System.String)">
+            <summary>
+            Specifies the HTTP status code and status description of the response, such as SendStatus(200, "Ok").
+            </summary>
+            <param name="statusCode">The status code to send</param>
+            <param name="statusDescription">The status description to send.</param>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.FpDesignWebResponse">
+            <summary>
+            FpDesign WebResponse
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebResponse.#ctor(System.Uri)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.FpDesignWebResponse"/> class.
+            </summary>
+            <param name="url">The url.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebResponse.GetResponseStream">
+            <summary>
+            When overridden in a descendant class, returns the data stream from the Internet resource.
+            </summary>
+            <returns>
+            An instance of the <see cref="T:System.IO.Stream"/> class for reading data from the Internet resource.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.FpDesignWebResponse.CreateResponseHeaders">
+            <summary>
+            Creates the headers.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebResponse.StatusCode">
+            <summary>
+            Gets or sets the status code.
+            </summary>
+            <value>The status code.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebResponse.StatusDescription">
+            <summary>
+            Gets or sets the status description.
+            </summary>
+            <value>The status description.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebResponse.ResponseUri">
+            <summary>
+            When overridden in a derived class, gets the URI of the Internet resource that actually responded to the request.
+            </summary>
+            <value></value>
+            <returns>An instance of the <see cref="T:System.Uri"/> class that contains the URI of the Internet resource that actually responded to the request.</returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebResponse.ContentLength">
+            <summary>
+            When overridden in a descendant class, gets or sets the content length of data being received.
+            </summary>
+            <value></value>
+            <returns>The number of bytes returned from the Internet resource.</returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebResponse.ContentType">
+            <summary>
+            When overridden in a derived class, gets or sets the content type of the data being received.
+            </summary>
+            <value></value>
+            <returns>A string that contains the content type of the response.</returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.FpDesignWebResponse.Headers">
+            <summary>
+            When overridden in a derived class, gets a collection of header name-value pairs associated with this request.
+            </summary>
+            <value></value>
+            <returns>An instance of the <see cref="T:System.Net.WebHeaderCollection"/> class that contains header values associated with this response.</returns>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.MoveCopySheetEditor">
+            <summary>
+             Move Copy sheet in designer.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveCopySheetEditor.#ctor(FarPoint.Web.Spread.Design4.Node)">
+            <summary>
+            create an instance of this editor from web-base designer.
+            </summary>
+            <param name="root"></param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveCopySheetEditor.#ctor(FarPoint.Web.Spread.Design.SpreadDesigner,FarPoint.Web.Spread.FpSpread)">
+            <summary>
+            create an instance of this editor form IDE.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveCopySheetEditor.MoveCopySheet(FarPoint.Web.Spread.FpSpread,System.Int32,System.Int32,System.String)">
+            <summary>
+            Move or copy sheet in the sheets
+            </summary>
+            <param name="spread">The Fpspread will copy or move sheet in the web designer.</param>
+            <param name="sourceIndex">The index of SheetView that will be copied or moved.</param>
+            <param name="positionIndex">The position index of SheetView that will be copied or moved.</param>
+            <param name="action">The type of action, "move" or "copy".</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveCopySheetEditor.SetSheetNameForCopiedSheet(FarPoint.Web.Spread.FpSpread,FarPoint.Web.Spread.SheetView,System.String)">
+            <summary>
+            Sets the name for the SheetView that has been copied.
+            </summary>
+            <param name="spread">The Fpspread will copy sheet in the web designer.</param>
+            <param name="sv">The SheetView that will be copied.</param>
+            <param name="baseSheetName">The orignal name of SheetView.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveCopySheetEditor.GetSheetIndexBySheetName(FarPoint.Web.Spread.FpSpread,System.String)">
+            <summary>
+             Gets the index of SheetView by SheetName in the FpSpread.
+            </summary>
+            <param name="spread">The Fpspread will copy or move sheet in the web designer.</param>
+            <param name="sheetName">The SheetName of SheetView.</param>
+            <returns>int: The index of SheetView.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveCopySheetEditor.CopyExtendProperties(FarPoint.Web.Spread.FpSpread,FarPoint.Web.Spread.SheetView,FarPoint.Web.Spread.SheetView)">
+            <summary>
+            Copy the extend properties
+            </summary>
+            <param name="spread">The spread.</param>
+            <param name="original">the original sheet view.</param>
+            <param name="target">the target sheet view.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveCopySheetEditor.SubmitMoveOrCopyResult">
+            <summary>
+            Submits the move or copy result to Web base designer.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.MoveCopySheetEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveCopySheetEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.MoveCopySheetEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.RowTemplateEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.RowTemplateEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.RowTemplateEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.DesignSheetTemplate.ColumnCount">
+            <summary>
+            Gets or sets the number of columns for the layout template.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.DesignSheetTemplate.Row">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.DesignSheetTemplate.ColumnHeader">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.DesignLayoutTemplate.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.DesignLayoutTemplate.RowCount">
+            <summary>
+            Gets or sets the number of rows for the layout template.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.SheetSkinEditor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SheetSkinEditor.#ctor(FarPoint.Web.Spread.Design.SpreadDesigner,FarPoint.Web.Spread.FpSpread)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.SheetSkinEditor"/> class.
+            </summary>
+            <param name="designer">The designer.</param>
+            <param name="spread">The spread.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SheetSkinEditor.OnLoad(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Form.Load"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SheetSkinEditor.SkinCustomPreview">
+            <summary>
+            Update the custom preview when a change is made.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SheetSkinEditor.IsContainsCustomNames(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="skinName"></param>
+            <returns></returns>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.SheetSkinEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SheetSkinEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SheetSkinEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.SheetViewSettings.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SheetViewSettings.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SheetViewSettings.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.SparklineAxisValueOption">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SparklineAxisValueOption.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.SparklineAxisValueOption"/> class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SparklineAxisValueOption.#ctor(System.Boolean,FarPoint.Web.Spread.ExcelSparklineSetting)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.SparklineAxisValueOption"/> class.
+            </summary>
+            <param name="isMaximum">if set to <c>true</c> [is maximum].</param>
+            <param name="setting">The setting.</param>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.SparklineAxisValueOption.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SparklineAxisValueOption.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SparklineAxisValueOption.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.SparklineAxisValueOption.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.SparklineWeight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SparklineWeight.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.SparklineWeight"/> class.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.SparklineWeight.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SparklineWeight.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SparklineWeight.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.SparklineWeight.btnCancel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.SparklineWeight.btnOk">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.SparklineWeight.LineWeight">
+            <summary>
+            Gets or sets the line weight.
+            </summary>
+            <value>
+            The line weight.
+            </value>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.SpreadSettings.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SpreadSettings.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.SpreadSettings.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.StartupForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StartupForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StartupForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.StyleEditor">
+            <summary>
+            The style editor like Excel
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditor.#ctor">
+            <summary> 
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.StyleEditor"/> class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditor.OnInit">
+            <summary>
+            Called when [init].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditor.OnApply">
+            <summary>
+            Called when [apply].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditor.OnValidate">
+            <summary>
+            Called when [validate].
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditor.InitTabPage">
+            <summary>
+            Initializes the tab page.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.StyleEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleEditor.Style">
+            <summary>
+            Gets or sets the style.
+            </summary>
+            <value>The style.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleEditor.Root">
+            <summary>
+            Gets or sets the root.
+            </summary>
+            <value>The root.</value>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.StyleEditorAttribute">
+            <summary>
+            Attribute for generate style editors automatically
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleEditorAttribute.#ctor(System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.StyleEditorAttribute"/> class.
+            </summary>
+            <param name="name">The name.</param>
+            <param name="index">The index.</param>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleEditorAttribute.Name">
+            <summary>
+            Gets the name.
+            </summary>
+            <value>The name.</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.StyleEditorAttribute.Index">
+            <summary>
+            Gets the index.
+            </summary>
+            <value>The index.</value>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.StyleManForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleManForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.StyleManForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.WebBasedDesigner.Initialize">
+            <summary>
+            Initializes this instance.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.WebBasedDesigner.Browser_Navigating(System.Object,System.Windows.Forms.WebBrowserNavigatingEventArgs)">
+            <summary>
+            Handles the Navigating event of the Browser control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.WebBrowserNavigatingEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.WebBasedDesigner.Browser_DocumentCompleted(System.Object,System.Windows.Forms.WebBrowserDocumentCompletedEventArgs)">
+            <summary>
+            Handles the DocumentCompleted event of the Browser control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.WebBrowserDocumentCompletedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.PropertyFilter">
+            <summary>
+            class for create property filter 
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.CreateTypeDescriptor(System.Type,System.Object)">
+            <summary>
+            Creates the type descriptor.
+            </summary>
+            <param name="objectType">Type of the object.</param>
+            <param name="instance">The instance.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.GetTypeDescriptor(System.Type,System.Object)">
+            <summary>
+            Gets a custom type descriptor for the given type and object.
+            </summary>
+            <param name="objectType">The type of object for which to retrieve the type descriptor.</param>
+            <param name="instance">An instance of the type. Can be null if no instance was passed to the <see cref="T:System.ComponentModel.TypeDescriptor"/>.</param>
+            <returns>
+            An <see cref="T:System.ComponentModel.ICustomTypeDescriptor"/> that can provide metadata for the type.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.AddFilter(System.Type,System.String[])">
+            <summary>
+            Adds the property filter. Remove the filtered property from PropertyGrid
+            </summary>
+            <param name="type">The type of property's owner.</param>
+            <param name="filter">The property names.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.SetShadow(System.Type,System.String[])">
+            <summary>
+            Sets the shadow property.
+            </summary>
+            <param name="type">The type of property's owner.</param>
+            <param name="shadows">The property names.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.CopyShadow(System.Object,System.Object)">
+            <summary>
+            Copy shadow properties.
+            </summary>
+            <param name="original">The original object</param>
+            <param name="target">The target object</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.AddAttributeFilter(System.Type,System.String,System.String[])">
+            <summary>
+            Adds the attribute filter.
+            </summary>
+            <param name="type">The type of property's owner.</param>
+            <param name="propertyName">Name of the property.</param>
+            <param name="filter">The attribute filters.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.SetPropertyIcon(System.Type,System.String,System.Drawing.Image,System.String)">
+            <summary>
+            Adds the property tooltip.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="propertyName">Name of the property.</param>
+            <param name="icon">The icon.</param>
+            <param name="tooltip">The tooltip.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.ApplyShadows">
+            <summary>
+            Applies the shadow properties to their owner.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.Load">
+            <summary>
+            Loads all property filters.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.Unload">
+            <summary>
+            Unloads all filters.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.Clear">
+            <summary>
+            Clears all filters.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.PropertyFilter.SpreadTypeComparer">
+            <summary>
+            Support mapping custom types to base Spread types
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.PropertyFilter.FpDesignTypeDescriptor">
+            <summary>
+            Custom type descriptor for property filters.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.FpDesignTypeDescriptor.#ctor(System.Type,System.Object,FarPoint.Web.Spread.Design4.PropertyFilter.TypeFilterInfo)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.PropertyFilter.FpDesignTypeDescriptor"/> class.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="instance">The instance.</param>
+            <param name="filter">The filter info.</param>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.PropertyFilter.FpDesignPropertyDescriptor">
+            <summary>
+            custom property property descriptor for property filter
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.PropertyFilter.ShadowPropertyInfo">
+            <summary>
+            shadow property
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.ShadowPropertyInfo.CreateRelation(System.Object,System.Object)">
+            <summary>
+            Creates the relation between src object and dest object. When apply shadows, it will use dest object as
+            owner of the shadow property.
+            </summary>
+            <param name="src">The source object.</param>
+            <param name="dest">The destination object.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.ShadowPropertyInfo.RemoveRelation(System.Object)">
+            <summary>
+            Removes the relation on obj.
+            </summary>
+            <param name="obj">The obj.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.ShadowPropertyInfo.GetValue(System.Object,System.String)">
+            <summary>
+            Gets the value of shadow property.
+            </summary>
+            <param name="obj">The obj.</param>
+            <param name="propertyName">Name of the property.</param>
+            <returns>The value.</returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.PropertyFilter.ShadowPropertyInfo.SetValue(System.Object,System.String,System.Object)">
+            <summary>
+            Sets the value of shadow property.
+            </summary>
+            <param name="obj">The obj.</param>
+            <param name="propertyName">Name of the property.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.PropertyFilter.ShadowPropertyInfo.ShadowObjectInfo">
+            <summary>
+            shadow properties, store an instance and property values of it.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Util.GetDefinedFunctions">
+            <summary>
+            Gets the defined function names.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.IntellisenseInfo">
+            <summary>
+            Represents the function description information.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IntellisenseInfo.#ctor(System.String)">
+            <summary>
+            Creates a new function description information object with the specified name.
+            </summary>
+            <param name="name">Name</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IntellisenseInfo.#ctor(FarPoint.CalcEngine.FunctionInfo,System.String)">
+            <summary>
+            Creates a new function description information object.
+            </summary>
+            <param name="func">Function</param>
+            <param name="desc">Description</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IntellisenseInfo.#ctor(FarPoint.CalcEngine.FunctionInfo,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.IntellisenseInfo"/> class.
+            </summary>
+            <param name="func">The func.</param>
+            <param name="desc">The desc.</param>
+            <param name="cate">The cate.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IntellisenseInfo.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"></see> is equal to the current <see cref="T:System.Object"></see>.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"></see> to compare with the current <see cref="T:System.Object"></see></param>
+            <returns>
+            true if the specified <see cref="T:System.Object"></see> is equal to the current <see cref="T:System.Object"></see>; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IntellisenseInfo.GetHashCode">
+            <summary>
+            Serves as a hash function for a particular type. <see cref="M:System.Object.GetHashCode"></see> is suitable for use in hashing algorithms and data structures like a hash table.
+            </summary>
+            <returns>
+            A hash code for the current <see cref="T:System.Object"></see>.
+            </returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.IntellisenseInfo.IsFunction">
+            <summary>
+            Gets whether this instance is a function.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is function; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.IntellisenseInfo.IsDefinedFunction">
+            <summary>
+            Gets whether this instance is defined function.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is defined function; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.IntellisenseInfo.Name">
+            <summary>
+            Gets the name.
+            </summary>
+            <value>Name</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.IntellisenseInfo.Function">
+            <summary>
+            Gets the function.
+            </summary>
+            <value>Function</value>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.IntellisenseInfo.Description">
+            <summary>
+            Gets the description.
+            </summary>
+            <value>Description</value>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.IntellisenseCollection">
+            <summary>
+            Represents the collection of function description information.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IntellisenseCollection.FindAll(System.String)">
+            <summary>
+            Finds all.
+            </summary>
+            <param name="word">Word to find</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IntellisenseCollection.Find(System.String)">
+            <summary>
+            Finds the specified name.
+            </summary>
+            <param name="name">Name to find</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.IntellisenseCollection.AddRange(System.Collections.Specialized.StringCollection)">
+            <summary>
+            Adds the range.
+            </summary>
+            <param name="stringCollection">String collection</param>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.IntellisenseCollection.Item(System.Int32)">
+            <summary>
+            Gets or sets the <see cref="T:FarPoint.Web.Spread.Design4.IntellisenseInfo"/> at the specified index.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Wizard.StepBase.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.StepBase.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.StepBase.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Wizard.FpAjaxConfig.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpAjaxConfig.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpAjaxConfig.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Wizard.FpBarsConfig.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpBarsConfig.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpBarsConfig.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Wizard.FpColumnConfig.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpColumnConfig.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpColumnConfig.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpDataSourceConfig.ApplytoSpread">
+            <summary>
+            Set the Data Binding to Spread
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpDataSourceConfig.OnActive">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpDataSourceConfig.ResetControls">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpDataSourceConfig.InitControls">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpDataSourceConfig.InitDataBind">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Wizard.FpDataSourceConfig.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpDataSourceConfig.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpDataSourceConfig.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpOperationModeConfig.InitControls">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Wizard.FpOperationModeConfig.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpOperationModeConfig.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpOperationModeConfig.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Wizard.FpSkinConfig.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpSkinConfig.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpSkinConfig.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Wizard.FpTitleBarsConfig.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpTitleBarsConfig.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.FpTitleBarsConfig.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.Wizard.WizardView">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.WizardView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.Wizard.WizardView"/> class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.WizardView.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            </summary>
+            <param name="e">A <see cref="T:System.Windows.Forms.PaintEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.Wizard.WizardView.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.WizardView.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.Wizard.WizardView.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Web.Spread.Design4.DesignerForm">
+            <summary>
+            
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.DesignerForm.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Web.Spread.Design4.DesignerForm"/> class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.DesignerForm.AttachSpread(System.Web.UI.Design.ControlDesigner,System.ComponentModel.IComponent)">
+            <summary>
+            Attaches the spread.
+            </summary>
+            <param name="designer">The designer.</param>
+            <param name="component">The component.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.DesignerForm.RunDesigner(System.Web.UI.Design.ControlDesigner,System.ComponentModel.IComponent)">
+            <summary>
+            Runs the designer.
+            </summary>
+            <param name="designer">The designer.</param>
+            <param name="component">The component.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.DesignerForm.OnActivated(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Form.Activated"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.DesignerForm.OnShown(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Form.Shown"/> event.
+            </summary>
+            <param name="e">A <see cref="T:System.EventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.DesignerForm.OnLoad(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Form.Load"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.DesignerForm.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Form.FormClosing"/> event.
+            </summary>
+            <param name="e">A <see cref="T:System.Windows.Forms.FormClosingEventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="F:FarPoint.Web.Spread.Design4.DesignerForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.DesignerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.DesignerForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Web.Spread.Design4.DesignerHelper.ConvertToInch(System.Double,System.Drawing.GraphicsUnit,FarPoint.Web.Spread.Design4.DirectionUnit)">
+            <summary>
+            Converts the double-precision value in one unit of measure to inches
+            with the specified direction.
+            </summary>
+            <param name="value"><b>Double</b> of the value to be converted</param>
+            <param name="unit"><see cref="T:System.Drawing.GraphicsUnit"/> indicating the original unit of measure</param>
+            <param name="direction">Integer indicating the directions in coordinates. 
+              Valid drirection values are 
+            	1 PaintHelper.HorizontalDirection, 
+            	2 PaintHelper.VerticalDirection,
+            	3 PaintHelper.IgnoredDirection.
+            </param>
+            <returns><b>Double</b> of the converted value in inches</returns>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.DesignerHelper.DpiX">
+            <summary>
+            Gets the resolution (DPI) in the horizontal direction.
+            </summary>
+        </member>
+        <member name="P:FarPoint.Web.Spread.Design4.DesignerHelper.DpiY">
+            <summary>
+            Gets the resolution (DPI) in the vertical direction.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsProjectManagerBillOfLading, BopsDataAccess" table="[Project Manager BOL]" lazy="false">
+    <id name="BolId" column="[PMBOLID]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="PmdoRef" column="[PMDO ref]"/>
+    <property name="Bol1" column="[PMBOL1]"/>
+    <property name="Bol2" column="[PMBOL2]"/>
+    <property name="Bol3" column="[PMBOL3]"/>
+    <property name="Bol4" column="[PMBOL4]"/>
+    <property name="Bol5" column="[PMBOL5]"/>
+    <property name="Count" column="[PMBOL Count]"/>
+    <property name="Weight" column="[PMBOL Weight]"/>
+    <property name="WeightUnit" column="[PMBOL Wt Unit]"/>
+    <property name="ClientNumber" column="[PMBOL Client Number]"/>
+    <property name="Description" column="[DR Description]"/>
+    <property name="LoadCount" column="[Load Ct]"/>
+    <property name="DestinationRef" column="[Destination ref]"/>
+    <property name="Destination" column="[Destination]"/>
+    <property name="ReceiverRef" column="[Receiver ref]"/>
+    <property name="Receiver" column="[Receiver]"/>
+  </class>
+</hibernate-mapping>

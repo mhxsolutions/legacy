@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="~/default.aspx" title="Home">
+    <siteMapNode  title="Administration" roles="Administrators">
+		<siteMapNode url="~/Administration/AddUser.aspx" title="Add User" roles="Administrators" />
+		<siteMapNode url="~/Administration/ManageUsers.aspx" title="Manage Users" roles="Administrators" />
+    </siteMapNode>
+    <siteMapNode url="~/Power Users/Default.aspx?" title="Power Users" roles="Administrators,Power Users">
+      <siteMapNode url="~/Power Users/ImpersonateClient.aspx" title="Impersonate Client" description="view site as any registered client" roles="Administrators,Power Users" />
+      <siteMapNode url="~/Clients/All/Stock_In_Quar.aspx" title="Stock Currently in Quarantine" />
+      <siteMapNode url="~/Clients/Assigned/Quarantine On Date.aspx" title="Stock in Quarantine on Date" />
+      <siteMapNode url="~/Clients/Assigned/Quarantine_on_Date_Range.aspx" title="Stock in Quarantine on Date Range" />
+      <siteMapNode url="~/Clients/All/LocationUpdate.aspx" title="Stock Location Update" description="Live Production Date" />
+      <siteMapNode url="~/Clients/Assigned/Yard_Utilization.aspx" title="Yard Utilization" description="all locations and stock" />
+    </siteMapNode>
+    <siteMapNode url="~/Power Users/Default.aspx?1" title="Power Users - Audits" roles="Administrators,Power Users">
+      <siteMapNode url="~/Clients/Assigned/Audit_Location_Hist_to_Item_Detail.aspx" title="Audit Location Hist to Item Detail" />
+      <siteMapNode url="~/Clients/Assigned/Audits.aspx" title="Audit Office Processes" />
+      <siteMapNode url="~/Clients/Assigned/LocationHistory.aspx" title="Location Changes" />
+      <siteMapNode url="~/clients/assigned/adjustments.aspx" title="Stock Adjustments" />
+    </siteMapNode>
+    <siteMapNode url="~/Power Users/Default.aspx?2" title="Power Users - Test Pages" roles="Administrators,Power Users">
+      <siteMapNode url="~/Clients/All/KPI_Inbound.aspx" title="KPI Inbound/Outbound" />
+      <siteMapNode url="~/Clients/Assigned/QAQC_Entry.aspx" title="QA/QC" description="Add QA/QC Inspection Data" />
+      <siteMapNode url="~/Clients/Assigned/Physical Inventory Counts.aspx" title="Physical Inventory" />
+    </siteMapNode>
+    <siteMapNode url="~/Clients/All/default.aspx?" title="Inbound Material">
+      <siteMapNode url="~/Clients/All/InventoryPending.aspx" title="Inventory Pending " description="inventory prending locked receiver" />
+      <siteMapNode url="~/Clients/All/Receiving History.aspx" title="Receiving History" description="List of Receivers by truck or rail car" />
+      <siteMapNode url="~/Clients/All/receivinghistoryitemdetail.aspx" title="Receiving History Item Detail" description="List of Item Detail for Receivers by truck or rail car" />
+    </siteMapNode>
+    <siteMapNode url="~/Clients/All/default.aspx?4" title="KPI's - Metrics">
+      <siteMapNode url="~/Clients/All/InboundDetail.aspx" title="Inbound Detail Status" description="NODs Sch - Arrived - Docs - Received - Issue Details" />
+      <siteMapNode url="~/Clients/All/PartsCatalog.aspx" title="Master Parts List - for Tablet" description="list of current catalog for reference on mobile device" />
+      <siteMapNode url="~/Clients/All/inbound trucks scheduled.aspx" title="Scheduled Inbound Truck Count" description="count of NOD's" />
+      <siteMapNode url="~/Clients/All/trucksarrived.aspx" title="Trucks Arrived" description="count of trucks arrived" />
+      <siteMapNode url="~/Clients/All/truckschrecd.aspx" title="Trucks Scheduled vs. Received" description="NOD's scheduled and Trucks arrived" />
+    </siteMapNode>
+    <siteMapNode url="~/Clients/All/default.aspx?1" title="Outbound Material">
+      <siteMapNode url="~/Clients/All/inventory_reserved.aspx" title="Inventory Committed - Summary" description="stock on BOLs but not yet delivered" />
+      <siteMapNode url="~/Clients/All/inventorydelivered.aspx" title="Inventory Shipped - Summary" description="stock Shipped showing confirmed deliveries" />
+      <siteMapNode url="~/Clients/All/allloads.aspx" title="Load List by BOL" description="list of bills of lading" />
+      <siteMapNode url="~/Clients/All/planned load count review.aspx" title="Planned Load Count" description="Loads on TMS Planner (GPS and Signature)" />
+      <siteMapNode url="~/Clients/All/scheduled loads.aspx" title="Scheduled Load Count" description="all loads by request date (includes Planner loads)" />
+    </siteMapNode>
+    <siteMapNode url="~/Clients/All/rail.aspx" title="Rail Cars" description="history of rail cars" />
+    <siteMapNode url="~/Clients/All/default.aspx?3" title="Stock On Hand">
+      <siteMapNode url="~/Clients/All/catalog master.aspx" title="Catalog Items" description="master catalog with back reference to remapped parts" />
+      <siteMapNode url="~/Clients/All/inventory_items.aspx" title="Inventory - Item Detail" />
+      <siteMapNode url="~/Clients/All/Invnetory_Sums.aspx" title="Inventory - Net Totals" />
+      <siteMapNode url="~/Clients/All/inventory_summary.aspx" title="Inventory - Summary" />
+    </siteMapNode>
+    <siteMapNode url="~/Clients/All/default.aspx?5" title="KPI - Scope of Work">
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?1" title="I.i.1. Days Since Incident" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?2" title="I.i.2. DART Rate" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?3" title="II.i.1. Trucks Scheduled" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?4" title="II.i.2. Trucks Received" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?5" title="II.i.3. Loads Rejected" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?6" title="II.i.4. Goods Received" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?7" title="II.i.5.a. QA/QC 5-10 Bus Days" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?8" title="II.i.5.b. NCR in QDR - 24 Hours" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?9" title="II.i.5.c. QDR Disp - 48 Hours" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?10" title="II.i.6.	Items Put Away" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?11" title="II.i.7. Unscheduled/Urgent Loads" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?12" title="III.i. Parts Scheduled" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?13" title="III.ii. Parts Picked" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?14" title="III.iii. Truckloads Loaded/Dispatched" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?31" title="III.iv. Truckloads Returned" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?15" title="III.iv.1.a Returned - Damaged" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?16" title="III.iv.1.b Returned - Incorrect Part" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?17" title="III.iv.2. Overstock" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?18" title="IV.i. Stock On Hand" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?19" title="IV.ii.1.a. A/B/C Counted" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?20" title="IV.ii.1.b.ii. A/B/C - Overstock" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?21" title="IV.ii.1.b.iii. A/B/C - Missing Stock" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?22" title="IV.ii.1.b.iv. A/B/C - Unable to Identify" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?23" title="IV.ii.1.b.v. A/B/C - Incorrect Part" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?24" title="V.i.1. Hours Worked By Project" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?25" title="V.i.2. Hours Worked By Employee" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?26" title="V.i.3. Standard/Overtime" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?27" title="V.i.4. Roster Changes" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?28" title="V.ii.1. Equipment Utilization" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?29" title="V.ii.2. Equipment Down Time" />
+      <siteMapNode url="~/Clients/All/ComingSoon.aspx?30" title="V.ii.3. Equipment Type Changes" />
+    </siteMapNode>
+    <siteMapNode url="~/Clients/Assigned/Default.aspx" title="My Custom Reports" />
+    <siteMapNode url="~/ChangePassword.aspx" title="Change Password" />
+    <siteMapNode url="~/Authentication/Logout.aspx" title="Logout" />
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.CopsReport, BopsDataAccess" table="[Cops Reports]" lazy="false">
+    <id name="ReportId" column="[Report ID]">
+      <generator class="identity"/>
+    </id>
+    <property name="Title" column="[Title]" />
+    <property name="Url" column="[URL]" />
+    <property name="PubliclyVisible" column="[Publicly Visible]" />
+  </class>
+</hibernate-mapping>

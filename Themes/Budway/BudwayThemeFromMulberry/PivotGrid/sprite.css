@@ -1,0 +1,274 @@
+.dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_BudwayThemeFromMulberry,
+.dxPivotGrid_CTNAttribute,
+.dxPivotGrid_CTNCalculatedMeasure,
+.dxPivotGrid_CTNDimension,
+.dxPivotGrid_CTNFolderClosed,
+.dxPivotGrid_CTNFolderOpen,
+.dxPivotGrid_CTNHierarchy,
+.dxPivotGrid_CTNKpi,
+.dxPivotGrid_CTNMeasure,
+.dxPivotGrid_FLBottomPanelOnly1by4_BudwayThemeFromMulberry,
+.dxPivotGrid_FLBottomPanelOnly2by2_BudwayThemeFromMulberry,
+.dxPivotGrid_FLButton_BudwayThemeFromMulberry,
+.dxPivotGrid_FLColumnAreaHeaders_BudwayThemeFromMulberry,
+.dxPivotGrid_FLDataAreaHeaders_BudwayThemeFromMulberry,
+.dxPivotGrid_FLFieldList_BudwayThemeFromMulberry,
+.dxPivotGrid_FLFilterAreaHeaders_BudwayThemeFromMulberry,
+.dxPivotGrid_FLRowAreaHeaders_BudwayThemeFromMulberry,
+.dxPivotGrid_FLStackedDefault_BudwayThemeFromMulberry,
+.dxPivotGrid_FLStackedSideBySide_BudwayThemeFromMulberry,
+.dxPivotGrid_FLTopPanelOnly_BudwayThemeFromMulberry,
+.dxPivotGrid_pgCollapsedButton_BudwayThemeFromMulberry,
+.dxPivotGrid_pgCustomizationFormCloseButton_BudwayThemeFromMulberry,
+.dxPivotGrid_pgDataHeaders_BudwayThemeFromMulberry,
+.dxPivotGrid_pgDragArrowDown_BudwayThemeFromMulberry,
+.dxPivotGrid_pgDragArrowLeft_BudwayThemeFromMulberry,
+.dxPivotGrid_pgDragArrowRight_BudwayThemeFromMulberry,
+.dxPivotGrid_pgDragArrowUp_BudwayThemeFromMulberry,
+.dxPivotGrid_pgDragHideField_BudwayThemeFromMulberry,
+.dxPivotGrid_pgExpandedButton_BudwayThemeFromMulberry,
+.dxPivotGrid_pgFilterButton_BudwayThemeFromMulberry,
+.dxPivotGrid_pgFilterButtonActive_BudwayThemeFromMulberry,
+.dxPivotGrid_pgFilterResizer_BudwayThemeFromMulberry,
+.dxPivotGrid_pgGroupSeparator_BudwayThemeFromMulberry,
+.dxPivotGrid_pgPrefilterButton_BudwayThemeFromMulberry,
+.dxPivotGrid_pgSortByColumn_BudwayThemeFromMulberry,
+.dxPivotGrid_pgSortDownButton_BudwayThemeFromMulberry,
+.dxPivotGrid_pgSortUpButton_BudwayThemeFromMulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxpc-closeBtnHover .dxPivotGrid_pgCustomizationFormCloseButton_BudwayThemeFromMulberry
+{
+    background-position: -208px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxPivotGrid_CTNAttribute
+{
+    background-position: -68px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNCalculatedMeasure
+{
+    background-position: -102px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNDimension
+{
+    background-position: -119px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderClosed
+{
+    background-position: -187px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNFolderOpen
+{
+    background-position: -153px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNHierarchy
+{
+    background-position: -51px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNKpi
+{
+    background-position: -247px 0px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_CTNMeasure
+{
+    background-position: -34px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLBottomPanelOnly1by4_BudwayThemeFromMulberry
+{
+    background-position: -66px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLBottomPanelOnly2by2_BudwayThemeFromMulberry
+{
+    background-position: 0px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLButton_BudwayThemeFromMulberry
+{
+    background-position: -204px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLColumnAreaHeaders_BudwayThemeFromMulberry
+{
+    background-position: -85px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLDataAreaHeaders_BudwayThemeFromMulberry
+{
+    background-position: -170px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFieldList_BudwayThemeFromMulberry
+{
+    background-position: -17px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLFilterAreaHeaders_BudwayThemeFromMulberry
+{
+    background-position: -136px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLRowAreaHeaders_BudwayThemeFromMulberry
+{
+    background-position: 0px -33px;
+    width: 16px;
+    height: 16px;
+}
+.dxPivotGrid_FLStackedDefault_BudwayThemeFromMulberry
+{
+    background-position: -99px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLStackedSideBySide_BudwayThemeFromMulberry
+{
+    background-position: -132px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_FLTopPanelOnly_BudwayThemeFromMulberry
+{
+    background-position: -33px 0px;
+    width: 32px;
+    height: 32px;
+}
+.dxPivotGrid_pgCollapsedButton_BudwayThemeFromMulberry
+{
+    background-position: -247px -17px;
+    width: 15px;
+    height: 15px;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_BudwayThemeFromMulberry
+{
+    background-position: -188px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxPivotGrid_pgDataHeaders_BudwayThemeFromMulberry
+{
+    background-position: -215px -20px;
+    width: 12px;
+    height: 12px;
+}
+.dxPivotGrid_pgDragArrowDown_BudwayThemeFromMulberry
+{
+    background-position: -171px -23px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragArrowLeft_BudwayThemeFromMulberry
+{
+    background-position: -205px -21px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowRight_BudwayThemeFromMulberry
+{
+    background-position: -195px -21px;
+    width: 9px;
+    height: 11px;
+}
+.dxPivotGrid_pgDragArrowUp_BudwayThemeFromMulberry
+{
+    background-position: -183px -23px;
+    width: 11px;
+    height: 9px;
+}
+.dxPivotGrid_pgDragHideField_BudwayThemeFromMulberry
+{
+    background-position: -165px 0px;
+    width: 22px;
+    height: 22px;
+}
+.dxPivotGrid_pgExpandedButton_BudwayThemeFromMulberry
+{
+    background-position: -263px -17px;
+    width: 15px;
+    height: 15px;
+}
+.dxPivotGrid_pgFilterButton_BudwayThemeFromMulberry
+{
+    background-position: -221px -33px;
+    width: 18px;
+    height: 13px;
+}
+.dxPivotGrid_pgFilterButtonActive_BudwayThemeFromMulberry
+{
+    background-position: -228px -19px;
+    width: 18px;
+    height: 13px;
+}
+.dxPivotGrid_pgFilterResizer_BudwayThemeFromMulberry
+{
+    background-position: -228px 0px;
+    width: 18px;
+    height: 18px;
+}
+.dxPivotGrid_pgGroupSeparator_BudwayThemeFromMulberry
+{
+    background-position: -165px -31px;
+    width: 5px;
+    height: 1px;
+}
+.dxPivotGrid_pgPrefilterButton_BudwayThemeFromMulberry
+{
+    background-position: -264px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxPivotGrid_pgSortByColumn_BudwayThemeFromMulberry
+{
+    background-position: -240px -33px;
+    width: 15px;
+    height: 14px;
+}
+.dxPivotGrid_pgSortDownButton_BudwayThemeFromMulberry
+{
+    background-position: -256px -33px;
+    width: 9px;
+    height: 13px;
+}
+.dxPivotGrid_pgSortUpButton_BudwayThemeFromMulberry
+{
+    background-position: -266px -33px;
+    width: 9px;
+    height: 13px;
+}
+.dxPivotGrid_pgFilterButtonActive_BudwayThemeFromMulberry
+{
+	background-color: #BF4E6A;
+}
+.dxPivotGrid_pgCustomizationFormCloseButton_BudwayThemeFromMulberry,
+.dxPivotGrid_FLButton_BudwayThemeFromMulberry
+{
+	display: block;
+}
+

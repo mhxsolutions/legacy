@@ -1,0 +1,4999 @@
+/* -- CheckBox -- */
+.dxICBFocused_BudwayDirectMarron
+{
+    outline: 1px dotted #d86f96;
+}
+.dxICheckBox_BudwayDirectMarron 
+{
+}
+/* -- ASPxCloudControl -- */
+.dxccControl_BudwayDirectMarron
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	color: #8A0A37;
+	background-color: #FFFFFF;
+}
+.dxccControl_BudwayDirectMarron a
+{
+	text-decoration: none;
+	color: #8A0A37;
+}
+.dxccControl_BudwayDirectMarron a:hover
+{
+	text-decoration: underline;
+}
+.dxccControl_BudwayDirectMarron .dxccValue
+{
+    color: #E18297;
+}
+.dxccControl_BudwayDirectMarron .dxccBEText
+{
+    color: #8A0A37;
+}
+/* Disabled */
+.dxccDisabled_BudwayDirectMarron,
+.dxccDisabled_BudwayDirectMarron span.dxccValue,
+.dxccDisabled_BudwayDirectMarron span.dxccBEText
+{
+	color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxDataView -- */
+.dxdvControl_BudwayDirectMarron
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #B5486D;
+}
+.dxdvControl_BudwayDirectMarron td.dxdvCtrl
+{
+	padding: 0px;
+}
+.dxdvContent_BudwayDirectMarron
+{
+	padding: 20px;
+	border-top: 1px Solid #BC758E;
+	border-bottom: 1px Solid #BC758E;
+}
+.dxdvItem_BudwayDirectMarron,
+.dxdvFlowItem_BudwayDirectMarron
+{
+	border: 1px Solid #D5D5D5;
+	background-color: #EBEBEB;
+	padding: 20px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvFlowItem_BudwayDirectMarron
+{
+	float: left;
+	overflow: hidden;
+}
+.dxdvFlowItemsContainer_BudwayDirectMarron
+{
+}
+.dxdvEmptyItem_BudwayDirectMarron
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 20px;
+	height: 180px;
+	height: expression("154px");
+}
+.dxdvPagerPanel_BudwayDirectMarron
+{
+	padding-top: 9px;
+	padding-bottom: 7px;
+	background-color: #F5ECF1;
+}
+.dxdvEmptyData_BudwayDirectMarron
+{
+	color: #E1ABBE;
+	padding: 12px 40px;
+}
+.dxdvPagerShowMoreItemsContainer_BudwayDirectMarron
+{
+    height: 60px;
+	text-align: center;
+}
+.dxdvPagerShowMoreItemsContainer_BudwayDirectMarron a
+{
+	display: block;
+	padding-top: 21px;
+	color: #8A0A37;
+}
+.dxdvPagerShowMoreItemsContainer_BudwayDirectMarron a:hover
+{
+	color: #BE458B;
+}
+/* Disabled */
+.dxdvDisabled_BudwayDirectMarron
+{
+	color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxHeadline -- */
+.dxhlControl_BudwayDirectMarron 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #000000;
+}
+.dxhlControl_BudwayDirectMarron a
+{
+	color: #8A0A37;
+}
+.dxhlControl_BudwayDirectMarron a:hover
+{
+	color: #BE458B;
+}
+.dxhlContent_BudwayDirectMarron
+{
+	line-height: 121%;
+} 
+.dxhlDate_BudwayDirectMarron
+{
+	color: #8A0A37;
+	white-space: nowrap;
+	font-size: 0.75em;
+}
+.dxhlHeader_BudwayDirectMarron
+{
+	color: #8A0A37;
+	font-weight: normal;
+	line-height: 121%;
+	font-size: 1.33em;
+}
+.dxhlDateHeader_BudwayDirectMarron
+{
+	font-size: 0.56em;
+	line-height: 121%;
+	color: #FFFFFF;
+	white-space: nowrap;
+	background-color: #8A0A37;
+	font-weight: normal;
+	padding: 3px 5px;
+
+    margin: 2px 5px 2px 0;
+    float: left;
+}
+.dxhlControl_BudwayDirectMarron[dir='rtl'] .dxhlDateHeader_BudwayDirectMarron
+{
+    margin: 2px 0 2px 5px;
+    float: right;
+}
+.dxhlLeftPanel_BudwayDirectMarron
+{
+	line-height: 121%;
+	text-align: right;
+}
+.dxhlRightPanel_BudwayDirectMarron
+{
+	line-height: 121%;
+}
+.dxhlLeftPanel_BudwayDirectMarron img,
+.dxhlRightPanel_BudwayDirectMarron img 
+{
+	margin-top: 5px;
+	border: 1px Solid #8A0A37!important;
+}
+.dxhlDateLeftPanel_BudwayDirectMarron,
+.dxhlDateRightPanel_BudwayDirectMarron
+{
+	color: #8A0A37;
+    padding: 4px 0 0;
+	white-space: nowrap;
+}
+.dxhlTailDiv_BudwayDirectMarron
+{
+	color: #8A0A37;
+}
+/* Disabled */
+.dxhlDisabled_BudwayDirectMarron
+{
+	color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxLoadingPanel -- */
+.dxlpLoadingPanel_BudwayDirectMarron,
+.dxlpLoadingPanelWithContent_BudwayDirectMarron
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: 1px solid #898989;
+}
+.dxlpLoadingPanel_BudwayDirectMarron td.dx,
+.dxlpLoadingPanelWithContent_BudwayDirectMarron td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxlpLoadingPanel_BudwayDirectMarron .dxlp-loadingImage,
+.dxlpLoadingPanelWithContent_BudwayDirectMarron .dxlp-loadingImage {
+	background-image: url('Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+.dxlpControl_BudwayDirectMarron.dxlpLoadingDiv_BudwayDirectMarron 
+{
+	background-color: white;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+
+/* -- ASPxMenu Lite -- */
+.dxmLite_BudwayDirectMarron
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxmLite_BudwayDirectMarron .dxm-main
+{
+	border: 1px Solid #66000;
+}
+
+.dxmLite_BudwayDirectMarron .dxm-horizontal
+{
+	background: #f38478 url('mItemBack.gif') repeat-x top;
+	padding: 1px;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical
+{
+	background-color: #e3b99f;
+	padding: 4px;
+	width: 150px;
+}
+
+.dxmLite_BudwayDirectMarron .dxm-popup
+{
+	border: 1px solid #660000;
+	background-color: #FFFFFF;
+	padding: 1px;
+}
+
+.dxmBrdCor_BudwayDirectMarron
+{
+	background-color: #FFFFFF;
+}
+
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popup .dxm-gutter
+{
+	background: url('mGutter.gif') repeat-y left top;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popup .dxm-gutter
+{
+	background: url('mGutterRtl.gif') repeat-y right top;
+}
+
+.dxmLite_BudwayDirectMarron .dxm-item
+{
+	cursor: default;
+    text-align: left;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-item
+{
+	text-align: right;
+}
+.dxmLite_BudwayDirectMarron .dxm-image-t .dxm-item,
+.dxmLite_BudwayDirectMarron .dxm-image-b .dxm-item
+{
+	text-align: center;
+}
+
+.dxmLite_BudwayDirectMarron .dxm-content
+{
+    display: block;
+	white-space: nowrap;
+}
+
+.dxmLite_BudwayDirectMarron .dxm-horizontal,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxeCaption_BudwayDirectMarron,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxeRequiredMark_BudwayDirectMarron,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxeOptionalMark_BudwayDirectMarron,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-item a.dx
+{
+	color: White;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-item a.dx,
+.dxmLite_BudwayDirectMarron .dxm-popup,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-item a.dx
+{
+	color: Black;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-disabled,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-disabled a.dx,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-disabled,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-disabled a.dx,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-disabled,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-disabled a.dx
+{
+	color: #cdb9bf;
+}
+.dxmLite_BudwayDirectMarron .dxm-item a.dx
+{
+	text-decoration: none;
+}
+
+/* Checked, Selected, Hovered */
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-item,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-item
+{
+	border-width: 1px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-image-l .dxm-popOut
+{
+	border-width: 0 0 0 1px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-image-r .dxm-popOut
+{
+	border-width: 0 1px 0 0;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-item,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-item,
+.dxmLite_BudwayDirectMarron .dxm-popOut
+{
+	border-color: transparent;
+	border-style: solid;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-checked,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-selected,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-hovered,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-dropDownMode.dxm-checked .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: #660000;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: #F5ECF1;
+}
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-selected,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-hovered
+{
+	border-color: #b25050;
+}
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-dropDownMode.dxm-selected .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-dropDownMode.dxm-hovered .dxm-popOut
+{
+	border-color: White;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-checked,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-selected,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-selected
+{
+	background: #CB4F7B url('mItemSBack.gif') repeat-x top;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-checked,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-selected
+{
+	background-color: #8a000f;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-hovered
+{
+	background: #D69BD3 url('mItemHBack.gif') repeat-x top;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-hovered,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-hovered
+{
+	background: #b25050 none;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-checked,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-checked a.dx,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-selected,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-selected a.dx,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-selected,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-selected a.dx
+{
+	color: White;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-hovered,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-hovered a.dx,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-hovered,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-hovered a.dx
+{
+    color: black;
+}
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-checked .dxm-image
+{	
+    border: 1px solid #cb4f7b;
+    outline: 1px solid #bb2e5e;
+    background-color: #cb4f7b;
+}
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-checked .dxm-image.dxWeb_mSubMenuItemChecked_BudwayDirectMarron
+{	
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Content */
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-l .dxm-content,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-r .dxm-content
+{
+	padding: 3px 9px 4px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 3px 22px 3px 21px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-content
+{
+	padding: 3px 21px 3px 22px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 4px 22px 4px 21px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 4px 21px 4px 22px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-right: 3px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-subMenu .dxm-content
+{
+	padding-left: 3px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-right: 10px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-content
+{
+	padding-left: 10px;
+}
+
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 5px 13px 6px 5px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-l .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-r .dxm-content
+{
+	padding: 5px 5px 6px 13px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 7px 16px 8px 13px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-t .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-b .dxm-content
+{
+	padding: 7px 13px 8px 16px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popup .dxm-content
+{
+	padding: 3px 17px 3px 6px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popup .dxm-content
+{
+	padding: 3px 6px 3px 17px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-r .dxm-noSubMenu .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-content
+{
+	padding-right: 5px;
+	padding-left: 15px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-l .dxm-noSubMenu .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-content
+{
+	padding-left: 5px;
+	padding-right: 15px;
+}
+
+/* Image */
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-l .dxm-hasText .dxm-image
+{
+	margin-right: 6px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-r .dxm-hasText .dxm-image
+{
+	margin-left: 6px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-t .dxm-hasText .dxm-image
+{
+	margin-bottom: 4px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-b .dxm-hasText .dxm-image
+{
+	margin-top: 4px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-l .dxm-image,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popup .dxm-image
+{
+	margin-right: 13px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-r .dxm-image,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popup .dxm-image
+{
+	margin-left: 13px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popup .dxm-checked .dxm-image
+{
+    margin: -1px 12px -1px -1px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popup .dxm-checked .dxm-image
+{
+    margin: -1px -1px -1px 12px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popup .dxm-image.dxWeb_mSubMenuItem_BudwayDirectMarron
+{
+    margin: 0px 14px 0px 1px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popup .dxm-image.dxWeb_mSubMenuItem_BudwayDirectMarron
+{
+    margin: 0px 1px 0px 14px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-r .dxm-image
+{
+	margin-left: 11px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-l .dxm-image
+{
+	margin-right: 11px;
+}
+
+/* Image replacement */
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-l .dxm-noImage,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popup .dxm-noImage
+{
+	padding-left: 29px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-r .dxm-noImage,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popup .dxm-noImage
+{
+	padding-right: 29px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-r .dxm-noImage
+{
+	padding-right: 27px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-l .dxm-noImage
+{
+	padding-left: 27px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-left: 3px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-t .dxm-noImage,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-b .dxm-noImage
+{
+	padding-right: 3px;
+}
+
+/* PopOut */
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-top: 4px;
+	padding-bottom: 6px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-top: 23px;
+	padding-bottom: 22px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-l .dxm-popOut
+{
+	padding-right: 9px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-r .dxm-popOut
+{
+	padding-left: 9px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-right: 16px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-horizontal .dxm-image-b .dxm-popOut
+{
+	padding-left: 16px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-image-l .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-image-r .dxm-popOut
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-image-t.dxm-noImages .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-image-t .dxm-noImage .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-image-b.dxm-noImages .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-image-b .dxm-noImage .dxm-popOut
+{
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-image-t .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-image-b .dxm-popOut
+{
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-l .dxm-subMenu .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-t .dxm-subMenu .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-b .dxm-subMenu .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popup .dxm-subMenu .dxm-popOut
+{
+	padding-right: 4px;
+	padding-left: 1px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-t .dxm-subMenu .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-b .dxm-subMenu .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popup .dxm-subMenu .dxm-popOut
+{
+	padding-left: 4px;
+	padding-right: 1px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-b .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popup .dxm-dropDownMode .dxm-popOut
+{
+	padding-right: 5px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-b .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popup .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 5px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-r .dxm-subMenu .dxm-popOut
+{
+	padding-left: 5px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-l .dxm-subMenu .dxm-popOut
+{
+	padding-right: 5px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-vertical .dxm-image-r .dxm-dropDownMode .dxm-popOut
+{
+	padding-left: 1px;
+	padding-right: 4px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-vertical .dxm-image-l .dxm-dropDownMode .dxm-popOut
+{
+	padding-right: 1px;
+	padding-left: 4px;
+}
+
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-popOut
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* PopOut replacement */
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popup .dxm-noSubMenu
+{
+	padding-right: 17px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popup .dxm-noSubMenu
+{
+	padding-left: 17px;
+}
+
+/* Spacings, Separator */
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-spacing
+{
+	width: 1px;
+    min-width: 1px;
+	height: 1px;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-spacing,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-spacing
+{
+	height: 1px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-separator
+{
+	padding: 5px 1px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-t.dxm-noImages .dxm-separator,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-b.dxm-noImages .dxm-separator
+{
+	padding: 2px 1px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-t .dxm-separator,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-b .dxm-separator
+{
+	padding: 9px 1px;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-separator,
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-separator
+{
+	padding: 1px 0;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-separator b
+{
+	width: 2px;
+    height: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-separator b
+{
+	height: 2px;
+}
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-separator b
+{
+	height: 1px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-separator b
+{
+	background: transparent url('mSeparator.gif') no-repeat center center;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-t .dxm-separator b,
+.dxmLite_BudwayDirectMarron .dxm-horizontal .dxm-image-b .dxm-separator b
+{
+	background: transparent url('mLargeSeparator.gif') no-repeat center center;
+}
+.dxmLite_BudwayDirectMarron .dxm-vertical .dxm-separator b
+{
+	background: #AAAAAA url('mVerticalSeparator.gif') repeat-x center center;
+}
+.dxmLite_BudwayDirectMarron .dxm-popup .dxm-separator b
+{
+	background-color: #C6C6C6;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxm-popup .dxm-gutter .dxm-separator
+{
+	padding-left: 38px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxm-popup .dxm-gutter .dxm-separator
+{
+	padding-right: 38px;
+}
+/* Scroll elements */
+.dxmLite_BudwayDirectMarron .dxm-scrollUpBtn, 
+.dxmLite_BudwayDirectMarron .dxm-scrollDownBtn
+{
+	border: 1px Solid #8a0a37;
+	background: #e15f8d url('mScrollBack.gif') repeat-x top;
+	padding: 2px;
+	text-align: center;
+}
+.dxmLite_BudwayDirectMarron .dxm-scrollUpBtn
+{
+	margin-bottom: 1px;
+}
+.dxmLite_BudwayDirectMarron .dxm-scrollDownBtn
+{
+	margin-top: 1px;
+}
+.dxmLite_BudwayDirectMarron .dxm-scrollBtnHovered
+{
+	background: #bd79b9 url('mScrollHBack.gif') repeat-x top;
+}
+.dxmLite_BudwayDirectMarron .dxm-scrollBtnPressed
+{
+	background: #783675 url('mScrollSBack.gif') repeat-x top;
+}
+.dxmLite_BudwayDirectMarron .dxm-scrollBtnHovered,
+.dxmLite_BudwayDirectMarron .dxm-scrollBtnPressed
+{
+	border: 1px Solid #6c2668;
+}
+.dxmLite_BudwayDirectMarron .dxm-scrollBtnDisabled
+{
+	cursor: default;
+}
+.dxmLite_BudwayDirectMarron .dxm-scrollArea
+{
+	overflow: hidden;
+	position: relative;
+}
+
+/* -- ASPxMenu Lite Toolbar mode -- */
+.dxmLite_BudwayDirectMarron .dxm-main.dxmtb  {
+	padding: 1px;
+}
+
+/* has image */
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-l .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-r .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-l .dxm-subMenu .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-r .dxm-subMenu .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-t .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-b .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-t .dxm-subMenu .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-b .dxm-subMenu .dxm-content 
+{
+	padding: 4px 5px 3px;
+}
+/* no image */
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-l .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-r .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-l.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-r.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-l .dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-r .dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-t .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-b .dxm-subMenu.dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-t.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-b.dxm-noImages .dxm-item .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-t .dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-b .dxm-noImage .dxm-content
+{
+	padding: 4px 5px 3px;
+}
+/* dd has image */
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-l .dxm-dropDownMode .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-r .dxm-dropDownMode .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-t .dxm-dropDownMode .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-b .dxm-dropDownMode .dxm-content 
+{
+	padding: 4px 5px 3px;
+}
+ 
+/* dd no image */
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-l .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-r .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-t .dxm-dropDownMode.dxm-noImage .dxm-content,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal  .dxm-image-b .dxm-dropDownMode.dxm-noImage .dxm-content 
+{
+	padding: 4px 5px 3px;
+}
+
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxmtb.dxm-popup .dxm-content
+{
+    padding-left: 6px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxmtb.dxm-popup .dxm-content
+{
+    padding-right: 6px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-t .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-b .dxm-popOut 
+{
+	padding: 7px 3px 5px 2px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-l .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode .dxm-popOut,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-popOut 
+{
+	padding: 7px 2px 5px 3px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxmtb.dxm-popup  .dxm-image 
+{
+	margin-right: 12px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxmtb.dxm-popup  .dxm-image 
+{
+	margin-left: 12px;
+}
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxmtb.dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-left: 28px;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxmtb.dxm-popup .dxm-gutter.dxm-noImages .dxm-item,
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxmtb.dxm-popup .dxm-noImage
+{
+	padding-right: 28px;
+}
+
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage 
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage 
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-t .dxm-dropDownMode.dxm-noImage 
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-image-b .dxm-dropDownMode.dxm-noImage 
+{
+	padding-left: 0;
+}
+.dxmLite_BudwayDirectMarron.dxm-rtl .dxmtb.dxm-horizontal .dxm-image-l .dxm-dropDownMode.dxm-noImage 
+.dxmLite_BudwayDirectMarron.dxm-ltr .dxmtb.dxm-horizontal .dxm-image-r .dxm-dropDownMode.dxm-noImage 
+{
+	padding-right: 0;
+}
+
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-spacing 
+{
+	width: 1px;
+}
+.dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 6px 1px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem 
+{
+    padding: 1px 1px;
+}
+.dxmLite_BudwayDirectMarron .dxm-horizontal.dxmtb .dxtb-labelMenuItem 
+{
+	padding: 6px 4px 0!important;
+}
+
+/* --- ASPxMenu Lite skins for XAF --- */
+.menuLinks_BudwayDirectMarron,
+.menuLinks_BudwayDirectMarron .dxm-item,
+.menuLinks_BudwayDirectMarron .dxm-hovered,
+.menuLinks_BudwayDirectMarron .dxm-disabled
+{
+    background: none !important;
+    border-style: none !important;
+}
+.menuLinks_BudwayDirectMarron .dxm-tmpl
+{
+    padding-top:1px!important;
+}
+.menuLinks_BudwayDirectMarron .dxm-popOut
+{
+    border-style: none !important;
+}
+
+.menuLinks_BudwayDirectMarron .dxm-item a.dx > span
+{
+    color: #8A0A37;
+    text-decoration: underline;
+}
+
+.menuLinks_BudwayDirectMarron .dxm-hovered a.dx > span
+{
+    color: #BE458B !important;
+    text-decoration: underline !important;
+}
+
+.menuButtons_BudwayDirectMarron,
+.menuButtons_BudwayDirectMarron .dxm-tmpl
+{
+    color: #FFFFFF;
+    background: none !important;
+}
+
+.menuButtons_BudwayDirectMarron .dxm-popOut
+{
+    padding: 4px 4px 4px !important;
+}
+
+.menuButtons_BudwayDirectMarron .dxm-content
+{
+    padding: 1px 8px 1px 8px !important;
+    height:17px!important;
+}
+
+.menuButtons_BudwayDirectMarron .dxm-item
+{
+	border: 1px solid #800000;
+	background: #e3b99f url('../Editors/edtButtonBack.gif') repeat-x top;
+}
+
+.menuButtons_BudwayDirectMarron .dxm-item.dxm-hovered
+{
+	background: #b25050 url('../Editors/edtButtonHoverBack.gif') repeat-x top;
+	border: 1px solid #800000;
+}
+
+.menuButtons_BudwayDirectMarron .dxm-item.dxm-tmpl
+{
+    border-color: transparent;
+}
+
+.menuButtons_BudwayDirectMarron .dxm-item.dxm-tmpl > *
+{
+    margin: -1px 0;
+}
+
+/* -- ASPxNavBar Lite -- */
+.dxnbLite_BudwayDirectMarron 
+{
+	color: #000000;
+	background-color: #F2F2F2;
+	font: 12px Tahoma, Geneva, sans-serif;
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 200px;
+}
+.dxnbLite_BudwayDirectMarron a
+{
+	color: #000000;
+	text-decoration: none;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-gr 
+{
+	margin: 1px 0;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-header,
+.dxnbLite_BudwayDirectMarron .dxnb-headerCollapsed 
+{
+	color: #FFFFFF;
+	background: #8a000f url('nbGroupHeaderBack.gif') repeat-x top;
+	border: 1px Solid #8A0A37;
+	margin: 0;
+	padding: 4px 4px 4px 8px;
+	white-space: nowrap;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-header a,
+.dxnbLite_BudwayDirectMarron .dxnb-headerCollapsed a
+{
+	color: white;
+	text-decoration: underline;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-content 
+{
+	background-color: #D5D5D5;
+	border-top: 0 solid #A9A9A9;
+	border-right: 1px solid #A9A9A9;
+	border-bottom: 1px solid #A9A9A9;
+	border-left: 1px solid #A9A9A9;
+	list-style: none none outside;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.dxnbLite_BudwayDirectMarron.dxnb-noHeads .dxnb-content
+{
+	border-top-width: 1px;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-item,
+.dxnbLite_BudwayDirectMarron .dxnb-large,
+.dxnbLite_BudwayDirectMarron .dxnb-bullet
+{
+	color: #000000;
+	background-color: #F2F2F2;
+	border: 1px Solid #F2F2F2;
+	clear: both;
+	overflow: hidden;
+	cursor: default;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-item a,
+.dxnbLite_BudwayDirectMarron .dxnb-large a,
+.dxnbLite_BudwayDirectMarron .dxnb-bullet a
+{
+	color: #000000;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-item,
+.dxnbLite_BudwayDirectMarron .dxnb-large,
+.dxnbLite_BudwayDirectMarron .dxnb-tmpl
+{
+	margin-bottom: 1px;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-item.dxnb-link,
+.dxnbLite_BudwayDirectMarron .dxnb-item .dxnb-link,
+.dxnbLite_BudwayDirectMarron .dxnb-large.dxnb-link,
+.dxnbLite_BudwayDirectMarron .dxnb-large .dxnb-link
+{
+	padding: 6px 15px;
+    white-space: nowrap;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-bullet,
+.dxnbLite_BudwayDirectMarron .dxnb-bulletHover,
+.dxnbLite_BudwayDirectMarron .dxnb-bulletSelected 
+{
+	padding: 2px 5px;
+	overflow: visible;
+	margin-bottom: 1px;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-itemSelected,
+.dxnbLite_BudwayDirectMarron .dxnb-largeSelected
+{
+	background-color: #b25050;
+	color: #FFFFFF;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-itemSelected a,
+.dxnbLite_BudwayDirectMarron .dxnb-largeSelected a
+{
+	color: #FFFFFF;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-itemHover,
+.dxnbLite_BudwayDirectMarron .dxnb-largeHover
+{
+	background-color: #fef3ec;
+	color: #000000;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-header,
+.dxnbLite_BudwayDirectMarron .dxnb-headerCollapsed, 
+.dxnbLite_BudwayDirectMarron .dxnb-item,
+.dxnbLite_BudwayDirectMarron .dxnb-itemHover,
+.dxnbLite_BudwayDirectMarron .dxnb-itemSelected,
+.dxnbLite_BudwayDirectMarron .dxnb-bullet,
+.dxnbLite_BudwayDirectMarron .dxnb-bulletHover,
+.dxnbLite_BudwayDirectMarron .dxnb-bulletSelected
+{
+	text-align: left;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-large,
+.dxnbLite_BudwayDirectMarron .dxnb-largeHover,
+.dxnbLite_BudwayDirectMarron .dxnb-largeSelected
+{
+	text-align: center;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-headerHover
+{
+}
+.dxnbLite_BudwayDirectMarron .dxnb-headerCollapsedHover
+{
+}
+.dxnbLite_BudwayDirectMarron .dxnb-last
+{
+	margin-bottom: 0;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-btn,
+.dxnbLite_BudwayDirectMarron .dxnb-btnLeft,
+.dxnbLite_BudwayDirectMarron .dxnb-img
+{
+	border-width: 0;
+}
+
+.dxnbLite_BudwayDirectMarron .dxnb-btn
+{
+	float: right;
+	margin: 0 0 0 10px;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-btnLeft,
+.dxnbLite_BudwayDirectMarron .dxnb-rtlHeader .dxnb-btn 
+{
+	float: left;
+	margin: 0 10px 0 0;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-img
+{
+	margin: 0 10px 0 0;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-right .dxnb-item .dxnb-img,
+.dxnbLite_BudwayDirectMarron .dxnb-rtlHeader .dxnb-img
+{
+	margin: 0 0 0 10px;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-header.dxnb-header-left,
+.dxnbLite_BudwayDirectMarron .dxnb-headerCollapsed.dxnb-header-left,
+.dxnbLite_BudwayDirectMarron .dxnb-rtlHeader
+{
+	text-align: right;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-top .dxnb-large .dxnb-img
+{
+	margin-bottom: 10px;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-bottom .dxnb-large .dxnb-img
+{
+	margin-top: 10px;
+}
+.dxnbLite_BudwayDirectMarron .dxnb-large .dxnb-img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dxnbLiteDisabled_BudwayDirectMarron,
+.dxnbLite_BudwayDirectMarron .dxnbLiteDisabled_BudwayDirectMarron,
+.dxnbLiteDisabled_BudwayDirectMarron a,
+.dxnbLiteDisabled_BudwayDirectMarron .dxnb-item,
+.dxnbLiteDisabled_BudwayDirectMarron .dxnb-large,
+.dxnbLiteDisabled_BudwayDirectMarron .dxnb-bullet,
+.dxnbLiteDisabled_BudwayDirectMarron .dxnb-header,
+.dxnbLiteDisabled_BudwayDirectMarron .dxnb-headerCollapsed 
+{
+	color: #bdaab1;
+	cursor: default;
+}
+
+/* -- ASPxNewsControl -- */
+.dxncControl_BudwayDirectMarron 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #000000;
+	background-color: White;
+}
+.dxncControl_BudwayDirectMarron a
+{
+	color: #8A0A37;
+}
+.dxncControl_BudwayDirectMarron a:hover
+{
+	color: #BE458B;
+}
+.dxncControl_BudwayDirectMarron td.dxncCtrl
+{
+	padding: 18px;
+}
+.dxncContent_BudwayDirectMarron
+{
+	padding: 20px;
+	border-top: 1px Solid #BC758E;
+	border-bottom: 1px Solid #BC758E;
+}
+.dxncPagerPanel_BudwayDirectMarron
+{
+	padding: 9px 15px 7px;
+	background-color: #F5ECF1;
+}
+.dxncItem_BudwayDirectMarron
+{
+	padding: 12px 8px;
+}
+.dxncEmptyItem_BudwayDirectMarron
+{
+	padding: 12px 12px 12px 14px;
+}
+.dxncBackToTop_BudwayDirectMarron
+{
+	color: #8A0A37;
+}
+.dxncEmptyData_BudwayDirectMarron
+{
+	color: #E1ABBE;
+}
+.dxncPagerShowMoreItemsContainer_BudwayDirectMarron
+{
+    height: 60px;
+	text-align: center;
+}
+.dxncPagerShowMoreItemsContainer_BudwayDirectMarron a
+{
+	display: block;
+	padding-top: 21px;
+	color: #8A0A37;
+}
+.dxncPagerShowMoreItemsContainer_BudwayDirectMarron a:hover
+{
+	color: #BE458B;
+}
+/* Disabled */
+.dxncDisabled_BudwayDirectMarron,
+.dxncDisabled_BudwayDirectMarron span.dxhl,
+.dxncDisabled_BudwayDirectMarron a,
+.dxncDisabled_BudwayDirectMarron a:hover
+{
+	color: #bcaab0;
+	cursor: default;
+}
+
+/* -- ASPxPager Lite -- */
+.dxpLite_BudwayDirectMarron
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #8A0A37;
+	padding: 2px;
+	float: left;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.dxpLite_BudwayDirectMarron .dxp-summary,
+.dxpLite_BudwayDirectMarron .dxp-sep,
+.dxpLite_BudwayDirectMarron .dxp-button,
+.dxpLite_BudwayDirectMarron .dxp-pageSizeItem,
+.dxpLite_BudwayDirectMarron .dxp-num,
+.dxpLite_BudwayDirectMarron .dxp-current,
+.dxpLite_BudwayDirectMarron .dxp-ellip
+{
+	margin-left: 4px;
+	font-weight: normal;
+}
+.dxpLite_BudwayDirectMarron .dxp-lead
+{
+	margin-left: 0!important;
+}
+
+.dxpLite_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	text-decoration: underline;
+}
+
+.dxpLite_BudwayDirectMarron .dxp-button
+{
+	color: #8A0A37;
+	white-space: nowrap;
+	text-align: center;
+	text-decoration: underline;
+    padding: 2px 5px;
+}
+.dxpLite_BudwayDirectMarron .dxp-button img
+{
+	border: none;
+	text-decoration: none;
+}
+.dxpLite_BudwayDirectMarron .dxp-button span
+{
+	text-decoration: underline;
+    margin-top: -3px;
+}
+.dxpLite_BudwayDirectMarron .dxp-button.dxp-bi
+{
+	padding: 0;
+}
+.dxpLite_BudwayDirectMarron .dxp-button.dxp-bti 
+{
+	padding: 0 5px;
+}
+.dxpLite_BudwayDirectMarron .dxp-disabledButton,
+.dxpLite_BudwayDirectMarron .dxp-disabledButton span
+{
+	text-decoration: none;
+	color: #bcaab0;
+}
+
+.dxpLite_BudwayDirectMarron .dxp-pageSizeItem
+{
+    padding: 0 4px;
+    white-space: nowrap;
+    margin-top: -1px;
+}
+.dxFirefox .dxpLite_BudwayDirectMarron .dxp-pageSizeItem
+{
+    margin-top: -2px;
+}
+.dxpLite_BudwayDirectMarron .dxp-pageSizeItem .dx
+{
+    display: block;
+    float: left;
+    margin-top: 2px;
+    white-space: nowrap;
+}
+*[dir="rtl"].dxpLite_BudwayDirectMarron .dxp-pageSizeItem .dx 
+{
+    float: right;
+}
+.dxpLite_BudwayDirectMarron .dxp-comboBox
+{
+    padding: 1px;
+    background-color: White;
+    display: block;
+    float: left;
+    margin: -1px 0px;
+    border: 1px solid #BC758E;
+}
+.dxpLite_BudwayDirectMarron .dxp-comboBox input
+{
+    margin: 1px 2px 0px;
+}
+*[dir="rtl"].dxpLite_BudwayDirectMarron .dxp-comboBox input
+{
+    float: right;
+}
+.dxpLite_BudwayDirectMarron .dxp-hoverComboBox
+{
+}
+.dxpLite_BudwayDirectMarron .dxp-pressedComboBox
+{
+}
+.dxpLite_BudwayDirectMarron .dxp-dropDownButton
+{
+    padding: 5px 4px 5px;
+    background: #E85E8E url('pDropDownButtonBack.gif') repeat-x top;
+    border: 1px Solid #8A0A37;
+}
+.dxpLite_BudwayDirectMarron .dxp-hoverDropDownButton
+{
+    background: #CD8AC9 url('pDropDownButtonHoverBack.gif') repeat-x top;
+	border: 1px Solid #6C2668;
+}
+.dxpLite_BudwayDirectMarron .dxp-pressedDropDownButton
+{
+    background: #BD71B9 url('pDropDownButtonPressedBack.gif') repeat-x top;
+	border: 1px Solid #6C2668;
+}
+
+.dxpLite_BudwayDirectMarron .dxp-num
+{
+	color: #8A0A37;
+	text-decoration: underline;
+	padding: 2px 5px 1px;
+}
+
+.dxpLite_BudwayDirectMarron .dxp-current
+{
+	color: white;
+	background-color: #660000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 2px 3px 3px;
+}
+.dxWebKitFamily .dxpLite_BudwayDirectMarron .dxp-current
+{
+	margin-top: 1px;
+}
+.dxSafari .dxpLite_BudwayDirectMarron .dxp-current
+{
+	margin-top: 0;
+}
+
+.dxpLite_BudwayDirectMarron .dxp-summary,
+.dxpLite_BudwayDirectMarron .dxp-ellip
+{
+	white-space: nowrap;
+	padding: 2px 4px 1px;
+}
+
+.dxpLite_BudwayDirectMarron .dxp-sep
+{
+	background-color: #8A0A37;
+	width: 1px;
+	height: 11px;
+	margin-top: 4px;
+}
+
+.dxpLiteDisabled_BudwayDirectMarron,
+.dxpLiteDisabled_BudwayDirectMarron a,
+.dxpLiteDisabled_BudwayDirectMarron .dxp-summary,
+.dxpLiteDisabled_BudwayDirectMarron .dxp-sep,
+.dxpLiteDisabled_BudwayDirectMarron .dxp-button,
+.dxpLiteDisabled_BudwayDirectMarron .dxp-pageSizeItem,
+.dxpLiteDisabled_BudwayDirectMarron .dxp-num,
+.dxpLiteDisabled_BudwayDirectMarron .dxp-current,
+.dxpLiteDisabled_BudwayDirectMarron .dxp-ellip
+{
+	color: #bcaab0;
+	border-color: #bcaab0;
+	cursor: default;
+}
+.dxpLite_BudwayDirectMarron .dxp-disabledComboBox
+{
+    border-color: #bcaab0;
+}
+.dxpLite_BudwayDirectMarron .dxp-disabledComboBox input
+{
+    color: #bcaab0;
+}
+.dxpLite_BudwayDirectMarron .dxp-disabledDropDownButton
+{
+    background: #ccbac0 url('pDropDownButtonDisabledBack.gif') repeat-x center top;
+	color: #dad1d4;
+	border-color: #928187;
+}
+
+/* -- ASPxPopupControl Lite -- */
+.dxpcLite_BudwayDirectMarron,
+.dxdpLite_BudwayDirectMarron
+{
+	width: 200px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	border-spacing: 0;
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #000000;
+}
+.dxdpLite_BudwayDirectMarron {
+	display: none;
+	visibility: hidden;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-mainDiv,
+.dxpcLite_BudwayDirectMarron.dxpc-mainDiv,
+.dxdpLite_BudwayDirectMarron .dxpc-mainDiv,
+.dxdpLite_BudwayDirectMarron.dxpc-mainDiv  
+{
+	top: 0;
+	left: 0;
+	background-color: #fef3ec;
+	border: 1px solid #8A0A37;
+}
+
+.dxpcLite_BudwayDirectMarron a.dxpc-link,
+.dxdpLite_BudwayDirectMarron a.dxpc-link 
+{
+	color: #8A0A37;
+}
+.dxpcLite_BudwayDirectMarron a.dxpc-link *,
+.dxdpLite_BudwayDirectMarron a.dxpc-link * 
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-closeBtn,
+.dxdpLite_BudwayDirectMarron .dxpc-closeBtn,
+.dxpcLite_BudwayDirectMarron .dxpc-pinBtn,
+.dxdpLite_BudwayDirectMarron .dxpc-pinBtn,
+.dxpcLite_BudwayDirectMarron .dxpc-refreshBtn,
+.dxdpLite_BudwayDirectMarron .dxpc-refreshBtn,
+.dxpcLite_BudwayDirectMarron .dxpc-collapseBtn,
+.dxdpLite_BudwayDirectMarron .dxpc-collapseBtn,
+.dxpcLite_BudwayDirectMarron .dxpc-maximizeBtn,
+.dxdpLite_BudwayDirectMarron .dxpc-maximizeBtn
+{
+	cursor: pointer;
+	padding: 1px 2px 1px 1px;
+	float: right;
+}
+
+.dxpcLite_BudwayDirectMarron.dxRtl  .dxpc-closeBtn,
+.dxdpLite_BudwayDirectMarron.dxRtl  .dxpc-closeBtn,
+.dxpcLite_BudwayDirectMarron.dxRtl  .dxpc-pinBtn,
+.dxdpLite_BudwayDirectMarron.dxRtl  .dxpc-pinBtn,
+.dxpcLite_BudwayDirectMarron.dxRtl  .dxpc-refreshBtn,
+.dxdpLite_BudwayDirectMarron.dxRtl  .dxpc-refreshBtn,
+.dxpcLite_BudwayDirectMarron.dxRtl  .dxpc-collapseBtn,
+.dxdpLite_BudwayDirectMarron.dxRtl  .dxpc-collapseBtn,
+.dxpcLite_BudwayDirectMarron.dxRtl  .dxpc-maximizeBtn,
+.dxdpLite_BudwayDirectMarron.dxRtl  .dxpc-maximizeBtn
+{
+	padding-right: 1px;
+	padding-left: 5px;
+	float: left;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-closeBtnHover,
+.dxdpLite_BudwayDirectMarron .dxpc-closeBtnHover,
+.dxpcLite_BudwayDirectMarron .dxpc-pinBtnHover,
+.dxdpLite_BudwayDirectMarron .dxpc-pinBtnHover,
+.dxpcLite_BudwayDirectMarron .dxpc-refreshBtnHover,
+.dxdpLite_BudwayDirectMarron .dxpc-refreshBtnHover,
+.dxpcLite_BudwayDirectMarron .dxpc-collapseBtnHover,
+.dxdpLite_BudwayDirectMarron .dxpc-collapseBtnHover,
+.dxpcLite_BudwayDirectMarron .dxpc-maximizeBtnHover,
+.dxdpLite_BudwayDirectMarron .dxpc-maximizeBtnHover
+{
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-header,
+.dxdpLite_BudwayDirectMarron .dxpc-header
+{
+	color: #FFFFFF;
+	background: #ae432c url('pcHeaderBack.gif') repeat-x;
+	border-bottom: 1px solid #972869;
+	padding: 3px 0px 7px 12px;
+}
+.dxpcLite_BudwayDirectMarron .dxpc-header a,
+.dxdpLite_BudwayDirectMarron .dxpc-header a  
+{
+	color: #FFFFFF;
+}
+
+.dxpcLite_BudwayDirectMarron.dxRtl .dxpc-header,
+.dxdpLite_BudwayDirectMarron.dxRtl .dxpc-header  
+{
+	padding-left: 0;
+	padding-right: 12px;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-header.dxpc-withBtn,
+.dxdpLite_BudwayDirectMarron .dxpc-header.dxpc-withBtn
+{
+	padding-bottom: 3px;
+	padding-right: 2px;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-headerText,
+.dxdpLite_BudwayDirectMarron .dxpc-headerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-headerImg,
+.dxdpLite_BudwayDirectMarron .dxpc-headerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_BudwayDirectMarron.dxRtl .dxpc-headerImg,
+.dxdpLite_BudwayDirectMarron.dxRtl .dxpc-headerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-content,
+.dxdpLite_BudwayDirectMarron .dxpc-content
+{
+	line-height: 128%;
+	white-space: normal;
+	padding: 14px 20px 15px;
+}
+
+.dxpcLite_BudwayDirectMarron.dxpc-hierarchycal .dxpc-content {
+	padding-right: 30px;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-footer,
+.dxdpLite_BudwayDirectMarron .dxpc-footer
+{
+	color: #9A6B82;
+	background-color: #fddcc6;
+	border-top: 1px solid #CB9FB4;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-footerContent,
+.dxdpLite_BudwayDirectMarron .dxpc-footerContent
+{
+	padding: 12px 20px 14px 12px;
+}
+
+.dxpcLite_BudwayDirectMarron.dxRtl .dxpc-footerContent,
+.dxdpLite_BudwayDirectMarron.dxRtl .dxpc-footerContent
+{
+	padding: 12px 12px 14px 20px;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-footerText,
+.dxdpLite_BudwayDirectMarron .dxpc-footerText
+{
+	white-space: nowrap;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-footerImg,
+.dxdpLite_BudwayDirectMarron .dxpc-footerImg
+{
+	margin: 0 4px 0 0;
+}
+
+.dxpcLite_BudwayDirectMarron.dxRtl .dxpc-footerImg,
+.dxdpLite_BudwayDirectMarron.dxRtl .dxpc-footerImg
+{
+	margin: 0 0 0 4px;
+}
+
+.dxpcLite_BudwayDirectMarron .dxpc-sizeGrip,
+.dxdpLite_BudwayDirectMarron .dxpc-sizeGrip
+{
+	float: right;
+}
+
+.dxpcLite_BudwayDirectMarron.dxRtl .dxpc-sizeGrip,
+.dxdpLite_BudwayDirectMarron.dxRtl .dxpc-sizeGrip
+{
+	float: left;
+}
+
+.dxpcModalBackLite_BudwayDirectMarron,
+.dxdpModalBackLite_BudwayDirectMarron
+{
+	background-color: #777777;
+	opacity: 0.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+	position: fixed;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+}
+.dxpcLiteDisabled_BudwayDirectMarron,
+.dxdpLiteDisabled_BudwayDirectMarron
+{
+	color: #bcaab0;
+	cursor: default;
+}
+/* -- ASPxPanel -- */
+.dxpnlControl_BudwayDirectMarron
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+    border: 0px solid #A9A9A9 ;
+}
+.dxpnlControl_BudwayDirectMarron.dxpnl-edge,
+.dxpnlControl_BudwayDirectMarron.dxpnl-edge.dxpnl-bar
+{
+    background-color: #f2f2f2;
+}
+.dxpnlControl_BudwayDirectMarron.dxpnl-edge,
+.dxpnlControl_BudwayDirectMarron.dxpnl-edge .dxpnl-scc,
+.dxpnlControl_BudwayDirectMarron.dxpnl-bar
+{
+    padding: 8px;
+}
+.dxpnlControl_BudwayDirectMarron .dxpnl-btn
+{
+    border-radius: 3px;
+}
+.dxpnlControl_BudwayDirectMarron .dxpnl-btnHover
+{
+    background-color: #DBBBDA;
+}
+.dxpnlControl_BudwayDirectMarron .dxpnl-btnPressed
+{
+    background-color: #AD275C;
+}
+.dxpnlControl_BudwayDirectMarron .dxpnl-btnSelected
+{
+
+}
+.dxpnlDisabled_BudwayDirectMarron
+{
+	color: #bcaab0;
+	cursor: default;
+}
+/* -- ASPxRoundPanel -- */
+.dxrpControl_BudwayDirectMarron,
+.dxrpControlGB_BudwayDirectMarron
+{
+	color: #000000;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxrpControl_BudwayDirectMarron .dxrpCI
+{
+	display:block;
+}
+/*Corner Radius*/
+.dxrpControlGB_BudwayDirectMarron:not(.dxrp-hasDefaultImages),
+.dxrpControlGB_BudwayDirectMarron:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_BudwayDirectMarron:not(.dxrp-hasDefaultImages)
+{
+	border-radius: 5px;
+}
+.dxrpControl_BudwayDirectMarron:not(.dxrp-hasDefaultImages) .dxrpHeader_BudwayDirectMarron
+{
+	border-radius:5px 5px 0px 0px;
+}
+.dxrpControl_BudwayDirectMarron:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent
+{
+	border-radius:0px 0px 5px 5px;
+}
+.dxrpWithoutHeader_BudwayDirectMarron:not(.dxrp-hasDefaultImages) > tbody > tr.dxrpCR > .dxrpcontent{
+	border-radius:5px;
+}
+/* Header */
+.dxrpControl_BudwayDirectMarron td.dxrpHeader_BudwayDirectMarron, 
+.dxrpControlGB_BudwayDirectMarron span.dxrpHeader_BudwayDirectMarron
+{
+	color: #FFFFFF;
+}
+.dxrpControl_BudwayDirectMarron td.dxrpHeader_BudwayDirectMarron > a,
+.dxrpControl_BudwayDirectMarron td.dxrpHeader_BudwayDirectMarron > a > span.dxrpHT,
+.dxrpControlGB_BudwayDirectMarron span.dxrpHeader_BudwayDirectMarron a
+{
+    color: White;
+}
+.dxrpControl_BudwayDirectMarron td.dxrpHeader_BudwayDirectMarron
+{
+	vertical-align: top;
+	white-space: nowrap;
+}
+.dxrpControlGB_BudwayDirectMarron span.dxrpHeader_BudwayDirectMarron
+{
+	color: Black;
+}
+.dxrpControl_BudwayDirectMarron .dxrpCollapseButtonRtl ~ .dxrpHT,
+.dxrpControl_BudwayDirectMarron .dxrpCollapseButton ~ .dxrpHT
+{
+	margin-top:2px;
+}
+/* Header image */
+.dxrpControl_BudwayDirectMarron .dxrpHI
+{
+	margin-right: 4px;
+}
+.dxrpControl_BudwayDirectMarron .dxrpHIR
+{
+	margin-left: 4px;
+}
+/* Content */
+.dxrpControl_BudwayDirectMarron > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_BudwayDirectMarron > tbody > tr.dxrpCR > .dxrpcontent
+{
+    background-image: none;
+	vertical-align: top;
+}
+/* Background */
+.dxrpControl_BudwayDirectMarron > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_BudwayDirectMarron > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControlGB_BudwayDirectMarron span.dxrpHeader_BudwayDirectMarron
+{
+    background-image: none;
+	background-color: #F2F2F2;
+}
+.dxrpControl_BudwayDirectMarron td.dxrpHeader_BudwayDirectMarron
+{
+	border-bottom: 1px solid #8A0A37;
+}
+.dxrpControl_BudwayDirectMarron td.dxrpHeader_BudwayDirectMarron
+{
+	background: #8a000f url('rpHeaderBackground.gif') repeat-x left top;
+}
+/* Borders */
+.dxrpControl_BudwayDirectMarron > tbody > tr:first-child > .dxrpcontent {
+	border-top:1px solid DarkGray;
+}
+.dxrpControl_BudwayDirectMarron > tbody > tr.dxrpCR > .dxrpcontent {
+	border-bottom:1px solid DarkGray;
+	border-left:1px solid DarkGray;
+	border-right:1px solid DarkGray;
+}
+.dxrpControlGB_BudwayDirectMarron > tbody > tr.dxrpCR > .dxrpcontent {
+	border:1px solid DarkGray;
+}
+.dxrpControl_BudwayDirectMarron td.dxrpHeader_BudwayDirectMarron {
+	border:1px solid #8A0A37;
+}
+.dxrp-hasDefaultImages > tbody > tr > .dxrpHeader_BudwayDirectMarron {
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+.dxrpControlGB_BudwayDirectMarron.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_BudwayDirectMarron.dxrp-hasDefaultImages > tbody > tr.dxrpCR > .dxrpcontent {
+	border-bottom:0px none;
+	border-left:0px none;
+	border-right:0px none;
+	border-top:0px none;
+}
+/* Paddings */
+.dxrpControl_BudwayDirectMarron td.dxrpHeader_BudwayDirectMarron 
+{
+	padding: 4px 5px 5px 11px;
+}
+.dxrpControlGB_BudwayDirectMarron span.dxrpHeader_BudwayDirectMarron 
+{
+	padding: 0px 3px 0px 3px;
+}
+.dxrpControl_BudwayDirectMarron.dxrp-noCollapsing > tbody > tr.dxrpCR > .dxrpcontent,
+.dxrpControl_BudwayDirectMarron > tbody > tr.dxrpCR > .dxrpcontent > .dxrpAW > .dxrpCW, .dxrpControl_BudwayDirectMarron > tbody > tr.dxrpCR > .dxrpcontent >  .dxrpCW,
+.dxrpControlGB_BudwayDirectMarron > tbody > tr.dxrpCR > .dxrpcontent
+{
+	padding: 14px 19px 19px 19px;
+}
+/* GroupboxCaptionOffset */
+.dxrpControlGB_BudwayDirectMarron > tbody > tr.dxrpCR > .dxrpcontent > div:first-child
+{
+	top: -23px;
+	left: -10px;
+	margin-bottom:-9px;
+}
+.dxrpControlGB_BudwayDirectMarron {
+	margin-top: 8px;
+}
+/* Disabled */
+.dxrpDisabled_BudwayDirectMarron,
+.dxrpDisabled_BudwayDirectMarron td.dxrp
+{
+	color: #bcaab0;
+	cursor: default;
+}
+.dxrpDisabled_BudwayDirectMarron.dxrpCollapsed > tbody > tr > td.dxrpHeader_BudwayDirectMarron
+{
+    border-radius: 5px;
+    border: 1px solid #8a0a37;
+}
+/* -- ASPxSiteMapControl -- */
+.dxsmControl_BudwayDirectMarron 
+{
+	color: #660000;
+	background-color: #FFFFFF;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border-width: 0px;
+	text-decoration: none;
+}
+.dxsmControl_BudwayDirectMarron a
+{
+	color: #8A0A37;
+}
+.dxsmControl_BudwayDirectMarron a:hover
+{
+	text-decoration: underline;
+	color: #BE458B;
+}
+.dxsmControl_BudwayDirectMarron a:visited
+{
+	color: #928489;
+}
+/* - Category Level - */
+.dxsmCategoryLevel_BudwayDirectMarron,
+.dxsmCategoryLevel_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	font-weight: bold;
+	text-decoration: none;
+}
+.dxsmCategoryLevel_BudwayDirectMarron
+{
+    font-size: 1.5em;
+	white-space: nowrap;
+	padding: 0px 0px 5px;
+	border-bottom: 1px Solid #8A0A37;
+}
+ /*flow layout*/
+.dxsmLevelCategoryFlow_BudwayDirectMarron,
+.dxsmLevelCategoryFlow_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.dxsmLevelCategoryFlow_BudwayDirectMarron
+{
+	font-size: 1.5em;
+}
+/* - Level 0 - */
+.dxsmLevel0_BudwayDirectMarron,
+.dxsmLevel0_BudwayDirectMarron a,
+.dxsmLevel0Categorized_BudwayDirectMarron a,
+.dxsmLevel0Categorized_BudwayDirectMarron
+{
+	color: #8A0A37!important;
+	font-weight: normal;
+	text-decoration: none!important;
+}
+.dxsmLevel0_BudwayDirectMarron,
+.dxsmLevel0Categorized_BudwayDirectMarron
+{
+    font-size: 1.33em;
+	white-space: nowrap;
+	padding: 0px 0px 1px;
+}
+.dxsmLevel0_BudwayDirectMarron
+{
+	border-bottom: 2px Solid #C3C3C3;
+	padding: 0px 0px 1px;
+}
+
+ /*flow layout*/
+.dxsmLevel0Flow_BudwayDirectMarron,
+.dxsmLevel0Flow_BudwayDirectMarron a,
+.dxsmLevel0CategorizedFlow_BudwayDirectMarron a,
+.dxsmLevel0CategorizedFlow_BudwayDirectMarron
+{
+	color: #8A0A37;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.dxsmLevel0Flow_BudwayDirectMarron
+{
+    font-size: 1.33em;
+	padding: 0px;
+	text-decoration: none;
+}
+
+/* - Level 1 - */
+.dxsmLevel1_BudwayDirectMarron,
+.dxsmLevel1_BudwayDirectMarron a,
+.dxsmLevel1Categorized_BudwayDirectMarron a,
+.dxsmLevel1Categorized_BudwayDirectMarron
+{
+	color: #8A0A37;
+	text-decoration: none;
+}
+.dxsmLevel1_BudwayDirectMarron,
+.dxsmLevel1Categorized_BudwayDirectMarron
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+
+/*flow layout*/
+.dxsmLevel1Flow_BudwayDirectMarron,
+.dxsmLevel1Flow_BudwayDirectMarron a,
+.dxsmLevel1CategorizedFlow_BudwayDirectMarron,
+.dxsmLevel1CategorizedFlow_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	text-decoration: underline;
+}
+.dxsmLevel1Flow_BudwayDirectMarron
+{
+	text-decoration: none;
+	padding: 0px;
+}
+
+/* - Level 2 - */
+.dxsmLevel2_BudwayDirectMarron,
+.dxsmLevel2_BudwayDirectMarron a,
+.dxsmLevel2Categorized_BudwayDirectMarron a,
+.dxsmLevel2Categorized_BudwayDirectMarron
+{
+	color: #8A0A37;
+	text-decoration: none;
+}
+.dxsmLevel2_BudwayDirectMarron,
+.dxsmLevel2Categorized_BudwayDirectMarron
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevel2Flow_BudwayDirectMarron,
+.dxsmLevel2Flow_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	text-decoration: underline;
+}
+.dxsmLevel2Flow_BudwayDirectMarron
+{
+	padding: 0px;
+}
+/* - Level 3 - */
+.dxsmLevel3_BudwayDirectMarron,
+.dxsmLevel3_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	text-decoration: none;
+}
+.dxsmLevel3_BudwayDirectMarron
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevel3Flow_BudwayDirectMarron,
+.dxsmLevel3Flow_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	text-decoration: underline;
+}
+/* - Level 4 - */
+.dxsmLevel4_BudwayDirectMarron,
+.dxsmLevel4_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	text-decoration: none;
+}
+.dxsmLevel4_BudwayDirectMarron
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevel4Flow_BudwayDirectMarron,
+.dxsmLevel4Flow_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	text-decoration: underline;
+}
+.dxsmLevel4Flow_BudwayDirectMarron
+{
+	padding: 0px;
+}
+/* - Other Levels - */
+.dxsmLevelOther_BudwayDirectMarron
+{
+	color: #8A0A37;
+	text-decoration: none;
+}
+.dxsmLevelOther_BudwayDirectMarron
+{
+	white-space: nowrap;
+	padding: 0px;
+}
+/*flow layout*/
+.dxsmLevelOtherFlow_BudwayDirectMarron,
+.dxsmLevelOtherFlow_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	text-decoration: underline;
+}
+/* Disabled */
+.dxsmDisabled_BudwayDirectMarron
+{
+	color: #808080;
+	cursor: default;
+}
+
+/* -- ASPxTabControl Lite -- */
+.dxtcLite_BudwayDirectMarron 
+{
+	overflow: hidden;
+	color: black;
+    float: left;
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-strip
+{
+	list-style: none outside none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-top > .dxtc-stripContainer
+{
+	padding-top: 2px;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-strip
+ {
+	background: #f48d7f url('tcTabTopBack.gif') repeat-x bottom;
+	border-top: 1px solid #c98a68;
+	border-right: 1px solid #c98a68;
+	border-bottom: 1px none #c98a68;
+	border-left: 1px solid #c98a68;
+	padding: 2px 0 0;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-strip
+{
+	padding: 0;
+	border-style: none;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-wrapper,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	display: block;
+	margin: 0;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-lineBreak
+{
+	float: none;
+	display: block;
+	clear: both;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-top: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-bottom: 1px solid #BE7790;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-activeTab
+{
+	background-color: #F2F2F2;
+	border: 1px solid #A74768;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-top > .dxtc-stripContainer .dxtc-activeTab
+{
+	border-bottom-width: 0;
+    padding-bottom: 1px;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-tabHover
+{
+	border: 1px Solid #6C2668;
+	background: #C894C6 url('tcTabTopHottrackedBack.gif') repeat-x top;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	float: left;
+	border-right-width: 0;
+	border-left-width: 0;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid #002D96;
+	overflow: hidden;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-spacer
+{
+	width: 1px;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-rightIndent
+{
+	width: 5px;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 10px 6px;
+	display: block;
+	height: 100%;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-link,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-rightIndent
+{
+	color: white;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-activeTab .dxtc-link 
+{
+	color: black;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-img
+{
+	border-style: none;
+	margin: 0 3px 0 0;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-stripContainer .dxtc-img
+{
+	margin: 0 0 0 3px;
+} 
+.dxtcLite_BudwayDirectMarron > .dxtc-content 
+{
+	background-color: #F2F2F2;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A9A9A9!important;
+	float: left;
+	clear: left;
+	overflow: hidden;
+	padding: 11px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-top > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BudwayDirectMarron.dxtc-top > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-top > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BudwayDirectMarron.dxtc-top > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-top > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BudwayDirectMarron.dxtc-top > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-top > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    border-bottom: 1px solid #A74768;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-top > .dxtc-content 
+{
+	border-top-style: none!important;
+}
+/* Rtl */
+.dxtcLite_BudwayDirectMarron.dxtc-rtl,
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-content,
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-stripContainer .dxtc-strip,
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-stripContainer .dxtc-sbSpacer,
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BudwayDirectMarron.dxtc-rtl > .dxtc-stripContainer .dxtc-activeTab
+{
+	float: right;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-top.dxtc-rtl > .dxtc-content,
+.dxtcLite_BudwayDirectMarron.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer,
+.dxtcLite_BudwayDirectMarron.dxtc-bottom.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	clear: right!important;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left.dxtc-rtl > .dxtc-strip,
+.dxtcLite_BudwayDirectMarron.dxtc-left.dxtc-rtl > .dxtc-stripContainer .dxtc-strip
+{
+	float: left;
+}
+/* Scrolling */
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-sb          
+{
+	border-style: none;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-sb img 
+{
+	border: none;
+	border-style: none;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-sbIndent
+{
+	width: 5px;
+}
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	width: 1px;
+}
+/* Multi-row */
+.dxtcLiteDisabled_BudwayDirectMarron,
+.dxtcLiteDisabled_BudwayDirectMarron > .dxtc-stripContainer .dxtc-link,
+.dxtcLiteDisabled_BudwayDirectMarron > .dxtc-stripContainer .dxtc-activeTab .dxtc-link,
+.dxtcLiteDisabled_BudwayDirectMarron > .dxtc-content,
+.dxtcLite_BudwayDirectMarron > .dxtc-stripContainer .dxtcLiteDisabled_BudwayDirectMarron .dxtc-link
+{
+	color: #aaaaaa;
+	cursor: default;
+}
+/* bottom  */
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer
+{
+	padding-bottom: 2px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer,
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-strip
+{
+	clear: left;
+}
+
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer,
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-strip
+{
+	background: #b25050 url('tcTabBottomBack.gif') repeat-x top;
+	border-top: 1px none #A74768;
+	border-right: 1px solid #A74768;
+	border-bottom: 1px solid #A74768;
+	border-left: 1px solid #A74768;
+	padding: 0 0 3px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-rightIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-sbSpacer
+{
+	border-top: 1px solid #A74768;
+	border-bottom-style: none;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-tab
+{
+	border-top: 1px solid #A74768;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-activeTab
+{
+	background-color: #F2F2F2;
+	border-top-width: 0;
+    padding-top: 1px;
+	border-bottom: 1px solid #A74768;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-tabHover
+{
+	background: #C894C6 url('tcTabBottomHottrackedBack.gif') repeat-x top;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-content
+{
+	clear: right;
+	background-position: left bottom;
+	border-top: 1px solid #002D96;
+	border-right: 1px solid #002D96;
+	border-bottom-color: #002D96;
+	border-left: 1px solid #002D96;
+	border-bottom-width: 1px;
+	border-bottom-style: none!important;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-strip
+{
+	border-left: 0px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-bottom > .dxtc-stripContainer .dxtc-sb
+{
+	padding-top: 3px;
+}
+/* left */
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer
+{
+	padding-left: 2px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-strip,
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-strip
+{
+	background: #BE7790 url('tcTabLeftBack.gif') repeat-y right top;
+	border-top: 1px Solid #A74768;
+	border-right: 0px Solid #A74768;
+	border-bottom: 1px Solid #A74768;
+	border-left: 1px Solid #A74768;
+	padding: 0 0 0 2px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-tab
+{
+	background: #BE7790 url('tcTabLeftBack.gif') repeat-y right top;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid #A74768;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-activeTab
+{
+	background-color: #F2F2F2;
+	border: 1px solid #A74768;
+	border-right-width: 0;
+    padding-right: 1px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-tabHover
+{
+	border: 1px solid #6C2668;
+	background: #C894C6 url('tcTabLeftHottrackedBack.gif') repeat-y left top;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-link
+{
+	padding: 4px 11px 6px 7px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-right: 1px solid #A74768;
+	border-left: 1px solid transparent;
+	width: auto;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    border-right: 1px solid #A74768;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-left > .dxtc-content
+{
+	background-color: #F2F2F2;
+	border-top: 1px solid #A9A9A9!important;
+	border-right: 1px solid #A9A9A9!important;
+	border-bottom: 1px solid #A9A9A9!important;
+	border-left: 1px none #A9A9A9!important;
+	float: left;
+	clear: none;
+}
+/* right */
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer
+{
+	padding-right: 2px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-strip,
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-strip
+{
+	background: #BE7790 url('tcTabRightBack.gif') repeat-y left top;
+	border-top: 1px Solid #A74768;
+	border-right: 1px Solid #A74768;
+	border-bottom: 1px Solid #A74768;
+	border-left: 1px none #A74768;
+	padding: 0 2px 0 0;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-tab,
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-activeTab,
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	float: none;
+	clear: none;
+	width: auto;
+	height: auto;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-tab
+{
+	border-top: 1px solid transparent;
+	border-right: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	border-left: 1px solid #A74768;
+	background: #BE7790 url('tcTabRightBack.gif') repeat-y left top;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-activeTab
+{
+	background-color: #F2F2F2;
+	border: 1px solid #A74768;
+	border-left-width: 0;
+    padding-left: 1px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-link
+
+{
+	padding: 4px 9px 6px 6px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-tabHover
+{
+	border: 1px solid #6C2668;
+	background: #C894C6 url('tcTabLeftHottrackedBack.gif') repeat-y right top;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-spacer,
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	border: none;
+	border-left: 1px solid #A74768;
+	border-right: 1px solid transparent;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-sbWrapper,
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-sbIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-sbSpacer
+{
+    border-left: 1px solid #A74768;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-leftIndent,
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-rightIndent
+{
+	height: 3px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-stripContainer .dxtc-spacer
+{
+	height: 1px;
+}
+.dxtcLite_BudwayDirectMarron.dxtc-right > .dxtc-content
+{
+	background-color: #F2F2F2;
+	border-top: 1px solid #A74768;
+	border-right-color: #A74768;
+	border-bottom: 1px solid #A74768;
+	border-left: 1px solid #A74768;
+	border-right-width: 1px;
+	border-right-style: none!important;
+	float: left;
+	clear: none;
+}
+/* Services rules */
+.dxtcLite_BudwayDirectMarron.dxtc-noTabs > .dxtc-content
+{
+	border: 1px solid #A9A9A9!important;
+} 
+
+/* -- ASPxTitleIndex -- */
+.dxtiControl_BudwayDirectMarron 
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #8A0A37;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border-width: 0px;
+}
+.dxtiControl_BudwayDirectMarron a
+{
+	color: #8A0A37;
+}
+.dxtiControl_BudwayDirectMarron a:hover
+{
+	text-decoration: underline;
+	color: #BE458B;
+}
+.dxtiItem_BudwayDirectMarron
+{
+	font-weight: normal;
+	text-decoration: none;
+	color: #8A0A37;
+    padding: 0 0 8px;
+	white-space: nowrap;
+}
+.dxtiGroupHeader_BudwayDirectMarron,
+.dxtiGroupHeaderCategorized_BudwayDirectMarron
+{
+	font: 16px Tahoma, Geneva, sans-serif;
+}
+/* - GroupHeaderText - */
+.dxtiGroupHeaderText_BudwayDirectMarron
+{
+    white-space: nowrap;
+	color: #FFFFFF; 
+    text-decoration: none;
+    font-weight: normal;
+	color: #FFFFFF; 
+	height: 1%; 
+	background-color: #8A0A37;
+    padding: 3px 9px 4px; 
+}
+.dxtiGroupHeaderTextCategorized_BudwayDirectMarron
+{
+	text-decoration: none;
+	font-weight: normal;
+}
+.dxtiGroupHeaderTextCategorized_BudwayDirectMarron
+{
+}
+/* - FilterBox - */
+.dxtiFilterBoxInfoText_BudwayDirectMarron
+{
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 0.75em;
+	color: #727272;
+}
+.dxtiFilterBoxEdit_BudwayDirectMarron
+{
+	color: #000000;
+	background-color: #FFFFFF;
+	width: 193px;
+	border: 1px Solid #BC758E;
+	padding: 3px 5px;
+}
+.dxtiFilterBox_BudwayDirectMarron,
+.dxtiFilterBox_BudwayDirectMarron table
+{
+	color: #727272;
+	font-weight: normal;
+	text-decoration: none;
+}
+.dxtiFilterBox_BudwayDirectMarron
+{
+	background-color: #EBEBEB;
+	padding: 12px 13px;
+	border-top: 0px Solid #D5D5D5;
+	border-right: 1px Solid #D5D5D5;
+	border-bottom: 1px Solid #D5D5D5;
+	border-left: 1px Solid #D5D5D5;
+}
+/* - IndexPanel - */
+.dxtiIndexPanel_BudwayDirectMarron
+{
+    font-size: 1.17em;
+	padding: 0 60px 8px 60px;
+	text-decoration: none;
+	border-bottom: 1px Solid #BC758E;
+}
+.dxtiIndexPanelItem_BudwayDirectMarron,
+.dxtiCurrentIndexPanelItem_BudwayDirectMarron,
+.dxtiIndexPanelItem_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	text-decoration: none;
+}
+.dxtiIndexPanelItem_BudwayDirectMarron,
+.dxtiCurrentIndexPanelItem_BudwayDirectMarron
+{
+	padding: 2px 2px 2px 3px;
+}
+.dxtiCurrentIndexPanelItem_BudwayDirectMarron
+{
+	color: #FFFFFF;
+	background-color: #8A0A37;
+	padding: 2px 5px;
+}
+/* - BackToTop - */
+.dxtiBackToTop_BudwayDirectMarron
+{
+	font-size: 0.75em;
+	text-decoration: none;
+	color: #8A0A37;
+}
+.dxtiBackToTop_BudwayDirectMarron
+{
+	padding: 0px 0px 12px 98px;
+}
+.dxtiBackToTopRtl_BudwayDirectMarron
+{
+	padding: 0 98px 12px 0;
+}
+/* Disabled */
+.dxtiDisabled_BudwayDirectMarron,
+.dxtiDisabled_BudwayDirectMarron a
+{
+	color: #bcaab0;
+	cursor: default!important;
+}
+
+/* -- ASPxUploadControl -- */
+.dxucControl_BudwayDirectMarron,
+.dxucEditArea_BudwayDirectMarron,
+input[type="text"].dxucEditArea_BudwayDirectMarron /*Bootstrap correction*/
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxucEditArea_BudwayDirectMarron,
+input[type="text"].dxucEditArea_BudwayDirectMarron /*Bootstrap correction*/
+{
+    padding: 1px;
+}
+body input.dxucEditArea_BudwayDirectMarron /*Bootstrap correction*/
+{
+    color: black;
+}
+.dxucControl_BudwayDirectMarron .dxucInputs_BudwayDirectMarron
+{
+}
+.dxucTextBox_BudwayDirectMarron
+{
+	background-color: white;
+	border: 1px solid #BC758E;
+	padding: 1px 2px;
+}
+.dxucTextBox_BudwayDirectMarron .dxucEditArea_BudwayDirectMarron
+{
+	margin: 0px;
+	background-color: white;
+}
+.dxucNullText_BudwayDirectMarron .dxucEditArea_BudwayDirectMarron
+{
+    color: #bcaab0;
+}
+.dxucErrorCell_BudwayDirectMarron
+{
+	color: Red;
+	text-align: left;
+}
+.dxucButton_BudwayDirectMarron,
+.dxucButton_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	white-space: nowrap;
+}
+.dxucButton_BudwayDirectMarron a:hover
+{
+	color: #BE458B;
+}
+.dxucBrowseButton_BudwayDirectMarron,
+.dxucBrowseButton_BudwayDirectMarron a
+{
+	color: White;
+	cursor: pointer;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.dxucControl_BudwayDirectMarron .dxucBrowseButton_BudwayDirectMarron a
+{
+	color: White;
+}
+.dxucControl_BudwayDirectMarron a[unselectable=on]
+{
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+.dxucBrowseButton_BudwayDirectMarron
+{
+	padding: 4px 11px 3px;
+	border: 1px solid #8A0A37;
+	background: #F0749F url('ucButtonBack.gif') repeat-x top;
+}
+.dxWebKitFamily .dxucBrowseButton_BudwayDirectMarron
+{
+    padding: 3px 11px 4px;
+}
+noindex:-o-prefocus, body:first-of-type .dxucBrowseButton_BudwayDirectMarron
+{
+    padding: 3px 11px 4px;
+}
+.dxucBrowseButton_BudwayDirectMarron.dxbf
+{
+    padding: 3px 10px 4px;
+}
+.dxucBrowseButton_BudwayDirectMarron.dxbf a
+{
+    border: 1px dotted White;
+}
+.dxucBrowseButtonHover_BudwayDirectMarron
+{
+	border: 1px solid #6C2668;
+	background: #D69BD3 url('ucButtonHoverBack.gif') repeat-x top;
+}
+.dxucBrowseButtonPressed_BudwayDirectMarron
+{
+	border: 1px solid #6C2668;
+	background: #BD71B9 url('ucButtonPressedBack.gif') repeat-x top;
+}
+/* UploadControl - ProgressBar */
+.dxucProgressBar_BudwayDirectMarron,
+.dxucProgressBar_BudwayDirectMarron td
+{
+	color: Black;
+}
+.dxucProgressBar_BudwayDirectMarron .dxPBMainCell,
+.dxucProgressBar_BudwayDirectMarron td.dx
+{
+	padding: 0;
+}
+.dxucProgressBar_BudwayDirectMarron
+{
+	border: 1px Solid #8A0A37;
+	background: #AA1248 url('ucProgressBack.gif') repeat-x;
+
+    height: 25px;
+}
+.dxucProgressBar_BudwayDirectMarron td.dx
+{
+	background: url('../Editors/edtProgressPositionBack.png') no-repeat 50% center;
+}
+.dxucProgressBarIndicator_BudwayDirectMarron
+{
+	background: #F1E4E9 url('ucProgressIndicatorBack.gif') repeat-x;
+}
+/* Silverlight Plugin Link */
+.dxucSilverlightPluginLinkPanel_BudwayDirectMarron {
+	font-size: 0.83em;
+	color: #7d7d7d;
+	text-align: left;
+}
+.dxucSilverlightPluginLinkPanel_BudwayDirectMarron td {
+	padding: 0px 3px;
+	vertical-align: middle;
+}
+.dxucSilverlightPluginLinkPanel_BudwayDirectMarron a {
+	color: #8A0A37;
+}
+/* Disabled */
+.dxucDisabled_BudwayDirectMarron,
+.dxucDisabled_BudwayDirectMarron a
+{
+	color: #BCAAB0;
+	cursor: default;
+}
+.dxucTextBoxDisabled_BudwayDirectMarron
+{
+	border-color: #928187;
+}
+.dxucButtonDisabled_BudwayDirectMarron a,
+.dxucButtonDisabled_BudwayDirectMarron a:hover
+{
+	color: #BCAAB0;
+	text-decoration: none;
+}
+.dxucBrowseButtonDisabled_BudwayDirectMarron
+{
+	border-color: #928187;
+	background: #D5C5CB url('ucButtonDisabledBack.gif') repeat-x top;
+}
+.dxucControl_BudwayDirectMarron .dxucBrowseButtonDisabled_BudwayDirectMarron a
+{
+	color: White;
+}
+
+/* -- ASPxSplitter -- */
+.dxsplControl_BudwayDirectMarron
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxsplControl_BudwayDirectMarron,
+.dxsplVSeparator_BudwayDirectMarron,
+.dxsplHSeparator_BudwayDirectMarron
+{
+	background-color: White;
+}
+.dxsplVSeparator_BudwayDirectMarron,
+.dxsplHSeparator_BudwayDirectMarron
+{
+	font-size: 0;
+}
+.dxsplControl_BudwayDirectMarron,
+.dxsplVSeparator_BudwayDirectMarron,
+.dxsplHSeparator_BudwayDirectMarron,
+.dxsplPane_BudwayDirectMarron,
+.dxsplPaneCollapsed_BudwayDirectMarron,
+.dxsplVSeparator_BudwayDirectMarron,
+.dxsplHSeparator_BudwayDirectMarron,
+.dxsplVSeparatorCollapsed_BudwayDirectMarron,
+.dxsplHSeparatorCollapsed_BudwayDirectMarron
+{
+	border: 0px solid #A9A9A9;
+}
+.dxsplPane_BudwayDirectMarron,
+.dxsplPaneCollapsed_BudwayDirectMarron
+{
+	border-width: 1px;
+	background-color: #F2F2F2;
+}
+.dxsplPaneCollapsed_BudwayDirectMarron
+{
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+.dxsplVSeparatorHover_BudwayDirectMarron
+{
+	cursor: w-resize;
+}
+.dxsplHSeparatorHover_BudwayDirectMarron
+{
+	cursor: n-resize;
+}
+.dxsplVSeparatorCollapsed_BudwayDirectMarron
+{
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+.dxsplHSeparatorCollapsed_BudwayDirectMarron
+{
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+.dxsplVSeparatorCollapsed_BudwayDirectMarron,
+.dxsplHSeparatorCollapsed_BudwayDirectMarron
+{
+	cursor: default!important;
+}
+.dxsplVSeparatorButton_BudwayDirectMarron
+{
+	cursor: pointer;
+	padding: 5px 0px;
+}
+.dxsplHSeparatorButton_BudwayDirectMarron
+{
+	cursor: pointer;
+	padding: 0px 5px;
+}
+.dxsplDisabled_BudwayDirectMarron .dxsplVSeparatorButton_BudwayDirectMarron,
+.dxsplDisabled_BudwayDirectMarron .dxsplHSeparatorButton_BudwayDirectMarron
+{
+	cursor: default;
+}
+.dxsplVSeparatorHover_BudwayDirectMarron,
+.dxsplHSeparatorHover_BudwayDirectMarron,
+.dxsplVSeparatorButtonHover_BudwayDirectMarron,
+.dxsplHSeparatorButtonHover_BudwayDirectMarron
+{
+	background-color: #DBBBDA;
+}
+.dxsplResizingPointer_BudwayDirectMarron
+{
+	background: url('splResizingPointer.gif') repeat;
+	font-size: 0;
+	line-height: 0px;
+}
+.dxsplControl_BudwayDirectMarron .dxsplLCC
+{
+	padding: 8px;
+}
+
+/* -- ASPxTreeView -- */
+.dxtvControl_BudwayDirectMarron
+{
+	color: Black;
+	font: 12px Tahoma, Geneva, sans-serif;
+	float: left;
+}
+.dxtvControl_BudwayDirectMarron li 
+{
+	overflow-y: hidden;
+}
+.dxtvControl_BudwayDirectMarron ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.dxtvControl_BudwayDirectMarron a {
+	text-decoration: none;
+	color: Black;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-ln
+{
+	background: url('tvLine.gif') repeat-y;
+	vertical-align: top;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-nd
+{
+	margin-top: 1px;
+	float: left;
+	padding: 3px 5px 4px;
+	display: block;
+	text-decoration: none;
+	outline: 0 none;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-elbNoLn,
+.dxtvControl_BudwayDirectMarron .dxtv-elb
+{
+	width: 26px;
+	height: 21px;
+	vertical-align: top;
+	float: left;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-elb
+{
+	background: url('tvElbow.gif') no-repeat;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-elbHide 
+{
+	display: none;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-btn 
+{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-subnd 
+{
+	margin-left: 22px;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-ndImg 
+{
+	margin:  0 4px 0 2px;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-ndTxt 
+{
+	white-space: nowrap;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-ndChk
+{
+	cursor: default;
+	margin: 1px 6px 0 2px;
+}
+  
+.dxtvControl_BudwayDirectMarron .dxtv-ndTmpl
+{
+	float: left;
+	white-space: nowrap;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-ndSel,
+.dxtvControl_BudwayDirectMarron .dxtv-ndHov 
+{
+	border: 1px solid #FFFFFF;
+	padding: 2px 4px 3px;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-ndSel
+{
+	background-color: #8A0A37;
+	color: #FFFFFF;
+	cursor: default;
+}
+
+.dxtvControl_BudwayDirectMarron .dxtv-ndHov 
+{
+	background-color: #DBBBDA;
+}
+
+.dxtvControl_BudwayDirectMarron.dxtvRtl,
+.dxtvControl_BudwayDirectMarron.dxtvRtl .dxtv-nd, 
+.dxtvControl_BudwayDirectMarron.dxtvRtl .dxtv-elbNoLn,
+.dxtvControl_BudwayDirectMarron.dxtvRtl .dxtv-elb,
+.dxtvControl_BudwayDirectMarron.dxtvRtl .dxtv-ndTmpl
+{
+	float: right;
+}
+
+.dxtvControl_BudwayDirectMarron.dxtvRtl .dxtv-elb,
+.dxtvControl_BudwayDirectMarron.dxtvRtl .dxtv-ln 
+{
+	background-position: right top;
+}
+
+.dxtvControl_BudwayDirectMarron.dxtvRtl .dxtv-elb
+{
+	background-image: url('tvElbowRtl.gif');
+}
+
+.dxtvControl_BudwayDirectMarron.dxtvRtl .dxtv-btn 
+{
+	margin: 5px 10px 0 0;
+}
+
+.dxtvControl_BudwayDirectMarron.dxtvRtl .dxtv-subnd 
+{
+	margin: 0 22px 0 0;
+}
+
+.dxtvControl_BudwayDirectMarron.dxtvRtl .dxtv-ndImg 
+{
+    margin: 0 2px 0 4px;
+}
+
+.dxtvControl_BudwayDirectMarron.dxtvRtl .dxtv-ndChk
+{
+	margin: 1px 2px 0 6px;
+}
+
+.dxtvControl_BudwayDirectMarron.dxtvRtl.OperaRtlFix .dxtv-btn
+{
+	margin: 5px 10px 0 0px;
+}
+
+.dxtvControl_BudwayDirectMarron.dxtvRtl.OperaRtlFix .dxtv-subnd 
+{
+	overflow-x: hidden;
+}
+
+.dxtvDisabled_BudwayDirectMarron,
+.dxtvControl_BudwayDirectMarron .dxtvDisabled_BudwayDirectMarron,
+.dxtvDisabled_BudwayDirectMarron a,
+.dxtvDisabled_BudwayDirectMarron .dxtv-btn,
+.dxtvDisabled_BudwayDirectMarron .dxtv-nd
+{
+	color: #bcaab0;
+	cursor: default;
+} 
+/* ASPxFileManager */
+.dxfmControl_BudwayDirectMarron,
+.dxfmControl_BudwayDirectMarron .dxfm-rInput
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	outline: 0px;
+}
+.dxfmDisabled_BudwayDirectMarron
+{
+	color: #ACACAC;
+}
+
+/* FileManager - Splitter */
+.dxfmControl_BudwayDirectMarron .dxsplControl_BudwayDirectMarron
+{
+	border-width: 1px;
+	border-color: #909AA6;
+}
+.dxfmControl_BudwayDirectMarron .dxsplPane_BudwayDirectMarron
+{
+	border-width: 0px;
+	background-color: White;
+}
+.dxfmControl_BudwayDirectMarron .dxsplLCC {
+	outline-width: 0px;
+	padding: 4px;
+}
+.dxfmControl_BudwayDirectMarron.dxfm-dst .dxsplVSeparator_BudwayDirectMarron
+{
+	width: 3px;
+	background: White url('fmSplitterSeparator.gif') repeat-y right;
+	border-width: 0px;
+}
+.dxfmControl_BudwayDirectMarron.dxfm-rtl.dxfm-dst .dxsplVSeparator_BudwayDirectMarron
+{
+	background-position-x: left;
+}
+.dxfmControl_BudwayDirectMarron.dxfm-tch .dxsplVSeparator_BudwayDirectMarron
+{
+	border-width: 0 1px;
+	border-color: #CB9FB4;
+}
+.dxfmControl_BudwayDirectMarron .dxsplHSeparator_BudwayDirectMarron
+{
+	border-width: 0px;
+	background: #CB9FB4 none;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-filePane .dxsplLCC
+{
+    padding: 0;
+}
+
+/* FileManager - TreeView */
+.dxfmControl_BudwayDirectMarron .dxtvControl_BudwayDirectMarron 
+{
+	margin-left: -5px;
+}
+.dxfmControl_BudwayDirectMarron .dxtvControl_BudwayDirectMarron .dxfm-folderSI
+{
+	border: 1px dotted #888888;
+	padding: 2px 4px 3px;
+}
+
+/* FileManager - File */
+.dxfmControl_BudwayDirectMarron div.dxfm-file 
+{
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 6px;
+	margin: 4px;
+}
+.dxfmControl_BudwayDirectMarron.dxfm-rtl div.dxfm-file 
+{
+	float: right;
+}
+.dxfmDisabled_BudwayDirectMarron .dxfm-file
+{
+	cursor: default;
+}
+.dxfmControl_BudwayDirectMarron div.dxfm-fileSI
+{
+	border: 1px dotted #888888;
+}
+.dxfmControl_BudwayDirectMarron div.dxfm-fileSA
+{
+	color: White;
+	background-color: #8A0A37;
+	border: 1px solid White;
+}
+.dxfmControl_BudwayDirectMarron div.dxfm-fileH,
+.dxfmControl_BudwayDirectMarron div.dxfm-fileF
+{
+	background-color: #DBBBDA;
+	border: 1px solid #DBBBDA;
+    color: black;
+}
+.dxfmControl_BudwayDirectMarron td.dxgv .dxfm-fileName
+{
+    padding: 2px 0;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-file .dxfm-highlight
+{
+	background-color: #DBBBDA;
+	background-repeat: repeat;
+	color: #333333;
+	font-weight: bold;
+}
+.dxfmControl_BudwayDirectMarron .fileContainer
+{
+    margin: 4px;
+}
+
+/* FileManager - GridView */
+.dxfmControl_BudwayDirectMarron .dxgvTable_BudwayDirectMarron  td.dxgv 
+{
+    border-bottom-width: 0px;
+}
+.dxfmControl_BudwayDirectMarron .dxgvControl_BudwayDirectMarron 
+{
+    background-color: White; 
+}
+.dxfmControl_BudwayDirectMarron .dxgvTable_BudwayDirectMarron tr.dxfm-fileSA
+{
+    background-color: #AD275C;
+    color: White;
+}     
+.dxfmControl_BudwayDirectMarron .dxgvTable_BudwayDirectMarron tr.dxfm-fileSI
+{
+    background-color: #D0D0D0;
+    color: Black;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-fileF.dxgvFocusedRow_BudwayDirectMarron
+{
+    background-color: #9D174C;
+    color: White;
+}
+.dxfmControl_BudwayDirectMarron .dxgvTable_BudwayDirectMarron tr.dxfm-fileH
+{
+    background-color: #DBBBDA;
+    color: Black;
+}
+.dxfmControl_BudwayDirectMarron tr.dxgvFocusedRow_BudwayDirectMarron
+{
+    background: White;
+    color: Black;
+} 
+.dxgvHeader_BudwayDirectMarron.dxfmGridHeader
+{
+    background: White;
+    border-color: #D5D5D5;
+}
+.dxgvHeader_BudwayDirectMarron.dxfmGridHeader, 
+.dxgvHeader_BudwayDirectMarron.dxfmGridHeader table 
+{
+    color: black;
+}
+.dxfm-file .dxgv.dxgvCommandColumn_BudwayDirectMarron
+{
+	text-overflow: clip;
+}
+
+/* FileManager - Toolbar */
+.dxfmControl_BudwayDirectMarron .dxfm-toolbar
+{
+	background: #F27AA4 url('mItemBack.gif') repeat-x left top;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-toolbar.dxsplPane_BudwayDirectMarron table.dxfm
+{
+	width: 100%;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-toolbar.dxsplPane_BudwayDirectMarron .dxfm-filter
+{
+	text-align: right;
+	vertical-align: top;
+	color: White;
+	white-space: nowrap;
+}
+.dxfmControl_BudwayDirectMarron.dxfm-rtl .dxfm-toolbar.dxsplPane_BudwayDirectMarron .dxfm-filter
+{
+	text-align: left;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-toolbar.dxsplPane_BudwayDirectMarron .dxfm-filter input,
+.dxfmControl_BudwayDirectMarron .dxfm-toolbar.dxsplPane_BudwayDirectMarron .dxfm-path input
+{
+	border: 1px solid #BC758E;
+}
+
+/* FileManager - Toolbar - Light */
+.dxfmControl_BudwayDirectMarron .dxfm-toolbar .dxsplLCC 
+{
+	padding: 5px;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-toolbar .dxmLite_BudwayDirectMarron .dxm-main
+{
+	margin-top: 1px;
+	border-width: 0px;
+	background: transparent none;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-toolbar .dxmLite_BudwayDirectMarron .dxmtb.dxm-horizontal .dxm-separator 
+{
+	padding: 0px 11px;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-toolbar .dxmLite_BudwayDirectMarron .dxfm-path 
+{
+	padding-left: 1px;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-toolbar .dxmLite_BudwayDirectMarron .dxm-item .dxm-content 
+{
+	padding-top: 4px;
+}
+
+/* FileManager - BreadCrumbs */
+.dxfmControl_BudwayDirectMarron .dxfm-breadCrumbs
+{
+	background-color: #EED8E3;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-breadCrumbs .dxfm-bcItem.dxfm-bcItemH,
+.dxfmControl_BudwayDirectMarron .dxfm-bcPopup .dxfm-bcItem.dxfm-bcItemH
+{
+	background-color: #DBBBDA;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-breadCrumbs .dxfm-bcLineSeparator
+{
+    border-color: #8A0A37;
+}
+
+/* FileManager - Upload Progress Popup*/
+.dxfmControl_BudwayDirectMarron .dxfm-upPopup.dxpc-mainDiv .dxeProgressBarIndicator_BudwayDirectMarron
+{
+    background: #FF8DC6;
+}
+
+/* FileManager - UploadPanel */
+.dxfmControl_BudwayDirectMarron .dxfm-uploadPanel
+{
+	background-color: #EED8E3;
+	text-align: right;
+}
+.dxfmControl_BudwayDirectMarron.dxfm-rtl .dxfm-uploadPanel
+{
+	text-align: left;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-uploadPanel.dxsplPane_BudwayDirectMarron table.dxfm-uploadPanelTable
+{
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 1px;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-uploadPanel.dxsplPane_BudwayDirectMarron table.dxfm-uploadPanelTable .dxucControl_BudwayDirectMarron 
+{
+	margin-right: 10px;
+	margin-top: 3px;
+}
+.dxfmControl_BudwayDirectMarron.dxfm-rtl .dxfm-uploadPanel.dxsplPane_BudwayDirectMarron table.dxfm-uploadPanelTable .dxucControl_BudwayDirectMarron
+{
+	margin-right: 0px;
+	margin-left: 10px;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-uploadPanel.dxsplPane_BudwayDirectMarron table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell
+{
+    padding: 6px 0 0;
+    vertical-align: top;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-uploadPanel.dxsplPane_BudwayDirectMarron table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a 
+{
+	color: #8A0A37;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-uploadPanel.dxsplPane_BudwayDirectMarron table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a:hover 
+{
+	color: #BE458B;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-uploadPanel.dxsplPane_BudwayDirectMarron table.dxfm-uploadPanelTable td.dxfm-uploadPanelTableBCell a.dxfm-uploadDisable 
+{
+	color: #777777;
+	text-decoration: none;
+	cursor: default;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-uploadPanel.dxsplPane_BudwayDirectMarron .dxucTextBox_BudwayDirectMarron {
+	padding: 0px 2px;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-uploadPanel.dxsplPane_BudwayDirectMarron .dxucBrowseButton_BudwayDirectMarron {
+	padding: 2px 8px 3px;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-uploadPanel.dxsplPane_BudwayDirectMarron .dxucBrowseButton_BudwayDirectMarron.dxbf {
+	padding: 2px 7px 3px;
+}
+.dxfmControl_BudwayDirectMarron .dxfm-uploadPanel.dxsplPane_BudwayDirectMarron .dxucSilverlightPluginLinkPanel_BudwayDirectMarron {
+	margin-top: -8px;
+}
+
+/* FileManager - Create, Rename input */
+.dxfmControl_BudwayDirectMarron .dxfm-cInput,
+.dxfmControl_BudwayDirectMarron .dxfm-rInput
+{
+	border: 1px solid #BC758E;
+}
+/* FileManager - item mask */
+.dxfmControl_BudwayDirectMarron .dxfm-itemMask
+{
+	background-color: #8A0A37;
+}
+/* FileManager - Move PopupControl */
+.dxfmControl_BudwayDirectMarron .dxpc-content 
+{
+	padding: 5px 0px 0px;
+	background-color: White;
+}
+.dxfmControl_BudwayDirectMarron .dxpc-content .dxfm-mpFoldersC 
+{
+	overflow: auto;
+	padding: 0px 0px 20px 5px;
+}
+.dxfmControl_BudwayDirectMarron .dxpc-content .dxfm-mpButtonC
+{
+	margin-top: 5px;
+	background-color: #EED8E3;
+	border-top: 1px solid #CB9FB4;
+	text-align: right;
+	padding: 10px 15px 10px 10px;
+}
+.dxfmControl_BudwayDirectMarron .dxpc-content .dxfm-mpButtonC a 
+{
+	margin-left: 12px;
+	color: #1B3F91;
+}
+
+/* ASPxImageSlider */
+.dxisControl_BudwayDirectMarron
+{
+    width: 660px;
+    height: 505px;
+    outline: 0;
+    user-select: none;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxisControl_BudwayDirectMarron .dxis-playPauseBtnWrapper
+{
+    top: 0;
+    right: 0;
+    padding: 6px 12px 6px 14px;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+*[dir="rtl"].dxisControl_BudwayDirectMarron .dxis-playPauseBtnWrapper {
+    right: auto;
+    left: 0;
+}
+.dxisControl_BudwayDirectMarron > .dxis-passePartout
+{
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    height:100%;
+}
+.dxisControl_BudwayDirectMarron .dxis-imageArea
+{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.dxisControl_BudwayDirectMarron .dxis-slidePanel,
+.dxisControl_BudwayDirectMarron .dxis-nbSlidePanel,
+.dxisControl_BudwayDirectMarron .dxis-nbSlidePanelWrapper
+{
+    position: absolute;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbSlidePanelWrapper
+{
+    overflow: hidden;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbTop,
+.dxisControl_BudwayDirectMarron .dxis-nbBottom,
+.dxisControl_BudwayDirectMarron .dxis-nbLeft,
+.dxisControl_BudwayDirectMarron .dxis-nbRight,
+.dxisControl_BudwayDirectMarron .dxis-nbDotsBottom,
+.dxisControl_BudwayDirectMarron .dxis-nbDotsTop,
+.dxisControl_BudwayDirectMarron .dxis-nbDotsLeft,
+.dxisControl_BudwayDirectMarron .dxis-nbDotsRight
+{
+    position: relative;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbTop
+{
+    padding-bottom: 5px;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbBottom
+{
+    padding-top: 5px;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbLeft
+{
+    padding-right: 5px;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbRight
+{
+    padding-left: 5px;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbDotsBottom,
+.dxisControl_BudwayDirectMarron .dxis-nbDotsTop
+{
+    padding: 20px 0;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbDotsLeft
+{
+    padding-right: 20px;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbDotsRight
+{
+    padding-left: 20px;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbLeft,
+.dxisControl_BudwayDirectMarron .dxis-nbRight,
+.dxisControl_BudwayDirectMarron .dxis-nbDotsLeft,
+.dxisControl_BudwayDirectMarron .dxis-nbDotsRight
+{
+    float: left;
+}
+.dxisControl_BudwayDirectMarron .dxis-item,
+.dxisControl_BudwayDirectMarron .dxis-nbItem
+{
+    background-image: url('isLoading.gif');
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbItem .dxis-nbHoverItem
+{
+    display: none;
+    position: absolute;
+    border: 2px solid #9f9f9f;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbItem .dxis-nbHoverItem > div
+{
+    border: 2px solid #ffffff;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbItem.dxis-hover .dxis-nbHoverItem
+{
+    display: block;
+}
+.dxisControl_BudwayDirectMarron .dxis-item,
+.dxisControl_BudwayDirectMarron .dxis-nbItem,
+.dxisControl_BudwayDirectMarron .dxis-nbDotItem
+{
+    position: absolute;
+    overflow: hidden;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbItem,
+.dxisControl_BudwayDirectMarron .dxis-nbDotItem
+{
+    cursor: pointer;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbDotItemSelected,
+.dxisControl_BudwayDirectMarron .dxis-nbDotItemDisabled
+{
+    cursor: default;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbItem
+{
+    width: 90px;
+    height: 60px;
+    background-color: black;
+}
+.dxisControl_BudwayDirectMarron .dxis-itemTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    cursor: default;
+    padding: 22px;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dxisControl_BudwayDirectMarron .dxis-nbSelectedItem
+{
+    z-index: 1;
+    cursor: default;
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.00);
+}
+.dxisControl_BudwayDirectMarron .dxis-nbSelectedItem > div
+{
+    border: 2px solid White;
+}
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertWrapper,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertWrapper,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorWrapper,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorWrapper,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorOutsideWrapper
+{
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorWrapperDisabled,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorOutsideWrapperDisabled,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorWrapperDisabled,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorOutsideWrapperDisabled,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertWrapperDisabled,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertOutsideWrapperDisabled,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertWrapperDisabled,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertOutsideWrapperDisabled
+{
+    cursor: default;
+}
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorWrapper,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorOutsideWrapper
+{
+    left: 0px;
+}
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorWrapper,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorOutsideWrapper
+{
+    right: 0px;
+}
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertWrapper,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertOutsideWrapper
+{
+    top: 0px;
+}
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertWrapper,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertOutsideWrapper
+{
+    bottom: 0px;
+}
+.dxisControl_BudwayDirectMarron > .dxis-passePartout > .dxis-prevBtnHorWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-passePartout > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-passePartout > .dxis-nextBtnHorWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-passePartout > .dxis-nextBtnHorOutsideWrapper
+{
+    top: 50%;
+    margin-top: -32px;
+}
+.dxisControl_BudwayDirectMarron > .dxis-passePartout > .dxis-prevBtnVertWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-passePartout > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-passePartout > .dxis-nextBtnVertWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-passePartout > .dxis-nextBtnVertOutsideWrapper
+{
+    left: 50%;
+    margin-left: -30px;
+}
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHor
+{
+    margin: 16px 12px 16px 8px;
+}
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHor
+{
+    margin: 16px 8px 16px 12px;
+}
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVert
+{
+    margin: 8px 16px 12px 16px;
+}
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVert
+{
+    margin: 12px 16px 8px 16px;
+}
+.dxisControl_BudwayDirectMarron > .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbBottom > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbBottom > .dxis-nextBtnHorWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbBottom > .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbTop > .dxis-prevBtnHorWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbTop > .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbTop > .dxis-nextBtnHorWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbTop > .dxis-nextBtnHorOutsideWrapper
+{
+    height: inherit;
+}
+.dxisControl_BudwayDirectMarron > .dxis-nbLeft > .dxis-prevBtnVertWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbLeft > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbLeft > .dxis-nextBtnVertWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbLeft > .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbRight > .dxis-prevBtnVertWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbRight > .dxis-prevBtnVertOutsideWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbRight > .dxis-nextBtnVertWrapper,
+.dxisControl_BudwayDirectMarron > .dxis-nbRight > .dxis-nextBtnVertOutsideWrapper
+{
+    width: inherit;
+}
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnHor,
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnHorOutside,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnHor,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnHorOutside
+{
+    top: 50%;
+    position: relative;
+    margin: -11px 7px 0 7px;
+}
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnVert,
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnVertOutside,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnVert,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnVertOutside
+{
+    margin: 7px auto 6px;
+}
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevBtnHor,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextBtnHor,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHor,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorOutsideWrapperPressed > .dxis-prevPageBtnHorOutside,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHor,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorOutsideWrapperPressed > .dxis-nextPageBtnHorOutside,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevBtnVert,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextBtnVert,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVert,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertOutsideWrapperPressed > .dxis-prevPageBtnVertOutside,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVert,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertOutsideWrapperPressed > .dxis-nextPageBtnVertOutside,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertPressed,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertPressed,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorPressed,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorPressed,
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnVertPressed,
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnVertOutsidePressed,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnVertPressed,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnVertOutsidePressed,
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnHorPressed,
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnHorOutsidePressed,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnHorPressed,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnHorOutsidePressed,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertDisabled,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertDisabled,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorDisabled,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorDisabled,
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnVertDisabled,
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnVertOutsideDisabled,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnVertDisabled,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnVertOutsideDisabled,
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnHorDisabled,
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnHorOutsideDisabled,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnHorDisabled,
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnHorOutsideDisabled
+{
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+}
+.dxisControl_BudwayDirectMarron .dxis-nextBtnHorOutsideWrapper,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnHorOutsideWrapper,
+.dxisControl_BudwayDirectMarron .dxis-nextBtnVertOutsideWrapper,
+.dxisControl_BudwayDirectMarron .dxis-prevBtnVertOutsideWrapper {
+	background-color: transparent;
+}
+.dxisControl_BudwayDirectMarron .dxis-nextPageBtnHorOutside,
+.dxisControl_BudwayDirectMarron .dxis-prevPageBtnHorOutside {
+	margin-top: -14px;
+}
+/* ASPxImageGallery */
+.dxigControl_BudwayDirectMarron
+{
+    font: 12px Tahoma, Geneva, sans-serif;
+	color: #B5486D;
+}
+.dxigControl_BudwayDirectMarron td.dxigCtrl
+{
+	padding: 0px;
+}
+.dxigContent_BudwayDirectMarron
+{
+	padding: 6px;
+	border-top: 1px Solid #BC758E;
+	border-bottom: 1px Solid #BC758E;
+}
+.dxigEmptyData_BudwayDirectMarron
+{
+	color: #4F4F4F;
+	padding: 12px 40px;
+}
+.dxigEmptyItem_BudwayDirectMarron
+{
+	text-align: left;
+	vertical-align: top;
+}
+.dxigFlowItem_BudwayDirectMarron
+{
+    float: left;
+}
+.dxigItem_BudwayDirectMarron
+{
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-image: url('igLoading.gif');
+}
+.dxigItem_BudwayDirectMarron a
+{
+    outline: 0;
+}
+.dxigItem_BudwayDirectMarron a > img
+{
+    display: block;
+}
+.dxigPagerPanel_BudwayDirectMarron
+{
+	padding-top: 9px;
+	padding-bottom: 7px;
+	background-color: #F5ECF1;
+}
+.dxigItem_BudwayDirectMarron .dxig-thumbnailBorder
+{
+    top: 0;
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.dxigItem_BudwayDirectMarron .dxig-thumbnailWrapper,
+.dxigFlowItem_BudwayDirectMarron
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #EBEBEB;
+}
+.dxigControl_BudwayDirectMarron .dxig-thumbnailTextArea
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+    background-color: #333333;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: none;
+}
+.dxigControl_BudwayDirectMarron .dxpcLite_BudwayDirectMarron .dxpc-mainDiv,
+.dxigControl_BudwayDirectMarron .dxpcLite_BudwayDirectMarron .dxpc-contentWrapper
+{
+    border: 0;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.dxigControl_BudwayDirectMarron .dxpcLite_BudwayDirectMarron .dxpc-content
+{
+    padding: 0;
+    background-color: transparent;
+}
+.dxigControl_BudwayDirectMarron .dxig-imageSliderWrapper
+{
+    overflow: hidden;
+    padding: 50px 65px;
+}
+.dxigControl_BudwayDirectMarron.dxTouchUI .dxig-imageSliderWrapper
+{
+    padding: 0;
+}
+.dxigControl_BudwayDirectMarron .dxig-imageSliderWrapper .dxisControl_BudwayDirectMarron .dxis-item > img
+{
+    box-shadow: 0 0 50px rgb(0,0,0);
+    -moz-box-shadow: 0 0 50px rgb(0,0,0);
+    -webkit-box-shadow: 0 0 50px rgb(0,0,0);
+}
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel > .dxig-overflowPanel
+{
+    overflow: hidden;
+}
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel .dxisControl_BudwayDirectMarron
+{
+    position: relative;
+}
+.dxigControl_BudwayDirectMarron .dxisControl_BudwayDirectMarron > .dxis-passePartout
+{
+    background-color: transparent;
+}
+.dxigControl_BudwayDirectMarron .dxisControl_BudwayDirectMarron .dxis-nbBottom
+{
+    padding: 4px 4px 0 4px;
+}
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper,
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    width: 43px;
+    background: url('igNavBtnsBack.png') repeat-y;
+}
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper
+{
+    background-position: 0 0;
+}
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper
+{
+    background-position: -39px 0;
+}
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapperDisabled,
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapperDisabled
+{
+    display: none;
+}
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor,
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    position: absolute;
+}
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel .dxis-nbBottom > .dxis-prevBtnHorWrapper .dxis-prevPageBtnHor
+{
+}
+.dxigControl_BudwayDirectMarron .dxig-bottomPanel .dxis-nbBottom > .dxis-nextBtnHorWrapper .dxis-nextPageBtnHor
+{
+    right: 0;
+}
+.dxigControl_BudwayDirectMarron .dxig-fullscreenViewerTextArea
+{
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.dxigControl_BudwayDirectMarron .dxig-prevButtonArea,
+.dxigControl_BudwayDirectMarron .dxig-nextButtonArea
+{
+    top: 0;
+    position: absolute;
+}
+.dxigControl_BudwayDirectMarron .dxig-prevButtonArea
+{
+    left: 0;
+}
+.dxigControl_BudwayDirectMarron .dxig-nextButtonArea
+{
+    right: 0;
+}
+.dxigControl_BudwayDirectMarron .dxig-prevButton,
+.dxigControl_BudwayDirectMarron .dxig-nextButton
+{
+    top: 50%;
+    cursor: pointer;
+    position: relative;
+    margin: -32px 11px 0;
+}
+.dxigControl_BudwayDirectMarron .dxig-prevButtonDisabled,
+.dxigControl_BudwayDirectMarron .dxig-nextButtonDisabled
+{
+    cursor: auto;
+    opacity: 0.5;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+}
+.dxigControl_BudwayDirectMarron .dxig-closeButtonWrapper,
+.dxigControl_BudwayDirectMarron .dxig-playPauseButtonWrapper
+{
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.dxigControl_BudwayDirectMarron .dxig-closeButtonWrapper
+{
+    top: 4px;
+    right: 7px;
+}
+.dxigControl_BudwayDirectMarron .dxig-closeButtonWrapper > .dxig-closeButton
+{
+    z-index: 1;
+}
+.dxigControl_BudwayDirectMarron .dxig-playPauseButtonWrapper
+{
+    top: 2px;
+    right: 48px;
+}
+*[dir="rtl"].dxigControl_BudwayDirectMarron .dxig-closeButtonWrapper {
+    left: 7px;
+    right: auto;
+}
+*[dir="rtl"].dxigControl_BudwayDirectMarron .dxig-playPauseButtonWrapper {
+    left: 48px;
+    right: auto;
+}
+.dxigControl_BudwayDirectMarron .dxisControl_BudwayDirectMarron .dxis-nbSelectedItem
+{
+    border: 2px solid #fff;
+}
+.dxigControl_BudwayDirectMarron .dxisControl_BudwayDirectMarron .dxis-nbHoverItem
+{
+    border: 2px solid #9F9F9F
+}
+.dxigControl_BudwayDirectMarron .dxisControl_BudwayDirectMarron .dxis-nbSelectedItem > div,
+.dxigControl_BudwayDirectMarron .dxisControl_BudwayDirectMarron .dxis-nbHoverItem > div
+{
+    border: 2px solid #000;
+}
+.dxigControl_BudwayDirectMarron .dxisControl_BudwayDirectMarron .dxis-nbBottom,
+.dxigControl_BudwayDirectMarron .dxig-fullscreenViewerTextArea
+{
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.dxigControl_BudwayDirectMarron .dxig-overflowPanel .dxig-navigationBarMarker
+{
+    left: 50%;
+    bottom: 0;
+    margin-left: -10px;
+    position: absolute;
+    opacity: 0.7;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=70);
+}
+.dxigPagerShowMoreItemsContainer_BudwayDirectMarron
+{
+    height: 60px;
+	text-align: center;
+}
+.dxigPagerShowMoreItemsContainer_BudwayDirectMarron a
+{
+	display: block;
+	padding-top: 21px;
+	color: #8A0A37;
+}
+.dxigPagerShowMoreItemsContainer_BudwayDirectMarron a:hover
+{
+	color: #BE458B;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxfmControl_BudwayDirectMarron,
+.dxnbGroupHeader_BudwayDirectMarron,
+.dxnbGroupHeaderCollapsed_BudwayDirectMarron,
+.dxnbGroupContent_BudwayDirectMarron > TABLE > TBODY > TR,
+.dxtcTab_BudwayDirectMarron,
+.dxtcActiveTab_BudwayDirectMarron,
+.dxtv-nd_BudwayDirectMarron
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Form Layout */
+.dxflFormLayout_BudwayDirectMarron {
+    display: table;
+    font: 12px Tahoma, Geneva, sans-serif;
+    font-weight: inherit;
+	color: #303030;
+}
+
+.dxflButtonItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron { padding-top: 3px; }
+.dxflButtonItemSys .dxflVAMSys.dxflCaptionCell_BudwayDirectMarron { padding-bottom: 1px; }
+.dxflTextItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron { padding-top: 0px; }
+.dxflTextEditItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron,
+.dxflViewFormLayoutSys .dxflItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron,
+.dxflViewFormLayoutSys .dxflItemSys .dxflNestedControlCell_BudwayDirectMarron {
+     padding-top: 3px;
+}
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItemSys .dxflNestedControlCell_BudwayDirectMarron {
+     padding-top: 0;
+}
+.dxflCheckBoxItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron { padding-top: 3px; }
+.dxflRadioButtonItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron { padding-top: 3px; }
+.dxflCheckBoxListItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron { padding-top: 10px; }
+.dxflRadioButtonListItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron { padding-top: 11px; }
+.dxflListBoxItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron { padding-top: 4px; }
+.dxflTrackBarItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron { padding-top: 5px; }
+.dxflProgressBarItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron { padding-top: 4px; }
+.dxflMemoItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron { padding-top: 3px; }
+.dxflCustomItemSys .dxflVATSys.dxflCaptionCell_BudwayDirectMarron { padding-top: 3px; }
+
+.dxflCLTSys .dxflCaptionCell_BudwayDirectMarron,
+.dxflCLBSys .dxflCaptionCell_BudwayDirectMarron {
+    padding: 3px 0;
+}
+
+.dxflCLLSys .dxflCaptionCell_BudwayDirectMarron,
+*[dir="rtl"].dxflFormLayout_BudwayDirectMarron .dxflCLRSys .dxflCaptionCell_BudwayDirectMarron {
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.dxflCLRSys .dxflCaptionCell_BudwayDirectMarron,
+*[dir="rtl"].dxflFormLayout_BudwayDirectMarron .dxflCLLSys .dxflCaptionCell_BudwayDirectMarron {
+    padding-right: 0px;
+    padding-left: 6px;
+}
+.dxflCaptionCell_BudwayDirectMarron {
+    white-space: nowrap;
+    line-height: 16px;
+    height: 100%;
+}
+div.dxflTextItemSys .dxflNestedControlCell_BudwayDirectMarron {
+    line-height: 16px;
+}
+.dxflCaptionCell_BudwayDirectMarron {
+    width: 1%;
+}
+td.dxflNestedControlCell_BudwayDirectMarron {
+    height: 0;
+}
+
+.dxflEmptyItem_BudwayDirectMarron {
+    height: 21px;
+}
+
+.dxflItem_BudwayDirectMarron { width: 100%; }
+.dxflItem_BudwayDirectMarron,
+.dxflViewFormLayoutSys .dxflEditFormItemSys.dxflItem_BudwayDirectMarron {
+    padding: 2px 0;
+}
+.dxflViewFormLayoutSys .dxflItem_BudwayDirectMarron {
+    padding-bottom: 4px;
+}
+.dxflItem_BudwayDirectMarron > table.dxflItemTable_BudwayDirectMarron { width: 100%; }
+.dxflGroup_BudwayDirectMarron { padding: 6px 5px; width: 100%;}
+.dxflGroup_BudwayDirectMarron > table.dxflGroupTable_BudwayDirectMarron { width: 100%; }
+.dxflGroupCell_BudwayDirectMarron { padding: 0 8px; }
+
+.dxflGroupBox_BudwayDirectMarron {
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    border: 1px Solid #660000;
+    padding: 0 0 12px;
+    margin: 10px 0; 
+}
+.dxflGroupBox_BudwayDirectMarron.dxflHeadingLineGroupBoxSys {
+    border-width: 1px 0 0;
+}
+.dxflGroupBox_BudwayDirectMarron.dxflHeadingLineGroupBoxSys.dxflWithCaptionSys {
+    margin-top: 22px!important;
+}
+.dxflHeadingLineGroupBoxSys > .dxflGroup_BudwayDirectMarron {
+    margin-top: -6px;
+}
+
+.dxflGroupCell_BudwayDirectMarron > .dxtcControl_BudwayDirectMarron { margin: 0px; }
+
+.dxflGroupBox_BudwayDirectMarron > .dxflGroup_BudwayDirectMarron { margin-top: -9px; padding: 0 4px; }
+
+.dxflGroupBox_BudwayDirectMarron > .dxflGroup_BudwayDirectMarron tr:first-child > .dxflGroupCell_BudwayDirectMarron > .dxflItem_BudwayDirectMarron,
+.dxflGroupBox_BudwayDirectMarron > .dxflGroup_BudwayDirectMarron > .dxflChildInFirstRowSys > .dxflGroupCell_BudwayDirectMarron > .dxflItem_BudwayDirectMarron { 
+    padding-top: 9px;
+}
+
+.dxflGroupBox_BudwayDirectMarron > .dxflGroup_BudwayDirectMarron tr:first-child > .dxflGroupCell_BudwayDirectMarron > .dxtcControl_BudwayDirectMarron,
+.dxflGroupBox_BudwayDirectMarron > .dxflGroup_BudwayDirectMarron > .dxflChildInFirstRowSys > .dxflGroupCell_BudwayDirectMarron > .dxtcControl_BudwayDirectMarron {
+    margin-top: 10px;
+}
+
+.dxflGroupBox_BudwayDirectMarron > .dxflGroup_BudwayDirectMarron tr:last-child > .dxflGroupCell_BudwayDirectMarron > .dxflItem_BudwayDirectMarron,
+.dxflGroupBox_BudwayDirectMarron > .dxflGroup_BudwayDirectMarron > .dxflChildInLastRowSys > .dxflGroupCell_BudwayDirectMarron > .dxflItem_BudwayDirectMarron {
+    padding-bottom: 0px;
+}
+
+.dxflGroup_BudwayDirectMarron tr:first-child > .dxflGroupCell_BudwayDirectMarron > .dxflGroupBox_BudwayDirectMarron,
+.dxflGroup_BudwayDirectMarron > .dxflChildInFirstRowSys > .dxflGroupCell_BudwayDirectMarron > .dxflGroupBox_BudwayDirectMarron {
+    margin-top: 13px;
+}
+
+.dxflGroup_BudwayDirectMarron tr:last-child > .dxflGroupCell_BudwayDirectMarron > .dxflGroupBox_BudwayDirectMarron,
+.dxflGroup_BudwayDirectMarron > .dxflChildInLastRowSys > .dxflGroupCell_BudwayDirectMarron > .dxflGroupBox_BudwayDirectMarron {
+    margin-bottom: 0px;
+}
+
+.dxtcPageContent_BudwayDirectMarron > div > .dxflGroup_BudwayDirectMarron { padding-top: 0px; padding-bottom: 0px; }
+
+.dxtcPageContent_BudwayDirectMarron > div > .dxflGroup_BudwayDirectMarron tr:first-child > .dxflGroupCell_BudwayDirectMarron > .dxflItem_BudwayDirectMarron,
+.dxtcPageContent_BudwayDirectMarron > div > .dxflGroup_BudwayDirectMarron > .dxflChildInFirstRowSys > .dxflGroupCell_BudwayDirectMarron > .dxflItem_BudwayDirectMarron {
+    padding-top: 12px;
+}
+
+.dxtcPageContent_BudwayDirectMarron > div > .dxflGroup_BudwayDirectMarron tr:last-child > .dxflGroupCell_BudwayDirectMarron > .dxflItem_BudwayDirectMarron,
+.dxtcPageContent_BudwayDirectMarron > div > .dxflGroup_BudwayDirectMarron > .dxflChildInLastRowSys > .dxflGroupCell_BudwayDirectMarron > .dxflItem_BudwayDirectMarron {
+    padding-bottom: 12px;
+}
+
+.dxflGroupBoxCaption_BudwayDirectMarron
+{
+	background: White;
+	color: #C04000;
+	display: inline-block;
+	left: 9px;
+	margin-right: 18px;
+	line-height: 16px;
+	padding: 0px 3px;
+	position: relative;
+	top: -9px;
+}
+
+*[dir="rtl"].dxflFormLayout_BudwayDirectMarron .dxflGroupBoxCaption_BudwayDirectMarron {
+    padding: 0px 3px 0px 7px;
+    left: 0px;
+    right: 9px;
+    margin-left: 18px;
+    margin-right: 0;
+}
+
+.dxflGroupBox_BudwayDirectMarron > div.dxflGroup_BudwayDirectMarron:first-child,
+.dxflGroupBox_BudwayDirectMarron > table.dxflGroup_BudwayDirectMarron:first-child {
+    margin-top: 0px;
+    padding-top: 7px;
+}
+
+.dxflHeadingLineGroupBoxSys > .dxflGroupBoxCaption_BudwayDirectMarron {
+    top: -19px;
+}
+
+.dxflOptional_BudwayDirectMarron {
+	color: gray;
+	font-style: normal;
+}
+.dxflRequired_BudwayDirectMarron {
+	color: green;
+	font-style: normal;
+}
+.dxflInternalEditorTable_BudwayDirectMarron {
+    width: 100%;
+}
+.dxflHelpText_BudwayDirectMarron {
+    color: #9F9F9F;
+    font-size: 0.91em;
+}
+.dxflHelpText_BudwayDirectMarron.dxflLHelpTextSys,
+.dxflHelpText_BudwayDirectMarron.dxflRHelpTextSys {
+    padding: 0 6px;
+}
+.dxflHelpText_BudwayDirectMarron.dxflTHelpTextSys {
+    padding: 6px 0 2px;
+}
+.dxflHelpText_BudwayDirectMarron.dxflBHelpTextSys {
+    padding: 2px 0 6px;
+}
+
+/* Ribbon */
+.dxrControl_BudwayDirectMarron {
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxrControl_BudwayDirectMarron .dxr-tabContent {
+    border: 1px solid #a9a9a9;
+    border-top-width: 0px;
+    height: 95px;
+    background: #f2f2f2;
+}
+.dxrControl_BudwayDirectMarron.dxr-oneLineMode .dxr-tabContent,
+.dxrControl_BudwayDirectMarron.dxr-grLabelsHidden.dxr-oneLineMode .dxr-tabContent {
+    height: 31px;
+}
+.dxrControl_BudwayDirectMarron.dxr-grLabelsHidden .dxr-tabContent {
+    height: 81px;
+}
+.dxrControl_BudwayDirectMarron.dxr-tabsHidden .dxr-tabContent {
+    border-top-width: 1px;
+}
+.dxrControl_BudwayDirectMarron, 
+.dxrControl_BudwayDirectMarron a {
+    color: #000000;
+}
+.dxrControl_BudwayDirectMarron .dxr-itemDisabled.dxr-item,
+.dxrControl_BudwayDirectMarron .dxr-groupLabelDisabled.dxr-groupLabel,
+.dxrControl_BudwayDirectMarron .dxr-grExpBtnDisabled.dxr-grExpBtn,
+.dxrControl_BudwayDirectMarron .dxr-grExpBtnDisabled.dxr-grExpBtn .dxr-img32,
+.dxrControl_BudwayDirectMarron .dxr-minBtn.dxr-minBtnDisabled,
+.dxrControl_BudwayDirectMarron .dxr-itemDisabled a,
+.dxrControl_BudwayDirectMarron .dxr-olmGrExpBtn.dxr-olmGrExpBtnDisabled {
+    cursor: default;
+    color: #bcaab0;
+}
+
+/* Ribbon Popup */
+.dxrControl_BudwayDirectMarron .dxr-minPopupWindow {
+    padding: 0;
+}
+.dxrControl_BudwayDirectMarron .dxr-minPopup.dxpc-mainDiv,
+.dxrControl_BudwayDirectMarron .dxpc-contentWrapper {
+    border: 0;
+}
+.dxrControl_BudwayDirectMarron .dxr-groupPopup .dxpc-mainDiv {
+    border: 1px solid #a9a9a9;
+}
+
+/* Ribbon Group List */
+.dxrControl_BudwayDirectMarron .dxr-groupList {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-groupList .dxr-groupSep {
+    height: 100%;
+    list-style: none;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-groupList .dxr-groupSep b {
+    display: block;
+    width: 1px;
+    margin: 8px 0;
+    height: 79px;
+    background: #a9a9a9;
+}
+.dxrControl_BudwayDirectMarron.dxr-oneLineMode .dxr-groupList .dxr-groupSep b {
+    height: 15px;
+}
+.dxrControl_BudwayDirectMarron.dxr-grLabelsHidden .dxr-groupList .dxr-groupSep b {
+    height: 65px;
+}
+
+/* Ribbon Groups */
+.dxrControl_BudwayDirectMarron .dxr-groupList .dxr-group {
+    margin: 3px 3px 0 3px;
+    text-align: center;
+}
+.dxrControl_BudwayDirectMarron .dxr-groupContent {
+    height: 75px;
+}
+.dxrControl_BudwayDirectMarron.dxr-oneLineMode .dxr-groupContent {
+    height: 31px;
+}
+.dxrControl_BudwayDirectMarron .dxr-groupLabel {
+    text-align: center;
+    color: #aa1248;
+    line-height: 15px;
+    padding: 0px 5px 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.dxrControl_BudwayDirectMarron .dxr-grDialogBoxLauncher {
+	float: right;
+	margin: 2px -3px 0 5px;
+	cursor: pointer;
+}
+.dxrControl_BudwayDirectMarron .dxr-grExpBtn,
+.dxrControl_BudwayDirectMarron .dxr-grExpBtn .dxr-img32 {
+    cursor: pointer;
+}
+.dxrControl_BudwayDirectMarron .dxr-grExpBtn {
+    height: 87px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.dxrControl_BudwayDirectMarron .dxr-groupPopupWindow {
+    padding: 2px 3px;
+}
+.dxrControl_BudwayDirectMarron .dxr-olmGrExpBtn {
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 0 3px;
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_BudwayDirectMarron .dxr-groupContent .dxr-olmGrExpBtn .dxr-label {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.dxrControl_BudwayDirectMarron .dxr-olmGrExpBtn .dxr-popOut {
+    padding: 7px 3px;
+    font-size: 0;
+}
+
+/* Ribbon Item Separator */
+.dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-itemSep,
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-itemSep {
+    width: 3px;
+}
+.dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-itemSep b,
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-itemSep b {
+    display: block;
+    background: #cccccc;
+    width: 1px;
+}
+.dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-itemSep b {
+    margin: 3px auto;
+    height: 19px;
+}
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-itemSep b {
+    margin: 4px auto;
+    height: 67px;
+}
+
+/* Ribbon Item */
+.dxrControl_BudwayDirectMarron .dxr-item {
+    border: 1px solid transparent;
+}
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-item,
+.dxrControl_BudwayDirectMarron .dxr-blSepItems .dxr-item,
+.dxrControl_BudwayDirectMarron.dxr-grLabelsHidden .dxr-grExpBtn {
+    text-align: center;
+    height: 73px;
+}
+.dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-item,
+.dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-item {
+    height: 23px;
+    white-space: nowrap;
+}
+.dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-item {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-item {
+    margin: 0 3px;
+}
+.dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-item .dxr-lblText {
+    padding-left: 2px;
+    padding-right: 3px;
+}
+.dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-item .dxr-popOut {
+    height: 100%;
+    margin-left: 1px;
+}
+
+/* Ribbon Item Label */
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-item .dxr-label {
+    border-top: 1px solid transparent;
+    width: 100%;
+}
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-item .dxr-label .dxr-lblContent,
+.dxrControl_BudwayDirectMarron .dxr-grExpBtn .dxr-lblContent {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label,
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label {
+    border-top: 1px solid #8A0A37;
+}
+.dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-item .dxr-label,
+.dxrControl_BudwayDirectMarron .dxr-olmGrExpBtn .dxr-label {
+    margin: 3px 0;
+    line-height: 100% !important;
+    padding: 2px 0;
+    line-height: 100%;    
+    text-decoration: inherit;
+    vertical-align: middle;
+    display: inline-block !important;
+}
+
+/* Ribbon Item Label PopOut */
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-item .dxr-label .dxr-popOut,
+.dxrControl_BudwayDirectMarron .dxr-grExpBtn .dxr-popOut {
+    margin: -1px 3px 1px;
+}
+.dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-item .dxr-popOut {
+    padding: 10px 3px 9px 3px;
+    margin: -8px 0 -6px;
+    border-left: 1px solid transparent;
+    font-size: 0;
+}
+.dxSafari .dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxSafari .dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-item .dxr-popOut    
+{
+	margin: -9px 0 -6px;
+}
+noindex:-o-prefocus, 
+.dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-item .dxr-popOut,
+.dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-item .dxr-popOut    
+{
+    margin: -8px 0 -7px;
+}
+.dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-item.dxr-itemHover.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut,
+.dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-item.dxr-itemPressed.dxr-ddMode .dxr-label .dxr-popOut {
+    border-left: 1px solid #8A0A37;
+}
+
+/* Ribbon Editors Item */
+.dxrControl_BudwayDirectMarron .dxr-item.dxr-edtItem {
+    border: 0;
+    padding: 1px 0;
+    height: 23px;
+}
+.dxrControl_BudwayDirectMarron .dxr-item.dxr-edtItem .dxr-label {
+    padding-right: 3px;
+}
+
+/* Ribbon Item Types */
+.dxrControl_BudwayDirectMarron .dxr-buttonItem {
+    cursor: pointer;
+    text-decoration: none;
+}
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-buttonItem,
+.dxrControl_BudwayDirectMarron .dxr-grExpBtn {
+    min-width: 42px;
+}
+.dxrControl_BudwayDirectMarron .dxr-buttonItem.dxr-itemChecked {
+    background: #CB4F7B url('mItemSBack.gif') repeat-x top;
+}
+.dxrControl_BudwayDirectMarron .dxr-buttonItem.dxr-itemPressed,
+.dxrControl_BudwayDirectMarron .dxr-olmGrExpBtn.dxr-itemPressed {
+    background: #CB4F7B url('mItemSBack.gif') repeat-x top;
+}
+.dxrControl_BudwayDirectMarron .dxr-buttonItem.dxr-itemHover,
+.dxrControl_BudwayDirectMarron .dxr-grExpBtn.dxr-grExpBtnHover,
+.dxrControl_BudwayDirectMarron .dxr-olmGrExpBtn.dxr-itemHover {
+    background: #dbbbda;
+}
+.dxrControl_BudwayDirectMarron .dxr-img32,
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    width: 32px;
+    height: 32px;
+    margin: 2px auto 1px auto;
+}
+.dxrControl_BudwayDirectMarron .dxr-img16,
+.dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16,
+.dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 {
+    width: 16px;
+    height: 16px;
+    margin: 3px;
+}
+.dxrControl_BudwayDirectMarron .dxr-ddImageContainer {
+    display: inline-block;
+}
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-ddImageContainer {
+    width: 100%;
+}
+
+/* Ribbon Color Button */
+.dxrControl_BudwayDirectMarron .dxr-colorBtn .dxr-colorDiv {
+    height: 4px;
+    width: 16px;
+    display: block;
+    margin: -6px 0 2px 3px;
+    position: relative;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-colorBtn .dxr-colorDiv {
+    width: 32px;
+    margin: -5px auto 1px;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-blLrgItems .dxr-colorBtn .dxr-colorBtnNoImg32 .dxr-colorDiv,
+.dxrControl_BudwayDirectMarron .dxr-blRegItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv,
+.dxrControl_BudwayDirectMarron .dxr-blHorItems .dxr-colorBtn .dxr-colorBtnNoImg16 .dxr-colorDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.dxrControl_BudwayDirectMarron .dxpc-content.dxr-itemDDPopup {
+    padding: 0;
+}
+
+.dxrControl_BudwayDirectMarron .dxeColorTable_BudwayDirectMarron {
+    border: none;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-minBtn {
+    cursor: pointer;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    font-size: 0;
+    text-align:center;
+    vertical-align: middle;
+    line-height: 14px;
+}
+.dxrControl_BudwayDirectMarron .dxr-minBtn img {
+    vertical-align: middle;
+}
+
+/* Ribbon TabControl */
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-tab {
+    background: transparent;
+    border-top-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom: 1px solid #a74768;
+}
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-tab .dxtc-link {
+    color: #FFFFFF;
+}
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-tab.dxtc-tabHover
+{
+	background: #c894c6 url('rTabHoverBack.png') repeat-x;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #6c2668 #6c2668 #a74768 #6c2668;
+}
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-tab .dxtc-link {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-tab.dxtc-tabHover .dxtc-link,
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-tab.dxr-fileTab {
+    background: #3e5395 url('rFileTabBack.png') repeat-x;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #8a0a37 #8a0a37 #a74768 #8a0a37;
+}
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-tabHover.dxr-fileTab {
+    background: #4a62a5 url('rFileTabHoverBack.png') repeat-x;
+}
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxr-fileTabPressed.dxr-fileTab {
+    background: #344271 url('rFileTabPressedBack.png') repeat-x;
+}
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-tab.dxr-fileTab .dxtc-link {
+    color: #FFFFFF;
+}
+
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-leftIndent, 
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-spacer, 
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-rightIndent, 
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-sbWrapper, 
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-sbIndent, 
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-sbSpacer
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-spacer.dxr-fileTabSpacing {
+    border-bottom-color: #a74768;
+}
+
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-spacer {
+    width: 3px;
+}
+
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxr-fileTab .dxtc-link,
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxr-fileTab.dxtc-tabHover .dxtc-link {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-tab .dxtc-link,
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-activeTab .dxtc-link {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-activeTab {
+    background: #f2f2f2;
+    border-color: #a74768;
+}
+
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-activeTab .dxtc-link {
+    color: #000000;
+}
+
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtcLiteDisabled_BudwayDirectMarron .dxtc-link,
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtcLiteDisabled_BudwayDirectMarron.dxtc-tab .dxtc-link {
+    color: #aaaaaa;
+}
+
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-leftIndent {
+    width: 3px;
+}
+
+.dxrControl_BudwayDirectMarron .dxtcLite_BudwayDirectMarron.dxtc-top .dxtc-rightIndent {
+    text-align: right;
+}
+
+/*Ribbon Gallery Control*/
+.dxrControl_BudwayDirectMarron .dxr-item.dxr-glrBarItem
+{
+    border: 1px solid #a9a9a9;
+    background-color: white;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrBarContainer
+{
+    margin-right: 14px;
+    height: 71px;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrItem.dxr-itemDisabled
+{
+    cursor: default;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrItem.dxr-itemHover,
+.dxrControl_BudwayDirectMarron .dxr-glrBtnHover
+{
+    background: #DBBBDA none;
+    border-color: #DBBBDA;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrItem.dxr-itemChecked
+{
+    background: #CB4F7B;
+    border-color: #DBBBDA;
+    color: White;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrItem.dxr-itemPressed
+{
+    background: #CB4F7B;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrBtnPressed
+{
+    background: #CB4F7B url('mItemSBack.gif') repeat-x top;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrItemContent
+{
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrImgBottom .dxr-glrItemContent,
+.dxrControl_BudwayDirectMarron .dxr-glrImgTop .dxr-glrItemContent
+{
+    text-align: center;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrImgRight .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrImgLeft .dxr-glrItemContent img
+{
+    vertical-align: middle;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrNoText .dxr-glrItemContent img
+{
+    display: block;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrItemText
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrImgLeft .dxr-glrItemText,
+.dxrControl_BudwayDirectMarron .dxr-glrImgRight .dxr-glrItemText
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrGroup
+{
+    color: #9A6B82;
+    background-color: #EED8E3;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrMainDiv
+{
+    text-align: left;
+    font-size: 0px;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrMainDiv > div
+{
+    font-size: 12px;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrBarItem .dxr-glrButtons
+{
+    float: right;
+    height: 100%;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrBarItem .dxr-glrButtons div
+{
+    height: 24px;
+    border-left: 1px solid #a9a9a9;
+    border-bottom: 1px solid #a9a9a9;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 0px;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrBarItem .dxr-glrButtons img
+{
+    position: relative;
+    top: 50%;
+    margin-top: -2px;
+    margin-bottom: 3px;
+}
+
+.dxrControl_BudwayDirectMarron .dxr-glrBarItem .dxr-glrButtons .dxr-itemDisabled
+{
+    cursor: default;
+}
+
+/* DocumentViewer Ribbon */
+.dxrControl_BudwayDirectMarron .dxr-tmplItem .dxxrdvrCurrentPageLabel {
+    padding: 0 0 2px 0;
+    display: block;
+}
+.dxrControl_BudwayDirectMarron .dxr-tmplItem .dxxrdvrPageCountLabel {
+    padding: 1px 0 0 0;
+    display: block;
+}
+.dxrControl_BudwayDirectMarron .dxr-tmplItem .dxxrdvrPageNumberComboBox {
+    width: 100px;
+}
+.dxrControl_BudwayDirectMarron.dxr-oneLineMode .dxr-tmplItem .dxxrdvrPageNumberComboBox {
+    float: left;
+    width: 70px;
+    padding: 0;
+}
+.dxrControl_BudwayDirectMarron.dxr-oneLineMode .dxr-tmplItem .dxxrdvrCurrentPageLabel {
+    float: left;
+    padding: 4px 4px 0 2px;
+}
+.dxrControl_BudwayDirectMarron.dxr-oneLineMode .dxr-tmplItem .dxxrdvrPageCountLabel {
+    float: left;
+    padding: 4px 2px 0 4px;
+}
+
+/* ASPxImageZoom */
+.dxizControl_BudwayDirectMarron {
+    border: 1px solid #d8d8d8;
+}
+.dxizControl_BudwayDirectMarron .dxiz-hint {
+    padding: 3px;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_BudwayDirectMarron .dxiz-hint > span {
+    margin-left: 3px;
+    color: gray;
+	vertical-align: top;
+    font: 12px Tahoma, Geneva, sans-serif;
+}
+.dxizControl_BudwayDirectMarron .dxiz-EWCloseButton {
+	top: 0;
+	right: 1px;
+	cursor: pointer;
+	position: absolute;
+}
+.dxizControl_BudwayDirectMarron .dxiz-expandWindow .dxpc-content {
+    height: inherit;
+}
+.dxizControl_BudwayDirectMarron .dxiz-wrapper {
+    position: relative;
+}
+.dxizControl_BudwayDirectMarron .dxiz-wrapper > img,
+.dxizControl_BudwayDirectMarron .dxiz-clipPanel > img,
+.dxizControl_BudwayDirectMarron .dxiz-expandWindow .dxpc-content > img {
+    display: block;
+}
+.dxizControl_BudwayDirectMarron .dxiz-clipPanel > img {
+    position: absolute;
+}
+.dxizControl_BudwayDirectMarron .dxiz-clipPanel {
+    overflow: hidden;
+    position: relative;
+}
+.dxizControl_BudwayDirectMarron .dxiz-clipPanel.dxiz-inside {
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+}
+.dxizControl_BudwayDirectMarron .dxpcLite .dxpc-content {
+    padding: 0;
+}
+
+.dxizControl_BudwayDirectMarron .dxiz-lens {
+    overflow: hidden;
+    top: 0;
+    position: absolute;
+}
+.dxizControl_BudwayDirectMarron .dxiz-lens > .dxiz-pc {
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=0);
+	z-index: 1;
+    position: absolute;
+}
+.dxizControl_BudwayDirectMarron .dxiz-lens .dxiz-llp,
+.dxizControl_BudwayDirectMarron .dxiz-lens .dxiz-lrp,
+.dxizControl_BudwayDirectMarron .dxiz-lens .dxiz-ltp,
+.dxizControl_BudwayDirectMarron .dxiz-lens .dxiz-lbp,
+.dxizControl_BudwayDirectMarron .dxiz-lens .dxiz-lcp {
+    position: absolute;
+}
+.dxizControl_BudwayDirectMarron .dxiz-lens .dxiz-lcp {
+	background: white;
+	outline: 1px solid #969292;
+    outline: 1px solid rgba(128,128,128,0.5);
+	filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=50);
+	background: rgba(255,255,255,0.5);
+}
+.dxizControl_BudwayDirectMarron .dxiz-lens.outside .dxiz-lcp {
+    background: transparent;
+	outline: 1px solid black;
+    outline: 1px solid rgba(0,0,0,0.5);
+}
+.dxizControl_BudwayDirectMarron .dxiz-lens.outside .dxiz-llp,
+.dxizControl_BudwayDirectMarron .dxiz-lens.outside .dxiz-lrp,
+.dxizControl_BudwayDirectMarron .dxiz-lens.outside .dxiz-ltp,
+.dxizControl_BudwayDirectMarron .dxiz-lens.outside .dxiz-lbp {
+    opacity: 0.25;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Style=0, Opacity=25);
+    background-color: #000;
+}
+.dxizControl_BudwayDirectMarron .dxizLoadingPanel_BudwayDirectMarron {
+    position: absolute;
+}
+
+.dxisControl_BudwayDirectMarron.dxis-zoomNavigator .dxis-nbItem {
+	width: 75px;
+    height: 75px;
+}
+
+/* OfficeControls */
+.dxitcControl_BudwayDirectMarron
+{
+    background-color: #F5F5F5;
+    padding-bottom: 2px;
+    border: 1px solid #A74768;
+}
+.dxitcControl_BudwayDirectMarron > div:first-child
+{
+    padding: 1px;
+}
+.dxitcControl_BudwayDirectMarron .dxitcItem
+{
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border: 1px solid #CCC;
+    background-color: white;
+}
+.dxitcControl_BudwayDirectMarron .dxitcItemHover
+{
+    margin: 0px;
+    border: 2px solid #CB4F7B;
+}
+.dxitcCaption_BudwayDirectMarron
+{
+    background-color: #EEE;
+    padding: 2px;
+    border: 1px solid #CCC;
+    margin: 2px 2px 0px 2px;
+}
+

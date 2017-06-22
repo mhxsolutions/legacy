@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsServiceCalculationResult, BopsDataAccess" table="[RFS Service Calculation Results]" lazy="false">
+    <id name="ResultId" column="[Result ID]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="LoadRef" column="[Load]"/>
+    <property name="ServiceId" column="[Service Ref]"/>
+    <property name="CalculationScope" column="[Calculation Scope]"/>
+    <component name="PrivateRate">
+      <property name="RfsResult" column="[Private RFS Result Type]"/>
+      <property name="FscResult" column="[Private FSC Result Type]"/>
+      <property name="RfsRevenue" column="[Private RFS Revenue]"/>
+      <property name="FscRevenue" column="[Private FSC Revenue]"/>
+      <property name="CalculationDetails" column="[Private Calculation Details]"/>
+    </component>
+    <component name="PublicRate">
+      <property name="RfsResult" column="[Public RFS Result Type]"/>
+      <property name="FscResult" column="[Public FSC Result Type]"/>
+      <property name="RfsRevenue" column="[Public RFS Revenue]"/>
+      <property name="FscRevenue" column="[Public FSC Revenue]"/>
+      <property name="CalculationDetails" column="[Public Calculation Details]"/>
+    </component>
+    <property name="DocumentId" column="[Warehouse Document Id]"/>
+    <property name="DocumentType" column="[Warehouse Document Type]"/>
+    <property name="BillingDate" column="[Billing Date]"/>
+    <property name="BillingStatus" column="[Billing Status Ref]"/>
+    <property name="CompanyRef" column="[Company ID ref]"/>
+  </class>
+</hibernate-mapping>

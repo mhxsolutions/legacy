@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsCalculationResultType, BopsDataAccess" table="[RFS Calculation Result Types]" lazy="false">
+    <id name="ResultTypeId" column="[RFS Calculation Result Type ID]" unsaved-value="0">
+      <generator class="assigned" />
+    </id>
+    <property name="Description" column="[Description]"/>
+    <property name="ResolutionSuggestions" column="[Resolution Suggestions]"/>
+  </class>
+</hibernate-mapping>

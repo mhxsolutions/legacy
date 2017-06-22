@@ -1,0 +1,123 @@
+/* Sprite */
+.dxGridView_gvHeaderSortDown_iOS,
+.dxGridView_gvHeaderSortUp_iOS,
+.dxGridView_gvExpandedButton_iOS,
+.dxGridView_gvCollapsedButton_iOS,
+.dxGridView_gvDragAndDropArrowDown_iOS,
+.dxGridView_gvDragAndDropArrowUp_iOS,
+.dxGridView_gvHeaderFilter_iOS,
+.dxGridView_gvHeaderFilterActive_iOS,
+.dxGridView_gvCollapsedButtonRtl_iOS,
+.dxGridView_gvExpandedButtonRtl_iOS,
+.dxGridView_gvDetailCollapsedButton_iOS,
+.dxGridView_gvDetailCollapsedButtonRtl_iOS,
+.dxGridView_gvDetailExpandedButton_iOS,
+.dxGridView_gvDetailExpandedButtonRtl_iOS,
+.dxGridView_gvDragAndDropHideColumn_iOS,
+.dxGridView_gvFilterRowButton_iOS,
+.dxGridView_gvParentGroupRows_iOS,
+.dxGridView_WindowResizer_iOS,
+.dxGridView_WindowResizerRtl_iOS
+{
+    background-image: url('sprite.png');
+    -background-image: url('sprite.gif'); /* for IE6 */
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.dxGridView_gvCollapsedButton_iOS,
+.dxGridView_gvCollapsedButtonRtl_iOS {
+    background-position: -47px 0px;
+    width: 20px;
+    height: 39px;
+}
+
+.dxGridView_gvExpandedButton_iOS,
+.dxGridView_gvExpandedButtonRtl_iOS {
+    background-position: -100px 0px;
+    width: 20px;
+    height: 39px;
+}
+
+.dxGridView_gvDetailCollapsedButton_iOS,
+.dxGridView_gvDetailCollapsedButtonRtl_iOS {
+    background-position: -37px 0px;
+    width: 39px;
+    height: 39px;
+}
+
+.dxGridView_gvDetailExpandedButton_iOS,
+.dxGridView_gvDetailExpandedButtonRtl_iOS {
+    background-position: -90px 0px;
+    width: 39px;
+    height: 39px;
+}
+
+.dxGridView_gvHeaderFilter_iOS {
+    background-position: 0px -34px;
+    width: 16px;
+    height: 15px;
+}
+
+.dxGridView_gvHeaderFilterActive_iOS {
+    background-position: -17px -34px;
+    width: 16px;
+    height: 15px;
+}
+
+.dxGridView_gvHeaderSortDown_iOS {
+    background-position: -18px 0px;
+    width: 9px;
+    height: 17px;
+}
+
+.dxGridView_gvHeaderSortUp_iOS {
+    background-position: -28px 0px;
+    width: 9px;
+    height: 17px;
+}
+
+.dxGridView_gvDragAndDropArrowDown_iOS {
+    background-position: 0px 0px;
+    width: 11px;
+    height: 9px;
+}
+
+.dxGridView_gvDragAndDropArrowUp_iOS {
+    background-position: 0px -17px;
+    width: 11px;
+    height: 9px;
+}
+
+.dxGridView_gvDragAndDropHideColumn_iOS {
+    background-position: -72px 0px;
+    width: 22px;
+    height: 22px;
+}
+
+.dxGridView_gvFilterRowButton_iOS 
+{
+    background-position: 0px -34px;
+    width: 16px;
+    height: 15px;
+}
+
+.dxGridView_gvParentGroupRows_iOS {
+    background-position: -72px -36px;
+    width: 18px;
+    height: 13px;
+}
+
+.dxGridView_WindowResizer_iOS {
+    background-position: -38px -39px;
+    width: 19px;
+    height: 19px;
+    padding: 2px;
+}
+
+.dxGridView_WindowResizerRtl_iOS {
+    background-position: -101px -42px;
+    width: 19px;
+    height: 19px;
+    padding: 2px;
+}

@@ -1,0 +1,85 @@
+.dx-acc-r .dxVerticalGrid_CategoryCollapsed_BudwayDirectMarron:before,
+.dx-acc-r .dxVerticalGrid_CategoryExpanded_BudwayDirectMarron:before,
+.dx-acc-r .dxVerticalGrid_CollapsedButton_BudwayDirectMarron:before,
+.dx-acc-r .dxVerticalGrid_ExpandedButton_BudwayDirectMarron:before,
+.dx-acc-r .dxVerticalGrid_gvCellError_BudwayDirectMarron:before,
+.dx-acc-r .dxVerticalGrid_gvFilterRowButton_BudwayDirectMarron:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderFilter_BudwayDirectMarron:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderFilterActive_BudwayDirectMarron:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderSortDown_BudwayDirectMarron:before,
+.dx-acc-r .dxVerticalGrid_gvHeaderSortUp_BudwayDirectMarron:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxVerticalGrid_CategoryCollapsed_BudwayDirectMarron:before
+
+{
+    left: -18px;
+    top: -20px;
+
+}
+.dx-acc-r .dxVerticalGrid_CategoryExpanded_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -20px;
+
+}
+.dx-acc-r .dxVerticalGrid_CollapsedButton_BudwayDirectMarron:before
+
+{
+    left: -36px;
+    top: -20px;
+
+}
+.dx-acc-r .dxVerticalGrid_ExpandedButton_BudwayDirectMarron:before
+
+{
+    left: -40px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvCellError_BudwayDirectMarron:before
+
+{
+    left: -24px;
+    top: -38px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvFilterRowButton_BudwayDirectMarron:before
+
+{
+    left: -39px;
+    top: -38px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderFilter_BudwayDirectMarron:before
+
+{
+    left: -20px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderFilterActive_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderSortDown_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: -38px;
+
+}
+.dx-acc-r .dxVerticalGrid_gvHeaderSortUp_BudwayDirectMarron:before
+
+{
+    left: -12px;
+    top: -38px;
+
+}

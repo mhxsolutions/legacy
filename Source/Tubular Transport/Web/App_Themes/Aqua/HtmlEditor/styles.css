@@ -1,0 +1,230 @@
+/* ----------------- Main ----------------- */
+/* Loading panel */
+.dxheLoadingDiv_Aqua
+{
+    background: white;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    cursor: wait;
+}
+.dxheLoadingPanel_Aqua
+{
+	font: 12px Tahoma;
+	color: #2C4D79;
+}
+.dxheLoadingPanel_Aqua td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 12px;
+}
+
+.dxheControl_Aqua
+{
+    border: Solid 1px #A3C0E8;
+}
+
+/* Area */
+.dxheErrorFrame_Aqua
+{
+    font-size: 12px;
+    font-family: Tahoma;
+    color: #D00707;
+    background-color: #FBC7C7;
+    border-bottom: solid 1px #DEC0C0;
+}
+.dxheErrorFrame_Aqua .dxhe {
+    padding: 5px;
+}
+.dxheErrorFrame_Aqua .dxhe td {
+    padding: 0px;
+}
+.dxheErrorFrame_Aqua .dxheErrorFrameCloseButton_Aqua {
+    cursor: pointer;
+}
+.dxheContentArea_Aqua
+{
+    padding: 4px;
+	padding-bottom: 6px;
+    background-color: #BEDAFF;
+}
+.dxheViewArea_Aqua
+{
+    border: Solid 1px #A3C0E8;    
+}
+.dxheHtmlViewEdit_Aqua,
+.dxheDesignViewArea_Aqua,
+.dxhePreviewArea_Aqua 
+{
+    margin: 0px;
+    background-color: #FFFFFF;
+    background-image: none;
+    font-size: smaller;
+    font: normal 12px Arial;
+}
+td.dxheHtmlViewEdit_Aqua, body.dxheDesignViewArea_Aqua, body.dxhePreviewArea_Aqua
+{
+    padding: 0 0 0 4px;
+}
+.dxheControl_Aqua.dxhe-rtl td.dxheHtmlViewEdit_Aqua,
+.dxheControl_Aqua.dxhe-rtl .dxeMemo_Aqua td,
+body.dxheDesignViewArea_Aqua.dxhe-rtl, 
+body.dxhePreviewArea_Aqua.dxhe-rtl
+{
+	padding: 0 4px 0 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .dxheControl_Aqua.dxhe-rtl td.dxheHtmlViewEdit_Aqua,
+    .dxheControl_Aqua.dxhe-rtl .dxeMemo_Aqua td
+    {
+	    padding: 0 0 0 4px;
+    }    
+}
+.dxheControl_Aqua .dxeMemo_Aqua textarea 
+{
+	resize:none;
+}
+/* Element appearance in DesignView */
+body.dxheDesignViewArea_Aqua table.dxEmptyBorderTable,
+body.dxheDesignViewArea_Aqua table.dxEmptyBorderTable td {
+    border:1px dotted gray;
+}
+@media print 
+{
+	body.dxheDesignViewArea_Aqua table.dxEmptyBorderTable,
+	body.dxheDesignViewArea_Aqua table.dxEmptyBorderTable td {
+		border:0px;
+	}
+}
+/* Status Bar */
+.dxheStatusBar_Aqua 
+{
+}
+.dxheStatusBarTab_Aqua 
+{    
+}
+.dxHtmlEditor_heSizeGrip_Aqua
+{
+    cursor: se-resize;
+}
+.dxHtmlEditor_heSizeGripRtl_Aqua
+{
+    cursor: ne-resize;
+}
+.dxheSizeGripContainer_Aqua 
+{
+    float: left;
+    height: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 0;
+    margin-top: -12px;
+}
+.dxheControl_Aqua.dxhe-rtl .dxheSizeGripContainer_Aqua
+{
+	text-align: left;
+}
+/* ----------------- Dialog Forms ----------------- */
+#dxInsertTableForm .buttonsCell,
+#dxInsertLinkForm .buttonsCell,
+#dxInsertImageForm .buttonsCell,
+#dxPasteFromWordForm .buttonsCell,
+#dxTableColumnPropertiesForm .buttonsCell,
+.dxheCustomDialog_Aqua .dxhecd-Buttons
+{
+	background-color: #DBEBFF;
+	border-top: 1px #C1DBFA solid;
+    padding: 11px;
+}
+#dxInsertImageForm .imagePreviewCell
+{
+    color: #737373;
+    border: dashed 1px #cac8c8;
+}
+#dxPasteFromWordForm .pasteContainerCell td
+{
+	border: Solid 1px #AECAF0;
+}
+/*----------------- Toolbars -----------------*/
+.dxtbSpacing_Aqua
+{
+	height: 1px;
+}
+.dxtbControl_Aqua 
+{
+	font: 12px Tahoma;
+	color: black;
+	background-color: #AECAF0;
+    border-bottom: Solid 1px #A3C0E8;
+}
+.dxtbControl_Aqua td.dxmMenu_Aqua
+{
+	border: 0px;
+}
+.dxtbComboBoxMenuItem_Aqua
+{
+    padding: 3px 2px;
+}
+
+/* Toolbars Lightweight Mode */
+.dxtbControl_Aqua .dxmLite_Aqua .dxm-main.dxmtb {
+    border-width: 0px;
+}
+.dxmLite_Aqua .dxm-horizontal.dxmtb .dxm-image-l.dxm-noImages .dxm-item,
+.dxmLite_Aqua .dxm-horizontal.dxmtb .dxm-image-l .dxm-noImage {
+    padding-left: 0px;
+}
+.dxmLite_Aqua .dxhetipControl_Aqua img
+{
+	vertical-align: top;
+}
+
+.dxtbControl_Aqua .dxmLite_Aqua .dxm-horizontal.dxmtb .dxm-dropDownMode .dxm-popOut,
+.dxtbControl_Aqua .dxmLite_Aqua .dxm-horizontal.dxmtb .dxm-popOut {
+    padding: 10px 4px;
+}
+.dxtbControl_Aqua .dxmLite_Aqua .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem {
+    border-width: 0px;
+    padding: 3px 2px;
+}
+
+.dxtbControl_Aqua .dxmLite_Aqua .dxm-horizontal.dxmtb .dxm-image-l .dxm-dropDownMode.dxtb-cb .dxm-content, 
+.dxtbControl_Aqua .dxmLite_Aqua .dxm-horizontal.dxmtb .dxm-image-r .dxm-dropDownMode.dxtb-cb .dxm-content
+{
+	padding-top: 5px;
+	padding-bottom: 6px;
+}
+.dxtbControl_Aqua .dxmLite_Aqua .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content, 
+.dxtbControl_Aqua .dxmLite_Aqua .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content
+{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.dxtbControl_Aqua .dxmLite_Aqua .dxm-horizontal.dxmtb .dxm-image-l .dxm-item.dxtb-cddi .dxm-content img,
+.dxtbControl_Aqua .dxmLite_Aqua .dxm-horizontal.dxmtb .dxm-image-r .dxm-item.dxtb-cddi .dxm-content img
+{
+	margin-top: -1px;
+}
+
+.dxtbControl_Aqua .dxm-horizontal.dxmtb .dxm-dropDownMode .dxtcbColorDiv_Aqua
+{
+    margin-bottom: -1px;
+}
+
+/* ToolbarColorButton */
+.dxtcbControl_Aqua { }
+.dxtcbColorDiv_Aqua
+{
+	width: 16px;
+	height: 4px;
+	font-size:0px;
+	background-color: Red;
+}
+
+/*----------------- RoundPanel -----------------*/
+.dxheRP.dxrpControl_Aqua .dxrpcontent
+{
+    padding: 9px 8px;
+}
+

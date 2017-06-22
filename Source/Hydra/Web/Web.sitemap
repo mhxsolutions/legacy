@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="~/Default.aspx" title="Home">
+    <siteMapNode url="~/Administration/Default.aspx" title="Administration">
+
+      <siteMapNode url="~/Administration/AddUser.aspx" title="Add User" />
+      <siteMapNode url="~/Administration/ManageUsers.aspx" title="Manage User" />
+    </siteMapNode>
+    
+    <siteMapNode url="" title="Power Users" roles="Administrators,Power Users">
+      <siteMapNode url="~/Power Users/ImpersonateClient.aspx" title="Impersonate Client" />
+      <siteMapNode url="~/Clients/Assigned/Lumber_Inventory_on_date_all.aspx" title="Building Prod. Inventory" />
+      <siteMapNode url="~/Clients/Assigned/Lumber_Inventory_Pending_all.aspx" title="Building Prod. Inventory Pending" />
+      <siteMapNode url="~/Clients/Assigned/Lumber_received_on_date_all.aspx" title="Building Prod. Receiving" />
+      <siteMapNode url="~/Clients/Assigned/Lumber_shipped_on_date_all.aspx" title="Building Prod. Shipped" />
+      <siteMapNode url="~/Clients/Assigned/CB_Inventory_on_date_all.aspx" title="Paper Roll Inventory" />
+      <siteMapNode url="~/Clients/Assigned/CB_Inventory_Pending_all.aspx" title="Paper Roll Inventory Pending" />
+      <siteMapNode url="~/Clients/Assigned/CB_received_on_date_all.aspx" title="Paper Roll Receiving" />
+      <siteMapNode url="~/Clients/Assigned/CB_shipped_on_date_all.aspx" title="Paper Roll Shipped" />
+      <siteMapNode url="~/Clients/Assigned/SP_Inventory_on_date_all.aspx" title="SP Inventory" />
+      <siteMapNode url="~/Clients/Assigned/SP_Inventory_Pending_all.aspx" title="SP Inventory Pending" />
+      <siteMapNode url="~/Clients/Assigned/SP_received_on_date_all.aspx" title="SP Receiving" />
+      <siteMapNode url="~/Clients/Assigned/SP_shipped_on_date_all.aspx" title="SP Shipped" />
+      <siteMapNode url="~/Clients/Assigned/Metrics.aspx" title="Metrics" roles="Administrators,Power Users" />
+    </siteMapNode>
+    <siteMapNode url="" title="Building Products" roles="*">
+      <siteMapNode url="~/Clients/Assigned/Inventory_on_date_lumber.aspx" title="Inventory on a Select Date" />
+      <siteMapNode url="~/Clients/All/Lumber_Inventory_Pending.aspx" title="Inventory Pending" description="stock pending arrival or unloading" />
+      <siteMapNode url="~/Clients/All/Lumber_received_on_date.aspx" title="Received by Date Range" />
+      <siteMapNode url="~/Clients/All/Lumber_shipped_on_date.aspx" title="Shipped by Date Range" />
+    </siteMapNode>
+    <siteMapNode url="" title="Paper Rolls" roles="*">
+      <siteMapNode url="~/Clients/Assigned/CB_Inventory_on_date_consigned.aspx" title="Consigned Inventory on Date" />
+      <siteMapNode url="~/Clients/All/CB_Inventory_on_date.aspx" title="Inventory on Select Date" />
+      <siteMapNode url="~/Clients/All/CB_Inventory_Pending.aspx" title="Inventory Pending" description="stock pending arrival or unloading" />
+      <siteMapNode url="~/Clients/All/CB_received_on_date.aspx" title="Received by Date Range" />
+      <siteMapNode url="~/Clients/All/CB_shipped_on_date.aspx" title="Shipped by Date Range" />
+    </siteMapNode>
+    <siteMapNode url="" title="Scrap Paper" roles="*">
+      <siteMapNode url="~/Clients/All/SP_Inventory_on_date.aspx" title="Inventory on a Select Date" />
+      <siteMapNode url="~/Clients/All/SP_Inventory_Pending.aspx" title="Inventory Pending" description="stock pending arrival or unloading" />
+      <siteMapNode url="~/Clients/All/SP_received_on_date.aspx" title="Received by Date Range" />
+      <siteMapNode url="~/Clients/All/SP_shipped_on_date.aspx" title="Shipped by Date Range" />
+    </siteMapNode>
+    <siteMapNode url="" title="Unassigned Reports" roles="*">
+      <siteMapNode url="~/Clients/All/InventoryConsigned.aspx" title="Inventory - Consigned" description="stock consigned to you" />
+      <siteMapNode url="~/clients/Inventory.aspx?" title="Inventory - Current" />
+    </siteMapNode>
+    <siteMapNode url="~/Clients/Assigned/Default.aspx" title="My Custom Reports" />
+    <siteMapNode url="~/Authentication/Logout.aspx" title="Logout" />
+  </siteMapNode>
+</siteMap>

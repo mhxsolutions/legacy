@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsCompanyUser, BopsDataAccess" table="[Company Users]" lazy="false">
+    <id name="CompanyUserId" column="[Company User ID]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="CurrentUserId" column="[CurrentUserID]"/>
+    <property name="CompanyRef" column="[Company ID ref]"/>
+    <property name="UserPermissionRef" column="[User Permission ID ref]"/>
+    <property name="WindowsUserId" column="[Windows ID]"/>
+  </class>
+</hibernate-mapping>

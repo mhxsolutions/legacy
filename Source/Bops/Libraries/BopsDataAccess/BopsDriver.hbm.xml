@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+
+  <class name="BopsDataAccess.BopsDriver, BopsDataAccess" table="[tblDriverList]" lazy="false">
+    <id name="DriverId" column="EmployeeID" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="FirstName" column="FirstName"/>
+    <property name="LastName" column="LastName"/>
+    <property name="Agilis" column="Agilis"/>
+    <property name="WorkPhone" column="WorkPhone"/>
+    <property name="Tractor" column="[Truck Default]"/>
+    <property name="Trailer" column="[Trailer]"/>
+    <property name="FleetRef" column="[Fleet ref]"/>
+  </class>
+  
+</hibernate-mapping>

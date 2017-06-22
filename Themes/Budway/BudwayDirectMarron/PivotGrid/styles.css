@@ -1,0 +1,609 @@
+.dxpgControl_BudwayDirectMarron, .dxpgCustForm_BudwayDirectMarron
+{
+	color: #000000;
+	font: 12px Tahoma, Geneva, sans-serif;
+	border: Solid 1px #8A0A37;
+	background-color: #F5ECF1;
+}
+.dxpgContainerCell_BudwayDirectMarron
+{
+	vertical-align: top;
+}
+.dxpgMainTable_BudwayDirectMarron
+{
+	border: 0px;
+	border-collapse: separate;
+	width: 100%;
+	text-align: left;
+}
+div.dxpgMainTable_BudwayDirectMarron
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgMainTable_BudwayDirectMarron caption
+{
+    background: #EED8E3;
+    color: #8A0A37;
+    border-bottom: Solid 1px #8A0A37;
+    padding: 5px 5px 6px;
+	font-weight: normal;		
+	text-align: center;	
+}    
+.dxpgHeader_BudwayDirectMarron
+{
+	border-width: 0px;
+	color: #FFFFFF;
+	background-color: #F0749F;
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: left;
+
+	background-image: url('pgHeaderBack.gif');
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.dxpgHeaderTable_BudwayDirectMarron
+{
+	border: Solid 1px #8A0A37;
+	width: 100%;
+}
+.dxpgMSDraggable .dxpgHeaderTable_BudwayDirectMarron,
+.dxpgCustFieldsDiv_BudwayDirectMarron .dxpgHeaderTable_BudwayDirectMarron
+{
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.dxpgHeaderGroupButton_BudwayDirectMarron
+{
+	padding-left: 4px;
+	vertical-align: middle;
+}
+.dxpgHeaderText_BudwayDirectMarron
+{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+}
+.dxpgHeaderSort_BudwayDirectMarron
+{
+	padding-left: 0px;
+	padding-right: 4px;
+	padding-top: 0px;
+	vertical-align: middle;
+}
+.dxpgHeaderFilter_BudwayDirectMarron
+{
+	padding-left: 0px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;	
+}
+.dxpgHeaderHover_BudwayDirectMarron
+{
+	background-color: #D69BD3;
+
+	background-image: url('pgHeaderHoverBack.gif');
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.dxpgArea_BudwayDirectMarron, .dxpgArea_BudwayDirectMarron table
+{
+	color: #AA1248;
+}
+.dxpgArea_BudwayDirectMarron
+{
+	border: Solid 1px #8A0A37;
+	background-color: #EED8E3;
+	border-left-style: none;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+.dxpgArea_BudwayDirectMarron > table
+{
+    padding: 0px 3px 0px 3px;
+}
+.dxpgColumnArea_BudwayDirectMarron
+{
+	border-bottom-style: solid;
+}
+.dxpgRowArea_BudwayDirectMarron
+{
+}
+.dxpgDataArea_BudwayDirectMarron
+{
+}
+.dxpgFilterArea_BudwayDirectMarron
+{
+	background-color: #AA1248;
+	color: #E3ACBF;
+	border-bottom-style: Solid;
+}
+.dxpgEmptyArea_BudwayDirectMarron 
+{
+	cursor: default;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-bottom: 7px;
+	padding-right: 6px;
+}
+.dxpgColumnFieldValue_BudwayDirectMarron
+{
+    color: #FFFFFF;
+	background-color: #D04D7E;
+	border: Solid 1px #8A0A37;
+	border-left-style: Solid;
+	border-bottom-style: Solid;
+	border-right-style: none;
+	border-top-style: none;
+	padding: 4px 6px;
+	padding-bottom: 5px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgColumnTotalFieldValue_BudwayDirectMarron
+{
+	background-color: #A22D59;
+	border-left-style: Solid;
+	border-bottom-style: Solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgColumnGrandTotalFieldValue_BudwayDirectMarron
+{
+	background-color: #BF3E6E;
+	border-left-style: Solid;
+	border-bottom-style: Solid;
+	border-right-style: none;
+	border-top-style: none;
+}
+.dxpgRowFieldValue_BudwayDirectMarron
+{
+    color: #FFFFFF;
+	background-color: #D04D7E;
+	border: Solid 1px #8A0A37;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: Solid;
+	border-top-style: Solid;
+	padding: 4px 6px 5px 6px;
+    font-weight: normal;
+    text-align: left;    
+}
+.dxpgRowTotalFieldValue_BudwayDirectMarron
+{
+	background-color: #A22D59;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: Solid;
+	border-top-style: Solid;
+}
+.dxpgRowTreeFieldValue_BudwayDirectMarron
+{
+	padding: 0;
+	font-size: 0;
+}
+.dxpgRowGrandTotalFieldValue_BudwayDirectMarron
+{
+	background-color: #A22D59;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: Solid;
+	border-top-style: Solid;
+	padding: 6px 6px 7px 6px;
+}
+.dxpgCollapsedButton_BudwayDirectMarron
+{
+	vertical-align: -3px;
+	border: 0px;
+	margin-right: 5px;
+}
+.dxpgSortByColumnImage_BudwayDirectMarron
+{
+	vertical-align: -3px;
+	border: 0px;
+	margin-left: 5px;
+}
+.dxpgCell_BudwayDirectMarron
+{
+	text-align: right;
+	background-color: #FFFFFF;	
+	border-color: #D5D5D5;
+	border-width: 1px;
+	border-top-style: Solid;
+	border-left-style: Solid;
+	border-bottom-style: none;
+	border-right-style: none;
+	padding: 4px;
+	padding-bottom: 5px;
+	white-space: nowrap;
+}
+.dxpgKPICell_BudwayDirectMarron
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.dxpgTotalCell_BudwayDirectMarron
+{
+	background-color: #EFEFEF;
+}
+.dxpgGrandTotalCell_BudwayDirectMarron
+{
+	background-color: #E6E6E6;
+}
+.dxpgCellsArea_BudwayDirectMarron {
+    background-color: #FFFFFF;
+}
+.dxpgRowFieldValuesArea_BudwayDirectMarron {
+    background-color: #D04D7E;
+}
+.dxpgColumnFieldValuesArea_BudwayDirectMarron {
+    background-color: #D04D7E;
+}
+.dxpgCellsSCContentTable_BudwayDirectMarron {
+    border-color: #D5D5D5;
+    border-width: 1px;
+	border-bottom-style: solid;
+}
+.dxpgRowSCContentTable_BudwayDirectMarron {
+	border-color: #8A0A37;
+    border-width: 1px;
+	border-bottom-style: solid;
+}
+.dxpgColumnSCContentTable_BudwayDirectMarron {
+	border-color: #8A0A37;
+    border-width: 1px;
+	border-right-style: solid;
+}
+.dxpgFilterItem_BudwayDirectMarron
+{
+    white-space: nowrap;
+}
+.dxpgFilterButton_BudwayDirectMarron
+{
+	padding: 2px 6px;
+}
+.dxpgTopPager_BudwayDirectMarron
+{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: Solid 1px #8A0A37;
+	background-color: #EFEFEF;
+	padding:6px 0px;
+}
+.dxpgBottomPager_BudwayDirectMarron
+{
+	border-top: Solid 1px #8A0A37;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+	background-color: #EFEFEF;
+	padding:6px 0px;
+}
+.dxpgTopPager_BudwayDirectMarron,
+.dxpgBottomPager_BudwayDirectMarron
+{
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+.dxpgCustomizationFieldsHeader_BudwayDirectMarron
+{
+	color: #000000;
+}
+.dxpgCustomizationFieldsContent_BudwayDirectMarron
+{
+	padding: 0px!important;
+}
+.dxpgMenuItem_BudwayDirectMarron 
+{
+}
+.dxpgDataHeadersImage_BudwayDirectMarron
+{
+	margin-right: 5px;
+	vertical-align: -2px;
+}
+
+.dxpgPrefilterPanelContainer_BudwayDirectMarron
+{
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+.dxpgPrefilterPanel_BudwayDirectMarron
+{
+	border: none;
+	background: #efe2e8;
+}
+.dxpgPrefilterPanelLink_BudwayDirectMarron
+{
+	color: #8A0A37;
+	text-decoration: underline;
+}
+a:hover.dxpgPrefilterPanelLink_BudwayDirectMarron
+{
+	color: #BE458B;
+}
+.dxpgPrefilterPanelCheckBoxCell_BudwayDirectMarron
+{
+	padding: 0 3px;
+	padding-right: 7px;
+}
+.dxpgPrefilterPanelImageCell_BudwayDirectMarron
+{
+	padding: 0 3px;
+	padding-right: 1px;
+	cursor: pointer;
+}
+.dxpgPrefilterPanelExpressionCell_BudwayDirectMarron
+{
+	padding: 5px 5px 8px 0;	
+	white-space: nowrap;
+}
+.dxpgPrefilterPanelClearButtonCell_BudwayDirectMarron
+{
+	padding: 5px 6px 8px;
+}
+.dxpgFilterBuilderMainArea_BudwayDirectMarron
+{
+	background: white;
+	padding: 6px 2px;
+} 
+.dxpgFilterBuilderButtonArea_BudwayDirectMarron
+{
+	background-color: #EED8E3;
+	border-top: solid 1px #CB9FB4;
+	padding: 6px;
+	white-space: nowrap;
+}
+.dxpgGroupSeparator_BudwayDirectMarron
+{
+	vertical-align: middle;
+}
+.dxpgCustFieldsFilterAreaHeaders_BudwayDirectMarron,
+.dxpgCustFieldsRowAreaHeaders_BudwayDirectMarron,
+.dxpgCustFieldsColumnAreaHeaders_BudwayDirectMarron,
+.dxpgCustFieldsDataAreaHeaders_BudwayDirectMarron,
+.BottomPanelOnly1by4 .dxpgFLFRDiv_BudwayDirectMarron,
+.BottomPanelOnly1by4 .dxpgFLCDDiv_BudwayDirectMarron
+{
+width:100%;
+height:50%;
+}
+.StackedDefault .dxpgCustFieldsFieldList_BudwayDirectMarron
+{
+height:34%;
+}
+.StackedDefault .dxpgFLFRDiv_BudwayDirectMarron
+{
+width:50%;
+height:66%;
+float:left;
+}
+.StackedDefault .dxpgFLCDDiv_BudwayDirectMarron
+{
+width:50%;
+height:66%;
+float:right;
+}
+.StackedDefault .dxpgCustFieldsFilterAreaHeaders_BudwayDirectMarron .dxpgFLTextDiv_BudwayDirectMarron,
+.StackedDefault .dxpgCustFieldsColumnAreaHeaders_BudwayDirectMarron .dxpgFLTextDiv_BudwayDirectMarron
+{
+height:47px;
+}
+.TopPanelOnly .dxpgCustFieldsFieldList_BudwayDirectMarron
+{
+width:100%;
+height:100%;
+}
+.TopPanelOnly .dxpgFLDefereDiv_BudwayDirectMarron .dxeBase_BudwayDirectMarron,
+.TopPanelOnly .dxpgFLDefereDiv_BudwayDirectMarron .dxpgFLDefereDB_BudwayDirectMarron,
+.BottomPanelOnly1by4 .dxpgCustFieldsFieldList_BudwayDirectMarron,
+.TopPanelOnly .dxpgFLFRDiv_BudwayDirectMarron,
+.TopPanelOnly .dxpgFLCDDiv_BudwayDirectMarron,
+.BottomPanelOnly2by2 .dxpgCustFieldsFieldList_BudwayDirectMarron,
+.TopPanelOnly .dxpgFLTextDiv_BudwayDirectMarron div
+{
+display:none;
+}
+.TopPanelOnly .dxpgFLTextDiv_BudwayDirectMarron
+{
+ height:19px;   
+}
+.TopPanelOnly .dxpgFLDefereDiv_BudwayDirectMarron
+{
+ height:16px;   
+}
+.BottomPanelOnly2by2 .dxpgFLFRDiv_BudwayDirectMarron,
+.StackedSideBySide .dxpgCustFieldsFieldList_BudwayDirectMarron
+{
+width:50%;
+height:100%;
+float:left;
+}
+.BottomPanelOnly2by2 .dxpgFLCDDiv_BudwayDirectMarron
+{
+width:50%;
+height:100%;
+float:right;
+}
+.StackedSideBySide .dxpgFLFRDiv_BudwayDirectMarron,
+.StackedSideBySide .dxpgFLCDDiv_BudwayDirectMarron
+{
+width:50%;
+height:50%;
+float:right;
+}
+.dxpgCustFields_BudwayDirectMarron
+{
+    display:block;
+    position:relative;
+}
+.dxpgFLListDiv_BudwayDirectMarron > div
+{
+    border:1px solid #8A0A37;
+    position:relative;
+    display:block;
+    height:100%;
+    padding:1px;
+    background:#FFFFFF;
+    overflow:hidden;
+
+    -webkit-user-select:none;
+     -khtml-user-select:none;
+       -moz-user-select:none;
+        -ms-user-select:none;
+         -o-user-select:none;
+            user-select:none;
+}
+.dxpgFLListDiv_BudwayDirectMarron > div > div
+{
+    position:relative;
+    display:block;
+    height:100%;
+    padding:0px;
+    background:#FFFFFF;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.DragOver .dxpgFLListDiv_BudwayDirectMarron > div
+{
+    background:#FFD324;
+}
+.dxpgFLListDiv_BudwayDirectMarron
+{
+    padding:0px 3px 0px 3px;
+}
+.dxpgFLButtonDiv_BudwayDirectMarron .dxbButton_BudwayDirectMarron div.dxb
+{
+	border: dotted 1px transparent;	
+	padding:1px 7px 0px;
+}
+.dxpgFLButtonDiv_BudwayDirectMarron .dxbButton_BudwayDirectMarron div.dxbf
+{
+	border: dotted 1px black;	
+}
+.dxpgFLTextDiv_BudwayDirectMarron
+{
+ height:28px;
+}
+.dxpgFLTextDiv_BudwayDirectMarron div
+{
+   display:block;
+   float:left;
+   margin:-17px 0px 3px 0px;
+   left:6px;
+   top:100%;
+   position:relative;
+}
+div.dxpgFLTextImgDiv_BudwayDirectMarron
+{
+    display:block;
+    height:16px;
+    width:16px;
+    margin:-18px 0px 3px 0px;
+    left:3px;
+}
+.dxpgFLButtonDiv_BudwayDirectMarron
+{
+    float:right;
+    height:28px;
+    position:relative;
+    z-index:1;
+}
+.dxpgFLDefereDiv_BudwayDirectMarron
+{
+    height:52px;
+}
+.dxpgFLDefereDiv_BudwayDirectMarron
+{
+    height:50px;
+}
+.dxpgCustFieldsDiv_BudwayDirectMarron
+{
+ clear:both;   
+ padding:0px 9px;
+}
+.dxpgFLButton_BudwayDirectMarron
+{
+ margin:12px 12px 0px 0px;
+ width:40px;
+ height:23px;
+}
+.dxpgFLDefereDiv_BudwayDirectMarron .dxeBase_BudwayDirectMarron
+{
+ float:left;
+ display:block;
+ border-collapse:separate;
+ padding:18px 0px 0px 0px; 
+ margin-left:8px;  
+}
+.dxpgCustForm_BudwayDirectMarron .dxpgFLDefereDiv_BudwayDirectMarron .dxeBase_BudwayDirectMarron
+{
+ padding:18px 0px 0px 0px; 
+}
+.dxpgFLDefereDB_BudwayDirectMarron
+{
+float:right;
+display:block;
+margin: 16px 12px 0 0;
+}
+.dxpgFLDefereDiv_BudwayDirectMarron .dxbButton_BudwayDirectMarron div.dxb
+{
+    padding:1px 13px 1px 13px;
+    border: dotted 1px transparent;	
+}
+.dxpgFLDefereDiv_BudwayDirectMarron .dxbButton_BudwayDirectMarron div.dxbf
+{
+    border: dotted 1px black;	
+}
+.dxpgFLListDiv_BudwayDirectMarron table 
+{
+ width:100%;
+ table-layout:fixed;  
+ overflow:visible;
+}
+.dxpgFLListDiv_BudwayDirectMarron table table td
+{
+     overflow:hidden; 
+}
+/*Loading Panel*/
+.dxpgLoadingPanel_BudwayDirectMarron
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: 1px solid #898989;
+}
+.dxpgLoadingPanel_BudwayDirectMarron td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxpgLoadingPanel_BudwayDirectMarron .dxlp-loadingImage
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+
+.dxpgVScrollBarAreaCell_BudwayDirectMarron {
+     background-color: #D04D7E;
+     border-left: 1px solid #8A0A37;
+     border-bottom: 1px solid #8A0A37;
+ }
+.dxpgHScrollBarAreaCell_BudwayDirectMarron {
+    background-color: #D04D7E;
+    border-top: 1px solid #8A0A37;
+    border-right: 1px solid #8A0A37;
+}
+.dxpgScrollBarEdgeCell_BudwayDirectMarron {
+    background-color: #D04D7E;
+    border-left: 1px solid #D5D5D5;
+    border-top: 1px solid #D5D5D5;
+}

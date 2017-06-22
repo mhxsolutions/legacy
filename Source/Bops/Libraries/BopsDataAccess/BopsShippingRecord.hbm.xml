@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsShippingRecord, BopsDataAccess" table="[Shipping S]" lazy="false">
+    <id name="LoadId" column="[Load ID]">
+      <generator class="identity"/>
+    </id>
+    <property name="ShipmentDate" column="[Shipment Date]"/>
+    <property name="LoadType" column="[Load Type]"/>
+    <property name="ShippingClientRef" column="[Shipping Client Ref]"/>
+    <property name="ShipperAddress" column="[Shipper Address]"/>
+    <property name="DeliveryClientRef" column="[Delivery Client Ref]"/>
+    <property name="DeliveryAddress" column="[Delivery Address]"/>
+    <property name="ShipperNumber" column="[Shipper Number]"/>
+    <property name="Terminal" column="[Terminal]"/>
+    <property name="WithdrawalComment" column="[Withdrawl Comment]"/>
+    <property name="ShippingRef" column="[Shipping Ref]"/>
+    <property name="WithdrawalEditor" column="[Wd Editor]"/>
+    <property name="ShipRecLock" column="[Ship Rec Lock]"/>
+    <property name="ClientInvoiceData" column="[Payor Ref Number]"/>
+    <property name="RailcarRef" column="[Railcar Ref]"/>
+    <property name="ShipperInvoice" column="[Shipper Invoice]"/>
+    <property name="ReceiverPurchaseOrder" column="[Receiver PO]"/>
+    <property name="CreationDate" column="[Creation Date]"/>
+    <property name="ConfirmShipment" column="[Confirm Shipment]"/>
+    <property name="RfsRef" column="[RFS ref]"/>
+    <property name="PostedWeight" column="[PostedWt]"/>
+    <property name="PostedCount" column="[PostedCt]"/>
+    <property name="BillingStatus" column="[Billing Status Ref]"/>
+    <property name="FleetRef" column="[Fleet ref]"/>
+    <property name="SpecialInvoiceValue" column="[Special Invoice Value]"/>
+  </class>
+</hibernate-mapping>

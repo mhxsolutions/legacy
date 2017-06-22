@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="BopsDataAccess.BopsBisTransaction, BopsDataAccess" table="[BIS Transactions]" lazy="false">
+		<id name="TransactionId" column="[Transaction Id]" unsaved-value="0">
+			<generator class="identity" />
+		</id>
+		<property name="TransactionType" column="[Transaction Type Ref]" />
+		<property name="UserId" column="[User Id]" />
+		<property name="Timestamp" column="[Timestamp]" />
+		<property name="ProductRef" column="[Product Ref]" />
+		<property name="Quantity" column="[Quantity]" />
+		<property name="OriginStorageAssetRef" column="[Origin Storage Asset Ref]" />
+		<property name="DestinationStorageAssetType" column="[Destination Storage Asset Type Ref]" />
+		<property name="DestinationStorageAssetRef" column="[Destination Storage Asset Ref]" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,51 @@
+.dxCardView_gvCellError_BudwayThemeFromMulberry,
+.dxCardView_gvFilterRowButton_BudwayThemeFromMulberry,
+.dxCardView_gvHeaderFilter_BudwayThemeFromMulberry,
+.dxCardView_gvHeaderFilterActive_BudwayThemeFromMulberry,
+.dxCardView_gvHeaderSortDown_BudwayThemeFromMulberry,
+.dxCardView_gvHeaderSortUp_BudwayThemeFromMulberry
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxCardView_gvCellError_BudwayThemeFromMulberry
+{
+    background-position: 0px 0px;
+    width: 14px;
+    height: 14px;
+}
+.dxCardView_gvFilterRowButton_BudwayThemeFromMulberry
+{
+    background-position: -15px 0px;
+    width: 13px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilter_BudwayThemeFromMulberry
+{
+    background-position: 0px -29px;
+    width: 18px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilterActive_BudwayThemeFromMulberry
+{
+    background-position: 0px -15px;
+    width: 18px;
+    height: 13px;
+}
+.dxCardView_gvHeaderSortDown_BudwayThemeFromMulberry
+{
+    background-position: -19px -15px;
+    width: 9px;
+    height: 13px;
+}
+.dxCardView_gvHeaderSortUp_BudwayThemeFromMulberry
+{
+    background-position: -19px -29px;
+    width: 9px;
+    height: 13px;
+}
+.dxCardView_gvHeaderFilterActive_BudwayThemeFromMulberry
+{
+	background-color: #BF4E6A;
+}

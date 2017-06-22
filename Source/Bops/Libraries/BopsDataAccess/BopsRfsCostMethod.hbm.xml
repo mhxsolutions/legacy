@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsCostMethod, BopsDataAccess" table="[RFS Cost Methods]" lazy="false">
+    <id name="CostMethodId" column="[Cost Method ID]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="Name" column="[Cost Method]"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsStakeholderClientMapping, BopsDataAccess" table="[RFS Stakeholder Client Mappings]" lazy="false">
+    <id name="MappingId" column="[Mapping ID]" unsaved-value="0">
+      <generator class="assigned" />
+    </id>
+    <property name="RfsRef" column="[RFS Ref]"/>
+    <property name="TargetClientRef" column="[Target Client Ref]"/>
+  </class>
+</hibernate-mapping>

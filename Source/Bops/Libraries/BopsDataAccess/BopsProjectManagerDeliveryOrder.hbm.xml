@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsProjectManagerDeliveryOrder, BopsDataAccess" table="[Project Manager DO]" lazy="false">
+    <id name="PmdoId" column="[PMID]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="Description" column="[Project Description]"/>
+    <property name="IsHarbor" column="[Harbor]"/>
+    <property name="IsCrossDock" column="[Cross Dock]"/>
+    <property name="StartDate" column="[Start Project]"/>
+    <property name="EndDate" column="[End Project]"/>
+    <property name="ProductRef" column="[Product Ref]"/>
+    <property name="DeliveryOrder" column="[Delivery Order]"/>
+    <property name="Vessel" column="[Vessel]"/>
+    <property name="RailcarRef" column="[Railcar Ref]"/>
+    <property name="ProjectClientRef" column="[Proj Client Ref]"/>
+    <property name="ShipFromRef" column="[Ship From Ref]"/>
+    <property name="DeliverToRef" column="[Deliver To Ref]"/>
+    <property name="BillToRef" column="[Bill To ref]"/>
+    <property name="Instructions" column="[Instructions]"/>
+    <property name="ProjectManager" column="[Project Manager]"/>
+    <property name="IsComplete" column="[Complete]"/>
+    <property name="CreateDate" column="[Created]"/>
+    <property name="CreateUser" column="[Created By]"/>
+    <property name="LastUpdate" column="[Modified]"/>
+    <property name="LastUpdateUser" column="[Modified By]"/>
+    <property name="CompletionDate" column="[Completion Date]"/>
+    <property name="DrDescription" column="[DR Description]"/>
+    <property name="PoNumber" column="[PO Number]"/>
+    <property name="ClientNumber" column="[Client Number]"/>
+    <property name="Pier" column="[Pier]"/>
+    <property name="Berth" column="[Berth]"/>
+    <property name="BrokerRef" column="[Broker Ref]"/>
+    <property name="Contact" column="[Contact]"/>
+    <property name="BolH1" column="[BOLH1]"/>
+    <property name="BolH2" column="[BOLH2]"/>
+    <property name="BolH3" column="[BOLH3]"/>
+    <property name="BolH4" column="[BOLH4]"/>
+    <property name="BolH5" column="[BOLH5]"/>
+    <property name="ProjectStatusRef" column="[Proj Status Ref]"/>
+    <property name="TariffRef" column="[Tariff Ref]"/>
+    <property name="SupportDocs" column="[SupportDocs]"/>
+    <property name="RfsRef" column="[RFS Ref]"/>
+  </class>
+</hibernate-mapping>

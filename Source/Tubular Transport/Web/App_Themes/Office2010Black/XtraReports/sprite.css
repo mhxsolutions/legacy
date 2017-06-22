@@ -1,0 +1,134 @@
+.dxXtraReports_BtnFirstPage_Office2010Black,
+.dxXtraReports_BtnFirstPageDisabled_Office2010Black,
+.dxXtraReports_BtnLastPage_Office2010Black,
+.dxXtraReports_BtnLastPageDisabled_Office2010Black,
+.dxXtraReports_BtnNextPage_Office2010Black,
+.dxXtraReports_BtnNextPageDisabled_Office2010Black,
+.dxXtraReports_BtnPrevPage_Office2010Black,
+.dxXtraReports_BtnPrevPageDisabled_Office2010Black,
+.dxXtraReports_BtnPrint_Office2010Black,
+.dxXtraReports_BtnPrintDisabled_Office2010Black,
+.dxXtraReports_BtnPrintPage_Office2010Black,
+.dxXtraReports_BtnPrintPageDisabled_Office2010Black,
+.dxXtraReports_BtnSave_Office2010Black,
+.dxXtraReports_BtnSaveDisabled_Office2010Black,
+.dxXtraReports_BtnSaveWindow_Office2010Black,
+.dxXtraReports_BtnSaveWindowDisabled_Office2010Black,
+.dxXtraReports_BtnSearch_Office2010Black,
+.dxXtraReports_BtnSearchDisabled_Office2010Black 
+{
+    background-image: url('sprite.png');
+    -background-image: url('sprite.gif'); /* for IE6 */
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.dxXtraReports_BtnFirstPage_Office2010Black {
+    background-position: -16px 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnFirstPageDisabled_Office2010Black {
+    background-position: -16px -16px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnLastPage_Office2010Black {
+    background-position: -32px 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnLastPageDisabled_Office2010Black {
+    background-position: -32px -16px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnNextPage_Office2010Black {
+    background-position: -64px 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnNextPageDisabled_Office2010Black {
+    background-position: -64px -16px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnPrevPage_Office2010Black {
+    background-position: -48px 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnPrevPageDisabled_Office2010Black {
+    background-position: -48px -16px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnPrint_Office2010Black {
+    background-position: -80px 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnPrintDisabled_Office2010Black {
+    background-position: -80px -16px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnPrintPage_Office2010Black {
+    background-position: -96px 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnPrintPageDisabled_Office2010Black {
+    background-position: -96px -16px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnSave_Office2010Black {
+    background-position: -112px 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnSaveDisabled_Office2010Black {
+    background-position: -112px -16px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnSaveWindow_Office2010Black {
+    background-position: -128px 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnSaveWindowDisabled_Office2010Black {
+    background-position: -128px -16px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnSearch_Office2010Black {
+    background-position: 0px 0px;
+    width: 16px;
+    height: 16px;
+}
+
+.dxXtraReports_BtnSearchDisabled_Office2010Black {
+    background-position: 0px -16px;
+    width: 16px;
+    height: 16px;
+}
+
+

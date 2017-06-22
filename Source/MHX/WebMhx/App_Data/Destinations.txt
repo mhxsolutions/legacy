@@ -1,0 +1,10 @@
+EventCount	Origin	OAdd	OAdd2	OCity	OState	OZip	Destination	DAdd	DAdd2	DCity	DState	DZip
+5939	USS/POSCO	900 Loveridge Rd	Attn: Beth Lindberg	Pittsburg	CA	94565	Silgan Containers Plant 435	2200 Wilbur Ave	NULL	Antioch	CA	94509
+4640	Budway Trucking	13600 Napa St.	NULL	Fontana	CA	92335	Western Tube	2001 East Dominguez	NULL	Carson	CA	90754
+4492	Silgan Containers Plant 435	2200 Wilbur Ave	NULL	Antioch	CA	94509	USS/POSCO	900 Loveridge Rd	Attn: Beth Lindberg	Pittsburg	CA	94565
+3259	Budway Trucking	13600 Napa St.	NULL	Fontana	CA	92335	Steelscape	11200 Arrow Rt	NULL	Rancho Cucamonga	CA	91730-4805
+2956	Pre-Trip Budway	1001-A Pittsburg Antioch Hwy	NULL	Pittsburg	CA	94565	USS/POSCO	900 Loveridge Rd	Attn: Beth Lindberg	Pittsburg	CA	94565
+2070	Steelscape	11200 Arrow Rt	NULL	Rancho Cucamonga	CA	91730-4805	Budway Trucking	13600 Napa St.	NULL	Fontana	CA	92335
+1796	Genesis Metals	1495 Columbia Ave. Bldg.10	NULL	Riverside	CA	92507	Post-Trip Budway	13600 Napa St	NULL	Fontana	CA	92335
+1454	Budway - YARD	13600 Napa St.	NULL	Fontana	CA	92335	"Tree Island Wire (USA), INC"	12459 Arrow Hwy	NULL	Rancho Cucamonga	CA	91739
+1319	SSA Berth 206-coils	Pier F Berth 206	NULL	Long Beach	CA	NULL	Steelscape	11200 Arrow Rt	NULL	Rancho Cucamonga	CA	91730-4805

@@ -1,0 +1,591 @@
+.dxEditors_edtError_Office2003Silver,
+.dxEditors_edtCalendarPrevYear_Office2003Silver,
+.dxEditors_edtCalendarPrevYearDisabled_Office2003Silver,
+.dxEditors_edtCalendarPrevMonth_Office2003Silver,
+.dxEditors_edtCalendarPrevMonthDisabled_Office2003Silver,
+.dxEditors_edtCalendarNextMonth_Office2003Silver,
+.dxEditors_edtCalendarNextMonthDisabled_Office2003Silver,
+.dxEditors_edtCalendarNextYear_Office2003Silver,
+.dxEditors_edtCalendarNextYearDisabled_Office2003Silver,
+.dxEditors_edtCalendarFNPrevYear_Office2003Silver,
+.dxEditors_edtCalendarFNNextYear_Office2003Silver,
+.dxEditors_edtEllipsis_Office2003Silver,
+.dxEditors_edtEllipsisDisabled_Office2003Silver,
+.dxEditors_edtDropDown_Office2003Silver,
+.dxEditors_edtDropDownDisabled_Office2003Silver,
+.dxEditors_edtSpinEditIncrementImage_Office2003Silver,
+.dxEditors_edtSpinEditIncrementImageDisabled_Office2003Silver,
+.dxEditors_edtSpinEditDecrementImage_Office2003Silver,
+.dxEditors_edtSpinEditDecrementImageDisabled_Office2003Silver,
+.dxEditors_edtSpinEditLargeIncImage_Office2003Silver,
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office2003Silver,
+.dxEditors_edtSpinEditLargeDecImage_Office2003Silver,
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office2003Silver,
+.dxEditors_fcadd_Office2003Silver,
+.dxEditors_fcaddhot_Office2003Silver,
+.dxEditors_fcremove_Office2003Silver,
+.dxEditors_fcremovehot_Office2003Silver,
+.dxEditors_fcgroupaddcondition_Office2003Silver,
+.dxEditors_fcgroupaddgroup_Office2003Silver,
+.dxEditors_fcgroupremove_Office2003Silver,
+.dxEditors_fcopany_Office2003Silver,
+.dxEditors_fcopbegin_Office2003Silver,
+.dxEditors_fcopbetween_Office2003Silver,
+.dxEditors_fcopcontain_Office2003Silver,
+.dxEditors_fcopnotcontain_Office2003Silver,
+.dxEditors_fcopnotequal_Office2003Silver,
+.dxEditors_fcopend_Office2003Silver,
+.dxEditors_fcopequal_Office2003Silver,
+.dxEditors_fcopgreater_Office2003Silver,
+.dxEditors_fcopgreaterorequal_Office2003Silver,
+.dxEditors_fcopnotblank_Office2003Silver,
+.dxEditors_fcopblank_Office2003Silver,
+.dxEditors_fcopless_Office2003Silver,
+.dxEditors_fcoplessorequal_Office2003Silver,
+.dxEditors_fcoplike_Office2003Silver,
+.dxEditors_fcopnotany_Office2003Silver,
+.dxEditors_fcopnotbetween_Office2003Silver,
+.dxEditors_fcopnotlike_Office2003Silver,
+.dxEditors_fcgroupand_Office2003Silver,
+.dxEditors_fcgroupor_Office2003Silver,
+.dxEditors_fcgroupnotand_Office2003Silver,
+.dxEditors_fcgroupnotor_Office2003Silver,
+.dxEditors_caRefresh_Office2003Silver,
+.dxEditors_edtRadioButtonChecked_Office2003Silver,
+.dxEditors_edtRadioButtonUnchecked_Office2003Silver,
+.dxEditors_edtRadioButtonCheckedDisabled_Office2003Silver,
+.dxEditors_edtRadioButtonUncheckedDisabled_Office2003Silver,
+.dxEditors_edtRadioButtonGrayedDisabled_Office2003Silver,
+.dxEditors_edtTBDecBtn_Office2003Silver,
+.dxEditors_edtTBIncBtn_Office2003Silver,
+.dxEditors_edtTBMainDH_Office2003Silver,
+.dxEditors_edtTBSecondaryDH_Office2003Silver,
+.dxEditors_edtTBIncBtnDisabled_Office2003Silver,
+.dxEditors_edtTBDecBtnDisabled_Office2003Silver,
+.dxEditors_edtTBMainDHDisabled_Office2003Silver,
+.dxEditors_edtTBSecondaryDHDisabled_Office2003Silver {
+    background-image: url('sprite.png');
+    -background-image: url('sprite.gif'); /* for IE6 */
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+/* TrackBar */
+.dxEditors_edtTBDecBtn_Office2003Silver, .dxEditors_edtTBIncBtn_Office2003Silver,
+.dxEditors_edtTBDecBtnHover_Office2003Silver, .dxEditors_edtTBIncBtnHover_Office2003Silver,
+.dxEditors_edtTBDecBtnPressed_Office2003Silver, .dxEditors_edtTBIncBtnPressed_Office2003Silver,
+.dxEditors_edtTBDecBtnDisabled_Office2003Silver, .dxEditors_edtTBIncBtnDisabled_Office2003Silver
+{
+	width: 17px;
+	height: 17px;
+}
+
+.dxeTBHSys .dxEditors_edtTBMainDH_Office2003Silver, .dxeTBHSys .dxEditors_edtTBSecondaryDH_Office2003Silver,
+.dxeTBHSys .dxEditors_edtTBMainDHHover_Office2003Silver, .dxeTBHSys .dxEditors_edtTBSecondaryDHHover_Office2003Silver,
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_Office2003Silver, .dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_Office2003Silver,
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_Office2003Silver, .dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_Office2003Silver
+{
+	width: 13px;
+	height: 19px;
+}
+.dxeTBVSys .dxEditors_edtTBMainDH_Office2003Silver, .dxeTBVSys .dxEditors_edtTBSecondaryDH_Office2003Silver,
+.dxeTBVSys .dxEditors_edtTBMainDHHover_Office2003Silver, .dxeTBVSys .dxEditors_edtTBSecondaryDHHover_Office2003Silver,
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_Office2003Silver, .dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_Office2003Silver,
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_Office2003Silver, .dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_Office2003Silver
+{
+	width: 19px;
+	height: 13px;
+}
+
+.dxEditors_edtTBDecBtn_Office2003Silver
+{
+	background-position: 1px -159px;
+}
+.dxEditors_edtTBDecBtnHover_Office2003Silver
+{
+	background-position: -40px -159px;
+}
+.dxEditors_edtTBDecBtnPressed_Office2003Silver
+{
+	background-position: -80px -159px;
+}
+.dxEditors_edtTBDecBtnDisabled_Office2003Silver
+{
+	background-position: 1px -179px;
+}
+
+.dxEditors_edtTBIncBtn_Office2003Silver
+{
+	background-position: -20px -159px;
+}
+.dxEditors_edtTBIncBtnHover_Office2003Silver
+{
+	background-position: -60px -159px;
+}
+.dxEditors_edtTBIncBtnPressed_Office2003Silver
+{ 
+	background-position: -100px -159px;
+}
+.dxEditors_edtTBIncBtnDisabled_Office2003Silver
+{ 
+	background-position: -20px -179px;
+}
+
+.dxeTBHSys .dxEditors_edtTBMainDH_Office2003Silver,
+.dxeTBHSys .dxEditors_edtTBSecondaryDH_Office2003Silver
+{
+	background-position: -29px -135px;
+}
+.dxeTBHSys .dxEditors_edtTBMainDHHover_Office2003Silver,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHHover_Office2003Silver
+{
+	background-position: -43px -135px;
+}
+
+.dxeTBHSys .dxEditors_edtTBMainDHPressed_Office2003Silver,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHPressed_Office2003Silver
+{
+	background-position: -57px -135px;
+	z-index: 7;
+}
+
+.dxeTBHSys .dxEditors_edtTBMainDHDisabled_Office2003Silver,
+.dxeTBHSys .dxEditors_edtTBSecondaryDHDisabled_Office2003Silver
+{
+	background-position: -71px -135px;
+}
+
+.dxeFocused_Office2003Silver .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_Office2003Silver,
+.dxeFocused_Office2003Silver .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_Office2003Silver
+{
+	background-position: -85px -135px;
+}
+.dxeFocused_Office2003Silver .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_Office2003Silver,
+.dxeFocused_Office2003Silver .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_Office2003Silver
+{
+	background-position: -99px -135px;
+}
+.dxeFocused_Office2003Silver .dxeTBHSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_Office2003Silver,
+.dxeFocused_Office2003Silver .dxeTBHSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_Office2003Silver
+{
+	background-position: -113px -135px;
+}
+
+.dxeTBVSys .dxEditors_edtTBMainDH_Office2003Silver,
+.dxeTBVSys .dxEditors_edtTBSecondaryDH_Office2003Silver
+{
+	background-position: -128px -135px;
+}
+
+.dxeTBVSys .dxEditors_edtTBMainDHHover_Office2003Silver,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHHover_Office2003Silver
+{
+	background-position: -128px -149px;
+}
+
+.dxeTBVSys .dxEditors_edtTBMainDHPressed_Office2003Silver,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHPressed_Office2003Silver
+{
+	background-position: -149px -135px;
+	z-index: 7;
+}
+
+.dxeTBVSys .dxEditors_edtTBMainDHDisabled_Office2003Silver,
+.dxeTBVSys .dxEditors_edtTBSecondaryDHDisabled_Office2003Silver
+{
+	background-position: -149px -149px;
+}
+
+.dxeFocused_Office2003Silver .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDH_Office2003Silver,
+.dxeFocused_Office2003Silver .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDH_Office2003Silver
+{
+	background-position: -170px -135px;
+}
+.dxeFocused_Office2003Silver .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHHover_Office2003Silver,
+.dxeFocused_Office2003Silver .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHHover_Office2003Silver
+{
+	background-position: -170px -149px;
+}
+.dxeFocused_Office2003Silver .dxeTBVSys .dxeFocusedMDHSys .dxEditors_edtTBMainDHPressed_Office2003Silver,
+.dxeFocused_Office2003Silver .dxeTBVSys .dxeFocusedSDHSys .dxEditors_edtTBSecondaryDHPressed_Office2003Silver
+{
+	background-position: -170px -163px;
+}
+
+/* RadioButton */
+.dxEditors_edtRadioButtonChecked_Office2003Silver,
+.dxEditors_edtRadioButtonUnchecked_Office2003Silver,
+.dxEditors_edtRadioButtonCheckedDisabled_Office2003Silver,
+.dxEditors_edtRadioButtonUncheckedDisabled_Office2003Silver,
+.dxEditors_edtRadioButtonGrayedDisabled_Office2003Silver {
+    width: 15px;
+    height: 15px;
+}
+
+.dxEditors_edtError_Office2003Silver,
+.dxEditors_edtCalendarPrevYear_Office2003Silver,
+.dxEditors_edtCalendarPrevYearDisabled_Office2003Silver,
+.dxEditors_edtCalendarPrevMonth_Office2003Silver,
+.dxEditors_edtCalendarPrevMonthDisabled_Office2003Silver,
+.dxEditors_edtCalendarNextMonth_Office2003Silver,
+.dxEditors_edtCalendarNextMonthDisabled_Office2003Silver,
+.dxEditors_edtCalendarNextYear_Office2003Silver,
+.dxEditors_edtCalendarNextYearDisabled_Office2003Silver,
+.dxEditors_edtCalendarFNPrevYear_Office2003Silver,
+.dxEditors_edtCalendarFNNextYear_Office2003Silver,
+.dxEditors_edtEllipsis_Office2003Silver,
+.dxEditors_edtEllipsisDisabled_Office2003Silver,
+.dxEditors_edtDropDown_Office2003Silver,
+.dxEditors_edtDropDownDisabled_Office2003Silver,
+.dxEditors_edtSpinEditIncrementImage_Office2003Silver,
+.dxEditors_edtSpinEditIncrementImageDisabled_Office2003Silver,
+.dxEditors_edtSpinEditDecrementImage_Office2003Silver,
+.dxEditors_edtSpinEditDecrementImageDisabled_Office2003Silver,
+.dxEditors_edtSpinEditLargeIncImage_Office2003Silver,
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office2003Silver,
+.dxEditors_edtSpinEditLargeDecImage_Office2003Silver,
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office2003Silver
+{
+	display:block;
+	margin:auto;
+}
+
+.dxEditors_edtRadioButtonUnchecked_Office2003Silver {
+	background-position: 0px -46px; 
+}
+.dxEditors_edtRadioButtonChecked_Office2003Silver {
+	background-position: -15px -46px; 
+}
+.dxEditors_edtRadioButtonUncheckedDisabled_Office2003Silver {
+	background-position: -30px -46px; 
+}
+.dxEditors_edtRadioButtonCheckedDisabled_Office2003Silver {
+	background-position: -45px -46px; 
+}
+
+.dxEditors_edtSpinEditLargeIncImage_Office2003Silver, .dxEditors_edtSpinEditLargeIncImageDisabled_Office2003Silver,
+.dxEditors_edtSpinEditLargeDecImage_Office2003Silver, .dxEditors_edtSpinEditLargeDecImageDisabled_Office2003Silver,
+.dxEditors_edtSpinEditIncrementImage_Office2003Silver, .dxEditors_edtSpinEditIncrementImageDisabled_Office2003Silver,
+.dxEditors_edtSpinEditDecrementImage_Office2003Silver, .dxEditors_edtSpinEditDecrementImageDisabled_Office2003Silver
+{
+	margin:auto;
+}
+
+.dxEditors_edtError_Office2003Silver {
+    background-position: -170px 0px;
+    width: 14px;
+    height: 14px;
+}
+
+.dxEditors_edtCalendarPrevYear_Office2003Silver {
+    background-position: -76px 0px;
+    width: 11px;
+    height: 12px;
+}
+
+.dxEditors_edtCalendarPrevYearDisabled_Office2003Silver {
+    background-position: -76px -20px;
+    width: 11px;
+    height: 12px;
+}
+
+.dxEditors_edtCalendarPrevMonth_Office2003Silver {
+    background-position: -57px 0px;
+    width: 11px;
+    height: 12px;
+}
+
+.dxEditors_edtCalendarPrevMonthDisabled_Office2003Silver {
+    background-position: -57px -20px;
+    width: 11px;
+    height: 12px;
+}
+
+.dxEditors_edtCalendarNextMonth_Office2003Silver {
+    background-position: -19px 0px;
+    width: 11px;
+    height: 12px;
+}
+
+.dxEditors_edtCalendarNextMonthDisabled_Office2003Silver {
+    background-position: -19px -20px;
+    width: 11px;
+    height: 12px;
+}
+
+.dxEditors_edtCalendarNextYear_Office2003Silver {
+    background-position: -38px 0px;
+    width: 11px;
+    height: 12px;
+}
+
+.dxEditors_edtCalendarNextYearDisabled_Office2003Silver {
+    background-position: -38px -20px;
+    width: 11px;
+    height: 12px;
+}
+
+.dxEditors_edtCalendarFNPrevYear_Office2003Silver {
+    background-position: 0px 0px;
+    width: 11px;
+    height: 12px;
+}
+
+.dxEditors_edtCalendarFNNextYear_Office2003Silver {
+    background-position: 0px -20px;
+    width: 11px;
+    height: 12px;
+}
+
+.dxEditors_edtEllipsis_Office2003Silver {
+    background-position: -113px 0px;
+    width: 10px;
+    height: 3px;
+}
+
+.dxEditors_edtEllipsisDisabled_Office2003Silver {
+    background-position: -113px -22px;
+    width: 10px;
+    height: 3px;
+}
+
+.dxEditors_edtDropDown_Office2003Silver {
+    background-position: -95px 0px;
+    width: 7px;
+    height: 3px;
+}
+
+.dxEditors_edtDropDownDisabled_Office2003Silver {
+    background-position: -95px -22px;
+    width: 7px;
+    height: 3px;
+}
+
+.dxEditors_edtSpinEditIncrementImage_Office2003Silver {
+    background-position: -150px 0px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxEditors_edtSpinEditIncrementImageDisabled_Office2003Silver {
+    background-position: -150px -13px;
+    width: 5px;
+    height: 5px;
+}
+
+.dxEditors_edtSpinEditDecrementImage_Office2003Silver {
+    background-position: -132px 0px;
+    width: 5px;
+    height: 3px;
+}
+
+.dxEditors_edtSpinEditDecrementImageDisabled_Office2003Silver {
+    background-position: -132px -13px;
+    width: 5px;
+    height: 3px;
+}
+
+.dxEditors_edtSpinEditLargeIncImage_Office2003Silver {
+    background-position: -145px -26px;
+    width: 6px;
+    height: 5px;
+}
+
+.dxEditors_edtSpinEditLargeIncImageDisabled_Office2003Silver {
+    background-position: -171px -26px;
+    width: 6px;
+    height: 5px;
+}
+
+.dxEditors_edtSpinEditLargeDecImage_Office2003Silver {
+    background-position: -132px -26px;
+    width: 6px;
+    height: 5px;
+}
+
+.dxEditors_edtSpinEditLargeDecImageDisabled_Office2003Silver {
+    background-position: -158px -26px;
+    width: 6px;
+    height: 5px;
+}
+
+.dxEditors_fcadd_Office2003Silver {
+    background-position: 0px -67px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcaddhot_Office2003Silver {
+    background-position: -21px -67px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcremove_Office2003Silver {
+    background-position: -42px -67px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcremovehot_Office2003Silver {
+    background-position: -63px -67px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupaddcondition_Office2003Silver {
+    background-position: -168px -46px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupaddgroup_Office2003Silver {
+    background-position: -147px -46px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupremove_Office2003Silver {
+    background-position: -126px -67px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopany_Office2003Silver {
+    background-position: 0px -88px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopbegin_Office2003Silver {
+    background-position: -42px -88px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopbetween_Office2003Silver {
+    background-position: -84px -88px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopcontain_Office2003Silver {
+    background-position: -105px -109px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotcontain_Office2003Silver {
+    background-position: -147px -109px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotequal_Office2003Silver {
+    background-position: -168px -88px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopend_Office2003Silver {
+    background-position: -63px -88px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopequal_Office2003Silver {
+    background-position: 0px -109px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopgreater_Office2003Silver {
+    background-position: -21px -109px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopgreaterorequal_Office2003Silver {
+    background-position: -42px -109px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotblank_Office2003Silver {
+    background-position: -105px -88px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopblank_Office2003Silver {
+    background-position: -126px -88px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopless_Office2003Silver {
+    background-position: -63px -109px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcoplessorequal_Office2003Silver {
+    background-position: -84px -109px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcoplike_Office2003Silver {
+    background-position: -126px -109px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotany_Office2003Silver {
+    background-position: -21px -88px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotbetween_Office2003Silver {
+    background-position: -147px -88px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcopnotlike_Office2003Silver {
+    background-position: -168px -109px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupand_Office2003Silver {
+    background-position: -84px -67px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupor_Office2003Silver {
+    background-position: -168px -67px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupnotand_Office2003Silver {
+    background-position: -105px -67px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_fcgroupnotor_Office2003Silver {
+    background-position: -147px -67px;
+    width: 13px;
+    height: 13px;
+}
+
+.dxEditors_caRefresh_Office2003Silver{
+	background-position: 0px -130px;
+    width: 13px;
+    height: 13px;
+}
+

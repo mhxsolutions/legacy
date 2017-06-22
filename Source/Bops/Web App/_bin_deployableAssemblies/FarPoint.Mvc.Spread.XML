@@ -1,0 +1,653 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FarPoint.Mvc.Spread</name>
+    </assembly>
+    <members>
+        <member name="T:FarPoint.Mvc.Spread.FpSpreadExtensions">
+            <summary>
+            Represents a helper class which provides shortcut functions to render Spread in the MVC Framework.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpreadExtensions.FpSpread(System.Web.Mvc.HtmlHelper,System.String,System.Action{FarPoint.Mvc.Spread.FpSpread})">
+            <summary>
+            Returns an element that contains the FarPoint Spread.
+            </summary>
+            <param name="html">The HTML helper instance that this method extends.</param>
+            <param name="id">The id of the FpSpread instance.</param>
+            <param name="action">The action which initializes the Spread if it is not sent from the controller.</param>
+            <returns>
+            An element that contains the FarPoint Spread.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpreadExtensions.FpSpread(System.Web.Mvc.HtmlHelper,System.String,System.Int32,System.Action{FarPoint.Mvc.Spread.FpSpread})">
+            <summary>
+            Returns an element that contains the FarPoint Spread.
+            </summary>
+            <param name="html">The HTML helper instance that this method extends.</param>
+            <param name="id">The id of the FpSpread instance.</param>
+            <param name="sheetCount">The initialized sheet count.</param>
+            <param name="action">The action which initializes Spread if it is not sent from the controller.</param>
+            <returns>
+            An element that contains the FarPoint Spread.
+            </returns>
+        </member>
+        <member name="T:FarPoint.Mvc.Spread.FpSpread">
+            <summary>
+            Represents a class which renders Spread in the MVC Framework.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.FpSpread"/> class.
+            This is only used for license validation.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.#ctor(System.String,System.Web.Mvc.ControllerContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.FpSpread"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="controllerContext">The controller context.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.#ctor(System.String,System.Web.Mvc.ControllerContext,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.FpSpread"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="controllerContext">The controller context.</param>
+            <param name="isCreatedFromModelBinder">Indicates whether the spread is created from SpreadModelBinder</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.#ctor(System.String,System.Int32,System.Web.Mvc.ControllerContext,System.Web.Mvc.ViewContext,System.Boolean,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.FpSpread"/> class.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="sheetCount">The sheet count.</param>
+            <param name="viewContext">The view context.</param>
+            <param name="controllerContext">The controller context</param>
+            <param name="createdFromModelBinder">Indicates whether the spread is created from SpreadModelBinder</param>
+            <param name="inMvcPage">Turn On|Off flag InMvcPage</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.EnableTrackingViewState">
+            <summary>
+            Enables the state of the tracking view.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.SetViewContext(System.Web.Mvc.ViewContext)">
+            <summary>
+            Sets the view context.
+            </summary>
+            <param name="viewContext">The view context.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.IsStartupScriptRegistered(System.Type,System.String)">
+            <summary>
+            Determines whether [is startup script registered] [the specified type].
+            </summary>
+            <param name="type">The type.</param>
+            <param name="key">The key.</param>
+            <returns>
+              <c>true</c> if [is startup script registered] [the specified type]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.RegisterStartupScript(System.Type,System.String,System.String,System.Boolean)">
+            <summary>
+            Registers the startup script.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="key">The key.</param>
+            <param name="script">The script.</param>
+            <param name="addScriptTags">if set to <c>true</c> [add script tags].</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.RegisterStartupScripts">
+            <summary>
+            Registers the startup scripts.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.RegisterHiddenFields">
+            <summary>
+            Registers the hidden fields.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.BeforeLoadFromSession(System.Web.SessionState.HttpSessionState,System.String)">
+            <summary>
+            Saves before the session load.
+            </summary>
+            <param name="session">The session.</param>
+            <param name="sessionKey">The session key.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.LoadViewState(System.Object)">
+            <summary>
+            Loads the view state of the Spread component.
+            </summary>
+            <param name="savedState">The object of the saved state.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.BeforeCallLoadViewStateOfBase(System.Object)">
+            <summary>
+            Internal use only.
+            </summary>
+            <param name="savedState"></param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.SaveViewState">
+            <summary>
+            Saves the view state of the component.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.AfterSaveToSession(System.Web.SessionState.HttpSessionState,System.String)">
+            <summary>
+            Saves after the save session.
+            </summary>
+            <param name="session">The session.</param>
+            <param name="sessionKey">The session key.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.OnInit(System.EventArgs)">
+            <summary>
+            Initializes the Spread component.
+            </summary>
+            <param name="e">Event arguments.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.OnPreRender(System.EventArgs)">
+            <summary>
+            Pre-renders the Spread component and creates the child controls.
+            </summary>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.RenderEndTag(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Appends the CSS style name to the specified HTML writer.
+            </summary>
+            <param name="writer">HTML text writer.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Renders the Spread component in HTML.
+            </summary>
+            <param name="output">The HtmlTextWriter object that contains the output.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.RegisterLicenseCssStyles(System.String)">
+            <summary>
+             Register the license dialog CSS styles.
+            </summary>
+            <param name="cssStyle"></param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.GetLicenseDialogStrings(System.String,System.String@,System.String@,System.String@)">
+            <summary>
+            Get license dialog strings from orignal http response
+            </summary>
+            <param name="s"></param>
+            <param name="licenseCssString"></param>
+            <param name="licenseHtmlString"></param>
+            <param name="licenseScriptString"></param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.Render(System.Action{FarPoint.Mvc.Spread.FpSpread})">
+            <summary>
+            Renders this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.ApplyChangesToView">
+            <summary>
+            Applies the changes to view.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.ExtractHiddenField(System.String@,System.String)">
+            <summary>
+            Gets the hidden field.
+            </summary>
+            <param name="s">The s.</param>
+            <param name="name">The name.</param>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.FindFpSpreadViewState(System.Object,System.String,System.Boolean@)">
+            <summary>
+            Finds the state of the fp spread view.
+            </summary>
+            <param name="o">The o.</param>
+            <param name="key">The key.</param>
+            <param name="found">if set to <c>true</c> [found].</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.SaveExcelToResponse">
+            <summary>
+            Saves the contents of the Spread component to a Response object in Excel file format
+            with default settings.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.SaveExcelToResponse(System.String)">
+            <summary>
+            Saves the contents of the Spread component to a Response object in Excel file format
+            with the specified file name.
+            </summary>
+            <param name="fileName">The file name.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.SaveExcelToResponse(System.String,System.String)">
+            <summary>
+            Saves the contents of the Spread component to a Response object in Excel file format
+            with the specified file name.
+            </summary>
+            <param name="fileName">The file name.</param>
+            <param name="password">The file password.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.SaveExcelToResponse(System.String,FarPoint.Excel.ExcelSaveFlags)">
+            <summary>
+            Saves the contents of the Spread component to a Response object in Excel file format
+            with the specified file name and Excel save options.
+            </summary>
+            <param name="fileName">The file name.</param>
+            <param name="flag">The Excel save options.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.SaveExcelToResponse(System.String,FarPoint.Excel.ExcelSaveFlags,System.String)">
+            <summary>
+            Saves the contents of the Spread component to a Response object in Excel file format
+            with the specified file name and Excel save options.
+            </summary>
+            <param name="fileName">The file name.</param>
+            <param name="flag">The excel save options.</param>
+            <param name="password">The file password.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.SavePdfToResponse">
+            <summary>
+            Saves the contents of the Spread component to a Response object in PDF file format.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.SavePdfToResponse(System.String)">
+            <summary>
+            Saves the contents of the Spread component to a Response object in PDF file format.
+            </summary>
+            <param name="fileName">The path and file name.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.SavePdfToResponse(System.Int32,System.String,System.Boolean)">
+            <summary>
+            Saves the contents of the Spread component to a Response object in PDF file format.
+            </summary>
+            <param name="sheet">The index of the sheet to print; -1 for all sheets.</param>
+            <param name="fileName">The path and file name.</param>
+            <param name="showInBrowser">Whether to show the PDF file in a browser.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.FpSpread.SavePdfToResponse(System.Collections.Generic.List{System.Int32},System.String)">
+            <summary>
+            Saves the contents of the Spread component to a Response object in PDF file format.
+            </summary>
+            <param name="sheet">Index collection of sheet to print;</param>
+            <param name="fileName">Path and file name</param>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.FpSpread.ClientIDMode">
+            <summary>
+            Gets or sets the algorithm that is used to generate the value of the <see cref="P:System.Web.UI.Control.ClientID" /> property.
+            </summary>
+            <value>The client ID mode.</value>
+            <returns>A value that indicates how the <see cref="P:System.Web.UI.Control.ClientID" /> property is generated. The default is <see cref="F:System.Web.UI.ClientIDMode.Inherit" />.</returns>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.FpSpread.SelectMethod">
+            <summary>
+            Gets or sets the name of the method to call to read data.
+            </summary>
+            <value>The select method.</value>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.FpSpread.DeleteMethod">
+            <summary>
+            Gets or sets the name of the method to call to delete data.
+            </summary>
+            <value>The delete method.</value>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.FpSpread.UpdateMethod">
+            <summary>
+            Gets or sets the name of the method to call to update data.
+            </summary>
+            <value>The update method.</value>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.FpSpread.ItemType">
+            <summary>
+            Gets or sets the name of the data item type for strongly typed data binding.
+            </summary>
+            <value>The type of the item.</value>
+            <remarks>Setting this property enables the Item and BindItem data-binding expressions.</remarks>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.FpSpread.InsertMethod">
+            <summary>
+            Gets or sets the name of the method to call to insert data.
+            </summary>
+            <value>The insert method.</value>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.FpSpread.Controller">
+            <summary>
+            Gets the current controller
+            </summary>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.FpSpread.IsCallingFromModelBinder">
+            <summary>
+            Indicates the spread is calling from MvcSpreadModelBinder
+            </summary>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.FpSpread.IsCreatedFromModelBinder">
+            <summary>
+            Indicates the spread is created from MvcSpreadModelBinder
+            </summary>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.FpSpread.ControllerType">
+            <summary>
+            Gets or sets the type of the controller.
+            </summary>
+            <value>
+            The type of the controller.
+            </value>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.SpreadViewData.NotifyDeclaration(System.String,System.String)">
+            <summary>
+            Notifies that a specified FpSpread is declared in the executing action of the controller.
+            </summary>
+            <param name="spreadID">The ID of the specified FpSpread.</param>
+            <param name="group">The group.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.SpreadViewData.IsDeclared(System.String)">
+            <summary>
+            Indicates whether the specified FpSpread is declared.
+            </summary>
+            <param name="spreadID">The ID of the specified FpSpread.</param>
+            <returns>A boolean value which indicates whether the specified FpSpread is declared.</returns>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.SpreadViewDataExtension.SpreadViewData(System.Web.Mvc.ViewDataDictionary)">
+            <summary>
+            Returns the current SpreadViewData using Lazy-loading.
+            </summary>
+            <param name="viewData"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FarPoint.Mvc.Spread.ObjectState">
+            <summary>
+            Represents a cache container that allows caching inner objects in the session.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.SpreadEventBroker.GetMappedEventList(System.Predicate{FarPoint.Mvc.Spread.SpreadBindingEvent})">
+            <summary>
+            Returns a list of events that are mapped.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.SpreadEventBroker.UnmapEvents(System.Collections.Generic.IEnumerable{FarPoint.Mvc.Spread.SpreadBindingEvent})">
+            <summary>
+            Detaches specified events from the <see cref="T:FarPoint.Mvc.Spread.SpreadBindingEvent"/> object.
+            </summary>
+            <param name="events">Events that need to be unmapped.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.SpreadEventBroker.DoMappingEventHandlers(System.Web.Mvc.IController)">
+            <summary>
+            Maps event handlers that are registered in the current controller to Spread events.
+            </summary>
+            <param name="controller">controller</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.SpreadEventBroker.IsValidEventHandler(FarPoint.Mvc.Spread.FpSpread,System.Reflection.MethodInfo)">
+            <summary>
+            Determines whether [is valid event handler] [the specified mi].
+            </summary>
+            <param name="spread">The spread.</param>
+            <param name="mi">The mi.</param>
+            <returns>
+              <c>true</c> if [is valid event handler] [the specified mi]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="T:FarPoint.Mvc.Spread.MvcSpreadVirtualPathProvider">
+            <summary>
+            Represents a class that enables a Web application to retrieve resources from a virtual file system (string, embedded resources).
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadVirtualPathProvider.AppInitialize">
+            <summary>
+            This special method is the starting point of the Web Application.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadVirtualPathProvider.FileExists(System.String)">
+            <summary>
+            Gets a value that indicates whether a file exists in the virtual file system.
+            </summary>
+            <param name="virtualPath">The path to the virtual file.</param>
+            <returns>
+            true if the file exists in the virtual file system; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadVirtualPathProvider.IsVirtualPath(System.String)">
+            <summary>
+            Determines whether the requested file is from a virtual path.
+            </summary>
+            <param name="virtualPath">The virtual path.</param>
+            <returns>
+              <c>true</c> if the requested file is from a virtual path; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadVirtualPathProvider.GetFile(System.String)">
+            <summary>
+            Gets a virtual file from the virtual file system.
+            </summary>
+            <param name="virtualPath">The path to the virtual file.</param>
+            <returns>
+            A descendent of the <see cref="T:System.Web.Hosting.VirtualFile"/> class that represents a file in the virtual file system.
+            </returns>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadVirtualPathProvider.GetCacheDependency(System.String,System.Collections.IEnumerable,System.DateTime)">
+            <summary>
+            Creates a cache dependency based on the specified virtual paths.
+            </summary>
+            <param name="virtualPath">The path to the primary virtual resource.</param>
+            <param name="virtualPathDependencies">An array of paths to other resources required by the primary virtual resource.</param>
+            <param name="utcStart">The UTC time at which the virtual resources were read.</param>
+            <returns>
+            A <see cref="T:System.Web.Caching.CacheDependency"/> object for the specified virtual resources.
+            </returns>
+        </member>
+        <member name="T:FarPoint.Mvc.Spread.MvcSpreadVirtualFile">
+            <summary>
+            This class returns the ASP.Net markup for the requested virtual file.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadVirtualFile.#ctor(System.String,FarPoint.Mvc.Spread.MvcSpreadVirtualPathProvider)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadVirtualFile"/> class.
+            </summary>
+            <param name="virtualPath">The virtual path.</param>
+            <param name="provider">The provider.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadVirtualFile.Open">
+            <summary>
+            When overridden in a derived class, returns a read-only stream to the virtual resource.
+            </summary>
+            <returns>
+            A read-only stream to the virtual file.
+            </returns>
+        </member>
+        <member name="T:FarPoint.Mvc.Spread._MvcSpreadPage_Default">
+            <summary>
+            Internal use only
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread._MvcSpreadPage_Default.InitializeSpread(FarPoint.Mvc.Spread.FpSpread)">
+            <summary>
+            Initializes the spread.
+            </summary>
+            <param name="fpSpread">The fp spread.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread._MvcSpreadPage_Default.OnInit(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Web.UI.Control.Init"/> event to initialize the page.
+            </summary>
+            <param name="e">A <see cref="T:System.EventArgs"/> that contains the event data.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread._MvcSpreadPage_Default.BuildControlFpSpread">
+            <summary>
+            Builds the control fp spread.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread._MvcSpreadPage_Default.FpSpread_LoadControllerCompleted(System.Object,System.EventArgs)">
+            <summary>
+            Handles the LoadControllerCompleted event of the FpSpread control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread._MvcSpreadPage_Default.OnLoad(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Web.UI.Control.Load"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> object that contains the event data.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread._MvcSpreadPage_Default.OnLoadComplete(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Web.UI.Control.PreRender"/> event.
+            </summary>
+            <param name="e">A <see cref="T:System.EventArgs"/> object that contains the event data.</param>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread._MvcSpreadPage_Default.AbsoluteVirtualPath">
+            <summary>
+            Gets the absolute virtual path.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Mvc.Spread.MvcSpreadModelBinder">
+            <summary>
+            Defines the methods that are required for an MvcSpread model binder.
+            </summary>
+            <example>
+            <para>
+            Override the default model binder:
+            ModelBinders.Binders.DefaultBinder = new FarPoint.Mvc.Spread.MvcSpreadModelBinder();
+            </para>
+            <para>
+            Add a custom model binder:
+            ModelBinders.Binders.Add(typeof(FarPoint.Mvc.Spread.FpSpread), new FarPoint.Mvc.Spread.MvcSpreadModelBinder());
+            </para>
+            </example>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadModelBinder.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadModelBinder"/> class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadModelBinder.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadModelBinder"/> class.
+            </summary>
+            <param name="create">Indicates whether <see cref="T:FarPoint.Mvc.Spread.MvcSpreadModelBinder"/> creates a new <see cref="T:FarPoint.Web.Spread.FpSpread"/> instance if the specified <see cref="T:FarPoint.Web.Spread.FpSpread"/> is not bound. By default, the new <see cref="T:FarPoint.Web.Spread.FpSpread"/> instance contains one <see cref="T:FarPoint.Web.Spread.SheetView"/>.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadModelBinder.BindModel(System.Web.Mvc.ControllerContext,System.Web.Mvc.ModelBindingContext)">
+            <summary>
+            Binds the model by using the specified controller context and binding context.
+            </summary>
+            <param name="controllerContext">The context within which the controller operates. The context information includes the controller, HTTP content, request context, and route data.</param>
+            <param name="bindingContext">The context within which the model is bound. The context includes information such as the model object, model name, model type, property filter, and value provider.</param>
+            <returns>
+            The bound object.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="bindingContext "/>parameter is null.</exception>
+        </member>
+        <member name="T:FarPoint.Mvc.Spread.NoMvcSpreadEventAttribute">
+            <summary>
+            Indicates that the function should not be attached to Spread's event automatically.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Mvc.Spread.MvcSpreadEventExcludeAttribute">
+            <summary>
+            When this attribute is declared on an event handler, it indicates that some spread controls exclude that event handler.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadEventExcludeAttribute.#ctor(System.String[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadEventExcludeAttribute"/> class.
+            </summary>
+            <param name="groupNames">Names of groups that Spread belongs to.</param>
+        </member>
+        <member name="T:FarPoint.Mvc.Spread.MvcSpreadEventAttribute">
+            <summary>
+            Indicates that the function is attached to Spread's event automatically.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadEventAttribute.#ctor(System.String,System.String[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadEventAttribute"/> class.
+            </summary>
+            <param name="eventName">Name of the event.</param>
+            <param name="spreadIDs">Indicates which Spread controls attach to this event handler. Set  to null for all Spread controls.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadEventAttribute.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadEventAttribute"/> class.
+            </summary>
+            <param name="eventName">Name of the event.</param>
+            <param name="spreadID">Indicates which Spread uses this event handler.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadEventAttribute.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadEventAttribute"/> class.
+            </summary>
+            <param name="eventName">Name of the event.</param>
+            <param name="group">The group.</param>
+            <param name="spreadID">The spread ID.</param>
+            <exception cref="T:System.ArgumentNullException">spreadID</exception>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadEventAttribute.#ctor(System.String,System.String,System.String[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadEventAttribute"/> class.
+            </summary>
+            <param name="eventName">Name of the event.</param>
+            <param name="group">The group.</param>
+            <param name="spreadIDs">Indicates which Spread uses this event handler. Set to null for all Spread controls.</param>
+            <exception cref="T:System.ArgumentNullException">group</exception>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.MvcSpreadEventAttribute.EventName">
+            <summary>
+            Gets the name of the event.
+            </summary>
+            <value>
+            The name of the event.
+            </value>
+        </member>
+        <member name="P:FarPoint.Mvc.Spread.MvcSpreadEventAttribute.SpreadIDs">
+            <summary>
+            Gets the spread Ids.
+            </summary>
+        </member>
+        <member name="T:FarPoint.Mvc.Spread.MvcSpreadAttribute">
+             <summary>
+             Represents an attribute that invokes an MvcSpread model binder.
+             </summary>
+             <example>
+             public ActionResult Index([FarPoint.Mvc.Spread.MvcSpread]FarPoint.Mvc.Spread.FpSpread FpSpread1)
+             {
+               spread.ActiveSheetView.DefaultStyle.BackColor = System.Drawing.Color.Green;
+            
+               return View();
+             }
+             </example>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadAttribute"/> class.
+            </summary>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadAttribute.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadAttribute"/> class.
+            </summary>
+            <param name="create">Indicates whether <see cref="T:FarPoint.Mvc.Spread.MvcSpreadModelBinder"/> creates a new <see cref="T:FarPoint.Web.Spread.FpSpread"/> instance if the specified <see cref="T:FarPoint.Web.Spread.FpSpread"/> is not bound. By default, the new <see cref="T:FarPoint.Web.Spread.FpSpread"/> instance contains one <see cref="T:FarPoint.Web.Spread.SheetView"/>.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadAttribute"/> class.
+            </summary>
+            <param name="group">Indicates the name of the group which <see cref="T:FarPoint.Web.Spread.FpSpread"/>'s event is attached to.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadAttribute.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:FarPoint.Mvc.Spread.MvcSpreadAttribute"/> class.
+            </summary>
+            <param name="group">Indicates the name of the group which <see cref="T:FarPoint.Web.Spread.FpSpread"/>'s event is attached to.</param>
+            <param name="create">Indicates whether <see cref="T:FarPoint.Mvc.Spread.MvcSpreadModelBinder"/> creates a new <see cref="T:FarPoint.Web.Spread.FpSpread"/> instance if the specified <see cref="T:FarPoint.Web.Spread.FpSpread"/> is not bound. By default, the new <see cref="T:FarPoint.Web.Spread.FpSpread"/> instance contains one <see cref="T:FarPoint.Web.Spread.SheetView"/>.</param>
+        </member>
+        <member name="M:FarPoint.Mvc.Spread.MvcSpreadAttribute.GetBinder">
+            <summary>
+            Retrieves the associated model binder.
+            </summary>
+            <returns>
+            A reference to an object that implements the <see cref="T:System.Web.Mvc.IModelBinder"/> interface.
+            </returns>
+        </member>
+    </members>
+</doc>

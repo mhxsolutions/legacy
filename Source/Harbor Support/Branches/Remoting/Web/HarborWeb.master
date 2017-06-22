@@ -1,0 +1,25 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HarborWeb.master.cs" Inherits="HarborWeb" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+        <br />
+        <a href="EnterDr.aspx">Enter DR</a> | <a href="EditDr.aspx">Edit DR</a> | 
+        <a href="ReportTodayDr.aspx">Report Today</a> | <a href="ReportAllDr.aspx">Report All</a><br /><br />
+        
+        <em>
+        All Content Copyright © 2008 -
+        <% Response.Write(DateTime.Now.Year); %>
+        Budway Enterprises<br />
+        All Rights Reserved</em></div>
+    </form>
+</body>
+</html>

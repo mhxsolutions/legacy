@@ -1,0 +1,162 @@
+﻿body 
+{
+	background:#FFFFFF none repeat scroll 0%;
+	color:#000000;
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	margin:7px 8px 8px;
+}
+
+p, ul 
+{
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+}
+
+ul li 
+{
+	vertical-align:middle;
+}
+
+ul 
+{
+	margin-left:40px;
+	padding-left:0px;
+}
+
+#top-container 
+{
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+#header 
+{
+	margin:auto;
+	text-align:left;
+	width:600px;
+}
+
+#header h1 
+{
+	margin:0px;
+}
+
+#tabbed-bar 
+{
+	margin:auto;
+}
+
+#tabbed-bar div 
+{
+	margin:auto;
+	text-align:center;	
+}
+
+#tabbed-bar a 
+{
+	background:lightgrey none repeat scroll 0%;
+	border-color:gray;
+	border-style:solid;
+	border-width:1px 1px 0px;
+	color:black;
+	display:block;
+	float:left;
+	font-size:11px;
+	font-weight:bold;
+	height:38px;
+	margin:2px 2px 0px;
+	max-width:100px;
+	padding:5px 5px 3px;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;	
+}
+
+#tabbed-bar a:hover 
+{
+	background-color:#87CEFA;
+}
+
+#tabbed-bar a:active 
+{
+	background-color:#FFEFC0;
+}
+
+#tabbed-bar a.selected 
+{
+	background:#507CD1 none repeat scroll 0%;
+	color:white;
+	margin-bottom:0px;
+}
+
+#tabbed-bar a.disabled 
+{
+	background:gray none repeat scroll 0%;
+	color:black;
+	margin-bottom:0px;
+}
+
+#tabbed-bar a.selected:hover 
+{
+	background:#507CD1 none repeat scroll 0%;
+}
+
+#tabbed-bar a.more 
+{
+	background:white none repeat scroll 0%;
+	border-color:silver;
+	font-size:10px;
+}
+
+#topbar 
+{
+	background:#507CD1 none repeat scroll 0%;
+	clear:both;
+	height:30px;
+	padding:1px;
+	text-align:center;
+	color:white;
+	font-weight:bold;	
+}
+
+#topbar div 
+{
+	margin:auto;
+	width:590px;
+}
+
+#topbar a 
+{
+	border:2px outset #00CCFF;
+	color:white;
+	display:block;
+	float:left;
+	font-family:Verdana;
+	font-size:14px;
+	font-weight:600;
+	margin:2px;
+	padding:3px;
+	text-decoration:none;
+}
+
+#topbar a:hover 
+{
+	background-color:#4477AA;
+}
+
+tr.header
+{
+	background:Silver;
+	color:Black;
+	font-weight:bold;
+	height:30px;
+	margin:2px 2px 0px;
+}
+
+#hello 
+{
+	background:#FFFFEE none repeat scroll 0%;
+	clear:both;
+	font-size:0.8em;
+	margin:0px 0px 10px;
+	padding:1px;
+	text-align:center;
+}

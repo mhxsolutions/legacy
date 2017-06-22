@@ -1,0 +1,21 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="RFS_RFS" Codebehind="RFS.master.cs" %>
+<%@ Register Assembly="FlashControl" Namespace="Bewise.Web.UI.WebControls" TagPrefix="Bewise" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>BOPS | Request for Service</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <Bewise:FlashControl ID="FlashControl1" runat="server" Height="70px" Width="1000px" 
+            MovieUrl="~/BudwayTitlebar.swf?TitleString=Request for Service">
+        </Bewise:FlashControl>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

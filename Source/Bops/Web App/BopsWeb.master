@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BopsWeb.master.cs" Inherits="Web_App.BopsWeb" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Budway Operations Software</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="MasterPageBody" runat="server">
+    <form id="form1" runat="server">
+        <table border="0" cellpadding="0" cellspacing="6" style="width: 100%; height: 100%">
+            <tr>
+                <td colspan="2" style="border-bottom: #507cd1 thin solid;">
+                    <asp:Image ID="BudwayLogo" runat="server" ImageUrl="~/Images/Bops Web Logo.gif" ImageAlign="absMiddle" />
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em"
+                        PathSeparator=" : ">
+                        <PathSeparatorStyle Font-Bold="True" ForeColor="#507CD1" />
+                        <CurrentNodeStyle ForeColor="#333333" />
+                        <NodeStyle Font-Bold="True" ForeColor="#284E98" />
+                        <RootNodeStyle Font-Bold="True" ForeColor="#507CD1" />
+                    </asp:SiteMapPath>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td style="width: 225px; vertical-align: top; border-right: #507cd1 thin solid; border-top: #507cd1 thin solid;
+                    border-left: #507cd1 thin solid; border-bottom: #507cd1 thin solid; background-color: #507cd1;
+                    padding-right: 10px; padding-left: 10px; padding-bottom: 10px; padding-top: 10px;">
+                    <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" ImageSet="Simple"
+                        NodeIndent="10" Style="text-align: left">
+                        <ParentNodeStyle Font-Bold="False" />
+                        <HoverNodeStyle BackColor="LightGray" Font-Underline="True" ForeColor="Black" />
+                        <SelectedNodeStyle Font-Bold="True" Font-Underline="True" ForeColor="White" HorizontalPadding="0px"
+                            VerticalPadding="0px" Font-Overline="False" />
+                        <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="White" HorizontalPadding="0px"
+                            NodeSpacing="0px" VerticalPadding="0px" />
+                    </asp:TreeView>
+                    <p>
+                        <asp:LinkButton ID="ChangePasswordLinkButton" runat="server" Style="color: White; font-family: Verdana; font-size: 8pt;" OnClick="ChangePasswordLinkButton_Click">Change Password</asp:LinkButton><br />
+                        <asp:LinkButton ID="LogoutLinkButton" runat="server" Style="color: White; font-family: Verdana; font-size: 8pt;" OnClick="LogoutLinkButton_Click">Logout</asp:LinkButton>
+                    </p>
+                </td>
+                <td style="vertical-align: top; width: 95%;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="height: 24px; vertical-align: top;">
+                    <p>
+                        <em>All Content Copyright © 2006 - <% Response.Write(DateTime.Now.Year); %> Budway Enterprises, All Rights Reserved</em></p>
+                    <p>
+                        v20121001dh</p>
+                </td>
+            </tr>
+        </table>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DataSource1">
+      <ConnectionProperties>
+        <IntegratedSecurity>true</IntegratedSecurity>
+        <ConnectString>Data Source=SQL1;Initial Catalog="DWS No Rep Data"</ConnectString>
+        <DataProvider>SQL</DataProvider>
+      </ConnectionProperties>
+      <rd:DataSourceID>2b175c6f-5d1d-45a6-8ba4-95e5f5b11487</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <BottomMargin>1in</BottomMargin>
+  <RightMargin>1in</RightMargin>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ReportItems>
+      <Image Name="image1">
+        <Sizing>AutoSize</Sizing>
+        <Top>0.125in</Top>
+        <ZIndex>2</ZIndex>
+        <Width>2.01042in</Width>
+        <Source>Embedded</Source>
+        <Style />
+        <Height>0.29167in</Height>
+        <Value>budway_logo</Value>
+      </Image>
+      <Textbox Name="textbox1">
+        <Left>2.125in</Left>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <ZIndex>1</ZIndex>
+        <Width>7.25in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontFamily>Tahoma</FontFamily>
+          <FontWeight>700</FontWeight>
+          <FontSize>25pt</FontSize>
+          <Color>SteelBlue</Color>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.5in</Height>
+        <Value>Alcoa Famosa Average Load Weight</Value>
+      </Textbox>
+      <Chart Name="chart1">
+        <Legend>
+          <Style>
+            <BorderStyle>
+              <Default>Solid</Default>
+            </BorderStyle>
+          </Style>
+          <Position>RightCenter</Position>
+        </Legend>
+        <Subtype>Plain</Subtype>
+        <Title />
+        <Height>3in</Height>
+        <CategoryAxis>
+          <Axis>
+            <Title />
+            <MajorGridLines>
+              <Style>
+                <BorderStyle>
+                  <Default>Solid</Default>
+                </BorderStyle>
+              </Style>
+            </MajorGridLines>
+            <MinorGridLines>
+              <Style>
+                <BorderStyle>
+                  <Default>Solid</Default>
+                </BorderStyle>
+              </Style>
+            </MinorGridLines>
+            <MajorTickMarks>Outside</MajorTickMarks>
+            <Min>0</Min>
+            <Visible>true</Visible>
+          </Axis>
+        </CategoryAxis>
+        <PointWidth>0</PointWidth>
+        <Left>0.25in</Left>
+        <ThreeDProperties>
+          <Rotation>30</Rotation>
+          <Inclination>30</Inclination>
+          <Shading>Simple</Shading>
+          <WallThickness>50</WallThickness>
+        </ThreeDProperties>
+        <DataSetName>DWS_No_Rep_Data</DataSetName>
+        <Top>0.75in</Top>
+        <PlotArea>
+          <Style>
+            <BorderStyle>
+              <Default>Solid</Default>
+            </BorderStyle>
+            <BackgroundColor>LightGrey</BackgroundColor>
+          </Style>
+        </PlotArea>
+        <ValueAxis>
+          <Axis>
+            <Title />
+            <MajorGridLines>
+              <ShowGridLines>true</ShowGridLines>
+              <Style>
+                <BorderStyle>
+                  <Default>Solid</Default>
+                </BorderStyle>
+              </Style>
+            </MajorGridLines>
+            <MinorGridLines>
+              <Style>
+                <BorderStyle>
+                  <Default>Solid</Default>
+                </BorderStyle>
+              </Style>
+            </MinorGridLines>
+            <MajorTickMarks>Outside</MajorTickMarks>
+            <Min>0</Min>
+            <Margin>true</Margin>
+            <Visible>true</Visible>
+            <Scalar>true</Scalar>
+          </Axis>
+        </ValueAxis>
+        <Type>Line</Type>
+        <Width>9in</Width>
+        <CategoryGroupings>
+          <CategoryGrouping>
+            <DynamicCategories>
+              <Grouping Name="chart1_CategoryGroup1">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!Date.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <Label>=Fields!Date.Value</Label>
+            </DynamicCategories>
+          </CategoryGrouping>
+        </CategoryGroupings>
+        <Palette>Default</Palette>
+        <ChartData>
+          <ChartSeries>
+            <DataPoints>
+              <DataPoint>
+                <DataValues>
+                  <DataValue>
+                    <Value>=Sum(Fields!Avg_Load_Wt.Value)</Value>
+                  </DataValue>
+                </DataValues>
+                <DataLabel />
+                <Marker />
+              </DataPoint>
+            </DataPoints>
+          </ChartSeries>
+        </ChartData>
+        <Style>
+          <BackgroundColor>White</BackgroundColor>
+        </Style>
+      </Chart>
+    </ReportItems>
+    <Height>3.875in</Height>
+  </Body>
+  <rd:ReportID>218f1878-fe7c-475c-8984-2a882f425cf0</rd:ReportID>
+  <LeftMargin>1in</LeftMargin>
+  <EmbeddedImages>
+    <EmbeddedImage Name="budway_logo">
+      <ImageData>R0lGODlhwQAcALMAAAAAAH9/fz8/P6+vrx8fH09PT8zMzI+Pj29vbw8PD7+/v19fX5+fn9/f3zMzM////yH5BAEHAA8ALAAAAADBABwAAAT/8MlJ62sjLMF7R0EwNNakBIUnLFbDoOpAuYFqF4FSTu6mHpZTTUWqNA4+YouBsHUYM6bNUOo5oTvKIbQgAL7gsDhBlTQUaIEYDLygGY41IEEKaRLyPEHGe2nyUGcKAwV6EgYKL3F5ATxCi3kAUHYLeGs6hxkBkGIsWTsGfnYaThxFRhlNHAWnFEIBTQCNRlujtiEeWC22aq2HIaocsxWDpBwJAjs0vMeYFJqwas4UoaMcnp8XlJaRckBnqV5rWNUocgQXfgXc3ZcSibCcYOjQhYCCCgjyYA5FDZTiuh16gSBgGAUY7Oz7gi3bjAPBStnQJYFBEnHozJhhkKKDF4oP/wwMkegBUrIKUjwkaChSZZhTRzgYnFPmwsaOHgxm7JNEgJdpMT0wdBhkpIp2w0JGywkSQ0QBCXa+M1oqUquWLnWdkIgtIRcVNU0gkWipgIUBEb3MEonTY8Nsr+y1k8MAkYIu58wo2FKJbkg/C+eyAXdHzoAtBbsVQHNgZhhdfhILnnVGkRwBIQK3IWok0UUEaEJvadvqCCUBDvhUEHnawZKlHBiEFm0HJ0gDtZI4qgXMg+q/MD5U2WtMQAFNKfD85mFNlhtRNSRxPoRG8hh8fcWABnzZTK11fhlbD3PyTfY1OdDgXUMg89zD48lPsBO/XRlBBxY6cPwF5PQHJ+CEx/9mU4XgRT88HJDTF9Mc8pRxRlhUEgAN0tBTbM/g4oEOLjwIiWsPDHARP75ccEBbXhxw4oIlbCUTQ1R99N9Dbfk0F4LeXQjASa4YtchvuC24Ywsr2siGGSJ2wI0VZAGAAJMqsBJhjXgs4CIHX/DoyoMePTajIEzw1w0BgQghlxhFsLZJd4QtkAcm+NTXHxoisvOFA2vOtUBgFG7EhZ1Z
+5tmJI4mc2Y1//+GTwYU2LDcBNNEgUIUoHDhQITwjSTrclRC6cpcHAQgSzGK1xRESpB0hisYoG0gJ4GkCEIiSLReGxZkgA6ghWBh0hPRdHkXAs54YydglKJoT2NVYHouhYej/POfIAehQboTwLBgLFOaOXoNcy6utM5oIK0kcaProUwC8ZWKNAjQo0oVJ9fjgNJoIxZoHB2TQAUPoDmkBW5V+QYZ37JYoLpcCgJtoki4J5o+ESs7hC1bHfGFWggIK7AsGSRAbEmMFiBlGalTZsAgBvqAlkchzgGJUQAOH+3Eiuu4qBn38UbaqtySIljOhHEWigF11zpUAEtOuEXNl5tjsMaH58BezzJ7yloJsswXnEUy1qIJyC8J2EK8gRrlKaC0qmIskM2Blcgsp4jhqF6Zak4uoG3t5YHa4oYG3RrGDnMdrON3NnB+wuNZ8M97LRoLyP+7NtZjf7bRhl5xO64KP/+JhxEv1A37Yu5q1L3pCA7q3aSh2hFon0OtD9H171i1tXRyiHRKpbYItXhBArgcKL9OTwTMmmfRcwT6I0YvSwgRxl04DwAfRsUTSqws48Yejd8zPM/FIyEbRkRiyJkqn4NGDVmj0YpQZ+PGCJaBaA+CgT7558OMo2kJT+ywHiHgrmhik8jngvK04RuJHEGbzu9WtphgHZFfNCKAwAPEGGItQ2xnQFiVbEUZ1CQOFEEDVoq51wFHTURbL2iEA+vUNfpFAUGjs57S9EYZl/YAHnxgUQM55KVnVSdosZmiIAibrgKxSAR48t4wklgIPe/sFEnvCCTLBZRSqkFgUnIga/4U00QcAKN8RR5GcBikFd6hB4Yy2ssI1LIB4AFLFDufgqHz4cC7tMVhoOJI0GeCqCdMyV2U2sA91uSFJciAB0YYFBi3x7Q13/B9mRrCpfMxxRwyASWj0YTMH4KCCMxDgoAD0Bm+dJE7aAxtj+Ie3u/DHjEaMZYsgFYIBwFKWuMylLnc5gQgAADs=</ImageData>
+      <MIMEType>image/gif</MIMEType>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <DataSets>
+    <DataSet Name="DWS_No_Rep_Data">
+      <Query>
+        <CommandText>SELECT     Date, [Avg Load Wt]
+FROM         [Alcoa Famosa Average Load]
+ORDER BY Date</CommandText>
+        <DataSourceName>DataSource1</DataSourceName>
+      </Query>
+      <Fields>
+        <Field Name="Date">
+          <rd:TypeName>System.String</rd:TypeName>
+          <DataField>Date</DataField>
+        </Field>
+        <Field Name="Avg_Load_Wt">
+          <rd:TypeName>System.Int32</rd:TypeName>
+          <DataField>Avg Load Wt</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <Width>9.5in</Width>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>

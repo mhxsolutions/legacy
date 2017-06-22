@@ -1,0 +1,789 @@
+.dxgvControl_BudwayDirectMarron,
+.dxgvDisabled_BudwayDirectMarron
+{
+	border: 1px Solid #660000;
+	font: 12px Tahoma, Geneva, sans-serif;
+	background-color: #EFEFEF;
+	color: #000000;
+	cursor: default;
+}
+.dxgvDisabled_BudwayDirectMarron
+{
+	color: Gray;
+}
+.dxgvControl_BudwayDirectMarron a
+{
+	color: #8A0A37;
+}
+.dxgvControl_BudwayDirectMarron a:hover
+{
+	color: #e3b99f;
+}
+.dxgvDisabled_BudwayDirectMarron a
+{
+	color: Gray;
+}
+
+.dxgvEmptyDataRow_BudwayDirectMarron.dxgvLVR > td.dxgv,
+.dxgvDataRow_BudwayDirectMarron.dxgvLVR > td.dxgv,
+.dxgvGroupRow_BudwayDirectMarron.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 0;
+}
+
+.dxgvRBB .dxgvEmptyDataRow_BudwayDirectMarron.dxgvLVR > td.dxgv,
+.dxgvRBB .dxgvDataRow_BudwayDirectMarron.dxgvLVR > td.dxgv,
+.dxgvRBB .dxgvGroupRow_BudwayDirectMarron.dxgvLVR > td.dxgv
+{
+    border-bottom-width: 1px !important;
+}
+
+.dxgvLoadingPanel_BudwayDirectMarron
+{
+	font: 12px Tahoma, Geneva, sans-serif;
+	color: #767676;
+	background-color: #f6f6f6;
+	border: 1px solid #898989;
+}
+.dxgvLoadingPanel_BudwayDirectMarron td.dx
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 10px 20px 6px;
+}
+.dxgvLoadingPanel_BudwayDirectMarron .dxlp-loadingImage,
+.dxgvLoadingPanelStatusBar_BudwayDirectMarron .dxlp-loadingImage 
+{
+	background-image: url('../Web/Loading.gif');
+	height: 18px;
+	width: 18px;
+}
+.dxgvLoadingPanelStatusBar_BudwayDirectMarron
+{
+	background-color: transparent;
+}
+.dxgvLoadingPanelStatusBar_BudwayDirectMarron td
+{
+	white-space: nowrap;
+	text-align: center;
+	padding: 0px 2px;
+}
+
+.dxgvFilterPopupWindow_BudwayDirectMarron
+{
+	color: Black;
+	border: 1px solid #8a0a37;
+}
+.dxgvFilterPopupItemsArea_BudwayDirectMarron
+{
+	color: Black;
+	background-color: #f5ecf1;
+}
+.dxgvFilterPopupButtonPanel_BudwayDirectMarron
+{
+	background-color: #eed8e3;
+	border: 1px solid #dcdcdc;
+	border-left: 0px solid #dcdcdc;
+	color: Black;
+}
+
+.dxgvFilterPopupItem_BudwayDirectMarron td.dxgv,
+.dxgvFilterPopupActiveItem_BudwayDirectMarron td.dxgv,
+.dxgvFilterPopupSelectedItem_BudwayDirectMarron td.dxgv
+{
+	padding: 3px 2px 4px 4px;
+	border-left: 1px solid #f5ecf1;
+	border-top: 1px solid #f5ecf1;
+	border-right: 1px solid #f5ecf1;
+	cursor: default;
+	white-space: nowrap;
+}
+.dxgvFilterPopupActiveItem_BudwayDirectMarron
+{
+	background: #dbbbda none;
+	color: Black;
+}
+.dxgvFilterPopupSelectedItem_BudwayDirectMarron
+{
+	color: White;
+	background: #8A0A37 none;
+}
+
+.dxgvTable_BudwayDirectMarron
+{
+	background-color: #FFFFFF;
+	border-width: 0;
+	border-collapse: separate!important;
+	overflow: hidden;
+}
+.dxgvTable_BudwayDirectMarron .dxgvHEC
+{
+	background-color: #FFFFFF;
+	border-width: 0;
+	overflow: hidden;
+}
+.dxgvControl_BudwayDirectMarron .dxgvFSDC .dxgvFooter_BudwayDirectMarron td.dxgv
+{
+    border-bottom: 0;
+}
+.dxgvControl_BudwayDirectMarron .dxgvFGI
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dxgvControl_BudwayDirectMarron .dxgvFGI
+{
+    right: 5px;
+    left: auto;
+}
+*[dir="rtl"].dxgvControl_BudwayDirectMarron .dxgvFGI
+{
+    right: auto;
+    left: 5px;
+}
+.dxgvInlineEditRow_BudwayDirectMarron,
+.dxgvDataRow_BudwayDirectMarron
+{
+}
+.dxgvInlineEditRow_BudwayDirectMarron td.dxgv
+{
+	border-bottom: 1px Solid #D5D5D5;
+	border-right: 1px Solid #D5D5D5;
+}
+.dxgvInlineEditRow_BudwayDirectMarron td.dxgvIndentCell
+{
+	background-color: #EBEBEB;
+}
+.dxgvDataRowAlt_BudwayDirectMarron
+{
+	background-color: #F8EDEF;
+}
+.dxgvFilterRow_BudwayDirectMarron
+{
+	background-color: #ffffff;
+}
+.dxgvEditForm_BudwayDirectMarron
+{
+	background-color: #F6EBF6;
+}
+.dxgvEditForm_BudwayDirectMarron td.dxgv
+{
+	border-bottom: 1px Solid #D5D5D5;
+	padding: 15px;
+}
+.dxgvEditForm_BudwayDirectMarron td.dxgvIndentCell
+{
+	background: #ebebeb none;
+	border-right: 1px Solid #d5d5d5;
+	border-left: 1px Solid #d5d5d5;
+	border-top-width: 0px;
+}
+.dxgvSelectedRow_BudwayDirectMarron
+{
+	background-color: #ca3231;
+	color: #FFFFFF;
+}
+.dxgvFocusedRow_BudwayDirectMarron
+{
+	background-color: #660000;
+	color: #FFFFFF;
+}
+.dxgvSelectedRow_BudwayDirectMarron td.dxgvCommandColumn_BudwayDirectMarron a, 
+.dxgvSelectedRow_BudwayDirectMarron td.dxgvAIC a, 
+.dxgvFocusedRow_BudwayDirectMarron td.dxgvCommandColumn_BudwayDirectMarron a,
+.dxgvFocusedRow_BudwayDirectMarron td.dxgvAIC a,
+.dxgvFocusedRow_BudwayDirectMarron a.dxeHyperlink_BudwayDirectMarron
+{
+	color: #FFFFFF;
+}
+.dxgvPreviewRow_BudwayDirectMarron
+{
+	background-color: #F6EBF6;
+	color: #AD82A4;
+}
+.dxgvDetailRow_BudwayDirectMarron td.dxgv,
+.dxgvPreviewRow_BudwayDirectMarron td.dxgv,
+.dxgvEmptyDataRow_BudwayDirectMarron td.dxgv
+{
+	padding: 30px 2px 30px 4px;
+	border-bottom: 1px Solid #D5D5D5;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+.dxgvPreviewRow_BudwayDirectMarron td.dxgv
+{
+	padding: 15px 15px 15px 20px;
+}
+.dxgvDetailRow_BudwayDirectMarron td.dxgvDetailCell_BudwayDirectMarron
+{
+	padding: 19px;
+}
+.dxgvDetailRow_BudwayDirectMarron td.dxgvIndentCell
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	border-bottom: 1px Solid #D5D5D5;
+}
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR .dxgvADT > tbody > tr > td
+{
+    padding: 6px 6px 5px 0;
+}
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR .dxgvADT > tbody > tr > td .dxeTextBoxSys,
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR .dxgvADT > tbody > tr > td .dxichCellSys
+{
+    margin: -4px 0 -3px 0;
+}
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR .dxgvADCC
+{
+    color: #7F7F7F;
+}
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR.dxgvFocusedRow_BudwayDirectMarron .dxgvADCC,
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR.dxgvFocusedRow_BudwayDirectMarron .dxgvADDC,
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR.dxgvSelectedRow_BudwayDirectMarron .dxgvADCC,
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR.dxgvSelectedRow_BudwayDirectMarron .dxgvADDC,
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR.dxgvFocusedRow_BudwayDirectMarron .dxgvADCMDC a,
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR.dxgvSelectedRow_BudwayDirectMarron .dxgvADCMDC a
+{
+    color: white;
+}
+.dxgvEmptyDataRow_BudwayDirectMarron
+{
+	background-color: #F6EBF6;
+	color: #E1ABBE;
+}
+.dxgvEmptyDataRow_BudwayDirectMarron td.dxgv
+{
+	text-align: center;
+}
+
+.dxgvEditFormDisplayRow_BudwayDirectMarron td.dxgv,
+.dxgvDetailCell_BudwayDirectMarron td.dxgv,
+.dxgvDataRow_BudwayDirectMarron td.dxgv,
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR td.dxgvAIC
+{
+	overflow: hidden;
+	border-bottom: 1px Solid #D5D5D5;
+	border-right: 1px Solid #D5D5D5;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 4px 5px 5px;
+}
+.dxgvDataRow_BudwayDirectMarron td.dxgvAIC,
+.dxgvInlineEditRow_BudwayDirectMarron td.dxgvAIC
+{
+    padding: 0 4px;
+}
+.dxgvDetailRow_BudwayDirectMarron.dxgvADR td.dxgvAIC
+{
+    padding: 6px 4px;
+}
+.dxgvEditFormDisplayRow_BudwayDirectMarron td.dxgvCommandColumn_BudwayDirectMarron,
+.dxgvDataRow_BudwayDirectMarron td.dxgvCommandColumn_BudwayDirectMarron
+{
+	padding: 4px 5px 5px;
+}
+.dxgvEditFormDisplayRow_BudwayDirectMarron
+{
+	background-color: #F1E3F1;
+}
+.dxgvEditFormDisplayRow_BudwayDirectMarron td.dxgv
+{
+}
+.dxgvEditFormDisplayRow_BudwayDirectMarron td.dxgvIndentCell
+{
+	background: #ebebeb none;
+	border-right: 1px Solid #d5d5d5;
+	border-left: 1px Solid #d5d5d5;
+	border-top-width: 0px;
+}
+.dxgvEditingErrorRow_BudwayDirectMarron
+{
+	background-color: #F3D6D6;
+	color: #BA1717;
+}
+.dxgvEditingErrorRow_BudwayDirectMarron td.dxgv
+{
+	white-space: pre-wrap;
+	border-bottom: 1px Solid #D5D5D5;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 6px 12px;
+}
+
+.dxgvFilterRow_BudwayDirectMarron td.dxgv
+{
+	border-bottom: 1px Solid #BC758E;
+	border-right-width: 0px;
+	border-top-width: 0;
+	border-left-width: 0;
+	padding: 2px 1px;
+	overflow: hidden;
+}
+.dxgvGroupRow_BudwayDirectMarron
+{
+	background-color: #EBEBEB;
+	color: #B5486D;
+}
+.dxgvFocusedGroupRow_BudwayDirectMarron
+{
+	background-color: #8A0A37;
+	color: #FFFFFF;
+}
+.dxgvGroupRow_BudwayDirectMarron td.dxgv,
+.dxgvFocusedGroupRow_BudwayDirectMarron td.dxgv
+{
+	border-top: 0px none;
+	border: 0 none;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-bottom: 1px Solid #D5D5D5;
+	padding: 4px 5px;
+    background-color: inherit;
+}
+.dxgvFocusedRow_BudwayDirectMarron td.dxgvIndentCell,
+.dxgvFocusedGroupRow_BudwayDirectMarron td.dxgvIndentCell,
+.dxgvSelectedRow_BudwayDirectMarron td.dxgvIndentCell
+{
+	background-color: #EBEBEB!important;
+	border-right: 1px solid #D5D5D5;
+	border-left: 1px solid #D5D5D5;
+	border-top-width: 0px;
+}
+.dxgvHeaderPanel_BudwayDirectMarron
+{
+	background-color: #F27AA4;
+	color: #FFFFFF;
+	padding: 8px 4px 8px 3px;
+	border-bottom: 1px Solid #8A0A37;
+}
+
+.dxIE .dxgvMSDraggable .dxgvHeader_BudwayDirectMarron,
+.dxIE .dxgvMSDraggable.dxgvGroupPanel_BudwayDirectMarron
+{
+    -ms-touch-action: pinch-zoom;
+}
+.dxEdge .dxgvMSDraggable .dxgvHeader_BudwayDirectMarron,
+.dxEdge .dxgvMSDraggable.dxgvGroupPanel_BudwayDirectMarron
+{
+    touch-action: pinch-zoom;
+}
+.dxgvHeader_BudwayDirectMarron
+{
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 5px;
+	border-bottom: 1px Solid #b25050;
+	border: 1px Solid #b25050;
+	background: #f48d7f url('gvHeaderBackground.gif') repeat-x top;
+	overflow: hidden;
+	font-weight: normal;
+	text-align: left;
+}
+
+.dxgvHeader_BudwayDirectMarron a,
+.dxgvHeader_BudwayDirectMarron a:hover
+{
+	color: White;
+}
+
+.dxgvHeader_BudwayDirectMarron,
+.dxgvHeader_BudwayDirectMarron table
+{
+	color: #FFFFFF;
+}
+.dxgvHeader_BudwayDirectMarron td
+{
+	white-space: nowrap;
+}
+.dxgvHeader_BudwayDirectMarron a.dxgvCommandColumnItem_BudwayDirectMarron
+{
+	margin: 0px 3px 0px 0px;
+	color: White;
+}
+.dxgvHeader_BudwayDirectMarron a.dxgvCommandColumnItem_BudwayDirectMarron:hover
+{
+	color: White;
+}
+.dxgvCustomization_BudwayDirectMarron, 
+.dxgvPopupEditForm_BudwayDirectMarron
+{
+	padding: 0;
+	margin: 0;
+}
+.dxgvAdaptiveGroupPanel_BudwayDirectMarron,
+.dxgvGroupPanel_BudwayDirectMarron
+{
+	font-size: 0.83em;
+	background: #b25050;
+	color: #800000;
+}
+.dxgvGroupPanel_BudwayDirectMarron
+{
+	padding: 7px 4px 8px 6px;
+    white-space: nowrap;
+}
+.dxgvAdaptiveGroupPanel_BudwayDirectMarron
+{
+    padding-left: 6px;
+    padding-top: 7px;
+}
+.dxgvAdaptiveGroupPanel_BudwayDirectMarron div.dxgvADH
+{
+    margin-right: 4px;
+    margin-bottom: 6px;
+}
+.dxgvAdaptiveGroupPanel_BudwayDirectMarron.dxgvEAHP
+{
+    padding-bottom: 8px;
+}
+.dxgvAdaptiveHeaderPanel_BudwayDirectMarron
+{
+	background-color: #AA1248;
+	border-bottom: 1px Solid #8A0A37;
+    padding-top: 10px;
+}
+.dxgvAdaptiveHeaderPanel_BudwayDirectMarron.dxgvEAHP
+{
+    padding: 10px 7px;
+}
+.dxgvAdaptiveFooterPanel_BudwayDirectMarron
+{
+    background-color: #EED8E3;
+    padding-top: 6px;
+}
+.dxgvAdaptiveHeaderPanel_BudwayDirectMarron,
+.dxgvAdaptiveFooterPanel_BudwayDirectMarron
+{
+    padding-left: 24px;
+}
+.dxgvFooter_BudwayDirectMarron
+{
+	background-color: #f48d7f;
+	white-space: nowrap;
+}
+.dxgvFooter_BudwayDirectMarron td.dxgv
+{
+	padding: 6px 5px 7px;
+	border-bottom: 1px Solid #CB9FB4;
+	border-right-width: 0px;
+}
+.dxgvFooter_BudwayDirectMarron.dxgvABV td.dxgv
+{
+    border-right: 1px Solid #CB9FB4;
+}
+.dxgvGroupFooter_BudwayDirectMarron
+{
+	background-color: #fddcc6;
+	white-space: nowrap;
+}
+.dxgvGroupFooter_BudwayDirectMarron td.dxgv
+{
+	padding: 6px 5px 7px;
+	border-bottom: 1px Solid #D5D5D5;
+	border-right-width: 0px;
+}
+
+.dxgvDataRow_BudwayDirectMarron td.dxgvIndentCell,
+.dxgvDetailRow_BudwayDirectMarron td.dxgvIndentCell,
+.dxgvPreviewRow_BudwayDirectMarron td.dxgvIndentCell,
+.dxgvGroupRow_BudwayDirectMarron td.dxgvIndentCell,
+.dxgvGroupFooter_BudwayDirectMarron td.dxgvIndentCell
+{
+	background-color: #EBEBEB;
+	border-right: 1px solid #D5D5D5;
+	border-left: 1px solid #D5D5D5;
+	border-top-width: 0px;
+}
+
+.dxgvTitlePanel_BudwayDirectMarron,
+.dxgvTable_BudwayDirectMarron caption
+{
+	font-weight: normal;
+	padding: 5px 5px 6px;
+	text-align: center;
+	border-bottom: 1px Solid Maroon;
+	color: #ffffff;
+	background: #b25050;
+}
+.dxgvStatusBar_BudwayDirectMarron
+{
+	border-top: 1px Solid #D5D5D5;
+}
+.dxgvStatusBar_BudwayDirectMarron tr.dxgv
+{
+	height: 20px;
+}
+.dxgvStatusBar_BudwayDirectMarron tr.dxgv > td
+{
+	padding: 4px;
+}
+.dxgvStatusBar_BudwayDirectMarron tr.dxgv span .dxbButtonSys:first-child
+{
+	margin-left: 2px;
+}
+.dxgvCommandColumn_BudwayDirectMarron
+{
+	padding: 2px 0px 2px 2px;
+    white-space: nowrap;
+}
+.dxgvCommandColumn_BudwayDirectMarron a
+{
+	margin: 0px 3px 0px 0px;
+}
+.dxgvCommandColumnItem_BudwayDirectMarron
+{
+}
+.dxbButton_BudwayDirectMarron[class~="dxgvCommandColumnItem_BudwayDirectMarron"],
+.dxgvEditFormTable_BudwayDirectMarron div.dxbButton_BudwayDirectMarron
+{
+	margin: 0px 2px 0px 2px;
+}
+.dxbButton_BudwayDirectMarron[class~="dxgvCommandColumnItem_BudwayDirectMarron"] .dxb
+{
+	padding-top: 0;
+    padding-bottom: 0;
+}
+.dxgvFilterRow_BudwayDirectMarron a.dxgvCommandColumnItem_BudwayDirectMarron
+{
+    display: inline-block;
+    margin-top: 1px;
+}
+.dxgvEditFormTable_BudwayDirectMarron
+{
+	margin: 10px 0px;
+	padding: 0px;
+	color: #000000;
+}
+.dxgvEditFormCaption_BudwayDirectMarron
+{
+	padding: 5px 4px 4px 8px;
+	white-space: nowrap;
+}
+
+.dxgvInlineEditCell_BudwayDirectMarron
+{
+	padding: 1px;
+}
+.dxgvInlineEditCell_BudwayDirectMarron .dxeButtonEdit_BudwayDirectMarron td.dxgv,
+.dxgvInlineEditCell_BudwayDirectMarron .dxeTextBox_BudwayDirectMarron td.dxgv
+{
+	padding-left: 1px;
+}
+
+.dxgvEditFormCell_BudwayDirectMarron
+{
+	padding: 4px;
+	border-width: 0;
+}
+
+.dxgvPagerTopPanel_BudwayDirectMarron,
+.dxgvPagerBottomPanel_BudwayDirectMarron
+{
+	padding: 4px 0;
+}
+
+.dxgvFilterBar_BudwayDirectMarron
+{
+	border-top: 1px solid #e2ccd4;
+	background: #fef3ec none;
+}
+.dxgvFilterBar_BudwayDirectMarron a
+{
+	color: #8A0A37;
+	text-decoration: underline;
+}
+.dxgvFilterBar_BudwayDirectMarron a:hover
+{
+	color: #BE458B;
+}
+.dxgvFilterBarCheckBoxCell_BudwayDirectMarron
+{
+	padding: 0 7px 0 3px;
+}
+.dxgvFilterBarImageCell_BudwayDirectMarron
+{
+	padding: 0 1px 0 3px;
+	cursor: pointer;
+}
+.dxgvFilterBarExpressionCell_BudwayDirectMarron
+{
+	padding: 5px 5px 8px 0;
+	white-space: nowrap;
+}
+.dxgvFilterBarClearButtonCell_BudwayDirectMarron
+{
+	padding: 5px 6px 8px;
+}
+.dxgvFilterBuilderMainArea_BudwayDirectMarron
+{
+	background: white none;
+	padding: 6px 2px;
+} 
+.dxgvFilterBuilderButtonArea_BudwayDirectMarron
+{
+	background-color: #EED8E3;
+	border-top: 1px solid #CB9FB4;
+	padding: 6px;
+	white-space: nowrap;
+}
+
+.dxgvDataRowHover_BudwayDirectMarron
+{
+	background: #DBBBDA none;
+	color: Black;
+}
+
+.dxgvControl_BudwayDirectMarron .dxpSummary_BudwayDirectMarron,
+.dxgvControl_BudwayDirectMarron .dxpPageSizeItem_BudwayDirectMarron,
+.dxgvControl_BudwayDirectMarron .dxpLite_BudwayDirectMarron .dx-summary,
+.dxgvControl_BudwayDirectMarron .dxpLite_BudwayDirectMarron .dxp-pageSizeItem
+{
+	color: #727272;
+}
+.dxgvControl_BudwayDirectMarron .dxgvHFSAC
+{
+    padding: 9px 0 0 5px;
+}
+.dxgvControl_BudwayDirectMarron .dxgvHFC
+{
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.dxgvControl_BudwayDirectMarron .dxgvHFC .dxeCalendar_BudwayDirectMarron
+{
+    margin-top: 3px;
+    margin-left: 23px;
+}
+.dxgvControl_BudwayDirectMarron .dxgvHFSC
+{
+    padding: 9px 0 6px;
+}
+.dxgvControl_BudwayDirectMarron .dxgvHFSC div
+{
+    height: 1px;
+    background: #8A0A37;
+}
+.dxgvControl_BudwayDirectMarron .dxgvHFSAC,
+.dxgvControl_BudwayDirectMarron .dxgvHFC,
+.dxgvControl_BudwayDirectMarron .dxgvHFSC,
+.dxgvControl_BudwayDirectMarron .dxgvHFLC
+{
+    background: White;
+}
+.dxgvControl_BudwayDirectMarron div[id$='DXEPLPC']
+{
+    height: 59px;
+}
+
+.dxgvControl_BudwayDirectMarron .dxgvHFSD
+{
+    height: 1px;
+    margin: 2px 0;
+}
+.dxgvControl_BudwayDirectMarron .dxgvHFDRC
+{
+    margin: 15px 15px 25px;
+}
+.dxgvControl_BudwayDirectMarron .dxgvHFDRP
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 9px 0 6px;
+}
+.dxgvControl_BudwayDirectMarron .dxgvHFDRP[id*="HFFDE"]
+{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.dxgvControl_BudwayDirectMarron .dxgvHFDRP[id*="HFTDE"]
+{
+    margin-bottom: 25px;
+}
+
+/* Removes flicking in iOS Safari*/
+.dxgvTable_BudwayDirectMarron
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.dxgvControl_BudwayDirectMarron td.dxgvBatchEditCell_BudwayDirectMarron
+{
+    padding: 0 2px;
+}
+.dxgvControl_BudwayDirectMarron td.dxgvBatchEditModifiedCell_BudwayDirectMarron
+{
+    background: #d7f9c7;
+}
+.dxgvControl_BudwayDirectMarron .dxgvErrorCell
+{
+    padding-left: 5px;
+    width: 1px;
+}
+.dxgvControl_BudwayDirectMarron .dxgvErrorCell img
+{
+    margin: -3px 0;
+}
+.dxgvStatusBar_BudwayDirectMarron .dxgvCommandColumn_BudwayDirectMarron a
+{
+    margin-right: 10px;
+}
+.dxgvControl_BudwayDirectMarron td.dxgvBatchEditCell_BudwayDirectMarron .dxichCellSys
+{
+    padding-left: 0;
+}
+
+.dxgvSearchPanel_BudwayDirectMarron
+{
+    background: #ffffff;
+    padding: 7px 4px 7px 6px;
+    border-bottom: 1px solid #b25050;
+}
+.dxgvSearchPanel_BudwayDirectMarron > table 
+{
+    width: 70%;
+    max-width: 450px;
+}
+.dxgvControl_BudwayDirectMarron .dxgvSearchPanel_BudwayDirectMarron .dxbButton_BudwayDirectMarron
+{
+    margin-left: 7px;
+    margin-right: 0;
+}
+*[dir="rtl"].dxgvControl_BudwayDirectMarron .dxgvSearchPanel_BudwayDirectMarron .dxbButton_BudwayDirectMarron {
+    margin-left: 0;
+    margin-right: 7px;
+}
+.dxgvControl_BudwayDirectMarron .dxgvHL
+{
+    background: #ffd83a;
+	color: #333333;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* TODO remove (replace to command button style) */
+.dxgvControl_BudwayDirectMarron .dxgvSearchPanel_BudwayDirectMarron .dxbButton_BudwayDirectMarron
+{
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.dxgvControl_BudwayDirectMarron .dxgvSearchPanel_BudwayDirectMarron .dxbButton_BudwayDirectMarron .dxb
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dxgvEditFormTable_BudwayDirectMarron .dxflGroupBoxCaption_BudwayDirectMarron {
+    background-color: #F6EBF6;
+}
+
+.dxgvFocusedCell_BudwayDirectMarron
+{
+    box-shadow: inset 2px 2px 0 #dcdcdc, inset -2px -2px 0 #dcdcdc;
+    -webkit-box-shadow: inset 2px 2px 0 #dcdcdc, inset -2px -2px 0 #dcdcdc;
+    -moz-box-shadow: inset 2px 2px 0 #dcdcdc, inset -2px -2px 0 #dcdcdc;
+}

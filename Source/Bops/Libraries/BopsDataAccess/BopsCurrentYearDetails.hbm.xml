@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsCurrentYearDetails, BopsDataAccess" table="[Total Rev n Drv Wrk Time 4 YTD]" lazy="false" mutable="false">
+    <cache usage="read-only"/>
+    <id name="Year" column="CurrRevYr" unsaved-value="0">
+      <generator class="assigned"/>
+    </id>
+    <property name="LoadCount" column="LdCnt"/>
+    <property name="Revenue" column="TtlRev"/>
+    <property name="TotalHours" column="TotalTime"/>
+  </class>
+</hibernate-mapping>

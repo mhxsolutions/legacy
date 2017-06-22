@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsDestination, BopsDataAccess" table="[tbldestinationList]" lazy="false">
+    <id name="DestinationId" column="[Destination id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="Name" column="[Destination]" />
+    <property name="StreetAddress1" column="[Address]" />
+    <property name="StreetAddress2" column="[Address Line 2]" />
+    <property name="City" column="[City]" />
+    <property name="State" column="[State]" />
+    <property name="Zip" column="[Zip]" />
+    <property name="PostalCode" column="[Postal Code]" />
+    <property name="Country" column="[Country]" />
+    <property name="Abbreviation" column="[Abbreviation]" />
+    <property name="Distance" column="[Distance]" />
+    <property name="RunTime" column="[Run Time]" />
+    <property name="Zone" column="[Zone]" />
+    <property name="Value" column="[Dest$Value]" />
+    <property name="Receiver" column="[Receiver]" />
+    <property name="HrsPtsFlag" column="[HrsPts Flag]" />
+    <property name="FirstReceive" column="[FirstReceive]" />
+    <property name="LastReceive" column="[LastReceive]" />
+    <property name="TransitTime" column="[TransitTime]" />
+    <property name="MinimumShipmentWeight" column="[MinShipWt]" />
+    <property name="FixedPay" column="[FixedPay]" />
+    <property name="FixedPayFlag" column="[FixedPayFlag]" />
+    <property name="ShipsToBudway" column="[Ships to Budway]" />
+    <property name="StoresAtBudway" column="[Stores at Budway]" />
+    <property name="PaysCrossDock" column="[Pays Cross Dock]" />
+    <property name="PaysStorage" column="[Pays Storage]" />
+    <property name="PaysTransportation" column="[Pays Transportation]" />
+    <property name="ReceivesFromBudway" column="[Receives from Budway]" />
+    <property name="ParentRef" column="[Parent Ref]" />
+    <property name="Broker" column="[Broker]" />
+    <property name="BackhaulDestination" column="[Backhaul Dest]" />
+    <property name="DetentionAfter" column="[DetentionAfter]" />
+    <property name="NotificationAddress" column="[Notification Address]" />
+    <property name="GiveNotification" column="[Give Notification]" />
+    <property name="UnloadTime" column="[Unload Time]" />
+    <property name="ContactName" column="[Contact Name]" />
+    <property name="ContactVoicePhoneNumber" column="[Contact Voice]" />
+    <property name="ContactFaxPhoneNumber" column="[Contact Fax]" />
+    <property name="ContactMobilePhoneNumber" column="[Contact Mobile]" />
+    <property name="ContactEmailAddress" column="[Contact Email]" />
+    <property name="BreakStart" column="[BreakStart]" />
+    <property name="BreakEnd" column="[BreakEnd]" />
+    <property name="CompanyWebSite" column="[CompanyWeb]" />
+    <property name="SharePoint" column="[SharePoint]" />
+    <property name="TempFlag" column="[tempFlag]" />
+    <property name="StageAnalysis" column="[StageAnalysis]" />
+    <property name="LunchStart" column="[Lunch Start]" />
+    <property name="LunchEnd" column="[Lunch End]" />
+    <property name="MaximumLoadsPerDay" column="[Max Loads Per Day]" />
+    <property name="PreferredArrivalTime" column="[Prefered Arrival Time]" />
+    <property name="ArrangesLateDelivery" column="[Arranges Late Delivery]" />
+    <property name="ArrangesSaturdayDelivery" column="[Arranges Sat Delivery]" />
+    <property name="AppointmentRequired" column="[Appointment Required]" />
+    <property name="Comments" column="[Comments]" />
+    <property name="MaximumLoadsPerHour" column="[MaxLoadsPerHour]" />
+    <property name="Latitude" column="[Latitude]" />
+    <property name="Longitude" column="[Longitude]" />
+    <property name="AverageRelocate" column="[AvgRelocate]"/>
+    <property name="Terminal" column="[Terminal]"/>
+    <property name="CompanyRef" column="[Company ID ref]"/>
+  </class>
+</hibernate-mapping>

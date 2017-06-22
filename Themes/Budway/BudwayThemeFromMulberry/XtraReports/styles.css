@@ -1,0 +1,35 @@
+.dxsplControl_BudwayThemeFromMulberry .dxmLiteReportToolbarPane {
+    color: #343434;
+    padding: 0px;
+}
+
+.dxsplControl_BudwayThemeFromMulberry .dxSplReportToolbarHSep {
+    display: none;
+}
+
+.dxsplControl_BudwayThemeFromMulberry .dxmLiteReportToolbarPane .dxmLite_BudwayThemeFromMulberry .dxmtb.dxm-horizontal .dxm-separator {
+    margin: 1px 0 2px;
+}
+
+.dxsplControl_BudwayThemeFromMulberry .dxmLiteReportToolbarPane .dxmLite_BudwayThemeFromMulberry .dxmtb.dxm-horizontal .dxm-item {
+    margin: 1px 0 0;
+}
+
+.dxsplControl_BudwayThemeFromMulberry .dxmLiteReportToolbarPane .dxmLite_BudwayThemeFromMulberry .dxmtb.dxm-horizontal .dxtb-comboBoxMenuItem,
+.dxsplControl_BudwayThemeFromMulberry .dxmLiteReportToolbarPane .dxmLite_BudwayThemeFromMulberry .dxmtb.dxm-horizontal .dxtb-labelMenuItem {
+    margin: 0;
+}
+
+.dxsplControl_BudwayThemeFromMulberry .dxmLiteReportToolbarPane .dxmLite_BudwayThemeFromMulberry .dxm-horizontal.dxmtb .dxtb-comboBoxMenuItem {
+    padding: 1px 4px 0 2px!important;
+}
+
+.dxIE.dxBrowserVersion-8 .dxsplControl_BudwayThemeFromMulberry .dxmLiteReportToolbarPane .dxmLite_BudwayThemeFromMulberry .dxm-horizontal.dxmtb .dxtb-labelMenuItem {
+    padding: 10px 4px 0!important;
+    padding: 9px 4px 0!important;
+}
+
+.dxFirefox .dxsplControl_BudwayThemeFromMulberry .dxmLiteReportToolbarPane .dxmLite_BudwayThemeFromMulberry .dxm-horizontal.dxmtb .dxtb-labelMenuItem {
+    padding: 9px 4px 0!important;
+}
+

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsLoadRevenue, BopsDataAccess" table="[Load Rev]" lazy="false">
+    <id name="LoadReference" column="[Load]" unsaved-value="0">
+      <generator class="assigned"/>
+    </id>
+    <property name="Type" column="[Type]"/>
+    <property name="ShipperName" column="[From]"/>
+    <property name="OriginName" column="[Origin]"/>
+    <property name="ReceiverName" column="[To]"/>
+    <property name="DestinationName" column="[Dest]"/>
+    <property name="DriverName" column="[Driver]"/>
+    <property name="LogoutDate" column="[LogOutDate]"/>
+    <property name="PurRevenue" column="[PUR Rev]"/>
+    <property name="UpiRevenue" column="[UPI Rev]"/>
+    <property name="BolRevenue" column="[BOL Rev]"/>
+    <property name="Weight" column="wt"/>
+    <property name="EstimatedRevenue" column="[Est Rev]"/>
+    <property name="ManualRevenue" column="[Man Rev]"/>
+    <property name="LoadStatus" column="[Load Status Ref]"/>
+    <property name="FuelSurchargeRevenue" column="[FSC Rev]"/>
+  </class>
+</hibernate-mapping>

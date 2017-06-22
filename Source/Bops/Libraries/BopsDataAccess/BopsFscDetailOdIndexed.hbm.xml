@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsFscDetailOdIndexed, BopsDataAccess" table="[FSC Detail OD Indexed]" lazy="false">
+    <id name="FscDetailId" column="[FSC Detail ID]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="FscRef" column="[FSC Ref]"/>
+    <property name="MatchMode" column="[Match Mode]"/>
+    <property name="OriginRef" column="[Origin]"/>
+    <property name="DestinationRef" column="[Destination]"/>
+    <property name="FscValue" column="[FSC Value]"/>
+  </class>
+</hibernate-mapping>

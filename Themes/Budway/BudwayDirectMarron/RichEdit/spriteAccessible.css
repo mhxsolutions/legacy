@@ -1,0 +1,101 @@
+.dx-acc-r .dxRichEdit_CenterTabDragHandle_BudwayDirectMarron:before,
+.dx-acc-r .dxRichEdit_ColumnSeparatorDragHandle_BudwayDirectMarron:before,
+.dx-acc-r .dxRichEdit_DecimalTabDragHandle_BudwayDirectMarron:before,
+.dx-acc-r .dxRichEdit_FirstLineIdentDragHandle_BudwayDirectMarron:before,
+.dx-acc-r .dxRichEdit_LeftIdentDragHandle_BudwayDirectMarron:before,
+.dx-acc-r .dxRichEdit_LeftTabDragHandle_BudwayDirectMarron:before,
+.dx-acc-r .dxRichEdit_QuickSearchCloseButton_BudwayDirectMarron:before,
+.dx-acc-r .dxRichEdit_QuickSearchCollapseButton_BudwayDirectMarron:before,
+.dx-acc-r .dxRichEdit_QuickSearchNextButton_BudwayDirectMarron:before,
+.dx-acc-r .dxRichEdit_QuickSearchPrevButton_BudwayDirectMarron:before,
+.dx-acc-r .dxRichEdit_RightIdentDragHandle_BudwayDirectMarron:before,
+.dx-acc-r .dxRichEdit_RightTabDragHandle_BudwayDirectMarron:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxRichEdit_CenterTabDragHandle_BudwayDirectMarron:before
+
+{
+    left: -54px;
+    top: -13px;
+
+}
+.dx-acc-r .dxRichEdit_ColumnSeparatorDragHandle_BudwayDirectMarron:before
+
+{
+    left: -72px;
+    top: -11px;
+
+}
+.dx-acc-r .dxRichEdit_DecimalTabDragHandle_BudwayDirectMarron:before
+
+{
+    left: -63px;
+    top: -13px;
+
+}
+.dx-acc-r .dxRichEdit_FirstLineIdentDragHandle_BudwayDirectMarron:before
+
+{
+    left: -78px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_LeftIdentDragHandle_BudwayDirectMarron:before
+
+{
+    left: -80px;
+    top: -11px;
+
+}
+.dx-acc-r .dxRichEdit_LeftTabDragHandle_BudwayDirectMarron:before
+
+{
+    left: -40px;
+    top: -13px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchCloseButton_BudwayDirectMarron:before
+
+{
+    left: -54px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchCollapseButton_BudwayDirectMarron:before
+
+{
+    left: -40px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchNextButton_BudwayDirectMarron:before
+
+{
+    left: -20px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_QuickSearchPrevButton_BudwayDirectMarron:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_RightIdentDragHandle_BudwayDirectMarron:before
+
+{
+    left: -68px;
+    top: 0px;
+
+}
+.dx-acc-r .dxRichEdit_RightTabDragHandle_BudwayDirectMarron:before
+
+{
+    left: -47px;
+    top: -13px;
+
+}

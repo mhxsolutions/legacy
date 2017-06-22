@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AAE811AB-3FBB-428E-979D-79E0F05EFD13}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web_App</RootNamespace>
+    <AssemblyName>CopsWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>_bin_deployableAssemblies\DevExpress.Data.v15.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administration\AdministerError.aspx" />
+    <Content Include="Administration\AdministerShowSiteLog.aspx" />
+    <Content Include="Administration\AdministerUserReports.aspx" />
+    <Content Include="Administration\AdministerUsers.aspx" />
+    <Content Include="Administration\AdministerUsersDelete.aspx" />
+    <Content Include="Administration\AdministerUsersPassword.aspx" />
+    <Content Include="Administration\BudwayUserDetails.aspx" />
+    <Content Include="Administration\BudwayUsers.aspx" />
+    <Content Include="Administration\Default.aspx" />
+    <Content Include="Authentication\Login.aspx" />
+    <Content Include="Authentication\Logout.aspx" />
+    <Content Include="Controls\LoadTrackingControl.ascx" />
+    <Content Include="Controls\LoadTrackingUnifiedHistoryControl.ascx" />
+    <Content Include="Controls\LoadTrackingUnifiedLoadContentsControl.ascx" />
+    <Content Include="CopsWeb.master" />
+    <Content Include="Customers\_All\LoadTrackingReport.aspx" />
+    <Content Include="Customers\_All\PlannedDeliveriesToday.aspx" />
+    <Content Include="Customers\_Assigned\Default.aspx" />
+    <Content Include="Power Users\Default.aspx" />
+    <Content Include="Power Users\ImpersonateClient.aspx" />
+    <Content Include="_bin_deployableAssemblies\DevExpress.Data.v15.2.dll" />
+    <Content Include="_bin_deployableAssemblies\DevExpress.Web.v15.2.dll" />
+    <Content Include="Authentication\Web.config" />
+    <Content Include="Power Users\Web.config" />
+    <Content Include="Administration\Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administration\AdministerError.aspx.cs">
+      <DependentUpon>AdministerError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\AdministerError.aspx.designer.cs">
+      <DependentUpon>AdministerError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\AdministerShowSiteLog.aspx.cs">
+      <DependentUpon>AdministerShowSiteLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\AdministerShowSiteLog.aspx.designer.cs">
+      <DependentUpon>AdministerShowSiteLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\AdministerUserReports.aspx.cs">
+      <DependentUpon>AdministerUserReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\AdministerUserReports.aspx.designer.cs">
+      <DependentUpon>AdministerUserReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\AdministerUsers.aspx.cs">
+      <DependentUpon>AdministerUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\AdministerUsers.aspx.designer.cs">
+      <DependentUpon>AdministerUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\AdministerUsersDelete.aspx.cs">
+      <DependentUpon>AdministerUsersDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\AdministerUsersDelete.aspx.designer.cs">
+      <DependentUpon>AdministerUsersDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\AdministerUsersPassword.aspx.cs">
+      <DependentUpon>AdministerUsersPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\AdministerUsersPassword.aspx.designer.cs">
+      <DependentUpon>AdministerUsersPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\BudwayUserDetails.aspx.cs">
+      <DependentUpon>BudwayUserDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\BudwayUserDetails.aspx.designer.cs">
+      <DependentUpon>BudwayUserDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\BudwayUsers.aspx.cs">
+      <DependentUpon>BudwayUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\BudwayUsers.aspx.designer.cs">
+      <DependentUpon>BudwayUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administration\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administration\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Authentication\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authentication\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LoadTrackingControl.ascx.cs">
+      <DependentUpon>LoadTrackingControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LoadTrackingControl.ascx.designer.cs">
+      <DependentUpon>LoadTrackingControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LoadTrackingUnifiedHistoryControl.ascx.cs">
+      <DependentUpon>LoadTrackingUnifiedHistoryControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LoadTrackingUnifiedHistoryControl.ascx.designer.cs">
+      <DependentUpon>LoadTrackingUnifiedHistoryControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LoadTrackingUnifiedLoadContentsControl.ascx.cs">
+      <DependentUpon>LoadTrackingUnifiedLoadContentsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LoadTrackingUnifiedLoadContentsControl.ascx.designer.cs">
+      <DependentUpon>LoadTrackingUnifiedLoadContentsControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CopsWeb.master.cs">
+      <DependentUpon>CopsWeb.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CopsWeb.master.designer.cs">
+      <DependentUpon>CopsWeb.master</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\_All\LoadTrackingReport.aspx.cs">
+      <DependentUpon>LoadTrackingReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers\_All\LoadTrackingReport.aspx.designer.cs">
+      <DependentUpon>LoadTrackingReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\_All\PlannedDeliveriesToday.aspx.cs">
+      <DependentUpon>PlannedDeliveriesToday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers\_All\PlannedDeliveriesToday.aspx.designer.cs">
+      <DependentUpon>PlannedDeliveriesToday.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\_Assigned\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers\_Assigned\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Power Users\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Power Users\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Power Users\ImpersonateClient.aspx.cs">
+      <DependentUpon>ImpersonateClient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Power Users\ImpersonateClient.aspx.designer.cs">
+      <DependentUpon>ImpersonateClient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TemporaryKernel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Themes\DefaultTheme\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Bops\Libraries\BopsDataAccess\BopsDataAccess.csproj">
+      <Project>{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}</Project>
+      <Name>BopsDataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SCM\OpsCore\Libraries\Scm.OpsCore.Legacy.DataLayer\Scm.OpsCore.Legacy.DataLayer.csproj">
+      <Project>{98B2104F-B995-4EA0-A2C1-29CB0C6FAC69}</Project>
+      <Name>Scm.OpsCore.Legacy.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SCM\OpsCore\Libraries\Scm.OpsCore.Legacy.NHibernate\Scm.OpsCore.Legacy.NHibernate.csproj">
+      <Project>{213C91B2-8684-4261-9A63-D0EF493B82EA}</Project>
+      <Name>Scm.OpsCore.Legacy.NHibernate</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12753</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:12735/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Import Project="$(SolutionDir)\BinDeployableAssemblies.targets" Condition="Exists('$(SolutionDir)\BinDeployableAssemblies.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

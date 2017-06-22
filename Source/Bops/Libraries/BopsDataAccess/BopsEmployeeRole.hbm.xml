@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsEmployeeRole, BopsDataAccess" table="[Employee Roles]" lazy="false">
+    <composite-id>
+      <key-property name="EmployeeRef" column="[Employee ref]"/>
+      <key-property name="EmployeeRoleTypeRef" column="[Employee Role Type ref]"/>
+    </composite-id>
+  </class>
+</hibernate-mapping>

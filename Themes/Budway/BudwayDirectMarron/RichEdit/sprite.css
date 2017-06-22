@@ -1,0 +1,90 @@
+.dxRichEdit_CenterTabDragHandle_BudwayDirectMarron,
+.dxRichEdit_ColumnSeparatorDragHandle_BudwayDirectMarron,
+.dxRichEdit_DecimalTabDragHandle_BudwayDirectMarron,
+.dxRichEdit_FirstLineIdentDragHandle_BudwayDirectMarron,
+.dxRichEdit_LeftIdentDragHandle_BudwayDirectMarron,
+.dxRichEdit_LeftTabDragHandle_BudwayDirectMarron,
+.dxRichEdit_QuickSearchCloseButton_BudwayDirectMarron,
+.dxRichEdit_QuickSearchCollapseButton_BudwayDirectMarron,
+.dxRichEdit_QuickSearchNextButton_BudwayDirectMarron,
+.dxRichEdit_QuickSearchPrevButton_BudwayDirectMarron,
+.dxRichEdit_RightIdentDragHandle_BudwayDirectMarron,
+.dxRichEdit_RightTabDragHandle_BudwayDirectMarron
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxRichEdit_CenterTabDragHandle_BudwayDirectMarron
+{
+    background-position: -54px -13px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_ColumnSeparatorDragHandle_BudwayDirectMarron
+{
+    background-position: -72px -11px;
+    width: 7px;
+    height: 8px;
+}
+.dxRichEdit_DecimalTabDragHandle_BudwayDirectMarron
+{
+    background-position: -63px -13px;
+    width: 8px;
+    height: 6px;
+}
+.dxRichEdit_FirstLineIdentDragHandle_BudwayDirectMarron
+{
+    background-position: -78px 0px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftIdentDragHandle_BudwayDirectMarron
+{
+    background-position: -80px -11px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_LeftTabDragHandle_BudwayDirectMarron
+{
+    background-position: -40px -13px;
+    width: 6px;
+    height: 6px;
+}
+.dxRichEdit_QuickSearchCloseButton_BudwayDirectMarron
+{
+    background-position: -54px 0px;
+    width: 13px;
+    height: 12px;
+}
+.dxRichEdit_QuickSearchCollapseButton_BudwayDirectMarron
+{
+    background-position: -40px 0px;
+    width: 13px;
+    height: 12px;
+}
+.dxRichEdit_QuickSearchNextButton_BudwayDirectMarron
+{
+    background-position: -20px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxRichEdit_QuickSearchPrevButton_BudwayDirectMarron
+{
+    background-position: 0px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxRichEdit_RightIdentDragHandle_BudwayDirectMarron
+{
+    background-position: -68px 0px;
+    width: 9px;
+    height: 8px;
+}
+.dxRichEdit_RightTabDragHandle_BudwayDirectMarron
+{
+    background-position: -47px -13px;
+    width: 6px;
+    height: 6px;
+}
+

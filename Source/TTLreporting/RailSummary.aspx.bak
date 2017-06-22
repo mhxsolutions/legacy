@@ -1,0 +1,68 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="RailSummary.aspx.vb" Inherits="RailSummary" %>
+
+<%@ Register assembly="DevExpress.Web.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta name="viewport" content="width=320" />
+    <title>Rail Summary</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <h3>
+            TTL Rail Summary - <a href="default.aspx">home</a><br />
+        </h3>
+        <dx:ASPxGridView ID="ASPxGridView1" runat="server" AutoGenerateColumns="False" 
+            DataSourceID="SqlDataSource1" EnableTheming="True" Theme="Metropolis">
+            <SettingsSearchPanel Visible="True" />
+            <Columns>
+                <dx:GridViewCommandColumn ShowClearFilterButton="True" VisibleIndex="0">
+                </dx:GridViewCommandColumn>
+                <dx:GridViewDataTextColumn FieldName="Year" SortIndex="0" 
+                    SortOrder="Descending" VisibleIndex="1">
+                    <Settings AllowHeaderFilter="True" HeaderFilterMode="CheckedList" />
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="Month" SortIndex="1" 
+                    SortOrder="Descending" VisibleIndex="2">
+                    <Settings AllowHeaderFilter="True" HeaderFilterMode="CheckedList" />
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="Count" VisibleIndex="8">
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="Commodity" VisibleIndex="5">
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="Carrier" VisibleIndex="4">
+                    <Settings AllowHeaderFilter="True" HeaderFilterMode="CheckedList" />
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="Terminal" SortIndex="2" 
+                    SortOrder="Ascending" VisibleIndex="3">
+                    <Settings AllowHeaderFilter="True" HeaderFilterMode="CheckedList" />
+                </dx:GridViewDataTextColumn>
+            </Columns>
+            <SettingsContextMenu Enabled="True" EnableRowMenu="False">
+            </SettingsContextMenu>
+            <SettingsPager PageSize="20">
+                <AllButton Visible="True">
+                </AllButton>
+                <PageSizeItemSettings Visible="True">
+                </PageSizeItemSettings>
+            </SettingsPager>
+            <Settings ShowFilterRow="True" ShowFilterRowMenu="True" ShowGroupPanel="True" />
+            <SettingsBehavior EnableCustomizationWindow="True" EnableRowHotTrack="True" />
+            <SettingsPopup>
+                <HeaderFilter MinHeight="200px" />
+            </SettingsPopup>
+        </dx:ASPxGridView>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+            ConnectionString="<%$ ConnectionStrings:DWS Rep DataConnectionString %>" 
+            SelectCommand="SELECT * FROM [Rail Summary by Year and Date TTL only]">
+        </asp:SqlDataSource>
+    
+    </div>
+    </form>
+</body>
+</html>

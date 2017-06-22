@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsDriverPlanArchive, BopsDataAccess" table="[Planner Archive]" lazy="false">
+    <id name="PlanId" column="[Plan ID]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="DriverRef" column="[Driver Ref]"/>
+    <property name="PlanDate" column="[Plan Date]"/>
+    <property name="StartTime" column="[Start Time]"/>
+    <property name="MinDayPay" column="[MinDayPay]"/>
+    <property name="PayrollStart" column="[Payroll Start]"/>
+  </class>
+</hibernate-mapping>

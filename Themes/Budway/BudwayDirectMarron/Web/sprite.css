@@ -1,0 +1,1495 @@
+.dxigControl_BudwayDirectMarron.dxTouchUI .dxWeb_igCloseButton_BudwayDirectMarron,
+.dxigControl_BudwayDirectMarron.dxTouchUI .dxWeb_igPauseButton_BudwayDirectMarron,
+.dxigControl_BudwayDirectMarron.dxTouchUI .dxWeb_igPlayButton_BudwayDirectMarron,
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_BudwayDirectMarron,
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_BudwayDirectMarron,
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_BudwayDirectMarron,
+.dxp-hoverDropDownButton .dxWeb_pPopOut_BudwayDirectMarron,
+.dxpnl-btnPressed .dxWeb_pnlExpand_BudwayDirectMarron,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_BudwayDirectMarron,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_BudwayDirectMarron,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_BudwayDirectMarron,
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_BudwayDirectMarron,
+.dxpnl-btnSelected .dxWeb_pnlExpand_BudwayDirectMarron,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_BudwayDirectMarron,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_BudwayDirectMarron,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_BudwayDirectMarron,
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_BudwayDirectMarron,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_BudwayDirectMarron,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_BudwayDirectMarron,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_BudwayDirectMarron,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_BudwayDirectMarron,
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_BudwayDirectMarron,
+.dxrpCollapsed .dxWeb_rpCollapseButton_BudwayDirectMarron,
+.dxWeb_edtCheckBoxChecked_BudwayDirectMarron,
+.dxWeb_edtCheckBoxCheckedDisabled_BudwayDirectMarron,
+.dxWeb_edtCheckBoxGrayed_BudwayDirectMarron,
+.dxWeb_edtCheckBoxGrayedDisabled_BudwayDirectMarron,
+.dxWeb_edtCheckBoxUnchecked_BudwayDirectMarron,
+.dxWeb_edtCheckBoxUncheckedDisabled_BudwayDirectMarron,
+.dxWeb_fmBreadCrumbsSeparatorArrow_BudwayDirectMarron,
+.dxWeb_fmBreadCrumbsUpButton_BudwayDirectMarron,
+.dxWeb_fmBreadCrumbsUpButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmCopyButton_BudwayDirectMarron,
+.dxWeb_fmCopyButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmCreateButton_BudwayDirectMarron,
+.dxWeb_fmCreateButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmDeleteButton_BudwayDirectMarron,
+.dxWeb_fmDeleteButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmDwnlButton_BudwayDirectMarron,
+.dxWeb_fmDwnlButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmFolder_BudwayDirectMarron,
+.dxWeb_fmFolderLocked_BudwayDirectMarron,
+.dxWeb_fmGvHeaderFilter_BudwayDirectMarron,
+.dxWeb_fmGvHeaderFilterActive_BudwayDirectMarron,
+.dxWeb_fmGvHeaderSortDown_BudwayDirectMarron,
+.dxWeb_fmGvHeaderSortUp_BudwayDirectMarron,
+.dxWeb_fmMoveButton_BudwayDirectMarron,
+.dxWeb_fmMoveButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmRefreshButton_BudwayDirectMarron,
+.dxWeb_fmRefreshButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmRenameButton_BudwayDirectMarron,
+.dxWeb_fmRenameButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmThumbnailCheck_BudwayDirectMarron,
+.dxWeb_fmUplButton_BudwayDirectMarron,
+.dxWeb_fmUplButtonDisabled_BudwayDirectMarron,
+.dxWeb_igCloseButton_BudwayDirectMarron,
+.dxWeb_igNavigationBarMarker_BudwayDirectMarron,
+.dxWeb_igNextButton_BudwayDirectMarron,
+.dxWeb_igNextButtonDisabled_BudwayDirectMarron,
+.dxWeb_igNextButtonHover_BudwayDirectMarron,
+.dxWeb_igNextButtonPressed_BudwayDirectMarron,
+.dxWeb_igPauseButton_BudwayDirectMarron,
+.dxWeb_igPlayButton_BudwayDirectMarron,
+.dxWeb_igPrevButton_BudwayDirectMarron,
+.dxWeb_igPrevButtonDisabled_BudwayDirectMarron,
+.dxWeb_igPrevButtonHover_BudwayDirectMarron,
+.dxWeb_igPrevButtonPressed_BudwayDirectMarron,
+.dxWeb_isDot_BudwayDirectMarron,
+.dxWeb_isDotDisabled_BudwayDirectMarron,
+.dxWeb_isDotPressed_BudwayDirectMarron,
+.dxWeb_isDotSelected_BudwayDirectMarron,
+.dxWeb_isNextBtnHor_BudwayDirectMarron,
+.dxWeb_isNextBtnHorDisabled_BudwayDirectMarron,
+.dxWeb_isNextBtnVert_BudwayDirectMarron,
+.dxWeb_isNextBtnVertDisabled_BudwayDirectMarron,
+.dxWeb_isNextPageBtnHor_BudwayDirectMarron,
+.dxWeb_isNextPageBtnHorDisabled_BudwayDirectMarron,
+.dxWeb_isNextPageBtnHorOutside_BudwayDirectMarron,
+.dxWeb_isNextPageBtnHorOutsideDisabled_BudwayDirectMarron,
+.dxWeb_isNextPageBtnVert_BudwayDirectMarron,
+.dxWeb_isNextPageBtnVertDisabled_BudwayDirectMarron,
+.dxWeb_isNextPageBtnVertOutside_BudwayDirectMarron,
+.dxWeb_isNextPageBtnVertOutsideDisabled_BudwayDirectMarron,
+.dxWeb_isPauseBtn_BudwayDirectMarron,
+.dxWeb_isPlayBtn_BudwayDirectMarron,
+.dxWeb_isPrevBtnHor_BudwayDirectMarron,
+.dxWeb_isPrevBtnHorDisabled_BudwayDirectMarron,
+.dxWeb_isPrevBtnVert_BudwayDirectMarron,
+.dxWeb_isPrevBtnVertDisabled_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnHor_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnHorDisabled_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnHorOutside_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnVert_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnVertDisabled_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnVertOutside_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_BudwayDirectMarron,
+.dxWeb_izEWCloseButton_BudwayDirectMarron,
+.dxWeb_izHint_BudwayDirectMarron,
+.dxWeb_mAdaptiveMenu_BudwayDirectMarron,
+.dxWeb_mHorizontalPopOut_BudwayDirectMarron,
+.dxWeb_mScrollDown_BudwayDirectMarron,
+.dxWeb_mScrollUp_BudwayDirectMarron,
+.dxWeb_mSubMenuItem_BudwayDirectMarron,
+.dxWeb_mSubMenuItemChecked_BudwayDirectMarron,
+.dxWeb_mVerticalPopOut_BudwayDirectMarron,
+.dxWeb_mVerticalPopOutRtl_BudwayDirectMarron,
+.dxWeb_nbCollapse_BudwayDirectMarron,
+.dxWeb_nbExpand_BudwayDirectMarron,
+.dxWeb_pAll_BudwayDirectMarron,
+.dxWeb_pAllDisabled_BudwayDirectMarron,
+.dxWeb_pcCloseButton_BudwayDirectMarron,
+.dxWeb_pcCollapseButton_BudwayDirectMarron,
+.dxWeb_pcMaximizeButton_BudwayDirectMarron,
+.dxWeb_pcPinButton_BudwayDirectMarron,
+.dxWeb_pcRefreshButton_BudwayDirectMarron,
+.dxWeb_pcSizeGrip_BudwayDirectMarron,
+.dxWeb_pcSizeGripRtl_BudwayDirectMarron,
+.dxWeb_pFirst_BudwayDirectMarron,
+.dxWeb_pFirstDisabled_BudwayDirectMarron,
+.dxWeb_pLast_BudwayDirectMarron,
+.dxWeb_pLastDisabled_BudwayDirectMarron,
+.dxWeb_pNext_BudwayDirectMarron,
+.dxWeb_pNextDisabled_BudwayDirectMarron,
+.dxWeb_pnlExpand_BudwayDirectMarron,
+.dxWeb_pnlExpandArrowBottom_BudwayDirectMarron,
+.dxWeb_pnlExpandArrowLeft_BudwayDirectMarron,
+.dxWeb_pnlExpandArrowRight_BudwayDirectMarron,
+.dxWeb_pnlExpandArrowTop_BudwayDirectMarron,
+.dxWeb_pPopOut_BudwayDirectMarron,
+.dxWeb_pPopOutDisabled_BudwayDirectMarron,
+.dxWeb_pPrev_BudwayDirectMarron,
+.dxWeb_pPrevDisabled_BudwayDirectMarron,
+.dxWeb_rDialogBoxLauncher_BudwayDirectMarron,
+.dxWeb_rDialogBoxLauncherDisabled_BudwayDirectMarron,
+.dxWeb_rDialogBoxLauncherHover_BudwayDirectMarron,
+.dxWeb_rDialogBoxLauncherPressed_BudwayDirectMarron,
+.dxWeb_rGlrDown_BudwayDirectMarron,
+.dxWeb_rGlrDownDisabled_BudwayDirectMarron,
+.dxWeb_rGlrPopOut_BudwayDirectMarron,
+.dxWeb_rGlrPopOutDisabled_BudwayDirectMarron,
+.dxWeb_rGlrUp_BudwayDirectMarron,
+.dxWeb_rGlrUpDisabled_BudwayDirectMarron,
+.dxWeb_rMinBtn_BudwayDirectMarron,
+.dxWeb_rMinBtn_BudwayDirectMarron.dxWeb_rMinBtnHover_BudwayDirectMarron,
+.dxWeb_rMinBtn_BudwayDirectMarron.dxWeb_rMinBtnPressed_BudwayDirectMarron,
+.dxWeb_rMinBtnChecked_BudwayDirectMarron.dxWeb_rMinBtn_BudwayDirectMarron,
+.dxWeb_rMinBtnChecked_BudwayDirectMarron.dxWeb_rMinBtnDisabled_BudwayDirectMarron,
+.dxWeb_rMinBtnChecked_BudwayDirectMarron.dxWeb_rMinBtnHover_BudwayDirectMarron,
+.dxWeb_rMinBtnChecked_BudwayDirectMarron.dxWeb_rMinBtnPressed_BudwayDirectMarron,
+.dxWeb_rMinBtnDisabled_BudwayDirectMarron,
+.dxWeb_rpBottomLeftCorner_BudwayDirectMarron,
+.dxWeb_rpBottomRightCorner_BudwayDirectMarron,
+.dxWeb_rpCollapseButton_BudwayDirectMarron,
+.dxWeb_rpGroupBoxBottomLeftCorner_BudwayDirectMarron,
+.dxWeb_rpGroupBoxBottomRightCorner_BudwayDirectMarron,
+.dxWeb_rpGroupBoxTopLeftCorner_BudwayDirectMarron,
+.dxWeb_rpGroupBoxTopRightCorner_BudwayDirectMarron,
+.dxWeb_rpHeaderBottomLeftCorner_BudwayDirectMarron,
+.dxWeb_rpHeaderBottomRightCorner_BudwayDirectMarron,
+.dxWeb_rpHeaderTopLeftCorner_BudwayDirectMarron,
+.dxWeb_rpHeaderTopRightCorner_BudwayDirectMarron,
+.dxWeb_rPopOut_BudwayDirectMarron,
+.dxWeb_rpTopLeftCorner_BudwayDirectMarron,
+.dxWeb_rpTopRightCorner_BudwayDirectMarron,
+.dxWeb_smBullet_BudwayDirectMarron,
+.dxWeb_splHCollapseBackwardButton_BudwayDirectMarron,
+.dxWeb_splHCollapseBackwardButtonHover_BudwayDirectMarron,
+.dxWeb_splHCollapseForwardButton_BudwayDirectMarron,
+.dxWeb_splHCollapseForwardButtonHover_BudwayDirectMarron,
+.dxWeb_splHSeparator_BudwayDirectMarron,
+.dxWeb_splHSeparatorHover_BudwayDirectMarron,
+.dxWeb_splVCollapseBackwardButton_BudwayDirectMarron,
+.dxWeb_splVCollapseBackwardButtonHover_BudwayDirectMarron,
+.dxWeb_splVCollapseForwardButton_BudwayDirectMarron,
+.dxWeb_splVCollapseForwardButtonHover_BudwayDirectMarron,
+.dxWeb_splVSeparator_BudwayDirectMarron,
+.dxWeb_splVSeparatorHover_BudwayDirectMarron,
+.dxWeb_tcScrollLeft_BudwayDirectMarron,
+.dxWeb_tcScrollLeftDisabled_BudwayDirectMarron,
+.dxWeb_tcScrollLeftHover_BudwayDirectMarron,
+.dxWeb_tcScrollLeftPressed_BudwayDirectMarron,
+.dxWeb_tcScrollRight_BudwayDirectMarron,
+.dxWeb_tcScrollRightDisabled_BudwayDirectMarron,
+.dxWeb_tcScrollRightHover_BudwayDirectMarron,
+.dxWeb_tcScrollRightPressed_BudwayDirectMarron,
+.dxWeb_tiBackToTop_BudwayDirectMarron,
+.dxWeb_tvColBtn_BudwayDirectMarron,
+.dxWeb_tvColBtnRtl_BudwayDirectMarron,
+.dxWeb_tvExpBtn_BudwayDirectMarron,
+.dxWeb_tvExpBtnRtl_BudwayDirectMarron,
+.dxWeb_ucClearButton_BudwayDirectMarron,
+.dxWeb_ucClearButtonDisabled_BudwayDirectMarron
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxigControl_BudwayDirectMarron.dxTouchUI .dxWeb_igCloseButton_BudwayDirectMarron
+{
+    background-position: -22px -388px;
+    width: 23px;
+    height: 23px;
+}
+.dxigControl_BudwayDirectMarron.dxTouchUI .dxWeb_igPauseButton_BudwayDirectMarron
+{
+    background-position: 0px -388px;
+    width: 21px;
+    height: 25px;
+}
+.dxigControl_BudwayDirectMarron.dxTouchUI .dxWeb_igPlayButton_BudwayDirectMarron
+{
+    background-position: -128px -334px;
+    width: 21px;
+    height: 25px;
+}
+.dxpc-collapseBtnChecked .dxWeb_pcCollapseButton_BudwayDirectMarron
+{
+    background-position: -80px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-maximizeBtnChecked .dxWeb_pcMaximizeButton_BudwayDirectMarron
+{
+    background-position: -108px -434px;
+    width: 19px;
+    height: 19px;
+}
+.dxpc-pinBtnChecked .dxWeb_pcPinButton_BudwayDirectMarron
+{
+    background-position: -128px -434px;
+    width: 19px;
+    height: 19px;
+}
+.dxp-hoverDropDownButton .dxWeb_pPopOut_BudwayDirectMarron
+{
+    background-position: -140px -456px;
+    width: 7px;
+    height: 5px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpand_BudwayDirectMarron
+{
+    background-position: 0px -266px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_BudwayDirectMarron
+{
+    background-position: -34px -334px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_BudwayDirectMarron
+{
+    background-position: -34px -232px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_BudwayDirectMarron
+{
+    background-position: -68px -266px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_BudwayDirectMarron
+{
+    background-position: -34px -198px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpand_BudwayDirectMarron
+{
+    background-position: -102px -232px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowBottom_BudwayDirectMarron
+{
+    background-position: 0px -198px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowLeft_BudwayDirectMarron
+{
+    background-position: 0px -232px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowRight_BudwayDirectMarron
+{
+    background-position: -102px -266px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected .dxWeb_pnlExpandArrowTop_BudwayDirectMarron
+{
+    background-position: -92px -132px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpand_BudwayDirectMarron
+{
+    background-position: -34px -266px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowBottom_BudwayDirectMarron
+{
+    background-position: 0px -334px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowLeft_BudwayDirectMarron
+{
+    background-position: 0px -300px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowRight_BudwayDirectMarron
+{
+    background-position: -102px -198px;
+    width: 33px;
+    height: 33px;
+}
+.dxpnl-btnSelected.dxpnl-btnPressed .dxWeb_pnlExpandArrowTop_BudwayDirectMarron
+{
+    background-position: -68px -232px;
+    width: 33px;
+    height: 33px;
+}
+.dxrpCollapsed .dxWeb_rpCollapseButton_BudwayDirectMarron
+{
+    background-position: -18px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_edtCheckBoxChecked_BudwayDirectMarron
+{
+    background-position: 0px -583px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxCheckedDisabled_BudwayDirectMarron
+{
+    background-position: -32px -583px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxGrayed_BudwayDirectMarron
+{
+    background-position: -134px -566px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxGrayedDisabled_BudwayDirectMarron
+{
+    background-position: -118px -566px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxUnchecked_BudwayDirectMarron
+{
+    background-position: -16px -583px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_edtCheckBoxUncheckedDisabled_BudwayDirectMarron
+{
+    background-position: -102px -566px;
+    width: 15px;
+    height: 15px;
+}
+.dxWeb_fmBreadCrumbsSeparatorArrow_BudwayDirectMarron
+{
+    background-position: -145px -132px;
+    width: 4px;
+    height: 7px;
+}
+.dxWeb_fmBreadCrumbsUpButton_BudwayDirectMarron
+{
+    background-position: -34px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmBreadCrumbsUpButtonDisabled_BudwayDirectMarron
+{
+    background-position: -119px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButton_BudwayDirectMarron
+{
+    background-position: -34px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCopyButtonDisabled_BudwayDirectMarron
+{
+    background-position: 0px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButton_BudwayDirectMarron
+{
+    background-position: -17px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmCreateButtonDisabled_BudwayDirectMarron
+{
+    background-position: -51px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButton_BudwayDirectMarron
+{
+    background-position: -102px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDeleteButtonDisabled_BudwayDirectMarron
+{
+    background-position: -85px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButton_BudwayDirectMarron
+{
+    background-position: -85px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmDwnlButtonDisabled_BudwayDirectMarron
+{
+    background-position: 0px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolder_BudwayDirectMarron
+{
+    background-position: -102px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmFolderLocked_BudwayDirectMarron
+{
+    background-position: -17px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmGvHeaderFilter_BudwayDirectMarron
+{
+    background-position: -126px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_fmGvHeaderFilterActive_BudwayDirectMarron
+{
+    background-position: 0px -514px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_fmGvHeaderSortDown_BudwayDirectMarron
+{
+    background-position: -138px -29px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_fmGvHeaderSortUp_BudwayDirectMarron
+{
+    background-position: -138px -95px;
+    width: 9px;
+    height: 7px;
+}
+.dxWeb_fmMoveButton_BudwayDirectMarron
+{
+    background-position: -51px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmMoveButtonDisabled_BudwayDirectMarron
+{
+    background-position: -68px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButton_BudwayDirectMarron
+{
+    background-position: -68px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRefreshButtonDisabled_BudwayDirectMarron
+{
+    background-position: -17px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButton_BudwayDirectMarron
+{
+    background-position: -68px -566px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmRenameButtonDisabled_BudwayDirectMarron
+{
+    background-position: 0px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmThumbnailCheck_BudwayDirectMarron
+{
+    background-position: -139px -323px;
+    width: 11px;
+    height: 10px;
+}
+.dxWeb_fmUplButton_BudwayDirectMarron
+{
+    background-position: -85px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_fmUplButtonDisabled_BudwayDirectMarron
+{
+    background-position: -51px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_igCloseButton_BudwayDirectMarron
+{
+    background-position: -70px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_igNavigationBarMarker_BudwayDirectMarron
+{
+    background-position: -124px -514px;
+    width: 20px;
+    height: 16px;
+}
+.dxWeb_igNextButton_BudwayDirectMarron
+{
+    background-position: 0px -132px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonDisabled_BudwayDirectMarron
+{
+    background-position: -46px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonHover_BudwayDirectMarron
+{
+    background-position: -92px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igNextButtonPressed_BudwayDirectMarron
+{
+    background-position: 0px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPauseButton_BudwayDirectMarron
+{
+    background-position: -111px -514px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPlayButton_BudwayDirectMarron
+{
+    background-position: -85px -514px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_igPrevButton_BudwayDirectMarron
+{
+    background-position: -46px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonDisabled_BudwayDirectMarron
+{
+    background-position: -46px -132px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonHover_BudwayDirectMarron
+{
+    background-position: 0px 0px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_igPrevButtonPressed_BudwayDirectMarron
+{
+    background-position: -92px -66px;
+    width: 45px;
+    height: 65px;
+}
+.dxWeb_isDot_BudwayDirectMarron
+{
+    background-position: -14px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotDisabled_BudwayDirectMarron
+{
+    background-position: -28px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotPressed_BudwayDirectMarron
+{
+    background-position: -84px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isDotSelected_BudwayDirectMarron
+{
+    background-position: -56px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_isNextBtnHor_BudwayDirectMarron
+{
+    background-position: -94px -166px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnHorDisabled_BudwayDirectMarron
+{
+    background-position: -132px -166px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isNextBtnVert_BudwayDirectMarron
+{
+    background-position: -30px -368px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextBtnVertDisabled_BudwayDirectMarron
+{
+    background-position: 0px -368px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isNextPageBtnHor_BudwayDirectMarron
+{
+    background-position: -136px -266px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorDisabled_BudwayDirectMarron
+{
+    background-position: -136px -232px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isNextPageBtnHorOutside_BudwayDirectMarron
+{
+    background-position: -138px -66px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnHorOutsideDisabled_BudwayDirectMarron
+{
+    background-position: -138px -103px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isNextPageBtnVert_BudwayDirectMarron
+{
+    background-position: -92px -583px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertDisabled_BudwayDirectMarron
+{
+    background-position: -48px -583px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isNextPageBtnVertOutside_BudwayDirectMarron
+{
+    background-position: -29px -613px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isNextPageBtnVertOutsideDisabled_BudwayDirectMarron
+{
+    background-position: -98px -599px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPauseBtn_BudwayDirectMarron
+{
+    background-position: -72px -514px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPlayBtn_BudwayDirectMarron
+{
+    background-position: -98px -514px;
+    width: 12px;
+    height: 17px;
+}
+.dxWeb_isPrevBtnHor_BudwayDirectMarron
+{
+    background-position: -113px -166px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnHorDisabled_BudwayDirectMarron
+{
+    background-position: -126px -132px;
+    width: 18px;
+    height: 31px;
+}
+.dxWeb_isPrevBtnVert_BudwayDirectMarron
+{
+    background-position: -90px -368px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevBtnVertDisabled_BudwayDirectMarron
+{
+    background-position: -60px -368px;
+    width: 29px;
+    height: 19px;
+}
+.dxWeb_isPrevPageBtnHor_BudwayDirectMarron
+{
+    background-position: -136px -300px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorDisabled_BudwayDirectMarron
+{
+    background-position: -136px -198px;
+    width: 14px;
+    height: 21px;
+}
+.dxWeb_isPrevPageBtnHorOutside_BudwayDirectMarron
+{
+    background-position: -138px 0px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnHorOutsideDisabled_BudwayDirectMarron
+{
+    background-position: -138px -37px;
+    width: 12px;
+    height: 28px;
+}
+.dxWeb_isPrevPageBtnVert_BudwayDirectMarron
+{
+    background-position: -70px -583px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertDisabled_BudwayDirectMarron
+{
+    background-position: -114px -583px;
+    width: 21px;
+    height: 14px;
+}
+.dxWeb_isPrevPageBtnVertOutside_BudwayDirectMarron
+{
+    background-position: -58px -613px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_isPrevPageBtnVertOutsideDisabled_BudwayDirectMarron
+{
+    background-position: 0px -613px;
+    width: 28px;
+    height: 12px;
+}
+.dxWeb_izEWCloseButton_BudwayDirectMarron
+{
+    background-position: -102px -334px;
+    width: 25px;
+    height: 25px;
+}
+.dxWeb_izHint_BudwayDirectMarron
+{
+    background-position: -72px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_mAdaptiveMenu_BudwayDirectMarron
+{
+    background-position: -122px -410px;
+    width: 12px;
+    height: 3px;
+}
+.dxWeb_mHorizontalPopOut_BudwayDirectMarron
+{
+    background-position: -139px -254px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_mScrollDown_BudwayDirectMarron
+{
+    background-position: -135px -621px;
+    width: 7px;
+    height: 4px;
+}
+.dxWeb_mScrollUp_BudwayDirectMarron
+{
+    background-position: -143px -621px;
+    width: 7px;
+    height: 4px;
+}
+.dxWeb_mSubMenuItem_BudwayDirectMarron
+{
+    background-position: -136px -549px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_mSubMenuItemChecked_BudwayDirectMarron
+{
+    background-position: -136px -532px;
+    width: 14px;
+    height: 14px;
+}
+.dxWeb_mVerticalPopOut_BudwayDirectMarron
+{
+    background-position: -139px -220px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_mVerticalPopOutRtl_BudwayDirectMarron
+{
+    background-position: -139px -288px;
+    width: 11px;
+    height: 11px;
+}
+.dxWeb_nbCollapse_BudwayDirectMarron
+{
+    background-position: -36px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_nbExpand_BudwayDirectMarron
+{
+    background-position: -36px -514px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_pAll_BudwayDirectMarron
+{
+    background-position: -120px -368px;
+    width: 24px;
+    height: 19px;
+}
+.dxWeb_pAllDisabled_BudwayDirectMarron
+{
+    background-position: 0px -414px;
+    width: 24px;
+    height: 19px;
+}
+.dxWeb_pcCloseButton_BudwayDirectMarron
+{
+    background-position: 0px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcCollapseButton_BudwayDirectMarron
+{
+    background-position: -40px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcMaximizeButton_BudwayDirectMarron
+{
+    background-position: -20px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcPinButton_BudwayDirectMarron
+{
+    background-position: -60px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcRefreshButton_BudwayDirectMarron
+{
+    background-position: -120px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pcSizeGrip_BudwayDirectMarron
+{
+    background-position: 0px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_pcSizeGripRtl_BudwayDirectMarron
+{
+    background-position: -42px -599px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_pFirst_BudwayDirectMarron
+{
+    background-position: -49px -414px;
+    width: 23px;
+    height: 19px;
+}
+.dxWeb_pFirstDisabled_BudwayDirectMarron
+{
+    background-position: -73px -414px;
+    width: 23px;
+    height: 19px;
+}
+.dxWeb_pLast_BudwayDirectMarron
+{
+    background-position: -25px -414px;
+    width: 23px;
+    height: 19px;
+}
+.dxWeb_pLastDisabled_BudwayDirectMarron
+{
+    background-position: -97px -414px;
+    width: 23px;
+    height: 19px;
+}
+.dxWeb_pNext_BudwayDirectMarron
+{
+    background-position: -121px -414px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pNextDisabled_BudwayDirectMarron
+{
+    background-position: 0px -476px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pnlExpand_BudwayDirectMarron
+{
+    background-position: -68px -334px;
+    width: 33px;
+    height: 33px;
+}
+.dxWeb_pnlExpandArrowBottom_BudwayDirectMarron
+{
+    background-position: -68px -198px;
+    width: 33px;
+    height: 33px;
+}
+.dxWeb_pnlExpandArrowLeft_BudwayDirectMarron
+{
+    background-position: -68px -300px;
+    width: 33px;
+    height: 33px;
+}
+.dxWeb_pnlExpandArrowRight_BudwayDirectMarron
+{
+    background-position: -34px -300px;
+    width: 33px;
+    height: 33px;
+}
+.dxWeb_pnlExpandArrowTop_BudwayDirectMarron
+{
+    background-position: -102px -300px;
+    width: 33px;
+    height: 33px;
+}
+.dxWeb_pPopOut_BudwayDirectMarron
+{
+    background-position: -143px -470px;
+    width: 7px;
+    height: 5px;
+}
+.dxWeb_pPopOutDisabled_BudwayDirectMarron
+{
+    background-position: -141px -421px;
+    width: 7px;
+    height: 5px;
+}
+.dxWeb_pPrev_BudwayDirectMarron
+{
+    background-position: -100px -456px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_pPrevDisabled_BudwayDirectMarron
+{
+    background-position: -88px -434px;
+    width: 19px;
+    height: 19px;
+}
+.dxWeb_rDialogBoxLauncher_BudwayDirectMarron
+{
+    background-position: -127px -599px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherDisabled_BudwayDirectMarron
+{
+    background-position: -87px -613px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherHover_BudwayDirectMarron
+{
+    background-position: -100px -613px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rDialogBoxLauncherPressed_BudwayDirectMarron
+{
+    background-position: -113px -613px;
+    width: 12px;
+    height: 12px;
+}
+.dxWeb_rGlrDown_BudwayDirectMarron
+{
+    background-position: -116px -410px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrDownDisabled_BudwayDirectMarron
+{
+    background-position: -98px -410px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrPopOut_BudwayDirectMarron
+{
+    background-position: -145px -526px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rGlrPopOutDisabled_BudwayDirectMarron
+{
+    background-position: -145px -160px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rGlrUp_BudwayDirectMarron
+{
+    background-position: -110px -410px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rGlrUpDisabled_BudwayDirectMarron
+{
+    background-position: -104px -410px;
+    width: 5px;
+    height: 3px;
+}
+.dxWeb_rMinBtn_BudwayDirectMarron
+{
+    background-position: -74px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtn_BudwayDirectMarron.dxWeb_rMinBtnHover_BudwayDirectMarron
+{
+    background-position: -20px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtn_BudwayDirectMarron.dxWeb_rMinBtnPressed_BudwayDirectMarron
+{
+    background-position: 0px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_BudwayDirectMarron.dxWeb_rMinBtn_BudwayDirectMarron
+{
+    background-position: -54px -514px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_BudwayDirectMarron.dxWeb_rMinBtnDisabled_BudwayDirectMarron
+{
+    background-position: -92px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_BudwayDirectMarron.dxWeb_rMinBtnHover_BudwayDirectMarron
+{
+    background-position: -128px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnChecked_BudwayDirectMarron.dxWeb_rMinBtnPressed_BudwayDirectMarron
+{
+    background-position: -38px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rMinBtnDisabled_BudwayDirectMarron
+{
+    background-position: -54px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rpBottomLeftCorner_BudwayDirectMarron
+{
+    background-position: -145px -382px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpBottomRightCorner_BudwayDirectMarron
+{
+    background-position: -145px -148px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpCollapseButton_BudwayDirectMarron
+{
+    background-position: -108px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_rpGroupBoxBottomLeftCorner_BudwayDirectMarron
+{
+    background-position: -144px -496px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpGroupBoxBottomRightCorner_BudwayDirectMarron
+{
+    background-position: -145px -154px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpGroupBoxTopLeftCorner_BudwayDirectMarron
+{
+    background-position: -145px -520px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpGroupBoxTopRightCorner_BudwayDirectMarron
+{
+    background-position: -140px -599px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpHeaderBottomLeftCorner_BudwayDirectMarron
+{
+    background-position: -145px -508px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpHeaderBottomRightCorner_BudwayDirectMarron
+{
+    background-position: -145px -142px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpHeaderTopLeftCorner_BudwayDirectMarron
+{
+    background-position: -145px -607px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpHeaderTopRightCorner_BudwayDirectMarron
+{
+    background-position: -145px -514px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rPopOut_BudwayDirectMarron
+{
+    background-position: -140px -465px;
+    width: 7px;
+    height: 4px;
+}
+.dxWeb_rpTopLeftCorner_BudwayDirectMarron
+{
+    background-position: -145px -368px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_rpTopRightCorner_BudwayDirectMarron
+{
+    background-position: -145px -376px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_smBullet_BudwayDirectMarron
+{
+    background-position: -144px -502px;
+    width: 5px;
+    height: 5px;
+}
+.dxWeb_splHCollapseBackwardButton_BudwayDirectMarron
+{
+    background-position: -135px -407px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseBackwardButtonHover_BudwayDirectMarron
+{
+    background-position: -143px -407px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseForwardButton_BudwayDirectMarron
+{
+    background-position: -143px -427px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHCollapseForwardButtonHover_BudwayDirectMarron
+{
+    background-position: -141px -414px;
+    width: 7px;
+    height: 6px;
+}
+.dxWeb_splHSeparator_BudwayDirectMarron
+{
+    background-position: -126px -613px;
+    width: 18px;
+    height: 6px;
+}
+.dxWeb_splHSeparatorHover_BudwayDirectMarron
+{
+    background-position: -104px -361px;
+    width: 18px;
+    height: 6px;
+}
+.dxWeb_splVCollapseBackwardButton_BudwayDirectMarron
+{
+    background-position: -123px -360px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseBackwardButtonHover_BudwayDirectMarron
+{
+    background-position: -130px -360px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButton_BudwayDirectMarron
+{
+    background-position: -144px -360px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVCollapseForwardButtonHover_BudwayDirectMarron
+{
+    background-position: -137px -360px;
+    width: 6px;
+    height: 7px;
+}
+.dxWeb_splVSeparator_BudwayDirectMarron
+{
+    background-position: -141px -388px;
+    width: 6px;
+    height: 18px;
+}
+.dxWeb_splVSeparatorHover_BudwayDirectMarron
+{
+    background-position: -134px -388px;
+    width: 6px;
+    height: 18px;
+}
+.dxWeb_tcScrollLeft_BudwayDirectMarron
+{
+    background-position: -66px -434px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollLeftDisabled_BudwayDirectMarron
+{
+    background-position: -22px -434px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollLeftHover_BudwayDirectMarron
+{
+    background-position: -90px -388px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollLeftPressed_BudwayDirectMarron
+{
+    background-position: -112px -388px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollRight_BudwayDirectMarron
+{
+    background-position: -44px -434px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollRightDisabled_BudwayDirectMarron
+{
+    background-position: 0px -434px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollRightHover_BudwayDirectMarron
+{
+    background-position: -68px -388px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tcScrollRightPressed_BudwayDirectMarron
+{
+    background-position: -46px -388px;
+    width: 21px;
+    height: 21px;
+}
+.dxWeb_tiBackToTop_BudwayDirectMarron
+{
+    background-position: -136px -583px;
+    width: 13px;
+    height: 13px;
+}
+.dxWeb_tvColBtn_BudwayDirectMarron
+{
+    background-position: -18px -514px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvColBtnRtl_BudwayDirectMarron
+{
+    background-position: -90px -496px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvExpBtn_BudwayDirectMarron
+{
+    background-position: -110px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_tvExpBtnRtl_BudwayDirectMarron
+{
+    background-position: -56px -476px;
+    width: 17px;
+    height: 17px;
+}
+.dxWeb_ucClearButton_BudwayDirectMarron
+{
+    background-position: -34px -532px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_ucClearButtonDisabled_BudwayDirectMarron
+{
+    background-position: -119px -549px;
+    width: 16px;
+    height: 16px;
+}
+.dxWeb_rpHeaderTopLeftCorner_BudwayDirectMarron,
+.dxWeb_rpHeaderTopRightCorner_BudwayDirectMarron,
+.dxWeb_rpHeaderBottomLeftCorner_BudwayDirectMarron,
+.dxWeb_rpHeaderBottomRightCorner_BudwayDirectMarron,
+.dxWeb_rpBottomLeftCorner_BudwayDirectMarron,
+.dxWeb_rpBottomRightCorner_BudwayDirectMarron,
+.dxWeb_rpTopLeftCorner_BudwayDirectMarron,
+.dxWeb_rpTopRightCorner_BudwayDirectMarron,
+.dxWeb_rpGroupBoxBottomLeftCorner_BudwayDirectMarron,
+.dxWeb_rpGroupBoxBottomRightCorner_BudwayDirectMarron,
+.dxWeb_rpGroupBoxTopLeftCorner_BudwayDirectMarron,
+.dxWeb_rpGroupBoxTopRightCorner_BudwayDirectMarron,
+.dxWeb_mHorizontalPopOut_BudwayDirectMarron,
+.dxWeb_mVerticalPopOut_BudwayDirectMarron,
+.dxWeb_mVerticalPopOutRtl_BudwayDirectMarron,
+.dxWeb_mSubMenuItem_BudwayDirectMarron,
+.dxWeb_mSubMenuItemChecked_BudwayDirectMarron,
+.dxWeb_mScrollUp_BudwayDirectMarron,
+.dxWeb_mScrollDown_BudwayDirectMarron,
+.dxWeb_tcScrollLeft_BudwayDirectMarron,
+.dxWeb_tcScrollRight_BudwayDirectMarron,
+.dxWeb_tcScrollLeftHover_BudwayDirectMarron,
+.dxWeb_tcScrollRightHover_BudwayDirectMarron,
+.dxWeb_tcScrollLeftPressed_BudwayDirectMarron,
+.dxWeb_tcScrollRightPressed_BudwayDirectMarron,
+.dxWeb_tcScrollLeftDisabled_BudwayDirectMarron,
+.dxWeb_tcScrollRightDisabled_BudwayDirectMarron,
+.dxWeb_nbCollapse_BudwayDirectMarron,
+.dxWeb_nbExpand_BudwayDirectMarron,
+.dxWeb_splVSeparator_BudwayDirectMarron,
+.dxWeb_splVSeparatorHover_BudwayDirectMarron,
+.dxWeb_splHSeparator_BudwayDirectMarron,
+.dxWeb_splHSeparatorHover_BudwayDirectMarron,
+.dxWeb_splVCollapseBackwardButton_BudwayDirectMarron,
+.dxWeb_splVCollapseBackwardButtonHover_BudwayDirectMarron,
+.dxWeb_splHCollapseBackwardButton_BudwayDirectMarron,
+.dxWeb_splHCollapseBackwardButtonHover_BudwayDirectMarron,
+.dxWeb_splVCollapseForwardButton_BudwayDirectMarron,
+.dxWeb_splVCollapseForwardButtonHover_BudwayDirectMarron,
+.dxWeb_splHCollapseForwardButton_BudwayDirectMarron,
+.dxWeb_splHCollapseForwardButtonHover_BudwayDirectMarron,
+.dxWeb_pcCloseButton_BudwayDirectMarron,
+.dxWeb_pcPinButton_BudwayDirectMarron,
+.dxWeb_pcRefreshButton_BudwayDirectMarron,
+.dxWeb_pcCollapseButton_BudwayDirectMarron,
+.dxWeb_pcMaximizeButton_BudwayDirectMarron,
+.dxWeb_pcSizeGrip_BudwayDirectMarron,
+.dxWeb_pcSizeGripRtl_BudwayDirectMarron,
+.dxWeb_pPopOut_BudwayDirectMarron,
+.dxWeb_pPopOutDisabled_BudwayDirectMarron,
+.dxWeb_pAll_BudwayDirectMarron,
+.dxWeb_pAllDisabled_BudwayDirectMarron,
+.dxWeb_pPrev_BudwayDirectMarron,
+.dxWeb_pPrevDisabled_BudwayDirectMarron,
+.dxWeb_pNext_BudwayDirectMarron,
+.dxWeb_pNextDisabled_BudwayDirectMarron,
+.dxWeb_pLast_BudwayDirectMarron,
+.dxWeb_pLastDisabled_BudwayDirectMarron,
+.dxWeb_pFirst_BudwayDirectMarron,
+.dxWeb_pFirstDisabled_BudwayDirectMarron,
+.dxWeb_tiBackToTop_BudwayDirectMarron,
+.dxWeb_smBullet_BudwayDirectMarron,
+.dxWeb_tvColBtn_BudwayDirectMarron,
+.dxWeb_tvColBtnRtl_BudwayDirectMarron,
+.dxWeb_tvExpBtn_BudwayDirectMarron,
+.dxWeb_tvExpBtnRtl_BudwayDirectMarron,
+.dxWeb_fmFolder_BudwayDirectMarron,
+.dxWeb_fmFolderLocked_BudwayDirectMarron,
+.dxWeb_fmCreateButton_BudwayDirectMarron,
+.dxWeb_fmMoveButton_BudwayDirectMarron,
+.dxWeb_fmRenameButton_BudwayDirectMarron,
+.dxWeb_fmDeleteButton_BudwayDirectMarron,
+.dxWeb_fmRefreshButton_BudwayDirectMarron,
+.dxWeb_fmDwnlButton_BudwayDirectMarron,
+.dxWeb_fmCreateButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmMoveButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmRenameButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmDeleteButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmRefreshButtonDisabled_BudwayDirectMarron,
+.dxWeb_fmDwnlButtonDisabled_BudwayDirectMarron,
+.dxWeb_ucClearButton_BudwayDirectMarron,
+.dxWeb_ucClearButtonDisabled_BudwayDirectMarron,
+.dxWeb_isPrevBtnHor_BudwayDirectMarron,
+.dxWeb_isNextBtnHor_BudwayDirectMarron,
+.dxWeb_isPrevBtnVert_BudwayDirectMarron,
+.dxWeb_isNextBtnVert_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnHor_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnHorOutside_BudwayDirectMarron,
+.dxWeb_isNextPageBtnHor_BudwayDirectMarron,
+.dxWeb_isNextPageBtnHorOutside_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnVert_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnVertOutside_BudwayDirectMarron,
+.dxWeb_isNextPageBtnVert_BudwayDirectMarron,
+.dxWeb_isNextPageBtnVertOutside_BudwayDirectMarron,
+.dxWeb_isPrevBtnHorDisabled_BudwayDirectMarron,
+.dxWeb_isNextBtnHorDisabled_BudwayDirectMarron,
+.dxWeb_isPrevBtnVertDisabled_BudwayDirectMarron,
+.dxWeb_isNextBtnVertDisabled_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnHorDisabled_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnHorOutsideDisabled_BudwayDirectMarron,
+.dxWeb_isNextPageBtnHorDisabled_BudwayDirectMarron,
+.dxWeb_isNextPageBtnHorOutsideDisabled_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnVertDisabled_BudwayDirectMarron,
+.dxWeb_isPrevPageBtnVertOutsideDisabled_BudwayDirectMarron,
+.dxWeb_isNextPageBtnVertDisabled_BudwayDirectMarron,
+.dxWeb_isNextPageBtnVertOutsideDisabled_BudwayDirectMarron,
+.dxWeb_isDot_BudwayDirectMarron,
+.dxWeb_isDotDisabled_BudwayDirectMarron,
+.dxWeb_isDotSelected_BudwayDirectMarron,
+.dxWeb_fmGvHeaderFilterActive_BudwayDirectMarron,
+.dxWeb_fmGvHeaderFilter_BudwayDirectMarron,
+.dxWeb_fmGvHeaderSortDown_BudwayDirectMarron,
+.dxWeb_fmGvHeaderSortUp_BudwayDirectMarron,
+.dxWeb_fmThumbnailCheck_BudwayDirectMarron,
+.dxWeb_isPlayBtn_BudwayDirectMarron,
+.dxWeb_isPauseBtn_BudwayDirectMarron,
+.dxWeb_igCloseButton_BudwayDirectMarron,
+.dxWeb_igNextButton_BudwayDirectMarron,
+.dxWeb_igPrevButton_BudwayDirectMarron,
+.dxWeb_igPlayButton_BudwayDirectMarron,
+.dxWeb_igPauseButton_BudwayDirectMarron,
+.dxWeb_igNavigationBarMarker_BudwayDirectMarron
+{
+    display:block;
+}
+.dxWeb_mScrollUp_BudwayDirectMarron, .dxWeb_mScrollDown_BudwayDirectMarron
+{
+	margin: auto;
+}
+.dxWeb_smBullet_BudwayDirectMarron,
+.dxWeb_tiBackToTop_BudwayDirectMarron,
+.dxWeb_fmGvHeaderFilter_BudwayDirectMarron,
+.dxWeb_fmGvHeaderFilterActive_BudwayDirectMarron,
+.dxWeb_fmGvHeaderSortDown_BudwayDirectMarron,
+.dxWeb_fmGvHeaderSortUp_BudwayDirectMarron
+{
+	display:inline;
+}
+

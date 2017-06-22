@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsRfsCostMatrix, BopsDataAccess" table="[RFS Cost Matrices]" lazy="false">
+    <id name="MatrixId" column="[Matrix Id]" unsaved-value="0">
+      <generator class="identity" />
+    </id>
+    <property name="Name" column="[Name]"/>
+    <property name="UnitRef" column="[Unit Ref]"/>
+    <property name="Active" column="[Active]"/>
+    <property name="DefaultCost" column="[Default Cost]"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,666 @@
+.dx-acc-r .dxDateEditSys .dxEditors_edtDropDown_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxDateEditSys .dxEditors_edtDropDownDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxeButtonEditButtonHover_BudwayThemeFromMulberry .dxEditors_edtClear_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_caRefresh_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtBinaryImageDelete_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtBinaryImageOpenDialog_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtCalendarFNNextYear_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtCalendarFNPrevYear_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtCalendarNextMonth_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtCalendarNextMonthDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtCalendarNextYear_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtCalendarNextYearDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtCalendarPrevMonth_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtCalendarPrevMonthDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtCalendarPrevYear_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtCalendarPrevYearDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtClear_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtDETSClockFace_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtDETSHourHand_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtDETSMinuteHand_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtDETSSecondHand_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtDropDown_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtDropDownDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtEllipsis_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtEllipsisDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtError_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtRadioButtonChecked_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtRadioButtonCheckedDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtRadioButtonUnchecked_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtRadioButtonUncheckedDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtSpinEditDecrementImage_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtSpinEditDecrementImageDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtSpinEditIncrementImage_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtSpinEditIncrementImageDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtSpinEditLargeDecImage_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtSpinEditLargeDecImageDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtSpinEditLargeIncImage_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtSpinEditLargeIncImageDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtTokenBoxTokenRemoveButton_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_edtTokenBoxTokenRemoveButtonDisabled_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcadd_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcaddhot_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcgroupaddcondition_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcgroupaddgroup_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcgroupand_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcgroupnotand_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcgroupnotor_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcgroupor_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcgroupremove_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopany_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopavg_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopbegin_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopbetween_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopblank_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopcontain_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopcount_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopend_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopequal_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopexists_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopgreater_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopgreaterorequal_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopless_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcoplessorequal_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcoplike_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopmax_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopmin_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopnotany_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopnotbetween_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopnotblank_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopnotcontain_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopnotequal_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopnotlike_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopsingle_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcopsum_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcoptypefield_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcoptypefieldhot_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcoptypevalue_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcoptypevaluehot_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcremove_BudwayThemeFromMulberry:before,
+.dx-acc-r .dxEditors_fcremovehot_BudwayThemeFromMulberry:before
+
+{
+    content: url('spriteAccessible.png');
+
+}
+.dx-acc-r .dxDateEditSys .dxEditors_edtDropDown_BudwayThemeFromMulberry:before
+
+{
+    left: -60px;
+    top: -169px;
+
+}
+.dx-acc-r .dxDateEditSys .dxEditors_edtDropDownDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -48px;
+    top: -217px;
+
+}
+.dx-acc-r .dxeButtonEditButtonHover_BudwayThemeFromMulberry .dxEditors_edtClear_BudwayThemeFromMulberry:before
+
+{
+    left: -119px;
+    top: -263px;
+
+}
+.dx-acc-r .dxEditors_caRefresh_BudwayThemeFromMulberry:before
+
+{
+    left: -104px;
+    top: -136px;
+
+}
+.dx-acc-r .dxEditors_edtBinaryImageDelete_BudwayThemeFromMulberry:before
+
+{
+    left: -38px;
+    top: -136px;
+
+}
+.dx-acc-r .dxEditors_edtBinaryImageOpenDialog_BudwayThemeFromMulberry:before
+
+{
+    left: -71px;
+    top: -136px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarFNNextYear_BudwayThemeFromMulberry:before
+
+{
+    left: -80px;
+    top: -263px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarFNPrevYear_BudwayThemeFromMulberry:before
+
+{
+    left: -116px;
+    top: -241px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarNextMonth_BudwayThemeFromMulberry:before
+
+{
+    left: -20px;
+    top: -263px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarNextMonthDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -40px;
+    top: -263px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarNextYear_BudwayThemeFromMulberry:before
+
+{
+    left: -68px;
+    top: -241px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarNextYearDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -44px;
+    top: -241px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarPrevMonth_BudwayThemeFromMulberry:before
+
+{
+    left: -60px;
+    top: -263px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarPrevMonthDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -263px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarPrevYear_BudwayThemeFromMulberry:before
+
+{
+    left: -18px;
+    top: -197px;
+
+}
+.dx-acc-r .dxEditors_edtCalendarPrevYearDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -92px;
+    top: -241px;
+
+}
+.dx-acc-r .dxEditors_edtClear_BudwayThemeFromMulberry:before
+
+{
+    left: -100px;
+    top: -263px;
+
+}
+.dx-acc-r .dxEditors_edtDETSClockFace_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: 0px;
+
+}
+.dx-acc-r .dxEditors_edtDETSHourHand_BudwayThemeFromMulberry:before
+
+{
+    left: -30px;
+    top: -136px;
+
+}
+.dx-acc-r .dxEditors_edtDETSHourHand_BudwayThemeFromMulberry:before
+
+{
+    left: -22px;
+    top: -136px;
+
+}
+.dx-acc-r .dxEditors_edtDETSMinuteHand_BudwayThemeFromMulberry:before
+
+{
+    left: -14px;
+    top: -136px;
+
+}
+.dx-acc-r .dxEditors_edtDETSMinuteHand_BudwayThemeFromMulberry:before
+
+{
+    left: -6px;
+    top: -136px;
+
+}
+.dx-acc-r .dxEditors_edtDETSSecondHand_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -136px;
+
+}
+.dx-acc-r .dxEditors_edtDETSSecondHand_BudwayThemeFromMulberry:before
+
+{
+    left: -136px;
+    top: 0px;
+
+}
+.dx-acc-r .dxEditors_edtDropDown_BudwayThemeFromMulberry:before
+
+{
+    left: -104px;
+    top: -169px;
+
+}
+.dx-acc-r .dxEditors_edtDropDownDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -38px;
+    top: -169px;
+
+}
+.dx-acc-r .dxEditors_edtEllipsis_BudwayThemeFromMulberry:before
+
+{
+    left: -70px;
+    top: -217px;
+
+}
+.dx-acc-r .dxEditors_edtEllipsisDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -82px;
+    top: -169px;
+
+}
+.dx-acc-r .dxEditors_edtError_BudwayThemeFromMulberry:before
+
+{
+    left: -126px;
+    top: -177px;
+
+}
+.dx-acc-r .dxEditors_edtRadioButtonChecked_BudwayThemeFromMulberry:before
+
+{
+    left: -67px;
+    top: -192px;
+
+}
+.dx-acc-r .dxEditors_edtRadioButtonCheckedDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -42px;
+    top: -192px;
+
+}
+.dx-acc-r .dxEditors_edtRadioButtonUnchecked_BudwayThemeFromMulberry:before
+
+{
+    left: -92px;
+    top: -192px;
+
+}
+.dx-acc-r .dxEditors_edtRadioButtonUncheckedDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -117px;
+    top: -192px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditDecrementImage_BudwayThemeFromMulberry:before
+
+{
+    left: -72px;
+    top: -342px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditDecrementImageDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -94px;
+    top: -342px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditIncrementImage_BudwayThemeFromMulberry:before
+
+{
+    left: -28px;
+    top: -342px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditIncrementImageDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -50px;
+    top: -342px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditLargeDecImage_BudwayThemeFromMulberry:before
+
+{
+    left: -22px;
+    top: -241px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditLargeDecImageDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -114px;
+    top: -217px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditLargeIncImage_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -241px;
+
+}
+.dx-acc-r .dxEditors_edtSpinEditLargeIncImageDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -92px;
+    top: -217px;
+
+}
+.dx-acc-r .dxEditors_edtTokenBoxTokenRemoveButton_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -217px;
+
+}
+.dx-acc-r .dxEditors_edtTokenBoxTokenRemoveButtonDisabled_BudwayThemeFromMulberry:before
+
+{
+    left: -24px;
+    top: -217px;
+
+}
+.dx-acc-r .dxEditors_fcadd_BudwayThemeFromMulberry:before
+
+{
+    left: -70px;
+    top: -328px;
+
+}
+.dx-acc-r .dxEditors_fcaddhot_BudwayThemeFromMulberry:before
+
+{
+    left: -14px;
+    top: -328px;
+
+}
+.dx-acc-r .dxEditors_fcgroupaddcondition_BudwayThemeFromMulberry:before
+
+{
+    left: -56px;
+    top: -300px;
+
+}
+.dx-acc-r .dxEditors_fcgroupaddgroup_BudwayThemeFromMulberry:before
+
+{
+    left: -14px;
+    top: -342px;
+
+}
+.dx-acc-r .dxEditors_fcgroupand_BudwayThemeFromMulberry:before
+
+{
+    left: -119px;
+    top: -283px;
+
+}
+.dx-acc-r .dxEditors_fcgroupnotand_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -314px;
+
+}
+.dx-acc-r .dxEditors_fcgroupnotor_BudwayThemeFromMulberry:before
+
+{
+    left: -56px;
+    top: -314px;
+
+}
+.dx-acc-r .dxEditors_fcgroupor_BudwayThemeFromMulberry:before
+
+{
+    left: -112px;
+    top: -300px;
+
+}
+.dx-acc-r .dxEditors_fcgroupremove_BudwayThemeFromMulberry:before
+
+{
+    left: -56px;
+    top: -328px;
+
+}
+.dx-acc-r .dxEditors_fcopany_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -328px;
+
+}
+.dx-acc-r .dxEditors_fcopavg_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -283px;
+
+}
+.dx-acc-r .dxEditors_fcopbegin_BudwayThemeFromMulberry:before
+
+{
+    left: -14px;
+    top: -300px;
+
+}
+.dx-acc-r .dxEditors_fcopbetween_BudwayThemeFromMulberry:before
+
+{
+    left: -126px;
+    top: -300px;
+
+}
+.dx-acc-r .dxEditors_fcopblank_BudwayThemeFromMulberry:before
+
+{
+    left: -84px;
+    top: -328px;
+
+}
+.dx-acc-r .dxEditors_fcopcontain_BudwayThemeFromMulberry:before
+
+{
+    left: -112px;
+    top: -314px;
+
+}
+.dx-acc-r .dxEditors_fcopcount_BudwayThemeFromMulberry:before
+
+{
+    left: -34px;
+    top: -283px;
+
+}
+.dx-acc-r .dxEditors_fcopend_BudwayThemeFromMulberry:before
+
+{
+    left: -28px;
+    top: -314px;
+
+}
+.dx-acc-r .dxEditors_fcopequal_BudwayThemeFromMulberry:before
+
+{
+    left: -126px;
+    top: -314px;
+
+}
+.dx-acc-r .dxEditors_fcopexists_BudwayThemeFromMulberry:before
+
+{
+    left: -85px;
+    top: -283px;
+
+}
+.dx-acc-r .dxEditors_fcopgreater_BudwayThemeFromMulberry:before
+
+{
+    left: -112px;
+    top: -328px;
+
+}
+.dx-acc-r .dxEditors_fcopgreaterorequal_BudwayThemeFromMulberry:before
+
+{
+    left: -98px;
+    top: -328px;
+
+}
+.dx-acc-r .dxEditors_fcopless_BudwayThemeFromMulberry:before
+
+{
+    left: -42px;
+    top: -300px;
+
+}
+.dx-acc-r .dxEditors_fcoplessorequal_BudwayThemeFromMulberry:before
+
+{
+    left: -70px;
+    top: -300px;
+
+}
+.dx-acc-r .dxEditors_fcoplike_BudwayThemeFromMulberry:before
+
+{
+    left: -84px;
+    top: -300px;
+
+}
+.dx-acc-r .dxEditors_fcopmax_BudwayThemeFromMulberry:before
+
+{
+    left: -68px;
+    top: -283px;
+
+}
+.dx-acc-r .dxEditors_fcopmin_BudwayThemeFromMulberry:before
+
+{
+    left: -17px;
+    top: -283px;
+
+}
+.dx-acc-r .dxEditors_fcopnotany_BudwayThemeFromMulberry:before
+
+{
+    left: -98px;
+    top: -300px;
+
+}
+.dx-acc-r .dxEditors_fcopnotbetween_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -300px;
+
+}
+.dx-acc-r .dxEditors_fcopnotblank_BudwayThemeFromMulberry:before
+
+{
+    left: -28px;
+    top: -300px;
+
+}
+.dx-acc-r .dxEditors_fcopnotcontain_BudwayThemeFromMulberry:before
+
+{
+    left: -126px;
+    top: -328px;
+
+}
+.dx-acc-r .dxEditors_fcopnotequal_BudwayThemeFromMulberry:before
+
+{
+    left: 0px;
+    top: -342px;
+
+}
+.dx-acc-r .dxEditors_fcopnotlike_BudwayThemeFromMulberry:before
+
+{
+    left: -98px;
+    top: -314px;
+
+}
+.dx-acc-r .dxEditors_fcopsingle_BudwayThemeFromMulberry:before
+
+{
+    left: -51px;
+    top: -283px;
+
+}
+.dx-acc-r .dxEditors_fcopsum_BudwayThemeFromMulberry:before
+
+{
+    left: -102px;
+    top: -283px;
+
+}
+.dx-acc-r .dxEditors_fcoptypefield_BudwayThemeFromMulberry:before
+
+{
+    left: -84px;
+    top: -314px;
+
+}
+.dx-acc-r .dxEditors_fcoptypefieldhot_BudwayThemeFromMulberry:before
+
+{
+    left: -28px;
+    top: -328px;
+
+}
+.dx-acc-r .dxEditors_fcoptypevalue_BudwayThemeFromMulberry:before
+
+{
+    left: -14px;
+    top: -314px;
+
+}
+.dx-acc-r .dxEditors_fcoptypevaluehot_BudwayThemeFromMulberry:before
+
+{
+    left: -42px;
+    top: -314px;
+
+}
+.dx-acc-r .dxEditors_fcremove_BudwayThemeFromMulberry:before
+
+{
+    left: -42px;
+    top: -328px;
+
+}
+.dx-acc-r .dxEditors_fcremovehot_BudwayThemeFromMulberry:before
+
+{
+    left: -70px;
+    top: -314px;
+
+}

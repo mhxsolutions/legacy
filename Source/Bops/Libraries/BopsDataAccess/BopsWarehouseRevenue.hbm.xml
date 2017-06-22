@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BopsDataAccess.BopsWarehouseRevenue, BopsDataAccess" table="[Warehouse Rev]" lazy="false">
+    <id name="RevenueId" column="[Revenue Id]" unsaved-value="0">
+      <generator class="identity"/>
+    </id>
+    <property name="DocumentId" column="[Document Id]"/>
+    <property name="DocumentType" column="[Document Type]"/>
+    <property name="DocumentDate" column="[Document Date]"/>
+    <property name="Weight" column="[Weight]"/>
+    <property name="Revenue" column="[Revenue]"/>
+    <property name="FuelSurchargeRevenue" column="[Fuel Surcharge Revenue]"/>
+  </class>
+</hibernate-mapping>

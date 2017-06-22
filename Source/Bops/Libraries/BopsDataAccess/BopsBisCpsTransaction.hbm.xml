@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="BopsDataAccess.BopsBisCpsTransaction, BopsDataAccess" table="[BIS CPS Transactions]" lazy="false">
+		<composite-id>
+			<key-property name="ProjectRef" column="[Project Ref]"/>
+			<key-property name="ContainerRef" column="[Container Ref]"/>
+			<key-property name="BisTransactionRef" column="[BIS Transaction Ref]"/>
+		</composite-id>
+	</class>
+</hibernate-mapping>

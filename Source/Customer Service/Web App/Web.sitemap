@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="~/Default.aspx" title="Home">
+    <siteMapNode url="~/Administration/Default1.aspx" title="Administration">
+      <siteMapNode url="~/Administration/BudwayUsers.aspx" title="Administer Budway Users" />
+      <siteMapNode url="~/Administration/AdministerUserReports.aspx" title="Administer Reports" />
+      <siteMapNode url="~/Administration/AdministerUsers.aspx" title="Administer Users" />
+      <siteMapNode url="~/Administration/AdministerShowSiteLog.aspx" title="Web Site Log" />
+    </siteMapNode>
+    <siteMapNode url="~/Power Users/ImpersonateClient.aspx?1" title="Power Users">
+      <siteMapNode url="~/Power Users/ImpersonateClient.aspx" title="Impersonate Client" />
+    </siteMapNode>
+    <siteMapNode url="Customers/_Assigned/Default.aspx" title="Custom Reports" />
+    <siteMapNode url="~/Default.aspx?2" title="Delivery">
+      <siteMapNode url="Customers/_All/harborloaddetails.aspx" title="Add Notes for Drivers" />
+      <siteMapNode url="Customers/_All/BOLs.aspx" title="Managed Inventory" description="includes rail shipments" />
+      <siteMapNode url="Customers/_All/PlannedDeliveriesToday.aspx" title="Delivery Plan" />
+      <siteMapNode url="Customers/_All/tonsmtd.aspx" title="Tons Shipped MTD" />
+      <siteMapNode url="~/Customers/_All/Loads.aspx" title="Dispatch History" description="truck only" />
+    </siteMapNode>
+    <siteMapNode url="Customers/_All/FscFuelPriceHistory.aspx?7" title="Fuel Surcharge">
+      <siteMapNode url="Customers/_All/FscMatrices.aspx" title="FSC Matrix" />
+      <siteMapNode url="Customers/_All/FscFuelPriceHistory.aspx?6" title="Price History" />
+    </siteMapNode>
+    <siteMapNode url="Customers/_All/DefaultHarbor.aspx" title="Harbor">
+      <siteMapNode url="Customers/_All/ContainerProjectsSummary.aspx" title="Container Projects Summary" />
+      <siteMapNode url="Customers/_All/boxinfo.aspx" title="Container List" />
+      <siteMapNode url="Customers/_All/HarborDetail.aspx" title="Current Inventory" />
+      <siteMapNode url="Customers/_All/HarborSummary.aspx" title="Delivery Order Status" />
+      <siteMapNode url="Customers/_All/HarborDetailHistory.aspx" title="Inventory Detail History" />
+      <siteMapNode url="Customers/_All/Vessel_Loads.aspx" title="Loads by Vessel" />
+      <siteMapNode url="Customers/_All/SearchHarborInv.aspx?1" title="Search Item ID (Harbor)" />
+    </siteMapNode>
+    <siteMapNode url="Customers/_All/Defaultinv.aspx" title="Inventory">
+      <siteMapNode url="Customers/_All/inventoryatFON.aspx" title="Available Detail" />
+      <siteMapNode url="Customers/_All/inventoryatbudwaysummary.aspx" title="Available Summary" />
+      <siteMapNode url="Customers/_All/ProfileList.aspx" title="Client Web Access" />
+      <siteMapNode url="Customers/_All/committed_inventory.aspx" title="Committed Summary" />
+      <siteMapNode url="Customers/_All/inventoryconsigneddetail.aspx" title="Consigned Detail" />
+      <siteMapNode url="Customers/_All/inventoryonconsignment.aspx" title="Consigned Summary" />
+      <siteMapNode url="Customers/_All/TransitInv.aspx?2" title="In-Transit" />
+      <siteMapNode url="Customers/_All/TransitConsigned.aspx?3" title="In-Transit Consigned" />
+      <siteMapNode url="~/Customers/_All/Inventory On Date.aspx" title="Inventory on Date" description="Stock on had for selected date" />
+      <siteMapNode url="Customers/_All/HarborDetail.aspx?1" title="LA/LB Harbor" />
+      <siteMapNode url="Customers/_All/receiving.aspx" title="Receiving History" />
+      <siteMapNode url="Customers/_All/transactions.aspx" title="Transaction Log" />
+    </siteMapNode>
+    <siteMapNode url="~/Customers/_All/InvoiceHistory.aspx" title="Invoices" />
+    <siteMapNode url="Customers/_All/InboundShippingMap.aspx?3" title="Map Drivers" description="Live GPS locations">
+      <siteMapNode url="Customers/_All/InboundShippingMap.aspx?2" title="to this Destination" />
+      <siteMapNode url="Customers/_All/OutboundShippingMap.aspx" title="for this Shipping Client" />
+    </siteMapNode>
+    <siteMapNode url="Customers/_All/DefaultTTL.aspx" title="OCTG">
+      <siteMapNode url="Customers/_All/consigned_loads.aspx" title="Consigned Inventory Deliveries" />
+      <siteMapNode url="Customers/_All/BOLs.aspx?1" title="Delivery History" />
+      <siteMapNode url="Customers/_All/TransitInv.aspx?1" title="In-Transit Inventory" />
+      <siteMapNode url="Customers/_All/TransitConsigned.aspx?1" title="In-Transit Inventory - Consigned" />
+      <siteMapNode url="Customers/_All/inventoryoctg2.aspx" title="OCTG Inventory" />
+      <siteMapNode url="Customers/_All/inventoryconsigneddetail.aspx?1" title="OCTG Inventory - Consigned" />
+      <siteMapNode url="Customers/_All/Rail.aspx?2" title="Rail Cars" />
+      <siteMapNode url="Customers/_All/receivingOCTG.aspx" title="Receiving History" />
+      <siteMapNode url="Customers/_All/product_transactions_runningtotals.aspx" title="Transaction History" />
+    </siteMapNode>
+    <siteMapNode url="Customers/_All/BOLs.aspx?2" title="Proof of Delivery" />
+    <siteMapNode url="Customers/_All/Defaultrail.aspx" title="Rail">
+      <siteMapNode url="Customers/_All/TransitInv.aspx" title="In-Transit Inventory" />
+      <siteMapNode url="Customers/_All/TransitConsigned.aspx" title="In-Transit Inventory - Consigned" />
+      <siteMapNode url="Customers/_All/Rail.aspx?1" title="Rail Cars Pending - On Site - Released" />
+    </siteMapNode>
+    <siteMapNode url="~/Default.aspx?3" title="Stock Search">
+      <siteMapNode url="Customers/_All/SearchHarborInv.aspx" title="Search Item ID (Harbor)" />
+      <siteMapNode url="Customers/_All/SearchInventoryatFON.aspx" title="Search Item ID (Warehouse)" />
+    </siteMapNode>
+    <siteMapNode url="Customers/_All/Default.aspx" title="______________________" />
+    <siteMapNode url="~/Authentication/changepassword.aspx" title="Change Password" />
+    <siteMapNode url="~/Authentication/Logout.aspx" title="Logout" />
+  </siteMapNode>
+</siteMap>

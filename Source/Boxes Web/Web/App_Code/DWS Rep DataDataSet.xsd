@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DWS_Rep_DataDataSet" targetNamespace="http://tempuri.org/DWS_Rep_DataDataSet.xsd" xmlns:mstns="http://tempuri.org/DWS_Rep_DataDataSet.xsd" xmlns="http://tempuri.org/DWS_Rep_DataDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="DWS Rep DataConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DWS Rep DataConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.DWS Rep DataConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="fly ash pipeline inventory summary running totalTableAdapter" GeneratorDataComponentClassName="fly_ash_pipeline_inventory_summary_running_totalTableAdapter" Name="fly ash pipeline inventory summary running total" UserDataComponentName="fly ash pipeline inventory summary running totalTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DWS Rep DataConnectionString (Web.config)" DbObjectName="[DWS Rep Data].dbo.[fly ash pipeline inventory summary running total]" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        ETA, [Est In], [Avg Out]
+FROM            [fly ash pipeline inventory summary running total]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ETA" DataSetColumn="ETA" />
+              <Mapping SourceColumn="Est In" DataSetColumn="Est In" />
+              <Mapping SourceColumn="Avg Out" DataSetColumn="Avg Out" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DWS_Rep_DataDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DWS_Rep_DataDataSet" msprop:Generator_UserDSName="DWS_Rep_DataDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="fly_x0020_ash_x0020_pipeline_x0020_inventory_x0020_summary_x0020_running_x0020_total" msprop:Generator_TableClassName="fly_ash_pipeline_inventory_summary_running_totalDataTable" msprop:Generator_TableVarName="tablefly_ash_pipeline_inventory_summary_running_total" msprop:Generator_TablePropName="fly_ash_pipeline_inventory_summary_running_total" msprop:Generator_RowDeletingName="fly_ash_pipeline_inventory_summary_running_totalRowDeleting" msprop:Generator_UserTableName="fly ash pipeline inventory summary running total" msprop:Generator_RowChangingName="fly_ash_pipeline_inventory_summary_running_totalRowChanging" msprop:Generator_RowEvHandlerName="fly_ash_pipeline_inventory_summary_running_totalRowChangeEventHandler" msprop:Generator_RowDeletedName="fly_ash_pipeline_inventory_summary_running_totalRowDeleted" msprop:Generator_RowEvArgName="fly_ash_pipeline_inventory_summary_running_totalRowChangeEvent" msprop:Generator_RowChangedName="fly_ash_pipeline_inventory_summary_running_totalRowChanged" msprop:Generator_RowClassName="fly_ash_pipeline_inventory_summary_running_totalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ETA" msprop:Generator_ColumnVarNameInTable="columnETA" msprop:Generator_ColumnPropNameInRow="ETA" msprop:Generator_ColumnPropNameInTable="ETAColumn" msprop:Generator_UserColumnName="ETA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Est_x0020_In" msprop:Generator_ColumnVarNameInTable="columnEst_In" msprop:Generator_ColumnPropNameInRow="Est_In" msprop:Generator_ColumnPropNameInTable="Est_InColumn" msprop:Generator_UserColumnName="Est In" type="xs:int" minOccurs="0" />
+              <xs:element name="Avg_x0020_Out" msprop:Generator_ColumnVarNameInTable="columnAvg_Out" msprop:Generator_ColumnPropNameInRow="Avg_Out" msprop:Generator_ColumnPropNameInTable="Avg_OutColumn" msprop:Generator_UserColumnName="Avg Out" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

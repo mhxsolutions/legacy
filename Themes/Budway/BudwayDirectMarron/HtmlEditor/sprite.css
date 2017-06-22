@@ -1,0 +1,247 @@
+.dxHtmlEditor_heConstrainProportionsBottom_BudwayDirectMarron,
+.dxHtmlEditor_heConstrainProportionsBottomRtl_BudwayDirectMarron,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_BudwayDirectMarron,
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_BudwayDirectMarron,
+.dxHtmlEditor_heConstrainProportionsMiddleOn_BudwayDirectMarron,
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_BudwayDirectMarron,
+.dxHtmlEditor_heConstrainProportionsTop_BudwayDirectMarron,
+.dxHtmlEditor_heConstrainProportionsTopRtl_BudwayDirectMarron,
+.dxHtmlEditor_heEnumIcon_BudwayDirectMarron,
+.dxHtmlEditor_heErrorFrameCloseButton_BudwayDirectMarron,
+.dxHtmlEditor_heEventIcon_BudwayDirectMarron,
+.dxHtmlEditor_heFieldIcon_BudwayDirectMarron,
+.dxHtmlEditor_heReset_BudwayDirectMarron,
+.dxHtmlEditor_heSizeGrip_BudwayDirectMarron,
+.dxHtmlEditor_heSizeGripRtl_BudwayDirectMarron,
+.dxHtmlEditor_heTagInspectorChangeButton_BudwayDirectMarron,
+.dxHtmlEditor_heTagInspectorRemoveButton_BudwayDirectMarron,
+.dxHtmlEditor_heTagInspectorSeparator_BudwayDirectMarron,
+.dxHtmlEditor_heToolbarPopOut_BudwayDirectMarron,
+.dxHtmlEditor_heToolbarPopOutDisabled_BudwayDirectMarron,
+.dxHtmlEditor_heToolbarPopOutHover_BudwayDirectMarron,
+.dxHtmlEditor_heXmlItemIcon_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_BudwayDirectMarron
+{
+    background-image: url('sprite.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.dxHtmlEditor_heConstrainProportionsBottom_BudwayDirectMarron
+{
+    background-position: -54px -50px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsBottomRtl_BudwayDirectMarron
+{
+    background-position: -34px -57px;
+    width: 11px;
+    height: 6px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOff_BudwayDirectMarron
+{
+    background-position: -24px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOffRtl_BudwayDirectMarron
+{
+    background-position: 0px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_BudwayDirectMarron
+{
+    background-position: -36px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOnRtl_BudwayDirectMarron
+{
+    background-position: -12px -21px;
+    width: 11px;
+    height: 18px;
+}
+.dxHtmlEditor_heConstrainProportionsTop_BudwayDirectMarron
+{
+    background-position: -46px -57px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsTopRtl_BudwayDirectMarron
+{
+    background-position: -38px -68px;
+    width: 11px;
+    height: 5px;
+}
+.dxHtmlEditor_heEnumIcon_BudwayDirectMarron
+{
+    background-position: 0px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heErrorFrameCloseButton_BudwayDirectMarron
+{
+    background-position: -51px -40px;
+    width: 13px;
+    height: 9px;
+}
+.dxHtmlEditor_heEventIcon_BudwayDirectMarron
+{
+    background-position: -17px -57px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heFieldIcon_BudwayDirectMarron
+{
+    background-position: -48px -21px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heReset_BudwayDirectMarron
+{
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.dxHtmlEditor_heSizeGrip_BudwayDirectMarron
+{
+    background-position: -34px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heSizeGripRtl_BudwayDirectMarron
+{
+    background-position: -17px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_heTagInspectorChangeButton_BudwayDirectMarron
+{
+    background-position: -21px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorRemoveButton_BudwayDirectMarron
+{
+    background-position: -41px 0px;
+    width: 19px;
+    height: 19px;
+}
+.dxHtmlEditor_heTagInspectorSeparator_BudwayDirectMarron
+{
+    background-position: -61px 0px;
+    width: 4px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOut_BudwayDirectMarron
+{
+    background-position: -50px -66px;
+    width: 7px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOutDisabled_BudwayDirectMarron
+{
+    background-position: -58px -66px;
+    width: 7px;
+    height: 7px;
+}
+.dxHtmlEditor_heToolbarPopOutHover_BudwayDirectMarron
+{
+    background-position: -58px -57px;
+    width: 7px;
+    height: 7px;
+}
+.dxHtmlEditor_heXmlItemIcon_BudwayDirectMarron
+{
+    background-position: 0px -40px;
+    width: 16px;
+    height: 16px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_BudwayDirectMarron
+{
+    background-position: -12px -74px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_BudwayDirectMarron
+{
+    background-position: -18px -74px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_BudwayDirectMarron
+{
+    background-position: -42px -74px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_BudwayDirectMarron
+{
+    background-position: -54px -74px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_BudwayDirectMarron
+{
+    background-position: -30px -74px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_BudwayDirectMarron
+{
+    background-position: -48px -74px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_BudwayDirectMarron
+{
+    background-position: -24px -74px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_BudwayDirectMarron
+{
+    background-position: -6px -74px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_BudwayDirectMarron
+{
+    background-position: -36px -74px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_BudwayDirectMarron
+{
+    background-position: 0px -74px;
+    width: 5px;
+    height: 5px;
+}
+.dxHtmlEditor_heConstrainProportionsMiddleOn_BudwayDirectMarron,
+.dxHtmlEditor_heConstrainProportionsMiddleOff_BudwayDirectMarron,
+.dxHtmlEditor_heConstrainProportionsBottom_BudwayDirectMarron,
+.dxHtmlEditor_heConstrainProportionsTop_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpHeaderTopLeftCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpHeaderTopRightCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpBottomLeftCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpBottomRightCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpTopLeftCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpTopRightCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomLeftCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpGroupBoxBottomRightCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopLeftCorner_BudwayDirectMarron,
+.dxHtmlEditor_RoundPanel_herpGroupBoxTopRightCorner_BudwayDirectMarron
+{
+	display:block;
+}
+

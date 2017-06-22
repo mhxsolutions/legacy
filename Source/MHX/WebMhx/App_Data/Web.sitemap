@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="~/default.aspx" title="Home">
+    <siteMapNode url="" title="Administration" roles="Administrators, Power Users">
+      <siteMapNode url="~/Administration/ManageUsers.aspx" title="Manage Users" roles="Administrators, Power Users" />
+      <siteMapNode url="~/Administration/AddUser.aspx" title="Add New User" roles="Administrators, Power Users" />
+    </siteMapNode>
+    <siteMapNode url="" title="Power Users" roles="Administrators,Power Users">
+      <siteMapNode url="~/Power Users/ImpersonateClient.aspx" title="Impersonate Client" roles="Administrators, Power Users" />
+      <siteMapNode url="~/Power Users/LoginCount.aspx" title="Login Count" roles="Administrators, Power Users" />
+      <siteMapNode url="~/Power Users/LoginHistory.aspx" title="Login History" roles="Administrators, Power Users" />
+      <siteMapNode url="~/All/Distance.aspx" title="Time and Distance" roles="Administrators, Power Users" />
+    </siteMapNode>
+    <siteMapNode url="~/Customers/_Assigned/Custom.aspx" title="Custom Reports" />
+    <siteMapNode url="" title="Delivery" roles="*">
+      <siteMapNode url="~/Customers/_All/harborloaddetails.aspx" title="Add Notes for Drivers" />
+      <siteMapNode url="~/Customers/_All/BOLs.aspx" title="Managed Inventory" description="includes rail shipments" />
+      <siteMapNode url="~/Customers/_All/PlannedDeliveriesToday.aspx" title="Delivery Plan" />
+      <siteMapNode url="~/Customers/_All/tonsmtd.aspx" title="Tons Shipped MTD" />
+      <siteMapNode url="~/Customers/_All/Loads.aspx" title="Dispatch History" description="truck only" />
+    </siteMapNode>
+    <siteMapNode url="" title="Harbor" roles="Administrators, Power Users">
+      <siteMapNode url="~/Customers/_All/HarborDetail.aspx" title="Available Detail" />
+      <siteMapNode url="~/Customers/_All/HarborCurrentInvenSummary.aspx" title="Available Summary" />
+      <siteMapNode url="~/Customers/_All/HarborSummary.aspx" title="Delivery Order Status" />
+      <siteMapNode url="~/Customers/_All/HarborDetailHistory.aspx" title="Inventory Detail History" />
+      <siteMapNode url="~/Customers/_All/Vessel_Loads.aspx" title="Loads by Vessel" />
+      <siteMapNode url="~/Customers/_All/SearchHarborInv.aspx?1" title="Search Item ID (Harbor)" />
+    </siteMapNode>
+    <siteMapNode url="" title="Inventory" roles="*">
+      <siteMapNode url="~/Customers/_All/inventoryatFON.aspx" title="Available Detail" />
+      <siteMapNode url="~/Customers/_All/InventoryAtBudwaySummary.aspx" title="Available Summary" />
+      <siteMapNode url="~/Customers/_All/ProfileList.aspx" title="Client Web Access" />
+      <siteMapNode url="~/Customers/_All/Committed_Inventory.aspx" title="Committed Summary" />
+      <siteMapNode url="~/Customers/_All/InventoryConsignedDetail.aspx" title="Consigned Details" />
+      <siteMapNode url="~/Customers/_All/InventoryOnConsignment.aspx" title="Consigned Summary" />
+      <siteMapNode url="~/Customers/_All/TransitInv.aspx?2" title="In-Transit to MHX" />
+      <siteMapNode url="~/Customers/_All/TransitConsigned.aspx?3" title="In-Transit Consigned" />
+      <siteMapNode url="~/Customers/_All/InventoryOnDate.aspx" title="Inventory on Date" />
+      <siteMapNode url="~/Customers/_All/HarborDetail.aspx?1" title="LA/LB Harbor" />
+      <siteMapNode url="~/Customers/_All/receiving.aspx" title="Receiving History" />
+      <siteMapNode url="~/Customers/_All/Transactions.aspx" title="Transaction Log" />
+      <siteMapNode url="~/Customers/_All/InventoryOCTG2.aspx" title="Summary" />
+    </siteMapNode>
+    <siteMapNode url="~/Customers/_All/InvoiceHistory.aspx" title="Invoices" roles="*" />
+    <siteMapNode url="~/Customers/_All/BOLs.aspx?2" title="Proof of Delivery" roles="*" />
+    <siteMapNode url="" title="Rail" roles="*">
+      <siteMapNode url="~/Customers/_All/TransitInv.aspx" title="In-Transit Inventory" />
+      <siteMapNode url="~/Customers/_All/TransitConsigned.aspx" title="In-Transit Inventory - Consigned" />
+      <siteMapNode url="~/Customers/_All/Rail.aspx?1" title="Rail Cars Pending - On Site - Released" />
+    </siteMapNode>
+    <siteMapNode url="" title="Stock Search" roles="*">
+      <siteMapNode url="Customers/_All/SearchInventoryAtFON.aspx" title="Search Item ID (Warehouse)" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
