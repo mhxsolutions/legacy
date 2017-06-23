@@ -18,7 +18,7 @@ namespace Scm.OpsCore.Data.NHibernate.Tests
         {
             // TODO: Move this stuff into configuration or something.
 
-            var factory = new NHibernateSessionFactory("SQL4", "DWS No Rep Data", "UnitTestUser", "19ZkV1e6Fto8QX");
+            var factory = new NHibernateSessionFactory("SQL2016", "DWS No Rep Data", "UnitTestUser", "19ZkV1e6Fto8QX");
             var session = factory.CreateSession();
             var crud = new NHibernateCrudData<BopsRfsBillingStatus>(session);
 
