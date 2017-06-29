@@ -68,6 +68,7 @@ namespace RFS_Invoice_Utility
 
         private static readonly ILog _Log = LogManager.GetLogger(typeof(RfsInvoiceUtilityMainForm));
         private bool _UiEnabled;
+        private SystemMenuHelper _systemMenu;
 
         // Permissions stuff.
 
@@ -144,6 +145,9 @@ namespace RFS_Invoice_Utility
             // Initialize the bootstrap kernel and services.
 
             Scm.OpsCore.Bootstrap.Bootstrap.Startup();
+
+            _systemMenu = new SystemMenuHelper(this);
+            _systemMenu.AddCommand("&About...", OnSysMenuAbout, true);
         }
 
         #endregion
@@ -4459,5 +4463,17 @@ namespace RFS_Invoice_Utility
             PopulateBillsToApprove(false);
             EnableUi(true);
         }
+
+        protected override void WndProc(ref Message msg)
+        {
+            base.WndProc(ref msg);
+            _systemMenu.HandleMessage(ref msg);
+        }
+
+        private void OnSysMenuAbout()
+        {
+           MessageHelper.ShowSuccess("About box hit!"); 
+        }
+
     }
 }

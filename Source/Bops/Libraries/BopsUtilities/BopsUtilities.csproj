@@ -106,6 +106,7 @@
     <Compile Include="PdfMerger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringRepresentationComparer.cs" />
+    <Compile Include="SystemMenuHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\SCM\OpsCore\Libraries\Scm.OpsCore.Legacy.DataLayer\Scm.OpsCore.Legacy.DataLayer.csproj">
