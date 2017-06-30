@@ -3983,7 +3983,11 @@ namespace RFS_Invoice_Utility
 
             // Ask the user for the invoice type, date, and notes (public and private).
 
-            var invoiceDetailsForm = new CreateInvoiceDetailsForm {UserCompanyDetails = UserCompanyDetails};
+            var invoiceDetailsForm = new CreateInvoiceDetailsForm
+            {
+                UserCompanyDetails = UserCompanyDetails,
+                InvoiceType = UserCompanyDetails.Company.InvoiceType
+            };
             if (invoiceDetailsForm.ShowDialog() != DialogResult.OK)
                 return;
 
@@ -4472,8 +4476,7 @@ namespace RFS_Invoice_Utility
 
         private void OnSysMenuAbout()
         {
-           MessageHelper.ShowSuccess("About box hit!"); 
+            MessageBox.Show(this, "RFS Invoice Utility v1.0.0", "RFS Invoice Utility");
         }
-
     }
 }
