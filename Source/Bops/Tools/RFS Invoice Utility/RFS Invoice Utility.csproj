@@ -592,6 +592,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Versions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Budway Logo 2.png" />
     <Content Include="PDF Assets\Budway East Logo.png" />
     <Content Include="PDF Assets\Invoice Budway Logo.png">

@@ -4476,7 +4476,7 @@ namespace RFS_Invoice_Utility
 
         private void OnSysMenuAbout()
         {
-            MessageBox.Show(this, "RFS Invoice Utility v1.0.0", "RFS Invoice Utility");
+            MessageBox.Show(this, "RFS Invoice Utility v1.0.1", "RFS Invoice Utility");
         }
     }
 }
