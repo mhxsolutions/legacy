@@ -1,5 +1,9 @@
 RFS Invoice Utility Versions
 
+1.0.2
+	Converted to Visual Studio 2017
+	Removed GL editing form entirely to get rid of FarPoint Spread use
+
 1.0.1
 	Changed MHX invoice payment terms to net 30 days
 
