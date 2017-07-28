@@ -1636,12 +1636,9 @@ namespace RFS_Invoice_Utility
                 var newForm = new CreateInvoiceDetailsForm
                 {
                     UserCompanyDetails = UserCompanyDetails,
-                    InvoiceType = UserCompanyDetails.Company.InvoiceType
+                    InvoiceType = UserCompanyDetails.Company.InvoiceType,
+                    InvoiceDate = DateTime.Today
                 };
-
-                var latestSelectedBillDate = GetLatestSelectedBillDate();
-                if (latestSelectedBillDate > DateTime.MinValue)
-                    newForm.InvoiceDate = latestSelectedBillDate;
 
                 if (newForm.ShowDialog() != DialogResult.OK) return;
 
@@ -1649,45 +1646,6 @@ namespace RFS_Invoice_Utility
                 CreateInvoice(newForm.InvoiceType, newForm.InvoiceDate, newForm.PublicNotes, newForm.PrivateNotes);
                 EnableUi(true);
             }
-        }
-
-        /// <summary>
-        /// Examines the items in the bills selected list view to determine the latest bill date.
-        /// </summary>
-        /// <returns>The latest bill date if successful or DateTime.MinValue in case of failure.</returns>
-        private DateTime GetLatestSelectedBillDate()
-        {
-            DateTime ReturnValue = DateTime.MinValue;
-
-            foreach (ListViewItem Item in BillsSelectedListview.Items)
-            {
-                BopsRfsBillDetail Bd = Item.Tag as BopsRfsBillDetail;
-                if (Bd == null) continue;
-
-                DateTime ItemDate = DateTime.MinValue;
-
-                if (Bd.ServiceResult.IsReceiver)
-                {
-                    if (Bd.Receiver.DateReceived.HasValue)
-                        ItemDate = Bd.Receiver.DateReceived.Value;
-                }
-                else if (Bd.ServiceResult.IsBillOfLading)
-                {
-                    if (Bd.Shipper.ShipmentDate.HasValue)
-                        ItemDate = Bd.Shipper.ShipmentDate.Value;
-                }
-                else
-                {
-                    Debug.Assert(Bd.ServiceResult.IsLoad);
-                    if (Bd.Load.LogOutDate.HasValue)
-                        ItemDate = Bd.Load.LogOutDate.Value;
-                }
-
-                if (ItemDate > ReturnValue)
-                    ReturnValue = ItemDate;
-            }
-
-            return ReturnValue;
         }
 
         private void ShowBillsToReviewButton_Click(object Sender, EventArgs E)
