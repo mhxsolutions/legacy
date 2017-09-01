@@ -5,7 +5,7 @@ namespace BopsDataAccess
     public class BopsScan
     {
         public int ScanId { get; set; }
-        public string LoadRef { get; set; }
+        public string DocScanned { get; set; }
         public int DocTypeRef { get; set; }
         /// <summary>
         /// The document file name.
@@ -22,6 +22,23 @@ namespace BopsDataAccess
         public DateTime? DateConfirmed { get; set; }
         public string ConfirmedBy { get; set; }
         public int RejectRef { get; set; }
+
+        // "Magic" numbers in the following boolean properties supplied by Dan H. 08/31/2017
+
+        public bool IsLoadScan
+        {
+            get { return DocTypeRef == 5 || DocTypeRef == 6 || DocTypeRef == 7; }
+        }
+
+        public bool IsReceiverScan
+        {
+            get { return DocTypeRef == 1; }
+        }
+
+        public bool IsBillOfLadingScan
+        {
+            get { return DocTypeRef == 2; }
+        }
 
         /// <summary>
         /// The correctly and fully qualified file name, which strips the Access hyperlink characters

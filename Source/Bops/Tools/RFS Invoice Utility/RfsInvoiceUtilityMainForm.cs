@@ -3380,15 +3380,15 @@ namespace RFS_Invoice_Utility
                 return;
             }
             
-            InvoiceDetails Id = InvoiceListview.SelectedItems[0].Tag as InvoiceDetails;
-            if (Id == null)
+            var id = InvoiceListview.SelectedItems[0].Tag as InvoiceDetails;
+            if (id == null)
             {
                 MessageHelper.ShowError("An internal error has occurred when trying to view invoice supporting documents. Please contact IT support.");
                 return;
             }
 
-            InvoiceSupportingDocumentsForm NewDialog = new InvoiceSupportingDocumentsForm(Id.Invoice.InvoiceId);
-            NewDialog.ShowDialog();
+            var newDialog = new InvoiceSupportingDocumentsForm(id.Invoice.InvoiceId);
+            newDialog.ShowDialog();
         }
 
         private void hideUnhideFromClientsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -4434,7 +4434,7 @@ namespace RFS_Invoice_Utility
 
         private void OnSysMenuAbout()
         {
-            MessageBox.Show(this, "RFS Invoice Utility v1.0.2", "RFS Invoice Utility");
+            MessageBox.Show(this, "RFS Invoice Utility v1.1.0", "RFS Invoice Utility");
         }
     }
 }

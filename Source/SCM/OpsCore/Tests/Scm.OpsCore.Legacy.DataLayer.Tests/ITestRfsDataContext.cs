@@ -86,5 +86,6 @@
         void TestGetFuelSurcharge(IRfsDataContext context);
         void TestGetFuelSurchargeById(IRfsDataContext context);
         void TestGetScansByDocumentIdsSignedAndReject(IRfsDataContext context);
+        void TestGetInvoiceSupportingDocuments(IRfsDataContext context);
     }
 }

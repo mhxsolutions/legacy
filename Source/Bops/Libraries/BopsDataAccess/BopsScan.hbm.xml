@@ -4,7 +4,7 @@
     <id name="ScanId" column="[POD Index]" unsaved-value="0">
       <generator class="identity" />
     </id>
-    <property name="LoadRef" column="[DOC Scanned]" />
+    <property name="DocScanned" column="[DOC Scanned]" />
     <property name="DocTypeRef" column="[DOC Type Ref]" />
     <property name="FileName" column="[POD File]" />
     <property name="Folder" column="[POD Path]" />

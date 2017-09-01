@@ -786,5 +786,12 @@ namespace Scm.OpsCore.Legacy.NHibernate.Tests
         {
             _tester.TestGetScansByDocumentIdsSignedAndReject(_context);
         }
+
+        [Test]
+        [Category("DatabaseRequired")]
+        public void TestGetInvoiceSupportingDocuments()
+        {
+            _tester.TestGetInvoiceSupportingDocuments(_context);
+        }
     }
 }

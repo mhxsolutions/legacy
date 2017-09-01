@@ -510,6 +510,8 @@ namespace Scm.OpsCore.Legacy.DataLayer
 
         IList<BopsScan> GetScansByDocumentIdsSignedAndReject(string[] loadRefs, bool isSigned, int rejectRef);
 
+        IList<BopsScan> GetInvoiceSupportingDocuments(int invoiceId);
+        
         IList<BopsRfsStakeholderClientMapping> GetStakeholderClientMappingsByRfsId(int rfsId);
 
         IList<BopsRfsStakeholderClientMappingDetail> GetStakeholderClientMappingsByIdAndOriginOrDestinationRole(int mappingId);

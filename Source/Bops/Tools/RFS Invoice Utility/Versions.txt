@@ -1,5 +1,9 @@
 RFS Invoice Utility Versions
 
+1.1.0
+	Reworked invoice supporting docs dialog to use new methods
+	Added new data layer method to retrieve invoice supporting docs
+
 1.0.2
 	Changed invoice creation to use the current date as the default invoice date
 	Removed GL editing form entirely to get rid of FarPoint Spread use

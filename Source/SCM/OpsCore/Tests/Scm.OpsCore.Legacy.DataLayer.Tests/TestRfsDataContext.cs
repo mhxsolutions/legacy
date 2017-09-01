@@ -1243,8 +1243,28 @@ namespace Scm.OpsCore.Legacy.DataLayer.Tests
 
             foreach (var scan in scans)
             {
-                Console.WriteLine("ScanId = {0}, LoadRef = {1}, DocTypeRef = {2}, FileName = {3}",
-                    scan.ScanId, scan.LoadRef, scan.DocTypeRef, scan.FileName);
+                Console.WriteLine("ScanId = {0}, DocScanned = {1}, DocTypeRef = {2}, FileName = {3}",
+                    scan.ScanId, scan.DocScanned, scan.DocTypeRef, scan.FileName);
+            }
+        }
+
+        public void TestGetInvoiceSupportingDocuments(IRfsDataContext context)
+        {
+            // This invoice was selected by finding invoices with lots of lines and looking
+            // at their contents.
+
+            //var invoiceId = 258295;
+            //var invoiceId = 252025;
+            var invoiceId = 446902;
+
+            var scans = context.GetInvoiceSupportingDocuments(invoiceId);
+            Assert.IsNotNull(scans);
+            Assert.Greater(scans.Count, 0);
+
+            foreach (var scan in scans)
+            {
+                Console.WriteLine("ScanId = {0}, DocScanned = {1}, DocTypeRef = {2}, FileName = {3}",
+                    scan.ScanId, scan.DocScanned, scan.DocTypeRef, scan.FileName);
             }
         }
     }

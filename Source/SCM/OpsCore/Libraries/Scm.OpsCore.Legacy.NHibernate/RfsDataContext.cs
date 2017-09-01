@@ -900,8 +900,55 @@ namespace Scm.OpsCore.Legacy.NHibernate
             var documentIds = loadRefs.ToList();
             var query = from s in _dwsNoRepData.Query<BopsScan>()
                         join m in _dwsNoRepData.Query<BopsScanMax>() on s.ScanId equals m.ScanId
-                        where documentIds.Contains(s.LoadRef) && s.Signed && (s.RejectRef == 0)
+                        where documentIds.Contains(s.DocScanned) && s.Signed && (s.RejectRef == 0)
                         select s;
+            return query.ToList();
+        }
+
+        /// <inheritdoc/>
+        public IList<BopsScan> GetInvoiceSupportingDocuments(int invoiceId)
+        {
+            // Get the invoice details and return failure if none are found.
+
+            var invoiceDetails = _dwsNoRepData.CreateCriteria((typeof(BopsRfsInvoiceDetail)))
+                .Add(Restrictions.Eq("InvoiceRef", invoiceId))
+                .List<BopsRfsInvoiceDetail>();
+            if (invoiceDetails.Count < 1)
+                return null;
+
+            // Next, we need to get the service calculation results for the invoice details.
+
+            var idCount = 0;
+            var resultIds = new int[invoiceDetails.Count];
+            foreach (var detail in invoiceDetails)
+            {
+                if (detail.IsServiceBill)
+                    resultIds[idCount++] = detail.ServiceCalculationResultRef.Value;
+            }
+            if (idCount <= 0) return null;
+            if (idCount != resultIds.Length)
+                Array.Resize(ref resultIds, idCount);
+            var serviceResults = NHibernateDataUtilities.GetObjectsByIds<BopsRfsServiceCalculationResult, int>(_dwsNoRepData, resultIds, "ResultId");
+
+            /*
+             * According to Dan H. as of 08/31/2017, what matters for retrieving the loads is that they're signed
+             * and not rejected, whereas what matters for the warehouse is that they're of the right type and
+             * not rejected. We work those criteria into a somewhat complicated where clause in the LINQ below
+             * and hit the database just once to get all the relevant scans.
+             */
+
+            var warehouseIds = (from result in serviceResults
+                                where (result.IsReceiver || result.IsBillOfLading)
+                                select result.DocumentId.Value.ToString()).ToList();
+            var loadRefs = (from result in serviceResults where result.IsLoad select result.LoadRef).ToList();
+
+            var query = from s in _dwsNoRepData.Query<BopsScan>()
+                join m in _dwsNoRepData.Query<BopsScanMax>() on s.ScanId equals m.ScanId
+                where 
+                    (loadRefs.Contains(s.DocScanned) && s.Signed && (s.RejectRef == 0)) ||
+                    (warehouseIds.Contains(s.DocScanned) && (s.DocTypeRef == 1 || s.DocTypeRef == 2) && (s.RejectRef == 0))
+                select s;
+
             return query.ToList();
         }
 

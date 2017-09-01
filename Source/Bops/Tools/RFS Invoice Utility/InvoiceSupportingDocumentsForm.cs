@@ -33,97 +33,35 @@ namespace RFS_Invoice_Utility
 
         private void InvoiceSupportingDocumentsForm_Load(object sender, EventArgs e)
         {
-            Text = string.Format("Invoice {0} Supporting Documents", _invoiceId);
-
+            Text = $"Invoice {_invoiceId} Supporting Documents";
             PopulateSupportingDocumentsListview();
         }
 
-        private void CacheServiceCalculationResults(IRfsDataContext rfsDataContext)
+        private void AddRowToListview(BopsScan scan)
         {
-            var details = rfsDataContext.GetInvoiceDetailsByInvoiceId(_invoiceId);
+            string typeString;
+            if (scan.IsReceiverScan)
+                typeString = "Receiver";
+            else if (scan.IsBillOfLadingScan)
+                typeString = "BOL";
+            else
+                typeString = "Load";
 
-            var idCount = 0;
-            var resultIds = new int[details.Count];
-            foreach (var detail in details)
+            var newItem = new ListViewItem(typeString);
+
+            newItem.SubItems.Add(scan.DocScanned);
+
+            if (File.Exists(scan.CombinedFileName))
             {
-                if (detail.IsServiceBill)
-                    resultIds[idCount++] = detail.ServiceCalculationResultRef.Value;
-            }
-
-            if (idCount <= 0) return;
-
-            if (idCount != resultIds.Length)
-                Array.Resize(ref resultIds, idCount);
-
-            _results = rfsDataContext.GetServiceCalculationResultsByIds(resultIds);
-        }
-
-        IList<BopsScan> GetCalculationResultPodScans(IRfsDataContext rfsDataContext)
-        {
-            if (_results != null)
-            {
-                var loadCount = 0;
-                var loadRefs = new string[_results.Count];
-                foreach (var result in _results)
-                {
-                    if (result.IsLoad)
-                        loadRefs[loadCount++] = result.LoadRef;
-                }
-
-                if (loadCount > 0)
-                {
-                    var scans = rfsDataContext.GetScansByDocumentIdsSignedAndReject(loadRefs, true, 0);
-
-                    // Sadly, the process that records the scans in the database often provides multiple
-                    // records for the same PDF file. As such, we need to filter the list. It's completely
-                    // arbitrary which records get pruned, but it's better than dying like Buridan's ass.
-
-                    var lookup = new Dictionary<string, BopsScan>();
-
-                    foreach (var scan in scans)
-                    {
-                        if (!lookup.ContainsKey(scan.CombinedFileName))
-                            lookup.Add(scan.CombinedFileName, scan);
-                    }
-
-                    return new List<BopsScan>(lookup.Values);
-                }
-            }
-
-            return null;
-        }
-
-        private void AddRowToListview(BopsRfsServiceCalculationResult result, BopsScan scan)
-        {
-            if (!result.IsLoad) return;
-
-            var newItem = new ListViewItem("Load");
-            newItem.SubItems.Add(result.LoadRef);
-
-            if (scan != null)
-            {
-                newItem.SubItems.Add("POD");
-
-                if (File.Exists(scan.CombinedFileName))
-                {
-                    newItem.SubItems.Add(scan.FileName);
-                    newItem.Tag = scan;
-                }
-                else
-                {
-                    newItem.SubItems.Add(string.Format("File not found: {0}", scan.FileName));
-                    newItem.BackColor = Color.LightCoral;
-                    newItem.Tag = null;
-                    _filesNotFound++;
-                }
+                newItem.SubItems.Add(scan.FileName);
+                newItem.Tag = scan;
             }
             else
             {
-                newItem.SubItems.Add("No document found");
-                newItem.SubItems.Add("N/A");
-                newItem.BackColor = Color.Yellow;
+                newItem.SubItems.Add(string.Format("File not found: {0}", scan.FileName));
+                newItem.BackColor = Color.LightCoral;
                 newItem.Tag = null;
-                _resultsWithoutDocuments++;
+                _filesNotFound++;
             }
 
             SupportingDocumentsListview.Items.Add(newItem);
@@ -135,12 +73,11 @@ namespace RFS_Invoice_Utility
             //
             //  0   Billing Document Type
             //  1   Billing Document ID
-            //  2   Document Type
-            //  3   Document File Name
+            //  2   Document File Name
 
             _filesNotFound = 0;
             _resultsWithoutDocuments = 0;
-            _documentsCompareFactory = new ListViewComparerFactory(4);
+            _documentsCompareFactory = new ListViewComparerFactory(3);
 
             // Initialize the data context by retrieving the relevant interface through the kernel.
 
@@ -148,32 +85,14 @@ namespace RFS_Invoice_Utility
 
             try
             {
-                CacheServiceCalculationResults(rfsDataContext);
-                var podScans = GetCalculationResultPodScans(rfsDataContext);
+                var scans = rfsDataContext.GetInvoiceSupportingDocuments(_invoiceId);
 
                 SupportingDocumentsListview.Items.Clear();
                 SupportingDocumentsListview.SuspendLayout();
 
-                foreach (var result in _results)
+                foreach (var scan in scans)
                 {
-                    if (!result.IsLoad) continue;
-
-                    var matchingScans = new List<BopsScan>();
-                    foreach (var scan in podScans)
-                    {
-                        if (String.Compare(result.LoadRef, scan.LoadRef, System.StringComparison.OrdinalIgnoreCase) == 0)
-                            matchingScans.Add(scan);
-                    }
-
-                    if (matchingScans.Count > 0)
-                    {
-                        foreach (var scan in matchingScans)
-                            AddRowToListview(result, scan);
-                    }
-                    else
-                    {
-                        AddRowToListview(result, null);
-                    }
+                    AddRowToListview(scan);
                 }
 
                 foreach (ColumnHeader hdr in SupportingDocumentsListview.Columns)

@@ -573,6 +573,11 @@ namespace ScmOpsCore.Legacy.EntityFramework
             throw new NotImplementedException();
         }
 
+        public IList<BopsScan> GetInvoiceSupportingDocuments(int invoiceId)
+        {
+            throw new NotImplementedException();
+        }
+
         /// <inheritdoc/>
         public IList<BopsRfsStakeholderClientMapping> GetStakeholderClientMappingsByRfsId(int rfsId)
         {

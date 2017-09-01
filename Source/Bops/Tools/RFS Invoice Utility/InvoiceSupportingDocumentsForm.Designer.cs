@@ -30,10 +30,9 @@ namespace RFS_Invoice_Utility
         {
             this.label1 = new System.Windows.Forms.Label();
             this.SupportingDocumentsListview = new System.Windows.Forms.ListView();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.CloseButton = new System.Windows.Forms.Button();
             this.OpenMergedButton = new System.Windows.Forms.Button();
             this.OpenSelectedButton = new System.Windows.Forms.Button();
@@ -47,17 +46,16 @@ namespace RFS_Invoice_Utility
             this.label1.Size = new System.Drawing.Size(472, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Supporting Documents (yellow means no document, red has a document but the file d" +
-                "oes not exist)";
+    "oes not exist)";
             // 
             // SupportingDocumentsListview
             // 
-            this.SupportingDocumentsListview.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.SupportingDocumentsListview.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.SupportingDocumentsListview.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
-            this.columnHeader3,
             this.columnHeader4});
             this.SupportingDocumentsListview.FullRowSelect = true;
             this.SupportingDocumentsListview.Location = new System.Drawing.Point(16, 30);
@@ -75,10 +73,6 @@ namespace RFS_Invoice_Utility
             // columnHeader2
             // 
             this.columnHeader2.Text = "Bill ID";
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Document";
             // 
             // columnHeader4
             // 
@@ -142,7 +136,6 @@ namespace RFS_Invoice_Utility
         private System.Windows.Forms.ListView SupportingDocumentsListview;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.Button CloseButton;
         private System.Windows.Forms.Button OpenMergedButton;
