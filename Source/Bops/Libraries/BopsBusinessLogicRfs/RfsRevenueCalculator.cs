@@ -64,6 +64,7 @@ namespace BopsBusinessLogicRfs
     {
         private const int OriginRole = 3;
         private const int DestinationRole = 4;
+        private const double PoundsPerMetricTon = 2204.62262;
 
         private static readonly ILog Log = LogManager.GetLogger(typeof(RfsRevenueCalculator));
 
@@ -311,9 +312,10 @@ namespace BopsBusinessLogicRfs
 
             string weightDetails = null;
 
-            if (costMethodUnit == RfsCostMethodUnits.Pound 
-                || costMethodUnit == RfsCostMethodUnits.CWT 
-                || costMethodUnit == RfsCostMethodUnits.Ton)
+            if (costMethodUnit == RfsCostMethodUnits.Pound ||
+                costMethodUnit == RfsCostMethodUnits.CWT ||
+                costMethodUnit == RfsCostMethodUnits.Ton ||
+                costMethodUnit == RfsCostMethodUnits.MetricTon)
             {
                 if (load.PickUpRequestRef != 0)
                 {
@@ -355,19 +357,21 @@ namespace BopsBusinessLogicRfs
 
                 if (returnValue.Weight > 0)
                 {
+                    Debug.Assert(rate.Cost.HasValue);
+
                     switch (costMethodUnit)
                     {
                         case RfsCostMethodUnits.Pound:
-                            Debug.Assert(rate.Cost.HasValue);
                             returnValue.Revenue = returnValue.Weight * rate.Cost.Value;
                             break;
                         case RfsCostMethodUnits.CWT:
-                            Debug.Assert(rate.Cost.HasValue);
                             returnValue.Revenue = (returnValue.Weight / 100) * rate.Cost.Value;
                             break;
                         case RfsCostMethodUnits.Ton:
-                            Debug.Assert(rate.Cost.HasValue);
                             returnValue.Revenue = (returnValue.Weight / 2000) * rate.Cost.Value;
+                            break;
+                        case RfsCostMethodUnits.MetricTon:
+                            returnValue.Revenue = (returnValue.Weight / PoundsPerMetricTon) * rate.Cost.Value;
                             break;
                     }
 
@@ -422,27 +426,30 @@ namespace BopsBusinessLogicRfs
                 return returnValue;
             }
 
-            if (costMethodUnit == RfsCostMethodUnits.Pound 
-                || costMethodUnit == RfsCostMethodUnits.CWT 
-                || costMethodUnit == RfsCostMethodUnits.Ton)
+            if (costMethodUnit == RfsCostMethodUnits.Pound ||
+                costMethodUnit == RfsCostMethodUnits.CWT ||
+                costMethodUnit == RfsCostMethodUnits.Ton ||
+                costMethodUnit == RfsCostMethodUnits.MetricTon)
             {
                 returnValue.Weight = CalculateWarehouseWeightInPounds(document);
 
                 if (returnValue.Weight > 0)
                 {
+                    Debug.Assert(rate.Cost.HasValue);
+
                     switch ((RfsCostMethodUnits)rate.UnitRef.Value)
                     {
                         case RfsCostMethodUnits.Pound:
-                            Debug.Assert(rate.Cost.HasValue);
                             returnValue.Revenue = returnValue.Weight * rate.Cost.Value;
                             break;
                         case RfsCostMethodUnits.CWT:
-                            Debug.Assert(rate.Cost.HasValue);
                             returnValue.Revenue = (returnValue.Weight / 100) * rate.Cost.Value;
                             break;
                         case RfsCostMethodUnits.Ton:
-                            Debug.Assert(rate.Cost.HasValue);
                             returnValue.Revenue = (returnValue.Weight / 2000) * rate.Cost.Value;
+                            break;
+                        case RfsCostMethodUnits.MetricTon:
+                            returnValue.Revenue = (returnValue.Weight / PoundsPerMetricTon) * rate.Cost.Value;
                             break;
                     }
 

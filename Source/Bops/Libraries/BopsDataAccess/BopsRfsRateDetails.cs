@@ -11,7 +11,15 @@ namespace BopsDataAccess
         CWT,
         Ton,
         Mile,
-        PercentOfTransportation
+        PercentOfTransportation,
+        Each,
+        Pallet,
+        Unit,
+        Kilo,
+        MetricTon,
+        PoundGross,
+        PoundEst,
+        PoundNet
     }
 
     public enum RfsServiceCategories
