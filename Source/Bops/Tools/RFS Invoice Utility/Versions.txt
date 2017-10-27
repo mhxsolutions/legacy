@@ -1,5 +1,8 @@
 RFS Invoice Utility Versions
 
+1.1.2
+	Limited the invoice detail group name box to its proper size (200 characters).
+
 1.1.1
 	Added metric tons to the RFS per-unit calculations for loads, receivers, and BOLs.
 

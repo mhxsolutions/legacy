@@ -5,31 +5,30 @@ namespace RFS_Invoice_Utility
 {
     public partial class GroupPromptForm : Form
     {
-        private string _GroupName;
+        private const int MaxGroupNameLength = 200;
 
-        public string GroupName
-        {
-            get { return _GroupName; }
-            set { _GroupName = value; }
-        }
+        public string GroupName { get; set; }
 
-        public GroupPromptForm(IEnumerable<string> ExistingGroupNames, string StartingGroupName)
+        public GroupPromptForm(IEnumerable<string> existingGroupNames, string startingGroupName)
         {
             InitializeComponent();
 
-            if (ExistingGroupNames != null)
-                foreach (string s in ExistingGroupNames)
+            if (existingGroupNames != null)
+                foreach (string s in existingGroupNames)
                     GroupNameCombobox.Items.Add(s);
 
-            if (StartingGroupName != null)
-                GroupNameCombobox.Text = StartingGroupName;
+            if (startingGroupName != null)
+                GroupNameCombobox.Text = startingGroupName;
 
             DataBindings.Add("GroupName", GroupNameCombobox, "Text");
         }
 
         private void OkButton_Click(object sender, System.EventArgs e)
         {
-            DialogResult = System.Windows.Forms.DialogResult.OK;
+            if (GroupName.Length > MaxGroupNameLength)
+                MessageBox.Show("Name cannot be longer than 200 characters.", "Invalid Data", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else
+                DialogResult = DialogResult.OK;
         }
 
         // This handler is necessary because the combo box doesn't properly trigger the values
@@ -40,7 +39,7 @@ namespace RFS_Invoice_Utility
             if (e.KeyCode == Keys.Enter)
                 OkButton_Click(sender, null);
             else if (e.KeyCode == Keys.Escape)
-                DialogResult = System.Windows.Forms.DialogResult.Cancel;
+                DialogResult = DialogResult.Cancel;
         }
     }
 }
