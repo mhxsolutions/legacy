@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -7,9 +6,6 @@ using System.Text;
 using BopsDataAccess;
 using BopsUtilities;
 using log4net;
-using NHibernate;
-using NHibernate.Criterion;
-using NHibernateUtilities;
 using Scm.OpsCore.Legacy.DataLayer;
 
 namespace BopsBusinessLogicRfs
@@ -691,7 +687,8 @@ namespace BopsBusinessLogicRfs
             var inventoryIds = new int[details.Count];
             foreach (var detail in details)
                 inventoryIds[index++] = detail.InventoryRef;
-            var inventoryTracking = rfsDataContext.GetStorageBillingInventoryTrackingsByIds(inventoryIds);
+            var inventoryTracking = rfsDataContext.GetStorageBillingInventoryTrackingsByIds(inventoryIds)
+                .ToDictionary(t => t.InventoryRef, t => t);
 
             if (inventoryTracking.Count != inventoryIds.Length)
             {
@@ -794,9 +791,9 @@ namespace BopsBusinessLogicRfs
 
                 rfsDataContext.SaveChanges();
             }
-            catch (Exception E)
+            catch (Exception e)
             {
-                Log.Error("An exception ocurred while rolling back the last storage billing.", E);
+                Log.Error("An exception ocurred while rolling back the last storage billing.", e);
             }
 
             return true;

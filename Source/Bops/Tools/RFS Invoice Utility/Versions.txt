@@ -1,5 +1,8 @@
 RFS Invoice Utility Versions
 
+1.1.3
+	Fixed a minor issue preventing storage billing rollback from working.
+
 1.1.2
 	Limited the invoice detail group name box to its proper size (200 characters).
 
