@@ -1791,7 +1791,7 @@ namespace RFS_Invoice_Utility
             }
             catch (Exception ex)
             {
-                _Log.ErrorFormat("An exception occurred. Details follow.", ex);
+                _Log.Error("An exception occurred. Details follow.", ex);
                 success = false;
             }
             finally
@@ -2590,7 +2590,7 @@ namespace RFS_Invoice_Utility
             }
             catch (Exception e1)
             {
-                _Log.ErrorFormat("An exception occurred while unapproving a bill. Details follow.", e1);
+                _Log.Error("An exception occurred while unapproving a bill. Details follow.", e1);
             }
             finally
             {
@@ -2998,7 +2998,7 @@ namespace RFS_Invoice_Utility
             }
             catch (Exception e1)
             {
-                _Log.ErrorFormat("An exception occurred while unapproving an invoice detail line. Details follow.", e1);
+                _Log.Error("An exception occurred while unapproving an invoice detail line. Details follow.", e1);
             }
             finally
             {
