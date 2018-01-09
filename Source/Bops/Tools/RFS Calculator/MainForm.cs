@@ -334,6 +334,11 @@ namespace RFS_Calculator
                     _Log.Info(rfsLoadRevenueCalculationResult);
                     revenueCalculator.CleanInvalidRevenueResults();
                 }
+                catch (Exception e)
+                {
+                    MessageHelper.ShowError("An exception occurred calculating selected loads. Check the log for details.");
+                    _Log.Error("An exception occurred calculating selected loads. Details follow.", e);
+                }
                 finally
                 {
                     // TODO: free the RFS data context
@@ -407,9 +412,15 @@ namespace RFS_Calculator
             {
                 var revenueCalculator = RfsFactory.GetRfsRevenueCalculator(rfsDataContext, null);
                 revenueCalculator.PrecacheRfsData();
-                var rfsLoadRevenueCalculationResult = revenueCalculator.CalculateLoadRevenue(BeginDate.Value, EndDate.Value);
+                var rfsLoadRevenueCalculationResult =
+                    revenueCalculator.CalculateLoadRevenue(BeginDate.Value, EndDate.Value);
                 _Log.Info(rfsLoadRevenueCalculationResult);
                 revenueCalculator.CleanInvalidRevenueResults();
+            }
+            catch (Exception e)
+            {
+                MessageHelper.ShowError("An exception occurred calculating all loads. Check the log for details.");
+                _Log.Error("An exception occurred calculating all loads. Details follow.", e);
             }
             finally
             {
@@ -491,13 +502,12 @@ namespace RFS_Calculator
             // Initialize the data context by retrieving the relevant interface through the kernel.
 
             var rfsDataContext = Scm.OpsCore.Bootstrap.Bootstrap.Kernel.Get<IRfsDataContext>();
+            EnableInterface(false);
 
             try
             {
                 if (WarehouseListview.SelectedItems.Count > 0)
                 {
-                    EnableInterface(false);
-
                     var documents = new List<WarehouseCalculationInputs>();
 
                     foreach (ListViewItem item in WarehouseListview.SelectedItems)
@@ -548,16 +558,20 @@ namespace RFS_Calculator
                     calculator.CalculateWarehouseRevenue(documents, result);
                     _Log.Info(result);
                     calculator.CleanInvalidRevenueResults();
-
-                    StatusProgress.Visible = false;
-                    statusStrip1.Update();
-                    EnableInterface(true);
                 }
-
+            }
+            catch (Exception e)
+            {
+                MessageHelper.ShowError("An exception occurred calculating selected warehouse. Check the log for details.");
+                _Log.Error("An exception occurred calculating selected warehouse. Details follow.", e);
             }
             finally
             {
                 // TODO: free the RFS data context
+
+                StatusProgress.Visible = false;
+                statusStrip1.Update();
+                EnableInterface(true);
             }
         }
 
@@ -576,6 +590,11 @@ namespace RFS_Calculator
                 var revenueCalculationResult = revenueCalculator.CalculateWarehouseRevenue(BeginDate.Value, EndDate.Value);
                 _Log.Info(revenueCalculationResult);
                 revenueCalculator.CleanInvalidRevenueResults();
+            }
+            catch (Exception e)
+            {
+                MessageHelper.ShowError("An exception occurred calculating all warehouse. Check the log for details.");
+                _Log.Error("An exception occurred calculating all warehouse. Details follow.", e);
             }
             finally
             {
