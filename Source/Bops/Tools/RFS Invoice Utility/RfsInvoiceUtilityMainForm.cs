@@ -2865,8 +2865,7 @@ namespace RFS_Invoice_Utility
             catch (Exception e1)
             {
                 success = false;
-                _Log.ErrorFormat("An exception occurred while marking invoice(s) ready for review. Details follow.");
-                _Log.Error(e1);
+                _Log.Error("An exception occurred while marking invoice(s) ready for review. Details follow.", e1);
             }
             finally
             {

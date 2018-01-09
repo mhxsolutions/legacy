@@ -340,10 +340,10 @@ namespace BopsBusinessLogicRfs
 
                 return returnValue;
             }
-            catch (Exception E)
+            catch (Exception e)
             {
                 _Log.ErrorFormat("An exception occurred creating invoices from storage billing {0}. Details follow.", billingId);
-                _Log.Error(E);
+                _Log.Error(e);
                 return null;
             }
         }

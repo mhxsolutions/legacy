@@ -648,9 +648,9 @@ namespace BopsBusinessLogicRfs
 
                 return returnValue;
             }
-            catch (Exception E)
+            catch (Exception e)
             {
-                Log.ErrorFormat("An exception occurred while calculating storage billing. Details follow.", E);
+                Log.Error("An exception occurred while calculating storage billing. Details follow.", e);
             }
             finally
             {
@@ -731,7 +731,7 @@ namespace BopsBusinessLogicRfs
 
             if (details == null)
             {
-                Log.ErrorFormat("No storage billing details supplied .");
+                Log.Error("No storage billing details supplied.");
                 return false;
             }
 
