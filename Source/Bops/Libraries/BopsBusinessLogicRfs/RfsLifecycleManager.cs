@@ -1,12 +1,15 @@
 using System;
 using System.Text;
 using BopsDataAccess;
+using log4net;
 using Scm.OpsCore.Legacy.DataLayer;
 
 namespace BopsBusinessLogicRfs
 {
     public class RfsLifecycleManager : IRfsLifecycleManager
     {
+        private static readonly ILog Log = LogManager.GetLogger(typeof(RfsLifecycleManager));
+
         public string ReassignLoadRfs(string loadReference, int newRfs)
         {
             var errors = new StringBuilder();
@@ -60,7 +63,8 @@ namespace BopsBusinessLogicRfs
             }
             catch (Exception e)
             {
-                // TODO: log the error
+                Log.ErrorFormat("An exception occurred while reassigning load {0} to RFS {1}. Details follow.", loadReference, newRfs);
+                Log.Error(e);
             }
             finally
             {
@@ -123,7 +127,9 @@ namespace BopsBusinessLogicRfs
             }
             catch (Exception e)
             {
-                // TODO: log the error
+                Log.ErrorFormat("An exception occurred while reassigning receiver {0} to RFS {1}. Details follow.", receiverId, newRfs);
+                Log.Error(e);
+
             }
             finally
             {
@@ -186,7 +192,9 @@ namespace BopsBusinessLogicRfs
             }
             catch (Exception e)
             {
-                // TODO: log the error
+                Log.ErrorFormat("An exception occurred while reassigning shipper {0} to RFS {1}. Details follow.", shipperId, newRfs);
+                Log.Error(e);
+
             }
             finally
             {
