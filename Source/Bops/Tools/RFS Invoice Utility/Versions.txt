@@ -1,5 +1,9 @@
 RFS Invoice Utility Versions
 
+1.1.4
+	Added support to storage billing for metric tons as a unit.
+	Fixed a bug that would allow negative storage billing revenue calculations.
+
 1.1.3
 	Fixed a minor issue preventing storage billing rollback from working.
 
