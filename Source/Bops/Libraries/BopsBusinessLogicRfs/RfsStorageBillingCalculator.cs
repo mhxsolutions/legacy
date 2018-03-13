@@ -164,6 +164,8 @@ namespace BopsBusinessLogicRfs
 
         #endregion
 
+        private const double PoundsPerMetricTon = 2204.62262;
+
         private static readonly ILog Log = LogManager.GetLogger(typeof(RfsStorageBillingCalculator));
 
         private Dictionary<int, BopsRfsStorageRate> _rateMap;
@@ -312,26 +314,24 @@ namespace BopsBusinessLogicRfs
         /// </summary>
         /// <param name="pounds">The value in pounds to be converted.</param>
         /// <param name="unitRef">The unit reference, which corresponds to values in [DWS No Rep Data].dbo.[sys Units of Measure].</param>
-        /// <returns>The weight converted to the new unit if successful or -1 in case of failure.</returns>
+        /// <returns>The weight converted to the new unit if successful or throws an exception in case of failure.</returns>
         private static double ConvertPoundsToWeightUnit(double pounds, int unitRef)
         {
-            double returnValue = -1;
             var costMethodUnit = (RfsCostMethodUnits)unitRef;
 
             switch (costMethodUnit)
             {
                 case RfsCostMethodUnits.Pound:
-                    returnValue = pounds;
-                    break;
+                    return pounds;
                 case RfsCostMethodUnits.CWT:
-                    returnValue = pounds / 100;
-                    break;
+                    return pounds / 100;
                 case RfsCostMethodUnits.Ton:
-                    returnValue = pounds / 2000;
-                    break;
+                    return pounds / 2000;
+                case RfsCostMethodUnits.MetricTon:
+                    return pounds / PoundsPerMetricTon;
             }
 
-            return returnValue;
+            throw new Exception($"Storage billing calculations support pounds, CWT, tons, and metric tons, {costMethodUnit} is an invalid unit.");
         }
 
         // The preliminary data now available, the following switch statement handles the specifics of the
