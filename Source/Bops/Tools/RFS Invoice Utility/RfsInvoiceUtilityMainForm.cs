@@ -1197,11 +1197,6 @@ namespace RFS_Invoice_Utility
             if (e == null) throw new ArgumentNullException();
             _Log.Info("RFS Invoice Utility form loading.");
 
-            // Make the picture box the parent of the login label to make proper transparency work.
-
-            loginLabel.Parent = pictureBox1;
-            loginLabel.BackColor = Color.Transparent;
-
             // Read application settings.
 
             var showInvoiceSetting = ConfigurationManager.AppSettings["ShowInvoiceAfterFinalize"];
@@ -4433,7 +4428,7 @@ namespace RFS_Invoice_Utility
 
         private void OnSysMenuAbout()
         {
-            MessageBox.Show(this, "RFS Invoice Utility v1.1.4", "RFS Invoice Utility");
+            MessageBox.Show(this, "RFS Invoice Utility v1.1.5", "RFS Invoice Utility");
         }
     }
 }

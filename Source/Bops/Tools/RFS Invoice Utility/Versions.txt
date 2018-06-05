@@ -1,5 +1,10 @@
 RFS Invoice Utility Versions
 
+1.1.5
+	Removed the Budway logo entirely at Dan H.'s request. Moved the investigation
+	controls around a bit for better use of screen space. Corrected the login
+	dialog's tab order and made the OK button the form's default.
+
 1.1.4
 	Added support to storage billing for metric tons as a unit.
 	Fixed a bug that would allow negative storage billing revenue calculations.
