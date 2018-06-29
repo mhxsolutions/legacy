@@ -1,5 +1,9 @@
 RFS Invoice Utility Versions
 
+1.2.0
+	Added support for tracking Windows user IDs who create and finalize invoices
+	Added a new form to let users examine the create/finalize user IDs for invoices
+
 1.1.5
 	Removed the Budway logo entirely at Dan H.'s request. Moved the investigation
 	controls around a bit for better use of screen space. Corrected the login

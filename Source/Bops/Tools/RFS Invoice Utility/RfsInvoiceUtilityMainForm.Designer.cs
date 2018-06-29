@@ -233,6 +233,7 @@ namespace RFS_Invoice_Utility
             this.label19 = new System.Windows.Forms.Label();
             this.loginLabel = new System.Windows.Forms.Label();
             this.changeLoginButton = new System.Windows.Forms.Button();
+            this.userDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MainTabControl.SuspendLayout();
             this.ReviewPage.SuspendLayout();
             this.ReviewDatesContextmenu.SuspendLayout();
@@ -584,7 +585,7 @@ namespace RFS_Invoice_Utility
             this.CreateInvoicePage.Location = new System.Drawing.Point(4, 22);
             this.CreateInvoicePage.Name = "CreateInvoicePage";
             this.CreateInvoicePage.Padding = new System.Windows.Forms.Padding(3);
-            this.CreateInvoicePage.Size = new System.Drawing.Size(978, 580);
+            this.CreateInvoicePage.Size = new System.Drawing.Size(978, 597);
             this.CreateInvoicePage.TabIndex = 1;
             this.CreateInvoicePage.Text = "Create Invoice";
             this.CreateInvoicePage.UseVisualStyleBackColor = true;
@@ -601,7 +602,7 @@ namespace RFS_Invoice_Utility
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(972, 574);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(972, 591);
             this.tableLayoutPanel1.TabIndex = 23;
             // 
             // panel1
@@ -626,7 +627,7 @@ namespace RFS_Invoice_Utility
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(966, 338);
+            this.panel1.Size = new System.Drawing.Size(966, 348);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -740,7 +741,7 @@ namespace RFS_Invoice_Utility
             // ShowAvailableBillDetails
             // 
             this.ShowAvailableBillDetails.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.ShowAvailableBillDetails.Location = new System.Drawing.Point(3, 312);
+            this.ShowAvailableBillDetails.Location = new System.Drawing.Point(3, 322);
             this.ShowAvailableBillDetails.Name = "ShowAvailableBillDetails";
             this.ShowAvailableBillDetails.Size = new System.Drawing.Size(190, 23);
             this.ShowAvailableBillDetails.TabIndex = 13;
@@ -826,7 +827,7 @@ namespace RFS_Invoice_Utility
             this.BillsAvailableListview.HideSelection = false;
             this.BillsAvailableListview.Location = new System.Drawing.Point(3, 140);
             this.BillsAvailableListview.Name = "BillsAvailableListview";
-            this.BillsAvailableListview.Size = new System.Drawing.Size(960, 166);
+            this.BillsAvailableListview.Size = new System.Drawing.Size(960, 176);
             this.BillsAvailableListview.TabIndex = 12;
             this.BillsAvailableListview.UseCompatibleStateImageBehavior = false;
             this.BillsAvailableListview.View = System.Windows.Forms.View.Details;
@@ -912,7 +913,7 @@ namespace RFS_Invoice_Utility
             // AddBillsToInvoiceButton
             // 
             this.AddBillsToInvoiceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.AddBillsToInvoiceButton.Location = new System.Drawing.Point(199, 312);
+            this.AddBillsToInvoiceButton.Location = new System.Drawing.Point(199, 322);
             this.AddBillsToInvoiceButton.Name = "AddBillsToInvoiceButton";
             this.AddBillsToInvoiceButton.Size = new System.Drawing.Size(190, 23);
             this.AddBillsToInvoiceButton.TabIndex = 14;
@@ -923,7 +924,7 @@ namespace RFS_Invoice_Utility
             // AddAllBillsToInvoiceButton
             // 
             this.AddAllBillsToInvoiceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.AddAllBillsToInvoiceButton.Location = new System.Drawing.Point(395, 312);
+            this.AddAllBillsToInvoiceButton.Location = new System.Drawing.Point(395, 322);
             this.AddAllBillsToInvoiceButton.Name = "AddAllBillsToInvoiceButton";
             this.AddAllBillsToInvoiceButton.Size = new System.Drawing.Size(190, 23);
             this.AddAllBillsToInvoiceButton.TabIndex = 15;
@@ -934,7 +935,7 @@ namespace RFS_Invoice_Utility
             // ResetApprovedBillButton
             // 
             this.ResetApprovedBillButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.ResetApprovedBillButton.Location = new System.Drawing.Point(773, 312);
+            this.ResetApprovedBillButton.Location = new System.Drawing.Point(773, 322);
             this.ResetApprovedBillButton.Name = "ResetApprovedBillButton";
             this.ResetApprovedBillButton.Size = new System.Drawing.Size(190, 23);
             this.ResetApprovedBillButton.TabIndex = 16;
@@ -952,9 +953,9 @@ namespace RFS_Invoice_Utility
             this.panel2.Controls.Add(this.CreateInvoiceButton);
             this.panel2.Controls.Add(this.BulkInvoiceButton);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 347);
+            this.panel2.Location = new System.Drawing.Point(3, 357);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(966, 224);
+            this.panel2.Size = new System.Drawing.Size(966, 231);
             this.panel2.TabIndex = 1;
             // 
             // label6
@@ -986,7 +987,7 @@ namespace RFS_Invoice_Utility
             this.BillsSelectedListview.HideSelection = false;
             this.BillsSelectedListview.Location = new System.Drawing.Point(3, 20);
             this.BillsSelectedListview.Name = "BillsSelectedListview";
-            this.BillsSelectedListview.Size = new System.Drawing.Size(960, 172);
+            this.BillsSelectedListview.Size = new System.Drawing.Size(960, 179);
             this.BillsSelectedListview.TabIndex = 1;
             this.BillsSelectedListview.UseCompatibleStateImageBehavior = false;
             this.BillsSelectedListview.View = System.Windows.Forms.View.Details;
@@ -1057,7 +1058,7 @@ namespace RFS_Invoice_Utility
             // ShowSelectedBillDetails
             // 
             this.ShowSelectedBillDetails.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.ShowSelectedBillDetails.Location = new System.Drawing.Point(3, 198);
+            this.ShowSelectedBillDetails.Location = new System.Drawing.Point(3, 205);
             this.ShowSelectedBillDetails.Name = "ShowSelectedBillDetails";
             this.ShowSelectedBillDetails.Size = new System.Drawing.Size(190, 23);
             this.ShowSelectedBillDetails.TabIndex = 2;
@@ -1068,7 +1069,7 @@ namespace RFS_Invoice_Utility
             // RemoveBillsFromInvoiceButton
             // 
             this.RemoveBillsFromInvoiceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.RemoveBillsFromInvoiceButton.Location = new System.Drawing.Point(199, 198);
+            this.RemoveBillsFromInvoiceButton.Location = new System.Drawing.Point(199, 205);
             this.RemoveBillsFromInvoiceButton.Name = "RemoveBillsFromInvoiceButton";
             this.RemoveBillsFromInvoiceButton.Size = new System.Drawing.Size(190, 23);
             this.RemoveBillsFromInvoiceButton.TabIndex = 3;
@@ -1079,7 +1080,7 @@ namespace RFS_Invoice_Utility
             // RemoveAllBillsFromInvoiceButton
             // 
             this.RemoveAllBillsFromInvoiceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.RemoveAllBillsFromInvoiceButton.Location = new System.Drawing.Point(395, 198);
+            this.RemoveAllBillsFromInvoiceButton.Location = new System.Drawing.Point(395, 205);
             this.RemoveAllBillsFromInvoiceButton.Name = "RemoveAllBillsFromInvoiceButton";
             this.RemoveAllBillsFromInvoiceButton.Size = new System.Drawing.Size(190, 23);
             this.RemoveAllBillsFromInvoiceButton.TabIndex = 4;
@@ -1090,7 +1091,7 @@ namespace RFS_Invoice_Utility
             // CreateInvoiceButton
             // 
             this.CreateInvoiceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.CreateInvoiceButton.Location = new System.Drawing.Point(773, 198);
+            this.CreateInvoiceButton.Location = new System.Drawing.Point(773, 205);
             this.CreateInvoiceButton.Name = "CreateInvoiceButton";
             this.CreateInvoiceButton.Size = new System.Drawing.Size(190, 23);
             this.CreateInvoiceButton.TabIndex = 6;
@@ -1101,7 +1102,7 @@ namespace RFS_Invoice_Utility
             // BulkInvoiceButton
             // 
             this.BulkInvoiceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BulkInvoiceButton.Location = new System.Drawing.Point(612, 198);
+            this.BulkInvoiceButton.Location = new System.Drawing.Point(612, 205);
             this.BulkInvoiceButton.Name = "BulkInvoiceButton";
             this.BulkInvoiceButton.Size = new System.Drawing.Size(131, 23);
             this.BulkInvoiceButton.TabIndex = 5;
@@ -1115,7 +1116,7 @@ namespace RFS_Invoice_Utility
             this.ReviewInvoicesPage.Location = new System.Drawing.Point(4, 22);
             this.ReviewInvoicesPage.Name = "ReviewInvoicesPage";
             this.ReviewInvoicesPage.Padding = new System.Windows.Forms.Padding(3);
-            this.ReviewInvoicesPage.Size = new System.Drawing.Size(978, 580);
+            this.ReviewInvoicesPage.Size = new System.Drawing.Size(978, 597);
             this.ReviewInvoicesPage.TabIndex = 2;
             this.ReviewInvoicesPage.Text = "Review Invoicing";
             this.ReviewInvoicesPage.UseVisualStyleBackColor = true;
@@ -1132,7 +1133,7 @@ namespace RFS_Invoice_Utility
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(972, 574);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(972, 591);
             this.tableLayoutPanel2.TabIndex = 22;
             // 
             // panel3
@@ -1158,7 +1159,7 @@ namespace RFS_Invoice_Utility
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(966, 338);
+            this.panel3.Size = new System.Drawing.Size(966, 348);
             this.panel3.TabIndex = 0;
             // 
             // label15
@@ -1364,7 +1365,7 @@ namespace RFS_Invoice_Utility
             this.InvoiceListview.HideSelection = false;
             this.InvoiceListview.Location = new System.Drawing.Point(3, 146);
             this.InvoiceListview.Name = "InvoiceListview";
-            this.InvoiceListview.Size = new System.Drawing.Size(960, 163);
+            this.InvoiceListview.Size = new System.Drawing.Size(960, 173);
             this.InvoiceListview.TabIndex = 13;
             this.InvoiceListview.UseCompatibleStateImageBehavior = false;
             this.InvoiceListview.View = System.Windows.Forms.View.Details;
@@ -1412,9 +1413,10 @@ namespace RFS_Invoice_Utility
             this.copySelectedToolStripMenuItem,
             this.toolStripSeparator5,
             this.ShowSupportingDocuments,
+            this.userDetailsToolStripMenuItem,
             this.hideUnhideFromClientsToolStripMenuItem});
             this.ReviewInvoiceContextMenu.Name = "ReviewInvoiceContextMenu";
-            this.ReviewInvoiceContextMenu.Size = new System.Drawing.Size(211, 98);
+            this.ReviewInvoiceContextMenu.Size = new System.Drawing.Size(211, 142);
             // 
             // copyAllToolStripMenuItem
             // 
@@ -1452,7 +1454,7 @@ namespace RFS_Invoice_Utility
             // PrintPreviewInvoiceButton
             // 
             this.PrintPreviewInvoiceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.PrintPreviewInvoiceButton.Location = new System.Drawing.Point(3, 315);
+            this.PrintPreviewInvoiceButton.Location = new System.Drawing.Point(3, 325);
             this.PrintPreviewInvoiceButton.Name = "PrintPreviewInvoiceButton";
             this.PrintPreviewInvoiceButton.Size = new System.Drawing.Size(190, 23);
             this.PrintPreviewInvoiceButton.TabIndex = 14;
@@ -1463,7 +1465,7 @@ namespace RFS_Invoice_Utility
             // EditInvoiceDetailsButton
             // 
             this.EditInvoiceDetailsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.EditInvoiceDetailsButton.Location = new System.Drawing.Point(199, 315);
+            this.EditInvoiceDetailsButton.Location = new System.Drawing.Point(199, 325);
             this.EditInvoiceDetailsButton.Name = "EditInvoiceDetailsButton";
             this.EditInvoiceDetailsButton.Size = new System.Drawing.Size(190, 23);
             this.EditInvoiceDetailsButton.TabIndex = 15;
@@ -1474,7 +1476,7 @@ namespace RFS_Invoice_Utility
             // SubmitInvoiceForReviewButton
             // 
             this.SubmitInvoiceForReviewButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.SubmitInvoiceForReviewButton.Location = new System.Drawing.Point(395, 315);
+            this.SubmitInvoiceForReviewButton.Location = new System.Drawing.Point(395, 325);
             this.SubmitInvoiceForReviewButton.Name = "SubmitInvoiceForReviewButton";
             this.SubmitInvoiceForReviewButton.Size = new System.Drawing.Size(190, 23);
             this.SubmitInvoiceForReviewButton.TabIndex = 16;
@@ -1485,7 +1487,7 @@ namespace RFS_Invoice_Utility
             // FinalizeInvoiceButton
             // 
             this.FinalizeInvoiceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.FinalizeInvoiceButton.Location = new System.Drawing.Point(773, 315);
+            this.FinalizeInvoiceButton.Location = new System.Drawing.Point(773, 325);
             this.FinalizeInvoiceButton.Name = "FinalizeInvoiceButton";
             this.FinalizeInvoiceButton.Size = new System.Drawing.Size(190, 23);
             this.FinalizeInvoiceButton.TabIndex = 17;
@@ -1501,15 +1503,15 @@ namespace RFS_Invoice_Utility
             this.panel4.Controls.Add(this.InvoiceDetailsListview);
             this.panel4.Controls.Add(this.EditInvoiceLinesButton);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(3, 347);
+            this.panel4.Location = new System.Drawing.Point(3, 357);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(966, 224);
+            this.panel4.Size = new System.Drawing.Size(966, 231);
             this.panel4.TabIndex = 1;
             // 
             // VoidInvoiceButton
             // 
             this.VoidInvoiceButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.VoidInvoiceButton.Location = new System.Drawing.Point(199, 195);
+            this.VoidInvoiceButton.Location = new System.Drawing.Point(199, 202);
             this.VoidInvoiceButton.Name = "VoidInvoiceButton";
             this.VoidInvoiceButton.Size = new System.Drawing.Size(190, 23);
             this.VoidInvoiceButton.TabIndex = 3;
@@ -1520,7 +1522,7 @@ namespace RFS_Invoice_Utility
             // TransferInvoicesButton
             // 
             this.TransferInvoicesButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TransferInvoicesButton.Location = new System.Drawing.Point(770, 195);
+            this.TransferInvoicesButton.Location = new System.Drawing.Point(770, 202);
             this.TransferInvoicesButton.Name = "TransferInvoicesButton";
             this.TransferInvoicesButton.Size = new System.Drawing.Size(190, 23);
             this.TransferInvoicesButton.TabIndex = 4;
@@ -1554,7 +1556,7 @@ namespace RFS_Invoice_Utility
             this.InvoiceDetailsListview.HideSelection = false;
             this.InvoiceDetailsListview.Location = new System.Drawing.Point(0, 18);
             this.InvoiceDetailsListview.Name = "InvoiceDetailsListview";
-            this.InvoiceDetailsListview.Size = new System.Drawing.Size(960, 171);
+            this.InvoiceDetailsListview.Size = new System.Drawing.Size(960, 178);
             this.InvoiceDetailsListview.TabIndex = 1;
             this.InvoiceDetailsListview.UseCompatibleStateImageBehavior = false;
             this.InvoiceDetailsListview.View = System.Windows.Forms.View.Details;
@@ -1625,7 +1627,7 @@ namespace RFS_Invoice_Utility
             // EditInvoiceLinesButton
             // 
             this.EditInvoiceLinesButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.EditInvoiceLinesButton.Location = new System.Drawing.Point(3, 195);
+            this.EditInvoiceLinesButton.Location = new System.Drawing.Point(3, 202);
             this.EditInvoiceLinesButton.Name = "EditInvoiceLinesButton";
             this.EditInvoiceLinesButton.Size = new System.Drawing.Size(190, 23);
             this.EditInvoiceLinesButton.TabIndex = 2;
@@ -1650,7 +1652,7 @@ namespace RFS_Invoice_Utility
             this.StoragePage.Location = new System.Drawing.Point(4, 22);
             this.StoragePage.Name = "StoragePage";
             this.StoragePage.Padding = new System.Windows.Forms.Padding(3);
-            this.StoragePage.Size = new System.Drawing.Size(978, 580);
+            this.StoragePage.Size = new System.Drawing.Size(978, 597);
             this.StoragePage.TabIndex = 4;
             this.StoragePage.Text = "Storage";
             this.StoragePage.UseVisualStyleBackColor = true;
@@ -1870,7 +1872,7 @@ namespace RFS_Invoice_Utility
             this.AdministrationPage.Location = new System.Drawing.Point(4, 22);
             this.AdministrationPage.Name = "AdministrationPage";
             this.AdministrationPage.Padding = new System.Windows.Forms.Padding(3);
-            this.AdministrationPage.Size = new System.Drawing.Size(978, 580);
+            this.AdministrationPage.Size = new System.Drawing.Size(978, 597);
             this.AdministrationPage.TabIndex = 3;
             this.AdministrationPage.Text = "Administration";
             this.AdministrationPage.UseVisualStyleBackColor = true;
@@ -2037,6 +2039,13 @@ namespace RFS_Invoice_Utility
             this.changeLoginButton.Text = "...";
             this.changeLoginButton.UseVisualStyleBackColor = true;
             this.changeLoginButton.Click += new System.EventHandler(this.changeLoginButton_Click);
+            // 
+            // userDetailsToolStripMenuItem
+            // 
+            this.userDetailsToolStripMenuItem.Name = "userDetailsToolStripMenuItem";
+            this.userDetailsToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
+            this.userDetailsToolStripMenuItem.Text = "User Details...";
+            this.userDetailsToolStripMenuItem.Click += new System.EventHandler(this.userDetailsToolStripMenuItem_Click);
             // 
             // RfsInvoiceUtilityMainForm
             // 
@@ -2296,6 +2305,7 @@ namespace RFS_Invoice_Utility
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.ComboBox ReviewShipperCombobox;
         private System.Windows.Forms.Button ReviewClearFiltersButton;
+        private System.Windows.Forms.ToolStripMenuItem userDetailsToolStripMenuItem;
     }
 }
 

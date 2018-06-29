@@ -261,7 +261,8 @@ namespace RFS_Invoice_Utility
                 else if (loginOptions.Count > 1)
                 {
                     var loginForm = new ChooseLoginForm { LoginOptions = loginOptions, FinalChoice = originalDetails };
-                    loginForm.ShowDialog();
+                    if (loginForm.ShowDialog() == DialogResult.Cancel)
+                        return null;
                     if (loginForm.FinalChoice != null)
                         loginForm.FinalChoice.MultipleOptions = true;
                     return loginForm.FinalChoice;
@@ -2762,6 +2763,10 @@ namespace RFS_Invoice_Utility
                 freshInvoice.InvoiceStatus = RfsInvoiceStatus.Closed;
                 freshInvoice.DocumentFolder = invoiceFolder;
                 freshInvoice.DocumentFileName = invoiceFilename;
+
+                var windowsUserId = Environment.UserName;
+                freshInvoice.UserFinalized = windowsUserId;
+
                 rfsDataContext.SaveChanges();
                 success = true;
             }
@@ -3364,6 +3369,25 @@ namespace RFS_Invoice_Utility
             if (!E.Control || (E.KeyCode != Keys.F)) return;
             DocumentIdTextbox.Focus();
             DocumentIdTextbox.SelectAll();
+        }
+
+        private void userDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (InvoiceListview.SelectedItems.Count != 1)
+            {
+                MessageHelper.ShowInvalidOperation("You must select a single invoice to view user details.");
+                return;
+            }
+
+            var id = InvoiceListview.SelectedItems[0].Tag as InvoiceDetails;
+            if (id == null)
+            {
+                MessageHelper.ShowError("An internal error has occurred when trying to view invoice user details. Please contact IT support.");
+                return;
+            }
+
+            var newDialog = new InvoiceUserDetailsForm {Invoice = id.Invoice};
+            newDialog.ShowDialog();
         }
 
         private void ShowSupportingDocuments_Click(object Sender, EventArgs E)
@@ -4428,7 +4452,7 @@ namespace RFS_Invoice_Utility
 
         private void OnSysMenuAbout()
         {
-            MessageBox.Show(this, "RFS Invoice Utility v1.1.5", "RFS Invoice Utility");
+            MessageBox.Show(this, "RFS Invoice Utility v1.2.0", "RFS Invoice Utility");
         }
     }
 }

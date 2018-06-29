@@ -106,6 +106,10 @@ namespace BopsBusinessLogicRfs
                 newInvoice.InvoiceDate = invoiceDate;
                 newInvoice.DateCreated = dateStamp;
                 newInvoice.CompanyRef = companyId;
+
+                var windowsUserId = Environment.UserName;
+                newInvoice.UserCreated = windowsUserId;
+
                 _rfsDataContext.AddInvoice(newInvoice);
                 var returnValue = new BopsRfsInvoicePackage(newInvoice);
 
@@ -195,6 +199,10 @@ namespace BopsBusinessLogicRfs
                     newInvoice.PublicNotes = publicNotes;
                 if (!string.IsNullOrEmpty(privateNotes))
                     newInvoice.PrivateNotes = privateNotes;
+
+                var windowsUserId = Environment.UserName;
+                newInvoice.UserCreated = windowsUserId;
+
                 _rfsDataContext.AddInvoice(newInvoice);
 
                 _Log.InfoFormat("Saved new invoice {0}, adding detail lines.", newInvoice.InvoiceId);
@@ -302,6 +310,10 @@ namespace BopsBusinessLogicRfs
                     newInvoice.InvoiceDate = invoiceDate;
                     newInvoice.DateCreated = dateStamp;
                     newInvoice.CompanyRef = companyId;
+
+                    var windowsUserId = Environment.UserName;
+                    newInvoice.UserCreated = windowsUserId;
+
                     _rfsDataContext.AddInvoice(newInvoice);
 
                     var lineNumber = 1;

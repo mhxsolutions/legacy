@@ -122,5 +122,9 @@ namespace BopsDataAccess
         public DateTime? TransferredDate { get; set; }
 
         public int CompanyRef { get; set; }
+
+        public string UserCreated { get; set; }
+
+        public string UserFinalized { get; set; }
     }
 }

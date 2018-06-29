@@ -282,6 +282,12 @@
     <Compile Include="InvoiceSupportingDocumentsForm.Designer.cs">
       <DependentUpon>InvoiceSupportingDocumentsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="InvoiceUserDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceUserDetailsForm.Designer.cs">
+      <DependentUpon>InvoiceUserDetailsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProgressForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -414,6 +420,9 @@
     <EmbeddedResource Include="InvoiceSupportingDocumentsForm.resx">
       <SubType>Designer</SubType>
       <DependentUpon>InvoiceSupportingDocumentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceUserDetailsForm.resx">
+      <DependentUpon>InvoiceUserDetailsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProgressForm.resx">
       <DependentUpon>ProgressForm.cs</DependentUpon>
