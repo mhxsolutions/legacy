@@ -2852,10 +2852,18 @@ namespace RFS_Invoice_Utility
                 {
                     invoice.InvoiceStatus = RfsInvoiceStatus.PendingReview;
                 }
+
                 rfsDataContext.SaveChanges();
 
                 foreach (ListViewItem item in InvoiceListview.SelectedItems)
-                    item.SubItems[3] = new ListViewItem.ListViewSubItem(item, newStatusText);
+                {
+                    var id = item.Tag as InvoiceDetails;
+                    Debug.Assert(id != null);
+                    id.Invoice.InvoiceStatus = RfsInvoiceStatus.PendingReview;
+
+                    item.SubItems[4] = new ListViewItem.ListViewSubItem(item, newStatusText);
+                }
+                    
                 foreach (ColumnHeader hdr in InvoiceListview.Columns)
                     hdr.Width = -2;
                 InvoiceListview.ResumeLayout();
