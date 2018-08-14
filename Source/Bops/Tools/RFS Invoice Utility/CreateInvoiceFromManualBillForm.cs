@@ -123,6 +123,7 @@ namespace RFS_Invoice_Utility
                 return;
             }
 
+            var windowsUserId = Environment.UserName;
             Invoice = new BopsRfsInvoice
             {
                 InvoiceType = selectedType.Key,
@@ -134,7 +135,8 @@ namespace RFS_Invoice_Utility
                 DateCreated = DateTime.Now,
                 PublicNotes = PublicNotesTextbox.Text,
                 PrivateNotes = PrivateNotesTextbox.Text,
-                CompanyRef = UserCompanyDetails.Company.CompanyId
+                CompanyRef = UserCompanyDetails.Company.CompanyId,
+                UserCreated = windowsUserId,
             };
 
             ManualBill = new BopsRfsInvoiceDetail();

@@ -1,5 +1,9 @@
 RFS Invoice Utility Versions
 
+1.2.1
+	Fixed a minor issue preventing invoices created from manual bills from having
+	the correct Windows user ID.
+
 1.2.0
 	Added support for tracking Windows user IDs who create and finalize invoices
 	Added a new form to let users examine the create/finalize user IDs for invoices
