@@ -12,17 +12,17 @@ namespace RFS_Invoice_Utility
         /// <summary>
         /// Instantiates a new preview form for the specified invoice.
         /// </summary>
-        /// <param name="InvoiceId">The unique ID of the invoice to be previewed.</param>
-        /// <param name="InvoiceType">The type of the invoice to be previewed.</param>
-        public InvoicePreviewForm(int InvoiceId, string InvoiceType) : this()
+        /// <param name="invoiceId">The unique ID of the invoice to be previewed.</param>
+        /// <param name="invoiceType">The type of the invoice to be previewed.</param>
+        public InvoicePreviewForm(int invoiceId, string invoiceType) : this()
         {
-            InvoiceFactory Factory = new InvoiceFactory();
-            CrystalDecisions.CrystalReports.Engine.ReportDocument Report = Factory.ManufactureCrystalReport(InvoiceType);
+            var factory = new InvoiceFactory();
+            var report = factory.ManufactureCrystalReport(invoiceType);
 
-            Report.SetParameterValue("InvoiceId", InvoiceId);
-            Report.SetParameterValue("ForceFinal", false);
+            report.SetParameterValue("InvoiceId", invoiceId);
+            report.SetParameterValue("ForceFinal", false);
 
-            crystalReportViewer1.ReportSource = Report;
+            crystalReportViewer1.ReportSource = report;
         }
     }
 }

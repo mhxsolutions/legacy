@@ -1,5 +1,9 @@
 RFS Invoice Utility Versions
 
+1.2.2
+	This is a temporary patch build to fix an issue with Crystal Reports. It will
+	be replaced as soon as I can find the code to fix the issue properly.
+
 1.2.1
 	Fixed a minor issue preventing invoices created from manual bills from having
 	the correct Windows user ID.
