@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{CE82F53E-9E12-4D4E-A307-24DA01DC9929}"
 EndProject
@@ -19,10 +19,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgilisCore", "..\Source\Bops\Libraries\AgilisCore\AgilisCore.csproj", "{690150FA-7CBB-41EF-B865-B9CF232FD327}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agilis Integration Service", "..\Source\Bops\Services\Agilis Integration Service\Agilis Integration Service.csproj", "{B9145109-D659-4A78-8004-3D4379B2414B}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Services Setup", "..\Source\Bops\Services Setup\Services Setup.vdproj", "{399FA926-E44B-4D20-9A2E-6C46B48A3E1C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services Setup Utils", "..\Source\Bops\Services Setup Utils\Services Setup Utils.csproj", "{22525B50-0FBC-4A79-91A2-0CA189106C17}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BopsDataAccess", "..\Source\Bops\Libraries\BopsDataAccess\BopsDataAccess.csproj", "{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}"
 EndProject
@@ -104,21 +100,6 @@ Global
 		{B9145109-D659-4A78-8004-3D4379B2414B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B9145109-D659-4A78-8004-3D4379B2414B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B9145109-D659-4A78-8004-3D4379B2414B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{399FA926-E44B-4D20-9A2E-6C46B48A3E1C}.Debug|.NET.ActiveCfg = Debug
-		{399FA926-E44B-4D20-9A2E-6C46B48A3E1C}.Debug|Any CPU.ActiveCfg = Debug
-		{399FA926-E44B-4D20-9A2E-6C46B48A3E1C}.Debug|Mixed Platforms.ActiveCfg = Debug
-		{399FA926-E44B-4D20-9A2E-6C46B48A3E1C}.Release|.NET.ActiveCfg = Release
-		{399FA926-E44B-4D20-9A2E-6C46B48A3E1C}.Release|Any CPU.ActiveCfg = Release
-		{399FA926-E44B-4D20-9A2E-6C46B48A3E1C}.Release|Mixed Platforms.ActiveCfg = Release
-		{22525B50-0FBC-4A79-91A2-0CA189106C17}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{22525B50-0FBC-4A79-91A2-0CA189106C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22525B50-0FBC-4A79-91A2-0CA189106C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22525B50-0FBC-4A79-91A2-0CA189106C17}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{22525B50-0FBC-4A79-91A2-0CA189106C17}.Release|.NET.ActiveCfg = Release|Any CPU
-		{22525B50-0FBC-4A79-91A2-0CA189106C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22525B50-0FBC-4A79-91A2-0CA189106C17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{22525B50-0FBC-4A79-91A2-0CA189106C17}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{22525B50-0FBC-4A79-91A2-0CA189106C17}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}.Debug|.NET.ActiveCfg = Debug|Any CPU
 		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6AD72ECB-E1DD-4C60-A767-7B46120A6C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -398,5 +379,8 @@ Global
 		{075E49B7-1D4A-43FE-8F26-8E36E1A68D5E} = {B0023B35-A75D-4379-8494-B6F33D2E9790}
 		{98B2104F-B995-4EA0-A2C1-29CB0C6FAC69} = {B0023B35-A75D-4379-8494-B6F33D2E9790}
 		{213C91B2-8684-4261-9A63-D0EF493B82EA} = {B0023B35-A75D-4379-8494-B6F33D2E9790}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCD125C7-E5CF-4949-8B62-1507756BD434}
 	EndGlobalSection
 EndGlobal
