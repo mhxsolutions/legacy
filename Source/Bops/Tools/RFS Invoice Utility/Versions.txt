@@ -1,5 +1,8 @@
 RFS Invoice Utility Versions
 
+1.2.3
+	Added sorting to the shipper and bill-to destinations on the form to create
+	an invoice from a single, manual bill.
 
 1.2.2
 	This is a temporary patch build to fix an issue with Crystal Reports. It will

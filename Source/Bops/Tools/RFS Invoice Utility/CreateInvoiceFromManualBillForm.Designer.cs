@@ -220,6 +220,7 @@ namespace RFS_Invoice_Utility
             this.InvoiceShipperCombobox.Location = new System.Drawing.Point(137, 86);
             this.InvoiceShipperCombobox.Name = "InvoiceShipperCombobox";
             this.InvoiceShipperCombobox.Size = new System.Drawing.Size(356, 21);
+            this.InvoiceShipperCombobox.Sorted = true;
             this.InvoiceShipperCombobox.TabIndex = 6;
             // 
             // InvoiceBillToCombobox
@@ -228,6 +229,7 @@ namespace RFS_Invoice_Utility
             this.InvoiceBillToCombobox.Location = new System.Drawing.Point(137, 113);
             this.InvoiceBillToCombobox.Name = "InvoiceBillToCombobox";
             this.InvoiceBillToCombobox.Size = new System.Drawing.Size(356, 21);
+            this.InvoiceBillToCombobox.Sorted = true;
             this.InvoiceBillToCombobox.TabIndex = 8;
             // 
             // label10
