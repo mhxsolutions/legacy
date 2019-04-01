@@ -1237,21 +1237,71 @@ namespace BopsBusinessLogicRfs
             // Get the existing calculation results and service calculation results 
             // for the warehouse documents.
 
-            var index = 0;
-            var documentIds = new int[documents.Count];
-            foreach (var document in documents)
-            {
-                documentIds[index++] = document.DocumentId;
-            }
+            var receiverDocumentIds = documents.Where(d => d.DocumentType == WarehouseDocumentType.Received)
+                .Select(d => d.DocumentId).ToArray();
+            var shipperDocumentIds = documents.Where(d => d.DocumentType == WarehouseDocumentType.Shipped)
+                .Select(d => d.DocumentId).ToArray();
 
             // Note well the use of string customization for the keys, which is relied upon below.
             // The lower-level service calculation results are indexed by WarehouseDocumentType:WarehouseDocumentId, whereas
             // the higher level overall calculation results are indexed by WarehouseDocumentType:WarehouseDocumentId:ServiceId.
 
-            var existingServiceResults = RfsDataContext.GetServiceCalculationResultsByWarehouseDocumentIds(documentIds)
-                .ToDictionary(r => string.Format("{0}:{1}:{2}", r.DocumentType, r.DocumentId, r.ServiceId));
-            var existingCalculationResults = RfsDataContext.GetCalculationResultsByWarehouseDocumentIds(documentIds)
-                .ToDictionary(r => string.Format("{0}:{1}", r.WarehouseDocumentType, r.WarehouseDocumentId), r => r);
+            /*
+             * The following lines are the source of a bug that has laid heretofore unrecognized since the days
+             * we first started handling warehouse documents, receivers and shippers (BOLs). The functions that
+             * get the calculation and service results do not discriminate between the two document types, which
+             * means we're getting ALL the results that match the IDs, whether they're the right types or not.
+             * Fixing this is mandatory to make the calculation routine stop trying to delete things that are 
+             * entirely unrelated to the issue at hand.
+             * 
+             * After looking at NHibernateDataUtilities.GetObjectsByIds, the low-level method that ultimately 
+             * fulfills the request, I believe the right fix is to modify the following:
+             * 
+             *      var chunk = session.CreateCriteria(typeof(TObj))
+             *          .Add(Restrictions.In(propertyName, chunkIds))
+             *          .List<TObj>();
+             *
+             * To be more specific, I think I need a version of the utility that takes a list of restrictions to
+             * add to the query, rather than just a single ID column. Then I can separate the document ID handling
+             * process at the top of the warehouse revenue calculation core into shippers and receivers, change the
+             * code to make two calls to the function, and integrate the results into a single existing-services
+             * dictionary for lookups.
+             * 
+             * Even though I'm fixing the problem, I'm leaving the comment here for future reference.
+             * 
+             * JBW, Friday, March 29, 2019, 15:12 hrs.
+             */
+
+            var combinedServiceResults = RfsDataContext
+                .GetServiceCalculationResultsByWarehouseDocumentIds(receiverDocumentIds, WarehouseDocumentType.Received)
+                .Union(RfsDataContext.GetServiceCalculationResultsByWarehouseDocumentIds(shipperDocumentIds, WarehouseDocumentType.Shipped));
+            var combinedCalculationResults = RfsDataContext
+                .GetCalculationResultsByWarehouseDocumentIds(receiverDocumentIds, WarehouseDocumentType.Received)
+                .Union(RfsDataContext.GetCalculationResultsByWarehouseDocumentIds(shipperDocumentIds,
+                    WarehouseDocumentType.Shipped));
+
+            // Comment the above and uncomment the below to break it out and more easily inspect the loading.
+
+            //var receiverServiceResults = RfsDataContext
+            //    .GetServiceCalculationResultsByWarehouseDocumentIds(receiverDocumentIds, WarehouseDocumentType.Received)
+            //    .ToList();
+            //var shipperServiceResults = RfsDataContext
+            //    .GetServiceCalculationResultsByWarehouseDocumentIds(shipperDocumentIds, WarehouseDocumentType.Shipped)
+            //    .ToList();
+            //var combinedServiceResults = receiverServiceResults.Union(shipperServiceResults).ToList();
+
+            //var receiverCalculationResults = RfsDataContext
+            //    .GetCalculationResultsByWarehouseDocumentIds(receiverDocumentIds, WarehouseDocumentType.Received)
+            //    .ToList();
+            //var shipperCalculationResults = RfsDataContext
+            //    .GetCalculationResultsByWarehouseDocumentIds(shipperDocumentIds, WarehouseDocumentType.Shipped)
+            //    .ToList();
+            //var combinedCalculationResults = receiverCalculationResults.Union(shipperCalculationResults).ToList();
+
+            var existingServiceResults = combinedServiceResults
+                .ToDictionary(r => $"{r.DocumentType}:{r.DocumentId}:{r.ServiceId}");
+            var existingCalculationResults = combinedCalculationResults
+                .ToDictionary(r => $"{r.WarehouseDocumentType}:{r.WarehouseDocumentId}", r => r);
 
             // Create a dictionary to keep track of the service calculation results that were updated.
             // This is explained in the comments in the LoadRevenueCalculationCore method.
@@ -1268,7 +1318,7 @@ namespace BopsBusinessLogicRfs
 
             foreach (var document in documents)
             {
-                var indexString = string.Format("{0}:{1}", document.DocumentType, document.DocumentId);
+                var indexString = $"{document.DocumentType}:{document.DocumentId}";
                 var calculationResult = existingCalculationResults.ContainsKey(indexString) 
                     ? existingCalculationResults[indexString] : null;
 

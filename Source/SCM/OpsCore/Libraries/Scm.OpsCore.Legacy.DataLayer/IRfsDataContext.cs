@@ -209,14 +209,14 @@ namespace Scm.OpsCore.Legacy.DataLayer
         /// </summary>
         /// <param name="warehouseDocumentIds">The warehouse document ids.</param>
         /// <returns>A IList&lt;BopsRfsCalculationResult&gt; of the calculation results if successful, an empty list otherwise.</returns>
-        IList<BopsRfsCalculationResult> GetCalculationResultsByWarehouseDocumentIds(int[] warehouseDocumentIds);
+        IList<BopsRfsCalculationResult> GetCalculationResultsByWarehouseDocumentIds(int[] warehouseDocumentIds, WarehouseDocumentType documentType);
         
         /// <summary>
         /// Gets the service calculation results by warehouse document IDs.
         /// </summary>
         /// <param name="warehouseDocumentIds">The warehouse document ids.</param>
         /// <returns>A IList&lt;BopsRfsServiceCalculationResult&gt; of the calculation results if successful, an empty list otherwise.</returns>
-        IList<BopsRfsServiceCalculationResult> GetServiceCalculationResultsByWarehouseDocumentIds(int[] warehouseDocumentIds);
+        IList<BopsRfsServiceCalculationResult> GetServiceCalculationResultsByWarehouseDocumentIds(int[] warehouseDocumentIds, WarehouseDocumentType documentType);
         
         /// <summary>
         /// Gets all RFS.

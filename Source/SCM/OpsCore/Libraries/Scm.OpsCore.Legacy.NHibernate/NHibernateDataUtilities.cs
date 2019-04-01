@@ -16,8 +16,10 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <param name="session">The NHibernate session from which to fetch the objects.</param>
         /// <param name="ids">The array of IDs whose objects should be retrieved.</param>
         /// <param name="propertyName">The name of the object's ID property.</param>
+        /// <param name="otherCriteria">A list of other NHibernate criteria for filtering incoming data.</param>
         /// <returns>A list of objects if successful, or an empty list otherwise.</returns>
-        public static IList<TObj> GetObjectsByIds<TObj, TId>(ISession session, TId[] ids, string propertyName)
+        public static IList<TObj> GetObjectsByIds<TObj, TId>(ISession session, TId[] ids, string propertyName,
+            List<ICriterion> otherCriteria)
         {
             const int maxValuesForInQuery = 300;    // Specifies the maximum size of each chunk of data to read.
 
@@ -47,10 +49,13 @@ namespace Scm.OpsCore.Legacy.NHibernate
                 // Fetch the current chunk of data and add the resulting key/value pairs to the return value.
 
                 var chunk = session.CreateCriteria(typeof(TObj))
-                    .Add(Restrictions.In(propertyName, chunkIds))
-                    .List<TObj>();
+                    .Add(Restrictions.In(propertyName, chunkIds));
 
-                returnValue.AddRange(chunk);
+                if (otherCriteria != null)
+                    foreach (var criterion in otherCriteria)
+                        chunk.Add(criterion);
+
+                returnValue.AddRange(chunk.List<TObj>());
             }
 
             return returnValue;

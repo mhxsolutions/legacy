@@ -1,5 +1,12 @@
 RFS Invoice Utility Versions
 
+1.2.4
+	Fixed a long-standing bug (10+ years) in the warehouse revenue calculation
+	core, which was not filtering data to be calculated properly by type (i.e.,
+	receiver or BOL). The bug was discovered when error messages showed that
+	BOLs from years ago were bein calculated because their IDs matched the IDs
+	of recent receivers.
+
 1.2.3
 	Added sorting to the shipper and bill-to destinations on the form to create
 	an invoice from a single, manual bill.

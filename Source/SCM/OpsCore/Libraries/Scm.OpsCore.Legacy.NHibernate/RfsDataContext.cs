@@ -113,7 +113,7 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <inheritdoc/>
         public IList<BopsLoad> GetLoadsByReferences(string[] loadReferences)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsLoad, string>(_dwsNoRepData, loadReferences, "LoadReference");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsLoad, string>(_dwsNoRepData, loadReferences, "LoadReference", null);
         }
 
         /// <inheritdoc/>
@@ -176,13 +176,13 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <inheritdoc/>
         public IList<BopsRfsServiceCalculationResult> GetServiceCalculationResultsByLoadReferences(string[] loadReferences)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsServiceCalculationResult, string>(_dwsNoRepData, loadReferences, "LoadRef");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsServiceCalculationResult, string>(_dwsNoRepData, loadReferences, "LoadRef", null);
         }
 
         /// <inheritdoc/>
         public IList<BopsRfsServiceCalculationResult> GetServiceCalculationResultsByIds(int[] resultIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsServiceCalculationResult, int>(_dwsNoRepData, resultIds, "ResultId");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsServiceCalculationResult, int>(_dwsNoRepData, resultIds, "ResultId", null);
         }
 
         /// <inheritdoc/>
@@ -208,7 +208,7 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <inheritdoc/>
         public IList<BopsReceivingRecord> GetReceiversByIDs(int[] receiverIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsReceivingRecord, int>(_dwsNoRepData, receiverIds, "ReceiverId");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsReceivingRecord, int>(_dwsNoRepData, receiverIds, "ReceiverId", null);
         }
 
         /// <inheritdoc/>
@@ -228,7 +228,7 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <inheritdoc/>
         public IList<BopsShippingRecord> GetShippersByIDs(int[] shipperIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsShippingRecord, int>(_dwsNoRepData, shipperIds, "LoadId");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsShippingRecord, int>(_dwsNoRepData, shipperIds, "LoadId", null);
         }
 
         /// <inheritdoc/>
@@ -257,6 +257,18 @@ namespace Scm.OpsCore.Legacy.NHibernate
                 .List<BopsRfsServiceCalculationResult>();
         }
 
+        /*
+         * I spent at least 10 minutes looking into this bit of weirdness, so I'm making a note for 
+         * the future. Yes, for some idiot reason, when I coded the RFS data stuff all those years ago,
+         * I somehow named the fields "DocumentId" and "DocumentType" for the RFS service calculation
+         * results but named them "WarehouseDocumentId" and "WarehouseDocumentType" for the higher
+         * level RFS calculation results. If you're inclined to look at the following and think things
+         * are reversed, save yourself the time and don't bother checking: they're not. I'm just stupid.
+         * Or I was stupid. Or inconsistent. Or something. Sorry, future developer(s).
+         * 
+         * JBW, Friday, March 29, 2019, 16:06 hrs.
+         */
+
         /// <inheritdoc/>
         public IList<BopsRfsServiceCalculationResult> GetServiceCalculationResultsByShipperId(int shipperId)
         {
@@ -276,15 +288,25 @@ namespace Scm.OpsCore.Legacy.NHibernate
         }
 
         /// <inheritdoc/>
-        public IList<BopsRfsCalculationResult> GetCalculationResultsByWarehouseDocumentIds(int[] warehouseDocumentIds)
+        public IList<BopsRfsCalculationResult> GetCalculationResultsByWarehouseDocumentIds(int[] warehouseDocumentIds, WarehouseDocumentType documentType)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsCalculationResult, int>(_dwsNoRepData, warehouseDocumentIds, "WarehouseDocumentId");
+            var criteria = new List<ICriterion>
+            {
+                Restrictions.Eq("WarehouseDocumentType", documentType)
+            };
+
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsCalculationResult, int>(_dwsNoRepData, warehouseDocumentIds, "WarehouseDocumentId", criteria);
         }
 
         /// <inheritdoc/>
-        public IList<BopsRfsServiceCalculationResult> GetServiceCalculationResultsByWarehouseDocumentIds(int[] warehouseDocumentIds)
+        public IList<BopsRfsServiceCalculationResult> GetServiceCalculationResultsByWarehouseDocumentIds(int[] warehouseDocumentIds, WarehouseDocumentType documentType)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsServiceCalculationResult, int>(_dwsNoRepData, warehouseDocumentIds, "DocumentId");
+            var criteria = new List<ICriterion>
+            {
+                Restrictions.Eq("DocumentType", documentType)
+            };
+
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsServiceCalculationResult, int>(_dwsNoRepData, warehouseDocumentIds, "DocumentId", criteria);
         }
 
         /// <inheritdoc/>
@@ -306,7 +328,7 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <inheritdoc/>
         public IList<BopsRfs> GetRfsByIds(int[] rfsIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfs, int>(_dwsNoRepData, rfsIds, "RfsId");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfs, int>(_dwsNoRepData, rfsIds, "RfsId", null);
         }
 
         /// <inheritdoc/>
@@ -320,7 +342,7 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <inheritdoc/>
         public IList<BopsRfsInvoiceDetail> GetInvoiceDetailsByInvoiceIds(int[] invoiceIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsInvoiceDetail, int>(_dwsNoRepData, invoiceIds, "InvoiceRef");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsInvoiceDetail, int>(_dwsNoRepData, invoiceIds, "InvoiceRef", null);
         }
 
         /// <inheritdoc/>
@@ -340,7 +362,7 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <inheritdoc/>
         public IList<BopsDestination> GetDestinationsByIds(int[] destinationIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsDestination, int>(_dwsRepData, destinationIds, "DestinationId");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsDestination, int>(_dwsRepData, destinationIds, "DestinationId", null);
         }
 
         /// <inheritdoc/>
@@ -470,7 +492,7 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <inheritdoc/>
         public IList<BopsRfsInvoice> GetInvoicesByIds(int[] invoiceIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsInvoice, int>(_dwsNoRepData, invoiceIds, "InvoiceId");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsInvoice, int>(_dwsNoRepData, invoiceIds, "InvoiceId", null);
         }
 
         /// <inheritdoc/>
@@ -526,7 +548,7 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <inheritdoc/>
         public IList<BopsRfsStorageBillingDetail> GetStorageBillingDetailsByIds(int[] storageBillingDetailIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsStorageBillingDetail, int>(_dwsNoRepData, storageBillingDetailIds, "DetailId");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsStorageBillingDetail, int>(_dwsNoRepData, storageBillingDetailIds, "DetailId", null);
         }
 
         /// <inheritdoc/>
@@ -573,13 +595,13 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <inheritdoc/>
         public IList<BopsRfsStorageBilling> GetStorageBillingsByIDs(int[] storageBillingIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsStorageBilling, int>(_dwsNoRepData, storageBillingIds, "BillingId");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsStorageBilling, int>(_dwsNoRepData, storageBillingIds, "BillingId", null);
         }
 
         /// <inheritdoc/>
         public IList<BopsInventoryDetail> GetInventoryDetailsByIDs(int[] inventoryDetailIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsInventoryDetail, int>(_dwsNoRepData, inventoryDetailIds, "DetailId");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsInventoryDetail, int>(_dwsNoRepData, inventoryDetailIds, "DetailId", null);
         }
 
         public BopsProductProfile GetProductProfileById(int productProfileId)
@@ -590,7 +612,7 @@ namespace Scm.OpsCore.Legacy.NHibernate
         /// <inheritdoc/>
         public IList<BopsProductProfile> GetProductProfilesByIDs(int[] productProfileIDs)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsProductProfile, int>(_dwsNoRepData, productProfileIDs, "ProfileId");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsProductProfile, int>(_dwsNoRepData, productProfileIDs, "ProfileId", null);
         }
 
         /// <inheritdoc/>
@@ -790,25 +812,25 @@ namespace Scm.OpsCore.Legacy.NHibernate
             int[] storageBillingInventoryIds)
         {
             return NHibernateDataUtilities.GetObjectsByIds<BopsRfsStorageBillingInventoryTracking, int>
-                (_dwsNoRepData, storageBillingInventoryIds, "InventoryRef");
+                (_dwsNoRepData, storageBillingInventoryIds, "InventoryRef", null);
         }
 
         /// <inheritdoc/>
         public IList<BopsRfsStorageRate> GetStorageRatesByRateIds(int[] rateIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsStorageRate, int>(_dwsNoRepData, rateIds, "RateId");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsStorageRate, int>(_dwsNoRepData, rateIds, "RateId", null);
         }
 
         /// <inheritdoc/>
         public IList<BopsRfsStorageRateEscalation> GetStorageRateEscalationsByRateIds(int[] rateIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsStorageRateEscalation, int>(_dwsNoRepData, rateIds, "StorageRateRef");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsStorageRateEscalation, int>(_dwsNoRepData, rateIds, "StorageRateRef", null);
         }
 
         /// <inheritdoc/>
         public IList<BopsRfsStorageRateAssignment> GetStorageRateAssignmentsByProfileIds(int[] profileIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsStorageRateAssignment, int>(_dwsNoRepData, profileIds, "ProfileRef");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsStorageRateAssignment, int>(_dwsNoRepData, profileIds, "ProfileRef", null);
         }
 
         /// <inheritdoc/>
@@ -888,16 +910,16 @@ namespace Scm.OpsCore.Legacy.NHibernate
              * The following was the original port from the old method of doing things.
              */
 
-            //return _dwsNoRepData.CreateCriteria(typeof(BopsScan))
-            //    .Add(Restrictions.In("LoadRef", loadRefs))
-            //    .Add(Restrictions.Eq("DocTypeRef", docType))
-            //    .Add(Restrictions.Eq("Signed", isSigned))
-            //    .Add(Restrictions.Eq("RejectRef", rejectRef))
-            //    .List<BopsScan>();
+        //return _dwsNoRepData.CreateCriteria(typeof(BopsScan))
+        //    .Add(Restrictions.In("LoadRef", loadRefs))
+        //    .Add(Restrictions.Eq("DocTypeRef", docType))
+        //    .Add(Restrictions.Eq("Signed", isSigned))
+        //    .Add(Restrictions.Eq("RejectRef", rejectRef))
+        //    .List<BopsScan>();
 
-            // The following is what Dan asked me (JBW) to change it to as of 04/27/2017.
+        // The following is what Dan asked me (JBW) to change it to as of 04/27/2017.
 
-            var documentIds = loadRefs.ToList();
+        var documentIds = loadRefs.ToList();
             var query = from s in _dwsNoRepData.Query<BopsScan>()
                         join m in _dwsNoRepData.Query<BopsScanMax>() on s.ScanId equals m.ScanId
                         where documentIds.Contains(s.DocScanned) && s.Signed && (s.RejectRef == 0)
@@ -928,7 +950,7 @@ namespace Scm.OpsCore.Legacy.NHibernate
             if (idCount <= 0) return null;
             if (idCount != resultIds.Length)
                 Array.Resize(ref resultIds, idCount);
-            var serviceResults = NHibernateDataUtilities.GetObjectsByIds<BopsRfsServiceCalculationResult, int>(_dwsNoRepData, resultIds, "ResultId");
+            var serviceResults = NHibernateDataUtilities.GetObjectsByIds<BopsRfsServiceCalculationResult, int>(_dwsNoRepData, resultIds, "ResultId", null);
 
             /*
              * According to Dan H. as of 08/31/2017, what matters for retrieving the loads is that they're signed
@@ -992,7 +1014,7 @@ namespace Scm.OpsCore.Legacy.NHibernate
 
         public IList<BopsRfsServicesOffered> GetServicesOfferedByIds(int[] serviceOfferedIds)
         {
-            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsServicesOffered, int>(_dwsNoRepData, serviceOfferedIds, "Id");
+            return NHibernateDataUtilities.GetObjectsByIds<BopsRfsServicesOffered, int>(_dwsNoRepData, serviceOfferedIds, "Id", null);
         }
 
         public BopsRfsServicesOffered GetServiceOfferedByServiceRequestedId(int serviceRequestedId)
