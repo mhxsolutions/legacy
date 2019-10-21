@@ -1159,7 +1159,7 @@ namespace BopsBusinessLogicRfs
                     break;
                 case RfsCostMethods.SpecialUnit:
                     returnValue.RfsRevenue = (load.SpecialInvoiceValue.HasValue ? load.SpecialInvoiceValue.Value : 0.0) * (rate.Cost.HasValue ? rate.Cost.Value : 0.0);
-                    calculationDetails.AppendFormat("{0:n0} {1} at {2:c3} per {3}", 
+                    calculationDetails.AppendFormat("{0:n2} {1} at {2:c3} per {3}", 
                         load.SpecialInvoiceValue.HasValue ? load.SpecialInvoiceValue.Value : 0.0, 
                         rate.SpecialUnitText ?? "unit(s)", 
                         rate.Cost.HasValue ? rate.Cost.Value : 0.0,
@@ -1206,7 +1206,7 @@ namespace BopsBusinessLogicRfs
                         (document.ReceiverDocument.SpecialInvoiceValue.HasValue ? document.ReceiverDocument.SpecialInvoiceValue.Value : 0.0) : 
                         (document.ShipperDocument.SpecialInvoiceValue.HasValue ? document.ShipperDocument.SpecialInvoiceValue.Value : 0.0);
                     returnValue.RfsRevenue = specialInvoiceValue * (rate.Cost.HasValue ? rate.Cost.Value : 0.0);
-                    calculationDetails.AppendFormat("{0:n0} {1} at {2:c3} per {3}",
+                    calculationDetails.AppendFormat("{0:n2} {1} at {2:c3} per {3}",
                         specialInvoiceValue,
                         rate.SpecialUnitText ?? "unit(s)",
                         rate.Cost.HasValue ? rate.Cost.Value : 0.0,

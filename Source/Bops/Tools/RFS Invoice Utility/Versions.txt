@@ -1,5 +1,10 @@
 RFS Invoice Utility Versions
 
+1.2.5
+	Made a minor change to show two more digits of precision to the right of
+	the decimal point for the quantity when generating text to describe per-unit
+	calculations involving special units.
+
 1.2.4
 	Fixed a long-standing bug (10+ years) in the warehouse revenue calculation
 	core, which was not filtering data to be calculated properly by type (i.e.,
