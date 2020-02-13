@@ -1,5 +1,9 @@
 RFS Invoice Utility Versions
 
+1.2.7
+	Updated the MHX remit-to address at the request of Sara Quinn. The new
+	address is MHX LLC, PO BOX 639889O, Cincinnati OH 45263-9895.
+
 1.2.6
 	Changed PDF merging behavior to include only files with a .pdf extension.
 
