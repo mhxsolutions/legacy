@@ -1,5 +1,8 @@
 RFS Invoice Utility Versions
 
+1.2.9
+	Updated the TTL remit-to address from "Rd." to "Pkwy".
+
 1.2.8
 	Updated the MHX remit-to address again for Sara Quinn. The new
 	address is MHX LLC, PO BOX 639889 Cincinnati OH 45263-9889.
