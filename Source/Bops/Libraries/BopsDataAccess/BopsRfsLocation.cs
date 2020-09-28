@@ -6,7 +6,7 @@ namespace BopsDataAccess
     {
         private const int _LocationCodeLength = 3;
         private const int _MaxNameLength = 50;
-        private const int _FscAccountLength = 5;
+        //private const int _FscAccountLength = 5;
         private const int _FscSubAccountLength = 6;
         private const int _MaxCpnyIDLength = 10;
         private const int _MaxDatabaseNameLength = 50;
@@ -51,8 +51,8 @@ namespace BopsDataAccess
             get { return _FscAccount; }
             set
             {
-                if (value.Length != _FscAccountLength)
-                    throw new ArgumentOutOfRangeException("value", string.Format("FSC account must be {0} characters", _FscAccountLength));
+                //if (value.Length != _FscAccountLength)
+                //    throw new ArgumentOutOfRangeException("value", string.Format("FSC account must be {0} characters", _FscAccountLength));
                 _FscAccount = value;
             }
         }

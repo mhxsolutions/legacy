@@ -231,10 +231,10 @@ namespace RFS_Invoice_Utility
             var disableCompanyFiltering = false;
             var disableCompanyFilteringSetting = ConfigurationManager.AppSettings["DisableCompanyFiltering"];
             bool.TryParse(disableCompanyFilteringSetting, out disableCompanyFiltering);
-            if (disableCompanyFiltering)
-            {
-                return new CompanyDetails { Company = new BopsCompany { City = "No Company Filter", CompanyId = 0, Name = "Showing All Data" } };
-            }
+            //if (disableCompanyFiltering)
+            //{
+            //    return new CompanyDetails { Company = new BopsCompany { City = "No Company Filter", CompanyId = 0, Name = "Showing All Data" } };
+            //}
 
             // Initialize the data context by retrieving the relevant interface through the kernel.
 
@@ -653,7 +653,7 @@ namespace RFS_Invoice_Utility
         {
             // Get the storage billing detail rows.
 
-            _StorageDetails = rfsDataContext.GetStorageBillingDetailsByBillingId(billing.BillingId);
+            _StorageDetails = rfsDataContext.GetStorageBillingDetailsByBillingId(billing.BillingId).Where(c => c.CompanyRef == UserCompanyDetails.Company.CompanyId).ToList();                 
 
             if (_StorageDetails.Count < 1)
             {
@@ -3058,7 +3058,6 @@ namespace RFS_Invoice_Utility
                 var id = item.Tag as InvoiceDetails;
                 Debug.Assert(id != null);
                 invoiceIds[index++] = id.Invoice.InvoiceId;
-
                 if (invoiceMonth == 0)
                     invoiceMonth = id.Invoice.InvoiceDate.Month;
                 else if (invoiceMonth != id.Invoice.InvoiceDate.Month)
@@ -3069,7 +3068,7 @@ namespace RFS_Invoice_Utility
 
             var rfsDataContext = Scm.OpsCore.Bootstrap.Bootstrap.Kernel.Get<IRfsDataContext>();
             var exporter = RfsFactory.GetRfsInvoiceExporter(rfsDataContext);
-
+            
             try
             {
                 var validationErrors = exporter.ValidateExportInvoices(invoiceIds);
@@ -3120,6 +3119,11 @@ namespace RFS_Invoice_Utility
                     return;
                 }
 
+                  if (csvFileContents.ToString()== "NoInvoice")
+                {
+                    MessageHelper.ShowError("Invoice type not available.");
+                    return;
+                }
                 // Dump the file contents.
 
                 using (var sw = new StreamWriter(exportFileName, false))
