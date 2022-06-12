@@ -581,5 +581,7 @@ namespace Scm.OpsCore.Legacy.DataLayer
 
         IList<CopsUserDetails> GetCopsUserDetails(); 
         void RemoveCopsUserDetails(string copsUserId);
+
+        IList<BopsRfsInvoiceReportDetail> GetInvoiceDetail(int invoiceId);
     }
 }

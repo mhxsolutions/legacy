@@ -129,6 +129,7 @@
     <Compile Include="BopsRfsInvoiceDetail.cs" />
     <Compile Include="BopsRfsInvoiceExport.cs" />
     <Compile Include="BopsRfsInvoiceExportDetail.cs" />
+    <Compile Include="BopsRfsInvoiceReportDetail.cs" />
     <Compile Include="BopsRfsInvoiceStatus.cs" />
     <Compile Include="BopsRfsInvoiceTypeData.cs" />
     <Compile Include="BopsRfsInvoiceXferBatch.cs" />

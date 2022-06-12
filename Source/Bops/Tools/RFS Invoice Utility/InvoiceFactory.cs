@@ -31,12 +31,20 @@ namespace RFS_Invoice_Utility
          * JBW, 2018-09-10 16:04 hrs.
          */
 
-        private const string CrystlReportsServer = "sql.mhx.cloud";
+        //private const string CrystlReportsServer = "sql.mhx.cloud";
+        //private const string CrystalReportsDatabase = "DWS No Rep Data";
+        //private const string CrystalReportsUser = "CrystalReportsUser";
+        //private const string CrystalReportsPassword = "s3cu4e.c4ystal.acc3ss!";
+
+        //public const string DefaultInvoiceType = "budway";
+
+        private const string CrystlReportsServer = "104.42.183.94";
         private const string CrystalReportsDatabase = "DWS No Rep Data";
-        private const string CrystalReportsUser = "CrystalReportsUser";
-        private const string CrystalReportsPassword = "s3cu4e.c4ystal.acc3ss!";
+        private const string CrystalReportsUser = "SqlServerAdmin";
+        private const string CrystalReportsPassword = "3y3.m.th3.b0ss.0f.y0u";
 
         public const string DefaultInvoiceType = "budway";
+
         private readonly InvoiceConfigurationSection _sectionData;
 
         public InvoiceFactory()

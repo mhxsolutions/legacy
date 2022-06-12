@@ -1239,5 +1239,68 @@ namespace Scm.OpsCore.Legacy.NHibernate
                 _dwsNoRepData.Delete(copsUserDetails);
             _dwsNoRepData.Flush();
         }
+
+        public IList<BopsRfsInvoiceReportDetail> GetInvoiceServiceCalculationResultsByIds(DataTable dtInvoice)
+        {
+            var invList = from dt in dtInvoice.AsEnumerable()
+                           select new BopsRfsInvoiceReportDetail
+                           {
+                               RFSInvoiceID = Convert.ToInt32(dt["RFSInvoiceID"]),
+                               InvoiceStatusRef = Convert.ToInt32(dt["InvoiceStatusRef"]),
+                               InvoiceTotal = Convert.ToDouble(dt["InvoiceTotal"]),
+                               InvoiceDate = Convert.ToDateTime(dt["InvoiceDate"]),
+                               PublicNotes = Convert.ToString(dt["PublicNotes"]),
+                               BillTo = Convert.ToString(dt["BillTo"]),
+                               Shipper = Convert.ToString(dt["Shipper"]),
+                               BillToAddress = Convert.ToString(dt["BillToAddress"]),
+                               ShipperAddress = Convert.ToString(dt["ShipperAddress"]),
+                               LineNumber = Convert.ToInt32(dt["LineNumber"]),
+                               Itemdate = Convert.ToDateTime(dt["Itemdate"]),
+                               ItemDescription = Convert.ToString(dt["ItemDescription"]),
+                               ItemTotal = Convert.ToDouble(dt["ItemTotal"]),
+                           };
+            return invList.ToList();
+            
+        }
+
+        /// <summary>
+        /// Get the report value based on invoice id 
+        /// </summary>
+        /// <returns></returns>
+        public IList<BopsRfsInvoiceReportDetail> GetInvoiceDetail(int invoiceId)
+        {
+            DataTable dtInvoice = new DataTable();
+            var resultIds = new Dictionary<int, int>();
+            var databaseConnectionString = _dwsNoRepDataConnectionString;
+
+            using (var connection = new SqlConnection(databaseConnectionString))
+            {
+                connection.Open();
+
+                using (var command = new SqlCommand("SP_RDLCInvoice", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.Add("@InvoiceNumber", SqlDbType.Int).Value = invoiceId;
+                    using (SqlDataAdapter da = new SqlDataAdapter(command))
+                    {
+                        da.Fill(dtInvoice);
+                    }
+                    //using (var reader = command.ExecuteReader())
+                    //{
+                    //    while (reader.Read())
+                    //    {
+                    //        var resultId = DataUtilities.GetReaderInteger(reader, "LineNumber");
+                    //        if (!resultIds.ContainsKey(resultId))
+                    //            resultIds.Add(resultId, 0);
+                    //    }
+                    //    reader.Close();
+                    //}
+                }
+                connection.Close();
+            }
+            //table.Rows.Cast<DataRow>().ToList();
+            //var returnVal = dtInvoice.Rows.Cast<DataRow>().ToList();
+            return GetInvoiceServiceCalculationResultsByIds(dtInvoice);
+        }
     }
 }

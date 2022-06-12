@@ -2523,13 +2523,15 @@ namespace RFS_Invoice_Utility
 
                 try
                 {
-                    InvoicePreviewForm NewForm = new InvoicePreviewForm(Id.Invoice.InvoiceId, Id.Invoice.InvoiceType);
-                    NewForm.ShowDialog();
+                    //InvoicePreviewForm NewForm = new InvoicePreviewForm(Id.Invoice.InvoiceId, Id.Invoice.InvoiceType);
+                    //NewForm.ShowDialog();
+                    InvoicePreview NewForm = new InvoicePreview(Id.Invoice.InvoiceId, Id.Invoice.InvoiceType);
+                    NewForm.ShowDialog();                                       
                 }
                 catch (Exception E1)
                 {
-                    _Log.Error("An exception occurred, which may mean Crystal Reports is not installed properly. Details follow.", E1);
-                    MessageHelper.ShowError("An exception occurred, which may mean Crystal Reports is not installed properly. Contact IT.");
+                    _Log.Error("An exception occurred, which may mean Reports is not installed properly. Details follow.", E1);
+                    MessageHelper.ShowError("An exception occurred, which may mean Reports is not installed properly. Contact IT.");
                 }
             }
         }
@@ -2693,7 +2695,7 @@ namespace RFS_Invoice_Utility
             var rfsDataContext = Scm.OpsCore.Bootstrap.Bootstrap.Kernel.Get<IRfsDataContext>();
 
             try
-            {
+            { 
                 var freshInvoice = rfsDataContext.GetInvoiceById(invoice.InvoiceId);
 
                 // This should never happen, but this is my attempt at preventing multiple documents for the same invoice.

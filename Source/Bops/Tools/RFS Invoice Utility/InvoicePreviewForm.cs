@@ -24,5 +24,6 @@ namespace RFS_Invoice_Utility
 
             crystalReportViewer1.ReportSource = report;
         }
+
     }
 }
