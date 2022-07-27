@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFS Invoice Utility", "..\Source\Bops\Tools\RFS Invoice Utility\RFS Invoice Utility.csproj", "{5523F654-3B5A-4DAB-8820-9B46588B9C9C}"
 EndProject
@@ -30,8 +30,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scm.OpsCore.Legacy.DataLayer", "..\Source\SCM\OpsCore\Libraries\Scm.OpsCore.Legacy.DataLayer\Scm.OpsCore.Legacy.DataLayer.csproj", "{98B2104F-B995-4EA0-A2C1-29CB0C6FAC69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scm.OpsCore.Legacy.NHibernate", "..\Source\SCM\OpsCore\Libraries\Scm.OpsCore.Legacy.NHibernate\Scm.OpsCore.Legacy.NHibernate.csproj", "{213C91B2-8684-4261-9A63-D0EF493B82EA}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{AB17FCC2-39A3-433A-9828-578CEE3DAB77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,8 +85,6 @@ Global
 		{213C91B2-8684-4261-9A63-D0EF493B82EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{213C91B2-8684-4261-9A63-D0EF493B82EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{213C91B2-8684-4261-9A63-D0EF493B82EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AB17FCC2-39A3-433A-9828-578CEE3DAB77}.Debug|Any CPU.ActiveCfg = Debug
-		{AB17FCC2-39A3-433A-9828-578CEE3DAB77}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

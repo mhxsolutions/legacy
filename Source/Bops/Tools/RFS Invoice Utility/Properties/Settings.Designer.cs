@@ -12,7 +12,7 @@ namespace RFS_Invoice_Utility.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.7.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.0.3.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -26,8 +26,8 @@ namespace RFS_Invoice_Utility.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=SQL2016;Initial Catalog=\"DWS No Rep Data\";Persist Security Info=True;" +
-            "User ID=sa;Password=gimmedata.2017")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=104.42.183.94;Initial Catalog=\"DWS No Rep Data\";Persist Security Info" +
+            "=True;User ID=SqlServerAdmin;Password=3y3.m.th3.b0ss.0f.y0u")]
         public string DWS_No_Rep_DataConnectionString {
             get {
                 return ((string)(this["DWS_No_Rep_DataConnectionString"]));

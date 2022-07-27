@@ -447,7 +447,7 @@
                                   <Value>=Fields!ItemTotal.Value</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
-                                    <Format>'₹'0.00;('₹'0.00)</Format>
+                                    <Format>'$'#,0.00;('$'#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -466,7 +466,7 @@
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
                             <PaddingBottom>2pt</PaddingBottom>
-                            <rd:FormatSymbolCulture>en-IN</rd:FormatSymbolCulture>
+                            <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                           </Style>
                         </Textbox>
                       </CellContents>
@@ -741,7 +741,7 @@
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>4.16482cm</Top>
+              <Top>4.06957cm</Top>
               <Left>0.40217cm</Left>
               <Height>0.6cm</Height>
               <Width>6.28354cm</Width>
@@ -770,7 +770,7 @@
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>4.84243cm</Top>
+              <Top>4.55668cm</Top>
               <Left>0.40217cm</Left>
               <Height>0.6cm</Height>
               <Width>6.28354cm</Width>
@@ -799,7 +799,7 @@
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>4.86184cm</Top>
+              <Top>4.57609cm</Top>
               <Left>7.61884cm</Left>
               <Height>0.6cm</Height>
               <Width>6.28354cm</Width>
@@ -830,7 +830,7 @@
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>4.19128cm</Top>
+              <Top>4.06428cm</Top>
               <Left>7.61884cm</Left>
               <Height>0.6cm</Height>
               <Width>6.28354cm</Width>
@@ -1075,7 +1075,7 @@
                           <Value>Total Due: </Value>
                           <Style>
                             <FontWeight>Bold</FontWeight>
-                            <Format>'₹'0.00;('₹'0.00)</Format>
+                            <Format>'$'#,0.00;('$'#,0.00)</Format>
                             <Color>White</Color>
                           </Style>
                         </TextRun>
@@ -1083,7 +1083,7 @@
                           <Value>=Fields!InvoiceTotal.Value</Value>
                           <Style>
                             <FontWeight>Bold</FontWeight>
-                            <Format>'₹'0.00;('₹'0.00)</Format>
+                            <Format>'$'#,0.00;('$'#,0.00)</Format>
                             <Color>White</Color>
                           </Style>
                         </TextRun>
@@ -1091,7 +1091,7 @@
                           <Value xml:space="preserve"> </Value>
                           <Style>
                             <FontWeight>Bold</FontWeight>
-                            <Format>'₹'0.00;('₹'0.00)</Format>
+                            <Format>'$'#,0.00;('$'#,0.00)</Format>
                             <Color>White</Color>
                           </Style>
                         </TextRun>
@@ -1115,7 +1115,7 @@
                     <PaddingRight>2pt</PaddingRight>
                     <PaddingTop>2pt</PaddingTop>
                     <PaddingBottom>2pt</PaddingBottom>
-                    <rd:FormatSymbolCulture>en-IN</rd:FormatSymbolCulture>
+                    <rd:FormatSymbolCulture>en-US</rd:FormatSymbolCulture>
                   </Style>
                 </Textbox>
               </ReportItems>

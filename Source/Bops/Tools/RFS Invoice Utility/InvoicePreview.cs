@@ -25,7 +25,7 @@ namespace RFS_Invoice_Utility
     public partial class InvoicePreview : Form
     {
         
-        public InvoicePreview(int invoiceId, string InvoiceType) 
+        public InvoicePreview(int invoiceId, string InvoiceType, string filePath) 
         {
             InitializeComponent();
             var rfsDataContext = Scm.OpsCore.Bootstrap.Bootstrap.Kernel.Get<IRfsDataContext>();
@@ -41,6 +41,11 @@ namespace RFS_Invoice_Utility
                 this.reportViewer1.LocalReport.DataSources.Add(rds);
                 this.reportViewer1.LocalReport.Refresh();
                 this.reportViewer1.RefreshReport();
+
+                if (!string.IsNullOrEmpty(filePath))
+                {
+                    SaveInvoicePDF(reportViewer1,filePath);
+                }
             }
         }
 
@@ -82,6 +87,25 @@ namespace RFS_Invoice_Utility
 
             }
             return InvoiceForm;
+        }
+        public void SaveInvoicePDF(ReportViewer viewer, string savePath)
+        {
+            string mimeType, encoding, extension;
+            string[] streamids;
+            Warning[] warnings = null;
+            //Microsoft.Reporting.WebForms.Warning[] warnings;
+            string format = "PDF";
+
+            byte[] bytes = viewer.LocalReport.Render(format, "", out mimeType, out encoding, out extension, out streamids, out warnings);
+            //save the pdf byte to the folder
+            FileStream fs = new FileStream(savePath, FileMode.OpenOrCreate);
+            byte[] data = new byte[fs.Length];
+            fs.Write(bytes, 0, bytes.Length);
+            fs.Close();
+
+            //System.Diagnostics.Process p = new System.Diagnostics.Process();
+            //p.StartInfo.FileName = savePath;
+            //p.Start();
         }
     }
 }

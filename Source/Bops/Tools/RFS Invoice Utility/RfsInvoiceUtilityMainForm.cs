@@ -2525,7 +2525,7 @@ namespace RFS_Invoice_Utility
                 {
                     //InvoicePreviewForm NewForm = new InvoicePreviewForm(Id.Invoice.InvoiceId, Id.Invoice.InvoiceType);
                     //NewForm.ShowDialog();
-                    InvoicePreview NewForm = new InvoicePreview(Id.Invoice.InvoiceId, Id.Invoice.InvoiceType);
+                    InvoicePreview NewForm = new InvoicePreview(Id.Invoice.InvoiceId, Id.Invoice.InvoiceType, null);
                     NewForm.ShowDialog();                                       
                 }
                 catch (Exception E1)
@@ -2660,8 +2660,10 @@ namespace RFS_Invoice_Utility
 
             try
             {
+                InvoicePreview NewForm = new InvoicePreview(Id.Invoice.InvoiceId, Id.Invoice.InvoiceType, null);
                 if (Success && _ShowInvoiceAfterFinalize)
-                    Process.Start(FinalInvoiceFilename);
+                    //Process.Start(FinalInvoiceFilename);
+                    NewForm.ShowDialog();
             }
             catch (Exception E2)
             {
@@ -2715,13 +2717,13 @@ namespace RFS_Invoice_Utility
                 // object is disposed properly.
 
                 var factory = new InvoiceFactory();
-                using (var report = factory.ManufactureCrystalReport(freshInvoice.InvoiceType))
-                {
-                    report.SetParameterValue("InvoiceId", freshInvoice.InvoiceId);
-                    report.SetParameterValue("ForceFinal", true);
-                    report.ExportToDisk(ExportFormatType.PortableDocFormat, temporaryFilename);
-                    report.Close();
-                }
+                //using (var report = factory.ManufactureCrystalReport(freshInvoice.InvoiceType))
+                //{
+                //    report.SetParameterValue("InvoiceId", freshInvoice.InvoiceId);
+                //    report.SetParameterValue("ForceFinal", true);
+                //    report.ExportToDisk(ExportFormatType.PortableDocFormat, temporaryFilename);
+                //    report.Close();
+                //}
 
                 var invoiceShareRoot = ConfigurationManager.AppSettings["InvoicePublishingRoot"];
                 var invoiceFolder = Path.Combine(invoiceShareRoot, freshInvoice.InvoiceDate.ToString("yyyy-MM-dd"));
@@ -2729,7 +2731,11 @@ namespace RFS_Invoice_Utility
                     Directory.CreateDirectory(invoiceFolder);
                 var invoiceFilename = string.Format("RFS Invoice {0:d8}.pdf", freshInvoice.InvoiceId);
                 finalInvoiceFilename = Path.Combine(invoiceFolder, invoiceFilename);
-                File.Copy(temporaryFilename, finalInvoiceFilename, true);
+                //File.Copy(temporaryFilename, finalInvoiceFilename, true);
+                
+
+                InvoicePreview NewForm = new InvoicePreview(invoice.InvoiceId, invoice.InvoiceType, finalInvoiceFilename);
+                
 
                 invoiceOnFileShare = true;
 
