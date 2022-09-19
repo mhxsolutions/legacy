@@ -104,6 +104,7 @@ namespace RFS_Calculator
             this.LoadsListview.ContextMenuStrip = this.LoadsContextMenuStrip;
             this.LoadsListview.FullRowSelect = true;
             this.LoadsListview.GridLines = true;
+            this.LoadsListview.HideSelection = false;
             this.LoadsListview.Location = new System.Drawing.Point(6, 42);
             this.LoadsListview.Name = "LoadsListview";
             this.LoadsListview.Size = new System.Drawing.Size(679, 355);
@@ -334,6 +335,7 @@ namespace RFS_Calculator
             this.columnHeader16});
             this.WarehouseListview.FullRowSelect = true;
             this.WarehouseListview.GridLines = true;
+            this.WarehouseListview.HideSelection = false;
             this.WarehouseListview.Location = new System.Drawing.Point(6, 42);
             this.WarehouseListview.Name = "WarehouseListview";
             this.WarehouseListview.Size = new System.Drawing.Size(679, 355);
